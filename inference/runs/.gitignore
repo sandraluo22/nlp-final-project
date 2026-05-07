@@ -1,0 +1,4 @@
+# Activation tensors are large (~800MB total) and reproducible from the
+# scripts in ../. Keep results.json checked in; ignore the binary tensors.
+*.pt
+*.safetensors
