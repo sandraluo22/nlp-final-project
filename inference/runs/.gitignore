@@ -1,4 +1,5 @@
-# Activation tensors are large (~800MB total) and reproducible from the
-# scripts in ../. Keep results.json checked in; ignore the binary tensors.
+# Activation tensors are large (~800MB total) and live in the companion HF
+# dataset: https://huggingface.co/datasets/sandrajyluo/nlp-final-project-activations
+# Keep results.json + the README checked in; ignore the binary tensors.
 *.pt
 *.safetensors
