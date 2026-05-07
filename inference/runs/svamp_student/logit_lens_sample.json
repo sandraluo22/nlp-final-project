@@ -1,0 +1,3622 @@
+[
+  {
+    "idx": 0,
+    "question": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?",
+    "gold": 145.0,
+    "pred": 3.0,
+    "correct": false,
+    "response": "The answer is: 3",
+    "topk": {
+      "step0_layer0": [
+        "alk",
+        "developer",
+        "ain",
+        " interchange",
+        "endar"
+      ],
+      "step0_layer1": [
+        "alk",
+        "developer",
+        "ain",
+        " interchange",
+        "ip"
+      ],
+      "step0_layer2": [
+        "developer",
+        "alk",
+        "ain",
+        "endar",
+        "ip"
+      ],
+      "step0_layer3": [
+        "alk",
+        "developer",
+        "ain",
+        "endar",
+        "ured"
+      ],
+      "step0_layer4": [
+        "alk",
+        "developer",
+        "ies",
+        "ain",
+        "ured"
+      ],
+      "step0_layer5": [
+        "alk",
+        "developer",
+        "ies",
+        "ips",
+        "ain"
+      ],
+      "step0_layer6": [
+        "alk",
+        "ies",
+        "developer",
+        "ips",
+        "ip"
+      ],
+      "step0_layer7": [
+        "alk",
+        "ips",
+        "ip",
+        "ies",
+        "istinguished"
+      ],
+      "step0_layer8": [
+        "alk",
+        "ips",
+        "ip",
+        "icipant",
+        "developer"
+      ],
+      "step0_layer9": [
+        "ips",
+        "ip",
+        "alk",
+        "istinguished",
+        "icipant"
+      ],
+      "step0_layer10": [
+        "ips",
+        "istinguished",
+        "ly",
+        "ful",
+        "imple"
+      ],
+      "step0_layer11": [
+        "istinguished",
+        "ips",
+        "itness",
+        "alk",
+        "bridge"
+      ],
+      "step0_layer12": [
+        "istinguished",
+        "ips",
+        "itness",
+        "ousand",
+        "bridge"
+      ],
+      "step0_layer13": [
+        "istinguished",
+        "ips",
+        "half",
+        "bridge",
+        "mare"
+      ],
+      "step0_layer14": [
+        "teri",
+        "mare",
+        " herself",
+        "half",
+        "terior"
+      ],
+      "step0_layer15": [
+        " herself",
+        "290",
+        "146",
+        "asser",
+        "amiento"
+      ],
+      "step0_layer16": [
+        "145",
+        "290",
+        "180",
+        "580",
+        "590"
+      ],
+      "step1_layer0": [
+        " interchange",
+        "rench",
+        " encoding",
+        "k",
+        "urch"
+      ],
+      "step1_layer1": [
+        " interchange",
+        "rench",
+        "k",
+        " encoding",
+        "urch"
+      ],
+      "step1_layer2": [
+        " interchange",
+        "rench",
+        "k",
+        " encoding",
+        "urch"
+      ],
+      "step1_layer3": [
+        " interchange",
+        " encoding",
+        "rench",
+        "k",
+        " offline"
+      ],
+      "step1_layer4": [
+        " interchange",
+        "rench",
+        "k",
+        " encoding",
+        " offline"
+      ],
+      "step1_layer5": [
+        " interchange",
+        "k",
+        "rench",
+        " offline",
+        "af"
+      ],
+      "step1_layer6": [
+        " interchange",
+        "rench",
+        "k",
+        " assembly",
+        "aven"
+      ],
+      "step1_layer7": [
+        " interchange",
+        " assembly",
+        "0",
+        "one",
+        "k"
+      ],
+      "step1_layer8": [
+        " interchange",
+        "most",
+        "0",
+        " assembly",
+        "k"
+      ],
+      "step1_layer9": [
+        "most",
+        "рупп",
+        " assembly",
+        "one",
+        "pear"
+      ],
+      "step1_layer10": [
+        "0",
+        "most",
+        "-Year",
+        "ovan",
+        "azon"
+      ],
+      "step1_layer11": [
+        "most",
+        "ovan",
+        "0",
+        ")._",
+        " fixed"
+      ],
+      "step1_layer12": [
+        "most",
+        "ovan",
+        "mare",
+        "-Year",
+        "up"
+      ],
+      "step1_layer13": [
+        "ovan",
+        "mare",
+        "-half",
+        "most",
+        "0"
+      ],
+      "step1_layer14": [
+        "mare",
+        "ovan",
+        "-half",
+        " half",
+        "\n                    \n"
+      ],
+      "step1_layer15": [
+        " herself",
+        " part",
+        "/",
+        " half",
+        "mare"
+      ],
+      "step1_layer16": [
+        "0",
+        "/",
+        " is",
+        "2",
+        "290"
+      ],
+      "step2_layer0": [
+        "wi",
+        " encoding",
+        " offline",
+        "ain",
+        "rench"
+      ],
+      "step2_layer1": [
+        "wi",
+        "rench",
+        " offline",
+        " encoding",
+        "grid"
+      ],
+      "step2_layer2": [
+        " offline",
+        " encoding",
+        "up",
+        "wi",
+        "rench"
+      ],
+      "step2_layer3": [
+        " encoding",
+        " offline",
+        "grid",
+        "up",
+        " grid"
+      ],
+      "step2_layer4": [
+        " offline",
+        " encoding",
+        "wi",
+        "up",
+        "rench"
+      ],
+      "step2_layer5": [
+        "up",
+        " offline",
+        " encoding",
+        " most",
+        "rench"
+      ],
+      "step2_layer6": [
+        " most",
+        "up",
+        "rench",
+        "most",
+        " offline"
+      ],
+      "step2_layer7": [
+        " most",
+        "most",
+        "up",
+        "rench",
+        "o"
+      ],
+      "step2_layer8": [
+        "most",
+        " most",
+        "up",
+        "o",
+        " convention"
+      ],
+      "step2_layer9": [
+        "up",
+        " most",
+        "most",
+        " convention",
+        "o"
+      ],
+      "step2_layer10": [
+        "up",
+        " previously",
+        " most",
+        "most",
+        "ful"
+      ],
+      "step2_layer11": [
+        "up",
+        " already",
+        " fixed",
+        "x",
+        "already"
+      ],
+      "step2_layer12": [
+        "up",
+        " already",
+        "most",
+        "already",
+        " most"
+      ],
+      "step2_layer13": [
+        " already",
+        "up",
+        "already",
+        " such",
+        " half"
+      ],
+      "step2_layer14": [
+        " part",
+        " half",
+        " convention",
+        " it",
+        "GEST"
+      ],
+      "step2_layer15": [
+        " part",
+        " already",
+        "/",
+        " only",
+        " divided"
+      ],
+      "step2_layer16": [
+        " is",
+        "/",
+        " the",
+        " part",
+        " only"
+      ],
+      "step3_layer0": [
+        "alk",
+        " gaz",
+        "wi",
+        "grid",
+        " tend"
+      ],
+      "step3_layer1": [
+        "alk",
+        " gaz",
+        "wi",
+        "grid",
+        " tend"
+      ],
+      "step3_layer2": [
+        " grid",
+        " gaz",
+        "grid",
+        "alk",
+        "wi"
+      ],
+      "step3_layer3": [
+        " grid",
+        " gaz",
+        "alk",
+        "grid",
+        " script"
+      ],
+      "step3_layer4": [
+        " grid",
+        "alk",
+        " gaz",
+        " script",
+        "wi"
+      ],
+      "step3_layer5": [
+        "alk",
+        " gaz",
+        " grid",
+        " script",
+        "ountains"
+      ],
+      "step3_layer6": [
+        " gaz",
+        " grid",
+        "alk",
+        " most",
+        " script"
+      ],
+      "step3_layer7": [
+        "alk",
+        " gaz",
+        " script",
+        "T",
+        " grid"
+      ],
+      "step3_layer8": [
+        "alk",
+        "most",
+        " gaz",
+        " most",
+        "on"
+      ],
+      "step3_layer9": [
+        " gaz",
+        "м",
+        "?).",
+        "�",
+        "902"
+      ],
+      "step3_layer10": [
+        " gaz",
+        "?).",
+        "λ",
+        "�",
+        "ल"
+      ],
+      "step3_layer11": [
+        "�",
+        "?).",
+        "�",
+        "already",
+        "maximum"
+      ],
+      "step3_layer12": [
+        "?).",
+        "maximum",
+        "�",
+        "already",
+        "weights"
+      ],
+      "step3_layer13": [
+        "�",
+        "�",
+        "such",
+        " part",
+        " SUCH"
+      ],
+      "step3_layer14": [
+        " part",
+        " dime",
+        "وف",
+        "่ว",
+        "�"
+      ],
+      "step3_layer15": [
+        " part",
+        " herself",
+        " sorts",
+        " sort",
+        " sorte"
+      ],
+      "step3_layer16": [
+        " is",
+        " part",
+        " the",
+        " communication",
+        " only"
+      ],
+      "step4_layer0": [
+        "alk",
+        "endar",
+        "aina",
+        " encoding",
+        "ain"
+      ],
+      "step4_layer1": [
+        "alk",
+        "aina",
+        "endar",
+        " encoding",
+        "wi"
+      ],
+      "step4_layer2": [
+        "aina",
+        "alk",
+        "endar",
+        " encoding",
+        "ain"
+      ],
+      "step4_layer3": [
+        "alk",
+        "endar",
+        "aina",
+        " encoding",
+        " grid"
+      ],
+      "step4_layer4": [
+        "alk",
+        "endar",
+        " grid",
+        "�",
+        "aina"
+      ],
+      "step4_layer5": [
+        "alk",
+        "endar",
+        "�",
+        "gorithm",
+        " grid"
+      ],
+      "step4_layer6": [
+        "alk",
+        "endar",
+        "�",
+        "gorithm",
+        " grid"
+      ],
+      "step4_layer7": [
+        "alk",
+        "endar",
+        "�",
+        " grid",
+        "-"
+      ],
+      "step4_layer8": [
+        "alk",
+        "endar",
+        " grid",
+        "ured",
+        " most"
+      ],
+      "step4_layer9": [
+        "902",
+        "urbed",
+        " com",
+        "�",
+        "alk"
+      ],
+      "step4_layer10": [
+        " most",
+        "�",
+        "istinguished",
+        " adv",
+        "902"
+      ],
+      "step4_layer11": [
+        "already",
+        " fixed",
+        " already",
+        "�",
+        " strict"
+      ],
+      "step4_layer12": [
+        "�",
+        " não",
+        "already",
+        "?).",
+        " most"
+      ],
+      "step4_layer13": [
+        "already",
+        " forget",
+        " already",
+        " half",
+        "-half"
+      ],
+      "step4_layer14": [
+        " half",
+        " part",
+        "mare",
+        "-half",
+        " herself"
+      ],
+      "step4_layer15": [
+        " part",
+        " herself",
+        "-half",
+        " com",
+        " half"
+      ],
+      "step4_layer16": [
+        " is",
+        " part",
+        " the",
+        "X",
+        "um"
+      ],
+      "step5_layer0": [
+        " encoding",
+        "wi",
+        "ain",
+        "aina",
+        "grid"
+      ],
+      "step5_layer1": [
+        " encoding",
+        "wi",
+        "aina",
+        "ain",
+        " Enc"
+      ],
+      "step5_layer2": [
+        " encoding",
+        "aina",
+        "wi",
+        " grid",
+        "grid"
+      ],
+      "step5_layer3": [
+        " encoding",
+        " grid",
+        "grid",
+        "wi",
+        "aina"
+      ],
+      "step5_layer4": [
+        " encoding",
+        " grid",
+        " nào",
+        "wi",
+        "k"
+      ],
+      "step5_layer5": [
+        " most",
+        "k",
+        " encoding",
+        " nào",
+        "up"
+      ],
+      "step5_layer6": [
+        " most",
+        " grid",
+        "up",
+        " encoding",
+        "grid"
+      ],
+      "step5_layer7": [
+        " most",
+        "up",
+        "o",
+        " grid",
+        "most"
+      ],
+      "step5_layer8": [
+        " most",
+        "most",
+        "x",
+        "up",
+        "k"
+      ],
+      "step5_layer9": [
+        "902",
+        " most",
+        "up",
+        "most",
+        " com"
+      ],
+      "step5_layer10": [
+        " most",
+        " full",
+        "most",
+        "902",
+        "up"
+      ],
+      "step5_layer11": [
+        " fixed",
+        " most",
+        "most",
+        "up",
+        "?)."
+      ],
+      "step5_layer12": [
+        "most",
+        " most",
+        "up",
+        "um",
+        "?)."
+      ],
+      "step5_layer13": [
+        " half",
+        "-half",
+        " most",
+        "most",
+        " already"
+      ],
+      "step5_layer14": [
+        " half",
+        "-half",
+        "mare",
+        " right",
+        "teri"
+      ],
+      "step5_layer15": [
+        " part",
+        " right",
+        " she",
+        " herself",
+        " com"
+      ],
+      "step5_layer16": [
+        " is",
+        " the",
+        "/",
+        "um",
+        "1"
+      ]
+    }
+  },
+  {
+    "idx": 1,
+    "question": "Marco and his dad went strawberry picking. Marco's dad's strawberries weighed 11 pounds. If together their strawberries weighed 30 pounds. How much did Marco's strawberries weigh?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "The answer is: 19",
+    "topk": {
+      "step0_layer0": [
+        "ain",
+        " whether",
+        "M",
+        " Whether",
+        "oS"
+      ],
+      "step0_layer1": [
+        " Whether",
+        " whether",
+        "oS",
+        "Whether",
+        "ain"
+      ],
+      "step0_layer2": [
+        " Whether",
+        " whether",
+        "oS",
+        "orre",
+        "Whether"
+      ],
+      "step0_layer3": [
+        "oS",
+        " Whether",
+        "ain",
+        "orre",
+        " whether"
+      ],
+      "step0_layer4": [
+        "oS",
+        " Whether",
+        "orre",
+        " whether",
+        "ain"
+      ],
+      "step0_layer5": [
+        "oS",
+        " Whether",
+        "orre",
+        "lement",
+        "Whether"
+      ],
+      "step0_layer6": [
+        "oS",
+        "lement",
+        "orre",
+        " Whether",
+        " handy"
+      ],
+      "step0_layer7": [
+        "oS",
+        "lement",
+        "M",
+        "orre",
+        "Flow"
+      ],
+      "step0_layer8": [
+        "oS",
+        "lement",
+        "M",
+        "Flow",
+        " pute"
+      ],
+      "step0_layer9": [
+        "lement",
+        "oS",
+        "ual",
+        " pute",
+        " Jinping"
+      ],
+      "step0_layer10": [
+        "ual",
+        "ful",
+        "lement",
+        "MD",
+        "oS"
+      ],
+      "step0_layer11": [
+        "ual",
+        "lement",
+        "alc",
+        "o",
+        "ful"
+      ],
+      "step0_layer12": [
+        "ual",
+        "alc",
+        "ful",
+        " it",
+        "k"
+      ],
+      "step0_layer13": [
+        "either",
+        "ual",
+        "'S",
+        "or",
+        "oS"
+      ],
+      "step0_layer14": [
+        "either",
+        " it",
+        " either",
+        "'s",
+        " adult"
+      ],
+      "step0_layer15": [
+        " it",
+        "'s",
+        "either",
+        " we",
+        " either"
+      ],
+      "step0_layer16": [
+        " is",
+        " the",
+        " it",
+        "'s",
+        ":"
+      ],
+      "step1_layer0": [
+        " script",
+        "one",
+        "oc",
+        "orre",
+        " raised"
+      ],
+      "step1_layer1": [
+        " script",
+        "orre",
+        "one",
+        "oc",
+        " whether"
+      ],
+      "step1_layer2": [
+        " script",
+        "orre",
+        "one",
+        "oc",
+        "oS"
+      ],
+      "step1_layer3": [
+        " script",
+        "orre",
+        "one",
+        "oc",
+        " raised"
+      ],
+      "step1_layer4": [
+        " script",
+        "orre",
+        "one",
+        "oS",
+        " raised"
+      ],
+      "step1_layer5": [
+        "orre",
+        " script",
+        "oS",
+        " raised",
+        " Whether"
+      ],
+      "step1_layer6": [
+        " script",
+        "orre",
+        "oS",
+        " raised",
+        "one"
+      ],
+      "step1_layer7": [
+        "orre",
+        "oS",
+        " script",
+        " raised",
+        "one"
+      ],
+      "step1_layer8": [
+        "oS",
+        " raised",
+        "orre",
+        " script",
+        "M"
+      ],
+      "step1_layer9": [
+        "oS",
+        "orre",
+        "one",
+        " raised",
+        " script"
+      ],
+      "step1_layer10": [
+        " ph",
+        "one",
+        "orre",
+        "?",
+        "k"
+      ],
+      "step1_layer11": [
+        "?",
+        "one",
+        "or",
+        "k",
+        " further"
+      ],
+      "step1_layer12": [
+        " either",
+        "?",
+        "one",
+        "or",
+        "alc"
+      ],
+      "step1_layer13": [
+        " either",
+        "?).",
+        "either",
+        "one",
+        "or"
+      ],
+      "step1_layer14": [
+        "either",
+        " either",
+        "?).",
+        " it",
+        "one"
+      ],
+      "step1_layer15": [
+        " either",
+        " it",
+        "either",
+        ",",
+        " part"
+      ],
+      "step1_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        "'s"
+      ],
+      "step2_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step2_layer1": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        "orre"
+      ],
+      "step2_layer2": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step2_layer3": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step2_layer4": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "fall"
+      ],
+      "step2_layer5": [
+        " script",
+        "oS",
+        "orre",
+        "one",
+        "k"
+      ],
+      "step2_layer6": [
+        " script",
+        "oS",
+        "orre",
+        "one",
+        " raised"
+      ],
+      "step2_layer7": [
+        "oS",
+        "one",
+        " script",
+        "orre",
+        "fall"
+      ],
+      "step2_layer8": [
+        "oS",
+        " raised",
+        "fall",
+        "M",
+        " fir"
+      ],
+      "step2_layer9": [
+        "oS",
+        "one",
+        "M",
+        "o",
+        " script"
+      ],
+      "step2_layer10": [
+        "one",
+        "?",
+        "oS",
+        "o",
+        "k"
+      ],
+      "step2_layer11": [
+        "?",
+        "one",
+        "ong",
+        "?).",
+        "k"
+      ],
+      "step2_layer12": [
+        "?",
+        "one",
+        " either",
+        "?).",
+        "on"
+      ],
+      "step2_layer13": [
+        " either",
+        "?).",
+        "either",
+        "one",
+        "و"
+      ],
+      "step2_layer14": [
+        "either",
+        " either",
+        "?).",
+        "one",
+        " it"
+      ],
+      "step2_layer15": [
+        " either",
+        " it",
+        "either",
+        ",",
+        "one"
+      ],
+      "step2_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        ","
+      ],
+      "step3_layer0": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        " optimal"
+      ],
+      "step3_layer1": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step3_layer2": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "oc"
+      ],
+      "step3_layer3": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step3_layer4": [
+        " script",
+        "oS",
+        "one",
+        "orre",
+        "fall"
+      ],
+      "step3_layer5": [
+        " script",
+        "oS",
+        "orre",
+        "one",
+        "k"
+      ],
+      "step3_layer6": [
+        " script",
+        "oS",
+        "orre",
+        "one",
+        " raised"
+      ],
+      "step3_layer7": [
+        "oS",
+        " script",
+        "one",
+        "orre",
+        "fall"
+      ],
+      "step3_layer8": [
+        "oS",
+        "M",
+        "fall",
+        " fir",
+        "o"
+      ],
+      "step3_layer9": [
+        "oS",
+        "one",
+        "M",
+        "o",
+        " script"
+      ],
+      "step3_layer10": [
+        "one",
+        "oS",
+        "?",
+        "o",
+        "on"
+      ],
+      "step3_layer11": [
+        "?",
+        "one",
+        "ong",
+        "?).",
+        "on"
+      ],
+      "step3_layer12": [
+        "one",
+        "?",
+        " either",
+        "?).",
+        "on"
+      ],
+      "step3_layer13": [
+        "?).",
+        " either",
+        "either",
+        "one",
+        "?"
+      ],
+      "step3_layer14": [
+        "either",
+        " either",
+        "?).",
+        " it",
+        "one"
+      ],
+      "step3_layer15": [
+        " either",
+        " it",
+        "either",
+        ",",
+        "one"
+      ],
+      "step3_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        ","
+      ],
+      "step4_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step4_layer1": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step4_layer2": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "oc"
+      ],
+      "step4_layer3": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step4_layer4": [
+        " script",
+        "oS",
+        "one",
+        "orre",
+        "fall"
+      ],
+      "step4_layer5": [
+        " script",
+        "oS",
+        "orre",
+        "one",
+        "k"
+      ],
+      "step4_layer6": [
+        " script",
+        "oS",
+        "orre",
+        "one",
+        " raised"
+      ],
+      "step4_layer7": [
+        "oS",
+        " script",
+        "one",
+        "fall",
+        "orre"
+      ],
+      "step4_layer8": [
+        "oS",
+        "M",
+        " fir",
+        "fall",
+        "o"
+      ],
+      "step4_layer9": [
+        "oS",
+        "one",
+        "M",
+        "o",
+        " script"
+      ],
+      "step4_layer10": [
+        "one",
+        "oS",
+        "?",
+        "o",
+        "on"
+      ],
+      "step4_layer11": [
+        "?",
+        "?).",
+        "one",
+        "ong",
+        " either"
+      ],
+      "step4_layer12": [
+        " either",
+        "?",
+        "?).",
+        "one",
+        "on"
+      ],
+      "step4_layer13": [
+        "?).",
+        " either",
+        "either",
+        "one",
+        "?"
+      ],
+      "step4_layer14": [
+        "either",
+        "?).",
+        " either",
+        " it",
+        "one"
+      ],
+      "step4_layer15": [
+        " either",
+        " it",
+        "either",
+        ",",
+        "ong"
+      ],
+      "step4_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        "The"
+      ],
+      "step5_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step5_layer1": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step5_layer2": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "oc"
+      ],
+      "step5_layer3": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step5_layer4": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "fall"
+      ],
+      "step5_layer5": [
+        " script",
+        "oS",
+        "one",
+        "orre",
+        "k"
+      ],
+      "step5_layer6": [
+        " script",
+        "oS",
+        "one",
+        "fall",
+        " raised"
+      ],
+      "step5_layer7": [
+        "oS",
+        "one",
+        " script",
+        "fall",
+        " fir"
+      ],
+      "step5_layer8": [
+        "oS",
+        "fall",
+        " fir",
+        "M",
+        "o"
+      ],
+      "step5_layer9": [
+        "oS",
+        "one",
+        "M",
+        "o",
+        "fall"
+      ],
+      "step5_layer10": [
+        "one",
+        "?",
+        "oS",
+        "o",
+        "on"
+      ],
+      "step5_layer11": [
+        "?",
+        "?).",
+        "one",
+        "ong",
+        " either"
+      ],
+      "step5_layer12": [
+        " either",
+        "?",
+        "?).",
+        "one",
+        "either"
+      ],
+      "step5_layer13": [
+        "?).",
+        " either",
+        "either",
+        "one",
+        "?"
+      ],
+      "step5_layer14": [
+        "either",
+        "?).",
+        " either",
+        "ong",
+        " it"
+      ],
+      "step5_layer15": [
+        " either",
+        " it",
+        "either",
+        ",",
+        "ong"
+      ],
+      "step5_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        "The"
+      ]
+    }
+  },
+  {
+    "idx": 2,
+    "question": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6",
+    "topk": {
+      "step0_layer0": [
+        "식을",
+        "POINT",
+        " Encounter",
+        "pone",
+        " screwed"
+      ],
+      "step0_layer1": [
+        "식을",
+        "pone",
+        " Encounter",
+        "POINT",
+        " screwed"
+      ],
+      "step0_layer2": [
+        "식을",
+        "pone",
+        " Encounter",
+        "ième",
+        "POINT"
+      ],
+      "step0_layer3": [
+        "식을",
+        "pone",
+        "ième",
+        "POINT",
+        "qi"
+      ],
+      "step0_layer4": [
+        "식을",
+        "qi",
+        " Utility",
+        "pone",
+        "ième"
+      ],
+      "step0_layer5": [
+        " Utility",
+        "식을",
+        "ured",
+        "ième",
+        "qi"
+      ],
+      "step0_layer6": [
+        " Utility",
+        "식을",
+        "ured",
+        "ois",
+        "ième"
+      ],
+      "step0_layer7": [
+        " Utility",
+        "식을",
+        "ured",
+        "qi",
+        " Encounter"
+      ],
+      "step0_layer8": [
+        " Utility",
+        "식을",
+        "и",
+        "ième",
+        "ured"
+      ],
+      "step0_layer9": [
+        " looping",
+        "icí",
+        "ois",
+        "ング",
+        " Utility"
+      ],
+      "step0_layer10": [
+        "ieme",
+        "ured",
+        "ит",
+        "ième",
+        "ário"
+      ],
+      "step0_layer11": [
+        "ário",
+        "ieme",
+        "и",
+        "ит",
+        "o"
+      ],
+      "step0_layer12": [
+        "ит",
+        "и",
+        "из",
+        "yang",
+        "itou"
+      ],
+      "step0_layer13": [
+        "ième",
+        "и",
+        " ourselves",
+        " herself",
+        "yang"
+      ],
+      "step0_layer14": [
+        " ourselves",
+        "ième",
+        "alim",
+        "и",
+        " herself"
+      ],
+      "step0_layer15": [
+        " herself",
+        "и",
+        "6",
+        "half",
+        " ourselves"
+      ],
+      "step0_layer16": [
+        "6",
+        "3",
+        "+",
+        "the",
+        "-"
+      ],
+      "step1_layer0": [
+        " interchange",
+        " traditionally",
+        " banging",
+        " convention",
+        "ô"
+      ],
+      "step1_layer1": [
+        " interchange",
+        " traditionally",
+        " banging",
+        " convention",
+        "ô"
+      ],
+      "step1_layer2": [
+        " traditionally",
+        " interchange",
+        " convention",
+        " banging",
+        "ô"
+      ],
+      "step1_layer3": [
+        " traditionally",
+        " convention",
+        " banging",
+        " interchange",
+        "ô"
+      ],
+      "step1_layer4": [
+        " traditionally",
+        " banging",
+        " convention",
+        " interchange",
+        "ô"
+      ],
+      "step1_layer5": [
+        " traditionally",
+        " convention",
+        " banging",
+        " interchange",
+        "ô"
+      ],
+      "step1_layer6": [
+        " traditionally",
+        " banging",
+        " convention",
+        " standard",
+        " interchange"
+      ],
+      "step1_layer7": [
+        " traditionally",
+        " banging",
+        " interchange",
+        " convention",
+        "_already"
+      ],
+      "step1_layer8": [
+        " traditionally",
+        " interchange",
+        " convention",
+        " previously",
+        " banging"
+      ],
+      "step1_layer9": [
+        " traditionally",
+        " convention",
+        " previously",
+        "из",
+        "already"
+      ],
+      "step1_layer10": [
+        " previously",
+        " standard",
+        "already",
+        "standard",
+        " traditionally"
+      ],
+      "step1_layer11": [
+        " already",
+        " previously",
+        "already",
+        " standard",
+        "standard"
+      ],
+      "step1_layer12": [
+        "already",
+        " already",
+        " previously",
+        "из",
+        " standard"
+      ],
+      "step1_layer13": [
+        "already",
+        " already",
+        "из",
+        " standard",
+        " previously"
+      ],
+      "step1_layer14": [
+        "alim",
+        "same",
+        "ousel",
+        " same",
+        "-default"
+      ],
+      "step1_layer15": [
+        " standard",
+        " same",
+        "alim",
+        "standard",
+        " already"
+      ],
+      "step1_layer16": [
+        "-",
+        "3",
+        " is",
+        "+",
+        " the"
+      ],
+      "step2_layer0": [
+        " convention",
+        " interchange",
+        " standard",
+        "ption",
+        " traditionally"
+      ],
+      "step2_layer1": [
+        " convention",
+        " interchange",
+        " standard",
+        " traditionally",
+        "ption"
+      ],
+      "step2_layer2": [
+        " convention",
+        " traditionally",
+        " interchange",
+        " standard",
+        " previously"
+      ],
+      "step2_layer3": [
+        " convention",
+        " traditionally",
+        " standard",
+        " encoding",
+        " interchange"
+      ],
+      "step2_layer4": [
+        " convention",
+        " traditionally",
+        " standard",
+        " encoding",
+        " previously"
+      ],
+      "step2_layer5": [
+        " convention",
+        " traditionally",
+        " standard",
+        " previously",
+        " encoding"
+      ],
+      "step2_layer6": [
+        " traditionally",
+        " convention",
+        " standard",
+        " previously",
+        "ption"
+      ],
+      "step2_layer7": [
+        " traditionally",
+        " convention",
+        " previously",
+        " standard",
+        "ption"
+      ],
+      "step2_layer8": [
+        " previously",
+        " traditionally",
+        " convention",
+        " interchange",
+        " standard"
+      ],
+      "step2_layer9": [
+        " convention",
+        " previously",
+        " traditionally",
+        " standard",
+        " already"
+      ],
+      "step2_layer10": [
+        " previously",
+        " fixed",
+        " standard",
+        "o",
+        " traditionally"
+      ],
+      "step2_layer11": [
+        " previously",
+        " already",
+        "рат",
+        " fixed",
+        "o"
+      ],
+      "step2_layer12": [
+        " previously",
+        "рат",
+        " already",
+        "�",
+        "rd"
+      ],
+      "step2_layer13": [
+        " previously",
+        "rd",
+        "рат",
+        " already",
+        "�"
+      ],
+      "step2_layer14": [
+        "рат",
+        "alim",
+        "rd",
+        " convention",
+        " constant"
+      ],
+      "step2_layer15": [
+        " constant",
+        " already",
+        "рат",
+        " standard",
+        "alim"
+      ],
+      "step2_layer16": [
+        " is",
+        " the",
+        ",",
+        " and",
+        " already"
+      ],
+      "step3_layer0": [
+        "alk",
+        " interchange",
+        "upa",
+        "委",
+        " bay"
+      ],
+      "step3_layer1": [
+        "alk",
+        " interchange",
+        " bay",
+        "upa",
+        "ific"
+      ],
+      "step3_layer2": [
+        " bay",
+        "upa",
+        "alk",
+        "imed",
+        "委"
+      ],
+      "step3_layer3": [
+        "alk",
+        "upa",
+        "imed",
+        " bay",
+        " script"
+      ],
+      "step3_layer4": [
+        "alk",
+        "imed",
+        " scripting",
+        "upa",
+        " bay"
+      ],
+      "step3_layer5": [
+        "alk",
+        "upa",
+        "imed",
+        "k",
+        "most"
+      ],
+      "step3_layer6": [
+        "alk",
+        "imed",
+        "upa",
+        "oS",
+        " Raised"
+      ],
+      "step3_layer7": [
+        "alk",
+        "oS",
+        "lement",
+        "o",
+        "�"
+      ],
+      "step3_layer8": [
+        "o",
+        "alk",
+        "most",
+        "akter",
+        "mate"
+      ],
+      "step3_layer9": [
+        "mate",
+        " gaz",
+        "�",
+        "antine",
+        "utive"
+      ],
+      "step3_layer10": [
+        "utive",
+        "mate",
+        "o",
+        "tr",
+        "antine"
+      ],
+      "step3_layer11": [
+        "o",
+        "рат",
+        "�",
+        " anywhere",
+        "г"
+      ],
+      "step3_layer12": [
+        "�",
+        "�",
+        "�",
+        " anywhere",
+        " elsewhere"
+      ],
+      "step3_layer13": [
+        "ар",
+        "рен",
+        "ziel",
+        "�",
+        "�"
+      ],
+      "step3_layer14": [
+        "LINE",
+        " isn",
+        " deciding",
+        "-.",
+        "ар"
+      ],
+      "step3_layer15": [
+        " now",
+        " much",
+        "six",
+        " enough",
+        "�"
+      ],
+      "step3_layer16": [
+        " is",
+        " the",
+        "-",
+        " -",
+        " and"
+      ],
+      "step4_layer0": [
+        " interchange",
+        "ific",
+        " Jinping",
+        "POINT",
+        " Raised"
+      ],
+      "step4_layer1": [
+        "ific",
+        " interchange",
+        " Raised",
+        " Jinping",
+        "POINT"
+      ],
+      "step4_layer2": [
+        " Jinping",
+        " Raised",
+        "ific",
+        " interchange",
+        "POINT"
+      ],
+      "step4_layer3": [
+        " Raised",
+        " Jinping",
+        "akra",
+        "Raised",
+        "ific"
+      ],
+      "step4_layer4": [
+        " Raised",
+        " Jinping",
+        "adian",
+        " banging",
+        "akra"
+      ],
+      "step4_layer5": [
+        " forces",
+        " Jinping",
+        "akra",
+        " Raised",
+        "-force"
+      ],
+      "step4_layer6": [
+        " forces",
+        " Raised",
+        "-force",
+        " Jinping",
+        " banging"
+      ],
+      "step4_layer7": [
+        "o",
+        " gore",
+        " banging",
+        " Jinping",
+        " eigenen"
+      ],
+      "step4_layer8": [
+        "o",
+        " Jinping",
+        "из",
+        " banging",
+        " eigenen"
+      ],
+      "step4_layer9": [
+        "ング",
+        "quine",
+        "utive",
+        "ENARIO",
+        "o"
+      ],
+      "step4_layer10": [
+        "utive",
+        "ит",
+        "already",
+        "ured",
+        "half"
+      ],
+      "step4_layer11": [
+        "o",
+        " Remaining",
+        "ит",
+        " remaining",
+        "ング"
+      ],
+      "step4_layer12": [
+        "ит",
+        "adamente",
+        "half",
+        "already",
+        "linger"
+      ],
+      "step4_layer13": [
+        "adamente",
+        "half",
+        "already",
+        "linger",
+        "ości"
+      ],
+      "step4_layer14": [
+        "adamente",
+        "half",
+        "LINE",
+        "ości",
+        "alim"
+      ],
+      "step4_layer15": [
+        "six",
+        "half",
+        " six",
+        "6",
+        "alim"
+      ],
+      "step4_layer16": [
+        "6",
+        "-",
+        "+",
+        " is",
+        " the"
+      ],
+      "step5_layer0": [
+        " interchange",
+        "POINT",
+        "ific",
+        " banging",
+        "식을"
+      ],
+      "step5_layer1": [
+        " interchange",
+        " banging",
+        "POINT",
+        "ific",
+        "식을"
+      ],
+      "step5_layer2": [
+        " interchange",
+        " banging",
+        "POINT",
+        "ième",
+        " convention"
+      ],
+      "step5_layer3": [
+        " interchange",
+        " banging",
+        " Raised",
+        "ième",
+        "POINT"
+      ],
+      "step5_layer4": [
+        " banging",
+        " interchange",
+        " traditionally",
+        "ième",
+        " Raised"
+      ],
+      "step5_layer5": [
+        " banging",
+        " traditionally",
+        " interchange",
+        " forces",
+        "�"
+      ],
+      "step5_layer6": [
+        " banging",
+        " traditionally",
+        " forces",
+        "ured",
+        " interchange"
+      ],
+      "step5_layer7": [
+        " traditionally",
+        " banging",
+        " interchange",
+        "ured",
+        " fuer"
+      ],
+      "step5_layer8": [
+        " traditionally",
+        " banging",
+        "из",
+        "o",
+        " interchange"
+      ],
+      "step5_layer9": [
+        "ング",
+        "из",
+        " traditionally",
+        "already",
+        "icí"
+      ],
+      "step5_layer10": [
+        "ured",
+        "already",
+        "ング",
+        "(require",
+        " previously"
+      ],
+      "step5_layer11": [
+        "ング",
+        "already",
+        "o",
+        "adamente",
+        "alim"
+      ],
+      "step5_layer12": [
+        "adamente",
+        "already",
+        "alim",
+        "ит",
+        "из"
+      ],
+      "step5_layer13": [
+        "adamente",
+        "alim",
+        "already",
+        "uces",
+        "ième"
+      ],
+      "step5_layer14": [
+        "adamente",
+        "alim",
+        "half",
+        "already",
+        "ième"
+      ],
+      "step5_layer15": [
+        "adamente",
+        "alim",
+        "half",
+        "six",
+        "months"
+      ],
+      "step5_layer16": [
+        " is",
+        "+",
+        " the",
+        "-",
+        "="
+      ]
+    }
+  },
+  {
+    "idx": 3,
+    "question": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+    "gold": 198.0,
+    "pred": 203.0,
+    "correct": false,
+    "response": "The answer is: 203",
+    "topk": {
+      "step0_layer0": [
+        "endar",
+        " expression",
+        "ain",
+        "ured",
+        "�"
+      ],
+      "step0_layer1": [
+        "endar",
+        " expression",
+        "ured",
+        "ain",
+        "�"
+      ],
+      "step0_layer2": [
+        "endar",
+        " expression",
+        "ured",
+        "�",
+        "ain"
+      ],
+      "step0_layer3": [
+        "endar",
+        " expression",
+        "ured",
+        "ain",
+        "�"
+      ],
+      "step0_layer4": [
+        "endar",
+        " expression",
+        "ured",
+        "�",
+        "902"
+      ],
+      "step0_layer5": [
+        "endar",
+        "ured",
+        "�",
+        "is",
+        " expression"
+      ],
+      "step0_layer6": [
+        "endar",
+        "ured",
+        "�",
+        " expression",
+        "is"
+      ],
+      "step0_layer7": [
+        "ured",
+        "urbed",
+        "endar",
+        "�",
+        " expression"
+      ],
+      "step0_layer8": [
+        "urbed",
+        "endar",
+        "ured",
+        "902",
+        "developer"
+      ],
+      "step0_layer9": [
+        "urbed",
+        "902",
+        "endar",
+        "ful",
+        "�"
+      ],
+      "step0_layer10": [
+        "902",
+        "urbed",
+        " most",
+        "endar",
+        "ful"
+      ],
+      "step0_layer11": [
+        "902",
+        " most",
+        "�",
+        "urbed",
+        " figure"
+      ],
+      "step0_layer12": [
+        "902",
+        "�",
+        " most",
+        " figure",
+        " likely"
+      ],
+      "step0_layer13": [
+        "902",
+        "mare",
+        "�",
+        "ип",
+        " most"
+      ],
+      "step0_layer14": [
+        "mare",
+        "�",
+        " exact",
+        "омер",
+        "uld"
+      ],
+      "step0_layer15": [
+        " it",
+        " f",
+        "mare",
+        " X",
+        " standard"
+      ],
+      "step0_layer16": [
+        " is",
+        " the",
+        " it",
+        "v",
+        " X"
+      ],
+      "step1_layer0": [
+        " script",
+        "oc",
+        "k",
+        " raised",
+        "ain"
+      ],
+      "step1_layer1": [
+        " script",
+        "k",
+        "oc",
+        " raised",
+        "oS"
+      ],
+      "step1_layer2": [
+        " script",
+        "k",
+        "orre",
+        " raised",
+        "oS"
+      ],
+      "step1_layer3": [
+        " script",
+        "k",
+        " raised",
+        "orre",
+        "ain"
+      ],
+      "step1_layer4": [
+        " script",
+        "k",
+        " raised",
+        "orre",
+        "ain"
+      ],
+      "step1_layer5": [
+        "k",
+        " raised",
+        " script",
+        "oS",
+        "orre"
+      ],
+      "step1_layer6": [
+        " raised",
+        "k",
+        " script",
+        "oS",
+        "orre"
+      ],
+      "step1_layer7": [
+        "orre",
+        "k",
+        "oS",
+        " raised",
+        "o"
+      ],
+      "step1_layer8": [
+        "orre",
+        " raised",
+        " laid",
+        "k",
+        "oS"
+      ],
+      "step1_layer9": [
+        "orre",
+        "k",
+        " correct",
+        "o",
+        " laid"
+      ],
+      "step1_layer10": [
+        "k",
+        "orre",
+        "o",
+        " laid",
+        " emb"
+      ],
+      "step1_layer11": [
+        "k",
+        "o",
+        " most",
+        " laid",
+        "orre"
+      ],
+      "step1_layer12": [
+        " most",
+        "nd",
+        "k",
+        "o",
+        " laid"
+      ],
+      "step1_layer13": [
+        "nd",
+        "mare",
+        "or",
+        " laid",
+        "k"
+      ],
+      "step1_layer14": [
+        "mare",
+        "falls",
+        " exact",
+        "fall",
+        " correct"
+      ],
+      "step1_layer15": [
+        ",",
+        " it",
+        "o",
+        " most",
+        " to"
+      ],
+      "step1_layer16": [
+        " the",
+        " is",
+        ",",
+        ")",
+        "The"
+      ],
+      "step2_layer0": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        " optimal"
+      ],
+      "step2_layer1": [
+        " script",
+        "oS",
+        "one",
+        "oc",
+        " fir"
+      ],
+      "step2_layer2": [
+        " script",
+        "oS",
+        "one",
+        "k",
+        " fir"
+      ],
+      "step2_layer3": [
+        " script",
+        "oS",
+        "k",
+        "one",
+        "oc"
+      ],
+      "step2_layer4": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        "one"
+      ],
+      "step2_layer5": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " raised"
+      ],
+      "step2_layer6": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " fir"
+      ],
+      "step2_layer7": [
+        "oS",
+        " fir",
+        "k",
+        " script",
+        "fall"
+      ],
+      "step2_layer8": [
+        "oS",
+        " fir",
+        "fall",
+        " script",
+        "k"
+      ],
+      "step2_layer9": [
+        "wi",
+        "oS",
+        "k",
+        " fir",
+        "fall"
+      ],
+      "step2_layer10": [
+        "k",
+        "oS",
+        " fo",
+        "ithe",
+        "up"
+      ],
+      "step2_layer11": [
+        "?).",
+        " fo",
+        "k",
+        " maximum",
+        " relevant"
+      ],
+      "step2_layer12": [
+        " fo",
+        "fall",
+        " maximum",
+        "?).",
+        "oS"
+      ],
+      "step2_layer13": [
+        "?).",
+        "oS",
+        "fall",
+        " gaz",
+        " associated"
+      ],
+      "step2_layer14": [
+        "falls",
+        "fall",
+        "?).",
+        " maximum",
+        " ONE"
+      ],
+      "step2_layer15": [
+        " to",
+        " maximum",
+        ",",
+        " it",
+        " for"
+      ],
+      "step2_layer16": [
+        " the",
+        " is",
+        "The",
+        ",",
+        " The"
+      ],
+      "step3_layer0": [
+        " script",
+        "oS",
+        "one",
+        " Jinping",
+        " optimal"
+      ],
+      "step3_layer1": [
+        " script",
+        "oS",
+        " Jinping",
+        "one",
+        " fir"
+      ],
+      "step3_layer2": [
+        " script",
+        "oS",
+        "one",
+        " Jinping",
+        " fir"
+      ],
+      "step3_layer3": [
+        " script",
+        "oS",
+        "one",
+        "k",
+        " fir"
+      ],
+      "step3_layer4": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " fir"
+      ],
+      "step3_layer5": [
+        " script",
+        "oS",
+        "k",
+        " fir",
+        "fall"
+      ],
+      "step3_layer6": [
+        " script",
+        "oS",
+        "fall",
+        " fir",
+        "k"
+      ],
+      "step3_layer7": [
+        "oS",
+        " fir",
+        "fall",
+        "k",
+        " script"
+      ],
+      "step3_layer8": [
+        "oS",
+        " fir",
+        "fall",
+        " script",
+        " Jinping"
+      ],
+      "step3_layer9": [
+        " Jinping",
+        " fir",
+        "oS",
+        " optimal",
+        "fall"
+      ],
+      "step3_layer10": [
+        " fo",
+        "oS",
+        "k",
+        " Jinping",
+        "?)."
+      ],
+      "step3_layer11": [
+        "?).",
+        " fo",
+        "oS",
+        "�",
+        " maximum"
+      ],
+      "step3_layer12": [
+        " fo",
+        "fall",
+        "?).",
+        "ว",
+        " maximum"
+      ],
+      "step3_layer13": [
+        "?).",
+        "fall",
+        "oS",
+        "falls",
+        " certo"
+      ],
+      "step3_layer14": [
+        "?).",
+        "falls",
+        "fall",
+        "ONE",
+        "one"
+      ],
+      "step3_layer15": [
+        " maximum",
+        " it",
+        "fall",
+        " to",
+        "one"
+      ],
+      "step3_layer16": [
+        " the",
+        " is",
+        "The",
+        " it",
+        ","
+      ],
+      "step4_layer0": [
+        " script",
+        "oS",
+        "one",
+        " Jinping",
+        "oc"
+      ],
+      "step4_layer1": [
+        " script",
+        "oS",
+        " Jinping",
+        "one",
+        "oc"
+      ],
+      "step4_layer2": [
+        " script",
+        "oS",
+        " Jinping",
+        "one",
+        "k"
+      ],
+      "step4_layer3": [
+        " script",
+        "oS",
+        "k",
+        "one",
+        " Jinping"
+      ],
+      "step4_layer4": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        "alk"
+      ],
+      "step4_layer5": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " fir"
+      ],
+      "step4_layer6": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " fir"
+      ],
+      "step4_layer7": [
+        "oS",
+        "k",
+        " fir",
+        " script",
+        "fall"
+      ],
+      "step4_layer8": [
+        "oS",
+        "fall",
+        " fir",
+        " script",
+        "k"
+      ],
+      "step4_layer9": [
+        "oS",
+        " Jinping",
+        "wi",
+        "k",
+        "fall"
+      ],
+      "step4_layer10": [
+        "oS",
+        " fo",
+        "k",
+        "?).",
+        " maximum"
+      ],
+      "step4_layer11": [
+        "?).",
+        "oS",
+        " maximum",
+        " fo",
+        "�"
+      ],
+      "step4_layer12": [
+        " fo",
+        "fall",
+        "?).",
+        "ว",
+        "oS"
+      ],
+      "step4_layer13": [
+        "?).",
+        "oS",
+        "fall",
+        "falls",
+        "ف"
+      ],
+      "step4_layer14": [
+        "?).",
+        "falls",
+        "fall",
+        "one",
+        "ONE"
+      ],
+      "step4_layer15": [
+        " it",
+        " maximum",
+        "fall",
+        ",",
+        " to"
+      ],
+      "step4_layer16": [
+        " the",
+        " is",
+        "The",
+        " it",
+        ","
+      ],
+      "step5_layer0": [
+        " script",
+        "oS",
+        "one",
+        "oc",
+        " Jinping"
+      ],
+      "step5_layer1": [
+        " script",
+        "oS",
+        "one",
+        " Jinping",
+        "oc"
+      ],
+      "step5_layer2": [
+        " script",
+        "oS",
+        "one",
+        " Jinping",
+        "k"
+      ],
+      "step5_layer3": [
+        " script",
+        "oS",
+        "k",
+        "one",
+        "oc"
+      ],
+      "step5_layer4": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        "one"
+      ],
+      "step5_layer5": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " raised"
+      ],
+      "step5_layer6": [
+        " script",
+        "oS",
+        "k",
+        "fall",
+        " raised"
+      ],
+      "step5_layer7": [
+        "oS",
+        " script",
+        "k",
+        " fir",
+        "fall"
+      ],
+      "step5_layer8": [
+        "oS",
+        "fall",
+        " fir",
+        " script",
+        "k"
+      ],
+      "step5_layer9": [
+        "oS",
+        "wi",
+        "fall",
+        "k",
+        " Jinping"
+      ],
+      "step5_layer10": [
+        "oS",
+        "k",
+        " fo",
+        "?).",
+        " maximum"
+      ],
+      "step5_layer11": [
+        "?).",
+        " maximum",
+        "oS",
+        " fo",
+        "�"
+      ],
+      "step5_layer12": [
+        "fall",
+        " fo",
+        "?).",
+        " maximum",
+        "ว"
+      ],
+      "step5_layer13": [
+        "?).",
+        "fall",
+        "oS",
+        "falls",
+        " maximum"
+      ],
+      "step5_layer14": [
+        "?).",
+        "fall",
+        "falls",
+        "one",
+        "у"
+      ],
+      "step5_layer15": [
+        " it",
+        "fall",
+        " maximum",
+        ",",
+        "one"
+      ],
+      "step5_layer16": [
+        " the",
+        " is",
+        "The",
+        " it",
+        ","
+      ]
+    }
+  },
+  {
+    "idx": 4,
+    "question": "There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket. How much money does she have left?",
+    "gold": 63.0,
+    "pred": 63.0,
+    "correct": true,
+    "response": "The answer is: 63",
+    "topk": {
+      "step0_layer0": [
+        "M",
+        " whether",
+        "ain",
+        "oS",
+        " Whether"
+      ],
+      "step0_layer1": [
+        " whether",
+        "oS",
+        " Whether",
+        "Whether",
+        "M"
+      ],
+      "step0_layer2": [
+        " whether",
+        "oS",
+        " Whether",
+        "M",
+        "Whether"
+      ],
+      "step0_layer3": [
+        "oS",
+        " Whether",
+        " whether",
+        "M",
+        "Whether"
+      ],
+      "step0_layer4": [
+        "oS",
+        " Whether",
+        " whether",
+        "Whether",
+        "M"
+      ],
+      "step0_layer5": [
+        " Whether",
+        "oS",
+        "Whether",
+        " whether",
+        "M"
+      ],
+      "step0_layer6": [
+        "oS",
+        "M",
+        "lement",
+        "Flow",
+        " handy"
+      ],
+      "step0_layer7": [
+        "oS",
+        "Flow",
+        "M",
+        "lement",
+        " Whether"
+      ],
+      "step0_layer8": [
+        "oS",
+        "lement",
+        "Flow",
+        "M",
+        " handy"
+      ],
+      "step0_layer9": [
+        "lement",
+        "oS",
+        "M",
+        "Flow",
+        " pute"
+      ],
+      "step0_layer10": [
+        "lement",
+        "oS",
+        "Flow",
+        "ful",
+        "M"
+      ],
+      "step0_layer11": [
+        "lement",
+        "M",
+        " situ",
+        "oS",
+        "омер"
+      ],
+      "step0_layer12": [
+        " it",
+        "ful",
+        " situ",
+        "M",
+        " most"
+      ],
+      "step0_layer13": [
+        " it",
+        "омер",
+        "hold",
+        "mare",
+        "oS"
+      ],
+      "step0_layer14": [
+        " it",
+        "either",
+        "lement",
+        " either",
+        "омер"
+      ],
+      "step0_layer15": [
+        " it",
+        " either",
+        ",",
+        " whether",
+        " few"
+      ],
+      "step0_layer16": [
+        " is",
+        " the",
+        " it",
+        ":",
+        "'s"
+      ],
+      "step1_layer0": [
+        " script",
+        "one",
+        "orre",
+        "oc",
+        " whether"
+      ],
+      "step1_layer1": [
+        " script",
+        "orre",
+        "one",
+        "oc",
+        " whether"
+      ],
+      "step1_layer2": [
+        " script",
+        "orre",
+        "one",
+        "oc",
+        "oS"
+      ],
+      "step1_layer3": [
+        " script",
+        "orre",
+        "one",
+        "oc",
+        "oS"
+      ],
+      "step1_layer4": [
+        " script",
+        "orre",
+        "oS",
+        "one",
+        "oc"
+      ],
+      "step1_layer5": [
+        " script",
+        "orre",
+        "oS",
+        " Whether",
+        " whether"
+      ],
+      "step1_layer6": [
+        " script",
+        "orre",
+        "oS",
+        " raised",
+        " fir"
+      ],
+      "step1_layer7": [
+        "orre",
+        "oS",
+        " script",
+        " fir",
+        " raised"
+      ],
+      "step1_layer8": [
+        "orre",
+        "oS",
+        " fir",
+        " script",
+        " raised"
+      ],
+      "step1_layer9": [
+        "orre",
+        " fir",
+        "oS",
+        "fall",
+        " raised"
+      ],
+      "step1_layer10": [
+        "orre",
+        "k",
+        " bree",
+        "oS",
+        "?)."
+      ],
+      "step1_layer11": [
+        "?).",
+        "?",
+        " further",
+        " tack",
+        "k"
+      ],
+      "step1_layer12": [
+        "falls",
+        "?).",
+        "fall",
+        " further",
+        " tack"
+      ],
+      "step1_layer13": [
+        " either",
+        "?).",
+        "falls",
+        " whether",
+        "either"
+      ],
+      "step1_layer14": [
+        "either",
+        " either",
+        "?).",
+        "falls",
+        " whether"
+      ],
+      "step1_layer15": [
+        " either",
+        " it",
+        " whether",
+        "either",
+        " if"
+      ],
+      "step1_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        "The"
+      ],
+      "step2_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step2_layer1": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step2_layer2": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step2_layer3": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step2_layer4": [
+        " script",
+        "oS",
+        "one",
+        "orre",
+        "fall"
+      ],
+      "step2_layer5": [
+        " script",
+        "oS",
+        "one",
+        "k",
+        "orre"
+      ],
+      "step2_layer6": [
+        " script",
+        "oS",
+        " raised",
+        "one",
+        "fall"
+      ],
+      "step2_layer7": [
+        "oS",
+        " script",
+        " fir",
+        "one",
+        "orre"
+      ],
+      "step2_layer8": [
+        "oS",
+        " fir",
+        " script",
+        "fall",
+        " handy"
+      ],
+      "step2_layer9": [
+        " fir",
+        "oS",
+        "fall",
+        "orre",
+        " hoof"
+      ],
+      "step2_layer10": [
+        "on",
+        " bree",
+        "k",
+        "oS",
+        " fir"
+      ],
+      "step2_layer11": [
+        "?).",
+        "on",
+        "?",
+        " tack",
+        "ong"
+      ],
+      "step2_layer12": [
+        "falls",
+        "?).",
+        " tack",
+        "fall",
+        "on"
+      ],
+      "step2_layer13": [
+        "?).",
+        " either",
+        "falls",
+        "imed",
+        "either"
+      ],
+      "step2_layer14": [
+        "either",
+        " either",
+        "?).",
+        "falls",
+        " it"
+      ],
+      "step2_layer15": [
+        " either",
+        " it",
+        " whether",
+        "either",
+        ","
+      ],
+      "step2_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        "The"
+      ],
+      "step3_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step3_layer1": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step3_layer2": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "oc"
+      ],
+      "step3_layer3": [
+        " script",
+        "one",
+        "orre",
+        "oS",
+        "oc"
+      ],
+      "step3_layer4": [
+        " script",
+        "oS",
+        "one",
+        "orre",
+        "fall"
+      ],
+      "step3_layer5": [
+        " script",
+        "oS",
+        "k",
+        "one",
+        " fir"
+      ],
+      "step3_layer6": [
+        " script",
+        "oS",
+        " fir",
+        "one",
+        " raised"
+      ],
+      "step3_layer7": [
+        "oS",
+        " fir",
+        " script",
+        "one",
+        "fall"
+      ],
+      "step3_layer8": [
+        "oS",
+        " fir",
+        "fall",
+        " script",
+        " handy"
+      ],
+      "step3_layer9": [
+        " fir",
+        "oS",
+        "fall",
+        " hoof",
+        " bree"
+      ],
+      "step3_layer10": [
+        "on",
+        " bree",
+        "oS",
+        "k",
+        " fir"
+      ],
+      "step3_layer11": [
+        "?).",
+        "on",
+        "?",
+        "ong",
+        " tack"
+      ],
+      "step3_layer12": [
+        "?).",
+        "falls",
+        " tack",
+        "fall",
+        "on"
+      ],
+      "step3_layer13": [
+        "?).",
+        "falls",
+        " either",
+        "imed",
+        "either"
+      ],
+      "step3_layer14": [
+        "either",
+        " either",
+        "?).",
+        "falls",
+        " it"
+      ],
+      "step3_layer15": [
+        " either",
+        " it",
+        "either",
+        " whether",
+        ","
+      ],
+      "step3_layer16": [
+        " the",
+        " is",
+        ":",
+        " it",
+        "The"
+      ],
+      "step4_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step4_layer1": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step4_layer2": [
+        " script",
+        "one",
+        "oS",
+        "orre",
+        "oc"
+      ],
+      "step4_layer3": [
+        " script",
+        "one",
+        "oc",
+        "orre",
+        "oS"
+      ],
+      "step4_layer4": [
+        " script",
+        "oS",
+        "one",
+        "fall",
+        "orre"
+      ],
+      "step4_layer5": [
+        " script",
+        "oS",
+        "k",
+        "one",
+        " fir"
+      ],
+      "step4_layer6": [
+        " script",
+        "oS",
+        "fall",
+        " fir",
+        " raised"
+      ],
+      "step4_layer7": [
+        "oS",
+        " fir",
+        " script",
+        "one",
+        "fall"
+      ],
+      "step4_layer8": [
+        "oS",
+        " fir",
+        "fall",
+        " script",
+        " hoof"
+      ],
+      "step4_layer9": [
+        " fir",
+        "fall",
+        "oS",
+        " hoof",
+        " bree"
+      ],
+      "step4_layer10": [
+        "on",
+        " bree",
+        "oS",
+        "k",
+        " fir"
+      ],
+      "step4_layer11": [
+        "?",
+        "?).",
+        "ong",
+        "on",
+        " tack"
+      ],
+      "step4_layer12": [
+        "?).",
+        "falls",
+        " tack",
+        "fall",
+        "on"
+      ],
+      "step4_layer13": [
+        "?).",
+        "falls",
+        " either",
+        "imed",
+        "either"
+      ],
+      "step4_layer14": [
+        "?).",
+        " either",
+        "either",
+        "falls",
+        " it"
+      ],
+      "step4_layer15": [
+        " either",
+        " it",
+        " whether",
+        "either",
+        ","
+      ],
+      "step4_layer16": [
+        " the",
+        " is",
+        ":",
+        " it",
+        "The"
+      ],
+      "step5_layer0": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " optimal"
+      ],
+      "step5_layer1": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        " fir"
+      ],
+      "step5_layer2": [
+        " script",
+        "one",
+        "oS",
+        "oc",
+        "orre"
+      ],
+      "step5_layer3": [
+        " script",
+        "one",
+        "oc",
+        "oS",
+        "orre"
+      ],
+      "step5_layer4": [
+        " script",
+        "one",
+        "oS",
+        "fall",
+        " fir"
+      ],
+      "step5_layer5": [
+        " script",
+        "oS",
+        "k",
+        "one",
+        "fall"
+      ],
+      "step5_layer6": [
+        " script",
+        "oS",
+        "fall",
+        " fir",
+        " raised"
+      ],
+      "step5_layer7": [
+        "oS",
+        " fir",
+        "fall",
+        "one",
+        " script"
+      ],
+      "step5_layer8": [
+        "oS",
+        " fir",
+        "fall",
+        " hoof",
+        " script"
+      ],
+      "step5_layer9": [
+        "fall",
+        " fir",
+        " hoof",
+        "oS",
+        " bree"
+      ],
+      "step5_layer10": [
+        "on",
+        " bree",
+        "oS",
+        "k",
+        "fall"
+      ],
+      "step5_layer11": [
+        "?",
+        "?).",
+        "on",
+        "ong",
+        "fall"
+      ],
+      "step5_layer12": [
+        "?).",
+        "falls",
+        "fall",
+        "on",
+        " tack"
+      ],
+      "step5_layer13": [
+        "?).",
+        "falls",
+        " either",
+        "imed",
+        "fall"
+      ],
+      "step5_layer14": [
+        "?).",
+        " either",
+        "either",
+        "falls",
+        " it"
+      ],
+      "step5_layer15": [
+        " either",
+        " it",
+        "?",
+        " whether",
+        ","
+      ],
+      "step5_layer16": [
+        " the",
+        " is",
+        " it",
+        ":",
+        "?"
+      ]
+    }
+  }
+]

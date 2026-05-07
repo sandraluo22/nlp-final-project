@@ -1,0 +1,647 @@
+[
+  {
+    "idx": 0,
+    "question": "You have a list of tasks to complete: A, B, C, D, and E. Task A takes 1 hour, B takes 3 hours, C takes 2 hours, D takes 4 hours, and E takes 5 hours. You have two workers at your disposal. Each of the workers can only handle one task at a time, but tasks can be done in parallel. What is the minimum number of hours required to finish all tasks if the workers can work simultaneously and start at the same time?\n\nOptions:\n1. 7 hours\n2. 8 hours\n3. 9 hours\n4. 10 hours\n5. Another answer",
+    "gold": 2,
+    "pred": 1,
+    "correct": false,
+    "response": "To find the minimum number of hours required to finish all tasks, we need to consider the most efficient way to distribute the tasks among the workers.\n\nLet's analyze the tasks:\n\n- Task A takes 1 hour, so it can be completed in 1 hour.\n- Task B takes 3 hours, so it can be completed in 3 hours.\n- Task C takes 2 hours, so it can be completed in 2 hours.\n- Task D takes 4 hours, so it can be completed in 4 hours.\n- Task E takes 5 hours, so it can be completed in 5 hours.\n\nTo minimize the total time, we should assign the tasks to the workers in a way that maximizes the utilization of the workers' time. \n\nWe can start with Task A, which takes 1 hour. Since Task A can be completed in 1 hour, we can assign it to Worker 1. \n\nNow, we have 4 hours remaining. We can assign Task B to Worker 2, which takes 3 hours. This leaves 1 hour remaining for Worker 1.\n\nNext, we can assign Task C to Worker 1, which takes 2 hours. This leaves 1 hour remaining for Worker 2.\n\nNow, we have 1 hour remaining for Worker 2. We can assign Task E to Worker 2, which takes 5 hours. This leaves 0 hours remaining for Worker 1.\n\nSince Worker 1 has completed all tasks in 6 hours, the total time required to finish all tasks is 6 hours.\n\nAnswer: 6",
+    "topk": {
+      "layer0": [
+        "\n\n",
+        "\n",
+        ".\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer1": [
+        "\n\n",
+        ".\n\n",
+        "\"\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer2": [
+        "\n\n",
+        "**\n\n",
+        "\n  \n",
+        "$\n\n",
+        ".\n\n"
+      ],
+      "layer3": [
+        " Hanging",
+        " \n\n",
+        ")}\n\n",
+        "%\n\n",
+        "itre"
+      ],
+      "layer4": [
+        "toi",
+        " \n\n",
+        ",...\n\n",
+        "ी।\n",
+        "\r\n\r\n"
+      ],
+      "layer5": [
+        " \n\n",
+        "ै।\n\n",
+        "elve",
+        "mute",
+        "ố"
+      ],
+      "layer6": [
+        "|.\n",
+        "ै।\n\n",
+        "’.\n\n",
+        "isque",
+        " hoax"
+      ],
+      "layer7": [
+        " Dao",
+        "olini",
+        "ै।\n\n",
+        "isque",
+        " fortune"
+      ],
+      "layer8": [
+        "oloj",
+        " jue",
+        "ishop",
+        "observe",
+        "onder"
+      ],
+      "layer9": [
+        "oday",
+        "ivent",
+        "耐",
+        "oreach",
+        "бу"
+      ],
+      "layer10": [
+        "angi",
+        "耐",
+        "ivent",
+        "unnel",
+        "atisation"
+      ],
+      "layer11": [
+        "まず",
+        "angi",
+        "ivent",
+        "unnel",
+        "ći"
+      ],
+      "layer12": [
+        "Let",
+        "To",
+        " Let",
+        " To",
+        "First"
+      ],
+      "layer13": [
+        "Let",
+        "To",
+        " Let",
+        "First",
+        " To"
+      ],
+      "layer14": [
+        "To",
+        "Let",
+        " To",
+        " Let",
+        "First"
+      ],
+      "layer15": [
+        "To",
+        "Let",
+        " To",
+        "First",
+        " let"
+      ],
+      "layer16": [
+        "To",
+        "Let",
+        "Step",
+        "First",
+        "We"
+      ]
+    }
+  },
+  {
+    "idx": 1,
+    "question": "In a class of 30 students, 17 play basketball, 13 swim, and 5 do both. If a student is chosen at random, what is the probability that either he/she swims or plays basketball?\n\nOptions:\n1. 5/6\n2. 12/30\n3. 17/30\n4. 25/30\n5. Another answer",
+    "gold": 1,
+    "pred": 1,
+    "correct": true,
+    "response": "To find the probability that a student either swims or plays basketball, we need to find the total number of students who play either basketball or swim, and divide it by the total number of students.\n\nFirst, let's find the number of students who play either basketball or swim. We know that 17 students play basketball and 5 students play both. So, the number of students who play either basketball or swim is 17 + 5 - 5 = 17.\n\nNow, let's find the total number of students. We know that there are 30 students in total.\n\nSo, the probability that a student either swims or plays basketball is 17/30.\n\nAnswer: 1",
+    "topk": {
+      "layer0": [
+        "\n\n",
+        "\n",
+        ".\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer1": [
+        "\n\n",
+        ".\n\n",
+        " \n\n",
+        "\"\n\n",
+        "\n\n\n"
+      ],
+      "layer2": [
+        "\n\n",
+        "**\n\n",
+        "\n  \n",
+        "$\n\n",
+        ".\n\n"
+      ],
+      "layer3": [
+        " Hanging",
+        " \n\n",
+        ")}\n\n",
+        "itre",
+        "\"}}\n"
+      ],
+      "layer4": [
+        "toi",
+        ",...\n\n",
+        "\r\n\r\n",
+        "_leg",
+        " vog"
+      ],
+      "layer5": [
+        "ै।\n\n",
+        " \n\n",
+        "ewolf",
+        ",...\n\n",
+        "ố"
+      ],
+      "layer6": [
+        "ै।\n\n",
+        " Forced",
+        "目的",
+        "isque",
+        "ake"
+      ],
+      "layer7": [
+        "etty",
+        "isque",
+        "ै।\n\n",
+        "ité",
+        "olini"
+      ],
+      "layer8": [
+        " jue",
+        "ritos",
+        "oloj",
+        ".Identifier",
+        "ihat"
+      ],
+      "layer9": [
+        "ivent",
+        "oreach",
+        "ولا",
+        " quang",
+        "耐"
+      ],
+      "layer10": [
+        "ulaire",
+        " tat",
+        "ivent",
+        "ализ",
+        "unnel"
+      ],
+      "layer11": [
+        "ulaire",
+        "まず",
+        " Step",
+        "ći",
+        "Step"
+      ],
+      "layer12": [
+        "To",
+        "First",
+        " To",
+        "まず",
+        " First"
+      ],
+      "layer13": [
+        "To",
+        "First",
+        " To",
+        "Step",
+        " First"
+      ],
+      "layer14": [
+        "To",
+        "First",
+        " To",
+        "Let",
+        "Step"
+      ],
+      "layer15": [
+        "To",
+        " To",
+        "First",
+        "Let",
+        " to"
+      ],
+      "layer16": [
+        "To",
+        "Let",
+        "First",
+        "Step",
+        "We"
+      ]
+    }
+  },
+  {
+    "idx": 2,
+    "question": "Assume you have a function F(x) = 2x + 3. What is the value of x that makes F(x) = 17?\n\nOptions:\n1. 5\n2. 6\n3. 7\n4. 8\n5. Another answer",
+    "gold": 3,
+    "pred": 3,
+    "correct": true,
+    "response": "To find the value of x, we need to set F(x) equal to 17 and solve for x.\n\nF(x) = 2x + 3\n17 = 2x + 3\n\nSubtract 3 from both sides:\n14 = 2x\n\nDivide both sides by 2:\n7 = x\n\nSo, the value of x that makes F(x) = 17 is 7.\n\nAnswer: 3",
+    "topk": {
+      "layer0": [
+        "\n\n",
+        "\n",
+        ".\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer1": [
+        "\n\n",
+        ".\n\n",
+        "\"\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer2": [
+        "\n\n",
+        "**\n\n",
+        "\n  \n",
+        "$\n\n",
+        ".\n\n"
+      ],
+      "layer3": [
+        " Hanging",
+        " \n\n",
+        ")}\n\n",
+        "%\n\n",
+        "_locale"
+      ],
+      "layer4": [
+        "toi",
+        " \n\n",
+        "_leg",
+        ",...\n\n",
+        "\r\n\r\n"
+      ],
+      "layer5": [
+        " \n\n",
+        "ै।\n\n",
+        "mute",
+        ",...\n\n",
+        "ố"
+      ],
+      "layer6": [
+        "isque",
+        " Forced",
+        "|.\n",
+        "ै।\n\n",
+        " hoax"
+      ],
+      "layer7": [
+        "etty",
+        " Dao",
+        "ै।\n\n",
+        " fortune",
+        " inserting"
+      ],
+      "layer8": [
+        " jue",
+        ".Identifier",
+        "olta",
+        "彩票",
+        " sagte"
+      ],
+      "layer9": [
+        "ivent",
+        "Determin",
+        "耐",
+        "ernel",
+        "kę"
+      ],
+      "layer10": [
+        "ulaire",
+        "ivent",
+        "itung",
+        "andin",
+        "ADE"
+      ],
+      "layer11": [
+        "Step",
+        " Step",
+        "ivent",
+        "まず",
+        " step"
+      ],
+      "layer12": [
+        "To",
+        " To",
+        "Step",
+        "_step",
+        " Step"
+      ],
+      "layer13": [
+        "To",
+        " To",
+        "Step",
+        "Let",
+        "First"
+      ],
+      "layer14": [
+        "To",
+        " To",
+        "Let",
+        "First",
+        "lets"
+      ],
+      "layer15": [
+        "To",
+        " To",
+        "Let",
+        " to",
+        "First"
+      ],
+      "layer16": [
+        "To",
+        "Let",
+        "Step",
+        "First",
+        "I"
+      ]
+    }
+  },
+  {
+    "idx": 3,
+    "question": "Imagine that you are creating numbered tickets for a lottery. Each ticket is a unique sequence of 3 digits from 0-9. How many different tickets can you create where at least two digits on the ticket are the same?\n\nOptions:\n1. 270\n2. 280\n3. 290\n4. 300\n5. Another answer",
+    "gold": 2,
+    "pred": 3,
+    "correct": false,
+    "response": "To find the number of different tickets with at least two digits the same, we can use the complement principle. \n\nFirst, let's find the total number of possible 3-digit numbers without any restrictions. Since each digit can be any number from 0-9, there are 10 options for each digit. Therefore, the total number of possible 3-digit numbers is 10 * 10 * 10 = 1000.\n\nNow, let's find the number of tickets with no repeated digits. For the first digit, there are 9 options (since we can't use 0). For the second digit, there are 9 options (since we can't use the first digit). For the third digit, there are 8 options (since we can't use the first two digits). Therefore, the number of tickets with no repeated digits is 9 * 9 * 8 = 648.\n\nNow, we can find the number of tickets with at least two digits the same by subtracting the number of tickets with no repeated digits from the total number of possible 3-digit numbers:\n\n1000 - 648 = 352\n\nTherefore, there are 352 different tickets with at least two digits the same.",
+    "topk": {
+      "layer0": [
+        "\n\n",
+        "\n",
+        ".\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer1": [
+        "\n\n",
+        ".\n\n",
+        "\"\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer2": [
+        "\n\n",
+        "**\n\n",
+        "\n  \n",
+        "$\n\n",
+        ".\n\n"
+      ],
+      "layer3": [
+        " Hanging",
+        " \n\n",
+        "itre",
+        ")}\n\n",
+        "_locale"
+      ],
+      "layer4": [
+        "toi",
+        " \n\n",
+        ",...\n\n",
+        "acam",
+        "_leg"
+      ],
+      "layer5": [
+        " \n\n",
+        "mute",
+        "ै।\n\n",
+        "ewolf",
+        "elve"
+      ],
+      "layer6": [
+        "|.\n",
+        " hoax",
+        "ै।\n\n",
+        "目的",
+        " \"/\";\n"
+      ],
+      "layer7": [
+        " Dao",
+        "nave",
+        "olini",
+        "ै।\n\n",
+        " inserting"
+      ],
+      "layer8": [
+        "oloj",
+        " jue",
+        "ritos",
+        "onder",
+        " secondo"
+      ],
+      "layer9": [
+        "ivent",
+        "oreach",
+        " nipple",
+        "oloj",
+        "olini"
+      ],
+      "layer10": [
+        "ivent",
+        "ulaire",
+        "angi",
+        "bart",
+        " tat"
+      ],
+      "layer11": [
+        "ulaire",
+        "angi",
+        "ivent",
+        "irts",
+        "elik"
+      ],
+      "layer12": [
+        "To",
+        " To",
+        "Let",
+        "First",
+        " inorder"
+      ],
+      "layer13": [
+        "To",
+        "Let",
+        " To",
+        "First",
+        " Let"
+      ],
+      "layer14": [
+        "To",
+        "Let",
+        " To",
+        "Since",
+        "First"
+      ],
+      "layer15": [
+        "To",
+        " To",
+        "Let",
+        "First",
+        " to"
+      ],
+      "layer16": [
+        "To",
+        "Let",
+        "Since",
+        "A",
+        "I"
+      ]
+    }
+  },
+  {
+    "idx": 4,
+    "question": "In a math competition, each competitor is given five problems to solve. Each problem is scored from 0 to 3 points, inclusively, depending on the accuracy and completeness of the solution. If all contestants received different total scores, what is the maximum number of competitors in the contest, assuming that none of them scored the same on any individual problem?\n\nOptions:\n1. 20\n2. 24\n3. 16\n4. 26\n5. Another answer",
+    "gold": 3,
+    "pred": 1,
+    "correct": false,
+    "response": "To maximize the number of competitors, we need to minimize the total score of each competitor. \n\nSince each problem is scored from 0 to 3 points, the minimum score for each problem is 0. \n\nTo minimize the total score of each competitor, we should assign the minimum score to each problem. \n\nThere are 5 problems, and each problem can be assigned a score of 0. So, the minimum total score for each competitor would be 0 + 0 + 0 + 0 + 0 = 0.\n\nSince there are 5 competitors, the total minimum score for all competitors would be 0 * 5 = 0.\n\nThis means that all competitors would score the same, which is 0. \n\nTherefore, the maximum number of competitors in the contest is 1.",
+    "topk": {
+      "layer0": [
+        "\n\n",
+        "\n",
+        ".\n\n",
+        " \n\n",
+        "\n\n\n"
+      ],
+      "layer1": [
+        "\n\n",
+        ".\n\n",
+        " \n\n",
+        "\"\n\n",
+        "\n\n\n"
+      ],
+      "layer2": [
+        "\n\n",
+        "\n  \n",
+        "**\n\n",
+        "$\n\n",
+        ".\n\n"
+      ],
+      "layer3": [
+        " Hanging",
+        " \n\n",
+        "itre",
+        ")}\n\n",
+        "%\n\n"
+      ],
+      "layer4": [
+        "toi",
+        ",...\n\n",
+        "_leg",
+        " vog",
+        "ी।\n"
+      ],
+      "layer5": [
+        " \n\n",
+        "ै।\n\n",
+        "mute",
+        "ố",
+        ",...\n\n"
+      ],
+      "layer6": [
+        "isque",
+        "ै।\n\n",
+        "’.\n\n",
+        "|.\n",
+        " \"/\";\n"
+      ],
+      "layer7": [
+        "isque",
+        "olini",
+        " Dao",
+        "ै।\n\n",
+        "etty"
+      ],
+      "layer8": [
+        " jue",
+        "oloj",
+        "onder",
+        "olta",
+        " countered"
+      ],
+      "layer9": [
+        "ivent",
+        "oreach",
+        "耐",
+        " nipples",
+        "oday"
+      ],
+      "layer10": [
+        "angi",
+        "耐",
+        "unnel",
+        "ivent",
+        "ulaire"
+      ],
+      "layer11": [
+        "elik",
+        "ulaire",
+        "ivent",
+        "まず",
+        "atisation"
+      ],
+      "layer12": [
+        "Let",
+        "To",
+        " Let",
+        " Approach",
+        " To"
+      ],
+      "layer13": [
+        "Let",
+        "To",
+        " Let",
+        "First",
+        " To"
+      ],
+      "layer14": [
+        "Let",
+        "To",
+        "Since",
+        " To",
+        " Let"
+      ],
+      "layer15": [
+        "To",
+        "Let",
+        " To",
+        "First",
+        " let"
+      ],
+      "layer16": [
+        "To",
+        "Let",
+        "Step",
+        "Since",
+        "We"
+      ]
+    }
+  }
+]
