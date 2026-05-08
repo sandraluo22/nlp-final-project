@@ -12,29 +12,29 @@ on the [`nlp-final-project`](https://github.com/sandraluo22/nlp-final-project) r
 
 ## Files
 
-| Path | Shape | Dtype | Notes |
-|---|---|---|---|
-| `svamp_teacher/activations.pt`    | `(1000, 17, 2048)`    | bf16 | (N, num_layers + 1 emb, hidden) |
-| `svamp_student/activations.pt`    | `(1000, 6, 17, 2048)` | bf16 | (N, latent_steps, num_layers + 1 emb, hidden) |
-| `logic701_teacher/activations.pt` | `(701, 17, 2048)`     | bf16 | |
-| `logic701_student/activations.pt` | `(701, 6, 17, 2048)`  | bf16 | |
-| `*/results.json`                  | —                     | text | per-question {idx, question, gold, pred, correct, response} |
+| Path                              | Shape                 | Dtype | Notes                                                       |
+| --------------------------------- | --------------------- | ----- | ----------------------------------------------------------- |
+| `svamp_teacher/activations.pt`    | `(1000, 17, 2048)`    | bf16  | (N, num_layers + 1 emb, hidden)                             |
+| `svamp_student/activations.pt`    | `(1000, 6, 17, 2048)` | bf16  | (N, latent_steps, num_layers + 1 emb, hidden)               |
+| `logic701_teacher/activations.pt` | `(701, 17, 2048)`     | bf16  |                                                             |
+| `logic701_student/activations.pt` | `(701, 6, 17, 2048)`  | bf16  |                                                             |
+| `*/results.json`                  | —                     | text  | per-question {idx, question, gold, pred, correct, response} |
 
 `num_layers + 1 = 17` includes the embedding output (index 0) plus 16 decoder block outputs (1..16).
 
 ## Confusion (teacher × student)
 
 **SVAMP (N=1000)** — teacher 0.622, student 0.608, agreement 0.708
-|                       | Student correct | Student incorrect |
+| | Student correct | Student incorrect |
 |---|---:|---:|
-| Teacher correct       | 469 | 153 |
-| Teacher incorrect     | 139 | 239 |
+| Teacher correct | 469 | 153 |
+| Teacher incorrect | 139 | 239 |
 
 **LOGIC-701 (N=701)** — teacher 0.233, student 0.031, agreement 0.745
-|                       | Student correct | Student incorrect |
+| | Student correct | Student incorrect |
 |---|---:|---:|
-| Teacher correct       |   3 | 160 |
-| Teacher incorrect     |  19 | 519 |
+| Teacher correct | 3 | 160 |
+| Teacher incorrect | 19 | 519 |
 
 ## Reproduction
 
@@ -48,3 +48,13 @@ bash run_sweep.sh
 LOGIC-701 student accuracy is artificially low because ~96% of free-text responses
 contain no parseable option number. A log-likelihood scorer over the five options
 would give a more honest comparison.
+
+## Logit lens
+
+`logit_lens.py` projects each saved activation through the base model's LM head
+and saves top-5 token IDs/logits per (question, [step,] layer) cell.
+
+- Run: `python logit_lens.py --activations runs/<split>/activations.pt
+--results runs/<split>/results.json --out_dir runs/<split>`
+- Outputs: `logit_lens.pt` (tensors, gitignored) and `logit_lens_sample.json`
+  (first 5 questions, human-readable, in git).
