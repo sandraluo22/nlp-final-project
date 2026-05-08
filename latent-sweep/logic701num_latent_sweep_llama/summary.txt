@@ -1,0 +1,13 @@
+Llama-1B CODI  x  LOGIC-701-numeric (open-ended numeric, 266 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 266
+
+  N | correct  |  acc
+  --+----------+------
+  0 |   34/266 | 0.128
+  1 |   34/266 | 0.128
+  2 |   31/266 | 0.117
+  3 |   33/266 | 0.124
+  4 |   32/266 | 0.120
+  5 |   31/266 | 0.117
+  6 |   32/266 | 0.120

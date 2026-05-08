@@ -1,0 +1,13 @@
+GPT-2 CODI  x  GSM-Hard (open-ended numeric, 1319 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 1319
+
+  N | correct  |  acc
+  --+----------+------
+  0 |   57/1319 | 0.043
+  1 |   78/1319 | 0.059
+  2 |   64/1319 | 0.049
+  3 |  106/1319 | 0.080
+  4 |  114/1319 | 0.086
+  5 |  114/1319 | 0.086
+  6 |  118/1319 | 0.089

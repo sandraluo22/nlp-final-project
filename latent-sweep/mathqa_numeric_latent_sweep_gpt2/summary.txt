@@ -1,0 +1,13 @@
+GPT-2 CODI  x  MathQA-numeric (open-ended numeric, 2501 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 2501
+
+  N | correct  |  acc
+  --+----------+------
+  0 |   34/2501 | 0.014
+  1 |   46/2501 | 0.018
+  2 |   50/2501 | 0.020
+  3 |   49/2501 | 0.020
+  4 |   49/2501 | 0.020
+  5 |   57/2501 | 0.023
+  6 |   47/2501 | 0.019

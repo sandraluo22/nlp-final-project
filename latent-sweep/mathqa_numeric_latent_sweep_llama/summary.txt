@@ -1,0 +1,13 @@
+Llama-1B CODI  x  MathQA-numeric (open-ended numeric, 2501 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 2501
+
+  N | correct  |  acc
+  --+----------+------
+  0 |  201/2501 | 0.080
+  1 |  227/2501 | 0.091
+  2 |  252/2501 | 0.101
+  3 |  236/2501 | 0.094
+  4 |  241/2501 | 0.096
+  5 |  260/2501 | 0.104
+  6 |  265/2501 | 0.106

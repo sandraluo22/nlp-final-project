@@ -1,0 +1,13 @@
+Llama-1B CODI  x  SVAMP (open-ended numeric, 1000 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 1000
+
+  N | correct  |  acc
+  --+----------+------
+  0 |  579/1000 | 0.579
+  1 |  599/1000 | 0.599
+  2 |  606/1000 | 0.606
+  3 |  608/1000 | 0.608
+  4 |  610/1000 | 0.610
+  5 |  612/1000 | 0.612
+  6 |  608/1000 | 0.608

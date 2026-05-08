@@ -1,0 +1,2130 @@
+[
+  {
+    "idx": 0,
+    "question": "You have a list of tasks to complete: A, B, C, D, and E. Task A takes 1 hour, B takes 3 hours, C takes 2 hours, D takes 4 hours, and E takes 5 hours. You have two workers at your disposal. Each of the workers can only handle one task at a time, but tasks can be done in parallel. What is the minimum number of hours required to finish all tasks if the workers can work simultaneously and start at the same time?",
+    "gold": 8.0,
+    "pred": 7.5,
+    "correct": false,
+    "response": "The answer is: 7.5"
+  },
+  {
+    "idx": 1,
+    "question": "Assume you have a function F(x) = 2x + 3. What is the value of x that makes F(x) = 17?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 2,
+    "question": "Imagine that you are creating numbered tickets for a lottery. Each ticket is a unique sequence of 3 digits from 0-9. How many different tickets can you create where at least two digits on the ticket are the same?",
+    "gold": 280.0,
+    "pred": 141.0,
+    "correct": false,
+    "response": "The answer is: 141"
+  },
+  {
+    "idx": 3,
+    "question": "In a math competition, each competitor is given five problems to solve. Each problem is scored from 0 to 3 points, inclusively, depending on the accuracy and completeness of the solution. If all contestants received different total scores, what is the maximum number of competitors in the contest, assuming that none of them scored the same on any individual problem?",
+    "gold": 16.0,
+    "pred": 5.0,
+    "correct": false,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 4,
+    "question": "You are in a room with four doors, each one leading to a tunnel. The first tunnel takes 4 minutes to traverse, the second takes 2 minutes, the third takes 5 minutes, and the fourth takes 1 minute. At the end of each tunnel is another room exactly like the first, with four doors and identical tunnel times. You must reach a room with a blue door that appears only after going through two consecutive tunnels that take an odd number of minutes to traverse. What is the minimum amount of time needed to reach the room with the blue door?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 5,
+    "question": "Claire has 4 tasks to complete with varying levels of urgency and duration. Task A must be done before Task C and takes 3 hours. Task B is not urgent but takes 4 hours. Task C is very urgent and takes 2 hours. Task D is moderately urgent and takes 1 hour. Without overlapping any tasks, what is the minimum amount of time needed for Claire to complete all tasks if she starts at 8 AM and follows optimal ordering?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 6,
+    "question": "You have two coins in your pocket. One is a standard coin with heads and tails, while the other is a trick coin with heads on both sides. You randomly pull one coin from your pocket and flip it 3 times, with all flips resulting in heads. What is the probability that you chose the trick coin?",
+    "gold": 88.89,
+    "pred": 0.3,
+    "correct": false,
+    "response": "The answer is: 0.3"
+  },
+  {
+    "idx": 7,
+    "question": "You have an array of 10 numbers which are 1, 2, 3, up to 10, in order. A function f(x) operates on this array and replaces each element with the sum of itself and its immediate neighbors. For example, f([1, 2, 3]) would become [3, 6, 5], since 1+2=3, 1+2+3=6, and 2+3=5. What will be the 5th element in the array after applying function f(x) 3 times?",
+    "gold": 135.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 8,
+    "question": "In a class of 30 students, 18 play football, 14 play basketball, and 8 play both football and basketball. How many students in the class do not play either football or basketball?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 9,
+    "question": "If the sum of the three consecutive numbers is 72, what is the largest number?",
+    "gold": 25.0,
+    "pred": 36.0,
+    "correct": false,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 10,
+    "question": "You come across an ancient wall with the following sequence of numbers engraved upon it: 2, 6, 12, 20, 30. Below the numbers, there is an inscription: 'To open the secret passage, add the correct stone number to continue the sequence'. There are four stones on the ground, each numbered with a different numeral: 42, 44, 48, 52. Which stone should you place to open the passage?",
+    "gold": 42.0,
+    "pred": 35.0,
+    "correct": false,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 11,
+    "question": "You are given an algorithm that takes an integer input and performs the following operations: If the number is even, it divides it by two. If the number is odd, it subtracts 1. The algorithm stops when the number reaches 1. How many operations does it take for the algorithm to stop if the initial number is 23?",
+    "gold": 7.0,
+    "pred": 14.0,
+    "correct": false,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 12,
+    "question": "You are given a series of inputs to a mystery function f(x) that produces outputs as follows: f(1)=3, f(2)=6, f(3)=11, f(4)=18. Determine the output for f(5).",
+    "gold": 27.0,
+    "pred": 35.0,
+    "correct": false,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 13,
+    "question": "Tom has a collection of dimes and quarters worth a total of $3.55. If he has 5 more dimes than quarters, how many quarters does Tom have?",
+    "gold": 8.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 14,
+    "question": "You come across a sequence of numbers where each number represents the number of letters in the English spelling of the previous number starting at 1. What is the 5th number in the sequence? The sequence begins like this: 1, 3, 5, ...",
+    "gold": 4.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 15,
+    "question": "You are presented with a sequence of numbers: 2, 6, 12, 20, 30, ... You need to determine the next number in the sequence. Hint: Consider the relationship between the position of the number in the sequence and its value.",
+    "gold": 42.0,
+    "pred": 32.0,
+    "correct": false,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 16,
+    "question": "You come across a sequence of numbers: 5, 10, 20, 40, 80, 160. What is the next number in the sequence?",
+    "gold": 320.0,
+    "pred": 255.0,
+    "correct": false,
+    "response": "The answer is: 255"
+  },
+  {
+    "idx": 17,
+    "question": "In a school, you are told that 60% of students use a bus, 30% use a bicycle and the rest walk to school. It's also known that 5% of bus users, 15% of bicycle users, and 10% of students who walk bring a lunch box to school. If a randomly selected student has a lunch box, what is the probability they used a bicycle to come to school?",
+    "gold": 52.9,
+    "pred": 13.0,
+    "correct": false,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 18,
+    "question": "In a sequence, each number is obtained by adding together the digits of the previous number, and then adding 3. If the sequence begins with the number 23, what is the fifth number in the sequence?",
+    "gold": 8.0,
+    "pred": 37.0,
+    "correct": false,
+    "response": "The answer is: 37"
+  },
+  {
+    "idx": 19,
+    "question": "You have been given a challenge to fit a number of 1x1x1 cubes into a larger cube container without any overlap or empty space. The larger cube container has a side length of 4 units. What is the minimum number of 1x1x1 cubes needed to fit entirely within the larger cube without any empty space remaining?",
+    "gold": 64.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 20,
+    "question": "Consider the following sequence: 2, 6, 12, 20, _. What number should replace the underscore to continue the sequence correctly?",
+    "gold": 30.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 21,
+    "question": "In a cube-cutting challenge, you have a solid cube made of wood. In each move, you can make a straight cut through the cube. After the first cut, you now have two pieces. You make a second cut through both pieces, and now have four pieces. You make a third cut through all four pieces, and have some number of pieces now. Without rearranging any pieces between cuts, what is the maximum number of pieces you could have after the third cut?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 22,
+    "question": "There is a birthday party where a game is being played. If the room contains 23 people, what is the probability that at least two people in the room share the same birthday? Assume each day of the year (excluding February 29) is equally likely for a birthday, and neglect leap years for simplicity.",
+    "gold": 50.73,
+    "pred": 0.0905,
+    "correct": false,
+    "response": "The answer is: 0.0905"
+  },
+  {
+    "idx": 23,
+    "question": "Alice, Bob, and Charlie are three engineers designing a cog-based mechanism for a clock. The mechanism includes three cogs that have to engage with each other without slipping. Cog A has 36 teeth, Cog B has 48 teeth, and Cog C has 60 teeth. If they design the mechanism for Cog A to make 10 full rotations, how many complete rotations will Cog C make in the same time, assuming there is no slippage and they rotate at a constant rate?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 24,
+    "question": "Imagine you encounter a bizarre sequence of numbers where each number depends on the one before it. The sequence begins with the number 2, and the rule to find the next number is to sum the digits of the square of the current number. The beginning of the sequence is as follows: 2, 4, 16, 7, 49, 16, 7... What is the 10th number in the sequence?",
+    "gold": 13.0,
+    "pred": 307.0,
+    "correct": false,
+    "response": "The answer is: 307"
+  },
+  {
+    "idx": 25,
+    "question": "Imagine a 3-dimensional cube. Each edge of this cube is painted red, green, or blue. Every edge must be painted a different color than its directly connected edges (edges sharing the same vertex). If the cube has 12 edges total, what is the minimum number of colors needed to satisfy this painting condition?",
+    "gold": 4.0,
+    "pred": 36.0,
+    "correct": false,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 26,
+    "question": "You have a mechanism with three gears in a sequence: A, B, and C. Gear A has 15 teeth and is connected to Gear B which has 30 teeth. Gear C has 45 teeth and is meshed with Gear B. If Gear A rotates at 60 rotations per minute (RPM), how fast does Gear C rotate?",
+    "gold": 20.0,
+    "pred": 60.0,
+    "correct": false,
+    "response": "The answer is: 60"
+  },
+  {
+    "idx": 27,
+    "question": "Consider a function f(x) that takes an integer and subtracts 1 if the number is odd, or divides the number by 2 if the number is even. Starting with the number 23, you apply the function repeatedly until you reach the number 1. How many times do you apply the function?",
+    "gold": 7.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 28,
+    "question": "If the following sequence of numbers follows a specific rule: 3, 5, 9, 17, 33, what would be the next number in the sequence?",
+    "gold": 65.0,
+    "pred": 51.0,
+    "correct": false,
+    "response": "The answer is: 51"
+  },
+  {
+    "idx": 29,
+    "question": "If you multiply a number by 3 and then subtract 2, you get 19. What is the original number?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 30,
+    "question": "Imagine a cube that is painted red on all its faces and is then cut into 27 identical smaller cubes. These smaller cubes are mixed up with identical cubes of the same size that have never been painted. If the ratio of painted to unpainted smaller cubes is 2:1, how many of the smaller cubes have exactly two red faces exposed?",
+    "gold": 12.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 31,
+    "question": "You have a 4x4x4 cube made up of 64 smaller 1x1x1 cubes. You paint the entire outer surface of the large cube. After it dries, you take apart the cube and notice that some of the smaller cubes have 0, 1, 2, or 3 painted faces. How many of the smaller cubes have exactly 2 painted faces?",
+    "gold": 12.0,
+    "pred": 32.0,
+    "correct": false,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 32,
+    "question": "An ant is located at one corner of a 10 x 10 x 10 cube. It needs to crawl to the diagonally opposite corner in the shortest possible path without crossing any of the cube's faces. What is the minimum surface distance the ant must travel?",
+    "gold": 14.14,
+    "pred": 110.0,
+    "correct": false,
+    "response": "The answer is: 110"
+  },
+  {
+    "idx": 33,
+    "question": "In a small town, there is a forecast that says there is a 30% chance of rain on Saturday and a 20% chance of rain on Sunday. Assuming the chance of rain on each day is independent, what is the probability that it will rain on both Saturday and Sunday?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 34,
+    "question": "Alice, Bob, and Charlie order a circular pizza that is cut into 12 equal slices. Alice eats 3 slices, Bob eats twice as many slices as Alice, and Charlie eats the remaining slices. If they order another identical pizza, how many slices will there be left if each of them eats the same number of slices as before, but in reverse order (Charlie first, then Bob, then Alice)?",
+    "gold": 0.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 35,
+    "question": "You have a 10x10x10 cube made up of 1x1x1 small cubes and you have painted the entire outer surface of the large cube. Now, if you break the cube into its individual 1x1x1 cubes, how many small cubes will have no paint on them?",
+    "gold": 512.0,
+    "pred": 90.0,
+    "correct": false,
+    "response": "The answer is: 90"
+  },
+  {
+    "idx": 36,
+    "question": "You have three gear wheels in a mechanism. Gear A has 6 teeth, Gear B has 8 teeth, and Gear C has 14 teeth. Gear A is connected directly to Gear B, but Gear B is NOT directly connected to Gear C. Instead, there's a chain running from Gear B to Gear C, so they rotate in the same direction. If Gear A rotates clockwise at a speed of 60 rotations per minute (RPM), how many RPM does Gear C have?",
+    "gold": 80.0,
+    "pred": 70.0,
+    "correct": false,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 37,
+    "question": "You have a deck of 52 playing cards which you shuffle thoroughly. Without looking, you draw four cards from the top of the deck. What is the probability that you draw exactly two hearts, given that you know there are no duplicates in the hearts you draw?",
+    "gold": 21.39,
+    "pred": 0.3,
+    "correct": false,
+    "response": "The answer is: 0.30"
+  },
+  {
+    "idx": 38,
+    "question": "In a certain mechanical workshop, there are three machines that can only operate one at a time due to limited electrical capacity. Machine A takes 3 hours to complete its job. Machine B takes 4 hours, and Machine C takes 6 hours. They all need to complete one job each. The workshop operates an 8-hour workday. If only one machine can operate at any given time and no machine can be stopped mid-operation, what is the maximum number of full days needed to complete all three jobs?",
+    "gold": 2.0,
+    "pred": 1.0,
+    "correct": false,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 39,
+    "question": "If the sequence of numbers is 4, 9, 19, 34, 54, what is the next number in the sequence?",
+    "gold": 79.0,
+    "pred": 80.0,
+    "correct": false,
+    "response": "The answer is: 80"
+  },
+  {
+    "idx": 40,
+    "question": "In a small town of 1000 residents, 60% are subscribed to the local newspaper, 75% are subscribed to the magazine, and 20% are subscribed to neither. What is the probability (in percentage) that a randomly chosen resident is subscribed to both the newspaper and the magazine?",
+    "gold": 55.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 41,
+    "question": "John is thinking of a number. If he multiplies the number by 6 and then subtracts 15 from the result, he gets 57. What was the original number John was thinking of?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 42,
+    "question": "Fill in the blank: 1, 4, 9, 16, 25, __. Find the next number in the sequence.",
+    "gold": 36.0,
+    "pred": 31.0,
+    "correct": false,
+    "response": "The answer is: 31"
+  },
+  {
+    "idx": 43,
+    "question": "Imagine you are given a function f(x) such that f(n) = f(n-1) + n for all integers n > 0, and f(0) = 0. If you would apply this function to the first four positive integers (1, 2, 3, and 4), what would be the sum f(1) + f(2) + f(3) + f(4)?",
+    "gold": 20.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 44,
+    "question": "A cube has edges of length 2 cm. If the largest possible cylinder is carved out of this cube, what will be the total surface area of the remaining part of the cube?",
+    "gold": 11.43,
+    "pred": 5.34,
+    "correct": false,
+    "response": "The answer is: 5.34"
+  },
+  {
+    "idx": 45,
+    "question": "You have a drawer with 12 socks, 6 of which are white and 6 are black. You are required to pick socks from the drawer without looking in order to get a matching pair. What is the minimum number of socks you need to pick to ensure you have at least one matching pair?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 46,
+    "question": "Suppose you have a function f(n) that takes a positive integer n and outputs another integer. Given the following outputs: f(1)=3, f(2)=6, f(3)=11, and f(4)=18, predict f(5). Note: The function f is not necessarily linear or polynomial.",
+    "gold": 27.0,
+    "pred": 38.0,
+    "correct": false,
+    "response": "The answer is: 38"
+  },
+  {
+    "idx": 47,
+    "question": "Emma is playing with colored blocks to build a tower. She has three colors of blocks to choose from: Red, Blue, and Green. If she wants to make sure that no two blocks of the same color are adjacent to each other in the vertical arrangement, in how many different ways can she build her tower using exactly one block of each color?",
+    "gold": 6.0,
+    "pred": 4.0,
+    "correct": false,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 48,
+    "question": "In a school with 600 students, it's known that 30% of students are taking a mathematics class, 20% are taking a physics class, and 10% are taking both mathematics and physics classes. If a student is selected at random, what is the probability that they are taking a mathematics class or a physics class?",
+    "gold": 40.0,
+    "pred": 0.5,
+    "correct": false,
+    "response": "The answer is: 0.5"
+  },
+  {
+    "idx": 49,
+    "question": "Four people need to cross a rickety bridge at night. Unfortunately, they have only one torch and the bridge is too dangerous to cross without it. The bridge can only hold two people at a time. It's a dark night and the torch only has enough light for 17 minutes. The four people cross at different speeds: one can cross in 1 minute, another in 2 minutes, the third in 5 minutes, and the last in 10 minutes. When two people cross the bridge together, they travel at the speed of the slower person. What is the fastest that they can all get across, and what is the order of their crossing?",
+    "gold": 17.0,
+    "pred": 32.0,
+    "correct": false,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 50,
+    "question": "You have a biased coin that has a 60% chance of landing on heads. If you flip the coin twice, what is the probability that you will get at least one head?",
+    "gold": 84.0,
+    "pred": 72.0,
+    "correct": false,
+    "response": "The answer is: 72"
+  },
+  {
+    "idx": 51,
+    "question": "You are given a task to operate a mechanism that consists of three levers. Each lever can be in an up (U) or down (D) position, and their initial state is UUD. The mechanism opens a door if the levers are positioned in a specific sequence. You are informed that switching the position of any lever will also toggle the position of the lever to its immediate right except for the last lever, which when toggled, does not affect the others. If you can only move one lever at a time, what is the minimum number of moves required to achieve the sequence DDU to open the door?",
+    "gold": 2.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 52,
+    "question": "An archer has a 1/3 probability of hitting the target with his first arrow, a 1/4 probability with his second arrow, and a 1/5 probability with his third arrow. What is the probability that he hits the target at least once out of his three attempts assuming each shot is independent?",
+    "gold": 0.6,
+    "pred": 0.733,
+    "correct": false,
+    "response": "The answer is: 0.733"
+  },
+  {
+    "idx": 53,
+    "question": "Anna, Ben, and Clara are standing in a straight line, facing north. Anna is 10 meters behind Ben, and Clara is 15 meters in front of Ben. They all start walking north at the same time. Anna walks at a speed of 2 meters per second, Ben walks at a speed of 1.5 meters per second, and Clara walks at a speed of 1 meter per second. After how many seconds will Anna be at the same point as Ben?",
+    "gold": 20.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 54,
+    "question": "You are given a device that operates only when plugged in. The device takes exactly 7 minutes to warm up before you can use it. Assuming it takes you 3 minutes to complete your task once the device is ready, and you want to minimize the time you spend waiting for the machine to warm up, what is the earliest you should turn on the machine if you want to be done with your task as close to 30 minutes from now as possible?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 55,
+    "question": "A function f takes an input number and triples it, then subtracts two. If you apply this function to a number and the result is 19, what was the original number?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 56,
+    "question": "In a small town, there are 2 bakeries, each selling blueberry muffins. Bakery A's muffins contain an average of 8 blueberries each with a standard deviation of 2 blueberries. Bakery B's muffins contain an average of 6 blueberries each with a variance of 4 blueberries. You decide to purchase one muffin from each bakery. What is the probability that the muffin from Bakery A will have more blueberries than the muffin from Bakery B? Assume the number of blueberries follows a normal distribution.",
+    "gold": 76.0,
+    "pred": 0.9,
+    "correct": false,
+    "response": "The answer is: 0.9"
+  },
+  {
+    "idx": 57,
+    "question": "In a peculiar sequence of numbers, each number is the sum of the 3 preceding numbers. The sequence starts with 2, 3, and 5. What is the 6th number in this sequence?",
+    "gold": 33.0,
+    "pred": 20.0,
+    "correct": false,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 58,
+    "question": "Imagine a cube that has a number from 1 to 6 on each face, much like a die. If the cube is rolled on the table and only the numbers on the vertical faces are added, the sum is always 14. The cube is now thrown and lands with the number 3 facing up. What is the number on the bottom face?",
+    "gold": 4.0,
+    "pred": 5.0,
+    "correct": false,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 59,
+    "question": "John has some apples. He gives half of his apples to Susan and then gives two apples to his friend Matt. After giving the apples to Matt, he has 5 apples left. How many apples did John start with?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 60,
+    "question": "A person has a certain number of socks in a drawer: 24 blue, 15 red, 9 green, and 12 gray. All socks are single and not paired up. The room is in complete darkness and picking socks at random. What is the minimum number of socks the person must take from the drawer in order to be certain that they have at least one matching pair?",
+    "gold": 5.0,
+    "pred": 62.0,
+    "correct": false,
+    "response": "The answer is: 62"
+  },
+  {
+    "idx": 61,
+    "question": "In a mystical land, there are three temples, each on top of a hill. The paths to the temples are such that there\u2019s always a distinct shortest path from any temple to another. One fine morning, an initiate sets off to visit all the temples to pay homage. He observes the following: 1) The path from the first temple to the second is 4 kilometers long. 2) The path from the second temple to the third is 3 kilometers long. 3) The uphill path from the first to the third temple is 5 kilometers long. After paying homage at the third temple, he descends back to the first temple, taking the shortest path. How long is his entire journey?",
+    "gold": 12.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 62,
+    "question": "A sculptor is creating a unique set of sculptures by stacking cubes of the same size. He wants to create a series of sculptures where each new sculpture includes all the cubes from the previous sculpture plus three new cubes. The first sculpture is a single cube. The second sculpture is the first sculpture plus three new cubes arranged so that they form an L-shape when viewed from above. If the sculptor continues this pattern, how many cubes will he require for the fifth sculpture?",
+    "gold": 13.0,
+    "pred": 14.0,
+    "correct": false,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 63,
+    "question": "A sequence starts with the number 1 and each subsequent number is three times the previous number plus 1. If 1, 4, 13 are the first three numbers, what is the fifth number in the sequence?",
+    "gold": 121.0,
+    "pred": 54.0,
+    "correct": false,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 64,
+    "question": "In a factory, a machine A can produce 20 units of product in 3 hours, while machine B can produce 25 units in 4 hours. If a large order requires the production of 200 units and both machines must start and end at the same time, what is the least number of hours both machines must run to meet the order?",
+    "gold": 16.0,
+    "pred": 48.0,
+    "correct": false,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 65,
+    "question": "You have an ongoing sequence of numbers where the next number is the sum of the last two numbers divided by 2. If the sequence starts with the numbers 4 and 8, what would be the 5th number in the sequence?",
+    "gold": 6.5,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 66,
+    "question": "Alice, Bob, and Charlie have a combined age of 90 years. Alice is twice as old as Bob, while Charlie is 5 years older than Alice. How old is Bob?",
+    "gold": 17.0,
+    "pred": 17.5,
+    "correct": false,
+    "response": "The answer is: 17.5"
+  },
+  {
+    "idx": 67,
+    "question": "A mysterious sequence of numbers is given: 4, 6, 12, 18, 30, 42, 60. What is the next number in this sequence?",
+    "gold": 66.0,
+    "pred": 96.0,
+    "correct": false,
+    "response": "The answer is: 96"
+  },
+  {
+    "idx": 68,
+    "question": "In a village, 60% of the households own a dog, 30% own a cat, and 10% own both a dog and a cat. If a household is chosen at random, what is the probability that the household owns either a dog or a cat (or both)?",
+    "gold": 80.0,
+    "pred": 70.0,
+    "correct": false,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 69,
+    "question": "You are an engineer tasked with designing a clock that operates unconventionally. Instead of a clock that counts hours up to 12 or 24 before resetting, this clock must show a maximum of 10 hours before starting over. Every hour, it chimes a number of times corresponding to the number of hours. In a 24-hour period, how many times will the clock chime in total?",
+    "gold": 120.0,
+    "pred": 24.0,
+    "correct": false,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 70,
+    "question": "In a sequence, each number is the product of the digits of the previous number plus the position in the sequence of that number (starting with 1). The first five numbers in the sequence are: 2, 4, 8, 64, 98. What is the sixth number in the sequence?",
+    "gold": 78.0,
+    "pred": 1636.0,
+    "correct": false,
+    "response": "The answer is: 1636"
+  },
+  {
+    "idx": 71,
+    "question": "Recently, a quality control manager at a factory decided to inspect the batches of light bulbs being produced. The manager knows that 5% of all bulbs produced are defective. He picks 10 bulbs randomly. What is the probability that exactly 2 bulbs are defective?",
+    "gold": 0.0746,
+    "pred": 0.2,
+    "correct": false,
+    "response": "The answer is: 0.2"
+  },
+  {
+    "idx": 72,
+    "question": "Sarah bought 2 bags of oranges and 3 bags of apples. A bag of oranges contains 10 oranges whereas a bag of apples contains 8 apples. How many pieces of fruit did Sarah buy in total?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": "The answer is: 44"
+  },
+  {
+    "idx": 73,
+    "question": "A jar contains 10 marbles: 3 red, 2 green, 4 blue, and 1 yellow. If you randomly select one marble from the jar, then without putting it back, you select another marble, what is the probability (in percentage) that both marbles will be of different colors?",
+    "gold": 77.78,
+    "pred": 22.22,
+    "correct": false,
+    "response": "The answer is: 22.22"
+  },
+  {
+    "idx": 74,
+    "question": "Imagine a function f(x) that takes an integer x and performs the following operations: 1. If x is even, it divides x by 2; 2. If x is odd and greater than 1, it multiplies x by 3 and adds 1; 3. If x is 1, it stops the process. Starting from an integer n, you apply the function repeatedly until you reach 1. If you start with the number 11, how many times do you apply the function (including the final step of reaching 1)?",
+    "gold": 14.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 75,
+    "question": "You are designing a circular gear system for a clock. This system should have three gears in contact with each other: Gear A, Gear B, and Gear C. Gear A has 12 teeth and Gear B has 16 teeth. If Gear A makes one full rotation, Gear B rotates 1.5 times. Gear C is in contact with Gear B and has an unknown number of teeth. If Gear B makes one full rotation, Gear C rotates twice. How many teeth does Gear C have?",
+    "gold": 8.0,
+    "pred": 48.0,
+    "correct": false,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 76,
+    "question": "You are given a sequence of numbers: 2, 6, 18, 54. What would be the next number in the sequence if the pattern continues?",
+    "gold": 162.0,
+    "pred": 120.0,
+    "correct": false,
+    "response": "The answer is: 120"
+  },
+  {
+    "idx": 77,
+    "question": "Alice is planning her work schedule for the week. She has 3 tasks to complete: Task A takes 4 hours, Task B takes 3 hours, and Task C takes 2 hours. She can work a maximum of 5 hours per day. She has personal commitments on Wednesday, so she can't work more than 2 hours. What is the minimum number of days Alice needs to finish all tasks if she wants to dedicate entire work blocks to a single task and not split any task across days?",
+    "gold": 3.0,
+    "pred": 2.0,
+    "correct": false,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 78,
+    "question": "Imagine a cube with sides of 2 units length. Each of its six faces is painted with a different color: red, blue, yellow, green, orange, and purple. The cube is then cut into 8 smaller cubes of equal size. How many of the smaller cubes will have exactly two painted sides?",
+    "gold": 12.0,
+    "pred": 4.0,
+    "correct": false,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 79,
+    "question": "Imagine a cube that is made up of smaller individual cubes - 3 cubes long, 3 cubes wide, and 3 cubes tall. If the outermost layer of smaller cubes is painted blue, how many of the smaller cubes have no blue paint on them?",
+    "gold": 1.0,
+    "pred": 18.0,
+    "correct": false,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 80,
+    "question": "You are given a function f(x) = x^2 - 7x + 10. You need to apply this function to the number 5 and then apply the resulting number to the function again. What will be the final result?",
+    "gold": 10.0,
+    "pred": 35.0,
+    "correct": false,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 81,
+    "question": "You and your friend are participating in a game where you need to draw a ball from a bag without looking. Inside the bag, there are 3 red balls, 2 blue balls, and 5 green balls. If you draw a red ball, you win $100. If you draw a blue ball, you don't win any money, but you get an additional draw. If you draw a green ball, you lose and win nothing. What is your probability of winning at least $100 if you get one draw?",
+    "gold": 30.0,
+    "pred": 0.35,
+    "correct": false,
+    "response": "The answer is: 0.35"
+  },
+  {
+    "idx": 82,
+    "question": "A box contains a set of three different keys: one for the front door, one for the back door, and one for the safe. The keys are indistinguishable by touch. If you need to open the safe and you must pick one key without looking, what is the minimum number of key pulls required to guarantee that you have selected the key for the safe?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 83,
+    "question": "You have a rectangular strip of paper. Your task is to fold the paper in a way to divide it into exactly 8 equal-sized sections with the minimum number of folds. Each fold runs from one side of the paper to the opposite side (like closing a book). What is the minimum number of folds required?",
+    "gold": 3.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 84,
+    "question": "A sequence of numbers goes as follows: 4, 9, 19, 39, 79. What is the next number in the sequence?",
+    "gold": 159.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 85,
+    "question": "You are given a box that has three gears connected in a sequence. Gear A has 12 teeth, Gear B has 8 teeth, and Gear C has 6 teeth. Gear A is connected to a handle that you can rotate, and for every full rotation of Gear A, Gear B rotates a specific number of times, which in turn causes Gear C to rotate a certain number of times. If you rotate the handle attached to Gear A once completely, how many full rotations does Gear C complete?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 86,
+    "question": "A snail is climbing up a 10-foot pole. Each day it climbs up 3 feet, but at night, it slides down 2 feet. On what day will the snail reach the top of the pole?",
+    "gold": 8.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 87,
+    "question": "In a drawer, there are 10 pairs of socks: 4 pairs of red, 3 pairs of blue, and 3 pairs of green. If you randomly pick socks from the drawer without looking, what is the minimum number of socks you need to pick to guarantee that you have at least one matching pair?",
+    "gold": 5.0,
+    "pred": 14.0,
+    "correct": false,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 88,
+    "question": "Decipher the logic behind the following sequence of numbers and determine the next number in the sequence: 2, 3, 5, 9, 17, ... What is the next number?",
+    "gold": 33.0,
+    "pred": 19.0,
+    "correct": false,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 89,
+    "question": "You're given a simple function f(x) that takes a positive integer and does the following: If the number is even, it divides it by 2. If it's odd, it subtracts 1 from it. Starting with the number 23, you repeatedly apply this function until you reach the number 1. How many times do you apply the function?",
+    "gold": 7.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 90,
+    "question": "You find yourself in a room with three machines. The first machine takes an input number and adds 3. The second machine multiplies the input number by 2. The third machine subtracts 5 from the input number. If you are to use each machine exactly once and can choose the order in which you use them, what is the highest number you can obtain with an initial input of 4?",
+    "gold": 9.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 91,
+    "question": "Consider the following sequence of numbers: 2, 3, 5, 7, 11. What is the next number in this sequence?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 92,
+    "question": "A box contains b blue, g green and r red balls, which are identical in shape and size, but differ in color. You are to draw two balls from the box without replacement. The probability of drawing a blue ball first and a green ball second is twice the probability of drawing a green ball first and a red ball second. If the total number of balls in the box is 10, find the number of green balls (g).",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 93,
+    "question": "You are trying to solve for x in the equation x^2 - 6x + 9 = 0. You recall that this is a quadratic equation and there is a specific method to solve it. What is the value of x?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 94,
+    "question": "Within a large rectangular room, there are four red, four blue, and four green chairs arranged so that each set of the same color forms the corners of a square. Each of the three squares have the same center point and the side length of each square is the same. If someone sits on a red chair facing the center, with a blue chair immediately to their left and a green chair immediately to their right, what is the minimum number of chairs they can pass by walking in a straight line to reach a wall of the room?",
+    "gold": 1.0,
+    "pred": 24.0,
+    "correct": false,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 95,
+    "question": "If the sequence follows the rule 'Add the previous two numbers to get the next number,' and starts with 2 and 3, what is the 6th number in the sequence?",
+    "gold": 21.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 96,
+    "question": "You have a 5x5x5 cube made up of 125 smaller unit cubes. If you remove the outermost layer, how many unit cubes are left?",
+    "gold": 27.0,
+    "pred": 100.0,
+    "correct": false,
+    "response": "The answer is: 100"
+  },
+  {
+    "idx": 97,
+    "question": "You have a large bowl with 10 apples. You take out 2 apples and eat them, then you put 1 apple back into the bowl. How many apples are left in the bowl?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 98,
+    "question": "Imagine an algorithm that takes any non-negative integer and outputs the sum of its digits. Given the following four numbers: 389, 567, 999, and 1945, which number, after going through the algorithm twice (i.e., feeding the output of the first run back into the algorithm), will yield the smallest result?",
+    "gold": 389.0,
+    "pred": 762.0,
+    "correct": false,
+    "response": "The answer is: 762"
+  },
+  {
+    "idx": 99,
+    "question": "You are given a sequence of numbers: 4, 9, 19, 39, 79. What is the next number in the sequence?",
+    "gold": 159.0,
+    "pred": 65.0,
+    "correct": false,
+    "response": "The answer is: 65"
+  },
+  {
+    "idx": 100,
+    "question": "In a series of numbers, each number is the total number of letters needed to spell out the integers in English starting from one. The sequence starts with 3 (one), 3 (two), 5 (three), 4 (four), 4 (five), 3 (six), 5 (seven), 5 (eight), 4 (nine), 3 (ten), ... What is the next number in the sequence?",
+    "gold": 6.0,
+    "pred": 41.0,
+    "correct": false,
+    "response": "The answer is: 41"
+  },
+  {
+    "idx": 101,
+    "question": "Suppose you have an old-style combination lock with three dials, each dial ranging from 0 to 9. For a prank, your friend scrambled the combination and then left the lock with only the middle dial visible, which reads '6'. Your friend hints that the sum of the three digits in the combination is 14. How many possible combinations should you try to open the lock?",
+    "gold": 9.0,
+    "pred": 100.0,
+    "correct": false,
+    "response": "The answer is: 100"
+  },
+  {
+    "idx": 102,
+    "question": "You are presented with a sequence of numbers that follow a specific logic: 2, 6, 12, 20, 30, 42, 56, 72, 90, ?. What is the next number in the sequence?",
+    "gold": 110.0,
+    "pred": 212.0,
+    "correct": false,
+    "response": "The answer is: 212"
+  },
+  {
+    "idx": 103,
+    "question": "You observe a sequence of operations on a number that is reduced by half in the first step, tripled in the second step, added by six in the third step, and finally decreased by four in the fourth step. If applying these operations in order on the initial number 100 creates a resulting number equal to the initial number, what will be the final number if you start with 50?",
+    "gold": 77.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 104,
+    "question": "You are given a sequence of numbers where each number represents an action. The actions are defined as follows: 1-Add 3, 2-Subtract 2, 3-Multiply by 5, and 4-Divide by 2. Starting with the number 10, follow the sequence of actions 2, 1, 3, 2, 4, 1. What is the result after performing all these actions in the given order?",
+    "gold": 29.5,
+    "pred": 22.0,
+    "correct": false,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 105,
+    "question": "A programmer is designing a function to return the position of the first occurrence of a character in a given string. The string only contains lowercase letters from 'a' to 'z' and the character to search is 'b'. The function returns -1 if the 'b' is not found. If the programmer tests the function with the string 'abracadabra', what does the function return?",
+    "gold": 1.0,
+    "pred": 19.0,
+    "correct": false,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 106,
+    "question": "You are given a set of gears connected in a linear fashion. Gear A has 20 teeth and is connected to Gear B which has 10 teeth. Gear B is connected to Gear C with 5 teeth. Gear A makes 15 rotations per minute (rpm). How many rotations per minute does Gear C make?",
+    "gold": 60.0,
+    "pred": 30.0,
+    "correct": false,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 107,
+    "question": "In a certain coding system, each letter of the alphabet is assigned a specific numerical value based on a function f(x) that operates on the position of the letter in the alphabet. If the function is defined as f(x) = x^2 - (3*x) + 2, where x is the position of the letter in the alphabet (A=1, B=2, ..., Z=26), what is the numerical value assigned to the letter 'D'?",
+    "gold": 6.0,
+    "pred": 21.0,
+    "correct": false,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 108,
+    "question": "You are given a sequence of numbers: 8, 11, 14, 17, 20. What is the next number in the sequence?",
+    "gold": 23.0,
+    "pred": 41.0,
+    "correct": false,
+    "response": "The answer is: 41"
+  },
+  {
+    "idx": 109,
+    "question": "You are given a cube with an edge of length 2 units. Inside the cube, a single point is marked at a distance of 1 unit from one of the corners of the cube. If you start from this point and want to reach the opposite corner of the cube by moving only along the edges, what is the minimum distance you need to cover?",
+    "gold": 5.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 110,
+    "question": "In a room, there are 4 corner lights (one in each corner). They are all connected to 4 switches outside the room. You can flip any switch and then enter the room to see the status of each light. However, once you exit the room, you can no longer see the lights. What is the minimum number of trips into the room needed to determine which switch controls which light? Assume the lights are initially off and you cannot see any light from outside the room.",
+    "gold": 2.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 111,
+    "question": "In a small town, there is a special streetlight that switches colors based on a special function. The function takes the current minute of the hour and outputs a color: Green, Yellow, or Red. Here is the function: f(m) = { Green if m mod 6 < 3, Yellow if 3 <= m mod 6 < 5, Red if m mod 6 >= 5 }. If you approach the streetlight at a random time, what is the probability (expressed as a percentage) that the streetlight will be Green?",
+    "gold": 50.0,
+    "pred": 13.0,
+    "correct": false,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 112,
+    "question": "In a certain sequence, each term after the first is obtained by multiplying the previous term by a certain number and then adding 1. If the first three terms of the sequence are 3, 10, and 31, what is the sixth term of the sequence?",
+    "gold": 850.0,
+    "pred": 127.0,
+    "correct": false,
+    "response": "The answer is: 127"
+  },
+  {
+    "idx": 113,
+    "question": "You have a bucket with a capacity of exactly 5 liters and another with a capacity of exactly 3 liters. You need to measure out exactly 1 liter. You have an unlimited water supply. What is the least number of steps you need to take to measure out exactly 1 liter, and what are those steps?",
+    "gold": 4.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 114,
+    "question": "Imagine a simple algorithm that takes a number as an input and applies the following steps: 1) If the number is even, divide it by 2. 2) If the number is odd, multiply it by 3 and then add 1. This algorithm is applied repeatedly to the result of the previous step. Starting with the number 11, how many steps does it take to reach the number 1 for the first time?",
+    "gold": 14.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 115,
+    "question": "A wealthy book collector has a wall with exactly 12 shelves to store her precious books. She has decided to organize her books with the following rules: No shelf should be empty, every shelf should have at least one more book than the shelf above it, and no two shelves should have the same number of books. What is the minimum number of books the collector must have to satisfy these conditions?",
+    "gold": 78.0,
+    "pred": 126.0,
+    "correct": false,
+    "response": "The answer is: 126"
+  },
+  {
+    "idx": 116,
+    "question": "You are trying to understand a function used in a computer program that converts a whole number into another number. You've noticed it follows a particular pattern. Here are some examples of the function's output: f(2)=6, f(4)=12, f(6)=18, and f(8)=24. What is the value of f(10)?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 117,
+    "question": "A machine consists of three gears connected in a line. The first gear has 12 teeth and turns at the rate of 60 revolutions per minute (RPM). The middle gear has 8 teeth, and the third gear has 18 teeth. How many RPM does the third gear make if the connection between the gears means that no gear slips and there's no loss in the energy transfer?",
+    "gold": 40.0,
+    "pred": 90.0,
+    "correct": false,
+    "response": "The answer is: 90"
+  },
+  {
+    "idx": 118,
+    "question": "You have a 3x3x3 Rubik's Cube which is scrambled. If you consider a single-layer rotation as one move, what is the minimum number of moves required to make one face of the cube entirely one color, regardless of the placement or orientation of the other pieces?",
+    "gold": 4.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 119,
+    "question": "You have a bag containing red, blue, and green marbles in the ratio of 3:4:5 respectively. If you have a total of 60 marbles, how many blue marbles must be removed so that the ratio of red to blue to green marbles in the bag becomes 3:2:5?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 120,
+    "question": "You have a 10x10x10 cube made up of 1x1x1 smaller cubes. If you removed the outermost layer of smaller cubes, how many would remain?",
+    "gold": 512.0,
+    "pred": 91.0,
+    "correct": false,
+    "response": "The answer is: 91"
+  },
+  {
+    "idx": 121,
+    "question": "In a classroom, there are 22 students. The chance of a student having blue eyes is 1/4. What is the likelihood that in a classroom of 22 students, exactly 5 students have blue eyes?",
+    "gold": 33.33,
+    "pred": 0.227,
+    "correct": false,
+    "response": "The answer is: 0.227"
+  },
+  {
+    "idx": 122,
+    "question": "A jar contains a mixture of black and white marbles. The probability of pulling out a black marble is 1/3. If there are 6 more white marbles than black marbles, how many marbles are there in total?",
+    "gold": 18.0,
+    "pred": 9.0,
+    "correct": false,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 123,
+    "question": "You come across a curious series of numbers written on an ancient wall: 2, 6, 12, 20, 30, 42, 56, __? The series seems to follow a particular pattern. Can you determine the next number in the sequence?",
+    "gold": 72.0,
+    "pred": 70.0,
+    "correct": false,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 124,
+    "question": "A cube has a side length of 4 units. It is painted on all its exterior surfaces and then cut into smaller cubes of 1 unit side length each. Without any of the smaller cubes being moved or taken apart, what is the total number of smaller cubes that have exactly two sides painted?",
+    "gold": 24.0,
+    "pred": 32.0,
+    "correct": false,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 125,
+    "question": "In a toy factory, three machines A, B, and C are responsible for producing red, green, and blue toy blocks, respectively. Machine A can produce a red block every 4 minutes, machine B can produce a green block every 3 minutes, and machine C can produce a blue block every 7 minutes. If all three machines are started simultaneously, after how many minutes will they produce a block at the same time again?",
+    "gold": 84.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 126,
+    "question": "Imagine you are in a game show where you have to split 100 gold coins among five crew members of a pirate ship, including yourself, according to the following rules: The members' ranking from highest to lowest is Captain, First Mate, Quartermaster, Boatswain, and Cabin Boy. You, being the Quartermaster, must propose a distribution plan. If at least half of the crew (including yourself) vote in favor of your plan, you get to distribute the coins accordingly. If not, you'll walk the plank. What is the most gold coins you can keep while still surviving, assuming the rest of the crew members are perfectly logical and greedy (trying to get as many gold coins as they can), and everyone knows each other's rank and intentions?",
+    "gold": 98.0,
+    "pred": 25.0,
+    "correct": false,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 127,
+    "question": "Alex is fascinated by sequences and finds a peculiar pattern in the sequence of numbers he writes on his notebook. The sequence starts with 1 and the subsequent numbers seem to be following a certain rule: 1, 11, 21, 1211, 111221, ... What would be the next number in Alex's sequence?",
+    "gold": 312211.0,
+    "pred": 122122.0,
+    "correct": false,
+    "response": "The answer is: 122122"
+  },
+  {
+    "idx": 128,
+    "question": "You have 150 socks in your drawer: 25 blue, 50 black, 50 white, and 25 grey. You select socks at random in the dark. What is the minimum number of socks you need to pull out to be sure you have a matching pair of black socks?",
+    "gold": 7.0,
+    "pred": 51.0,
+    "correct": false,
+    "response": "The answer is: 51"
+  },
+  {
+    "idx": 129,
+    "question": "If you add half of a number to a third of the same number, the result is 60. What is the original number?",
+    "gold": 72.0,
+    "pred": 120.0,
+    "correct": false,
+    "response": "The answer is: 120"
+  },
+  {
+    "idx": 130,
+    "question": "You are a project manager overseeing the construction of a small bridge. The construction needs to be completed within 10 days, and there are four main tasks to be done with the following constraints: Task A takes 3 days and must be done before task B and C. Task B takes 4 days and must be done after task A but before task D. Task C takes 2 days and can be done anytime after task A. Task D, taking 1 day, concludes the project. What is the minimum number of days in which the construction can be completed without breaking any constraints?",
+    "gold": 8.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 131,
+    "question": "A cube has a snake-like path drawn starting from the bottom left front corner to the top right back corner. The path only travels along the surfaces of the cube, and it must go over every part of the surface of the cube only once without crossing its own path. If the cube's edges are of equal length, how many edges long will this snake-like path be?",
+    "gold": 24.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 132,
+    "question": "Imagine a simple function f(x) that follows these rules: f(1) = 3, f(2) = 6, and f(3) = 11. If the function is defined such that f(n) = f(n-1) + n + 1, what is the value of f(5)?",
+    "gold": 22.0,
+    "pred": 25.0,
+    "correct": false,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 133,
+    "question": "You have a list of tasks to complete within a day. Each task takes a specific whole number of hours and must be completed without interruption. The tasks are as follows: Task A takes 3 hours, Task B takes 6 hours, Task C takes 1 hour, and Task D takes 2 hours. Your goal is to complete all tasks exactly within a 12-hour period with no overlapping, no idle time in between, and no splitting of tasks. In how many different orders can you arrange and complete these tasks?",
+    "gold": 24.0,
+    "pred": 792.0,
+    "correct": false,
+    "response": "The answer is: 792"
+  },
+  {
+    "idx": 134,
+    "question": "Alice, Bob, and Charlie are planning to paint a house together. The house has four walls, all the same size, and they have estimated that it would take one person 4 hours to paint one wall. They want to finish painting all four walls in the least amount of time. Alice can paint twice as fast as Charlie, and Bob can paint at 1.5 times the speed of Charlie. Assuming they can start painting more than one wall at a time and they all start and finish at the same time, what is the minimum amount of time required to paint all four walls if they work together optimally?",
+    "gold": 4.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 135,
+    "question": "A sequence follows a peculiar pattern: 16, 06, 68, 88, ?, 98. What number should replace the '?' in the sequence and why?",
+    "gold": 78.0,
+    "pred": 56.0,
+    "correct": false,
+    "response": "The answer is: 56"
+  },
+  {
+    "idx": 136,
+    "question": "You have a function f(x) that takes an integer and multiplies it by 2 if the number is even, or adds 5 if the number is odd. Starting with the number 1, what is the minimum number of times you need to apply this function to reach a number greater than 50?",
+    "gold": 5.0,
+    "pred": 11.0,
+    "correct": false,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 137,
+    "question": "Imagine you have a solid wooden cube that measures 3 units on each side. This cube is painted blue on all sides. After the paint dries, you slice this cube into 1-unit cubes. How many of the smaller 1-unit cubes will have exactly two sides painted blue?",
+    "gold": 12.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 138,
+    "question": "In a unique sequence, every term is structured as foo(n) = n^2 + n + 41 where n is a non-negative integer. What is the value of foo(10)?",
+    "gold": 151.0,
+    "pred": 41.0,
+    "correct": false,
+    "response": "The answer is: 41"
+  },
+  {
+    "idx": 139,
+    "question": "You are organizing a small conference and have scheduled 3 different speakers. Each speaker will give a 45-minute talk. The conference room is available for exactly 3 hours. The setup time for each speaker is 15 minutes, and it is required both before the first talk and between the other talks. What is the largest break time you can schedule between talks if all talks must finish before the 3-hour rental period ends?",
+    "gold": 0.0,
+    "pred": 30.0,
+    "correct": false,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 140,
+    "question": "Alice, Bob, and Charlie want to cross a river using a boat. They find a boat that can carry up to 2 people at a time. It takes Alice 1 minute to row across the river, Bob takes 3 minutes and Charlie takes 5 minutes. When two people are in the boat, they row at the speed of the slower person. What is the minimum time required for all three to get to the other side of the river, and how should they organize the trips?",
+    "gold": 15.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 141,
+    "question": "Imagine a 3x3x3 Rubik's Cube which has been disassembled into 27 small cubes and randomly reassembled. What is the probability that the reassembled cube can be solved without any cube being in its original position (ignoring orientation of the individual small cubes)?",
+    "gold": 0.0,
+    "pred": 0.002,
+    "correct": false,
+    "response": "The answer is: 0.002"
+  },
+  {
+    "idx": 142,
+    "question": "Alice, Bob, and Carol are discussing two different numbers. Alice says 'The number I am thinking of is greater than 4.' Bob says 'The number I am thinking of is not the highest.' Carol says 'The number I am thinking of is not the lowest.' All three are thinking of different numbers between 1 and 6, inclusive. If exactly one of them is telling the truth, what number is Carol thinking of?",
+    "gold": 5.0,
+    "pred": 2.0,
+    "correct": false,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 143,
+    "question": "You have a drawer with 10 pairs of socks, each pair having a different color from the others. Your room is in complete darkness and you want to leave for work wearing matching socks. What is the least number of socks you need to take from the drawer to ensure you have at least one matching pair?",
+    "gold": 11.0,
+    "pred": 14.0,
+    "correct": false,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 144,
+    "question": "You are given a set of building blocks: 10 cubes, 6 rectangular prisms twice as long as the cube edge, and 4 rectangular prisms three times as long as the cube edge. If you want to build a single solid cube structure where all edges align perfectly without any gaps or overlaps, what is the minimum number of pieces you need to use?",
+    "gold": 20.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 145,
+    "question": "In a mathematics competition, a group of participants scored the following marks: 95, 86, 70, 67, 95, 80, 50, 67, 80, 95. The organizers decided to give a prize to a participant randomly chosen from those who scored below the mean but above the median mark. What is the probability that the participant chosen will have a score of 80?",
+    "gold": 0.0,
+    "pred": 0.27,
+    "correct": false,
+    "response": "The answer is: 0.27"
+  },
+  {
+    "idx": 146,
+    "question": "There is a cube with edges of length 4 units. It is fully painted on all sides and then divided into smaller cubes of 1 unit edge each. Without any of the cubes being removed, a single straight cut is made through the cube. What is the maximum number of smaller cubes that can have paint on exactly one side now visble as a result of this cut?",
+    "gold": 16.0,
+    "pred": 64.0,
+    "correct": false,
+    "response": "The answer is: 64"
+  },
+  {
+    "idx": 147,
+    "question": "You have a to-do list with 4 tasks that you need to complete today. Task 1 will take 1 hour to complete, Task 2 will take 3 hours, Task 3 will take 4 hours, and Task 4 will take 2 hours. The tasks can be completed in any order. Your goal is to organize the tasks and complete them in the shortest time possible, considering the following constraints: a) After completing Task 2, you must take a break of at least 1 hour before starting the next task. b) Task 4 is dependent on the completion of Task 1, so it cannot be started until after Task 1 is finished. What is the shortest time in which you can complete all tasks, including the break after Task 2?",
+    "gold": 11.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 148,
+    "question": "In a village, there are 7 people who own a cat, a dog, or both a cat and a dog. If there is a total of 10 pets and no one owns more than one pet of each type, how many people own both a cat and a dog given that the probability of a randomly chosen pet being a cat is 70%?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 149,
+    "question": "You have 15 tasks to complete. Each task takes exactly 7 minutes to complete. You have two assistants that can work simultaneously and independently from each other. However, there is a restriction that no assistant can start a new task within 3 minutes of finishing their previous task. What is the minimum time required to complete all 15 tasks?",
+    "gold": 77.0,
+    "pred": 105.0,
+    "correct": false,
+    "response": "The answer is: 105"
+  },
+  {
+    "idx": 150,
+    "question": "In a card game, you have to pick exactly one card from a standard deck of 52 cards to win a round. The win condition is that the card must be either a spade or an ace. What is the minimal number of rounds you must play to guarantee at least a 90% probability of winning at least once? Assume you can't change the deck and every draw is independent.",
+    "gold": 6.0,
+    "pred": 11.0,
+    "correct": false,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 151,
+    "question": "You are given the initial term of an arithmetic sequence as 5, and the common difference is 2. The sequence represents an algorithm, where each term describes the number of operations performed at that stage. Your task is to find out how many total operations have been performed by the time the 10th stage is complete.",
+    "gold": 140.0,
+    "pred": 70.0,
+    "correct": false,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 152,
+    "question": "You are planning a dinner party for 5 friends and want to serve them pizza. Each friend eats either 2 or 3 slices, and you don't know their individual preferences. You need to decide how many pizzas to order. Each pizza has 8 slices. You want to minimize the number of leftover slices while ensuring that everyone has enough to eat. How many pizzas should you order?",
+    "gold": 3.0,
+    "pred": 2.0,
+    "correct": false,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 153,
+    "question": "You have two coins in your pocket, one is a regular coin and one is a biased coin that has a 75% chance of landing on heads. Without looking, you pull out one coin and flip it three times, each time it lands on heads. What is the probability that the coin you chose is the biased coin?",
+    "gold": 77.3,
+    "pred": 0.1875,
+    "correct": false,
+    "response": "The answer is: 0.1875"
+  },
+  {
+    "idx": 154,
+    "question": "You have a drawer containing 10 socks: 4 are red, 3 are blue, and 3 are green. You must select socks in the dark without knowing their color. What is the minimum number of socks you need to pick to ensure you have at least one matching pair?",
+    "gold": 4.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 155,
+    "question": "You are given a mysterious function F that takes two integer inputs and returns another integer. Your task is to determine the rule that function F follows. You have four input-output pairs as clues: (3,4)->7, (1,5)->6, (2,9)->11, and (7,1)->8. What is the result of the function F when the input pair is (5,3)?",
+    "gold": 8.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 156,
+    "question": "Imagine you have an algorithm that takes an input number, multiplies it by 3, and then subtracts 2. For example, if the input is 4, then after the algorithm processes this number, the result is 10 (because 3 * 4 - 2 = 10). Now imagine that this process is repeated in a loop. If you start with the number 1, after the fifth iteration of this process, what number will you have?",
+    "gold": 1.0,
+    "pred": 1023.0,
+    "correct": false,
+    "response": "The answer is: 1023"
+  },
+  {
+    "idx": 157,
+    "question": "In a village, 60% of the cats are black, and the rest are white. If 30% of the black cats and 70% of the white cats are male, what is the probability that a randomly chosen male cat from the village is black?",
+    "gold": 39.13,
+    "pred": 23.0,
+    "correct": false,
+    "response": "The answer is: 23"
+  },
+  {
+    "idx": 158,
+    "question": "You have been given the task to deliver three different packages to three different destinations in your city. The distances from your starting point to the destinations are 5 km, 10 km, and 15 km. You know that the routes to these destinations share a common road for the first 3 km from your starting point. Your task is to minimize the total distance traveled while delivering all three packages. You can only carry one package at a time in your vehicle. You are required to return to the starting point after each delivery before taking the next package. What is the minimum total distance you need to travel to deliver all packages and return to the starting point after the last delivery?",
+    "gold": 60.0,
+    "pred": 48.0,
+    "correct": false,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 159,
+    "question": "In a competition, Emily, Juan, and Lee are the final three contenders. Based on past performance statistics, Emily wins 55% of the time, Juan wins 30% of the time, and Lee wins 15% of the time when they compete against each other. For the final round, they will compete in three separate events, and the contender with the most wins out of three will be declared the overall champion. Assuming that past performance is an accurate predictor of the final round, what is the probability that Emily emerges as the overall champion?",
+    "gold": 57.475,
+    "pred": 55.0,
+    "correct": false,
+    "response": "The answer is: 55"
+  },
+  {
+    "idx": 160,
+    "question": "There is a cube made entirely of transparent material. Inside the cube is a smaller, solid red cube positioned at one corner of the large cube. You can see the inner red cube from the outside. How many of the large cube\u2019s faces show the red cube?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 161,
+    "question": "Samantha is a project manager working on three projects named A, B, and C. Each project must be finished within a specific timeframe without overlap. Project A has to start on a Monday and take exactly 3 days to complete. Project B requires 5 days, starting on the Monday immediately after project A is completed. Project C takes 4 days to complete and must start on a Monday two weeks after project B is completed. If Samantha starts project A on the first Monday of a month which has 31 days, on which date of the month will project C be completed?",
+    "gold": 29.0,
+    "pred": 27.0,
+    "correct": false,
+    "response": "The answer is: 27"
+  },
+  {
+    "idx": 162,
+    "question": "You are given a sequence of numbers: 1, 2, 4, 7, 11, 16, and you need to find the next number in this sequence. Each number is an integer and there is a logical rule that governs the sequence. What is the next number?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 163,
+    "question": "Ali, Bob, and Cara need to cross a river at night using a single wooden boat that can only carry two people at a time. The crossing times for Ali, Bob, and Cara are 1 minute, 2 minutes, and 5 minutes respectively. Due to the treacherous waters, the boat always needs to be rowed by someone to go back and forth. There is only one flashlight, which must be used for each trip. Assuming they can move at their maximum speeds when sharing the boat, what is the shortest amount of time needed for all three to get across the river?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 164,
+    "question": "You are in charge of allocating tasks to 4 workers for the next 5 days. Each worker can only perform one task per day. There are 3 types of tasks that need to be done: Coding (C), Testing (T), and Documenting (D). The requirements are such that over the five days, there must be a total of 10 Coding tasks, 5 Testing tasks, and 5 Documenting tasks done. Moreover, no worker is allowed to do the same type of task two days in a row, and each worker must perform each type of task at least once. What is the minimum number of workers needed to fulfill all requirements without violating any of the constraints?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 165,
+    "question": "You are presented with three mysterious machines, each with a red button and a green button. Machine A's green button must be pressed exactly three times more than its red button to activate. Machine B will activate if its green button is pressed an odd number of times after the red button is pressed exactly four times. Machine C requires its green button to be pressed twice for every press of the red button for activation. If you press the green buttons of machine A fifteen times and the red buttons of machine B four times, how many times must you press the green button on machine C after pressing its red button three times to activate all the machines?",
+    "gold": 6.0,
+    "pred": 26.0,
+    "correct": false,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 166,
+    "question": "You have a cube made up of 27 smaller identical cubes (3x3x3). The whole cube falls and breaks into pieces. You find 23 smaller cubes, 7 of them have 3 painted faces, 8 have 2 painted faces, and the rest have either one face painted or no faces painted. How many of the 23 smaller cubes have only one face painted?",
+    "gold": 7.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 167,
+    "question": "On a strange planet, there are exactly four cities: A, B, C, and D situated at the corners of a rectangular plateau. Each city is connected to the two nearest cities by a straight road. The total length of the roads is 100 units. If the width of the plateau, which is the distance between city A and B, is 40 units, what is the distance from city C to city D?",
+    "gold": 10.0,
+    "pred": 20.0,
+    "correct": false,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 168,
+    "question": "A company designed a strange new compression algorithm which operates as follows on a perfectly balanced binary tree structure: At each step, the algorithm removes all leaves and attaches them to the remaining leaves' parents, effectively reducing the height of the tree by 1 that counts as one 'compression cycle'. Given an initial tree of height H, where H equals 5, how many total 'compression cycles' does the algorithm need to perform until it has reduced the tree to a single node?",
+    "gold": 4.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 169,
+    "question": "You have a robot that can carry out tasks in your office. The robot takes 5 minutes to sort a stack of papers, 10 minutes to tidy a desk, and 15 minutes to restock supplies. Your list of things to be done consists of sorting 4 stacks of papers, tidying 3 desks, and restocking supplies once. The robot can only perform one task at a time, and it requires a break of 5 minutes after every two tasks it completes. You need all tasks to be completed in the shortest time possible. What is the optimal sequence of tasks?",
+    "gold": 80.0,
+    "pred": 60.0,
+    "correct": false,
+    "response": "The answer is: 60"
+  },
+  {
+    "idx": 170,
+    "question": "You are provided with a sequence of numbers: 3, 5, 9, 17, 33. Your goal is to determine the next number in this sequence. Each number in the sequence is related to its preceding numbers by a certain logic. Find the rule and apply it to determine the next number.",
+    "gold": 65.0,
+    "pred": 19.0,
+    "correct": false,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 171,
+    "question": "Alice has created a sequence where each number is generated by adding the square of the number's position in the sequence (where the first position is 1, the second position is 2, and so on) to the previous number. If the sequence starts with 1, what is the 6th number in the sequence?",
+    "gold": 91.0,
+    "pred": 32.0,
+    "correct": false,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 172,
+    "question": "Imagine a 3D space where you have a cube. Each edge of the cube measures 1 unit. Now, place a single ant at one corner of the cube. The ant can only move along the edges of the cube and must reach the diagonally opposite corner of the cube. The ant cannot move across the faces or through the interior of the cube. What is the shortest path the ant can take to reach the diagonally opposite corner measured in the number of edges traversed?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 173,
+    "question": "You are given a task to water three plants located at different corners of a triangular garden. The water source is at the center of the triangle. You have a single watering can that can carry enough water to water exactly one plant. Starting from the water source, what is the least number of trips you must make to water all three plants and return to the water source at the end?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 174,
+    "question": "Imagine you have a cube made up of 27 smaller cubes, in a 3x3x3 configuration. You start at one corner on the top layer and want to move to the diagonally opposite corner on the bottom layer. You can move in any direction along the edges of the smaller cubes, but you cannot move diagonally across a face or through a cube. What is the minimum number of moves required to reach the opposite corner?",
+    "gold": 6.0,
+    "pred": 27.0,
+    "correct": false,
+    "response": "The answer is: 27"
+  },
+  {
+    "idx": 175,
+    "question": "Consider a sequence where each term is the sum of the last three terms, with the first three terms being 1, 2, and 3. What is the 7th term of the sequence?",
+    "gold": 37.0,
+    "pred": 20.0,
+    "correct": false,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 176,
+    "question": "In a tournament, every player played exactly one match against each other player. Each match can result in a win or a loss, draws are not possible. There are no ties in the final ranking. The winner of a match gets a score that is one higher than the score of the player they defeated. The player who lost all his matches ends with a score of 0. Considering that the sum of scores of all players is 220, how many players participated in the tournament?",
+    "gold": 22.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 177,
+    "question": "Imagine you come across an ancient door with a numerical lock that consists of a sequence of numbers followed by a question mark. The sequence is as follows: 2, 6, 14, 30, ?, with the instruction that only those who enter the correct number that belongs where the question mark is can pass through. What number should you enter to unlock the door?",
+    "gold": 62.0,
+    "pred": 36.0,
+    "correct": false,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 178,
+    "question": "A sequence of numbers follows a particular rule: 8, 13, 20, 29, ?, 53. Find the missing number in the sequence.",
+    "gold": 40.0,
+    "pred": 36.0,
+    "correct": false,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 179,
+    "question": "In a factory, there are three machines A, B, and C that are used to create widgets. Machine A creates a widget every 3 minutes, Machine B every 7 minutes, and Machine C every 11 minutes. If all machines are turned on at the same time, how many minutes will pass before all three machines dispense a widget at the same minute for the first time?",
+    "gold": 231.0,
+    "pred": 3.0,
+    "correct": false,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 180,
+    "question": "You have three biased coins in a bag. Coin A comes up heads 25% of the time, Coin B heads 50% of the time, and Coin C heads 75% of the time. You pick a coin at random from the bag and flip it twice, getting heads both times. What is the probability that you picked Coin C?",
+    "gold": 64.0,
+    "pred": 0.75,
+    "correct": false,
+    "response": "The answer is: 0.75"
+  },
+  {
+    "idx": 181,
+    "question": "You are presented with a sequence of numbers that represent the number of dots in a series of images: 1, 5, 12, 22, 35, ? You have to figure out the principle that generates the sequence. What is the number represented by the question mark?",
+    "gold": 51.0,
+    "pred": 97.0,
+    "correct": false,
+    "response": "The answer is: 97"
+  },
+  {
+    "idx": 182,
+    "question": "You have a large cube made up of 27 smaller cubes (3x3x3) which are identical in appearance. One of the small cubes is made of gold and weighs significantly more than the others. Using a balance scale, what is the minimum number of weighings you need to definitely determine which of the small cubes is the gold one?",
+    "gold": 3.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 183,
+    "question": "In a spacious, square gallery room, there are four sculptures placed at the four corners. Each sculpture is to be illuminated by a spotlight fixed to the ceiling at a point that is equidistant from all the sculptures it lights. The catch, however, is that the spotlights must shine directly downwards and cannot overlap in their paths of light, meaning each sculpture can only be lit by one spotlight. Knowing that the room is symmetrical and allows for perfect placement of the spotlights, how many spotlights are needed to illuminate all four sculptures?",
+    "gold": 1.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 184,
+    "question": "You encounter a sequence of numbers where each term after the first two is the sum of the previous two terms multiplied by the sum of their positional indices in the sequence. If the sequence begins with 2 and 3, what is the fifth term in the sequence?",
+    "gold": 735.0,
+    "pred": 24.0,
+    "correct": false,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 185,
+    "question": "Imagine you encounter a series of numbers written on an ancient wall: 2, 6, 12, 20, 30, ... You notice a pattern in these numbers and deduce that each number is part of a sequence. To uncover the next number in the sequence, you must understand the underlying rule. Determine the next number in this sequence.",
+    "gold": 42.0,
+    "pred": 62.0,
+    "correct": false,
+    "response": "The answer is: 62"
+  },
+  {
+    "idx": 186,
+    "question": "Within a sequence, every two consecutive natural numbers (starting with 1 and 2) are transformed into their sum and the result is then placed at the end of the sequence. This transform is repeated indefinitely: starting with [1, 2], the next number is 3 (1+2), making the sequence [1, 2, 3]. The next would be 2+3=5, making it [1, 2, 3, 5], and so on. If this sequence continues, what is the 10th number to be placed at the end of the sequence?",
+    "gold": 89.0,
+    "pred": 17.0,
+    "correct": false,
+    "response": "The answer is: 17"
+  },
+  {
+    "idx": 187,
+    "question": "In a special sequence, each number is generated by the total number of letters when spelling the previous number in English. If the sequence begins with the number 4, what is the fifth number in the sequence?",
+    "gold": 4.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 188,
+    "question": "You have a cube made out of white smaller cubes - a 3x3x3 structure. If you dip the entire large cube into a pot of blue paint, how many of the smaller cubes will have exactly two blue faces?",
+    "gold": 12.0,
+    "pred": 27.0,
+    "correct": false,
+    "response": "The answer is: 27"
+  },
+  {
+    "idx": 189,
+    "question": "You have a grid of 4x4 squares, each square can be painted black or white. You start with all squares painted white. The grid is magical in a way that when you paint one square black, all the squares in the same row and column invert their colors (white squares become black and black squares become white). What is the minimum number of squares you need to paint to make all squares black?",
+    "gold": 4.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 190,
+    "question": "Alice, Bob, and Charlie are co-workers who are tasked with completing a project in the least amount of time possible. They discovered that each of them is efficient in specific tasks: Alice takes 3 hours to complete Task A, Bob takes 2 hours to complete Task B, and Charlie takes 1 hour to complete Task C. The project consists of these three tasks which can be completed in parallel but each person can work on only one task at a time. If anyone starts working on a task, they need to finish it before someone else can take over. What is the shortest time in which the project can be completed?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 191,
+    "question": "Imagine there is a function F(n) that takes a natural number as input and gives another natural number as output. You only know that F(2) = 3 and F(3) = 5. In addition, the function F satisfies two properties: F(n) is always odd, and F(n * m) = F(n) * F(m) for any natural numbers n and m. What is F(6)?",
+    "gold": 15.0,
+    "pred": 30.0,
+    "correct": false,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 192,
+    "question": "In a classroom, there are 20 students. The teacher notices that the probability of at least two students sharing the same birthday is higher than the probability of all students having unique birthdays. At least how many students must be in the classroom for the teacher\u2019s observation to be true? Assume no leap years.",
+    "gold": 23.0,
+    "pred": 21.0,
+    "correct": false,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 193,
+    "question": "You come across an ancient door with a sequence of numbers inscribed upon it: 2, 4, 8, 16, 32. Above it, a question is posed: 'Continue the sequence.' Four options are presented on stones beneath the door: 48, 64, 72, 96. Only by placing the stone with the correct number into the door's keyhole will it open. Which stone should you pick?",
+    "gold": 64.0,
+    "pred": 100.0,
+    "correct": false,
+    "response": "The answer is: 100"
+  },
+  {
+    "idx": 194,
+    "question": "Four friends are planning to attend a series of events in a single day. They want to maximize the total number of different events they can attend. The schedule is as follows: Event A (09:00-11:00), Event B (10:30-12:30), Event C (11:15-13:15), and Event D (12:45-14:45). Assume traveling time between events is negligible and each friend can attend an event from the beginning to the end only if they don't overlap. What is the maximum number of different events the group can attend in total if they split up optimally and each event requires at least one of them to be present?",
+    "gold": 4.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 195,
+    "question": "You are the manager of a small IT company that is working on two projects. Project X requires 10 more days to complete with 2 developers, while Project Y requires 20 more days with the same workforce. If one developer from Project X moves to Project Y, both projects will finish at the same time. How many days will it take to finish both projects if this change is made?",
+    "gold": 20.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 196,
+    "question": "You are given two functions, f(x) = 2x + 3 and g(x) = -x^2 + 5. What is the maximum integer value for h(x) when h(x) is defined as the minimum value of f(x) and g(x) for any integer x from -10 to 10 inclusive?",
+    "gold": 3.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 197,
+    "question": "You are given a function F that takes an integer and performs the following steps: 1) If the integer is odd, the function triples the integer and adds one. 2) If the integer is even, the function halves the integer. Starting with the number 26, the function is applied repeatedly until the number becomes 1. How many times is the function applied before reaching 1, including the final application that yields 1?",
+    "gold": 10.0,
+    "pred": 16.0,
+    "correct": false,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 198,
+    "question": "In a certain computer game, you can gain strength by collecting magical artefacts spread randomly in a dungeon. Every time you collect an artefact, there's a chance that an enemy will appear who you must defeat to keep the artefact. The function that describes your total strength 'S' after collecting 'n' artefacts is S(n) = 10n - 3(a) where 'a' is the number of artefacts for which an enemy appeared, and you successfully defeated them. When you try to collect your first artefact, the probability of an enemy appearing is 50%. Each successful encounter with an enemy (if they appear and you defeat them) reduces the chance of an enemy appearing for the next artefact by 5%, down to a minimum of 10% chance. If you end up with a total strength of 112 after collecting 12 artefacts, how many artefacts resulted in an enemy encounter?",
+    "gold": 3.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 199,
+    "question": "In a small town, there are two taxi companies, Blue Taxis and Green Taxis. Blue Taxis has 85 taxis, whereas Green Taxis has 15 taxis. Tests show that Blue Taxis are involved in 50% more accidents per taxi than Green Taxis. One night, a taxi is involved in a hit-and-run accident. A witness identifies the taxi as a Blue Taxi. Based on past reliability tests, the witness's identification is 80% accurate. What is the probability that the taxi involved in the accident was actually a Blue Taxi?",
+    "gold": 97.14,
+    "pred": 80.0,
+    "correct": false,
+    "response": "The answer is: 80"
+  },
+  {
+    "idx": 200,
+    "question": "You are given a function f(n) that takes a natural number n as input and performs the following steps:\n1. If n is even, divide it by 2.\n2. If n is odd and greater than 1, multiply n by 3 and add 1 to it.\n3. If n equals 1, the function stops.\nStarting with the number 13, how many steps will it take to reach 1 using this function?",
+    "gold": 9.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 201,
+    "question": "Imagine you're looking at a cube that has 6 faces, each face painted with a different color: red, blue, yellow, green, orange, and purple. The cube is then placed inside a completely dark room. You have a flashlight that you can shine on only one face of the cube at a time to reveal its color. What is the minimum number of faces you need to illuminate to guarantee you can determine the color of every face of the cube?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 202,
+    "question": "Ella has been given a project that requires her to complete three different tasks. Each task can be started after the previous one is finished. The tasks take 3, 5, and 7 hours respectively. She can choose to work for a maximum of 8 hours per day. However, if a task is started, she would like to finish it the same day. She cannot work on weekends. What is the minimum number of days Ella needs to complete the project?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 203,
+    "question": "You have been invited to play a game. The game consists of drawing a single card from a regular, well-shuffled deck of 52 playing cards. Before drawing, you have to place a bet on whether the card will be black or red. However, this is a special deck where 2 black cards have been turned into red. What is the probability, in percentage, that you will draw a red card?",
+    "gold": 53.85,
+    "pred": 7.69,
+    "correct": false,
+    "response": "The answer is: 7.69"
+  },
+  {
+    "idx": 204,
+    "question": "You are the event organizer for a chess tournament where every player has to play every other player exactly once. The venue has a limited number of chess tables that can only host a total of 10 games simultaneously. If the tournament has 100 players, what is the least number of rounds required to complete the tournament (assuming a round can't start until all games in the previous round have finished)?",
+    "gold": 495.0,
+    "pred": 50.0,
+    "correct": false,
+    "response": "The answer is: 50"
+  },
+  {
+    "idx": 205,
+    "question": "You have four rods of different lengths: 8 cm, 5 cm, 12 cm, and 3 cm. You must create a three-dimensional shape with all four rods so that each rod is connected to two others at its ends, forming a closed structure with triangular faces. How many distinct shapes can you form, considering that two shapes are distinct if they cannot be rotated or mirrored to look identical?",
+    "gold": 1.0,
+    "pred": 1890.0,
+    "correct": false,
+    "response": "The answer is: 1890"
+  },
+  {
+    "idx": 206,
+    "question": "You find yourself in front of three doors with an electronic locking mechanism. Each door has a keypad with digits 0-9 and a display showing a number. The doors' displays show 120, 65, and 91, respectively. A note next to the doors reads: 'I lock with the product of two prime numbers. One door leads outside, but be warned: one door will trigger an alarm, and the other is permanently locked even if you guess correctly. The sum of primes for the outside door is less than the permanently locked door and greater than the alarm door.' Only the door that leads outside will open when the correct code is entered. What is the code of the door that leads outside?",
+    "gold": 65.0,
+    "pred": 13.0,
+    "correct": false,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 207,
+    "question": "Consider a function denoted by f(x) which describes the number of distinct paths from the bottom-left corner to the top-right corner of an x by x grid, restricting movements to only right and up. Given that the function starts with f(1)=2, f(2)=6, find f(3).",
+    "gold": 20.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 208,
+    "question": "In a small town, there are three different weather forecasts provided by three different companies: SunCo, CloudyInc, and RainMakers. The probability that SunCo predicts the correct weather is 0.7, the probability that CloudyInc is correct is 0.6, and the probability that RainMakers is accurate is 0.8. On a particular day, all three companies predict rain. Given that it ends up actually raining on that day, what is the probability that all three companies predicted correctly? Assume the occurrence of rain is independent from the companies' predictions.",
+    "gold": 0.336,
+    "pred": 0.448,
+    "correct": false,
+    "response": "The answer is: 0.448"
+  },
+  {
+    "idx": 209,
+    "question": "You are playing a game where you have a deck of 20 cards, numbered from 1 to 20. You draw 4 cards at random without replacement. What is the probability that all the drawn cards are odd numbers?",
+    "gold": 4.33,
+    "pred": 0.16,
+    "correct": false,
+    "response": "The answer is: 0.16"
+  },
+  {
+    "idx": 210,
+    "question": "You are in charge of planning the transportation of identical goods from a factory to two separate warehouses. The first warehouse is located 40 miles east of the factory, and the second warehouse is located 30 miles north. Your truck can carry enough goods for only one warehouse per trip, and it costs $2 per mile to run the truck. To save on cost, you have decided to deliver the goods to both warehouses using the least amount of miles possible, but you must return to the factory after each delivery before heading to the other warehouse. What is the least amount of miles you would need to cover to complete both deliveries?",
+    "gold": 140.0,
+    "pred": 140.0,
+    "correct": true,
+    "response": "The answer is: 140"
+  },
+  {
+    "idx": 211,
+    "question": "You have to paint three houses, each one can be painted in one of three colors: red, green, or blue. The cost of painting each house a particular color is different and is given by a 3x3 cost matrix where the rows represent houses and the columns represent colors. Given the cost matrix [[17, 2, 17], [16, 16, 5], [14, 3, 19]], you have to paint each house in such a way that no two adjacent houses have the same color and the total cost of painting is minimized. What is the minimum cost?",
+    "gold": 10.0,
+    "pred": 60.0,
+    "correct": false,
+    "response": "The answer is: 60"
+  },
+  {
+    "idx": 212,
+    "question": "Imagine a simple function f(x) that takes an integer x and returns another integer. The function is defined as follows: If x is even, divide it by 2. If x is odd and greater than 1, multiply it by 3 and add 1. If x is 1, return 4. Now, consider the sequence generated by this function, starting with an integer N. This sequence keeps applying the function on its output until it reaches the number 1 for the first time. For which starting value N (from the options below) the above described function sequence first reaches the number 1 after exactly 7 iterations?",
+    "gold": 3.0,
+    "pred": 2.0,
+    "correct": false,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 213,
+    "question": "In a remote village, every family decided to plant trees. There are 100 families, and each family plants either 1, 2, or 3 trees. It is known that the probability of a family planting 1 tree is 50%, the probability of planting 2 trees is 30%, and for planting 3 trees is 20%. You are a researcher and you want to compute the expected number of trees planted by all families in the village. What is the expected number of trees?",
+    "gold": 170.0,
+    "pred": 260.0,
+    "correct": false,
+    "response": "The answer is: 260"
+  },
+  {
+    "idx": 214,
+    "question": "You are given the following function definition: f(x) = 2x + 1, and you are tasked to apply this function to the number 5 three times iteratively. This means you first apply the function to 5, take the result, and then apply the function to that result two more times. What is the final result after three iterations?",
+    "gold": 47.0,
+    "pred": 56.0,
+    "correct": false,
+    "response": "The answer is: 56"
+  },
+  {
+    "idx": 215,
+    "question": "In a village, there is a peculiar family tree that showcases a unique genetic trait. Exactly 50% of the descendants inherit this trait. A villager from this family, named Alex, has two children. One of them, named Jamie, has been confirmed to have the trait. What is the probability that Alex's other child, Pat, also has the trait, assuming that the probability of each child inheriting the trait is independent from the other?",
+    "gold": 50.0,
+    "pred": 20.0,
+    "correct": false,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 216,
+    "question": "Four numbers form a sequence: 4, 9, 25, 49. What is the next number in this sequence?",
+    "gold": 121.0,
+    "pred": 35.0,
+    "correct": false,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 217,
+    "question": "In a certain number sequence, each number after the first follows a specific but simple rule based on its position and the preceding number. The sequence starts with 1 and the first six numbers are: 1, 2, 4, 7, 11, 16. What is the seventh number in the sequence?",
+    "gold": 22.0,
+    "pred": 17.0,
+    "correct": false,
+    "response": "The answer is: 17"
+  },
+  {
+    "idx": 218,
+    "question": "You are playing a game where you must move a knight piece from the top-left corner of a chessboard to the bottom-right corner in as few moves as possible. The knight moves in an L shape, either two squares vertically and one square horizontally, or two squares horizontally and one square vertically. What is the minimum number of moves the knight must make to reach the bottom-right corner?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 219,
+    "question": "You are given a cube where each side measures 2 meters. Inside this cube, there is a smaller cube attached to one of the corners, such that it shares one vertex with the larger cube. The sides of the smaller cube measure precisely half the length of the larger cube's sides. If you were to draw the longest possible straight line inside the large cube that touches any point of the small cube and ends at the furthest point of the larger cube, how long would that line be?",
+    "gold": 3.464,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 220,
+    "question": "In a certain town, there are two events that can occur on any given day: it can either rain or not rain. The probability that it rains on any day is 40%. If it did not rain yesterday, the probability that it will rain today doubles. Today is Tuesday, and it did not rain on Monday. What is the probability that it will rain today on Tuesday?",
+    "gold": 80.0,
+    "pred": 80.0,
+    "correct": true,
+    "response": "The answer is: 80"
+  },
+  {
+    "idx": 221,
+    "question": "In a factory, there are three conveyor belts with sensors at their start and end points. Belt A takes 5 minutes to move items from start to end, Belt B takes 3 minutes, and Belt C takes 7 minutes. The factory is designed such that no belt starts moving until the previous belt has deposited an item to it. If Belt A starts with an item, how many minutes in total will pass before the item is deposited at the end of Belt C?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 222,
+    "question": "You have an array A of 5 different numbers, which are 2, 4, 6, 8, and 10. A function F(x) is applied to every element which multiplies the element by the index of the element (starting with 1). After applying the function F(x), the elements are summed up to calculate S. What is the value of S?",
+    "gold": 110.0,
+    "pred": 310.0,
+    "correct": false,
+    "response": "The answer is: 310"
+  },
+  {
+    "idx": 223,
+    "question": "In a special school, students are only allowed to enroll in courses in pairs, and each pair must be unique across all classes. There are a total of 20 students, and the school offers exactly enough courses so that all possible pair combinations can enroll in different courses without repetition. What is the total number of courses the school offers?",
+    "gold": 190.0,
+    "pred": 380.0,
+    "correct": false,
+    "response": "The answer is: 380"
+  },
+  {
+    "idx": 224,
+    "question": "In a unique sequence, each number is the sum of the 3 previous numbers. The sequence starts with 2, 2, and 4. What is the 6th number in the sequence?",
+    "gold": 26.0,
+    "pred": 18.0,
+    "correct": false,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 225,
+    "question": "In a square room adorned with paintings on each wall, a spider starts climbing one wall towards the ceiling. Each minute, the spider climbs 3 feet but slips down 2 feet due to the smoothness of the wall. If the wall is 19 feet high, how long will it take for the spider to reach the top of the wall?",
+    "gold": 17.0,
+    "pred": 19.0,
+    "correct": false,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 226,
+    "question": "You have a 10x10x10 cube made up of 1x1x1 smaller cubes. The large cube is painted red on all of the outside surfaces. If the 10x10x10 cube is broken into the individual 1x1x1 cubes, how many of the smaller cubes will have red paint on exactly two sides?",
+    "gold": 96.0,
+    "pred": 54.0,
+    "correct": false,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 227,
+    "question": "There are four functions defined for all positive integers. Function A adds 2 to the number, function B multiplies the number by 2, function C subtracts 2 from the number, and function D divides the number by 2, flooring the result. If you start with the number 3, and apply a sequence of these functions in the order D, A, B, C, A, reaching a new number, which of the following is the result of applying the function D one more time?",
+    "gold": 3.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 228,
+    "question": "In a sequence of numbers, every number is generated by adding the largest digit of the previous number to that number itself. If the sequence starts with 259, what is the fifth number in the series?",
+    "gold": 291.0,
+    "pred": 365.0,
+    "correct": false,
+    "response": "The answer is: 365"
+  },
+  {
+    "idx": 229,
+    "question": "A cube is painted red on all its sides and then cut into 27 smaller, equally-sized cubes. These smaller cubes are placed into a bag. Without looking, what is the minimum number of small cubes one must take from the bag to ensure that they have at least one cube with two red faces?",
+    "gold": 8.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 230,
+    "question": "If the sequence of numbers is defined as follows: 1, 3, 6, 10, 15, ..., what will be the 10th number in the sequence?",
+    "gold": 55.0,
+    "pred": 31.0,
+    "correct": false,
+    "response": "The answer is: 31"
+  },
+  {
+    "idx": 231,
+    "question": "You have two water jugs: a 5-liter jug and a 7-liter jug, both empty initially. There's a tap that can be used to fill the jugs with water. Your task is to measure exactly 6 liters of water using only these two jugs and the tap. You can fill either jug, empty them, and pour water from one jug to the other, either until one of the jugs is full or the other is empty. What is the minimum number of steps needed to measure exactly 6 liters of water?",
+    "gold": 6.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 232,
+    "question": "A machine is designed to move balls from one container to another. It operates with a cycle of four steps: (1) picks up a ball, (2) moves to the right, (3) drops the ball, and (4) moves back to the starting point. The machine starts with the pick-up step and takes 2 seconds to complete each step. An operator needs to transfer 5 balls from the left container to the right container, but the machine can hold only one ball at a time. The machine must return to the starting point after the last ball is transferred. How much time, in seconds, will it take for the operation to finish?",
+    "gold": 38.0,
+    "pred": 40.0,
+    "correct": false,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 233,
+    "question": "You are given an algorithm that processes input numbers and outputs a single number following a certain function rule. During the first four steps of the process, the input/output pairs are as follows: (1 -> 3), (2 -> 6), (3 -> 11), and (4 -> 18). Identify the next number the algorithm outputs when the input number is 5.",
+    "gold": 27.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 234,
+    "question": "In a classroom, there are 20 students. On a special drawing competition day, each student is allowed to draw either a house, a tree, or a car. The probability of a student choosing to draw a house is 1/2, while the probability of choosing a tree is 1/3. What is the probability that at least one student will draw a car?",
+    "gold": 0.9736,
+    "pred": 3.33,
+    "correct": false,
+    "response": "The answer is: 3.33"
+  },
+  {
+    "idx": 235,
+    "question": "A team of engineers is testing three different types of sensors (A, B, and C) for a new automated system. Each sensor can either pass or fail the test, independently of the others. The probability of sensor A passing is 70%, sensor B passing is 60%, and sensor C passing is 50%. To be considered a success, at least two sensors must pass the test. What is the probability that the test is a success?",
+    "gold": 65.0,
+    "pred": 140.0,
+    "correct": false,
+    "response": "The answer is: 140"
+  },
+  {
+    "idx": 236,
+    "question": "In a factory, there are three machines A, B, and C. Machine A produces gears that are either perfect or have a defect. Machine B takes the gears from A and polishes them, which does not affect whether they are defective or perfect. Machine C inspects the gears. If a gear is perfect, it passes the inspection 90% of the time but fails 10% of the time. If a gear is defective, it passes the inspection 20% of the time and fails 80% of the time. A random gear is selected and it passes the inspection. What is the probability that it was actually perfect?",
+    "gold": 81.82,
+    "pred": 20.0,
+    "correct": false,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 237,
+    "question": "In a certain small town, the probability that it will rain on any given day is 0.3. In an attempt to prove it, a weather enthusiast decides to record the weather of the town for 3 consecutive days. What is the probability that it will rain on at least one of those days?",
+    "gold": 0.657,
+    "pred": 0.7,
+    "correct": false,
+    "response": "The answer is: 0.7"
+  },
+  {
+    "idx": 238,
+    "question": "In a certain college, 60% of students are enrolled in a mathematics course, 45% are enrolled in a statistics course, and 20% are enrolled in both courses. If a student is chosen randomly, what is the probability that they are enrolled in exactly one of the two courses?",
+    "gold": 65.0,
+    "pred": 0.15,
+    "correct": false,
+    "response": "The answer is: 0.15"
+  },
+  {
+    "idx": 239,
+    "question": "Alice, Bob, and Charlie are trapped on an island with a bridge that can only hold two people at a time. They have one flashlight and, because it's nighttime, the flashlight must be used when crossing the bridge. Alice can cross the bridge in 1 minute, Bob in 2 minutes, and Charlie in 5 minutes. When two people cross together, they must move at the slower person's pace. What is the shortest time in which all three can get across the bridge?",
+    "gold": 12.0,
+    "pred": 10.0,
+    "correct": false,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 240,
+    "question": "You are organizing a round robin chess tournament where each player must play every other player exactly once. Due to limited number of chess sets, only a certain number of games can be played simultaneously. If you have 10 players and only 4 sets, what is the minimum number of rounds required to complete the tournament if each round is played simultaneously?",
+    "gold": 12.0,
+    "pred": 30.0,
+    "correct": false,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 241,
+    "question": "You are given a cube that is made up of smaller cubes arranged in a 3x3x3 grid. If the entire outer surface of the larger cube is painted red, how many of the smaller cubes will have exactly one side painted?",
+    "gold": 6.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 242,
+    "question": "In a room, there are three machines. Each machine has two modes: blue mode and red mode. Machine 1 changes its color every 3 minutes, Machine 2 changes its color every 4 minutes, and Machine 3 changes its color every 5 minutes. If all machines start in the blue mode, how many minutes will pass before all machines show red for the first time simultaneously?",
+    "gold": 60.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 243,
+    "question": "You come across a series of numbers that appear to have a pattern. The series is as follows: 2, 3, 5, 9, 17, ___. What is the number that should fill the blank?",
+    "gold": 33.0,
+    "pred": 7.0,
+    "correct": false,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 244,
+    "question": "In a factory, there are three machines A, B, and C. Machine A can assemble a product in 5 minutes, Machine B can do it in 7 minutes, and Machine C can do it in 10 minutes. If all three machines start assembling the product at the same time, how many minutes will it take for all three machines to assemble a total of 10 products?",
+    "gold": 23.0,
+    "pred": 38.61,
+    "correct": false,
+    "response": "The answer is: 38.61"
+  },
+  {
+    "idx": 245,
+    "question": "Imagine a function f(x) that takes a positive integer and outputs an integer according to the following rules. Rule 1: If x is even, f(x) outputs (x / 2). Rule 2: If x is odd and not a multiple of 3, f(x) outputs (3 * x + 1). Rule 3: If x is odd and a multiple of 3, f(x) outputs (x - 1). Starting with the number 7, which is the first number that will be repeated during this process when applying f(x) recursively?",
+    "gold": 4.0,
+    "pred": 28.0,
+    "correct": false,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 246,
+    "question": "You are presented with a sequence of numbers: 3, 4, 6, 9, 13, ... What is the next number in the sequence?",
+    "gold": 18.0,
+    "pred": 19.0,
+    "correct": false,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 247,
+    "question": "You have a function f that takes an integer and if the number is even, it divides it by 2, and if the number is odd, it multiplies it by 3 and adds 1. You decide to apply this function repeatedly starting with the integer 15. What will be the first integer to repeat during this process?",
+    "gold": 4.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 248,
+    "question": "Imagine you have a deck of cards that are numbered from 1 to 10. You draw one card at a time and replace it in the deck before drawing the next card. What is the probability that in three draws, you will draw a 3, a 7, and a 5 in any order?",
+    "gold": 0.6,
+    "pred": 0.28,
+    "correct": false,
+    "response": "The answer is: 0.28"
+  },
+  {
+    "idx": 249,
+    "question": "In the sequence below, what is the next number?\n4, 9, 16, 25, 36, ?",
+    "gold": 49.0,
+    "pred": 52.0,
+    "correct": false,
+    "response": "The answer is: 52"
+  },
+  {
+    "idx": 250,
+    "question": "You are given a function f(x) that takes any positive integer x and if x is even, it returns x/2. If x is odd, it returns 3*x + 1. Starting with 15, you apply the function several consecutive times until you reach the number 1. How many times do you need to apply this function to reach 1?",
+    "gold": 17.0,
+    "pred": 4.0,
+    "correct": false,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 251,
+    "question": "You are the new manager in a paperclip factory. The factory has one machine that bends straight metal wires into paperclips and another machine that sorts out defective paperclips. The bending machine can produce 200 paperclips per hour and has a 3% defect rate. The sorting machine can inspect 150 paperclips per hour. The factory runs for 8 hours a day. Your task is to optimize the number of non-defective paperclips at the end of the day. Knowing that you cannot change the speed of the machines and the defect rate, what is the number of non-defective paperclips produced at the end of the day?",
+    "gold": 1200.0,
+    "pred": 1446.0,
+    "correct": false,
+    "response": "The answer is: 1446"
+  },
+  {
+    "idx": 252,
+    "question": "You have 10 labeled cubes, each with a different color. The cubes are arranged in a row, but they are not in the correct color sequence. The correct sequence is designed such that no two adjacent cubes have similar primary colors (Red, Blue, and Yellow), and no secondary color (Purple, Green, Orange) cube is adjacent to any of its constituent primary colors. For instance, a green cube cannot be next to a blue or a yellow cube. The only information you have is that the first cube is Red and the last cube is Green. How many valid sequences are possible?",
+    "gold": 1.0,
+    "pred": 189.0,
+    "correct": false,
+    "response": "The answer is: 189"
+  },
+  {
+    "idx": 253,
+    "question": "You have a 5x5x5 cube made up of 1x1x1 smaller cubes. This large cube is painted red on the outside. You are then asked to split this cube into 1x1x1 cubes and discard those that have red paint on them. Once all the painted cubes are discarded, how many unpainted cubes are left?",
+    "gold": 27.0,
+    "pred": 25.0,
+    "correct": false,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 254,
+    "question": "In a factory, there are three machines A, B, and C. Machine A can complete an order in 4 hours, Machine B can complete the same order in 6 hours, and Machine C can complete it in 12 hours. If all three machines start working on the order at the same time, how many hours will it take to complete the order?",
+    "gold": 2.0,
+    "pred": 4.0,
+    "correct": false,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 255,
+    "question": "Imagine a cube that is made from smaller cubes, 27 in total (3x3x3). If you remove the smaller cubes from the corners of the large cube, how many of the smaller cubes will be left?",
+    "gold": 19.0,
+    "pred": 4.0,
+    "correct": false,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 256,
+    "question": "You are presented with a sequence of numbers: 2, 4, 12, 48, 240. What is the next number in the sequence?",
+    "gold": 1440.0,
+    "pred": 192.0,
+    "correct": false,
+    "response": "The answer is: 192"
+  },
+  {
+    "idx": 257,
+    "question": "In a bag, there are blue and red marbles only. The probability of pulling out a blue marble is 1/3. If there are 5 more red marbles than blue ones, how many marbles are there in total?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 258,
+    "question": "You have a bag with 100 marbles, some blue and some green. If you draw one at random, the probability that it is blue is 2/3. After taking one marble out, you again draw one at random. What is the probability that this second marble drawn is also blue?",
+    "gold": 66.33,
+    "pred": 0.35,
+    "correct": false,
+    "response": "The answer is: 0.35"
+  },
+  {
+    "idx": 259,
+    "question": "Consider the sequence where each number indicates the position that the digit 2 appears for the first time in that number (for example, '10' is in position 1 because it contains the digit 2 for the first time as the sequence starts). What is the 5th number in this sequence?",
+    "gold": 22.0,
+    "pred": 26.0,
+    "correct": false,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 260,
+    "question": "Imagine a sequence that begins with the numbers 1, 11, 21, 1211, 111221. Each subsequent number is described by vocalizing the digits of the previous one. For example, the second number '11' is read as 'one one', which describes the first number, which is a single '1'. Similarly, the next number '21' is read as 'two ones'. What is the sixth number in the sequence?",
+    "gold": 312211.0,
+    "pred": 127.0,
+    "correct": false,
+    "response": "The answer is: 127"
+  },
+  {
+    "idx": 261,
+    "question": "Find the next number in the following sequence: 3, 4, 6, 9, 13, ... What is the next number and why?",
+    "gold": 18.0,
+    "pred": 17.0,
+    "correct": false,
+    "response": "The answer is: 17"
+  },
+  {
+    "idx": 262,
+    "question": "Imagine you come across a strange device with buttons marked from 1 to 9. Each button, when pressed, results in the display of a number. The first four sequences you observe are as follows: Pressing 2, 4, 6 results in 12; pressing 3, 5, 7 results in 15; pressing 1, 2, 8 results in 11; and pressing 4, 5, 9 results in 18. You notice the display shows always the sum of two smallest numbers pressed. Now, if you press 1, 3, and 9, what number should the device display?",
+    "gold": 4.0,
+    "pred": 52.0,
+    "correct": false,
+    "response": "The answer is: 52"
+  },
+  {
+    "idx": 263,
+    "question": "You are given a sequence of numbers each representing the number of angles in a figure: \n3, 4, 5, 6, ?, 8\nWhat should the missing number be and why?",
+    "gold": 7.0,
+    "pred": 5.0,
+    "correct": false,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 264,
+    "question": "A cube is painted red on all its sides and then cut into 27 identical smaller cubes. These smaller cubes are randomly placed in a bag. Without looking, what is the minimum number of smaller cubes that must be taken out from the bag to ensure that you have at least two smaller cubes with at least one red face each?",
+    "gold": 2.0,
+    "pred": 26.0,
+    "correct": false,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 265,
+    "question": "Consider a 4x4x4 cube composed of 64 smaller 1x1x1 cubes. If the outer layer of smaller cubes is removed, how many cubes remain?",
+    "gold": 8.0,
+    "pred": 64.0,
+    "correct": false,
+    "response": "The answer is: 64"
+  }
+]

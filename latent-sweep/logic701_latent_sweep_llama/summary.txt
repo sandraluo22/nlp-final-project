@@ -1,0 +1,13 @@
+Llama-1B CODI  x  LOGIC-701 (multiple-choice, 5 options, random=20%)
+N = number of latent thought iterations forced before EOT
+N examples = 701
+
+  N | correct  |  acc
+  --+----------+------
+  0 |   35/701 | 0.050
+  1 |   26/701 | 0.037
+  2 |   24/701 | 0.034
+  3 |   26/701 | 0.037
+  4 |   28/701 | 0.040
+  5 |   25/701 | 0.036
+  6 |   22/701 | 0.031

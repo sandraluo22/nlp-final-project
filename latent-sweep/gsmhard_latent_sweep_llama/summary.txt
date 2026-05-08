@@ -1,0 +1,13 @@
+Llama-1B CODI  x  GSM-Hard (open-ended numeric, 1319 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 1319
+
+  N | correct  |  acc
+  --+----------+------
+  0 |  109/1319 | 0.083
+  1 |  130/1319 | 0.099
+  2 |  151/1319 | 0.114
+  3 |  146/1319 | 0.111
+  4 |  148/1319 | 0.112
+  5 |  168/1319 | 0.127
+  6 |  169/1319 | 0.128

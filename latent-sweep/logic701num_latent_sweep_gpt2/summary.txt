@@ -1,0 +1,13 @@
+GPT-2 CODI  x  LOGIC-701-numeric (open-ended numeric, 266 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 266
+
+  N | correct  |  acc
+  --+----------+------
+  0 |   15/266 | 0.056
+  1 |   19/266 | 0.071
+  2 |   21/266 | 0.079
+  3 |   23/266 | 0.086
+  4 |   19/266 | 0.071
+  5 |   20/266 | 0.075
+  6 |   19/266 | 0.071

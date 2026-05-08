@@ -1,0 +1,13 @@
+GPT-2 CODI  x  SVAMP (open-ended numeric, 1000 examples)
+N = number of latent thought iterations forced before EOT
+N examples = 1000
+
+  N | correct  |  acc
+  --+----------+------
+  0 |  296/1000 | 0.296
+  1 |  356/1000 | 0.356
+  2 |  388/1000 | 0.388
+  3 |  388/1000 | 0.388
+  4 |  385/1000 | 0.385
+  5 |  387/1000 | 0.387
+  6 |  383/1000 | 0.383
