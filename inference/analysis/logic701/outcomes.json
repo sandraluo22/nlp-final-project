@@ -1,0 +1,9816 @@
+[
+  {
+    "idx": 0,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 1,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 2,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 3,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 4,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 5,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 6,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 7,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 8,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 9,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 10,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 11,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 12,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 13,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 14,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 15,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 16,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 17,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 18,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 19,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": true,
+    "cell": "TC-SC",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 20,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 21,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 22,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 23,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 24,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 25,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 26,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 27,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 28,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 29,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 30,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 31,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 32,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 33,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 34,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 35,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 36,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 37,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 38,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 39,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 40,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 41,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 42,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 43,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 44,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 45,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 46,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 47,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 48,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 49,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 50,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 51,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 52,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 53,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 54,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 55,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 56,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 57,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 58,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 59,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 60,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 61,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 62,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 63,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 64,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 65,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 66,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 67,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 68,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 69,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 70,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 71,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 72,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 73,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 74,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 75,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 76,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 77,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 78,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 79,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 80,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 81,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 82,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 83,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 84,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 85,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 86,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 87,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 88,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 89,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 90,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 91,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 92,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 93,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 94,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 95,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 96,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 97,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 98,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 99,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 100,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 101,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 102,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 103,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 104,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 105,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 106,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 107,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 108,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 109,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 110,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 111,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 112,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 113,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 114,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 115,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 116,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 117,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 118,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 119,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 120,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 121,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 122,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 123,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 124,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 125,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 126,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 127,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 128,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 129,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 130,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 131,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 132,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 133,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 134,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 135,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 136,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": true,
+    "cell": "TC-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 137,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 138,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 139,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": true,
+    "cell": "TC-SC",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 140,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 141,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 142,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 143,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 144,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 145,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 146,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 147,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 148,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 149,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 150,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 151,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 152,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 153,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 154,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 155,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 156,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 157,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 158,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 159,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 160,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 161,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 162,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 163,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 164,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 165,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 166,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 167,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 168,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 169,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 170,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 171,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 172,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 173,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 174,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 175,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 176,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 177,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 178,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 179,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 180,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 181,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 182,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 183,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 184,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 185,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 186,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 187,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 188,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 189,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 190,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 191,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 192,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 193,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 194,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 195,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 196,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 197,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 198,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 199,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 200,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 201,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 202,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 203,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 204,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 205,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 206,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 207,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 208,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 209,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 210,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 211,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 212,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 213,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 214,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 215,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 216,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 217,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 218,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 219,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 220,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 221,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 222,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 223,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 224,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 225,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 226,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 227,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 228,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 229,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 230,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 231,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 232,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 233,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 234,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 235,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 236,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 237,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 238,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 239,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 240,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 241,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 242,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 243,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 244,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 245,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 246,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 247,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 248,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 249,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 250,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 251,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 252,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 253,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 254,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 255,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 256,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 257,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 258,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 259,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 260,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 261,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 262,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 263,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 264,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 265,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 266,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 267,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 268,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 269,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 270,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 271,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 272,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 273,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 274,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 275,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 276,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 277,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 278,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 279,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 280,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 281,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 282,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 283,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 284,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 285,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 286,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 287,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 288,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 289,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 290,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 291,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 292,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 293,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 294,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 295,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 296,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 297,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 298,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 299,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 300,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 301,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 302,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 303,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 304,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 305,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 306,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 307,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 308,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 309,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 310,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 311,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 312,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 313,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 314,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 315,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 316,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 317,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 318,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 319,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 320,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 321,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 322,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 323,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 324,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 325,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 326,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 327,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 328,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 329,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 330,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 331,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 332,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 333,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 334,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 335,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 336,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 337,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 338,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 339,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 340,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 341,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 342,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 343,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 344,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 345,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 346,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 347,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 348,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 349,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 350,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 351,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 352,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 353,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 354,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 355,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 356,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 357,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 358,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 359,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 360,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 361,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 362,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 363,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 364,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 365,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 366,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 367,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 368,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 369,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 370,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 371,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 372,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 373,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 374,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 375,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 376,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 377,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 378,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 379,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 380,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 381,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 382,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 383,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 384,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 385,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 386,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 387,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 388,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 389,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 390,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 391,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 392,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 393,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 394,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 395,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 396,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 397,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 398,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 399,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 400,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 401,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 402,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 403,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 404,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 405,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 406,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 407,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 408,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 409,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 410,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 411,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 412,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 413,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 414,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 415,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 416,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 417,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 418,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 419,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 420,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 421,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 422,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 423,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 424,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 425,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 426,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 427,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 428,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 429,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 430,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 431,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 432,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 433,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 434,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 435,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 436,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 437,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 438,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 439,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 440,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 441,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 442,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 443,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 444,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 445,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 446,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 447,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 448,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 449,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 450,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 451,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 452,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 453,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 454,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 455,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 456,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 457,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 458,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 459,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 460,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 461,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 462,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 463,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 464,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 465,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 466,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 467,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 468,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 469,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 470,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 471,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 472,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 473,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 474,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 475,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 476,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 477,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 478,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 479,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 480,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 481,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 482,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 483,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 484,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 485,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 486,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 487,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 488,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 489,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 490,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 491,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 492,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 493,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 494,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 495,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 496,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 497,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 498,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 499,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 500,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 501,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 502,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 503,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 504,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 505,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 506,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 507,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 508,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 509,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 510,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 511,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 512,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 513,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 514,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 515,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 516,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 517,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 518,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 519,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 520,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 521,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 522,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 523,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 524,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 525,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 526,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 527,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 528,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 529,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 530,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 531,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 532,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 533,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 534,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 535,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 536,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 537,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 538,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 539,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 540,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 541,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 542,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 543,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 544,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 545,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 546,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 547,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 548,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 549,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 550,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 551,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 552,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 553,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 554,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 555,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 556,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 557,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 558,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 559,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 560,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 561,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 562,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 563,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 564,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 565,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 566,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 567,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 568,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 569,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 570,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 571,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 572,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 573,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 574,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 575,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 576,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 577,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 578,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 579,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 580,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 581,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 582,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 583,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 584,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 585,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 586,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 587,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 588,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 589,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 590,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 591,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 592,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 593,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 594,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 595,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 596,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 597,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 598,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 599,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 600,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 601,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 602,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 603,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 604,
+    "gold": 4,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 605,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 606,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 607,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 608,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 609,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 610,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 611,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 612,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 613,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 614,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 615,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 616,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 617,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 618,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 619,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 620,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 621,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 622,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 623,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 624,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 625,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 626,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 627,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 628,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 629,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 630,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 631,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 632,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 633,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 634,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 635,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 636,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 637,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 638,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 639,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 640,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 641,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 642,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 643,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 644,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 645,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 646,
+    "gold": 4,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      19
+    ],
+    "gold_token_strs": [
+      "4"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 647,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 648,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 649,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 650,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 651,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 652,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 653,
+    "gold": 2,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 654,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 655,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 656,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 657,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 658,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 659,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 660,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 661,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 662,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 663,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 664,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 665,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 666,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 667,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 668,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 669,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 670,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 671,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 672,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 673,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 674,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 675,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 676,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 677,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 678,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 679,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 680,
+    "gold": 3,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 681,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": true,
+    "cell": "TI-SC",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 682,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 683,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 684,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 685,
+    "gold": 1,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 686,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 687,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 688,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 689,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 690,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 691,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 692,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 693,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 694,
+    "gold": 3,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      18
+    ],
+    "gold_token_strs": [
+      "3"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 695,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 696,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 697,
+    "gold": 2,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      17
+    ],
+    "gold_token_strs": [
+      "2"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 698,
+    "gold": 5,
+    "teacher_correct": true,
+    "student_correct": false,
+    "cell": "TC-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 699,
+    "gold": 1,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      16
+    ],
+    "gold_token_strs": [
+      "1"
+    ],
+    "valid": true
+  },
+  {
+    "idx": 700,
+    "gold": 5,
+    "teacher_correct": false,
+    "student_correct": false,
+    "cell": "TI-SI",
+    "gold_token_ids": [
+      20
+    ],
+    "gold_token_strs": [
+      "5"
+    ],
+    "valid": true
+  }
+]
