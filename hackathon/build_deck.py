@@ -29,30 +29,30 @@ class TextStack:
     def __init__(self, ax, top=0.97, left=0.0):
         self.ax, self.y, self.x0 = ax, top, left
 
-    def heading(self, txt, size=13):
+    def heading(self, txt, size=12):
         self.ax.text(self.x0, self.y, txt, fontsize=size, fontweight="bold",
                      transform=self.ax.transAxes)
-        self.y -= 0.055
+        self.y -= 0.045
 
-    def bullet(self, txt, size=10.5, indent=0.02):
+    def bullet(self, txt, size=9.5, indent=0.02):
         self.ax.text(self.x0 + indent, self.y, "•  " + txt, fontsize=size,
                      transform=self.ax.transAxes)
-        self.y -= 0.040
+        self.y -= 0.034
 
-    def line(self, txt, size=10.5, italic=False, color="black"):
+    def line(self, txt, size=9.5, italic=False, color="black"):
         kw = {"fontstyle": "italic"} if italic else {}
         self.ax.text(self.x0, self.y, txt, fontsize=size, color=color,
                      transform=self.ax.transAxes, **kw)
-        self.y -= 0.040
+        self.y -= 0.034
 
-    def gap(self, frac=0.018):
+    def gap(self, frac=0.014):
         self.y -= frac
 
-    def boxed_math(self, latex, size=12):
+    def boxed_math(self, latex, size=10.5):
         """Render a single line of LaTeX math, slightly indented."""
         self.ax.text(self.x0 + 0.02, self.y, latex, fontsize=size,
                      transform=self.ax.transAxes)
-        self.y -= 0.060
+        self.y -= 0.050
 
 
 def new_slide(title=None, figsize=(13.33, 7.5)):
@@ -162,42 +162,58 @@ def slide_setup(pdf):
 # ---------------------------------------------------------------------------
 
 def slide_cf_construction(pdf):
-    fig = new_slide("How the CF datasets were constructed")
+    """Slide 4a — magnitude-controlled CF variants (5 datasets)."""
+    fig = new_slide("How the CF datasets were constructed,  part 1 of 2")
     ax = make_text_axes(fig)
     t = TextStack(ax)
-    t.line("Source: 1000 ChilleD/SVAMP problems. Each CF row preserves the SVAMP idx, operator type,",
-           size=10.5)
-    t.line("and original equation; only numerals (and sometimes wording) are swapped.",
-           size=10.5)
+    t.line("Source: 1000 ChilleD/SVAMP problems. Each CF row preserves the SVAMP idx, operator type,", size=9.5)
+    t.line("and original equation. Only numerals (and sometimes wording) are swapped.", size=9.5)
     t.gap()
-    t.heading("Magnitude-controlled CF variants — for operator-vs-magnitude probes")
-    t.bullet("cf_magmatched.json (972). Rejection sampling: for each problem, resample numerals from a uniform "
-             "range and ACCEPT only if the new output bucket matches a target distribution that's flat across operators "
-             "× output buckets {<10, 10–99, 100–999, 1000+}. Reject and retry up to a budget; drop if budget exceeded.")
-    t.bullet("cf_balanced.json (676). Iterative bucketing: at each pass, compute the (operator × input_bucket × "
-             "output_bucket) marginals, identify under-filled cells, resample numerals for problems whose row falls in "
-             "an over-filled cell. Repeat until both INPUT and OUTPUT bucket marginals are uniform per operator. "
-             "Strictest control — used by every cf_lda_* analysis.")
-    t.bullet("cf_under99.json (642) / cf_under99_b.json (622). Same as the two above but with the additional "
-             "constraint  numerals ≤ 99  enforced during sampling. Sensitivity check.")
-    t.bullet("cf_gpt_transformed.json (546). GPT-5 prompt rewrite: structured-output API call asks for a NEW problem "
-             "with new numerals AND new wording while preserving the operator. Reject if the model's stated answer "
-             "doesn't match the equation, or if the operator is ambiguous; otherwise accept.")
-    t.gap(0.005)
-    t.heading("Synthetic number-isolation probes — for PCA disentanglement")
-    t.bullet("vary_numerals.json (80). Fixed Sub template ('John has {a} apples, gives {b}…'). Sample (a, b) "
-             "uniformly with 5 ≤ a ≤ 200, 1 ≤ b < a; reject duplicate pairs. Both numerals vary together.")
-    t.bullet("vary_a.json (80). Same Sub template, b fixed = 4, sample a ∈ [5, 200], reject duplicates. ISOLATES a.")
-    t.bullet("vary_b.json (80). Same Sub template, a fixed = 200, sample b ∈ [1, 199], reject duplicates. ISOLATES b.")
-    t.bullet("vary_operator.json (24). Fixed numerals (a=12, b=4). 6 hand-written scenario templates × 4 operators "
-             "(Add / Sub / Mul / Common-Division). Numerals chosen so all four ops give clean integer answers.")
-    t.gap(0.005)
-    t.heading("Paired numeral-corruption sets — for head patching")
-    t.bullet("numeral_pairs_b1_sub.json (60). Same Sub scenario, clean (a, b) vs corrupted (a, 1). Reject pairs "
-             "where clean and corrupted answers coincide; sample with seed=0.")
-    t.bullet("numeral_pairs_a1_mul.json (60). Same Mul scenario, clean (a, b) vs corrupted (1, b). Reject pairs "
-             "where clean answer = corrupted answer (a=1 case).")
-    ax.text(0.5, -0.02, "Generators in cf-datasets/generate_*.py  ·  schema details in cf-datasets/README.md",
+    t.heading("Magnitude-controlled CF variants  (for operator-vs-magnitude probes)")
+    t.bullet("cf_magmatched.json (972 rows). Rejection sampling: for each problem, draw new numerals from a uniform")
+    t.bullet("    range and accept only if the resulting output magnitude bucket matches the target distribution that")
+    t.bullet("    is flat across (operator × bucket) cells, where buckets are {<10, 10-99, 100-999, 1000+}. Reject and")
+    t.bullet("    retry up to a per-row budget; drop the row if the budget is exhausted.")
+    t.gap()
+    t.bullet("cf_balanced.json (676 rows). Iterative bucketing: at each pass, recompute the (operator × input_bucket")
+    t.bullet("    × output_bucket) marginals; identify under-filled cells; resample numerals for problems sitting in")
+    t.bullet("    over-filled cells. Repeat until both INPUT and OUTPUT bucket marginals are uniform per operator.")
+    t.bullet("    The strictest control. Used by every cf_lda_* analysis in this deck.")
+    t.gap()
+    t.bullet("cf_under99.json (642) and cf_under99_b.json (622). Same as cf_magmatched and cf_balanced respectively,")
+    t.bullet("    but with the additional constraint  numerals ≤ 99  enforced inside the sampler. Sensitivity check.")
+    t.gap()
+    t.bullet("cf_gpt_transformed.json (546). GPT-5 structured-output rewrite: API call asks for a NEW problem with")
+    t.bullet("    new numerals AND new wording while preserving the operator. Reject when the model's stated answer")
+    t.bullet("    does not match the equation, or when the operator is ambiguous. Otherwise accept.")
+    ax.text(0.5, -0.02, "Generators: cf-datasets/generate_cf_*.py   ·  schema in cf-datasets/README.md",
+            ha="center", fontsize=8.5, color="gray", style="italic",
+            transform=ax.transAxes)
+    pdf.savefig(fig, dpi=140); plt.close(fig)
+
+
+def slide_cf_construction_part2(pdf):
+    """Slide 4b — synthetic isolation probes + patching pair sets."""
+    fig = new_slide("How the CF datasets were constructed,  part 2 of 2")
+    ax = make_text_axes(fig)
+    t = TextStack(ax)
+    t.heading("Synthetic number-isolation probes  (for PCA disentanglement)")
+    t.bullet("vary_numerals.json (80 rows). Fixed Sub template ('John has {a} apples, gives {b}...'). Sample (a, b)")
+    t.bullet("    uniformly with 5 ≤ a ≤ 200, 1 ≤ b < a, reject duplicate pairs. Both numerals vary together.")
+    t.gap()
+    t.bullet("vary_a.json (80). Same template; fix b = 4, sample a ∈ [5, 200], reject duplicates. ISOLATES a.")
+    t.bullet("vary_b.json (80). Same template; fix a = 200, sample b ∈ [1, 199], reject duplicates. ISOLATES b.")
+    t.gap()
+    t.bullet("vary_operator.json (24). Fix numerals (a = 12, b = 4); 6 hand-written scenario templates × 4 operators")
+    t.bullet("    (Add, Sub, Mul, Common-Division). Numerals chosen so every operator gives a clean integer answer.")
+    t.gap()
+    t.heading("Paired numeral-corruption sets  (for head patching)")
+    t.bullet("numeral_pairs_b1_sub.json (60). Same Sub scenario, clean (a, b) vs corrupted (a, 1).")
+    t.bullet("    Sample (a, b) with seed = 0; reject pairs where clean and corrupted answers coincide.")
+    t.gap()
+    t.bullet("numeral_pairs_a1_mul.json (60). Same Mul scenario, clean (a, b) vs corrupted (1, b).")
+    t.bullet("    Reject pairs where clean answer equals corrupted answer (i.e. when a = 1).")
+    ax.text(0.5, -0.02, "Generators: cf-datasets/generate_number_isolation.py and generate_numeral_pairs.py",
             ha="center", fontsize=8.5, color="gray", style="italic",
             transform=ax.transAxes)
     pdf.savefig(fig, dpi=140); plt.close(fig)
@@ -586,10 +602,10 @@ def slide_entanglement_layer12(pdf):
 # ---------------------------------------------------------------------------
 
 def slide_synthesis(pdf):
-    fig = new_slide("Synthesis  ·  what's encoded vs what's used")
+    fig = new_slide("Synthesis,  what's encoded vs what's used")
     ax = make_text_axes(fig)
     t = TextStack(ax)
-    t.heading("1. Operator and numerals are encoded — in the prompt forward, not in latent steps.")
+    t.heading("1. Operator and numerals are encoded, in the prompt forward, not in latent steps.")
     t.bullet("Operator-LDA on cf_balanced: 95 % (Llama-1B), 88 % (GPT-2) peak accuracy.")
     t.bullet("Patching the prompt-stage residual recovers 100 % of clean numerals on GPT-2.")
     t.bullet("All latent stages (1+) contribute 0 % to recovery in every patching experiment.")
@@ -598,20 +614,15 @@ def slide_synthesis(pdf):
     t.bullet("Linear additive steering at the peak operator-decoding cell: 0 % flip rate on both models.")
     t.bullet("Robust to α ∈ {1, 5, 20, 50} and to choice of model.")
     t.gap()
-    t.heading("3. Latent thinking yields a small, sharp accuracy gain — and then plateaus.")
-    t.bullet("GPT-2 SVAMP: 29.6 % (N=0) → 38.8 % (N=2); flat thereafter through N=6.")
-    t.bullet("GPT-2 GSM-Hard: 4.9 % (N=2) → 8.0 % (N=3) — sharper knee on harder problems.")
+    t.heading("3. Latent thinking yields a small, sharp accuracy gain, and then plateaus.")
+    t.bullet("GPT-2 SVAMP: 29.6 % (N=0), 38.8 % (N=2), flat thereafter through N=6.")
+    t.bullet("GPT-2 GSM-Hard: 4.9 % (N=2), 8.0 % (N=3), sharper knee on harder problems.")
     t.bullet("Llama-1B is essentially flat: +2.9 pp on SVAMP across all 6 latent steps.")
     t.gap()
-    t.heading("4. Number and operator subspaces are entangled — except in the very last layer.")
-    t.bullet("L1–L11 mean max |cos_sim| ≈ 0.40 (16× chance) — strongly entangled.")
-    t.bullet("L12 mean max |cos_sim| ≈ 0.91 — recombination layer for the answer token.")
-    t.bullet("Even vary_a vs vary_b max |cos_sim| ≈ 0.96 — `a` and `b` not even disentangled from each other.")
-    t.gap()
-    t.heading("Implications")
-    t.bullet("Latent reasoning here looks more like 'read-and-format' than 'compute-then-emit'.")
-    t.bullet("Bottleneck for math is NOT operator extraction — it's arithmetic execution.")
-    t.bullet("For mech-interp, look for non-linear / multi-direction encodings, not single operator axes.")
+    t.heading("4. Number and operator subspaces are entangled, except in the very last layer.")
+    t.bullet("L1 to L11 mean max |cos_sim| ≈ 0.40 (16× chance), strongly entangled.")
+    t.bullet("L12 mean max |cos_sim| ≈ 0.91, recombination layer for the answer token.")
+    t.bullet("Even vary_a vs vary_b max |cos_sim| ≈ 0.96, 'a' and 'b' not even disentangled from each other.")
     pdf.savefig(fig, dpi=140); plt.close(fig)
 
 
@@ -623,6 +634,7 @@ def main():
         slide_codi_overview(pdf)
         slide_setup(pdf)
         slide_cf_construction(pdf)
+        slide_cf_construction_part2(pdf)
         slide_latent_trend(pdf)
         slide_operator_probe(pdf)
         slide_steering_null(pdf)
