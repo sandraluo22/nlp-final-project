@@ -1,0 +1,199 @@
+{
+  "config": {
+    "dataset": "svamp",
+    "src": "Multiplication",
+    "tgt": "Common-Division",
+    "seed": 42,
+    "peak_layer": 10,
+    "peak_step": 3,
+    "scales": [
+      1.0,
+      5.0,
+      10.0
+    ],
+    "batch": 64,
+    "max_new_tokens": 64,
+    "base_model": "unsloth/Llama-3.2-1B-Instruct",
+    "ckpt_dir": "~/codi_ckpt/CODI-llama3.2-1b-Instruct",
+    "device": "cuda",
+    "out": "runs_tt_svamp_Mul_Com.json"
+  },
+  "directions": {
+    "Multiplication->Common-Division": {
+      "n_test_candidates": 3,
+      "n_baseline_correct": 2,
+      "protocols": {
+        "peak_layer10_step4": {
+          "n_cells_patched": 1,
+          "scales": [
+            {
+              "scale": 1.0,
+              "n": 2,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 2,
+                "Common-Division": 0,
+                "unmatched": 0,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 5.0,
+              "n": 2,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 2,
+                "Common-Division": 0,
+                "unmatched": 0,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 10.0,
+              "n": 2,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 2,
+                "Common-Division": 0,
+                "unmatched": 0,
+                "tied": 0
+              }
+            }
+          ]
+        },
+        "all_layers_all_steps": {
+          "n_cells_patched": 96,
+          "scales": [
+            {
+              "scale": 1.0,
+              "n": 2,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 2,
+                "Common-Division": 0,
+                "unmatched": 0,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 5.0,
+              "n": 2,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 2,
+                "Common-Division": 0,
+                "unmatched": 0,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 10.0,
+              "n": 2,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 2,
+                "Common-Division": 0,
+                "unmatched": 0,
+                "tied": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Common-Division->Multiplication": {
+      "n_test_candidates": 74,
+      "n_baseline_correct": 48,
+      "protocols": {
+        "peak_layer10_step4": {
+          "n_cells_patched": 1,
+          "scales": [
+            {
+              "scale": 1.0,
+              "n": 48,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 0,
+                "Common-Division": 48,
+                "unmatched": 0,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 5.0,
+              "n": 48,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 0,
+                "Common-Division": 46,
+                "unmatched": 2,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 10.0,
+              "n": 48,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 2,
+                "Multiplication": 0,
+                "Common-Division": 30,
+                "unmatched": 16,
+                "tied": 0
+              }
+            }
+          ]
+        },
+        "all_layers_all_steps": {
+          "n_cells_patched": 96,
+          "scales": [
+            {
+              "scale": 1.0,
+              "n": 48,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 2,
+                "Multiplication": 0,
+                "Common-Division": 1,
+                "unmatched": 45,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 5.0,
+              "n": 48,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 0,
+                "Common-Division": 0,
+                "unmatched": 48,
+                "tied": 0
+              }
+            },
+            {
+              "scale": 10.0,
+              "n": 48,
+              "counts": {
+                "Addition": 0,
+                "Subtraction": 0,
+                "Multiplication": 0,
+                "Common-Division": 0,
+                "unmatched": 48,
+                "tied": 0
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4978 @@
+[
+  {
+    "idx": 0,
+    "gold": 145.0,
+    "teacher_pred": 145.0,
+    "label": "faithful",
+    "reason": "It correctly divides the 290 bananas by the 2 banana groups (290 \u00f7 2 = 145) and ignores the irrelevant orange information, with no erroneous steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 1,
+    "gold": 19.0,
+    "teacher_pred": 19.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the dad\u2019s 11 pounds from the total 30 pounds to find Marco\u2019s 19 pounds, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 3,
+    "gold": 198.0,
+    "teacher_pred": 198.0,
+    "label": "faithful",
+    "reason": "They correctly computed pages per chapter by dividing total pages (594) by number of chapters (3) to get 198, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 4,
+    "gold": 63.0,
+    "teacher_pred": 63.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts 15 from 78 to get 63, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 6,
+    "gold": 30.0,
+    "teacher_pred": 30.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference by subtracting house blocks (20) from tower blocks (50), yielding 30 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 7,
+    "gold": 192.0,
+    "teacher_pred": 192.0,
+    "label": "faithful",
+    "reason": "It correctly adds the weight lost to the current weight (66 + 126) to find the original weight, yielding 192 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 8,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "The solution correctly reasons that total tickets won equals tickets used plus tickets left and computes 12 + 14 = 26 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 9,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total 34 books by 2 shelves (34 \u00f7 2 = 17), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 11,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "The solution correctly sets up A=J+4 and A+J=14, solves to J=5 and A=9, and then uses B=A+J+6 to get B=20 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 12,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total money by the cost per pack (104 \u00f7 26) and computes 4, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 13,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "unfaithful",
+    "reason": "They computed the change in action figures (final 5 minus initial 3) instead of comparing books (7) to final action figures (5), using the wrong operands to reach the right number.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 14,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total points (91) by the number of games (13) to get 7 points per game, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 15,
+    "gold": 70.0,
+    "teacher_pred": 70.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 35\u00d74 to get 140 pencils and divides by 2 pencils per row to obtain 70 rows, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 18,
+    "gold": 54.0,
+    "teacher_pred": 54.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total students (270) by students per grade (5) to compute the number of grades as 54 with no errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 19,
+    "gold": 807.0,
+    "teacher_pred": 807.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the number of girls from the number of boys (841 \u2212 34) and computes 807 without any errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 20,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total sacks by the daily rate (54 \u00f7 18) and computes 3 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 23,
+    "gold": 31.0,
+    "teacher_pred": 31.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 36 pages of the second chapter from the total 67 pages to find the first chapter has 31 pages, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 25,
+    "gold": 89.0,
+    "teacher_pred": 89.0,
+    "label": "faithful",
+    "reason": "They correctly computed weeks as total earnings divided by earnings per week: 178 \u00f7 2 = 89, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 26,
+    "gold": 574.0,
+    "teacher_pred": 574.0,
+    "label": "faithful",
+    "reason": "The solution correctly interprets the total required as 557 g on hand plus 17 g needed and adds them accurately to obtain 574 g.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 28,
+    "gold": 146.0,
+    "teacher_pred": 146.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes David\u2019s count as 44+58=102 and then sums 44+102=146, with all steps logically valid and arithmetic accurate.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 29,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "unfaithful",
+    "reason": "They wrongly used 9 (the sugar amount) as the flour requirement and did 9\u22124=5, then subtracted 4 again (5\u22124=1), so the computation uses wrong operands/steps even though it yields the correct final difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 30,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference between salty and sweet cookies eaten as 34 \u2212 20 = 14, matching the question\u2019s requirement.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 32,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly stated \u201cNumber of houses = 2\u201d (it should be pieces per house = 2), even though they then computed 14/2 correctly to get 7.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 33,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "faithful",
+    "reason": "It correctly computes the current difference by subtracting 16 wrappers from 28 bottle caps, appropriately ignoring the irrelevant earlier found amounts.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 34,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "It correctly sums the books read and the books yet to read (13 + 8) to get the total of 21, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 36,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes length as area divided by width (14 \u00f7 7) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 37,
+    "gold": 51.0,
+    "teacher_pred": 51.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the lost weight (20 kg) from the initial weight (71 kg) to obtain 51 kg, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 38,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total candies (22) by candies per bag (11) to determine 2 bags, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 39,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "It correctly interprets that the cakes are split equally between the two friends and divides 30 by 2 to get 15, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 40,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies and sums only the yellow (14) and green (6) peaches to get 20, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 41,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the Spanish hours from the English hours (7 \u2212 4) to get 3, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 42,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly identifies morning (10) and afternoon (3) emails and subtracts 3 from 10 to get 7, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 43,
+    "gold": 42.0,
+    "teacher_pred": 42.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly models the situation as 106 \u2212 64 and performs the subtraction accurately to get 42.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 44,
+    "gold": 756.0,
+    "teacher_pred": 756.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies the two amounts to be summed (382 and 374) and adds them accurately to get 756, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 45,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "It correctly answers \u201chow many more\u201d by subtracting 31 from 42 to get 11, appropriately ignoring the irrelevant \u20188 bird families\u2019 detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 46,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly computes Jill as 5\u22128=\u22123, Jake as 5\u22123=2, and the difference 2\u2212(\u22123)=5 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 47,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "faithful",
+    "reason": "They correctly computed Dean\u2019s height as 14 \u2212 8 = 6 and then doubled it to get the water depth 2 \u00d7 6 = 12, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 49,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly identified the relevant quantities (afternoon 5, evening 4) and computed the difference as 5 \u2212 4 = 1.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 50,
+    "gold": 111.0,
+    "teacher_pred": 111.0,
+    "label": "faithful",
+    "reason": "It correctly computes pages per chapter as 555 \u00f7 5 = 111, appropriately ignoring the irrelevant 220-day detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 51,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the remaining apples from the original (40 \u2212 39 = 1) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 53,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly identifies the needed subtraction (morning minus afternoon) and computes 6 - 2 = 4 without any errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 54,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 11 bottle caps from the 28 wrappers found at the park to get 17, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 56,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly identifies only the action figures, adds 4 and 6 to get 10, and properly ignores the irrelevant 22 books.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 61,
+    "gold": 45.0,
+    "teacher_pred": 45.0,
+    "label": "faithful",
+    "reason": "It correctly computes the frog\u2019s jump as 25+18=43 and then the mouse\u2019s as 43+2=45, following the stated relations with correct arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 69,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the remaining $3 from the initial $4 to find the candy bar cost of $1 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 70,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly computed the group size by dividing oranges by orange groups (356 \u00f7 178) and the arithmetic 356/178 = 2 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 71,
+    "gold": 131.0,
+    "teacher_pred": 131.0,
+    "label": "faithful",
+    "reason": "They correctly identified the chocolate chip counts (197 yesterday, 66 today) and subtracted 66 from 197 to get 131, with no erroneous steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 72,
+    "gold": 92.0,
+    "teacher_pred": 92.0,
+    "label": "faithful",
+    "reason": "It correctly computes pens sold as initial pens minus pens left (106 \u2212 14 = 92) with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 73,
+    "gold": 640.0,
+    "teacher_pred": 640.0,
+    "label": "faithful",
+    "reason": "They correctly multiply 20 houses by 32 pieces per house to get 640, with no incorrect steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 74,
+    "gold": 42.0,
+    "teacher_pred": 42.0,
+    "label": "faithful",
+    "reason": "It correctly computes books sold as 108 \u2212 66 = 42, appropriately focusing only on books as asked.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 76,
+    "gold": 25.0,
+    "teacher_pred": 25.0,
+    "label": "faithful",
+    "reason": "They correctly subtract the blocks left from the total (97 \u2212 72) and compute 25 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 77,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "Correctly interprets \u201chow many more green than red\u201d as 8 \u2212 7 and computes the difference as 1 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 78,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly interprets \u201chow many more\u201d as subtracting reading pages from math pages and computes 4 \u2212 2 = 2 without any errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 79,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "They correctly used the numbers sold (158 cakes and 147 pastries) and subtracted 147 from 158 to get 11, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 80,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "The solution correctly sums the pages from each subject (2 + 3 + 10) to get 15 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 81,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "It correctly selects Monday and Wednesday counts (5 and 15) and adds them to get 20, matching the question and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 83,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total number of students by the number of classrooms (120/24) to get 5, with no irrelevant steps affecting the logic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 85,
+    "gold": 29.0,
+    "teacher_pred": 29.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly computed 203 \u00f7 7 as 29.29 and then rounded to 29, whereas 203 \u00f7 7 equals exactly 29 with no rounding needed.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 87,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the Chinese hours (3) from the English hours (6) to get 3, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 88,
+    "gold": 33.0,
+    "teacher_pred": 33.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the 21 marbles lost to the 12 marbles remaining to find the initial count, and the arithmetic 12 + 21 = 33 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 90,
+    "gold": 16.0,
+    "teacher_pred": 16.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly models H = (A + J) + 9 with A + J = 7 and computes H = 16; a minor phrasing about \u201ctwo variables\u201d doesn\u2019t affect the valid substitution or result.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 91,
+    "gold": 47.0,
+    "teacher_pred": 47.0,
+    "label": "faithful",
+    "reason": "It correctly identifies sold (78) and bought (31) and computes the difference 78 \u2212 31 = 47, matching the question\u2019s intent.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 93,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly computes evening emails as 10 \u2212 (6 + 3) = 1, with all steps logically valid and arithmetic correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 95,
+    "gold": 49.0,
+    "teacher_pred": 49.0,
+    "label": "faithful",
+    "reason": "It correctly computes total chairs as 10\u00d76=60 and subtracts the 11 occupied chairs to get 49 unoccupied, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 98,
+    "gold": 34.0,
+    "teacher_pred": 34.0,
+    "label": "faithful",
+    "reason": "They correctly added the three day totals (17 + 15 + 2) to get 34 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 100,
+    "gold": 24.0,
+    "teacher_pred": 24.0,
+    "label": "faithful",
+    "reason": "They correctly compared the sold quantities by computing 92 \u2212 68 = 24, which directly answers how many more pastries than cakes were sold.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 101,
+    "gold": 34.0,
+    "teacher_pred": 34.0,
+    "label": "faithful",
+    "reason": "It correctly sums the morning and afternoon rowing counts (13 + 21) and ignores the irrelevant hiking number, yielding 34.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 102,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "It correctly computes the current difference by subtracting orchids from roses (12 \u2212 2 = 10), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 103,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total cost ($28) by the number of packs (2) to get $14, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 105,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total drums (90) by the days (6) to get 15 per day, and the extraneous \u201c94 pickers\u201d detail does not affect this calculation.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 106,
+    "gold": 621.0,
+    "teacher_pred": 621.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies 27 books per shelf by 23 shelves (27\u00d723=621), appropriately ignoring the magazines, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 107,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts Allan's 2 balloons from the total of 3 to get Jake's 1, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 108,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference by subtracting evening emails from morning emails (9 \u2212 7 = 2), matching the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 109,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total points by the points per round (154 \u00f7 11) and gets 14, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 110,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "They correctly divided the 32 crackers by 4 friends to get 8 per person; the cakes count is irrelevant to the crackers calculation.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 111,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly divide 4 total nails by 2 nails per plank to get 2 planks; the brief wording slip (\u201cplanks per plank\u201d) doesn\u2019t affect the valid computation.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 112,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "They correctly interpret '6 more than' as adding 6 to 8 and compute 14 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 113,
+    "gold": 89.0,
+    "teacher_pred": 89.0,
+    "label": "faithful",
+    "reason": "It correctly adds only the regular (49) and diet (40) bottles, excluding lite as the question specifies, yielding 49 + 40 = 89.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 114,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting 13 from 33 to find how many more blocks were used for the tower, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 115,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total by the number of weeks and computed 133 \u00f7 19 = 7 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 116,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts Tuesday\u2019s 5 from Monday\u2019s 6 (6 \u2212 5 = 1) to find how many more kids she played with on Monday, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 117,
+    "gold": 16.0,
+    "teacher_pred": 16.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the hours for each subject and sums 6 + 7 + 3 to get 16 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 118,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting diet from regular (81 \u2212 60 = 21), with no irrelevant or incorrect steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 119,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 13 red peaches from the total of 16 to find 3 green peaches, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 120,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly adds storks (3 + 6 = 9) and then subtracts birds (9 \u2212 4 = 5) to find there are 5 more storks than birds.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 122,
+    "gold": 76.0,
+    "teacher_pred": 76.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 19 rows by 4 pencils per row (crayons are irrelevant) and computes 19\u00d74=76 accurately.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 123,
+    "gold": 28.0,
+    "teacher_pred": 28.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies the number of small seats (2) by the capacity per small seat (14) to get 28, matching the question and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 125,
+    "gold": 19.0,
+    "teacher_pred": 19.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total number of books (38) by the number per shelf (2) to get 19, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 126,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total 36 crackers by the 18 friends to find 2 crackers per person, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 127,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes the difference by subtracting the grasshopper\u2019s 17 inches from the frog\u2019s 39 inches, and the arithmetic 39 \u2212 17 = 22 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 129,
+    "gold": 42.0,
+    "teacher_pred": 42.0,
+    "label": "faithful",
+    "reason": "They correctly calculated total pencils (28\u00d724=672) and divided by 16 to get 42, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 130,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts Jason\u2019s initial $19 from his current $33 to find 14, appropriately ignoring Fred\u2019s irrelevant amount.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 131,
+    "gold": 24.0,
+    "teacher_pred": 24.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 264 bacon suggestions from the total 288 students to find the remaining 24 who suggested mashed potatoes, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 134,
+    "gold": 31.0,
+    "teacher_pred": 31.0,
+    "label": "faithful",
+    "reason": "Each step correctly models the relationships (frog = 25+32 = 57; mouse = 57\u221226 = 31) with accurate arithmetic, justifying the final answer.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 135,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly interprets \u201chow many more\u201d as a subtraction and computes 5 \u2212 3 = 2 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 136,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total candies (42) by the number of bags (2) to get 21, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 140,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "unfaithful",
+    "reason": "It misinterprets the 6 as the number eaten (instead of remaining) and even states to subtract the initial from the eaten, so the operands/direction are wrong despite 8 \u2212 6 yielding the correct result.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 141,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly uses the remaining counts (12 apps and 5 files) and subtracts files from apps to find the difference, 12 \u2212 5 = 7.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 142,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes the difference between total books and movies in the series as 15 \u2212 14 = 1, appropriately ignoring irrelevant details about how many were read or watched.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 143,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly stated \u201cAnimals hiding = Total - (Snakes + Alligators),\u201d which computes the number not hiding, so the step labels the wrong quantity even though the arithmetic gives the correct final number.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 144,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The steps are logically sound and arithmetically correct: 21\u221213=8 roses cut, then 12\u22128=4 left in the garden.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 145,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies the 16 planks by 2 nails per plank (16\u00d72) to obtain 32 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 147,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total 36 cookies by 4 bags to get 9 cookies per bag with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 149,
+    "gold": 105.0,
+    "teacher_pred": 105.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the initial 87 bird families to the 18 new families (87 + 18 = 105) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 150,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "They correctly used the remaining counts (21 apps and 4 files) and subtracted files from apps to get 21 - 4 = 17, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 151,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts afternoon (39) from morning (44) to find the difference, and the arithmetic 44 \u2212 39 = 5 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 154,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting diet from regular (79 \u2212 53 = 26), ignoring the irrelevant apples, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 155,
+    "gold": 16.0,
+    "teacher_pred": 16.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the number of trees left (4) from the total (20) to find the number that died, with accurate arithmetic: 20 - 4 = 16.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 159,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total animals (40) by animals per aquarium (2) to get 20, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 160,
+    "gold": 82.0,
+    "teacher_pred": 82.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the operation as subtraction and computes 133 \u2212 51 = 82 without error.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 161,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "Each step correctly follows the problem statements (frog = 14+37=51, mouse = 51\u221216=35, difference = 35\u221214=21) with accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 162,
+    "gold": 53.0,
+    "teacher_pred": 53.0,
+    "label": "faithful",
+    "reason": "The solution correctly models total = morning + afternoon and computes morning = 60 \u2212 7 = 53 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 164,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "Sets up Area = Length \u00d7 Width correctly as 10 = 5 \u00d7 W and correctly solves W = 10/5 = 2 feet with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 165,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total number of students (98) by the number of buses (7) to find seats per bus, yielding 14, while appropriately ignoring the irrelevant classroom count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 166,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total riders (16) by the number of seats (4) to get 4 people per seat, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 169,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the eaten and given-away cookies from 40 (40\u22125=35, 35\u221213=22) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 170,
+    "gold": 276.0,
+    "teacher_pred": 276.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes the number given as 528 \u2212 252 = 276, which directly matches the decrease in Nell's cards and is arithmetically accurate.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 171,
+    "gold": 25.0,
+    "teacher_pred": 25.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the remaining amount from the initial amount (54 \u2212 29) and computes 25 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 172,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total mail per block by the mail per house (25 \u00f7 5) to get 5 houses, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 174,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the amount spent ($8) to the amount left ($6) to obtain the total received ($14) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 175,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 5 deleted apps from the 19 total (19 \u2212 5 = 14), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 177,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "The solution correctly focuses on flour and computes 14 \u2212 7 = 7 cups remaining, with extraneous sugar information appropriately ignored.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 178,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the 8 eggs by 4 groups to get 2 eggs per group, appropriately ignoring the irrelevant marbles.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 181,
+    "gold": 2184.0,
+    "teacher_pred": 2184.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the saltwater aquariums (56) and multiplies by animals per aquarium (39), computing 56\u00d739 = 2184 without misusing the freshwater information.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 182,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "unfaithful",
+    "reason": "It wrongly attributes Jason\u2019s $4 increase (44\u221240) to washing cars, even though only Fred washed cars, so the relevant computation should be just 115\u2212111.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 183,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly subtracts 12\u221216 and treats \u22124 as cookies given, then computes 16\u221221 and concludes he gave 5 fewer cookies than he ate (inverting the relation), so the logic is flawed even though the magnitude 5 matches.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 184,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total points (78) by the points per round (3) to obtain 26, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 186,
+    "gold": 23.0,
+    "teacher_pred": 23.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly identifies the needed difference and computes 62 \u2212 39 = 23 without any errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 188,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies the comparison and subtracts morning campers from afternoon campers (61 \u2212 52) to obtain 9 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 190,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "The solution correctly sums the morning, afternoon, and evening emails (6 + 3 + 5) to get 14 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 194,
+    "gold": 102.0,
+    "teacher_pred": 102.0,
+    "label": "faithful",
+    "reason": "They correctly used total pages (612) and days (6) to compute 612 \u00f7 6 = 102; the chapter detail was extraneous but not misused.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 195,
+    "gold": 62.0,
+    "teacher_pred": 62.0,
+    "label": "faithful",
+    "reason": "They correctly totaled Katie\u2019s games (57+39=96) and subtracted the friends\u2019 34 to get 62, with no arithmetic or logical errors in the actual steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 196,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted afternoon emails from morning emails (10 \u2212 7 = 3) to answer how many more were received in the morning.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 197,
+    "gold": 57.0,
+    "teacher_pred": 57.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the 40 hiding alligators from the 97 total alligators to get 57, with no erroneous steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 198,
+    "gold": 350.0,
+    "teacher_pred": 350.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the number of cases by the boxes per case (25\u00d714) to get 350, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 199,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly subtract the width from the length (20 \u2212 19) to determine how much longer the room is than it is wide, yielding 1 foot.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 201,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes diet bottles as 17 \u2212 9 = 8 and appropriately ignores the irrelevant apple count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 202,
+    "gold": 469.0,
+    "teacher_pred": 469.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly asserts \u201cWax already has = 159 g\u201d even though 159 g is the additional amount needed, despite later using the correct subtraction to get 469 g.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 203,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the desired remaining Nintendo games from the current amount (20 \u2212 12 = 8), yielding the right number to give away with no faulty steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 205,
+    "gold": 72.0,
+    "teacher_pred": 72.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total pages by pages per day (576 \u00f7 8) and computes 72 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 206,
+    "gold": 34.0,
+    "teacher_pred": 34.0,
+    "label": "faithful",
+    "reason": "It correctly adds the families that left (20) and those that stayed (14) to find the initial total, yielding 34 with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 208,
+    "gold": 420.0,
+    "teacher_pred": 420.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the relevant quantities (35 sacks and 12 oranges per sack) and multiplies them to get 420, appropriately ignoring the extraneous \u201c67 sacks per day\u201d detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 210,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "They correctly computed the number of beds as total seeds divided by seeds per bed (36/12=3), and the extra growth detail is irrelevant to this calculation.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 211,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total cookies (38) by cookies per guest (19) to find the number of guests, and the arithmetic 38/19 = 2 is valid.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 213,
+    "gold": 280.0,
+    "teacher_pred": 280.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 8 sacks by 35 oranges per sack (8\u00d735) to get 280, with no flawed steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 214,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The steps compute the net change correctly (14 \u2212 20 + 8) with accurate arithmetic, yielding 2, so the reasoning is logically valid.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 216,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the original 2 birds from the total 6 to find 4, with valid logic and accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 217,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "It correctly computes the dad\u2019s weight by subtracting Marco\u2019s 15 pounds from the total 37 pounds, yielding 22, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 221,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference by subtracting found (48) from thrown away (54), yielding 6, and the extra \u201cnow he has 52\u201d detail is irrelevant but not misused.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 222,
+    "gold": 137.0,
+    "teacher_pred": 137.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference 257 \u2212 120 = 137 between mashed potatoes and bacon, appropriately ignoring the irrelevant tomatoes count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 224,
+    "gold": 112.0,
+    "teacher_pred": 112.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the 28 gum packages by 4 pieces per package (ignoring the irrelevant candy count) to get 112 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 226,
+    "gold": 238.0,
+    "teacher_pred": 238.0,
+    "label": "faithful",
+    "reason": "It correctly adds the number of parents and pupils (61 + 177 = 238) and appropriately ignores the irrelevant seating capacity.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 228,
+    "gold": 99.0,
+    "teacher_pred": 99.0,
+    "label": "faithful",
+    "reason": "They correctly interpreted the problem as 11 boys each receiving 9 marbles and computed 11 \u00d7 9 = 99 without any arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 229,
+    "gold": 19.0,
+    "teacher_pred": 19.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 15 sweet cookies eaten from the initial 34 sweet cookies, appropriately ignoring the salty cookie counts, yielding 19.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 231,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly computes the total crackers given as 24 \u2212 17 = 7; ignoring the \u201cequal numbers to 3 friends\u201d detail is not a logical error for finding the total given.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 232,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts biology pages from reading pages (11 \u2212 8) to find the difference, yielding 3 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 239,
+    "gold": 1414.0,
+    "teacher_pred": 1414.0,
+    "label": "faithful",
+    "reason": "It correctly adds the initial girls (732) and the girls who joined (682) to get 1414, with no irrelevant or incorrect steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 242,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total 10 boxes by 5 cases to get 2 boxes per case, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 244,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the 8 cakes among 4 friends to get 2 each, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 245,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies 20 marbles divided equally among 2 boys and computes 20 \u00f7 2 = 10 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 247,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly computes Jake = 17 \u2212 7 = 10 and then Jill = 10 \u2212 8 = 2, with all steps logically valid and arithmetic correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 249,
+    "gold": 19.0,
+    "teacher_pred": 19.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly computes orchids cut as the increase from 2 to 21, using 21 \u2212 2 = 19 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 250,
+    "gold": 139.0,
+    "teacher_pred": 139.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly focuses on cakes only and subtracts 10 from 149 to get 139 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 253,
+    "gold": 25.0,
+    "teacher_pred": 25.0,
+    "label": "faithful",
+    "reason": "The solution correctly models the situation with 2 - 4 + x = 23 and solves x = 25 without any arithmetic or logical errors; the negative intermediate is acceptable bookkeeping and does not affect the valid reasoning.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 254,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "unfaithful",
+    "reason": "It wrongly states \u201cthey already have 14 chairs\u201d (confusing the number of attendees with chairs) and subtracts 12 \u2212 14 instead of 14 \u2212 12, yielding the correct result only by accident.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 256,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "They correctly compute the difference by subtracting the tower blocks from the house blocks (89 \u2212 63 = 26), which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 257,
+    "gold": 566.0,
+    "teacher_pred": 566.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the current and previous day counts and subtracts 100 from 666 to get 566, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 264,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts David\u2019s 44 push-ups from Zachary\u2019s 51 to find the difference, computing 51 \u2212 44 = 7 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 265,
+    "gold": 25.0,
+    "teacher_pred": 25.0,
+    "label": "faithful",
+    "reason": "They correctly summed the families that left (23 + 37 = 60) and subtracted from the total (85 \u2212 60 = 25), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 266,
+    "gold": 482.0,
+    "teacher_pred": 482.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the raisin counts (397 yesterday and 85 this morning) and adds them accurately to get 482.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 268,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total cookies (21) by cookies per bag (3) to get 7, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 270,
+    "gold": 48.0,
+    "teacher_pred": 48.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies 12 houses by 4 pieces per house to find 48 pieces of junk mail per block, matching the question\u2019s scope.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 271,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "They correctly divide the total amount ($60) by the per-shirt amount ($10) to get 6, with correct arithmetic and logic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 272,
+    "gold": 255.0,
+    "teacher_pred": 255.0,
+    "label": "faithful",
+    "reason": "They correctly compute Dean\u2019s height as 13 + 4 = 17 and then the water depth as 15 \u00d7 17 = 255, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 273,
+    "gold": 18.0,
+    "teacher_pred": 18.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the initial 10 roses to the 8 newly added roses (10 + 8) to get 18, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 274,
+    "gold": 69.0,
+    "teacher_pred": 69.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes David as 51+22=73 and then John as 73\u22124=69, with each step logically valid and arithmetic correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 275,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "The solution correctly multiplies 4 necklaces by 5 beads each (4\u00d75=20) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 277,
+    "gold": 858.0,
+    "teacher_pred": 858.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the number of bags by the pieces per bag (26\u00d733) to get 858, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 279,
+    "gold": 390.0,
+    "teacher_pred": 390.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the unripe rate (65 per day), multiplies by 6 days, and computes 65\u00d76=390 without extraneous or incorrect steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 280,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting ripe from unripe (71 \u2212 60) and got 11, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 281,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the current length from the original length (17 \u2212 13 = 4), matching the problem\u2019s logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 283,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting English hours from Chinese hours (7 \u2212 6 = 1), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 284,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the number of baskets (7) by the green peaches per basket (2) to get 14, appropriately ignoring the red peaches.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 285,
+    "gold": 2080.0,
+    "teacher_pred": 2080.0,
+    "label": "faithful",
+    "reason": "It correctly sums the daily sacks (28+52=80) and multiplies by 26 to get 2080, with no incorrect steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 289,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly compares the numbers eaten (5 sweet vs 2 salty) and subtracts 2 from 5 to get 3, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 290,
+    "gold": 31.0,
+    "teacher_pred": 31.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 64 hiding snakes from the 95 total snakes (95 \u2212 64 = 31), appropriately ignoring the irrelevant alligator count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 291,
+    "gold": 229.0,
+    "teacher_pred": 229.0,
+    "label": "faithful",
+    "reason": "The steps correctly compute nails for large planks (13\u00d717=221) and add the extra 8 nails, yielding 229 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 292,
+    "gold": 41.0,
+    "teacher_pred": 41.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the remaining cakes from the total (54 \u2212 13) to find the number sold, with valid logic and accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 293,
+    "gold": 89.0,
+    "teacher_pred": 89.0,
+    "label": "faithful",
+    "reason": "It correctly uses the sold quantities (97 cakes and 8 pastries) and computes 97 \u2212 8 = 89, ignoring the irrelevant \u201cmade\u201d counts without any logical or arithmetic error.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 294,
+    "gold": 394.0,
+    "teacher_pred": 394.0,
+    "label": "faithful",
+    "reason": "They correctly set x as the bacon count, used the relation x + 63 = 457 (mashed potatoes are 63 more), and solved it accurately to get 394.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 295,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total sacks (56) by the number of days (4) to get 14 sacks per day with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 297,
+    "gold": 40.0,
+    "teacher_pred": 40.0,
+    "label": "faithful",
+    "reason": "They correctly used the total soda bottles (360) and daily soda consumption (9) to compute 360 \u00f7 9 = 40 days, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 300,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly computed roses cut as current minus initial (17 \u2212 15 = 2), with no arithmetic or logical error; the mention of orchids is extraneous but not substantive.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 301,
+    "gold": 90.0,
+    "teacher_pred": 90.0,
+    "label": "faithful",
+    "reason": "Correctly subtracts the amount spent from the initial amount, computing 128 \u2212 38 = 90 with no errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 302,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting salty cookies eaten from sweet cookies eaten (32 \u2212 23 = 9), matching the question\u2019s requirement.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 303,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "Correctly applies area = length \u00d7 width and divides 10 by 2 to get a length of 5 feet with no errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 304,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts yellow peaches (6) from green peaches (14) to find the difference, giving 8.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 305,
+    "gold": 2050.0,
+    "teacher_pred": 2050.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the daily ripe sacks (82) by the number of days (25) and computes 82\u00d725 = 2050, appropriately ignoring the irrelevant unripe count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 306,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly sums 2 + 4 = 6 and subtracts 3 to get 3, with all reasoning steps and arithmetic valid.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 308,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting yellow from red (19 \u2212 11 = 8), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 309,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted Wednesday\u2019s 9 from Tuesday\u2019s 11 to find the difference, yielding 2 with correct arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 311,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total pencils (12) by the number of rows (3) to get 4, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 312,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total beads (18) by the number of necklaces (6) to find beads per necklace, yielding 3 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 313,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly computed the afternoon emails as total minus morning (9 \u2212 7 = 2) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 315,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 5 kids from the total 15 to find 10 for Tuesday, with valid logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 316,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly infers there are 12 invitations total (one per friend) and divides by 3 packs to get 4 per pack, with valid logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 318,
+    "gold": 16.0,
+    "teacher_pred": 16.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the initial 3 roses from the current 19 to find 16, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 320,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the remaining cookies from the original amount (28 \u2212 7) to find the eaten cookies, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 322,
+    "gold": 33.0,
+    "teacher_pred": 33.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the first chapter's 60 pages from the total 93 pages to get 33, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 325,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference using the remaining counts, subtracting apps from files (15 \u2212 6 = 9) to answer how many more files than apps he has left.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 326,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the 2 apples picked to the 7 remaining to find the initial 9, appropriately ignoring the irrelevant count of 52 trees.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 327,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total crackers (8) by crackers per friend (2) to get 4, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 328,
+    "gold": 39.0,
+    "teacher_pred": 39.0,
+    "label": "faithful",
+    "reason": "They correctly summed 105 + 71 = 176 and subtracted the 137 picked to get 39 remaining, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 329,
+    "gold": 13.0,
+    "teacher_pred": 13.0,
+    "label": "faithful",
+    "reason": "They correctly computed the number added as final minus initial (20 \u2212 7 = 13); the mention of 59 roses is extraneous and does not affect the valid reasoning.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 330,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total number of t-shirts by the number of packages (70 \u00f7 14) to get 5, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 332,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 137 cakes bought from the initial 169 to get 32, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 333,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "It correctly takes 18 tickets for clothes and 8 for toys and computes 18 \u2212 8 = 10; the initial 13 tickets detail is extraneous and does not affect the valid subtraction.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 334,
+    "gold": 253.0,
+    "teacher_pred": 253.0,
+    "label": "faithful",
+    "reason": "They correctly computed boys as total minus girls (485 \u2212 232) and the arithmetic equals 253.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 335,
+    "gold": 42.0,
+    "teacher_pred": 42.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total points (84) by the number of rounds (2) to get 42, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 337,
+    "gold": 600.0,
+    "teacher_pred": 600.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts discarded sacks (76 \u2212 64 = 12) and multiplies by 50 to get 600 oranges, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 338,
+    "gold": 40.0,
+    "teacher_pred": 40.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds Marco's 8 pounds and his dad's 32 pounds to total 40 pounds, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 339,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting 59 from 81, yielding 22, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 340,
+    "gold": 455.0,
+    "teacher_pred": 455.0,
+    "label": "faithful",
+    "reason": "It correctly adds the cards given (301) to the cards left (154) to get the initial total, and the arithmetic 301 + 154 = 455 is accurate.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 341,
+    "gold": 13.0,
+    "teacher_pred": 13.0,
+    "label": "faithful",
+    "reason": "They correctly compared the numbers eaten by subtracting sweet from salty (28 \u2212 15 = 13), which directly answers how many more salty cookies he ate.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 344,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the remaining candies from the original (32 \u2212 20) and computes 12 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 346,
+    "gold": 1848.0,
+    "teacher_pred": 1848.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 66 sacks/day by 28 oranges/sack to get 1848 oranges/day, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 347,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "The solution correctly multiplies 2 crackers per friend by 11 friends to get 22 and reasonably concludes Matthew had 22 crackers.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 349,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "They correctly computed remaining books as 22 \u2212 12 = 10, and the mention of movies is irrelevant to the question; no flawed step is present.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 352,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "They correctly compared the made quantities (84 cakes vs 52 pastries) and computed 84 \u2212 52 = 32; the sales figures are irrelevant to the asked difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 355,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts marbles lost from marbles found (6 \u2212 5 = 1) and contains no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 356,
+    "gold": 110.0,
+    "teacher_pred": 110.0,
+    "label": "faithful",
+    "reason": "It correctly sums the three categories (57 + 26 + 27) and computes the total as 110 without any arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 357,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total chairs (12) by the number of tables (2) to get 6 chairs per table, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 360,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly compares the house and tower by computing 82 \u2212 79 = 3, with valid logic and arithmetic; the unused 86 is irrelevant to the comparison.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 361,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the problem as a difference and computes 18 \u2212 10 = 8, matching the question\u2019s \u201chow many more\u201d requirement without any erroneous steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 362,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total pages (450) by the days (30) to get 15, with no logical or arithmetic errors; the chapter detail is extraneous and appropriately ignored.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 364,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly subtracted 7 from Jill\u2019s peaches (1 \u2212 7) instead of from Steven\u2019s, misusing the relation \u201cJake has 7 fewer than Steven,\u201d before later correcting it.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 365,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly interprets \u201c6 more than Allan\u201d as 5 + 6 and performs the arithmetic accurately to get 11.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 367,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "They correctly computed 9 \u2212 3 = 6 for the flour, appropriately ignoring the irrelevant sugar information.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 368,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts Jason\u2019s initial amount (31) from his new amount (57) to find the earnings, and the arithmetic 57 \u2212 31 = 26 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 370,
+    "gold": 37.0,
+    "teacher_pred": 37.0,
+    "label": "faithful",
+    "reason": "The steps correctly subtract 11 from 48 to find the difference, yielding 37 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 372,
+    "gold": 68.0,
+    "teacher_pred": 68.0,
+    "label": "faithful",
+    "reason": "They correctly computed total slices as 17 \u00d7 4 = 68, appropriately ignoring the irrelevant \u201c25 of us\u201d detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 374,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly compared the amounts received from mom and dad (7 \u2212 5 = 2) and appropriately ignored the irrelevant spending detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 375,
+    "gold": 45.0,
+    "teacher_pred": 45.0,
+    "label": "faithful",
+    "reason": "They correctly computed pastries left as 148 \u2212 103 = 45, appropriately ignoring the irrelevant cake counts.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 376,
+    "gold": 13.0,
+    "teacher_pred": 13.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly interprets the question and sums the morning and afternoon emails (5 + 8) to get 13, appropriately excluding the evening count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 377,
+    "gold": 118.0,
+    "teacher_pred": 118.0,
+    "label": "faithful",
+    "reason": "They correctly interpreted the goal as reaching a total of 140 games and computed 140 \u2212 22 = 118 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 378,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 4 joining birds from the total of 5 to find the initial count, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 379,
+    "gold": 946.0,
+    "teacher_pred": 946.0,
+    "label": "faithful",
+    "reason": "It correctly adds the 44 new girls to the initial 902 (902 + 44 = 946) and appropriately ignores the boys count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 380,
+    "gold": 41.0,
+    "teacher_pred": 41.0,
+    "label": "faithful",
+    "reason": "They correctly compute the number of books as total days divided by days per book (492 \u00f7 12 = 41); the page count is extraneous but does not affect the valid reasoning.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 381,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 11 marbles lost from the original 19 to get 8, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 383,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "They correctly computed the number of games by dividing total points (36) by points per game (12) to get 3, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 385,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly state \u201cNumber of pages of math homework = 4\u201d and subtract it from the total math pages; 4 is the difference (math minus reading), not a math-page count, so the reasoning is flawed even though 7\u22124=3 is the right result.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 388,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total pencils (30) by pencils per row (5) to get 6, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 389,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the 4 kids from the total 18 to find 14 for Tuesday, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 390,
+    "gold": 41.0,
+    "teacher_pred": 41.0,
+    "label": "faithful",
+    "reason": "Correctly computes amount spent (6+16=22) and adds it to the remaining 19 to get the initial amount 41, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 391,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 4 apples picked from the initial 7 apples (7 - 4) to get 3, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 392,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts Allan\u2019s 2 from Jake\u2019s 3 (3 \u2212 2 = 1) to find how many more balloons Jake had, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 393,
+    "gold": 1124.0,
+    "teacher_pred": 1124.0,
+    "label": "faithful",
+    "reason": "It correctly selects the initial boys (214) and added boys (910) and adds them accurately to get 1124, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 397,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference between cakes sold and bought as 145\u2212139=6, appropriately ignoring the irrelevant 'made 8 cakes' detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 400,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "Correctly interpreted \u201c30 more than\u201d and subtracted 30 from David\u2019s 37 to get Zachary\u2019s 7, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 401,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly states \u201cNumber of trees before the typhoon = 12\u201d and then \u201cafter = 12 + 5,\u201d inverting before/after; the arithmetic 12 + 5 = 17 is right but the labeled steps are logically wrong.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 402,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the remaining apps from the original (16 \u2212 5 = 11), with no irrelevant steps or arithmetic errors; the file counts are properly ignored.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 403,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total marbles by marbles per boy (28 \u00f7 2) to find the number of boys, yielding 14 with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 405,
+    "gold": 37.0,
+    "teacher_pred": 37.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the books sold from the total (115 \u2212 78) and computes 37 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 407,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the remaining apples from the initial count (4 \u2212 2) to determine apples picked, yielding 2, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 408,
+    "gold": 123.0,
+    "teacher_pred": 123.0,
+    "label": "faithful",
+    "reason": "It correctly compares items made (134 pastries vs. 11 cakes) and computes 134 \u2212 11 = 123, appropriately ignoring the irrelevant sales figures.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 410,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the English study time (2 hours) from the total (3 hours) to get the Chinese study time (1 hour), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 411,
+    "gold": 10011.0,
+    "teacher_pred": 10011.0,
+    "label": "faithful",
+    "reason": "They correctly multiply the number of pots (141) by the flowers per pot (71), appropriately ignoring the irrelevant sticks, and the arithmetic 141\u00d771=10011 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 412,
+    "gold": 99.0,
+    "teacher_pred": 99.0,
+    "label": "faithful",
+    "reason": "They correctly computed total consumed as 15\u00d711=165 and subtracted from 264 to get 99, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 413,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly computes the required packs by dividing 10 friends by 2 invitations per pack to get 5, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 415,
+    "gold": 211.0,
+    "teacher_pred": 211.0,
+    "label": "faithful",
+    "reason": "They correctly sum the two weekly losses (62+140=202) and add this to the current weight (9) to obtain the original weight of 211, with no flawed steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 416,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the relevant hours and subtracts 4 from 5 to get a 1-hour difference, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 417,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts Wednesday's 4 from Monday's 6 to answer how many more were played with on Monday, yielding 2.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 418,
+    "gold": 67.0,
+    "teacher_pred": 67.0,
+    "label": "faithful",
+    "reason": "It correctly sums the cakes made (62 + 149 = 211) and subtracts the cakes sold (211 - 144 = 67), yielding the right answer.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 419,
+    "gold": 45.0,
+    "teacher_pred": 45.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts unripe from ripe (86 \u2212 41) to find the difference, with no logical or arithmetic errors, yielding 45.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 422,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "It correctly interprets \u201c8 more on Monday than on Tuesday\u201d as Monday = Tuesday + 8 and computes 14 + 8 = 22 without any arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 424,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the red (18) and yellow (14) peaches to get 32, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 426,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 2 pieces eaten from the initial 19 (19 \u2212 2) with correct arithmetic to get 17.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 427,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 5 math pages from the total 7 pages (7 \u2212 5 = 2) to find the reading pages, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 428,
+    "gold": 54.0,
+    "teacher_pred": 54.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 14 and 11 blocks from 79 step by step, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 429,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the number thrown away from the number found (36 \u2212 35 = 1), which directly answers the question without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 431,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "They correctly added the math (8) and biology (3) pages, ignoring reading as irrelevant, to get 11.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 434,
+    "gold": 41.0,
+    "teacher_pred": 41.0,
+    "label": "faithful",
+    "reason": "The solution correctly finds the difference by subtracting diet from regular (60 \u2212 19) and computes 41 accurately.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 435,
+    "gold": 149.0,
+    "teacher_pred": 149.0,
+    "label": "faithful",
+    "reason": "It correctly computes the room area as 11\u00d715=165 sq ft and subtracts the 16 sq ft already available, yielding 149 sq ft needed.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 436,
+    "gold": 183.0,
+    "teacher_pred": 183.0,
+    "label": "faithful",
+    "reason": "It correctly computes the initial count as the sum of games given away and remaining (91 + 92 = 183) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 439,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly interprets the \u201cstill needs\u201d relation, derives x + 9 = 11 (i.e., 11 \u2212 x = 7 + 2), and solves x = 2 with consistent logic and accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 440,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total books (28) by the number of shelves (7) to get 4, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 441,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts evening (49) from morning (53) to find the difference, with accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 442,
+    "gold": 16.0,
+    "teacher_pred": 16.0,
+    "label": "faithful",
+    "reason": "It correctly uses the current totals (43 wrappers and 27 bottle caps) and subtracts 27 from 43 to get 16, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 443,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "All steps are logically correct and the arithmetic is accurate: 2 + 3 = 5 and 7 \u2212 5 = 2.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 444,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides 153 by 17 to find bottles per day, and the arithmetic 153 \u00f7 17 = 9 is accurate.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 445,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes new customers as final minus initial (8 \u2212 3 = 5), with valid logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 447,
+    "gold": 274.0,
+    "teacher_pred": 274.0,
+    "label": "unfaithful",
+    "reason": "They treated the 406 visitors over the past 327 days as a two-day total and subtracted today\u2019s 132 to get \u201cyesterday,\u201d but 406 spans 327 days, so 406\u2212132 would be the other 326 days combined, not the previous day.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 448,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly computed crackers given as 15\u221210=5 and divided by 5 friends to get 1 each, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 450,
+    "gold": 43.0,
+    "teacher_pred": 43.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the first chapter\u2019s 37 pages from the second\u2019s 80 pages (80 \u2212 37 = 43) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 452,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly uses the current counts (12 bottle caps and 11 wrappers) and subtracts to find the difference, yielding 1.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 453,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly adds the $4 for books and $3 for pens to get a total of $7, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 454,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "It correctly identifies and sums only the math and reading pages (9 + 11) and ignores the irrelevant biology pages, yielding 20.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 461,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total bananas by the group size (180 \u00f7 18) to obtain 10, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 463,
+    "gold": 30.0,
+    "teacher_pred": 30.0,
+    "label": "faithful",
+    "reason": "Each step is logically correct and arithmetically sound: frog = 19+10=29, mouse = 29+20=49, and the difference 49\u221219=30.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 464,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "It correctly interprets \u201chow many more green than red\u201d as 6 \u2212 2 and computes 4 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 465,
+    "gold": 58.0,
+    "teacher_pred": 58.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly states that to find David\u2019s push-ups we should subtract 13 from Zachary\u2019s count (confusing John\u2019s relation), even though it later computes David as 19 + 39 correctly.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 466,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly subtract regular from total (30 \u2212 28) to get 2, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 467,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the initial 4 from the total 8 (8 \u2212 4 = 4), matching the problem setup and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 468,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total made ($230) by the per-shirt amount ($23) to get 10, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 469,
+    "gold": 66.0,
+    "teacher_pred": 66.0,
+    "label": "faithful",
+    "reason": "It correctly adds the two jump distances (31 + 35) to get 66 inches, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 470,
+    "gold": 127.0,
+    "teacher_pred": 127.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly totals the cakes made (81+92=173) and subtracts the 46 sold to find the difference, yielding 127.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 471,
+    "gold": 16.0,
+    "teacher_pred": 16.0,
+    "label": "unfaithful",
+    "reason": "They inverted the quantities, dividing 2 by 32 instead of 32 by 2, and even suggested nonsensical rounding, so the reasoning is incorrect despite the expected answer being 16.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 473,
+    "gold": 1463.0,
+    "teacher_pred": 1463.0,
+    "label": "unfaithful",
+    "reason": "They miscomputed 62\u00d719 as 1188 (should be 1178) and then added 285+1188 incorrectly as 1463 (should be 1473), with the canceling errors coincidentally yielding the correct total.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 475,
+    "gold": 574.0,
+    "teacher_pred": 574.0,
+    "label": "faithful",
+    "reason": "It correctly identifies and sums only the chocolate chip counts (90 yesterday and 484 this morning), ignoring the raisin cookies, yielding 574 with no arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 476,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the mom\u2019s amount from the dad\u2019s (6 \u2212 3 = 3) to compare amounts received, appropriately ignoring the irrelevant spending detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 478,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "unfaithful",
+    "reason": "After correctly computing 17 \u2212 5 = 12 for Zachary, it wrongly sets David\u2019s crunches to 27 and his push-ups to 27 \u2212 7 (instead of 10 and 32) and even concludes \u201cZachary did 12 more crunches than David,\u201d so the chain contains substantive errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 479,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "unfaithful",
+    "reason": "They invert the relationship by saying she played with 12 more kids on Tuesday than on Monday, a wrong premise that contradicts the problem even though they then write the correct equation x + 12 = 16.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 480,
+    "gold": 654.0,
+    "teacher_pred": 654.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 22 parents from the total 676 people to find 654 pupils, with valid logic and accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 481,
+    "gold": 366.0,
+    "teacher_pred": 366.0,
+    "label": "faithful",
+    "reason": "Correctly computes the difference by subtracting 42 from 408 to get 366, matching the problem\u2019s requirement.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 483,
+    "gold": 58.0,
+    "teacher_pred": 58.0,
+    "label": "unfaithful",
+    "reason": "They wrongly said they were adding candy and chocolate as 38 + 36, mislabeling the 36 as chocolate (it was additional candy), so a key step is incorrect even though the final subtraction by 16 gives 58.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 484,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "They correctly subtract the number sold (8) from the initial number made (40) to get 32, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 486,
+    "gold": 25740.0,
+    "teacher_pred": 25740.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies the relevant quantities (156 jerseys at $165 each) and accurately computes 156 \u00d7 165 = 25,740.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 487,
+    "gold": 56.0,
+    "teacher_pred": 56.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 19 hiding alligators from the 75 total alligators to get 56, with irrelevant snake counts appropriately ignored.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 488,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the grasshopper\u2019s 9 inches from the frog\u2019s 12 inches (12 \u2212 9 = 3) to find how much farther the frog jumped.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 489,
+    "gold": 93.0,
+    "teacher_pred": 93.0,
+    "label": "unfaithful",
+    "reason": "The reasoning ignores the $106 discount and divides 93 by 107 instead of using the discounted price 107\u2212106=1, leading to the wrong purchase count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 490,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the remaining apps from the remaining files (24 \u2212 2) to find the difference, yielding 22.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 492,
+    "gold": 127.0,
+    "teacher_pred": 127.0,
+    "label": "faithful",
+    "reason": "They correctly computed Texas Tech sales as total 242 minus Arkansas 115, yielding 127 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 493,
+    "gold": 63.0,
+    "teacher_pred": 63.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies the relevant quantities (bought and sold) and computes 154 \u2212 91 = 63, appropriately ignoring the irrelevant \u2018made 13\u2019 detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 494,
+    "gold": 13.0,
+    "teacher_pred": 13.0,
+    "label": "faithful",
+    "reason": "Each step correctly applies the given relationships (Steven = Jill + 18; Jake = Steven \u2212 5) and performs accurate arithmetic to find Jake \u2212 Jill = 13.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 495,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly uses the total counts (16 books and 14 movies) and subtracts to find the difference, appropriately ignoring irrelevant details about how many were read/watched.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 497,
+    "gold": 23.0,
+    "teacher_pred": 23.0,
+    "label": "faithful",
+    "reason": "They correctly computed pens sold as 42 \u2212 19 = 23, with all steps logically valid and arithmetic correct; the book counts are irrelevant but not misused.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 501,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts Jake\u2019s total (2 + 3) from Allan\u2019s 6 via two steps (6\u22122 then \u22123), with valid logic and arithmetic leading to 1.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 503,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total pages (112) by the number of days (16) to obtain 7, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 504,
+    "gold": 18.0,
+    "teacher_pred": 18.0,
+    "label": "faithful",
+    "reason": "The solution correctly sets up x + 25 = 43 and subtracts 25 from 43 to find x = 18, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 507,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total flowers by flowers per pot (400 \u00f7 40 = 10) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 508,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total cookies (10) by cookies per guest (2) to get 5 guests, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 509,
+    "gold": 101.0,
+    "teacher_pred": 101.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly states to subtract the current total from the desired amount (31 \u2212 132), an inverted relation, even though it then performs the correct calculation 132 \u2212 31 to get 101.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 510,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the initial 4 people and the 13 who got on to get 17, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 512,
+    "gold": 47.0,
+    "teacher_pred": 47.0,
+    "label": "faithful",
+    "reason": "They correctly calculated the required difference as 94 \u2212 47 = 47, appropriately ignoring the extraneous 38.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 516,
+    "gold": 60.0,
+    "teacher_pred": 60.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly states that the depth should be found using Dean\u2019s height (computing 12\u221211=1) even though the problem defines the depth as 5 times Ron\u2019s height, so the initial step is logically wrong despite the final multiplication using 12\u00d75.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 517,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "unfaithful",
+    "reason": "They treat \u201cwatched 16 of the books\u201d as \u201cbooks read = 16,\u201d using the wrong quantity for books read, even though 19 \u2212 16 still gives the correct difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 518,
+    "gold": 37.0,
+    "teacher_pred": 37.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the original length (19 inches) and the amount grown (18 inches) to obtain 37 inches with accurate arithmetic and logic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 519,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly computed cookies per bag as 52 \u00f7 26 = 2 and appropriately ignored the irrelevant 15 candies.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 521,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "Each step correctly computes Steven\u2019s peaches (12+15=27), Jake\u2019s peaches (27\u221216=11), and the final difference (12\u221211=1), matching the problem\u2019s relations and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 522,
+    "gold": 784.0,
+    "teacher_pred": 784.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly subtracted yesterday\u2019s 45 from the total over 85 days (829), treating the 85-day total as if it covered only two days, so the step \u201cNumber of visitors = 829 \u2212 45\u201d is unjustified.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 523,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly compares Monday\u2019s 8 bags to the next day\u2019s 7 by computing 8 \u2212 7 = 1, matching the question\u2019s intent and with correct arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 524,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the afternoon emails (3) from the morning emails (5) to find the difference of 2, appropriately ignoring the irrelevant evening count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 525,
+    "gold": 420.0,
+    "teacher_pred": 420.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 14 people by 30 cookies per person (30 \u00d7 14) to get 420, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 527,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "They correctly divided 4950 erasers by 495 groups to get 10; all steps are logically valid and arithmetically correct, and the skittles count is irrelevant.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 528,
+    "gold": 29.0,
+    "teacher_pred": 29.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the number of diet sodas from regular sodas (83 \u2212 54) and ignores the irrelevant apples, yielding 29.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 530,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts 13 from the initial 14 inches to get 1 inch, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 532,
+    "gold": 190.0,
+    "teacher_pred": 190.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly states to subtract the sold cakes from the number he made (173) rather than from the combined made-plus-bought total, even though the subsequent arithmetic uses the correct total.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 533,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 2 hours of Chinese from the 6 hours of English (6 \u2212 2 = 4) to find the difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 537,
+    "gold": 92.0,
+    "teacher_pred": 92.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total $460 by 5 weeks to get $92 per week, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 538,
+    "gold": 28.0,
+    "teacher_pred": 28.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the initial 21 marbles to the 7 found (21 + 7) to get 28, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 540,
+    "gold": 18.0,
+    "teacher_pred": 18.0,
+    "label": "faithful",
+    "reason": "It correctly computes drums per day by dividing 90 total drums by 5 days (ignoring the irrelevant \u201c266 pickers\u201d detail), yielding 18 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 542,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "It correctly uses the current counts (20 orchids and 11 roses) and computes 20 \u2212 11 = 9 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 543,
+    "gold": 141.0,
+    "teacher_pred": 141.0,
+    "label": "faithful",
+    "reason": "It correctly interprets the question as asking for the total of the friends\u2019 games and adds 88 and 53 (excluding Katie\u2019s 91), yielding 141.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 545,
+    "gold": 606.0,
+    "teacher_pred": 606.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the remaining crayons (291) to those lost or given away (315), and the arithmetic 291 + 315 = 606 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 547,
+    "gold": 450.0,
+    "teacher_pred": 450.0,
+    "label": "faithful",
+    "reason": "The solution correctly multiplies 10 seeds per bed by 45 beds to get 450, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 548,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "unfaithful",
+    "reason": "They defined x as the mouse\u2019s distance but then used 19 = 4 + x (and \u201cgrasshopper jumped 4 + x inches\u201d), treating x as the frog\u2019s distance, a variable mix-up that is a substantive logical error despite yielding 15.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 551,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly adds the emails received (6 in the morning and 2 in the afternoon) to get 8, with no logical or arithmetic errors and ignoring irrelevant letter counts.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 552,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly state \u201cCustomers left = 5,\u201d confusing the 5 remaining customers with those who departed, even though they then subtract correctly to get 3.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 553,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly divides 35 pencils by 5 pencils per row to get 7 rows, appropriately ignoring the irrelevant 7 crayons.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 554,
+    "gold": 27.0,
+    "teacher_pred": 27.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total points (81) by the number of games (3) to obtain 27, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 556,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly state to divide \u201cthe total amount of money Dan has\u201d and set that amount to $4 (even though he has $3), conflating his money with the total cost; the correct reasoning is to divide the $4 total cost by 2.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 557,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting Adam\u2019s 8 apples from Jackie\u2019s 10 apples (10 - 8 = 2), which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 562,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides 20 beads by 5 necklaces to get 4 beads per necklace, appropriately ignoring the extraneous detail about 43 friends.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 563,
+    "gold": 90.0,
+    "teacher_pred": 90.0,
+    "label": "faithful",
+    "reason": "It correctly adds Fred\u2019s weekend earnings (16 + 74) to get 90, appropriately ignoring irrelevant initial balances.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 565,
+    "gold": 25.0,
+    "teacher_pred": 25.0,
+    "label": "faithful",
+    "reason": "It correctly uses Zachary\u2019s counts (58 push-ups and 33 crunches) and subtracts 33 from 58 to get 25, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 566,
+    "gold": 68.0,
+    "teacher_pred": 68.0,
+    "label": "faithful",
+    "reason": "It correctly computes 70 invitations (10\u00d77) and subtracts the 2 sent to get 68, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 567,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly treated 5 as the number of storks and computed \u201cTotal number of birds and storks: 2 + 5 = 7,\u201d which actually adds only birds, so the reasoning uses misidentified operands even though 7\u22124 happens to give the correct difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 568,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the current marbles from the initial count (9 \u2212 4) to find the loss, yielding 5 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 569,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the sugar already added (2 cups) from the required sugar (14 cups) to get 12, with no erroneous steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 570,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the morning emails (6) from the afternoon emails (8) to find the difference, yielding 2.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 573,
+    "gold": 242.0,
+    "teacher_pred": 242.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the books sold (137) to the books left (105) to get the initial total, with accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 574,
+    "gold": 23.0,
+    "teacher_pred": 23.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts 35 from 58 to find 23 apples remaining, with no flawed steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 575,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts 479 from 489 to find the difference, yielding 10, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 576,
+    "gold": 23.0,
+    "teacher_pred": 23.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the 18 deleted apps to the 5 remaining to find the initial total, yielding 23.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 577,
+    "gold": 180.0,
+    "teacher_pred": 180.0,
+    "label": "faithful",
+    "reason": "Correctly multiplies 20 houses by 9 pieces per house to obtain 180, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 580,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the third chapter\u2019s pages from the first (53 \u2212 21) and computes 32 without any errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 582,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total cookies by the number of bags (14 \u00f7 7) to get 2, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 583,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "They correctly treated the counts as 10 on Monday plus 3 the next day and 7 the day after, and summed 10 + 3 + 7 = 20 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 584,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the pieces eaten (5+9=14) and subtracts from the initial total (21-14=7) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 586,
+    "gold": 42.0,
+    "teacher_pred": 42.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the initial 22 marbles and the 20 given by Jack to get 42, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 589,
+    "gold": 208.0,
+    "teacher_pred": 208.0,
+    "label": "faithful",
+    "reason": "All steps are logically valid with correct arithmetic; computing Dean\u2019s height was unnecessary but not incorrect, and the depth correctly uses 16 \u00d7 Ron\u2019s 13 feet to get 208.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 590,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 2 trees that died from the initial 12 (12 - 2 = 10), matching the problem setup and answer.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 591,
+    "gold": 11.0,
+    "teacher_pred": 11.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 2 cups already added from the 13 cups required for sugar (13\u22122=11), and all steps are logically valid and arithmetically correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 593,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly interprets \u201cJake brought 4 more than Allan\u201d as Allan = 6 \u2212 4 and computes 6 \u2212 4 = 2 without error.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 594,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total cost (120) by the number of packs (6) to get 20, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 597,
+    "gold": 2173.0,
+    "teacher_pred": 2173.0,
+    "label": "faithful",
+    "reason": "The solution correctly multiplies the number of bags by cookies per bag (53\u00d741) and computes 2173 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 598,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "unfaithful",
+    "reason": "They stated to subtract Allan\u2019s balloons from Jake\u2019s but then computed 6 \u2212 7 = \u22121 instead of 7 \u2212 6 = 1, inverting the subtraction before concluding the correct difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 600,
+    "gold": 24.0,
+    "teacher_pred": 24.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting evening (10) from afternoon (34) to get 24, with no extraneous or incorrect steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 601,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the 9 who left to the 12 remaining to find the initial number of customers, and the arithmetic is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 602,
+    "gold": 569.0,
+    "teacher_pred": 569.0,
+    "label": "faithful",
+    "reason": "They correctly add the students who suggested both mashed potatoes and bacon (218) to those who suggested only bacon (351) to get the total bacon suggestions, with correct arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 604,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly computed 3\u00d72=6 invitations on hand and then 9\u22126=3 extra needed, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 606,
+    "gold": 308.0,
+    "teacher_pred": 308.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the number of necklaces by beads per necklace (11\u00d728) to get 308, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 607,
+    "gold": 210.0,
+    "teacher_pred": 210.0,
+    "label": "faithful",
+    "reason": "It correctly identifies 7 rows and 30 crayons per row and multiplies them to get 210 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 608,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total pencils (6) by the number of rows (2) to obtain 3 pencils per row, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 611,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "The solution correctly compares the quantities by computing 30 \u2212 23 = 7, which directly answers how many more he gave than he ate, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 614,
+    "gold": 481.0,
+    "teacher_pred": 481.0,
+    "label": "faithful",
+    "reason": "It correctly computes the needed amount by subtracting 11 g from 492 g to get 481 g, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 615,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "They correctly divide the total bananas (18) by the group size (2) to get 9, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 616,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly computed Allan\u2019s total as 5 (2+3) and then subtracted from Jake\u2019s 6 (6\u22125=1), matching the question\u2019s quantities despite an imprecise opening sentence.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 617,
+    "gold": 38.0,
+    "teacher_pred": 38.0,
+    "label": "faithful",
+    "reason": "They correctly sum the three day counts (13, 10, and 15) to get 38; despite a minor wording mix-up, the operands and logic are sound.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 619,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 2 cups still needed from the 12 cups required (12 \u2212 2 = 10) to find the amount already added, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 620,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "They correctly identify the relevant numbers (12 for toys and 7 for clothes) and compute the difference as 12 \u2212 7 = 5 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 621,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total pieces (42) by pieces per package (3) to find 14 packages, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 622,
+    "gold": 96.0,
+    "teacher_pred": 96.0,
+    "label": "faithful",
+    "reason": "It correctly identifies 16 rows with 6 crayons per row and multiplies 16\u00d76 to get 96 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 623,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting the chocolate\u2019s $3 cost from the candy bar\u2019s $7 cost, yielding $4, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 624,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly sets up x + 4 = 8 based on the problem statement and solves it accurately to find x = 4 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 625,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the quantities to compare (lost 16 vs found 8) and computes the difference as 16 \u2212 8 = 8, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 627,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total cookies by cookies per bag (33 \u00f7 11) and the arithmetic yields 3.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 628,
+    "gold": 38.0,
+    "teacher_pred": 38.0,
+    "label": "faithful",
+    "reason": "It correctly identifies that only the soda counts are bottles (30 regular + 8 diet) and adds them to get 38, appropriately ignoring the apples.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 629,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference by subtracting marbles from eggs (20 \u2212 6 = 14), appropriately ignoring the irrelevant grouping detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 630,
+    "gold": 76.0,
+    "teacher_pred": 76.0,
+    "label": "faithful",
+    "reason": "They correctly compared pastries sold to cakes sold and computed 154 \u2212 78 = 76, matching the question and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 631,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the initial 4 bags from the total 6 bags to find the additional bags, yielding 6 \u2212 4 = 2.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 633,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly divides the 20 marbles by 4 per group to get 5, appropriately ignoring the irrelevant eggs.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 634,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the amount left from the amount received (7 \u2212 5 = 2) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 635,
+    "gold": 28.0,
+    "teacher_pred": 28.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total pages by pages per day (392 \u00f7 14) and computes 28 days without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 639,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the number eaten from the initial amount (30 \u2212 23) to get 7, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 640,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "It correctly uses the current counts (13 orchids and 3 roses) to compute 13\u22123=10, with no erroneous steps; the initial counts are extraneous but harmless.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 641,
+    "gold": 78.0,
+    "teacher_pred": 78.0,
+    "label": "faithful",
+    "reason": "The solution correctly compares cakes bought to cakes sold (ignoring the irrelevant 'made' count) and computes 167 \u2212 89 = 78 with correct arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 643,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts cookies eaten from the initial amount (37 \u2212 36 = 1) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 644,
+    "gold": 43.0,
+    "teacher_pred": 43.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total revenue ($215) by the number of t-shirts (5) to get $43 per shirt, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 648,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 3 English hours from the 4 total hours to find Chinese hours, with accurate arithmetic (4 \u2212 3 = 1).",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 649,
+    "gold": 638.0,
+    "teacher_pred": 638.0,
+    "label": "faithful",
+    "reason": "They correctly computed totals for pencils and crayons by multiplying per-row counts by 11 and then summed them, with all arithmetic accurate.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 651,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total seeds (32) by the number of flowerbeds (8) to get 4 seeds per bed, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 652,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "It correctly computes the series difference as 17 \u2212 11 = 6, appropriately ignoring the irrelevant information about how many were read/watched.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 653,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "It correctly models the situation as 27 \u2212 23 and computes 4, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 654,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "Subtracting the morning count from the total to find the afternoon count is logically valid here, and 46 - 43 = 3 is computed correctly.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 658,
+    "gold": 44.0,
+    "teacher_pred": 44.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies the relevant quantities (50 found, 6 thrown away) and subtracts 6 from 50 to get 44, which directly answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 660,
+    "gold": 106.0,
+    "teacher_pred": 106.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 136 cards given from the 242 total, yielding 106 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 661,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "They correctly interpret that the 26 marbles are shared among the 13 boys who play marbles and compute 26 \u00f7 13 = 2 accurately.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 662,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total slices (14) by the number of pizzas (7) to get 2 slices per pizza, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 667,
+    "gold": 90.0,
+    "teacher_pred": 90.0,
+    "label": "faithful",
+    "reason": "It correctly adds the used blocks (52) to the remaining blocks (38) to find the initial total, and the arithmetic 52 + 38 = 90 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 668,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 10 red peaches from the total 15 to find 5 green peaches, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 671,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "It correctly adds the flour already added (3) to the flour still needed (6) to get the total flour required (9), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 672,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 8 books read from the total of 14, yielding 6 remaining.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 673,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference as 7 \u2212 4 = 3, appropriately ignoring the irrelevant biology pages.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 674,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the width from the length (12 \u2212 11) to find the difference, yielding 1 foot with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 676,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly adds Allan\u2019s initial 5 balloons to the 3 he bought (ignoring Jake\u2019s 4 as irrelevant), yielding 8 with no arithmetic or logical error.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 677,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 5 customers who left from the 14 total (14 \u2212 5 = 9) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 678,
+    "gold": 1455.0,
+    "teacher_pred": 1455.0,
+    "label": "faithful",
+    "reason": "They correctly computed boys as 868 \u2212 281 = 587 and then added to girls to get 868 + 587 = 1455, matching the condition and total.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 679,
+    "gold": 13.0,
+    "teacher_pred": 13.0,
+    "label": "unfaithful",
+    "reason": "They inverted the given information by treating 68 as the first chapter\u2019s pages (the problem states the second chapter is 68 pages), so subtracting 68 to find the second chapter is a logical error that happened to match the gold answer.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 681,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly computes how many more by subtracting green from red (17 \u2212 16) and the arithmetic is accurate, yielding 1.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 682,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "They correctly divided the total seeds by seeds per bed (60 \u00f7 10) to determine there were 6 flower beds, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 685,
+    "gold": 126.0,
+    "teacher_pred": 126.0,
+    "label": "faithful",
+    "reason": "It correctly adds Katie\u2019s 78 new games to her friends\u2019 48 new games and appropriately ignores the irrelevant old games count.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 687,
+    "gold": 1542.0,
+    "teacher_pred": 1542.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly sets boys = 700 + 142 = 842 and sums 700 + 842 = 1542, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 690,
+    "gold": 98.0,
+    "teacher_pred": 98.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the three quantities (36, 13, 49) and sums them accurately to get 98.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 691,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total 52 animals by 26 aquariums (52 \u00f7 26 = 2) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 692,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly sums Allan\u2019s initial 3, Jake\u2019s 5, and Allan\u2019s additional 2 balloons (3 + 5 + 2) to get 10, matching the problem\u2019s requirements.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 695,
+    "gold": 80.0,
+    "teacher_pred": 80.0,
+    "label": "faithful",
+    "reason": "It correctly adds the blocks used for the tower and house (27 + 53) to get 80, ignoring the irrelevant 58 total.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 696,
+    "gold": 204.0,
+    "teacher_pred": 204.0,
+    "label": "faithful",
+    "reason": "It correctly adds the numbers picked yesterday and today (154 + 50) to get 204, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 697,
+    "gold": 1080.0,
+    "teacher_pred": 1080.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the unripe rate (24 sacks/day) by 45 days to get 1080, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 698,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts Monday\u2019s 11 from Tuesday\u2019s 12 (12 \u2212 11 = 1) to find how many more kids, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 699,
+    "gold": 21.0,
+    "teacher_pred": 21.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total books (42) by books per shelf (2) to compute 21 shelves, with sound logic and accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 700,
+    "gold": 27.0,
+    "teacher_pred": 27.0,
+    "label": "faithful",
+    "reason": "It correctly computes \u201chow many more\u201d as 62 \u2212 35 = 27, and the unused 41 is irrelevant to the comparison.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 707,
+    "gold": 64.0,
+    "teacher_pred": 64.0,
+    "label": "faithful",
+    "reason": "It correctly adds the initial 26 children to the 38 who got on, with accurate arithmetic (26 + 38 = 64).",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 710,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "They correctly compute time as 9 shirts divided by 3 shirts per minute to get 3 minutes; minor wording (\u201cper day\u201d) doesn\u2019t affect the valid calculation.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 712,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The steps correctly identify initial and final amounts and compute added apps as 18 \u2212 17 = 1 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 713,
+    "gold": 13.0,
+    "teacher_pred": 13.0,
+    "label": "faithful",
+    "reason": "It correctly adds the candy bar and chocolate costs ($7 + $6) to find the total spent as $13, appropriately ignoring the irrelevant $4.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 714,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total bananas (392) by the number of groups (196) to obtain 2, with correct arithmetic and logic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 715,
+    "gold": 369.0,
+    "teacher_pred": 369.0,
+    "label": "faithful",
+    "reason": "They correctly computed remaining distance as 1218 \u2212 849 = 369 feet; ignoring the given speed is appropriate since the question asks for distance, not time.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 716,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total people (20) by the number of seats (4) to get 5 people per seat, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 718,
+    "gold": 91.0,
+    "teacher_pred": 91.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly sets up initial = now + lost and computes 25 + 66 = 91 without errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 720,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 15 sweet cookies eaten from the initial 22 sweet cookies to get 7, with no incorrect or extraneous steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 721,
+    "gold": 33.0,
+    "teacher_pred": 33.0,
+    "label": "faithful",
+    "reason": "Correctly divides the total $165 by 5 days to get 33, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 722,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "It correctly computes files deleted by subtracting remaining files from the original (24 \u2212 21 = 3), with no irrelevant steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 723,
+    "gold": 333.0,
+    "teacher_pred": 333.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting boys from girls (569 \u2212 236 = 333), matching the question and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 725,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 4 cups already added from the 7 cups required (7 \u2212 4 = 3), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 729,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly identifies and sums only the balloons (3 + 5) and ignores the irrelevant ball counts, yielding 8 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 730,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total sacks by the per-day rate (24 \u00f7 8) to get 3 days, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 731,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies 6 hours/day by 2 days to get 12 hours, with no flawed steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 734,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "Correctly adds Jake\u2019s initial 6 balloons and the 3 he bought at the park to total 9, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 735,
+    "gold": 20.0,
+    "teacher_pred": 20.0,
+    "label": "faithful",
+    "reason": "Correctly multiplies 5 minutes by 4 shirts per minute to get 20; all steps and arithmetic are valid.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 737,
+    "gold": 125.0,
+    "teacher_pred": 125.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the three chapter lengths (66 + 35 + 24) with accurate arithmetic to reach 125, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 738,
+    "gold": 39.0,
+    "teacher_pred": 39.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 2 who boarded from the post-stop total of 41 to find the original 39, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 739,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly divides the 15 eggs by the 3 groups (15 \u00f7 3 = 5) and appropriately ignores the irrelevant information about marbles.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 740,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "unfaithful",
+    "reason": "They mislabeled the quantities (set initial = 32 and current = 25) and then computed \u201cInitial \u2212 Current,\u201d which contradicts the problem\u2019s timeline; the correct relation is current \u2212 initial (32 \u2212 25), so the reasoning is flawed despite yielding 7.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 741,
+    "gold": 33.0,
+    "teacher_pred": 33.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly identifies and adds the Monday and Tuesday counts (15 + 18) to get 33, appropriately ignoring Wednesday.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 742,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly computes the number of boys by dividing the total marbles (10) by marbles per boy (5), yielding 2 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 744,
+    "gold": 68.0,
+    "teacher_pred": 68.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting the second chapter\u2019s 23 pages from the first chapter\u2019s 91 pages, yielding 68 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 745,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the previous day's 295 from the current day's 317 to find the difference of 22, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 746,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total revenue ($51) by the number of t-shirts (3) to get $17 per shirt with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 749,
+    "gold": 66.0,
+    "teacher_pred": 66.0,
+    "label": "faithful",
+    "reason": "It correctly interprets \u201c4 inches farther than the frog\u201d as the frog jumping 4 inches less (35\u22124=31) and then sums 35 and 31 to get 66 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 753,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "unfaithful",
+    "reason": "It reverses the quantities (treats Katie as having 57 and friends 63) and subtracts 57\u221263 to get \u22126 and \u201cfewer,\u201d whereas the problem states Katie has 63 and friends 57, so the correct step is 63\u221257=6.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 754,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 4 cake packs from the 10 cookie packs to find the difference as 6.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 755,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "It correctly identifies the red (6) and green (16) counts and adds them to get 22 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 759,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly computed 7 peaches per basket (4+3) and divided the total peaches (7) by this amount to get 1 basket, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 760,
+    "gold": 128.0,
+    "teacher_pred": 128.0,
+    "label": "faithful",
+    "reason": "They correctly add the weight lost to the current weight (27 + 101) to obtain the original weight, and the arithmetic is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 762,
+    "gold": 298.0,
+    "teacher_pred": 298.0,
+    "label": "faithful",
+    "reason": "They correctly computed the new number of girls (257+403=660), kept boys at 362, and subtracted 362 from 660 to get 298 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 764,
+    "gold": 61.0,
+    "teacher_pred": 61.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the previous day's visitors (600) from the current day's visitors (661) to find the difference of 61, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 767,
+    "gold": 19.0,
+    "teacher_pred": 19.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds 8 to the initial 11 to find the total (11 + 8 = 19) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 769,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the number remaining (21) from the original (43) to find those who got off, yielding 22 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 770,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting red from green (11 \u2212 5 = 6), which logically answers how many more green peaches there are.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 771,
+    "gold": 91.0,
+    "teacher_pred": 91.0,
+    "label": "faithful",
+    "reason": "They correctly used the current counts (495 Ace, 404 baseball) and subtracted to find 495 \u2212 404 = 91, which answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 772,
+    "gold": 51.0,
+    "teacher_pred": 51.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the per-pack discount from the original price (76 \u2212 25 = 51), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 774,
+    "gold": 331.0,
+    "teacher_pred": 331.0,
+    "label": "faithful",
+    "reason": "They correctly interpret \u201cneeds 22 g more\u201d as the shortfall and subtract it from the total 353 g, yielding 331 g with correct arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 777,
+    "gold": 728.0,
+    "teacher_pred": 728.0,
+    "label": "faithful",
+    "reason": "They correctly added the number lost/given (551) to the number left (177) to get the original total, and the arithmetic is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 778,
+    "gold": 826.0,
+    "teacher_pred": 826.0,
+    "label": "faithful",
+    "reason": "They correctly add the three given counts (324 + 374 + 128) to total 826, with no logical or arithmetic errors in the steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 781,
+    "gold": 51.0,
+    "teacher_pred": 51.0,
+    "label": "faithful",
+    "reason": "They correctly summed the candy amounts (33 + 4 = 37) and then added the chocolate (37 + 14 = 51), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 782,
+    "gold": 12.0,
+    "teacher_pred": 12.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the 14 given away and 10 eaten from 36, with accurate arithmetic (36 \u2212 14 \u2212 10 = 12).",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 783,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 5 eaten goldfish from the initial 15 to get 10, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 784,
+    "gold": 30057.0,
+    "teacher_pred": 30057.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts stayed-home from total (91676 \u2212 61619) and computes 30057 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 785,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "The solution correctly identifies that the number of additional children is the final minus the initial count and computes 10 \u2212 2 = 8 without error.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 787,
+    "gold": 68.0,
+    "teacher_pred": 68.0,
+    "label": "faithful",
+    "reason": "They correctly computed the total capacity (6\u00d714=84) and subtracted the current number of people (84\u221216=68), yielding the right result.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 792,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference by subtracting Tuesday\u2019s 7 from Monday\u2019s 9 (9 \u2212 7 = 2), appropriately ignoring the irrelevant Wednesday data.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 794,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "unfaithful",
+    "reason": "It arbitrarily assumes \u201c1 cookie per bag\u201d to get 14 cookies and then treats 14 as the cookies per bag, a clear logical error that happens to yield 28/14 = 2.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 795,
+    "gold": 95.0,
+    "teacher_pred": 95.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies 6 by 14 to get 84 invitations and then adds 11 extras to total 95, matching the problem\u2019s setup.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 796,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "The steps correctly subtract 140 from 155 to find the remaining cakes, with accurate arithmetic and no logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 797,
+    "gold": 39.0,
+    "teacher_pred": 39.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting regular from diet (61 \u2212 22) and obtained the correct result 39 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 800,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total bottles (12) by the daily consumption (6) to find the days (2), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 801,
+    "gold": 35.0,
+    "teacher_pred": 35.0,
+    "label": "faithful",
+    "reason": "The solution correctly interprets 'David did 9 more than Zachary' as Zachary = 44 \u2212 9 and performs the subtraction accurately to get 35.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 802,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "They correctly compute the number of packages by dividing 51 by 3 to get 17, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 805,
+    "gold": 34.0,
+    "teacher_pred": 34.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the weight lost (35 kg) from the initial weight (69 kg), yielding 69 \u2212 35 = 34 kg.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 806,
+    "gold": 18.0,
+    "teacher_pred": 18.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 2 marbles given from the original 20, yielding 18 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 807,
+    "gold": 30.0,
+    "teacher_pred": 30.0,
+    "label": "faithful",
+    "reason": "Each step correctly computes David\u2019s and John\u2019s counts and then finds the (correct) difference 45 \u2212 15 = 30 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 809,
+    "gold": 118.0,
+    "teacher_pred": 118.0,
+    "label": "faithful",
+    "reason": "They correctly compute the total flown away by adding the Africa and Asia counts (38 + 80) and the arithmetic is correct; the extra 18 is irrelevant to the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 812,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "Uses the correct relation area = length \u00d7 width and correctly computes width = 14 \u00f7 7 = 2 feet, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 814,
+    "gold": 84.0,
+    "teacher_pred": 84.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the 7 large seats by 12 people per large seat (7\u00d712=84) without using any incorrect data or steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 817,
+    "gold": 217.0,
+    "teacher_pred": 217.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the number sold and the number left (145 + 72) to get 217, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 819,
+    "gold": 111.0,
+    "teacher_pred": 111.0,
+    "label": "faithful",
+    "reason": "It correctly adds the amount spent and the amount left (78 + 33) to find the initial amount, yielding 111.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 820,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly sums the pieces eaten (17+15=32) and subtracts from the initial amount (36\u221232=4), matching the problem\u2019s logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 822,
+    "gold": 174.0,
+    "teacher_pred": 174.0,
+    "label": "faithful",
+    "reason": "They correctly computed chairs from the sets (12\u00d714=168) and added the 6 extra chairs to reach 174.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 823,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts Jackie's 2 apples from Adam's 10 apples (10 \u2212 2 = 8) to find how many more Adam has.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 825,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the candy bar cost from the chocolate cost (3 \u2212 2) to find how much more was spent, yielding 1 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 826,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "It correctly computes movies left as 8 \u2212 4 = 4, appropriately ignoring the irrelevant book counts.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 827,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "Correctly divides the total 39 by 13 per package to get 3 packages; all steps are logically valid and arithmetically correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 828,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts Tuesday's 18 from Monday's 19 to obtain 1, and the extra hours detail is irrelevant to the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 830,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total sacks (80) by the daily rate (16) to get 5 days, appropriately ignoring the irrelevant oranges-per-sack information.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 831,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "They correctly infer that Jackie has 3 fewer than Adam and compute 9 \u2212 3 = 6, matching the given relation and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 832,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes time by dividing total shirts (6) by the rate (3 shirts/min), yielding 2 minutes with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 833,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts Allan\u2019s 5 balloons from the total of 6 to find Jake brought 1, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 837,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "unfaithful",
+    "reason": "They subtracted final minus initial action figures (6\u22122) instead of subtracting final action figures from books (10\u22126), and the match to 4 is coincidental.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 839,
+    "gold": 308.0,
+    "teacher_pred": 308.0,
+    "label": "faithful",
+    "reason": "They correctly computed red (11\u00d710=110) and green (11\u00d718=198) totals and summed them (110+198=308), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 840,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts Adam\u2019s 9 from Jackie\u2019s 10 to find the difference, 1, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 841,
+    "gold": 37.0,
+    "teacher_pred": 37.0,
+    "label": "faithful",
+    "reason": "They correctly computed buses needed as 111 \u00f7 3 = 37, and the irrelevant '72 classrooms' detail was appropriately ignored without affecting the calculation.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 842,
+    "gold": 105.0,
+    "teacher_pred": 105.0,
+    "label": "faithful",
+    "reason": "It correctly totals the games (80+31=111) and subtracts the desired remainder (111\u22126=105), with no flawed steps or arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 846,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "It correctly computes remaining movies as 17 \u2212 7 = 10, using only the relevant movie counts; no flawed steps are present.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 852,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the remaining tickets from the total (7 \u2212 2) to find the used tickets, yielding 5.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 853,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "Subtracting the 7 added from the final total of 10 is the correct operation and yields the initial count of 3 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 854,
+    "gold": 45.0,
+    "teacher_pred": 45.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly treated 71 as the number sold and 116 as the number bought (these are the initial and final totals), so subtracting them is a misapplied step that only coincidentally yields the correct net difference.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 855,
+    "gold": 587.0,
+    "teacher_pred": 587.0,
+    "label": "faithful",
+    "reason": "It correctly adds the 52 given away and 535 lost to get 587, which directly answers the question; the 492 left is extraneous information.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 856,
+    "gold": 44.0,
+    "teacher_pred": 44.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies 4 shelves by 11 figures per shelf to get 44, appropriately ignoring the irrelevant '40 cabinets' detail.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 857,
+    "gold": 3168.0,
+    "teacher_pred": 3168.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies the daily earnings by the number of days (144 \u00d7 22) to get 3168, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 858,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts 17 from 22 to find 5 cookies left and then evenly divides by 5 people to get 1 cookie each, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 860,
+    "gold": 69.0,
+    "teacher_pred": 69.0,
+    "label": "unfaithful",
+    "reason": "They misassigned the values (ripe = 74, unripe = 5), contradicting the problem statement, and despite this inversion still computed 74 \u2212 5 = 69, yielding the correct answer by accident.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 861,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts Wednesday\u2019s 8 from Monday\u2019s 14 to find the difference, yielding 6 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 862,
+    "gold": 34.0,
+    "teacher_pred": 34.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting the number eaten (2) from the number bought (36), yielding 34, and the unused initial 13 does not affect this question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 863,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total 56 shirts by 28 packages to get 2 shirts per package, with sound logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 864,
+    "gold": 22800.0,
+    "teacher_pred": 22800.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly multiplies the number of grades (304) by students per grade (75) with accurate arithmetic to obtain 22800.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 869,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The steps correctly add Allan\u2019s initial and purchased balloons, keep Jake\u2019s count unchanged since he didn\u2019t buy any, and subtract to get the difference of 1.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 871,
+    "gold": 9.0,
+    "teacher_pred": 9.0,
+    "label": "faithful",
+    "reason": "They correctly set Doug\u2019s initial marbles as 22\u22126=16 (since Ed had 6 more) and then subtracted the 7 lost to get 9, with no logical or arithmetic errors affecting the result.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 872,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 5 and 11 tickets from the total 18, yielding 2 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 873,
+    "gold": 32.0,
+    "teacher_pred": 32.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the initial 21 from the total 53 to get 32, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 876,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "They correctly summed the two types of soda bottles (72+32=104) and subtracted the apples (104\u221278=26), matching the problem\u2019s logic and arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 877,
+    "gold": 61.0,
+    "teacher_pred": 61.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the bacon count from the mashed potatoes count (330 \u2212 269 = 61), appropriately ignoring the irrelevant tomatoes number.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 878,
+    "gold": 125.0,
+    "teacher_pred": 125.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly interprets \u201cothers\u201d as the remainder and subtracts 185 from 310 to find 125, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 880,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total 9 chairs by 3 chairs per set to obtain 3 sets, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 882,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting books read (7) from movies watched (21), yielding 14, with no faulty steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 885,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the number that left (27) from the initial number (41) to get 14, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 886,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "They correctly compute the difference as 12 \u2212 5 = 7; the mention of groups of 20 is irrelevant and does not affect the valid subtraction.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 887,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "unfaithful",
+    "reason": "They incorrectly stated \u201cNumber of houses in a block = 55,\u201d conflating the number of blocks with houses, even though they later computed 32/8 correctly to get 4.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 892,
+    "gold": 337.0,
+    "teacher_pred": 337.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly sets \u201cNumber of boys = Total number of students \u2212 Number of girls = 402,\u201d conflating the girls\u2013boys difference (402) with total minus girls, even though the final subtraction 739 \u2212 402 yields the correct number.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 893,
+    "gold": 348.0,
+    "teacher_pred": 348.0,
+    "label": "faithful",
+    "reason": "They correctly interpret that bacon suggestions are 166 more than the 182 mashed potato suggestions and compute 182 + 166 = 348 without any substantive logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 896,
+    "gold": 33.0,
+    "teacher_pred": 33.0,
+    "label": "faithful",
+    "reason": "It correctly computes the difference between 63 thrown away and 30 found (63 \u2212 30 = 33), and the extraneous current total is irrelevant but not misused.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 897,
+    "gold": 24.0,
+    "teacher_pred": 24.0,
+    "label": "faithful",
+    "reason": "It correctly divides the 384 oranges by the 16 orange groups (384 \u00f7 16 = 24), ignoring the irrelevant banana information, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 898,
+    "gold": 183.0,
+    "teacher_pred": 183.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 70 crayons lost or given away from the initial 253, yielding 183 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 901,
+    "gold": 58.0,
+    "teacher_pred": 58.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting 9 from 67, giving 58.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 903,
+    "gold": 36.0,
+    "teacher_pred": 36.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the first week's loss from the initial weight (92 \u2212 56 = 36) and appropriately ignored the second-week data.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 905,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly compares cookies eaten (5) to cookies bought (3) and computes 5 \u2212 3 = 2, matching the question and gold answer.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 906,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total points (21) by the points per game (7) to find 3 games, with sound logic and accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 907,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total seeds (45) by the number of flowerbeds (9) to get 5, fully aligning with the problem\u2019s equal-distribution condition and containing no errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 908,
+    "gold": 28.0,
+    "teacher_pred": 28.0,
+    "label": "faithful",
+    "reason": "Correctly interprets 'Jake has 11 fewer than Steven' as Steven = Jake + 11 and computes 17 + 11 = 28.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 910,
+    "gold": 3.0,
+    "teacher_pred": 3.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts reading pages from math pages (5 \u2212 2 = 3) to answer how many more math pages there are, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 911,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total 16 pieces by 2 bags (16 \u00f7 2) to get 8, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 912,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly modeled the situation as 8 + 4 \u2212 5 and computed 7, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 913,
+    "gold": 111.0,
+    "teacher_pred": 111.0,
+    "label": "faithful",
+    "reason": "The solution correctly adds the cakes made (110 + 76) and subtracts the cakes sold (75), yielding 186 \u2212 75 = 111 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 914,
+    "gold": 54.0,
+    "teacher_pred": 54.0,
+    "label": "faithful",
+    "reason": "They correctly add the cookies eaten (19) to the cookies left (35) to get the initial total of 54, with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 915,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the remaining $3 from the initial $4 to find the candy bar cost as $1, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 917,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly treats the 2 as goldfish left and subtracts from the initial 16, yielding 14 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 918,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "They correctly computed the remaining cakes by subtracting sold from initial: 48 \u2212 44 = 4.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 922,
+    "gold": 123.0,
+    "teacher_pred": 123.0,
+    "label": "faithful",
+    "reason": "It correctly uses the current counts (178 baseball, 55 Ace) and subtracts 55 from 178 to find the difference, with accurate arithmetic.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 926,
+    "gold": 154.0,
+    "teacher_pred": 154.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 14 rows by 11 pencils per row (14\u00d711=154) to find the total.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 927,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "It correctly computes the current difference by subtracting final orchids from final roses (22 \u2212 21 = 1), with no flawed steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 930,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "They correctly subtract the sugar already added from the required sugar (11 \u2212 10 = 1) and ignore the irrelevant flour amounts, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 933,
+    "gold": 192.0,
+    "teacher_pred": 192.0,
+    "label": "faithful",
+    "reason": "It correctly sums Fred\u2019s earnings (111 + 34 = 145) and adds to his initial amount (47 + 145 = 192), ignoring Jason\u2019s irrelevant amount.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 934,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "It correctly identifies only storks are relevant and adds 6 initial storks to 2 more storks to get 8, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 936,
+    "gold": 140.0,
+    "teacher_pred": 140.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the remaining books (13) from the original number (153) to find books sold, yielding 140, with no flawed steps.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 937,
+    "gold": 41.0,
+    "teacher_pred": 41.0,
+    "label": "faithful",
+    "reason": "They correctly subtracted the remaining apples (2) from the initial amount (43), and the arithmetic 43 \u2212 2 = 41 is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 941,
+    "gold": 30.0,
+    "teacher_pred": 30.0,
+    "label": "faithful",
+    "reason": "It correctly adds the 20 inches cut to the current 10 inches to find the original length of 30 inches, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 942,
+    "gold": 19.0,
+    "teacher_pred": 19.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes the difference by subtracting 25 from 44 to get 19, matching the question's requirement.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 944,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "It correctly computes Steven as 5 + 18 = 23 and then Jake as 23 \u2212 6 = 17, matching the stated relationships without any errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 946,
+    "gold": 314.0,
+    "teacher_pred": 314.0,
+    "label": "faithful",
+    "reason": "They correctly computed the difference by subtracting the number who suggested tomatoes (23) from those who suggested bacon (337), yielding 314.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 947,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total sacks by the number of days (56 \u00f7 14 = 4) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 948,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "They correctly focus on water bottles only and compute 88 \u00f7 4 = 22 days, which logically and arithmetically answers the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 949,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "The steps correctly model the situation with x + 2 \u2212 7 = 10 and solve to x = 15 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 952,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly interprets \u201cstill needs\u201d as remaining amounts, computes the remaining flour as 3+5=8, and sets x+8=10 to solve x=2 without any logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 956,
+    "gold": 7.0,
+    "teacher_pred": 7.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total cookies (14) by the number of guests (2) to get 7 per guest, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 959,
+    "gold": 26.0,
+    "teacher_pred": 26.0,
+    "label": "faithful",
+    "reason": "It correctly adds the relevant counts of kids (12 + 14 = 26), and the extra hours detail is irrelevant to the question.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 960,
+    "gold": 10.0,
+    "teacher_pred": 10.0,
+    "label": "faithful",
+    "reason": "They correctly subtract the current amount from the initial amount (13 \u2212 3) to find the amount spent, and the arithmetic is correct.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 962,
+    "gold": 65.0,
+    "teacher_pred": 65.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the initial 12 bottle caps to the 53 found (12 + 53) to get 65, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 963,
+    "gold": 109.0,
+    "teacher_pred": 109.0,
+    "label": "unfaithful",
+    "reason": "It incorrectly states to subtract the initial count from the remaining (27 \u2212 136), inverting the relation, even though the subsequent calculation uses the correct order (136 \u2212 27).",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 964,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly uses total = morning + afternoon and computes afternoon = 5 \u2212 4 = 1 with no arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 966,
+    "gold": 83.0,
+    "teacher_pred": 83.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides 249 pages by 3 days to get 83 pages per day, with no faulty steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 967,
+    "gold": 143.0,
+    "teacher_pred": 143.0,
+    "label": "faithful",
+    "reason": "It correctly multiplies 11 sets by 13 chairs per set to get 143, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 971,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "It correctly divides the 24 pieces per block by 6 houses (24 \u00f7 6 = 4) with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 973,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides the total beads (16) by beads per necklace (8) to get 2, with all steps and arithmetic valid.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 974,
+    "gold": 6840.0,
+    "teacher_pred": 6840.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes the area of one room (19\u00d718=342 ft\u00b2) and multiplies by 20 rooms to get 6840 ft\u00b2, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 975,
+    "gold": 146.0,
+    "teacher_pred": 146.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the 20 g he has from the 166 g required (166 \u2212 20 = 146), which logically and arithmetically supports the answer.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 976,
+    "gold": 17.0,
+    "teacher_pred": 17.0,
+    "label": "faithful",
+    "reason": "It correctly subtracts the 15 morning campers from the total 32 to get 17 for the afternoon, with all steps and arithmetic valid.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 977,
+    "gold": 14.0,
+    "teacher_pred": 14.0,
+    "label": "faithful",
+    "reason": "It correctly divides the total slices by slices per pizza (28/2) to get 14, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 978,
+    "gold": 367.0,
+    "teacher_pred": 367.0,
+    "label": "faithful",
+    "reason": "They correctly treat 154 as the crayons left and subtract from the original 521, yielding 367 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 979,
+    "gold": 23.0,
+    "teacher_pred": 23.0,
+    "label": "faithful",
+    "reason": "The solution correctly computes the difference by subtracting the 18 children left from the initial 41, yielding 23 as asked.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 980,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "It correctly compares the next day's 12 bags to Monday's 7 by computing 12 \u2212 7 = 5, matching the question's difference and using the right quantities.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 981,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the amount spent from the initial amount (18 \u2212 16 = 2), with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 982,
+    "gold": 268627.0,
+    "teacher_pred": 268627.0,
+    "label": "faithful",
+    "reason": "The solution correctly subtracts the number of kids who go to camp from the total (898051 \u2212 629424) and computes 268627 without any arithmetic or logical errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 983,
+    "gold": 4.0,
+    "teacher_pred": 4.0,
+    "label": "faithful",
+    "reason": "They correctly computed the number of orchids cut as the increase from 3 to 7 (7 \u2212 3 = 4), with no faulty steps or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 987,
+    "gold": 6.0,
+    "teacher_pred": 6.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly divides the total crackers (36) by the per-friend amount (6) to get 6 friends, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 988,
+    "gold": 15.0,
+    "teacher_pred": 15.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the 5 unread books from the total 20 to get 15, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 989,
+    "gold": 28.0,
+    "teacher_pred": 28.0,
+    "label": "faithful",
+    "reason": "Each step is logically correct and arithmetically accurate: frog = 24+33=57, mouse = 57\u22125=52, and the difference from grasshopper is 52\u221224=28.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 991,
+    "gold": 2.0,
+    "teacher_pred": 2.0,
+    "label": "faithful",
+    "reason": "It correctly uses the series counts (10 movies and 8 books) and subtracts 8 from 10 to find the difference of 2, appropriately ignoring the irrelevant read/watched numbers.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 993,
+    "gold": 22.0,
+    "teacher_pred": 22.0,
+    "label": "faithful",
+    "reason": "The solution correctly divides 66 by 3 to determine the number of packages, yielding 22 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 994,
+    "gold": 1.0,
+    "teacher_pred": 1.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly subtracts the flour still needed from the total required (13 \u2212 12) to find she already put in 1 cup, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 995,
+    "gold": 30.0,
+    "teacher_pred": 30.0,
+    "label": "faithful",
+    "reason": "It correctly sums the three quantities (7 + 15 + 8) to get 30 with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 996,
+    "gold": 8.0,
+    "teacher_pred": 8.0,
+    "label": "faithful",
+    "reason": "Correctly adds the morning and afternoon emails (3 + 5) and appropriately ignores letters, yielding 8.",
+    "model": "gpt-5"
+  },
+  {
+    "idx": 998,
+    "gold": 5.0,
+    "teacher_pred": 5.0,
+    "label": "faithful",
+    "reason": "The reasoning correctly adds the remaining $3 to the $2 spent (3 + 2 = 5) to find the initial amount, with no logical or arithmetic errors.",
+    "model": "gpt-5"
+  }
+]

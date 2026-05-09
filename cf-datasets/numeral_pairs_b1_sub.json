@@ -1,0 +1,902 @@
+[
+  {
+    "src_idx": 0,
+    "a": 17,
+    "b_clean": 14,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 17 apples in his basket. He gives 14 apples to his sister. How many apples does John have left?",
+      "answer": 3
+    },
+    "corrupted": {
+      "text": "John has 17 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 16
+    }
+  },
+  {
+    "src_idx": 1,
+    "a": 18,
+    "b_clean": 3,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 18 apples in his basket. He gives 3 apples to his sister. How many apples does John have left?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "John has 18 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 2,
+    "a": 13,
+    "b_clean": 10,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 13 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+      "answer": 3
+    },
+    "corrupted": {
+      "text": "John has 13 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 3,
+    "a": 20,
+    "b_clean": 14,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 20 apples in his basket. He gives 14 apples to his sister. How many apples does John have left?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "John has 20 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 19
+    }
+  },
+  {
+    "src_idx": 4,
+    "a": 30,
+    "b_clean": 28,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 30 apples in his basket. He gives 28 apples to his sister. How many apples does John have left?",
+      "answer": 2
+    },
+    "corrupted": {
+      "text": "John has 30 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 29
+    }
+  },
+  {
+    "src_idx": 5,
+    "a": 14,
+    "b_clean": 9,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 14 apples in his basket. He gives 9 apples to his sister. How many apples does John have left?",
+      "answer": 5
+    },
+    "corrupted": {
+      "text": "John has 14 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 6,
+    "a": 16,
+    "b_clean": 11,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 16 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?",
+      "answer": 5
+    },
+    "corrupted": {
+      "text": "John has 16 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 7,
+    "a": 11,
+    "b_clean": 10,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 11 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 11 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 8,
+    "a": 9,
+    "b_clean": 4,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 9 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+      "answer": 5
+    },
+    "corrupted": {
+      "text": "John has 9 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 9,
+    "a": 9,
+    "b_clean": 8,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 9 apples in his basket. He gives 8 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 9 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 10,
+    "a": 8,
+    "b_clean": 6,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 8 apples in his basket. He gives 6 apples to his sister. How many apples does John have left?",
+      "answer": 2
+    },
+    "corrupted": {
+      "text": "John has 8 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 11,
+    "a": 30,
+    "b_clean": 10,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 30 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "John has 30 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 29
+    }
+  },
+  {
+    "src_idx": 12,
+    "a": 22,
+    "b_clean": 21,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 22 apples in his basket. He gives 21 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 22 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 21
+    }
+  },
+  {
+    "src_idx": 13,
+    "a": 8,
+    "b_clean": 7,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 8 apples in his basket. He gives 7 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 8 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 14,
+    "a": 7,
+    "b_clean": 4,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 7 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+      "answer": 3
+    },
+    "corrupted": {
+      "text": "John has 7 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 15,
+    "a": 20,
+    "b_clean": 19,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 20 apples in his basket. He gives 19 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 20 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 19
+    }
+  },
+  {
+    "src_idx": 16,
+    "a": 8,
+    "b_clean": 4,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 8 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 8 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 17,
+    "a": 18,
+    "b_clean": 12,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 18 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "John has 18 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 18,
+    "a": 24,
+    "b_clean": 22,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 24 apples in his basket. He gives 22 apples to his sister. How many apples does John have left?",
+      "answer": 2
+    },
+    "corrupted": {
+      "text": "John has 24 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 23
+    }
+  },
+  {
+    "src_idx": 19,
+    "a": 20,
+    "b_clean": 16,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 20 apples in his basket. He gives 16 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 20 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 19
+    }
+  },
+  {
+    "src_idx": 20,
+    "a": 21,
+    "b_clean": 10,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 21 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+      "answer": 11
+    },
+    "corrupted": {
+      "text": "John has 21 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 20
+    }
+  },
+  {
+    "src_idx": 21,
+    "a": 6,
+    "b_clean": 2,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 6 apples in his basket. He gives 2 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 6 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 22,
+    "a": 7,
+    "b_clean": 5,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 7 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+      "answer": 2
+    },
+    "corrupted": {
+      "text": "John has 7 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 23,
+    "a": 27,
+    "b_clean": 23,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 27 apples in his basket. He gives 23 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 27 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 26
+    }
+  },
+  {
+    "src_idx": 24,
+    "a": 25,
+    "b_clean": 2,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 25 apples in his basket. He gives 2 apples to his sister. How many apples does John have left?",
+      "answer": 23
+    },
+    "corrupted": {
+      "text": "John has 25 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 24
+    }
+  },
+  {
+    "src_idx": 25,
+    "a": 24,
+    "b_clean": 17,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 24 apples in his basket. He gives 17 apples to his sister. How many apples does John have left?",
+      "answer": 7
+    },
+    "corrupted": {
+      "text": "John has 24 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 23
+    }
+  },
+  {
+    "src_idx": 26,
+    "a": 15,
+    "b_clean": 5,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 15 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+      "answer": 10
+    },
+    "corrupted": {
+      "text": "John has 15 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 27,
+    "a": 28,
+    "b_clean": 12,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 28 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "John has 28 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 27
+    }
+  },
+  {
+    "src_idx": 28,
+    "a": 27,
+    "b_clean": 4,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 27 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+      "answer": 23
+    },
+    "corrupted": {
+      "text": "John has 27 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 26
+    }
+  },
+  {
+    "src_idx": 29,
+    "a": 11,
+    "b_clean": 5,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 11 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "John has 11 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 30,
+    "a": 12,
+    "b_clean": 4,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 12 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "John has 12 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 31,
+    "a": 30,
+    "b_clean": 19,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 30 apples in his basket. He gives 19 apples to his sister. How many apples does John have left?",
+      "answer": 11
+    },
+    "corrupted": {
+      "text": "John has 30 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 29
+    }
+  },
+  {
+    "src_idx": 32,
+    "a": 19,
+    "b_clean": 4,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 19 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "John has 19 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 18
+    }
+  },
+  {
+    "src_idx": 33,
+    "a": 21,
+    "b_clean": 17,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 21 apples in his basket. He gives 17 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 21 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 20
+    }
+  },
+  {
+    "src_idx": 34,
+    "a": 22,
+    "b_clean": 11,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 22 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?",
+      "answer": 11
+    },
+    "corrupted": {
+      "text": "John has 22 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 21
+    }
+  },
+  {
+    "src_idx": 35,
+    "a": 27,
+    "b_clean": 5,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 27 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+      "answer": 22
+    },
+    "corrupted": {
+      "text": "John has 27 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 26
+    }
+  },
+  {
+    "src_idx": 36,
+    "a": 22,
+    "b_clean": 12,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 22 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+      "answer": 10
+    },
+    "corrupted": {
+      "text": "John has 22 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 21
+    }
+  },
+  {
+    "src_idx": 37,
+    "a": 22,
+    "b_clean": 8,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 22 apples in his basket. He gives 8 apples to his sister. How many apples does John have left?",
+      "answer": 14
+    },
+    "corrupted": {
+      "text": "John has 22 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 21
+    }
+  },
+  {
+    "src_idx": 38,
+    "a": 30,
+    "b_clean": 21,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 30 apples in his basket. He gives 21 apples to his sister. How many apples does John have left?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "John has 30 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 29
+    }
+  },
+  {
+    "src_idx": 39,
+    "a": 22,
+    "b_clean": 20,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 22 apples in his basket. He gives 20 apples to his sister. How many apples does John have left?",
+      "answer": 2
+    },
+    "corrupted": {
+      "text": "John has 22 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 21
+    }
+  },
+  {
+    "src_idx": 40,
+    "a": 7,
+    "b_clean": 6,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 7 apples in his basket. He gives 6 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 7 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 41,
+    "a": 30,
+    "b_clean": 14,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 30 apples in his basket. He gives 14 apples to his sister. How many apples does John have left?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "John has 30 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 29
+    }
+  },
+  {
+    "src_idx": 42,
+    "a": 15,
+    "b_clean": 11,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 15 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 15 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 43,
+    "a": 12,
+    "b_clean": 6,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 12 apples in his basket. He gives 6 apples to his sister. How many apples does John have left?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "John has 12 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 44,
+    "a": 10,
+    "b_clean": 5,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 10 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+      "answer": 5
+    },
+    "corrupted": {
+      "text": "John has 10 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 45,
+    "a": 10,
+    "b_clean": 2,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 10 apples in his basket. He gives 2 apples to his sister. How many apples does John have left?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "John has 10 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 46,
+    "a": 24,
+    "b_clean": 23,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 24 apples in his basket. He gives 23 apples to his sister. How many apples does John have left?",
+      "answer": 1
+    },
+    "corrupted": {
+      "text": "John has 24 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 23
+    }
+  },
+  {
+    "src_idx": 47,
+    "a": 13,
+    "b_clean": 9,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 13 apples in his basket. He gives 9 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 13 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 48,
+    "a": 7,
+    "b_clean": 2,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 7 apples in his basket. He gives 2 apples to his sister. How many apples does John have left?",
+      "answer": 5
+    },
+    "corrupted": {
+      "text": "John has 7 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 49,
+    "a": 26,
+    "b_clean": 6,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 26 apples in his basket. He gives 6 apples to his sister. How many apples does John have left?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "John has 26 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 25
+    }
+  },
+  {
+    "src_idx": 50,
+    "a": 9,
+    "b_clean": 2,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 9 apples in his basket. He gives 2 apples to his sister. How many apples does John have left?",
+      "answer": 7
+    },
+    "corrupted": {
+      "text": "John has 9 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 51,
+    "a": 26,
+    "b_clean": 14,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 26 apples in his basket. He gives 14 apples to his sister. How many apples does John have left?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "John has 26 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 25
+    }
+  },
+  {
+    "src_idx": 52,
+    "a": 27,
+    "b_clean": 18,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 27 apples in his basket. He gives 18 apples to his sister. How many apples does John have left?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "John has 27 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 26
+    }
+  },
+  {
+    "src_idx": 53,
+    "a": 30,
+    "b_clean": 9,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 30 apples in his basket. He gives 9 apples to his sister. How many apples does John have left?",
+      "answer": 21
+    },
+    "corrupted": {
+      "text": "John has 30 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 29
+    }
+  },
+  {
+    "src_idx": 54,
+    "a": 11,
+    "b_clean": 8,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 11 apples in his basket. He gives 8 apples to his sister. How many apples does John have left?",
+      "answer": 3
+    },
+    "corrupted": {
+      "text": "John has 11 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 55,
+    "a": 23,
+    "b_clean": 10,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 23 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+      "answer": 13
+    },
+    "corrupted": {
+      "text": "John has 23 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 22
+    }
+  },
+  {
+    "src_idx": 56,
+    "a": 19,
+    "b_clean": 17,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 19 apples in his basket. He gives 17 apples to his sister. How many apples does John have left?",
+      "answer": 2
+    },
+    "corrupted": {
+      "text": "John has 19 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 18
+    }
+  },
+  {
+    "src_idx": 57,
+    "a": 26,
+    "b_clean": 22,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 26 apples in his basket. He gives 22 apples to his sister. How many apples does John have left?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "John has 26 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 25
+    }
+  },
+  {
+    "src_idx": 58,
+    "a": 27,
+    "b_clean": 13,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 27 apples in his basket. He gives 13 apples to his sister. How many apples does John have left?",
+      "answer": 14
+    },
+    "corrupted": {
+      "text": "John has 27 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 26
+    }
+  },
+  {
+    "src_idx": 59,
+    "a": 24,
+    "b_clean": 5,
+    "b_corr": 1,
+    "type": "Subtraction",
+    "clean": {
+      "text": "John has 24 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+      "answer": 19
+    },
+    "corrupted": {
+      "text": "John has 24 apples in his basket. He gives 1 apple to his sister. How many apples does John have left?",
+      "answer": 23
+    }
+  }
+]

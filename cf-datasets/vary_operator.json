@@ -1,0 +1,194 @@
+[
+  {
+    "type": "Addition",
+    "answer": 16,
+    "question_concat": "Maya has 12 stickers. Her friend gives her 4 more stickers. How many stickers does Maya have now?",
+    "idx": 0,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Addition",
+    "answer": 16,
+    "question_concat": "There are 12 cars in the parking lot. 4 more cars arrive. How many cars are now in the lot?",
+    "idx": 1,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Addition",
+    "answer": 16,
+    "question_concat": "A baker made 12 cookies in the morning and 4 cookies in the afternoon. How many cookies in total?",
+    "idx": 2,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Addition",
+    "answer": 16,
+    "question_concat": "Tom collected 12 seashells on Monday and 4 seashells on Tuesday. How many seashells does he have?",
+    "idx": 3,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Addition",
+    "answer": 16,
+    "question_concat": "A library had 12 books on the shelf. 4 new books were added. How many books are on the shelf now?",
+    "idx": 4,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Addition",
+    "answer": 16,
+    "question_concat": "A garden has 12 red roses and 4 white roses. How many roses are in the garden total?",
+    "idx": 5,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Subtraction",
+    "answer": 8,
+    "question_concat": "Maya has 12 stickers. She gives 4 stickers to her brother. How many stickers does Maya have left?",
+    "idx": 6,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Subtraction",
+    "answer": 8,
+    "question_concat": "There are 12 birds on a branch. 4 birds fly away. How many birds are still on the branch?",
+    "idx": 7,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Subtraction",
+    "answer": 8,
+    "question_concat": "A baker made 12 cookies. 4 cookies were eaten. How many cookies are left?",
+    "idx": 8,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Subtraction",
+    "answer": 8,
+    "question_concat": "Tom had 12 marbles. He lost 4 marbles. How many marbles does he have now?",
+    "idx": 9,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Subtraction",
+    "answer": 8,
+    "question_concat": "A library had 12 books on the shelf. 4 books were borrowed. How many books are on the shelf now?",
+    "idx": 10,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Subtraction",
+    "answer": 8,
+    "question_concat": "There were 12 candies in a jar. 4 candies were taken out. How many candies remain?",
+    "idx": 11,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Multiplication",
+    "answer": 48,
+    "question_concat": "Maya has 12 sticker books. Each book contains 4 stickers. How many stickers does Maya have in total?",
+    "idx": 12,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Multiplication",
+    "answer": 48,
+    "question_concat": "There are 12 parking lots. Each lot holds 4 cars. How many cars can be parked in total?",
+    "idx": 13,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Multiplication",
+    "answer": 48,
+    "question_concat": "A baker made 12 batches of cookies. Each batch has 4 cookies. How many cookies were made in total?",
+    "idx": 14,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Multiplication",
+    "answer": 48,
+    "question_concat": "Tom buys 12 bags of marbles. Each bag has 4 marbles. How many marbles does Tom have?",
+    "idx": 15,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Multiplication",
+    "answer": 48,
+    "question_concat": "A library has 12 shelves. Each shelf holds 4 books. How many books does the library have in total?",
+    "idx": 16,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Multiplication",
+    "answer": 48,
+    "question_concat": "There are 12 jars of candy. Each jar contains 4 candies. How many candies are there altogether?",
+    "idx": 17,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Common-Division",
+    "answer": 3,
+    "question_concat": "Maya has 12 stickers and wants to split them equally among 4 friends. How many stickers does each friend get?",
+    "idx": 18,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Common-Division",
+    "answer": 3,
+    "question_concat": "There are 12 cars to be parked equally in 4 parking lots. How many cars per lot?",
+    "idx": 19,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Common-Division",
+    "answer": 3,
+    "question_concat": "A baker made 12 cookies and packed them equally into 4 boxes. How many cookies in each box?",
+    "idx": 20,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Common-Division",
+    "answer": 3,
+    "question_concat": "Tom has 12 marbles to share equally among 4 bags. How many marbles per bag?",
+    "idx": 21,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Common-Division",
+    "answer": 3,
+    "question_concat": "A library has 12 books to put equally on 4 shelves. How many books per shelf?",
+    "idx": 22,
+    "a": 12,
+    "b": 4
+  },
+  {
+    "type": "Common-Division",
+    "answer": 3,
+    "question_concat": "There are 12 candies to be split equally into 4 bowls. How many candies in each bowl?",
+    "idx": 23,
+    "a": 12,
+    "b": 4
+  }
+]

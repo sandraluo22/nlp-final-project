@@ -1,0 +1,914 @@
+{
+  "config": {
+    "dataset": "cf_balanced",
+    "src": "Subtraction",
+    "tgt": "Addition",
+    "seed": 42,
+    "peak_layer": 10,
+    "peak_step": 3,
+    "scales": [
+      1.0,
+      5.0,
+      10.0
+    ],
+    "batch": 64,
+    "max_new_tokens": 64,
+    "base_model": "unsloth/Llama-3.2-1B-Instruct",
+    "ckpt_dir": "~/codi_ckpt/CODI-llama3.2-1b-Instruct",
+    "device": "cuda",
+    "out": null
+  },
+  "directions": {
+    "Subtraction->Addition": {
+      "n_test_candidates": 145,
+      "n_baseline_correct": 44,
+      "scales": [
+        {
+          "scale": 1.0,
+          "n": 44,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 43,
+            "Multiplication": 0,
+            "Common-Division": 1,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 886,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 989,
+              "pred": 2.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 167,
+              "pred": 73.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 860,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 754,
+              "pred": 64.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 816,
+              "pred": 5.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 416,
+              "pred": 57.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 315,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 668,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 308,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 614,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 797,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 392,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 139,
+              "pred": 8.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 254,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 764,
+              "pred": 31.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 677,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 899,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 960,
+              "pred": 38.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 259,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 852,
+              "pred": 147.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 523,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 609,
+              "pred": 2.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 639,
+              "pred": 26.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 363,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 631,
+              "pred": 11.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 634,
+              "pred": 651.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 4,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 434,
+              "pred": 188.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 369,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 648,
+              "pred": 462.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 405,
+              "pred": 636.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 304,
+              "pred": 28.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 654,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 997,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 441,
+              "pred": 8.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 368,
+              "pred": 45.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 128,
+              "pred": 16.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 506,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 41,
+              "pred": 385.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 488,
+              "pred": 46.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 171,
+              "pred": 5.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 624,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 942,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            }
+          ]
+        },
+        {
+          "scale": 5.0,
+          "n": 44,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 43,
+            "Multiplication": 0,
+            "Common-Division": 1,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 886,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 989,
+              "pred": 2.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 167,
+              "pred": 73.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 860,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 754,
+              "pred": 64.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 816,
+              "pred": 5.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 416,
+              "pred": 57.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 315,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 668,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 308,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 614,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 797,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 392,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 139,
+              "pred": 8.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 254,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 764,
+              "pred": 31.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 677,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 899,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 960,
+              "pred": 38.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 259,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 852,
+              "pred": 147.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 523,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 609,
+              "pred": 2.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 639,
+              "pred": 26.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 363,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 631,
+              "pred": 11.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 634,
+              "pred": 651.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 4,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 434,
+              "pred": 188.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 369,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 648,
+              "pred": 462.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 405,
+              "pred": 636.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 304,
+              "pred": 28.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 654,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 997,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 441,
+              "pred": 8.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 368,
+              "pred": 45.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 128,
+              "pred": 16.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 506,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 41,
+              "pred": 385.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 488,
+              "pred": 46.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 171,
+              "pred": 5.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 624,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 942,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            }
+          ]
+        },
+        {
+          "scale": 10.0,
+          "n": 44,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 43,
+            "Multiplication": 0,
+            "Common-Division": 1,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 886,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 989,
+              "pred": 2.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 167,
+              "pred": 73.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 860,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 754,
+              "pred": 64.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 816,
+              "pred": 5.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 416,
+              "pred": 57.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 315,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 668,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 308,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 614,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 797,
+              "pred": 4.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 392,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 139,
+              "pred": 8.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 254,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 764,
+              "pred": 31.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 677,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 899,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 960,
+              "pred": 38.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 259,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 852,
+              "pred": 147.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 523,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 609,
+              "pred": 2.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 639,
+              "pred": 26.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 363,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 631,
+              "pred": 11.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 634,
+              "pred": 651.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 4,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 434,
+              "pred": 188.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 369,
+              "pred": 7.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 648,
+              "pred": 462.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 405,
+              "pred": 636.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 304,
+              "pred": 28.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 654,
+              "pred": 6.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 997,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 441,
+              "pred": 8.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 368,
+              "pred": 45.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 128,
+              "pred": 16.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 506,
+              "pred": 3.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 41,
+              "pred": 385.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 488,
+              "pred": 46.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 171,
+              "pred": 5.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 624,
+              "pred": 9.0,
+              "bucket": "Subtraction"
+            },
+            {
+              "src_idx": 942,
+              "pred": 1.0,
+              "bucket": "Subtraction"
+            }
+          ]
+        }
+      ]
+    },
+    "Addition->Subtraction": {
+      "n_test_candidates": 37,
+      "n_baseline_correct": 9,
+      "scales": [
+        {
+          "scale": 1.0,
+          "n": 9,
+          "counts": {
+            "Addition": 9,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 0,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 192,
+              "pred": 5.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 206,
+              "pred": 12.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 719,
+              "pred": 11.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 908,
+              "pred": 76.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 395,
+              "pred": 7.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 755,
+              "pred": 6.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 803,
+              "pred": 102.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 113,
+              "pred": 55.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 239,
+              "pred": 8.0,
+              "bucket": "Addition"
+            }
+          ]
+        },
+        {
+          "scale": 5.0,
+          "n": 9,
+          "counts": {
+            "Addition": 9,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 0,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 192,
+              "pred": 5.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 206,
+              "pred": 12.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 719,
+              "pred": 11.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 908,
+              "pred": 76.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 395,
+              "pred": 7.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 755,
+              "pred": 6.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 803,
+              "pred": 102.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 113,
+              "pred": 55.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 239,
+              "pred": 8.0,
+              "bucket": "Addition"
+            }
+          ]
+        },
+        {
+          "scale": 10.0,
+          "n": 9,
+          "counts": {
+            "Addition": 9,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 0,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 192,
+              "pred": 5.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 206,
+              "pred": 12.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 719,
+              "pred": 11.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 908,
+              "pred": 76.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 395,
+              "pred": 7.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 755,
+              "pred": 6.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 803,
+              "pred": 102.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 113,
+              "pred": 55.0,
+              "bucket": "Addition"
+            },
+            {
+              "src_idx": 239,
+              "pred": 8.0,
+              "bucket": "Addition"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

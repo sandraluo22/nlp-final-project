@@ -1,0 +1,4370 @@
+[
+  {
+    "idx": 0,
+    "question": "In Philip's collection of oranges and bananas, he counts 290 bananas and then adds 2 more bananas to the collection. How many bananas does he have now?",
+    "gold": 292.0,
+    "pred": 292.0,
+    "correct": true,
+    "response": "The answer is: 292"
+  },
+  {
+    "idx": 1,
+    "question": "Philip has 290 bananas in his collection of oranges and bananas. If he sets aside 2 bananas to give away, how many bananas remain in his collection?",
+    "gold": 288.0,
+    "pred": 288.0,
+    "correct": true,
+    "response": "The answer is: 288"
+  },
+  {
+    "idx": 2,
+    "question": "Edward had $6 saved to buy books, and then he found $2 more in his wallet. How much money does he have for books now?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 3,
+    "question": "Edward had $6 and spent $2 on books. How much money does he have left?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 4,
+    "question": "Frank was reading his favorite book. He had finished 594 pages, and then he read 3 more pages. How many pages had Frank read in total?",
+    "gold": 597.0,
+    "pred": 597.0,
+    "correct": true,
+    "response": "The answer is: 597"
+  },
+  {
+    "idx": 5,
+    "question": "Frank's favorite book has 594 pages, but 3 of those pages are blank dividers he plans to skip. How many pages will he actually read?",
+    "gold": 591.0,
+    "pred": 591.0,
+    "correct": true,
+    "response": "The answer is: 591"
+  },
+  {
+    "idx": 6,
+    "question": "Bryan has 34 books on his bookshelves. If he buys 2 more books, how many books does he have in total?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 7,
+    "question": "Bryan has 34 books on his bookshelves. If he gives away 2 books, how many books remain?",
+    "gold": 32.0,
+    "pred": 32.0,
+    "correct": true,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 8,
+    "question": "You have 104 dollars and receive a gift of 26 dollars to spend on packs of dvds. How much money do you have in total?",
+    "gold": 130.0,
+    "pred": 130.0,
+    "correct": true,
+    "response": "The answer is: 130"
+  },
+  {
+    "idx": 9,
+    "question": "You have 104 dollars and buy a pack of dvds that costs 26 dollars. How much money do you have left?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 10,
+    "question": "Melissa scored 91 points during the season, then added 13 more points in an extra game. How many points did she have in total?",
+    "gold": 104.0,
+    "pred": 104.0,
+    "correct": true,
+    "response": "The answer is: 104"
+  },
+  {
+    "idx": 11,
+    "question": "Melissa scored 91 points this season, but after a review, 13 points were deducted. How many points does she have now?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 12,
+    "question": "Faye had 35 packs of pencils and then bought 4 more packs. How many packs of pencils does she have now?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 13,
+    "question": "Faye had 35 pencils and gave 4 to a friend. How many pencils does she have left?",
+    "gold": 31.0,
+    "pred": 31.0,
+    "correct": true,
+    "response": "The answer is: 31"
+  },
+  {
+    "idx": 14,
+    "question": "A basket of peaches contains 19 red peaches and 15 green peaches. How many peaches are in the basket altogether?",
+    "gold": 34.0,
+    "pred": 34.0,
+    "correct": true,
+    "response": "The answer is: 34"
+  },
+  {
+    "idx": 15,
+    "question": "In a basket, there are 19 red peaches and 15 green peaches. How many more red peaches than green peaches are there?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 16,
+    "question": "There are 270 students in a school. If 5 new students enroll across the grades, how many students are in the school now?",
+    "gold": 275.0,
+    "pred": 275.0,
+    "correct": true,
+    "response": "The answer is: 275"
+  },
+  {
+    "idx": 17,
+    "question": "There are 270 students in a school. If 5 students transfer out from the grades, how many students remain in the school?",
+    "gold": 265.0,
+    "pred": 265.0,
+    "correct": true,
+    "response": "The answer is: 265"
+  },
+  {
+    "idx": 18,
+    "question": "He then went to see the oranges being harvested. He saw that 54 sacks of oranges were already stacked, and another batch brought in 18 more sacks. How many sacks of oranges were there in total?",
+    "gold": 72.0,
+    "pred": 72.0,
+    "correct": true,
+    "response": "The answer is: 72"
+  },
+  {
+    "idx": 19,
+    "question": "He then went to see the oranges being harvested. He learned they had harvested 54 sacks of oranges, but 18 sacks were sent to the market. How many sacks of oranges remained at the orchard?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 20,
+    "question": "During the harvest, Lewis has already earned $178 and then receives another $2 in tips. How much money does he have in total?",
+    "gold": 180.0,
+    "pred": 180.0,
+    "correct": true,
+    "response": "The answer is: 180"
+  },
+  {
+    "idx": 21,
+    "question": "During the harvest, Lewis earns $178, but he spends $2 on bus fare home. How much money does he have left?",
+    "gold": 176.0,
+    "pred": 176.0,
+    "correct": true,
+    "response": "The answer is: 176"
+  },
+  {
+    "idx": 22,
+    "question": "At the Ferris wheel in paradise park, there are 18 people waiting in line, and then 9 more arrive to join them. How many people are now waiting to ride?",
+    "gold": 27.0,
+    "pred": 27.0,
+    "correct": true,
+    "response": "The answer is: 27"
+  },
+  {
+    "idx": 23,
+    "question": "At the Ferris wheel in paradise park, 18 people are waiting in line when 9 of them board the wheel. How many people are still waiting?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 24,
+    "question": "A mailman has 14 pieces of junk mail for a block and then finds 2 more in his bag; how many pieces does he now have for that block?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 25,
+    "question": "A mailman has 14 pieces of junk mail for a block, and he already delivered 2; how many pieces are left to deliver on that block?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 26,
+    "question": "Jesse unrolls a carpet that is 14 feet long and then adds another piece that is 7 feet long; how many feet of carpet does she have in total?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 27,
+    "question": "Jesse starts with a carpet that is 14 feet long and cuts off 7 feet to fit her room; how many feet of carpet remain?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 28,
+    "question": "Frank put 22 pieces of candy in a bag, then added 11 more pieces to that bag. How many pieces of candy are in the bag now?",
+    "gold": 33.0,
+    "pred": 33.0,
+    "correct": true,
+    "response": "The answer is: 33"
+  },
+  {
+    "idx": 29,
+    "question": "Frank had 22 pieces of candy in a bag, and he ate 11 pieces. How many pieces of candy are left in the bag?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 30,
+    "question": "Matthew had 30 crackers and 2 cakes. How many snacks did he have in total?",
+    "gold": 32.0,
+    "pred": 32.0,
+    "correct": true,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 31,
+    "question": "Matthew had 30 cakes. He gave 2 cakes to his friends. How many cakes does Matthew have left?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 32,
+    "question": "After resting they went for a swim. Near Ron the water was 14 feet deep, and toward where Dean was, it became 8 feet deeper. How deep was the water where Dean was?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 33,
+    "question": "After resting they went for a swim. Dean is 8 feet shorter than Ron. Ron is 14 feet tall. How tall is Dean?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 34,
+    "question": "Today Ryan spends 7 hours learning Chinese and 6 hours learning English. How many hours does he spend learning in total today?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 35,
+    "question": "Today Ryan spends 7 hours learning Chinese and 6 hours learning English. How many more hours does he spend on Chinese than on English?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 36,
+    "question": "Frank\u2019s favorite book has 555 pages. If an extra 5-page appendix is added to the book, how many pages would the book have in total?",
+    "gold": 560.0,
+    "pred": 560.0,
+    "correct": true,
+    "response": "The answer is: 560"
+  },
+  {
+    "idx": 37,
+    "question": "Frank\u2019s favorite book has 555 pages. If 5 pages are removed from the book, how many pages remain?",
+    "gold": 550.0,
+    "pred": 550.0,
+    "correct": true,
+    "response": "The answer is: 550"
+  },
+  {
+    "idx": 38,
+    "question": "The Razorback t-shirt shop packed 186 t-shirts for the Arkansas game and 172 for the Texas Tech game; how many t-shirts did they pack in total for both games?",
+    "gold": 358.0,
+    "pred": 358.0,
+    "correct": true,
+    "response": "The answer is: 358"
+  },
+  {
+    "idx": 39,
+    "question": "Across the Arkansas and Texas Tech games, the Razorback t-shirt shop sold 186 t-shirts. If 172 were sold during the Arkansas game, how many were sold during the Texas Tech game?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 40,
+    "question": "Emily is making bead necklaces. She has 26 beads and buys 2 more beads to finish a design. How many beads does Emily have now?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 41,
+    "question": "Emily is making bead necklaces. She has 26 necklaces and gives 2 necklaces to a friend. How many necklaces does she have left?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 42,
+    "question": "Frank had read 569 pages of his favorite book, then later he read 22 more pages. How many pages has he read in total?",
+    "gold": 591.0,
+    "pred": 591.0,
+    "correct": true,
+    "response": "The answer is: 591"
+  },
+  {
+    "idx": 43,
+    "question": "Frank has 569 pages left to read in his favorite book. If he reads 22 pages today, how many pages will remain unread?",
+    "gold": 547.0,
+    "pred": 547.0,
+    "correct": true,
+    "response": "The answer is: 547"
+  },
+  {
+    "idx": 44,
+    "question": "Philip's collection contains 356 bananas and 178 oranges; how many pieces of fruit does he have in total?",
+    "gold": 534.0,
+    "pred": 534.0,
+    "correct": true,
+    "response": "The answer is: 534"
+  },
+  {
+    "idx": 45,
+    "question": "In Philip's collection there are 356 bananas and 178 oranges; how many more bananas than oranges does he have?",
+    "gold": 178.0,
+    "pred": 178.0,
+    "correct": true,
+    "response": "The answer is: 178"
+  },
+  {
+    "idx": 46,
+    "question": "A mailman prepares 32 pieces of junk mail for a block of houses, and the office adds 20 more pieces for that same block. How many pieces of junk mail should he deliver to that block in total?",
+    "gold": 52.0,
+    "pred": 52.0,
+    "correct": true,
+    "response": "The answer is: 52"
+  },
+  {
+    "idx": 47,
+    "question": "A mailman has 32 pieces of junk mail for a block of houses, but 20 pieces are misaddressed and must be taken out. How many pieces of junk mail remain for that block?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 48,
+    "question": "Robin has 28 packages of gum and 14 packages of candy. How many packages does Robin have in all?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": "The answer is: 42"
+  },
+  {
+    "idx": 49,
+    "question": "Robin has 28 packages in total, and 14 of them are packages of gum. How many packages of candy does Robin have?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 50,
+    "question": "The Razorback t-shirt shop sold 98 t-shirts during the Arkansas game and 89 t-shirts during the Texas Tech game. How many t-shirts did they sell across both games?",
+    "gold": 187.0,
+    "pred": 187.0,
+    "correct": true,
+    "response": "The answer is: 187"
+  },
+  {
+    "idx": 51,
+    "question": "During the Texas Tech game, the Razorback t-shirt shop sold 98 t-shirts, and during the Arkansas game they sold 89 t-shirts. How many more t-shirts did they sell during the Texas Tech game than during the Arkansas game?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 52,
+    "question": "The school is planning a field trip. There are 120 students signed up, and 24 more students from another class decide to join. How many students will go on the field trip in total?",
+    "gold": 144.0,
+    "pred": 144.0,
+    "correct": true,
+    "response": "The answer is: 144"
+  },
+  {
+    "idx": 53,
+    "question": "The school is planning a field trip. There are 120 students ready to go, but 24 students need to stay at the school to help in classrooms. How many students will go on the trip?",
+    "gold": 96.0,
+    "pred": 96.0,
+    "correct": true,
+    "response": "The answer is: 96"
+  },
+  {
+    "idx": 54,
+    "question": "Philip's collection has 203 bananas, and he adds 7 oranges to it. How many pieces of fruit does he have in total?",
+    "gold": 210.0,
+    "pred": 210.0,
+    "correct": true,
+    "response": "The answer is: 210"
+  },
+  {
+    "idx": 55,
+    "question": "Philip's collection has 203 bananas. If he gives away 7 bananas, how many bananas remain in his collection?",
+    "gold": 196.0,
+    "pred": 196.0,
+    "correct": true,
+    "response": "The answer is: 196"
+  },
+  {
+    "idx": 56,
+    "question": "During the Arkansas\u2013Texas Tech game, the Razorback t-shirt shop sold 130 t-shirts before the big rush and 51 more afterward. How many t-shirts did they sell in total?",
+    "gold": 181.0,
+    "pred": 181.0,
+    "correct": true,
+    "response": "The answer is: 181"
+  },
+  {
+    "idx": 57,
+    "question": "Before the Arkansas\u2013Texas Tech game, the Razorback t-shirt shop had 130 t-shirts in stock, and 51 were sold during the game. How many t-shirts remained?",
+    "gold": 79.0,
+    "pred": 79.0,
+    "correct": true,
+    "response": "The answer is: 79"
+  },
+  {
+    "idx": 58,
+    "question": "A pack of DVDs costs 28 dollars, and a service fee of 2 dollars is added at checkout; what is the total amount to pay?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 59,
+    "question": "A pack of DVDs costs 28 dollars, and a coupon takes 2 dollars off the price; what is the amount due?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 60,
+    "question": "Being his favorite, he saved checking on the grapevines for his last stop. When he arrived, the pickers had stacked 90 drums, and they said they would add 6 more before leaving. How many drums would there be in total?",
+    "gold": 96.0,
+    "pred": 96.0,
+    "correct": true,
+    "response": "The answer is: 96"
+  },
+  {
+    "idx": 61,
+    "question": "Being his favorite, he saved checking on the grapevines for his last stop. At the grapevines he counted 90 drums, but 6 were set aside as unripe. How many drums were left to ship?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": "The answer is: 84"
+  },
+  {
+    "idx": 62,
+    "question": "Bryan has 27 books and 23 magazines on his bookshelves. How many books and magazines does he have altogether?",
+    "gold": 50.0,
+    "pred": 50.0,
+    "correct": true,
+    "response": "The answer is: 50"
+  },
+  {
+    "idx": 63,
+    "question": "Bryan has 27 books, and he gives 23 of them to a friend. How many books does he have left?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 64,
+    "question": "Luke finished a trivia game with 154 points, then the host awarded him a bonus of 11 points. What is his new total score?",
+    "gold": 165.0,
+    "pred": 165.0,
+    "correct": true,
+    "response": "The answer is: 165"
+  },
+  {
+    "idx": 65,
+    "question": "Luke ended his trivia game with 154 points, but a scoring review deducted 11 points. How many points does he have now?",
+    "gold": 143.0,
+    "pred": 143.0,
+    "correct": true,
+    "response": "The answer is: 143"
+  },
+  {
+    "idx": 66,
+    "question": "Matthew had 32 crackers and 4 cakes at the picnic. How many snacks did he have in total?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 67,
+    "question": "Matthew had 32 crackers, then he gave 4 crackers to his friends. How many crackers did he have left?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 68,
+    "question": "To build the house wall, John set aside 4 nails and then found 2 more nails in his toolbox. How many nails does he have in total for the wall?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 69,
+    "question": "John has 4 nails for the house wall, and he uses 2 nails to secure a plank of wood. How many nails are left?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 70,
+    "question": "After the harvest, Lewis has $133 saved from his earnings, and he receives a $19 bonus. How much money does he have in total?",
+    "gold": 152.0,
+    "pred": 152.0,
+    "correct": true,
+    "response": "The answer is: 152"
+  },
+  {
+    "idx": 71,
+    "question": "From the harvest, Lewis earns $133 and then spends $19 on supplies. How much money does he have left?",
+    "gold": 114.0,
+    "pred": 114.0,
+    "correct": true,
+    "response": "The answer is: 114"
+  },
+  {
+    "idx": 72,
+    "question": "Faye has 19 pencils and 4 crayons on her desk. How many pencils and crayons does she have altogether?",
+    "gold": 23.0,
+    "pred": 23.0,
+    "correct": true,
+    "response": "The answer is: 23"
+  },
+  {
+    "idx": 73,
+    "question": "While sorting her supplies, Faye sets out 19 pencils but gives 4 to a classmate. How many pencils does she have left?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 74,
+    "question": "In Paradise Park, the Ferris wheel\u2019s small seats start with 14 people aboard, and then 2 more people take small seats. How many people are riding in small seats now?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 75,
+    "question": "At the Paradise Park Ferris wheel, 14 people line up for the small seats, but 2 switch to the large seats instead. How many people are still waiting for the small seats?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 76,
+    "question": "Bryan has 38 books on his bookshelves, and he buys 2 more; how many books does he have now?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 77,
+    "question": "Bryan has 38 books on his bookshelves, but he gives away 2; how many books remain on his shelves?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 78,
+    "question": "Matthew had 36 crackers, and his friends gave him 18 more crackers. How many crackers does he have in total?",
+    "gold": 54.0,
+    "pred": 54.0,
+    "correct": true,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 79,
+    "question": "Matthew had 36 crackers and gave 18 crackers to his friends. How many crackers does he have left?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 80,
+    "question": "Faye counted 28 pencils on her desk and 24 pencils in her drawer. How many pencils did she have altogether?",
+    "gold": 52.0,
+    "pred": 52.0,
+    "correct": true,
+    "response": "The answer is: 52"
+  },
+  {
+    "idx": 81,
+    "question": "Faye had 28 pencils and gave away 24 to a classmate. How many pencils did she have left?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 82,
+    "question": "Frank started with 42 pieces of candy and then found 2 more pieces in his bag. How many pieces of candy does he have now?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": "The answer is: 44"
+  },
+  {
+    "idx": 83,
+    "question": "Frank had 42 pieces of candy, but he ate 2 pieces. How many pieces of candy are left?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 84,
+    "question": "An industrial machine made 8 shirts today, and a rush order added 2 more shirts before closing. How many shirts did it make in total today?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 85,
+    "question": "An industrial machine produced 8 shirts today, but 2 shirts were rejected during quality control. How many shirts remained?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 86,
+    "question": "Adam put 10 action figures on his shelves and then found 8 more in his room. How many action figures did he have in total?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 87,
+    "question": "Adam arranged 10 action figures on the shelves in his room, but 8 were moved to storage. How many action figures remained on the shelves?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 88,
+    "question": "John is preparing the house walls and checks his nail box: he counts 16 nails, then he picks up 2 more from a spare pack. How many nails does John have now?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 89,
+    "question": "While securing the planks for the house walls, John has 16 nails and uses 2 to fasten a plank. How many nails remain?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 90,
+    "question": "You have 36 cookies ready to go into bags, and then you bake 4 more cookies; how many cookies will you have to put into the bags in total?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 91,
+    "question": "You have 36 cookies to pack into bags, but you drop 4 cookies; how many cookies are left to put into the bags?",
+    "gold": 32.0,
+    "pred": 32.0,
+    "correct": true,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 92,
+    "question": "Frank had 33 pieces of candy. He got 24 more pieces to pack into his bags. How many pieces of candy does he have in total?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": "The answer is: 57"
+  },
+  {
+    "idx": 93,
+    "question": "Frank had 33 pieces of candy. He lost 24 of them before packing. How many pieces of candy does he have left?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 94,
+    "question": "Rachel picked 7 apples from a tree and 4 apples from another tree. How many apples did she pick in all?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 95,
+    "question": "Rachel\u2019s trees have 7 apples on them, and she picks 4 apples. How many apples remain on the trees?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 96,
+    "question": "He had 40 saltwater animals across his aquariums, and he adopted 2 more. How many saltwater animals does he have now?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": "The answer is: 42"
+  },
+  {
+    "idx": 97,
+    "question": "He had 40 saltwater animals in his aquariums, but he released 2 back to the ocean. How many saltwater animals remain in his aquariums?",
+    "gold": 38.0,
+    "pred": 38.0,
+    "correct": true,
+    "response": "The answer is: 38"
+  },
+  {
+    "idx": 98,
+    "question": "Jesse has a carpet of 10 square feet for her room, and she adds another carpet of 5 square feet to cover more of the floor. What total area can she cover?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 99,
+    "question": "Jesse needs a carpet of 10 square feet to cover her room, but 5 square feet of the floor is already covered; how many square feet of carpet does she still need?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 100,
+    "question": "For the school field trip, 98 students have signed up, and 7 more students join. How many students will ride the school buses?",
+    "gold": 105.0,
+    "pred": 105.0,
+    "correct": true,
+    "response": "The answer is: 105"
+  },
+  {
+    "idx": 101,
+    "question": "For the school field trip, 98 students are scheduled to ride, but 7 students stay back to help in classrooms. How many students will ride the school buses?",
+    "gold": 91.0,
+    "pred": 91.0,
+    "correct": true,
+    "response": "The answer is: 91"
+  },
+  {
+    "idx": 102,
+    "question": "At the Ferris wheel in paradise park, there are 16 people waiting to ride, and then 4 more arrive. How many people are waiting now?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 103,
+    "question": "The Ferris wheel in paradise park has 16 seats, and 4 are closed for maintenance. How many seats can be used?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 104,
+    "question": "A mailman has 25 pieces of junk mail ready to deliver to a block. Before he starts, he receives 5 more pieces of junk mail for that same block. How many pieces of junk mail does he have for that block in total?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 105,
+    "question": "A mailman brings 25 pieces of junk mail to a block. After he puts 5 pieces into a house on that block, how many pieces of junk mail are left for the rest of the block?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 106,
+    "question": "Rebecca has 8 eggs and finds 4 more eggs while sorting her marbles. How many eggs does she have in total?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 107,
+    "question": "Rebecca has 8 eggs and sets aside 4 eggs to decorate with her marbles. How many eggs are not set aside?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 108,
+    "question": "In his aquariums, Tyler has 56 saltwater animals and 39 freshwater animals. How many animals does he have in all?",
+    "gold": 95.0,
+    "pred": 95.0,
+    "correct": true,
+    "response": "The answer is: 95"
+  },
+  {
+    "idx": 109,
+    "question": "Tyler has 56 saltwater animals and 39 freshwater animals in his aquariums; how many more saltwater animals than freshwater animals does he have?",
+    "gold": 17.0,
+    "pred": 17.0,
+    "correct": true,
+    "response": "The answer is: 17"
+  },
+  {
+    "idx": 110,
+    "question": "Luke finished a trivia game with 78 points, and a final bonus gave him 3 more points. How many points does he have now?",
+    "gold": 81.0,
+    "pred": 81.0,
+    "correct": true,
+    "response": "The answer is: 81"
+  },
+  {
+    "idx": 111,
+    "question": "Luke had 78 points in the trivia game, but a penalty cost him 3 points. How many points does he have after the penalty?",
+    "gold": 75.0,
+    "pred": 75.0,
+    "correct": true,
+    "response": "The answer is: 75"
+  },
+  {
+    "idx": 112,
+    "question": "In some baskets, there are 10 red peaches and 6 green peaches. How many peaches are there in total?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 113,
+    "question": "In some baskets, there are 10 peaches. If 6 of them are green, how many are red?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 114,
+    "question": "During the Arkansas and Texas Tech game, the Razorback shop set out 183 t-shirts on the display tables and then brought out 62 more t-shirts from the back room. How many t-shirts were on display after that?",
+    "gold": 245.0,
+    "pred": 245.0,
+    "correct": true,
+    "response": "The answer is: 245"
+  },
+  {
+    "idx": 115,
+    "question": "Before the Arkansas and Texas Tech game ended, the Razorback shop had 183 t-shirts ready to sell, but 62 t-shirts were reserved for team staff. How many t-shirts were left for customers?",
+    "gold": 121.0,
+    "pred": 121.0,
+    "correct": true,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 116,
+    "question": "During the Arkansas and Texas Tech game, the Razorback shop sold a jersey for $76 and also collected a $2 customization fee. How much money did they make from that sale in total?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 117,
+    "question": "At the Razorback shop, a jersey was priced at $76, but they gave a $2 discount at checkout. How much did the customer pay?",
+    "gold": 74.0,
+    "pred": 74.0,
+    "correct": true,
+    "response": "The answer is: 74"
+  },
+  {
+    "idx": 118,
+    "question": "During a sale, Debby bought 180 water bottles and then picked up 15 more; how many water bottles did she end up with?",
+    "gold": 195.0,
+    "pred": 195.0,
+    "correct": true,
+    "response": "The answer is: 195"
+  },
+  {
+    "idx": 119,
+    "question": "Debby bought 180 water bottles during a sale, then she drank 15 of them; how many water bottles remain?",
+    "gold": 165.0,
+    "pred": 165.0,
+    "correct": true,
+    "response": "The answer is: 165"
+  },
+  {
+    "idx": 120,
+    "question": "Frank\u2019s favorite book has 612 pages, and the special edition adds 6 more pages of bonus content. How many pages does the special edition have in total?",
+    "gold": 618.0,
+    "pred": 618.0,
+    "correct": true,
+    "response": "The answer is: 618"
+  },
+  {
+    "idx": 121,
+    "question": "Frank\u2019s book has 612 pages, but 6 pages are missing from his copy. How many pages can he actually read?",
+    "gold": 606.0,
+    "pred": 606.0,
+    "correct": true,
+    "response": "The answer is: 606"
+  },
+  {
+    "idx": 122,
+    "question": "Shirley loaded 25 boxes of trefoils into her car, then added 14 more boxes. How many boxes of trefoils does she have to deliver in total?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 123,
+    "question": "Shirley started with 25 boxes of trefoils and delivered 14 boxes. How many boxes of trefoils remain?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 124,
+    "question": "While checking the vineyard, he counted 108 drums of grapes the pickers had stacked by the press and later found another 58 drums by the loading area; how many drums of grapes were there in all?",
+    "gold": 166.0,
+    "pred": 166.0,
+    "correct": true,
+    "response": "The answer is: 166"
+  },
+  {
+    "idx": 125,
+    "question": "He planned to check 108 grapevines today, but by sunset he had checked 58 of them; how many grapevines were left to check?",
+    "gold": 50.0,
+    "pred": 50.0,
+    "correct": true,
+    "response": "The answer is: 50"
+  },
+  {
+    "idx": 126,
+    "question": "Frank's favorite book originally had 576 pages. A new edition includes 8 extra pages at the end. How many pages are in the new edition?",
+    "gold": 584.0,
+    "pred": 584.0,
+    "correct": true,
+    "response": "The answer is: 584"
+  },
+  {
+    "idx": 127,
+    "question": "Frank's favorite book had 576 pages, but 8 pages were torn out. How many pages does it have now?",
+    "gold": 568.0,
+    "pred": 568.0,
+    "correct": true,
+    "response": "The answer is: 568"
+  },
+  {
+    "idx": 128,
+    "question": "During the Arkansas and Texas Tech game, the Razorback shop made $215 from t-shirt sales and then another $20 from a late t-shirt purchase. How much money did they make from t-shirts in total?",
+    "gold": 235.0,
+    "pred": 235.0,
+    "correct": true,
+    "response": "The answer is: 235"
+  },
+  {
+    "idx": 129,
+    "question": "During the Arkansas and Texas Tech game, the Razorback shop took in $215 from t-shirt sales but issued a $20 refund on a returned t-shirt. How much money did they keep from t-shirts?",
+    "gold": 195.0,
+    "pred": 195.0,
+    "correct": true,
+    "response": "The answer is: 195"
+  },
+  {
+    "idx": 130,
+    "question": "He went to see the oranges being harvested. He saw 35 sacks of oranges stacked by the grove, and moments later 12 more sacks were brought in. How many sacks of oranges were there in total?",
+    "gold": 47.0,
+    "pred": 47.0,
+    "correct": true,
+    "response": "The answer is: 47"
+  },
+  {
+    "idx": 131,
+    "question": "While checking the harvest, he counted 35 sacks of oranges but set aside 12 sacks for quality inspection. How many sacks of oranges remained?",
+    "gold": 23.0,
+    "pred": 23.0,
+    "correct": true,
+    "response": "The answer is: 23"
+  },
+  {
+    "idx": 132,
+    "question": "Paige was helping her mom plant flowers. They planted 36 seeds in a flower bed and 12 seeds in another flower bed. How many seeds did they plant altogether?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 133,
+    "question": "Paige and her mom started with 36 seeds. After planting 12 seeds, how many seeds remained?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 134,
+    "question": "Brenda's mother baked cookies for guests: she made 38 cookies in the morning and 19 more in the afternoon. How many cookies did she bake in total for the guests?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": "The answer is: 57"
+  },
+  {
+    "idx": 135,
+    "question": "Brenda's mother prepared 38 cookies for guests, but 19 cookies were eaten before the guests arrived. How many cookies were left?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 136,
+    "question": "He watched the oranges being harvested and counted 35 oranges placed into a sack; later, 8 more oranges were added to the same sack. How many oranges were in the sack then?",
+    "gold": 43.0,
+    "pred": 43.0,
+    "correct": true,
+    "response": "The answer is: 43"
+  },
+  {
+    "idx": 137,
+    "question": "Inspecting a harvested sack of oranges, he counted 35 oranges, but 8 were bruised and removed. How many oranges remained in the sack?",
+    "gold": 27.0,
+    "pred": 27.0,
+    "correct": true,
+    "response": "The answer is: 27"
+  },
+  {
+    "idx": 138,
+    "question": "Dan buys 2 candy bars and then gets 4 more candy bars as a gift. How many candy bars does he have in total?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 139,
+    "question": "Dan has $4. He buys a candy bar for $2. How much money does Dan have left?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 140,
+    "question": "Robin has 28 packages of gum and 4 packages of candy; how many packages does Robin have in total?",
+    "gold": 32.0,
+    "pred": 32.0,
+    "correct": true,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 141,
+    "question": "Robin has 28 packages of gum and gives away 4 packages; how many packages of gum remain?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 142,
+    "question": "Emily is making bead necklaces for her friends. She has 6 beads and then finds 3 more beads in her kit. How many beads does she have in total?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 143,
+    "question": "Emily is making bead necklaces for her friends. She has 6 beads and uses 3 beads to start a necklace. How many beads are left?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 144,
+    "question": "In Haley's class, Haley has 11 marbles, and a friend gives her 9 more marbles. How many marbles does she have now?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 145,
+    "question": "In Haley's class, Haley has 11 marbles and gives 9 marbles to a boy who loves to play marbles. How many marbles does she have left?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 146,
+    "question": "Shirley packed 10 boxes of trefoils for delivery and then added 5 more boxes to the shipment. How many boxes of trefoils is she delivering in total?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 147,
+    "question": "Shirley stacked 10 boxes of trefoils in the shop, and a customer bought 5 of them. How many boxes of trefoils remain?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 148,
+    "question": "The school is planning the field trip. From the classrooms, 118 students have already turned in permission slips, and another 95 students just turned theirs in. How many students now have permission to go?",
+    "gold": 213.0,
+    "pred": 213.0,
+    "correct": true,
+    "response": "The answer is: 213"
+  },
+  {
+    "idx": 149,
+    "question": "For the field trip, the school reserved 118 seats on the school buses, and 95 of those seats have already been assigned to students. How many seats remain unassigned?",
+    "gold": 23.0,
+    "pred": 23.0,
+    "correct": true,
+    "response": "The answer is: 23"
+  },
+  {
+    "idx": 150,
+    "question": "Matthew set out 8 crackers and then added 4 more crackers to the plate. How many crackers are there in total?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 151,
+    "question": "Matthew had 8 cakes and gave 4 to his friends. How many cakes does he have left?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 152,
+    "question": "Haley has 20 marbles, and she finds 2 more in her desk. How many marbles does she have now?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 153,
+    "question": "Haley has 20 marbles. She gives 2 to the boys in her class who love to play marbles. How many marbles does she have left?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 154,
+    "question": "Across the pots, a gardener counts 466 flowers and 181 sticks. How many flowers and sticks are there in total?",
+    "gold": 647.0,
+    "pred": 647.0,
+    "correct": true,
+    "response": "The answer is: 647"
+  },
+  {
+    "idx": 155,
+    "question": "In the pots, there are 466 sticks. If the gardener removes 181 sticks, how many sticks remain in the pots?",
+    "gold": 285.0,
+    "pred": 285.0,
+    "correct": true,
+    "response": "The answer is: 285"
+  },
+  {
+    "idx": 156,
+    "question": "Your bags currently hold 21 cookies, and you add 3 more cookies to them. How many cookies are in your bags now?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 157,
+    "question": "You have 21 cookies in your bags, and you give away 3 cookies. How many cookies are left in your bags?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 158,
+    "question": "On his route through a block, the mailman has 12 pieces of junk mail ready to deliver, and then he finds 4 more pieces of junk mail in his bag for the same block. How many pieces of junk mail will he deliver on that block?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 159,
+    "question": "For a block on his route, the mailman sets aside 12 pieces of junk mail, but 4 pieces get ruined in the rain and cannot be delivered. How many pieces of junk mail are left for that block?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 160,
+    "question": "During the Arkansas and Texas Tech game, the Razorback t-shirt shop made $60 from t-shirt sales and then received another $10 from a late customer. How much money did they have in total?",
+    "gold": 70.0,
+    "pred": 70.0,
+    "correct": true,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 161,
+    "question": "At the Arkansas and Texas Tech game, the Razorback t-shirt shop had $60 in the register but then issued a $10 refund to a fan. How much money was left in the register afterward?",
+    "gold": 50.0,
+    "pred": 50.0,
+    "correct": true,
+    "response": "The answer is: 50"
+  },
+  {
+    "idx": 162,
+    "question": "After resting, Dean and Ron went for a swim. Dean swam 15 laps and Ron swam 13 laps. How many laps did they swim in total?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 163,
+    "question": "While they swam, Dean measured the water near the dock at 15 feet, and Ron measured it near the shore at 13 feet. How many feet deeper was it near the dock?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 164,
+    "question": "Emily is making bead necklaces for her friends. She gathers 5 beads and then finds 4 more beads. How many beads does Emily have now?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 165,
+    "question": "Emily is making bead necklaces for her friends. She has 5 beads and uses 4 beads to start a necklace. How many beads does she have left?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 166,
+    "question": "Frank has a bag with 33 pieces of candy and another bag with 26 pieces of candy. How many pieces of candy does he have altogether?",
+    "gold": 59.0,
+    "pred": 59.0,
+    "correct": true,
+    "response": "The answer is: 59"
+  },
+  {
+    "idx": 167,
+    "question": "Frank had 33 pieces of candy and put 26 pieces into a bag to give away. How many pieces does he have left?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 168,
+    "question": "At the orange harvest, he saw 65 sacks of unripe oranges stacked. Later, workers brought 6 more sacks to the same stack; how many sacks of unripe oranges are there now?",
+    "gold": 71.0,
+    "pred": 71.0,
+    "correct": true,
+    "response": "The answer is: 71"
+  },
+  {
+    "idx": 169,
+    "question": "During the orange harvest, there were 65 sacks of unripe oranges ready to be loaded. If 6 sacks were taken away for sorting, how many sacks of unripe oranges remain?",
+    "gold": 59.0,
+    "pred": 59.0,
+    "correct": true,
+    "response": "The answer is: 59"
+  },
+  {
+    "idx": 170,
+    "question": "There are 7 baskets of peaches. A picker brings 2 more baskets. How many baskets of peaches are there in total?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 171,
+    "question": "There are 7 green peaches in a basket. If 2 green peaches are taken out, how many green peaches remain in the basket?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 172,
+    "question": "He visited the orchard during the harvest and saw 52 sacks of ripe oranges and 28 sacks of unripe oranges stacked by the shed. How many sacks of oranges were there in total?",
+    "gold": 80.0,
+    "pred": 80.0,
+    "correct": true,
+    "response": "The answer is: 80"
+  },
+  {
+    "idx": 173,
+    "question": "At the orchard, he loaded 52 sacks of oranges onto a truck, but 28 sacks were unripe and had to be taken off. How many sacks of oranges remained on the truck?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 174,
+    "question": "Rebecca has 18 eggs and then finds 6 more eggs. How many eggs does she have in total?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 175,
+    "question": "Rebecca has 18 eggs, and she gives 6 eggs to a neighbor. How many eggs remain?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 176,
+    "question": "Watching the orange harvest, he counted 56 sacks already filled when 4 more sacks were brought in; how many sacks of oranges were there in total?",
+    "gold": 60.0,
+    "pred": 60.0,
+    "correct": true,
+    "response": "The answer is: 60"
+  },
+  {
+    "idx": 177,
+    "question": "While he watched the orange harvest, they collected 56 sacks, but 4 sacks were spoiled and set aside; how many sacks remained?",
+    "gold": 52.0,
+    "pred": 52.0,
+    "correct": true,
+    "response": "The answer is: 52"
+  },
+  {
+    "idx": 178,
+    "question": "Debby had 360 soda bottles at home. During a sale, she picked up 9 more soda bottles. How many soda bottles does she have in total?",
+    "gold": 369.0,
+    "pred": 369.0,
+    "correct": true,
+    "response": "The answer is: 369"
+  },
+  {
+    "idx": 179,
+    "question": "Debby bought 360 soda bottles on sale. She drinks 9 soda bottles today. How many soda bottles remain?",
+    "gold": 351.0,
+    "pred": 351.0,
+    "correct": true,
+    "response": "The answer is: 351"
+  },
+  {
+    "idx": 180,
+    "question": "Jesse is carpeting her room; she already has 10 square feet of carpet and then buys 2 square feet more. How many square feet of carpet does she have in total?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 181,
+    "question": "Jesse has 10 square feet of carpet for her room, but trims away 2 square feet to fit the edges. How many square feet of carpet remain?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 182,
+    "question": "While watching the harvest, he saw 82 sacks of ripe oranges already stacked, and then 25 more sacks were brought in; how many sacks of ripe oranges were there in total?",
+    "gold": 107.0,
+    "pred": 107.0,
+    "correct": true,
+    "response": "The answer is: 107"
+  },
+  {
+    "idx": 183,
+    "question": "At the packing area during the harvest, he counted 82 sacks of ripe oranges ready, but 25 sacks were loaded onto a truck; how many sacks of ripe oranges remained?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": "The answer is: 57"
+  },
+  {
+    "idx": 184,
+    "question": "Faye had 12 pencils on her desk, and she found 3 more in her bag. How many pencils does she have in all?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 185,
+    "question": "Faye set out 12 pencils for art, but then she gave 3 to a classmate. How many pencils are left?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 186,
+    "question": "Emily is making bead necklaces for her friends. She has 18 beads, and she finds 6 more beads in her craft box. How many beads does she have in all for her necklaces?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 187,
+    "question": "Emily is making bead necklaces for her friends. She has 18 beads and uses 6 beads to start a necklace. How many beads are left for the rest of the necklaces?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 188,
+    "question": "Carol wrote 12 birthday invitations and then wrote 3 more for her friends. How many invitations did she write in total?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 189,
+    "question": "Carol had 12 birthday invitations ready to send, but she mailed 3 and kept the rest for later. How many invitations remain?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 190,
+    "question": "Bryan looked over his bookshelves and counted 61 books and 29 magazines. How many books and magazines does he have in total?",
+    "gold": 90.0,
+    "pred": 90.0,
+    "correct": true,
+    "response": "The answer is: 90"
+  },
+  {
+    "idx": 191,
+    "question": "Bryan has 61 magazines and gives away 29. How many magazines does he have left?",
+    "gold": 32.0,
+    "pred": 32.0,
+    "correct": true,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 192,
+    "question": "Matthew had 8 crackers for his friends. Then a friend handed him 2 more crackers. How many crackers does Matthew have now?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 193,
+    "question": "Matthew had 8 crackers to give to friends. He gave 2 crackers to a friend. How many crackers does he have left?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 194,
+    "question": "Mom has 70 white t-shirts and then buys 14 more white t-shirts; how many white t-shirts does she have in total?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": "The answer is: 84"
+  },
+  {
+    "idx": 195,
+    "question": "Mom buys 70 white t-shirts but gives 14 to a friend; how many white t-shirts does she have left?",
+    "gold": 56.0,
+    "pred": 56.0,
+    "correct": true,
+    "response": "The answer is: 56"
+  },
+  {
+    "idx": 196,
+    "question": "Luke scored 84 points in a trivia game, then earned 2 bonus points. How many points does he have now?",
+    "gold": 86.0,
+    "pred": 86.0,
+    "correct": true,
+    "response": "The answer is: 86"
+  },
+  {
+    "idx": 197,
+    "question": "Luke had 84 points in the trivia game, but a penalty cost him 2 points. How many points does he have now?",
+    "gold": 82.0,
+    "pred": 82.0,
+    "correct": true,
+    "response": "The answer is: 82"
+  },
+  {
+    "idx": 198,
+    "question": "He went to see the oranges being harvested. In the morning they filled 76 sacks, and in the afternoon they filled 64 more sacks. How many sacks of oranges did they fill in total that day?",
+    "gold": 140.0,
+    "pred": 140.0,
+    "correct": true,
+    "response": "The answer is: 140"
+  },
+  {
+    "idx": 199,
+    "question": "He went to see the oranges being harvested. They harvested 76 sacks and had to discard 64 of them. How many sacks of oranges remained?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 200,
+    "question": "Faye counted 31 pencils from her packs and then bought 6 more pencils. How many pencils does she have in total?",
+    "gold": 37.0,
+    "pred": 37.0,
+    "correct": true,
+    "response": "The answer is: 37"
+  },
+  {
+    "idx": 201,
+    "question": "Faye had 31 pencils from her packs, but she gave 6 pencils to a classmate. How many pencils does she have left?",
+    "gold": 25.0,
+    "pred": 25.0,
+    "correct": true,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 202,
+    "question": "He then went to see the oranges being harvested. At the loading area, he counted 66 sacks of oranges already stacked, and a cart arrived with another 28 sacks. How many sacks of oranges were there in total?",
+    "gold": 94.0,
+    "pred": 94.0,
+    "correct": true,
+    "response": "The answer is: 94"
+  },
+  {
+    "idx": 203,
+    "question": "While he watched the orange harvest, he saw 66 sacks in the shed, and workers immediately shipped out 28 sacks. How many sacks of oranges remained in the shed?",
+    "gold": 38.0,
+    "pred": 38.0,
+    "correct": true,
+    "response": "The answer is: 38"
+  },
+  {
+    "idx": 204,
+    "question": "Matthew had 11 crackers. Then he received 2 more crackers. How many crackers does he have now?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 205,
+    "question": "Matthew had 11 crackers. He gave 2 crackers to a friend. How many crackers does he have left?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 206,
+    "question": "Matthew had 23 crackers and found 11 more in his bag. How many crackers does he have now?",
+    "gold": 34.0,
+    "pred": 34.0,
+    "correct": true,
+    "response": "The answer is: 34"
+  },
+  {
+    "idx": 207,
+    "question": "Matthew had 23 crackers. He gave 11 crackers to his friends. How many crackers does he have left?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 208,
+    "question": "They decided to hold the party in their backyard. There are 12 chairs by the tables, and they bring out 2 more chairs. How many chairs are there in the backyard now?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 209,
+    "question": "They decided to hold the party in their backyard. There are 12 chairs set around the tables, and they put away 2 chairs. How many chairs remain in the backyard?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 210,
+    "question": "Frank was reading his favorite book. He finished 450 pages, then later that night he read 30 more pages. How many pages did he read in total?",
+    "gold": 480.0,
+    "pred": 480.0,
+    "correct": true,
+    "response": "The answer is: 480"
+  },
+  {
+    "idx": 211,
+    "question": "Frank's favorite book has 450 pages. After he read 30 pages today, how many pages does he still have left to read?",
+    "gold": 420.0,
+    "pred": 420.0,
+    "correct": true,
+    "response": "The answer is: 420"
+  },
+  {
+    "idx": 212,
+    "question": "An industrial machine made 12 shirts yesterday and 6 shirts today. How many shirts did the machine make in total across both days?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 213,
+    "question": "An industrial machine finished 12 shirts, but 6 turned out defective and were discarded. How many shirts remained?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 214,
+    "question": "We ordered 17 pizzas, and a friend brought 4 more pizzas to share. How many pizzas do we have altogether?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 215,
+    "question": "We ordered 17 pizzas, but we gave 4 pizzas to the neighbors. How many pizzas are left for us?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 216,
+    "question": "The school is planning a field trip. At first, 102 students signed up to ride the school buses. Later, 22 more students decided to join the trip. How many students in total will ride the buses?",
+    "gold": 124.0,
+    "pred": 124.0,
+    "correct": true,
+    "response": "The answer is: 124"
+  },
+  {
+    "idx": 217,
+    "question": "The school is planning a field trip. There are 102 students at the school, but 22 students do not want to go. How many students will go on the trip?",
+    "gold": 80.0,
+    "pred": 80.0,
+    "correct": true,
+    "response": "The answer is: 80"
+  },
+  {
+    "idx": 218,
+    "question": "Frank was reading through his books. After spending 492 days finishing them, he decided to add 12 more days to reread his favorites. How many days in total did Frank spend on reading?",
+    "gold": 504.0,
+    "pred": 504.0,
+    "correct": true,
+    "response": "The answer is: 504"
+  },
+  {
+    "idx": 219,
+    "question": "Frank planned to spend 492 days to finish his books, but he managed to finish 12 days earlier. How many days did it take him?",
+    "gold": 480.0,
+    "pred": 480.0,
+    "correct": true,
+    "response": "The answer is: 480"
+  },
+  {
+    "idx": 220,
+    "question": "Melissa scored 36 points in one game and 12 points in another game. How many points did she score across both games?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 221,
+    "question": "Melissa needed 36 points to reach her goal and had already scored 12 points in earlier games. How many more points did she need?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 222,
+    "question": "The ring toss game at the carnival made 120 dollars on Saturday and 20 dollars on Sunday. How much did they make in total?",
+    "gold": 140.0,
+    "pred": 140.0,
+    "correct": true,
+    "response": "The answer is: 140"
+  },
+  {
+    "idx": 223,
+    "question": "The ring toss game at the carnival set a goal of 120 dollars but ended up 20 dollars short. How much did it actually make?",
+    "gold": 100.0,
+    "pred": 100.0,
+    "correct": true,
+    "response": "The answer is: 100"
+  },
+  {
+    "idx": 224,
+    "question": "Faye gathered 30 pencils for class and then received 5 more pencils. How many pencils does she have in total?",
+    "gold": 35.0,
+    "pred": 35.0,
+    "correct": true,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 225,
+    "question": "Faye started with 30 pencils and gave 5 pencils to a friend. How many pencils does she have left?",
+    "gold": 25.0,
+    "pred": 25.0,
+    "correct": true,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 226,
+    "question": "Lewis sets aside $1091 from his regular harvest work and earns $939 from overtime during the season. How much money does he have from these combined earnings?",
+    "gold": 2030.0,
+    "pred": 2030.0,
+    "correct": true,
+    "response": "The answer is: 2030"
+  },
+  {
+    "idx": 227,
+    "question": "By the end of the harvest, Lewis has $1091 saved from his pay but spends $939 on new tools for his overtime work. How much money remains?",
+    "gold": 152.0,
+    "pred": 260.0,
+    "correct": false,
+    "response": "The answer is: 260"
+  },
+  {
+    "idx": 228,
+    "question": "In Haley's class, the boys love to play marbles. Haley has 28 marbles, and she finds 2 more in her backpack. How many marbles does she have now?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 229,
+    "question": "In Haley's class, the boys love to play marbles. Haley has 28 marbles, and she gives 2 to a classmate during recess. How many marbles does she have left?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 230,
+    "question": "Rebecca has 15 eggs and 5 marbles. How many items does she have in all?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 231,
+    "question": "Rebecca has 15 eggs. She gives 5 eggs to a neighbor. How many eggs does she have left?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 232,
+    "question": "There are pots filled with flowers and sticks. The gardener counts 141 flowers already in the pots, then brings in 71 more flowers to place in them. How many flowers are there in all?",
+    "gold": 212.0,
+    "pred": 212.0,
+    "correct": true,
+    "response": "The answer is: 212"
+  },
+  {
+    "idx": 233,
+    "question": "In the pots, there are 141 flowers along with some sticks. If the gardener takes away 71 flowers, how many flowers remain in the pots?",
+    "gold": 70.0,
+    "pred": 70.0,
+    "correct": true,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 234,
+    "question": "Carol prepared 10 birthday invitations for her friends and then bought 2 more. How many invitations does she have in total?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 235,
+    "question": "Carol wrote 10 birthday invitations, but 2 got smudged and had to be tossed. How many invitations are still good to send?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 236,
+    "question": "In Haley's class, the boys love to play marbles. Haley brings 23 marbles to class, and the boys give her 15 more to add to her collection. How many marbles does Haley have in all?",
+    "gold": 38.0,
+    "pred": 38.0,
+    "correct": true,
+    "response": "The answer is: 38"
+  },
+  {
+    "idx": 237,
+    "question": "In Haley's class, the boys love to play marbles. Haley has 23 marbles and decides to set aside 15 marbles for herself before letting the boys play. How many marbles are left for the boys to use?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 238,
+    "question": "Bryan looked at his books. He counts 28 books on his bookshelves, then he finds 7 more books in a box. How many books does he have now?",
+    "gold": 35.0,
+    "pred": 35.0,
+    "correct": true,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 239,
+    "question": "Bryan has 28 books on his bookshelves. He gives 7 books to a friend. How many books remain on his bookshelves?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 240,
+    "question": "Debby bought 153 water bottles when they were on sale, then she found 17 more in her pantry. How many water bottles does she have in total?",
+    "gold": 170.0,
+    "pred": 170.0,
+    "correct": true,
+    "response": "The answer is: 170"
+  },
+  {
+    "idx": 241,
+    "question": "Debby had 153 water bottles from the sale, but she gave 17 to her neighbors. How many water bottles does she have left?",
+    "gold": 136.0,
+    "pred": 136.0,
+    "correct": true,
+    "response": "The answer is: 136"
+  },
+  {
+    "idx": 242,
+    "question": "Matthew had 15 crackers, and his friends gave him 10 more. How many crackers does Matthew have now?",
+    "gold": 25.0,
+    "pred": 25.0,
+    "correct": true,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 243,
+    "question": "Matthew had 15 crackers. He gave 10 crackers to his friends. How many crackers does Matthew have left?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 244,
+    "question": "At Paradise Park\u2019s Ferris wheel, 18 riders are already seated, and 15 more people are about to take the remaining seats. How many people will be riding the Ferris wheel once they are all seated?",
+    "gold": 33.0,
+    "pred": 33.0,
+    "correct": true,
+    "response": "The answer is: 33"
+  },
+  {
+    "idx": 245,
+    "question": "At the Paradise Park Ferris wheel, there are 18 people waiting for the next ride, but only 15 seats are available this turn. How many people will have to wait for the following turn?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 246,
+    "question": "In a day, Ryan spends 6 hours learning English and 4 hours learning Chinese. How many hours does he study in total that day?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 247,
+    "question": "Ryan plans to study for 6 hours today. After spending 4 hours on Chinese, how many hours are left for English?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 248,
+    "question": "Philip's banana collection currently has 180 bananas. If he adds 18 bananas to his collection, how many bananas will he have in total?",
+    "gold": 198.0,
+    "pred": 198.0,
+    "correct": true,
+    "response": "The answer is: 198"
+  },
+  {
+    "idx": 249,
+    "question": "Philip's banana collection contains 180 bananas. If he removes 18 bananas from the collection, how many bananas remain?",
+    "gold": 162.0,
+    "pred": 162.0,
+    "correct": true,
+    "response": "The answer is: 162"
+  },
+  {
+    "idx": 250,
+    "question": "Before the Arkansas and Texas Tech game, the Razorback t-shirt shop had $230 in the register, and during the game it made $23 more from t-shirt sales; how much money was in the register then?",
+    "gold": 253.0,
+    "pred": 253.0,
+    "correct": true,
+    "response": "The answer is: 253"
+  },
+  {
+    "idx": 251,
+    "question": "During the Arkansas and Texas Tech game, the Razorback t-shirt shop took in $230 from t-shirt sales but issued a refund of $23 afterward; how much money from those sales did the shop keep?",
+    "gold": 207.0,
+    "pred": 207.0,
+    "correct": true,
+    "response": "The answer is: 207"
+  },
+  {
+    "idx": 252,
+    "question": "Emily is making bead necklaces for her friends. She has finished 32 necklaces and then decides to make 2 more. How many necklaces will she have in total?",
+    "gold": 34.0,
+    "pred": 34.0,
+    "correct": true,
+    "response": "The answer is: 34"
+  },
+  {
+    "idx": 253,
+    "question": "Emily is making bead necklaces for her friends. She had 32 necklaces ready, but 2 came apart. How many necklaces does she still have?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 254,
+    "question": "At the carnival, the ring toss game earned 420 dollars from players, and it also received 30 dollars in tips. How much money did the ring toss game have in total?",
+    "gold": 450.0,
+    "pred": 450.0,
+    "correct": true,
+    "response": "The answer is: 450"
+  },
+  {
+    "idx": 255,
+    "question": "At the carnival, the ring toss game earned 420 dollars, but 30 dollars were refunded after a complaint. How much money remained from the ring toss game?",
+    "gold": 390.0,
+    "pred": 390.0,
+    "correct": true,
+    "response": "The answer is: 390"
+  },
+  {
+    "idx": 256,
+    "question": "He has 62 aquariums for freshwater animals and 19 aquariums for saltwater animals. How many aquariums does he have in total?",
+    "gold": 81.0,
+    "pred": 81.0,
+    "correct": true,
+    "response": "The answer is: 81"
+  },
+  {
+    "idx": 257,
+    "question": "He has 62 aquariums for freshwater animals, but he gives away 19 aquariums to a friend. How many aquariums does he have left?",
+    "gold": 43.0,
+    "pred": 43.0,
+    "correct": true,
+    "response": "The answer is: 43"
+  },
+  {
+    "idx": 258,
+    "question": "During the Arkansas and Texas Tech game, the Razorback shop brought in $165 from jersey sales and $156 from t-shirt sales. How much money did they make in total?",
+    "gold": 321.0,
+    "pred": 321.0,
+    "correct": true,
+    "response": "The answer is: 321"
+  },
+  {
+    "idx": 259,
+    "question": "During the Arkansas and Texas Tech game, the Razorback shop made $165 from jersey sales and $156 from t-shirt sales; how much more did they make from jerseys than from t-shirts?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 260,
+    "question": "At the store, a pack of DVDs is priced at 107 dollars, and the shipping and handling fee for that pack is 106 dollars; what is the total amount in dollars you would pay for the pack including the fee?",
+    "gold": 213.0,
+    "pred": 213.0,
+    "correct": true,
+    "response": "The answer is: 213"
+  },
+  {
+    "idx": 261,
+    "question": "At the store, each pack of DVDs costs 107 dollars, and there is a discount of 106 dollars on the pack; after applying the discount, how many dollars does the pack cost?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 262,
+    "question": "At Paradise Park, a Ferris wheel has 20 people waiting in line and 19 people currently riding. How many people are there in total for that Ferris wheel right now?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 263,
+    "question": "At Paradise Park, a Ferris wheel has 19 seats. If a group of 20 people arrives to ride it together, how many people will have to wait for the next turn?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 264,
+    "question": "Being his favorite, he saved checking on the grapevines for his last stop. When he arrived, the pickers reported 244 drums of grapes ready and 146 drums of raspberries ready. How many drums in total were ready?",
+    "gold": 390.0,
+    "pred": 390.0,
+    "correct": true,
+    "response": "The answer is: 390"
+  },
+  {
+    "idx": 265,
+    "question": "At his last stop among the grapevines, the pickers had 244 drums of grapes ready and 146 drums of raspberries ready. How many more drums of grapes than raspberries were ready?",
+    "gold": 98.0,
+    "pred": 98.0,
+    "correct": true,
+    "response": "The answer is: 98"
+  },
+  {
+    "idx": 266,
+    "question": "Frank was reading his favorite book. He read 112 pages, then later he read 16 more pages. How many pages did he read in total?",
+    "gold": 128.0,
+    "pred": 128.0,
+    "correct": true,
+    "response": "The answer is: 128"
+  },
+  {
+    "idx": 267,
+    "question": "Frank's favorite book has 112 pages. He has already read 16 pages. How many pages does he have left to read?",
+    "gold": 96.0,
+    "pred": 96.0,
+    "correct": true,
+    "response": "The answer is: 96"
+  },
+  {
+    "idx": 268,
+    "question": "Across all the pots, there are 400 flowers. If 40 more flowers are added to the pots, how many flowers are there in the pots now?",
+    "gold": 440.0,
+    "pred": 440.0,
+    "correct": true,
+    "response": "The answer is: 440"
+  },
+  {
+    "idx": 269,
+    "question": "Across all the pots, there are 400 flowers. If 40 flowers are removed from the pots, how many flowers remain in the pots?",
+    "gold": 360.0,
+    "pred": 360.0,
+    "correct": true,
+    "response": "The answer is: 360"
+  },
+  {
+    "idx": 270,
+    "question": "Brenda's mother was baking cookies for guests. She had 10 cookies cooling on the tray and then she baked 2 more cookies. How many cookies did she have for the guests in total?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 271,
+    "question": "Brenda's mother prepared 10 cookies for guests, but 2 cookies broke while being packed. How many cookies were left for the guests?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 272,
+    "question": "Steven has 896 skittles in his collection. He adds 8 more skittles to it; how many skittles does he have in total?",
+    "gold": 904.0,
+    "pred": 904.0,
+    "correct": true,
+    "response": "The answer is: 904"
+  },
+  {
+    "idx": 273,
+    "question": "Steven has 896 skittles in his collection. He gives away 8 skittles to a friend; how many skittles remain in his collection?",
+    "gold": 888.0,
+    "pred": 888.0,
+    "correct": true,
+    "response": "The answer is: 888"
+  },
+  {
+    "idx": 274,
+    "question": "Matthew has 21 cakes and 14 crackers; how many snacks does he have in total?",
+    "gold": 35.0,
+    "pred": 35.0,
+    "correct": true,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 275,
+    "question": "Matthew has 21 cakes and 14 crackers; how many more cakes than crackers does he have?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 276,
+    "question": "After resting, Ron and Dean go for a swim. Ron wades to a spot where the water is 12 feet deep, and a rising tide increases the depth by 5 feet. How deep is the water now?",
+    "gold": 17.0,
+    "pred": 17.0,
+    "correct": true,
+    "response": "The answer is: 17"
+  },
+  {
+    "idx": 277,
+    "question": "After resting, Ron and Dean go for a swim. Ron is at a point where the water is 12 feet deep, and he moves onto a nearby sandbar that is 5 feet shallower. How deep is the water on the sandbar?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 278,
+    "question": "You have 52 cookies and 26 candies to pack into bags; how many treats are you packing in total?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 279,
+    "question": "You have 52 cookies, and you set aside 26 cookies to mix with candies; how many cookies are left to bag?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 280,
+    "question": "Brenda's mother baked 30 cookies in the morning and then baked 14 more later that day. How many cookies did she prepare in total?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": "The answer is: 44"
+  },
+  {
+    "idx": 281,
+    "question": "Brenda's mother baked 30 cookies, and Brenda gave 14 to her friends. How many cookies were left?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 282,
+    "question": "Paige was helping her mom plant flowers. They planted 60 seeds in a flower bed and 55 seeds in another flower bed. How many seeds did they plant in all?",
+    "gold": 115.0,
+    "pred": 115.0,
+    "correct": true,
+    "response": "The answer is: 115"
+  },
+  {
+    "idx": 283,
+    "question": "Paige and her mom planted 60 seeds, and 55 grew into flowers. How many seeds did not grow?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 284,
+    "question": "Alongside his skittles collection, Steven has 4950 erasers. He finds 495 more erasers and adds them to his eraser collection. How many erasers does he have now?",
+    "gold": 5445.0,
+    "pred": 5450.0,
+    "correct": false,
+    "response": "The answer is: 5450"
+  },
+  {
+    "idx": 285,
+    "question": "Steven has 4950 erasers in addition to his skittles collection. He gives away 495 erasers to classmates. How many erasers remain in his collection?",
+    "gold": 4455.0,
+    "pred": 4450.0,
+    "correct": false,
+    "response": "The answer is: 4450"
+  },
+  {
+    "idx": 286,
+    "question": "Matthew had 22 crackers next to his cakes. His 11 friends each handed him a cracker. How many crackers did Matthew have after that?",
+    "gold": 33.0,
+    "pred": 33.0,
+    "correct": true,
+    "response": "The answer is: 33"
+  },
+  {
+    "idx": 287,
+    "question": "Matthew had 22 crackers with his cakes. He gave 11 crackers to his friends. How many crackers did Matthew have left?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 288,
+    "question": "A basket has 16 red peaches and 6 green peaches. How many peaches are in the basket altogether?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 289,
+    "question": "A basket has 16 red peaches. If 6 red peaches are removed, how many red peaches remain in the basket?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 290,
+    "question": "At the Ferris wheel in Paradise Park, 4 people are already seated and 2 more get on. How many people are on the ride now?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 291,
+    "question": "At the Ferris wheel in Paradise Park, 4 people are riding and 2 get off when it stops. How many people remain on the ride?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 292,
+    "question": "During the harvest, Lewis earns $460, and then he receives a $5 bonus; how much money does he have in total from the harvest?",
+    "gold": 465.0,
+    "pred": 465.0,
+    "correct": true,
+    "response": "The answer is: 465"
+  },
+  {
+    "idx": 293,
+    "question": "During the harvest, Lewis earns $460, but he pays $5 for supplies; how much money from the harvest does he have left?",
+    "gold": 455.0,
+    "pred": 455.0,
+    "correct": true,
+    "response": "The answer is: 455"
+  },
+  {
+    "idx": 294,
+    "question": "Jesse is tiling her room. She has 12 tiles laid out and brings in 4 more tiles. How many tiles will cover the floor now?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 295,
+    "question": "Jesse placed 12 tiles on her room floor, but 4 tiles were chipped and she removed them. How many tiles remain on the floor?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 296,
+    "question": "At his favorite last stop checking the grapevines, the pickers showed him 90 drums already filled and said they would fill 5 more before he left. How many drums of grapes would that be in total?",
+    "gold": 95.0,
+    "pred": 95.0,
+    "correct": true,
+    "response": "The answer is: 95"
+  },
+  {
+    "idx": 297,
+    "question": "At his favorite last stop among the grapevines, the pickers reported 90 drums filled, but 5 drums had to be discarded as spoiled. How many drums of grapes remained?",
+    "gold": 85.0,
+    "pred": 85.0,
+    "correct": true,
+    "response": "The answer is: 85"
+  },
+  {
+    "idx": 298,
+    "question": "Luke scored 177 points in the trivia game and then received a bonus of 46 points; how many points did he have in total?",
+    "gold": 223.0,
+    "pred": 223.0,
+    "correct": true,
+    "response": "The answer is: 223"
+  },
+  {
+    "idx": 299,
+    "question": "Luke finished a trivia game with 177 points, but a penalty of 46 points was deducted; what was his final score?",
+    "gold": 131.0,
+    "pred": 131.0,
+    "correct": true,
+    "response": "The answer is: 131"
+  },
+  {
+    "idx": 300,
+    "question": "Across the gardens, there are 544 flowers in the pots, and 32 more flowers are added; how many flowers are there in all?",
+    "gold": 576.0,
+    "pred": 576.0,
+    "correct": true,
+    "response": "The answer is: 576"
+  },
+  {
+    "idx": 301,
+    "question": "Across the gardens, there are 544 flowers in the pots; after 32 flowers are removed, how many flowers remain?",
+    "gold": 512.0,
+    "pred": 512.0,
+    "correct": true,
+    "response": "The answer is: 512"
+  },
+  {
+    "idx": 302,
+    "question": "While helping her mom plant flowers, Paige planted 45 seeds and her mom planted 10 seeds. How many seeds did they plant in total?",
+    "gold": 55.0,
+    "pred": 55.0,
+    "correct": true,
+    "response": "The answer is: 55"
+  },
+  {
+    "idx": 303,
+    "question": "Paige and her mom had 45 seeds for the flower beds, and they planted 10 seeds. How many seeds do they have left?",
+    "gold": 35.0,
+    "pred": 35.0,
+    "correct": true,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 304,
+    "question": "Faye had 35 pencils and found 5 more pencils while cleaning her desk. How many pencils does she have now?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 305,
+    "question": "Faye had 35 pencils and gave 5 to a classmate. How many pencils does she have left?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 306,
+    "question": "Melissa scored 81 points across her games and then earned a bonus of 3 points. How many points does she have in total?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": "The answer is: 84"
+  },
+  {
+    "idx": 307,
+    "question": "Melissa scored 81 points across her games, but 3 points were deducted for a penalty. How many points remain?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 308,
+    "question": "Dan has $4 and then finds $2 more in his wallet. How much money does he have now?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 309,
+    "question": "Dan has $4 and spends $2 on candy bars. How much money does he have left?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 310,
+    "question": "The school is planning a field trip. There are 92 students ready to ride the school buses, and 46 more students decide to join. How many students will go on the field trip in total?",
+    "gold": 138.0,
+    "pred": 138.0,
+    "correct": true,
+    "response": "The answer is: 138"
+  },
+  {
+    "idx": 311,
+    "question": "The school is planning a field trip. There are 92 students waiting to board the school buses. After boarding begins, 46 students are already on the buses. How many students are still waiting to board?",
+    "gold": 46.0,
+    "pred": 46.0,
+    "correct": true,
+    "response": "The answer is: 46"
+  },
+  {
+    "idx": 312,
+    "question": "Luke scored 157 points in a trivia game and 146 points in a bonus challenge. How many points did he score in all?",
+    "gold": 303.0,
+    "pred": 303.0,
+    "correct": true,
+    "response": "The answer is: 303"
+  },
+  {
+    "idx": 313,
+    "question": "Luke had 157 points in a trivia game when he was docked 146 points for a mistake. How many points did he have left?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 314,
+    "question": "Emily is making bead necklaces. She starts with 20 beads and then finds 5 more in her craft box. How many beads does she have in total to use?",
+    "gold": 25.0,
+    "pred": 25.0,
+    "correct": true,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 315,
+    "question": "Emily is making a bead necklace. She sets aside 20 beads and immediately strings 5 onto the thread. How many beads are still unstrung?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 316,
+    "question": "Tyler has 46 animals in his freshwater aquariums and 22 animals in his saltwater aquariums. How many animals does he have in total?",
+    "gold": 68.0,
+    "pred": 68.0,
+    "correct": true,
+    "response": "The answer is: 68"
+  },
+  {
+    "idx": 317,
+    "question": "Tyler is caring for 46 animals across his aquariums; if 22 of them are in saltwater aquariums, how many are in freshwater aquariums?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 318,
+    "question": "Philip's banana collection has 187 bananas, and he adds 140 more to it. How many bananas does he have in his collection now?",
+    "gold": 327.0,
+    "pred": 327.0,
+    "correct": true,
+    "response": "The answer is: 327"
+  },
+  {
+    "idx": 319,
+    "question": "Philip's banana collection contains 187 bananas, and he gives 140 to a friend. How many bananas remain in his collection?",
+    "gold": 47.0,
+    "pred": 47.0,
+    "correct": true,
+    "response": "The answer is: 47"
+  },
+  {
+    "idx": 320,
+    "question": "A mailman preparing a block has 20 pieces of junk mail for the houses, then he picks up 9 more pieces for that same block; how many pieces of junk mail will he give on that block in total?",
+    "gold": 29.0,
+    "pred": 29.0,
+    "correct": true,
+    "response": "The answer is: 29"
+  },
+  {
+    "idx": 321,
+    "question": "A mailman heading to a block has 20 pieces of junk mail for the houses but he loses 9 pieces before starting; how many pieces of junk mail does he still have to give on that block?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 322,
+    "question": "There are 14 cookies in a bag and 7 cookies in another bag; how many cookies are there in total?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 323,
+    "question": "You have 14 cookies, and you place 7 cookies into a bag; how many cookies remain outside the bag?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 324,
+    "question": "After resting, Ron and Dean go for a swim. The water where Ron is measures 16 feet deep, and out where Dean is it is 13 feet deeper than that. How deep is the water where Dean is?",
+    "gold": 29.0,
+    "pred": 29.0,
+    "correct": true,
+    "response": "The answer is: 29"
+  },
+  {
+    "idx": 325,
+    "question": "During their swim, the water where Dean is measures 16 feet deep, but nearer to shore by Ron it is 13 feet shallower. How deep is the water where Ron is?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 326,
+    "question": "An order of packs of dvds costs 120 dollars, and a shipping fee of 6 dollars is added; what is the total amount due?",
+    "gold": 126.0,
+    "pred": 126.0,
+    "correct": true,
+    "response": "The answer is: 126"
+  },
+  {
+    "idx": 327,
+    "question": "The price for packs of dvds is 120 dollars, and a discount of 6 dollars is subtracted from the price; what is the final price?",
+    "gold": 114.0,
+    "pred": 114.0,
+    "correct": true,
+    "response": "The answer is: 114"
+  },
+  {
+    "idx": 328,
+    "question": "Robin has 41 packages of gum and buys 7 more packages of gum. How many packages of gum does Robin have in all?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 329,
+    "question": "Robin has 41 packages of gum and gives 7 packages to a friend. How many packages of gum does Robin have left?",
+    "gold": 34.0,
+    "pred": 34.0,
+    "correct": true,
+    "response": "The answer is: 34"
+  },
+  {
+    "idx": 330,
+    "question": "You have 53 cookies and a bag with 41 cookies; how many cookies do you have in total?",
+    "gold": 94.0,
+    "pred": 94.0,
+    "correct": true,
+    "response": "The answer is: 94"
+  },
+  {
+    "idx": 331,
+    "question": "You packed 53 cookies into bags. If you remove 41 cookies from the bags, how many cookies are still in the bags?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 332,
+    "question": "Debby bought 301 water bottles on sale and found 157 more in her pantry; how many water bottles does she have in total?",
+    "gold": 458.0,
+    "pred": 458.0,
+    "correct": true,
+    "response": "The answer is: 458"
+  },
+  {
+    "idx": 333,
+    "question": "Debby bought 301 water bottles on sale. After she drank 157 of them, how many water bottles does she have left?",
+    "gold": 144.0,
+    "pred": 144.0,
+    "correct": true,
+    "response": "The answer is: 144"
+  },
+  {
+    "idx": 334,
+    "question": "Emily is making bead necklaces for her friends. She has 28 beads, and her friend gives her 11 more beads. How many beads does Emily have now?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 335,
+    "question": "Emily is making bead necklaces for her friends. She has 28 beads and uses 11 beads to finish a necklace. How many beads does she have left?",
+    "gold": 17.0,
+    "pred": 17.0,
+    "correct": true,
+    "response": "The answer is: 17"
+  },
+  {
+    "idx": 336,
+    "question": "Faye has 30 pencils and 7 crayons in her supply case. How many writing tools does she have in all?",
+    "gold": 37.0,
+    "pred": 37.0,
+    "correct": true,
+    "response": "The answer is: 37"
+  },
+  {
+    "idx": 337,
+    "question": "Faye has 30 crayons, but she gives 7 to a classmate. How many crayons does she have left?",
+    "gold": 23.0,
+    "pred": 23.0,
+    "correct": true,
+    "response": "The answer is: 23"
+  },
+  {
+    "idx": 338,
+    "question": "Faye had 6 pencils and found 2 more. How many pencils does she have now?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 339,
+    "question": "Faye had 6 pencils and gave 2 to a friend. How many pencils does she have left?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 340,
+    "question": "Philip has 18 bananas in his collection and then adds 2 more bananas to it. How many bananas are in his collection now?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 341,
+    "question": "Philip's banana collection has 18 bananas, and he gives away 2 bananas. How many bananas remain in his collection?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 342,
+    "question": "Robin has 42 packages of gum. Later, Robin buys 3 more packages. How many packages of gum does Robin have now?",
+    "gold": 45.0,
+    "pred": 45.0,
+    "correct": true,
+    "response": "The answer is: 45"
+  },
+  {
+    "idx": 343,
+    "question": "Robin has 42 packages of gum. She gives 3 packages to a friend. How many packages of gum does Robin have left?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 344,
+    "question": "Faye gathered 16 crayons from her desk and then found 6 more crayons in her backpack. How many crayons does she have in all?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 345,
+    "question": "Faye counted 16 pencils in her box, but she gave 6 pencils to her classmate. How many pencils are left?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 346,
+    "question": "You have 33 cookies, and you add 11 more cookies to your bags. How many cookies do you have now?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": "The answer is: 44"
+  },
+  {
+    "idx": 347,
+    "question": "You have 33 cookies in your bags, and you give away 11 cookies. How many cookies do you have left?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 348,
+    "question": "Rebecca has 20 marbles and then finds 4 more marbles in her bag. How many marbles does she have now?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 349,
+    "question": "Rebecca has 20 marbles and gives 4 marbles to her friend. How many marbles does she have left?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 350,
+    "question": "Frank kept a reading log for his favorite book. He logged 392 pages already, and today he read another 14 pages. How many pages has he read in total?",
+    "gold": 406.0,
+    "pred": 406.0,
+    "correct": true,
+    "response": "The answer is: 406"
+  },
+  {
+    "idx": 351,
+    "question": "Frank\u2019s favorite book has 392 pages, and he has already read 14 pages. How many pages does he still have left to read?",
+    "gold": 378.0,
+    "pred": 378.0,
+    "correct": true,
+    "response": "The answer is: 378"
+  },
+  {
+    "idx": 352,
+    "question": "Robin has 45 packages of candy and 9 packages of gum. How many packages does Robin have in all?",
+    "gold": 54.0,
+    "pred": 54.0,
+    "correct": true,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 353,
+    "question": "Robin has 45 pieces of candy and gives 9 pieces of candy to a friend. How many pieces of candy does Robin have left?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 354,
+    "question": "During the Arkansas and Texas Tech game, the Razorback t-shirt shop had $215 in its register from t-shirt sales and then sold another t-shirt for $5. How much money was in the register after that sale?",
+    "gold": 220.0,
+    "pred": 220.0,
+    "correct": true,
+    "response": "The answer is: 220"
+  },
+  {
+    "idx": 355,
+    "question": "During the Arkansas and Texas Tech game, the Razorback t-shirt shop had $215 in its register but issued a refund of $5 to a customer. How much money remained in the register?",
+    "gold": 210.0,
+    "pred": 210.0,
+    "correct": true,
+    "response": "The answer is: 210"
+  },
+  {
+    "idx": 356,
+    "question": "Faye counted 31 pencils and 27 crayons. How many pencils and crayons does she have altogether?",
+    "gold": 58.0,
+    "pred": 58.0,
+    "correct": true,
+    "response": "The answer is: 58"
+  },
+  {
+    "idx": 357,
+    "question": "Faye has 31 pencils and 27 crayons. How many more pencils than crayons does she have?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 358,
+    "question": "While helping her mom in the garden, Paige planted 32 seeds in the flowerbeds, and then they added 8 more seeds. How many seeds did they plant in all?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 359,
+    "question": "Paige and her mom had 32 seeds for the flowerbeds and planted 8 of them. How many seeds were left to plant?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 360,
+    "question": "In one game, Melissa scored 109 points and also received 82 bonus points. How many points did she have in total for that game?",
+    "gold": 191.0,
+    "pred": 191.0,
+    "correct": true,
+    "response": "The answer is: 191"
+  },
+  {
+    "idx": 361,
+    "question": "In one game, Melissa\u2019s scoreboard showed 109 points, but 82 bonus points were later disallowed. How many points did she actually keep?",
+    "gold": 27.0,
+    "pred": 27.0,
+    "correct": true,
+    "response": "The answer is: 27"
+  },
+  {
+    "idx": 362,
+    "question": "The industrial machine made 8 shirts yesterday and 4 shirts today. How many shirts did it make in all?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 363,
+    "question": "An industrial machine made 8 shirts today, but 4 were defective and discarded. How many good shirts remain?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 364,
+    "question": "In Haley's class, 26 boys love to play marbles and 13 boys love to play cards, and no boy likes both. How many boys love one of these games?",
+    "gold": 39.0,
+    "pred": 21.0,
+    "correct": false,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 365,
+    "question": "Haley has 26 marbles and gives 13 to the boys who love to play cards. How many marbles does she have left?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 366,
+    "question": "We ordered pizzas for a group: 14 slices were cheese and 7 slices were pepperoni. How many slices did we have in total?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 367,
+    "question": "From the pizzas we ordered, there were 14 slices on the table, and 7 slices were eaten. How many slices were left?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 368,
+    "question": "During the harvest season, Lewis saves $1181 from his earnings and then receives a bonus of $491 from the farm owner. How much money does he have in total?",
+    "gold": 1672.0,
+    "pred": 1672.0,
+    "correct": true,
+    "response": "The answer is: 1672"
+  },
+  {
+    "idx": 369,
+    "question": "By the end of the harvest season, Lewis has $1181 saved, but he needs to pay $491 in rent. How much money will he have left after paying the rent?",
+    "gold": 690.0,
+    "pred": 718.0,
+    "correct": false,
+    "response": "The answer is: 718"
+  },
+  {
+    "idx": 370,
+    "question": "Paige was helping her mom plant flowers. They planted 60 seeds in their flower beds, then they added 10 more seeds. How many seeds did they plant altogether?",
+    "gold": 70.0,
+    "pred": 70.0,
+    "correct": true,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 371,
+    "question": "Paige and her mom had 60 seeds for planting, and they put 10 seeds into a flower bed. How many seeds do they have left?",
+    "gold": 50.0,
+    "pred": 50.0,
+    "correct": true,
+    "response": "The answer is: 50"
+  },
+  {
+    "idx": 372,
+    "question": "A mailman sets aside 38 pieces of junk mail for a block, then finds another 19 pieces of junk mail for that same block. How many pieces of junk mail will he deliver to that block in total?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": "The answer is: 57"
+  },
+  {
+    "idx": 373,
+    "question": "A mailman carries 38 pieces of junk mail for a block. After delivering 19 pieces on that block, how many pieces of junk mail does he still have left to deliver there?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 374,
+    "question": "He went to see the oranges being harvested and counted 49 sacks filled in the morning and 38 more sacks filled in the afternoon. How many sacks of oranges were harvested in total that day?",
+    "gold": 87.0,
+    "pred": 87.0,
+    "correct": true,
+    "response": "The answer is: 87"
+  },
+  {
+    "idx": 375,
+    "question": "While watching the orange harvest, he saw 49 sacks of oranges stacked by the grove, and then 38 sacks were loaded onto a truck. How many sacks of oranges were left by the grove?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 376,
+    "question": "He had 52 saltwater animals in his aquariums, and 26 more saltwater animals were delivered for those aquariums. How many saltwater animals does he have in total now?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 377,
+    "question": "He had 52 saltwater animals in his aquariums. If he moved 26 saltwater animals to another aquarium, how many saltwater animals remain in his aquariums?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 378,
+    "question": "The Razorback t-shirt shop lists each t-shirt at $201 and during the Arkansas and Texas Tech game adds a game-day increase of $217 to the price. What is the game-day price of a t-shirt?",
+    "gold": 418.0,
+    "pred": 418.0,
+    "correct": true,
+    "response": "The answer is: 418"
+  },
+  {
+    "idx": 379,
+    "question": "During the Arkansas and Texas Tech game, the Razorback t-shirt shop priced a t-shirt at $217, but after the game they returned it to $201. By how many dollars did the price drop?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 380,
+    "question": "While watching the oranges being harvested, he saw 45 sacks of ripe oranges already on a truck, and then 24 sacks of unripe oranges were loaded onto the same truck; how many sacks were on the truck in total?",
+    "gold": 69.0,
+    "pred": 69.0,
+    "correct": true,
+    "response": "The answer is: 69"
+  },
+  {
+    "idx": 381,
+    "question": "In the storage shed, he counted 45 sacks of unripe oranges, but 24 sacks were taken away for sorting; how many sacks of unripe oranges remained in the shed?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 382,
+    "question": "Bryan looked at his books again: he has 42 books on his shelves, and he just found 2 more in a box. How many books does he have in total?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": "The answer is: 44"
+  },
+  {
+    "idx": 383,
+    "question": "Bryan has 42 books, but he decides to donate 2 of them from his shelves. How many books does he have left?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 384,
+    "question": "Debby bought 256 water bottles and 4 soda bottles on sale. How many bottles did she buy in total?",
+    "gold": 260.0,
+    "pred": 260.0,
+    "correct": true,
+    "response": "The answer is: 260"
+  },
+  {
+    "idx": 385,
+    "question": "From her sale haul, Debby has 256 soda bottles. If she drinks 4 soda bottles, how many soda bottles are left?",
+    "gold": 252.0,
+    "pred": 252.0,
+    "correct": true,
+    "response": "The answer is: 252"
+  },
+  {
+    "idx": 386,
+    "question": "Faye has 30 pencils and 24 crayons on her desk. How many pencils and crayons does she have in total?",
+    "gold": 54.0,
+    "pred": 54.0,
+    "correct": true,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 387,
+    "question": "Faye has 30 pencils and gives 24 to a classmate. How many pencils does she have left?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 388,
+    "question": "While watching the oranges being harvested, he counted 87 sacks already stacked by the barn, and the workers brought in 66 more sacks. How many sacks of oranges are there in total?",
+    "gold": 153.0,
+    "pred": 153.0,
+    "correct": true,
+    "response": "The answer is: 153"
+  },
+  {
+    "idx": 389,
+    "question": "At the end of the day, he saw 87 sacks of oranges in the storage area. After a truck picked up 66 sacks, how many sacks of oranges remained?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 390,
+    "question": "An industrial machine made 9 shirts yesterday and 3 shirts today. How many shirts did the machine make in total across yesterday and today?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 391,
+    "question": "An industrial machine made 9 shirts yesterday. During inspection, 3 of those shirts were rejected. How many of yesterday's shirts remained acceptable?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 392,
+    "question": "Bryan has 46 magazines and 10 books on his bookshelves; how many books and magazines does he have in total?",
+    "gold": 56.0,
+    "pred": 56.0,
+    "correct": true,
+    "response": "The answer is: 56"
+  },
+  {
+    "idx": 393,
+    "question": "Bryan placed 46 magazines on his bookshelves and then removed 10; how many magazines remain on the shelves?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 394,
+    "question": "Philip's banana collection holds 392 bananas, and he adds another 196 bananas to it. How many bananas are in his collection now?",
+    "gold": 588.0,
+    "pred": 588.0,
+    "correct": true,
+    "response": "The answer is: 588"
+  },
+  {
+    "idx": 395,
+    "question": "Philip's banana collection holds 392 bananas, and he removes 196 bananas to share with friends. How many bananas remain in his collection?",
+    "gold": 196.0,
+    "pred": 196.0,
+    "correct": true,
+    "response": "The answer is: 196"
+  },
+  {
+    "idx": 396,
+    "question": "At the Ferris wheel in Paradise Park, 20 people are already in line to ride. If 4 more people walk up to join the line, how many people are now waiting to ride?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 397,
+    "question": "At the Ferris wheel in Paradise Park, 20 people are waiting to ride. If 4 people leave the line, how many people are still waiting?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 398,
+    "question": "At the carnival, the ring toss game earned 165 dollars and later the staff counted an extra 5 dollars in tips. How much money is that in total?",
+    "gold": 170.0,
+    "pred": 170.0,
+    "correct": true,
+    "response": "The answer is: 170"
+  },
+  {
+    "idx": 399,
+    "question": "At the carnival, the ring toss game brought in 165 dollars, but it cost 5 dollars to replace some rings. How much money was left?",
+    "gold": 160.0,
+    "pred": 160.0,
+    "correct": true,
+    "response": "The answer is: 160"
+  },
+  {
+    "idx": 400,
+    "question": "Rebecca has 11 eggs in a group and then adds 2 eggs to that group; how many eggs are in the group now?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 401,
+    "question": "Rebecca has 11 eggs in a group and removes 2 eggs from that group; how many eggs remain?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 402,
+    "question": "He watched the oranges being harvested and counted 24 sacks already on the truck; then the workers loaded 8 more sacks of oranges. How many sacks of oranges are on the truck now?",
+    "gold": 32.0,
+    "pred": 32.0,
+    "correct": true,
+    "response": "The answer is: 32"
+  },
+  {
+    "idx": 403,
+    "question": "Later, he saw 24 sacks of harvested oranges stacked by the shed, and 8 sacks were taken away for delivery. How many sacks of oranges remained by the shed?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 404,
+    "question": "Ryan spends 6 hours learning English and 2 hours learning Chinese. How many hours does he spend learning in total?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 405,
+    "question": "Ryan plans to spend 6 hours on learning English, but he moves 2 of those hours to learning Chinese instead. How many hours does he spend on learning English now?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 406,
+    "question": "An industrial machine first completed a batch of 5 shirts, then it produced another batch of 4 shirts. How many shirts did the machine make in total?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 407,
+    "question": "An industrial machine had 5 finished shirts, but 4 were found defective and removed. How many finished shirts remained?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 408,
+    "question": "Rebecca has 15 eggs. While putting them with her marbles, she finds 3 more eggs. How many eggs does she have now?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 409,
+    "question": "Rebecca has 15 eggs. She gives 3 eggs to a friend and keeps the rest with her marbles. How many eggs does she have left?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 410,
+    "question": "In Haley's class, the boys love to play marbles. Haley has 10 marbles, and a boy lends her 5 more marbles. How many marbles does Haley have now?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 411,
+    "question": "In Haley's class, the boys love to play marbles. Haley has 10 marbles and gives 5 marbles to a boy. How many marbles does she have left?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 412,
+    "question": "Before the Arkansas\u2013Texas Tech game, the Razorback t-shirt shop had 51 t-shirts in stock, and a supplier delivered 3 more. How many t-shirts did the shop have after the delivery?",
+    "gold": 54.0,
+    "pred": 54.0,
+    "correct": true,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 413,
+    "question": "During the Arkansas\u2013Texas Tech game, the Razorback t-shirt shop had 51 t-shirts on the display rack, and fans bought 3 of them. How many t-shirts remained on the rack?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 414,
+    "question": "Adam arranged 10 cabinets and 8 action figures on a shelf in his room. How many total items are on the shelf?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 415,
+    "question": "Adam set out 10 action figures on a shelf and then put 8 of them into his cabinets. How many action figures are still on the shelf?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 416,
+    "question": "In a basket of peaches, there are 7 red peaches and 4 green peaches. How many peaches are in the basket in total?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": "The answer is: 11"
+  },
+  {
+    "idx": 417,
+    "question": "A basket has 7 peaches. If 4 green peaches are removed, how many peaches remain in the basket?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 418,
+    "question": "Frank was reading his favorite book. He read 664 pages and then read 2 more pages from the next chapter. How many pages did he read in total?",
+    "gold": 666.0,
+    "pred": 666.0,
+    "correct": true,
+    "response": "The answer is: 666"
+  },
+  {
+    "idx": 419,
+    "question": "While reading his favorite book, Frank logged 664 reading days in his journal, but he noticed that 2 of those entries were duplicates. How many actual reading days did he have?",
+    "gold": 662.0,
+    "pred": 662.0,
+    "correct": true,
+    "response": "The answer is: 662"
+  },
+  {
+    "idx": 420,
+    "question": "A book contains 61 pages of chapter text and 31 pages of appendices. How many pages are in these parts altogether?",
+    "gold": 92.0,
+    "pred": 92.0,
+    "correct": true,
+    "response": "The answer is: 92"
+  },
+  {
+    "idx": 421,
+    "question": "A chapter in the book is 61 pages long. If 31 pages are appendices, how many pages of the chapter are not appendices?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 422,
+    "question": "The school is planning a field trip. 67 classrooms are going from the main building, and 66 classrooms are going from the annex. How many classrooms are going in total?",
+    "gold": 133.0,
+    "pred": 133.0,
+    "correct": true,
+    "response": "The answer is: 133"
+  },
+  {
+    "idx": 423,
+    "question": "On the morning of the field trip, 67 students are scheduled to ride the school buses, and 66 students have already boarded. How many students still need to board?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 424,
+    "question": "He then went to see the oranges being harvested. He counted 74 sacks already stacked, and the workers soon brought in 71 more sacks. How many sacks of oranges were there in total?",
+    "gold": 145.0,
+    "pred": 145.0,
+    "correct": true,
+    "response": "The answer is: 145"
+  },
+  {
+    "idx": 425,
+    "question": "He then went to see the oranges being harvested. They filled 74 sacks, but they had to discard 71 of them. How many sacks of oranges remained?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 426,
+    "question": "You have 28 cookies and 14 candies. How many cookies and candies do you have in all?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": "The answer is: 42"
+  },
+  {
+    "idx": 427,
+    "question": "You have 28 cookies and 14 are packed into bags. How many cookies are not packed?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 428,
+    "question": "Ryan plans to learn English for 7 hours and Chinese for 5 hours. How many hours does he study in all?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 429,
+    "question": "Ryan schedules 7 hours in total to learn English and Chinese. If he spends 5 hours on Chinese, how many hours does he spend on English?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 430,
+    "question": "Debby has 12 water bottles at home and buys 6 more water bottles. How many water bottles does she have in total?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 431,
+    "question": "Debby bought 12 water bottles and then drank 6 of them. How many water bottles remain?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 432,
+    "question": "Mom buys 51 white t-shirts, then she adds 3 more white t-shirts to her order. How many white t-shirts does she have in total?",
+    "gold": 54.0,
+    "pred": 54.0,
+    "correct": true,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 433,
+    "question": "Mom buys 51 white t-shirts, but 3 are defective and she returns them. How many white t-shirts does she end up with?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 434,
+    "question": "During the harvest season, Lewis must make rent payments of $1359 and $388. How much must he pay in total?",
+    "gold": 1747.0,
+    "pred": 1737.0,
+    "correct": false,
+    "response": "The answer is: 1737"
+  },
+  {
+    "idx": 435,
+    "question": "During the harvest season, Lewis has $1359 set aside for rent. After he pays $388, how much money does he have left for rent?",
+    "gold": 971.0,
+    "pred": 895.0,
+    "correct": false,
+    "response": "The answer is: 895"
+  },
+  {
+    "idx": 436,
+    "question": "Jesse is planning carpet for her room. She will cover a section with a carpet of 14 square feet and a separate section with a rug of 7 square feet. How many square feet of floor will be covered in total?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 437,
+    "question": "Jesse bought a carpet for her room measuring 14 square feet, but 7 square feet are damaged and must be cut away. How many square feet of usable carpet remain?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 438,
+    "question": "The Ferris wheel in Paradise Park has 12 people already on the large seats, and 7 more people sit on the large seats. How many people are on the large seats in total?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 439,
+    "question": "On the Ferris wheel in Paradise Park, 12 people are on the large seats; when 7 people get off, how many people remain on the large seats?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 440,
+    "question": "An industrial machine made 13 shirts in the morning and 8 shirts in the afternoon. How many shirts did it make in total?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": "The answer is: 21"
+  },
+  {
+    "idx": 441,
+    "question": "An industrial machine produced 13 shirts, but 8 were defective and discarded. How many good shirts remained?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 442,
+    "question": "mom has 39 white t-shirts at home and buys 13 more at the store; how many white t-shirts does she have in total?",
+    "gold": 52.0,
+    "pred": 52.0,
+    "correct": true,
+    "response": "The answer is: 52"
+  },
+  {
+    "idx": 443,
+    "question": "mom has 39 white t-shirts and gives 13 away; how many white t-shirts does she have left?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 444,
+    "question": "He is watching the oranges being harvested: he sees 80 sacks of oranges stacked by the grove, and then the workers bring over 16 more sacks. How many sacks of oranges are there in total now?",
+    "gold": 96.0,
+    "pred": 96.0,
+    "correct": true,
+    "response": "The answer is: 96"
+  },
+  {
+    "idx": 445,
+    "question": "While watching the oranges being harvested, he counts 80 sacks of oranges ready by the grove, and the workers then load 16 sacks onto the truck. How many sacks of oranges are left by the grove?",
+    "gold": 64.0,
+    "pred": 64.0,
+    "correct": true,
+    "response": "The answer is: 64"
+  },
+  {
+    "idx": 446,
+    "question": "An industrial machine made 6 shirts in the morning and 3 more shirts in the afternoon. How many shirts did it make in all?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 447,
+    "question": "An industrial machine made 6 shirts, but 3 were defective and discarded. How many good shirts remained?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 448,
+    "question": "After resting, they decided to go for a swim. Ron swam 15 laps while Dean swam 9 laps. How many laps did they swim in total?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 449,
+    "question": "After resting, they decided to go for a swim. Ron is 15 feet from the shore, and Dean is 9 feet from the shore. How much farther from the shore is Ron than Dean?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 450,
+    "question": "In a basket, there are 18 red peaches and 11 green peaches. How many peaches are in the basket altogether?",
+    "gold": 29.0,
+    "pred": 29.0,
+    "correct": true,
+    "response": "The answer is: 29"
+  },
+  {
+    "idx": 451,
+    "question": "A basket has 18 green peaches. The farmer removes 11 green peaches from the basket. How many green peaches remain in the basket?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 452,
+    "question": "The school is planning a field trip. There are 111 students signed up, and 3 chaperones from the classrooms will join them on the school buses. How many people in total need seats on the buses?",
+    "gold": 114.0,
+    "pred": 114.0,
+    "correct": true,
+    "response": "The answer is: 114"
+  },
+  {
+    "idx": 453,
+    "question": "The school is planning a field trip. Initially 111 students were set to ride the school buses, but 3 students had to stay back in their classrooms. How many students will ride the buses now?",
+    "gold": 108.0,
+    "pred": 108.0,
+    "correct": true,
+    "response": "The answer is: 108"
+  },
+  {
+    "idx": 454,
+    "question": "Debby bought 109 water bottles on sale and then bought 74 more. How many water bottles did she have in total?",
+    "gold": 183.0,
+    "pred": 183.0,
+    "correct": true,
+    "response": "The answer is: 183"
+  },
+  {
+    "idx": 455,
+    "question": "Debby had 109 water bottles from the sale, and she gave away 74 of them. How many water bottles did she have left?",
+    "gold": 35.0,
+    "pred": 35.0,
+    "correct": true,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 456,
+    "question": "We ordered 10 pizzas and then added 9 more pizzas to the order. How many pizzas did we order in total?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 457,
+    "question": "We set out 10 slices of pizza, and 9 slices were eaten. How many slices of pizza remain?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 458,
+    "question": "Adam arranged 11 action figures on a shelf and 4 on another shelf. How many action figures are on those shelves together?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 459,
+    "question": "Adam had 11 action figures on a shelf. He moved 4 into a cabinet. How many action figures remain on the shelf?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 460,
+    "question": "At the carnival's ring toss game, the cash box held 144 dollars at closing, and a helper found 22 dollars that had fallen behind the booth. How much money did they have in total?",
+    "gold": 166.0,
+    "pred": 166.0,
+    "correct": true,
+    "response": "The answer is: 166"
+  },
+  {
+    "idx": 461,
+    "question": "The ring toss game at the carnival collected 144 dollars, but 22 dollars were refunded to players after a mistake. How much money remained?",
+    "gold": 122.0,
+    "pred": 122.0,
+    "correct": true,
+    "response": "The answer is: 122"
+  },
+  {
+    "idx": 462,
+    "question": "Brenda's mother baked 22 cookies and then baked 17 more; how many cookies were there in all?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 463,
+    "question": "Brenda's mother baked 22 cookies but had to throw away 17; how many cookies remained?",
+    "gold": 5.0,
+    "pred": 5.0,
+    "correct": true,
+    "response": "The answer is: 5"
+  },
+  {
+    "idx": 464,
+    "question": "Mom buys 57 white t-shirts and 53 trousers. How many clothing items does she buy in total?",
+    "gold": 110.0,
+    "pred": 110.0,
+    "correct": true,
+    "response": "The answer is: 110"
+  },
+  {
+    "idx": 465,
+    "question": "Mom needs 57 white t-shirts, but she has only 53. How many more white t-shirts does she need?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": "The answer is: 4"
+  },
+  {
+    "idx": 466,
+    "question": "Mom buys white t-shirts in packages; if she has 56 white t-shirts and buys 28 more, how many white t-shirts does she have in total?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": "The answer is: 84"
+  },
+  {
+    "idx": 467,
+    "question": "Mom buys white t-shirts in packages; if she has 56 white t-shirts and gives away 28, how many white t-shirts does she have left?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 468,
+    "question": "The school has 304 students, and 75 more students enroll; how many students are there in total?",
+    "gold": 379.0,
+    "pred": 379.0,
+    "correct": true,
+    "response": "The answer is: 379"
+  },
+  {
+    "idx": 469,
+    "question": "The school has 304 students, and 75 students transfer to another school; how many students remain?",
+    "gold": 229.0,
+    "pred": 229.0,
+    "correct": true,
+    "response": "The answer is: 229"
+  },
+  {
+    "idx": 470,
+    "question": "He then went to see the oranges being harvested and counted 73 sacks of ripe oranges in the shed; then 5 more sacks of ripe oranges were brought in. How many sacks of ripe oranges are there now?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 471,
+    "question": "He then went to see the oranges being harvested and saw 73 sacks of ripe oranges ready to ship, but 5 sacks of ripe oranges were taken back as unripe. How many sacks of ripe oranges remain ready to ship?",
+    "gold": 68.0,
+    "pred": 68.0,
+    "correct": true,
+    "response": "The answer is: 68"
+  },
+  {
+    "idx": 472,
+    "question": "Being his favorite, he saved checking on the grapevines for his last stop. The pickers told him they had just filled 221 drums of grapes and 77 drums of raspberries. How many drums did they fill in all?",
+    "gold": 298.0,
+    "pred": 298.0,
+    "correct": true,
+    "response": "The answer is: 298"
+  },
+  {
+    "idx": 473,
+    "question": "Being his favorite, he saved checking on the grapevines for his last stop. The pickers said they filled 221 drums of grapes and 77 drums of raspberries. How many more drums of grapes than raspberries did they fill?",
+    "gold": 144.0,
+    "pred": 144.0,
+    "correct": true,
+    "response": "The answer is: 144"
+  },
+  {
+    "idx": 474,
+    "question": "During the harvest season, Lewis earns $403 from his work and also receives $233 as a bonus. How much money does he have from the harvest in total?",
+    "gold": 636.0,
+    "pred": 636.0,
+    "correct": true,
+    "response": "The answer is: 636"
+  },
+  {
+    "idx": 475,
+    "question": "During the harvest season, Lewis brings in $403 but must pay $233 in rent. How much money does he have left after paying the rent?",
+    "gold": 170.0,
+    "pred": 170.0,
+    "correct": true,
+    "response": "The answer is: 170"
+  },
+  {
+    "idx": 476,
+    "question": "They are holding the party in their backyard. Around the tables, they set out 9 chairs and then bring out 3 more chairs. How many chairs are in the backyard now?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 477,
+    "question": "For their backyard party, they place 9 chairs by the tables but put 3 chairs back in the house. How many chairs remain in the backyard?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 478,
+    "question": "Matthew set out 28 crackers and 15 cakes for his friends. How many snacks did he have in total?",
+    "gold": 43.0,
+    "pred": 43.0,
+    "correct": true,
+    "response": "The answer is: 43"
+  },
+  {
+    "idx": 479,
+    "question": "Matthew had 28 crackers and 15 cakes. How many more crackers than cakes did he have?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": "The answer is: 13"
+  },
+  {
+    "idx": 480,
+    "question": "A mailman preparing a delivery for a block counts 32 pieces of junk mail and then finds 8 more pieces in his bag; how many pieces of junk mail does he have for that block now?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": "The answer is: 40"
+  },
+  {
+    "idx": 481,
+    "question": "A mailman has 32 pieces of junk mail for a block. After delivering 8 pieces to a house in that block, how many pieces remain to deliver to the other houses?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 482,
+    "question": "The Razorback t-shirt shop made $95 from t-shirt sales during the Arkansas game and $87 during the Texas Tech game. How much money did they make from selling t-shirts across both games?",
+    "gold": 182.0,
+    "pred": 182.0,
+    "correct": true,
+    "response": "The answer is: 182"
+  },
+  {
+    "idx": 483,
+    "question": "During the Arkansas game, the Razorback t-shirt shop sold 95 t-shirts, and during the Texas Tech game, they sold 87 t-shirts. How many more t-shirts were sold during the Arkansas game?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 484,
+    "question": "Philip's collection includes 384 oranges and 16 bananas. How many pieces of fruit does he have in all?",
+    "gold": 400.0,
+    "pred": 400.0,
+    "correct": true,
+    "response": "The answer is: 400"
+  },
+  {
+    "idx": 485,
+    "question": "From Philip's 384 oranges, he sets aside 16 to make juice. How many oranges are left in his collection?",
+    "gold": 368.0,
+    "pred": 368.0,
+    "correct": true,
+    "response": "The answer is: 368"
+  },
+  {
+    "idx": 486,
+    "question": "An industrial machine made 14 shirts yesterday and 12 shirts today. How many shirts did the machine make altogether?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 487,
+    "question": "An industrial machine produced 14 shirts, but 12 were found defective and removed. How many shirts remained?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 488,
+    "question": "Melissa scored 21 points in a game and 7 points in the next game. How many points did she score in total?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 489,
+    "question": "Melissa finished with 21 points from her games, but a penalty deducted 7 points. How many points does she have now?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 490,
+    "question": "Paige was helping her mom plant flowers in their flowerbeds. They planted 45 seeds, and then they added 9 more seeds. How many seeds did they plant in total?",
+    "gold": 54.0,
+    "pred": 54.0,
+    "correct": true,
+    "response": "The answer is: 54"
+  },
+  {
+    "idx": 491,
+    "question": "Paige and her mom planted 45 seeds in the flowerbeds, but later 9 seeds washed away in the rain. How many seeds were still in the flowerbeds?",
+    "gold": 36.0,
+    "pred": 36.0,
+    "correct": true,
+    "response": "The answer is: 36"
+  },
+  {
+    "idx": 492,
+    "question": "Frank was reading his favorite book. He spent 660 days finishing it, then devoted 15 days to reviewing its chapters. How many days in total did he spend on the book?",
+    "gold": 675.0,
+    "pred": 675.0,
+    "correct": true,
+    "response": "The answer is: 675"
+  },
+  {
+    "idx": 493,
+    "question": "Frank planned 660 days to read his favorite book, but he took a 15-day break partway through. How many days did he actually spend reading?",
+    "gold": 645.0,
+    "pred": 645.0,
+    "correct": true,
+    "response": "The answer is: 645"
+  },
+  {
+    "idx": 494,
+    "question": "Before putting them into bags, Frank had 16 pieces of candy and then found 2 more pieces. How many pieces of candy did he have in all?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 495,
+    "question": "While filling bags, Frank had 16 pieces of candy, but 2 pieces fell and were thrown away. How many pieces of candy were left?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": "The answer is: 14"
+  },
+  {
+    "idx": 496,
+    "question": "For the house wall, John had 11 nails and then bought 8 more to secure the planks of wood. How many nails does he have in total?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "The answer is: 19"
+  },
+  {
+    "idx": 497,
+    "question": "While securing planks of wood on the house wall, John had 11 nails and used 8 of them. How many nails does he have left?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 498,
+    "question": "The ring toss game at the carnival earned 114 dollars during the afternoon and 57 dollars in the evening. How much did it make in total for the day?",
+    "gold": 171.0,
+    "pred": 171.0,
+    "correct": true,
+    "response": "The answer is: 171"
+  },
+  {
+    "idx": 499,
+    "question": "The ring toss game at the carnival had 114 rings, and 57 were lost during setup. How many rings remained?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": "The answer is: 57"
+  },
+  {
+    "idx": 500,
+    "question": "While checking the grapevines at his last stop, he saw the pickers had filled 240 drums of grapes and then added 8 more; how many drums are there in total?",
+    "gold": 248.0,
+    "pred": 248.0,
+    "correct": true,
+    "response": "The answer is: 248"
+  },
+  {
+    "idx": 501,
+    "question": "At his favorite grapevines on his last stop, he counted 240 drums of grapes, but 8 drums were set aside as underfilled; how many drums remained?",
+    "gold": 232.0,
+    "pred": 232.0,
+    "correct": true,
+    "response": "The answer is: 232"
+  },
+  {
+    "idx": 502,
+    "question": "Faye had 14 pencils on her desk and found 11 more in her backpack. How many pencils does she have in all?",
+    "gold": 25.0,
+    "pred": 25.0,
+    "correct": true,
+    "response": "The answer is: 25"
+  },
+  {
+    "idx": 503,
+    "question": "Faye started with 14 pencils and gave 11 to a classmate. How many pencils does she have left?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 504,
+    "question": "During the harvest season, Lewis has $1357 from his weekly earnings and then receives an additional $223 as a bonus; how much money does he have in total?",
+    "gold": 1580.0,
+    "pred": 1570.0,
+    "correct": false,
+    "response": "The answer is: 1570"
+  },
+  {
+    "idx": 505,
+    "question": "During a harvest-season week, Lewis earns $1357 and spends $223 on equipment for the fields; how much money remains from that week?",
+    "gold": 1134.0,
+    "pred": 1124.0,
+    "correct": false,
+    "response": "The answer is: 1124"
+  },
+  {
+    "idx": 506,
+    "question": "The school is planning the field trip. There are 58 students going, and 2 teachers will ride the school buses with them. How many people will ride the buses in total?",
+    "gold": 60.0,
+    "pred": 60.0,
+    "correct": true,
+    "response": "The answer is: 60"
+  },
+  {
+    "idx": 507,
+    "question": "For the field trip, 58 students signed up, but 2 students cannot go. How many students will go on the trip?",
+    "gold": 56.0,
+    "pred": 56.0,
+    "correct": true,
+    "response": "The answer is: 56"
+  },
+  {
+    "idx": 508,
+    "question": "Steven has 4502 skittles in his collection and also has 4276 erasers. If he puts the skittles and erasers together, how many items does he have in total?",
+    "gold": 8778.0,
+    "pred": 8778.0,
+    "correct": true,
+    "response": "The answer is: 8778"
+  },
+  {
+    "idx": 509,
+    "question": "Steven has 4502 skittles in his collection and 4276 erasers. How many more skittles than erasers does he have?",
+    "gold": 226.0,
+    "pred": 22.0,
+    "correct": false,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 510,
+    "question": "He visited the orange harvest and saw 56 sacks already stacked; later, the crew finished 14 additional sacks. How many sacks of oranges were there altogether?",
+    "gold": 70.0,
+    "pred": 70.0,
+    "correct": true,
+    "response": "The answer is: 70"
+  },
+  {
+    "idx": 511,
+    "question": "At the orange harvest, he counted 56 sacks of oranges, but later 14 sacks were sent to the market. How many sacks of oranges were left?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": "The answer is: 42"
+  },
+  {
+    "idx": 512,
+    "question": "Debby has 88 water bottles and then buys 4 more water bottles; how many water bottles does she have now?",
+    "gold": 92.0,
+    "pred": 92.0,
+    "correct": true,
+    "response": "The answer is: 92"
+  },
+  {
+    "idx": 513,
+    "question": "Debby bought 88 water bottles; after she drank 4 water bottles, how many water bottles were left?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": "The answer is: 84"
+  },
+  {
+    "idx": 514,
+    "question": "A store has 81 packs of dvds on a shelf and 33 packs on another shelf. How many packs of dvds are there in total?",
+    "gold": 114.0,
+    "pred": 114.0,
+    "correct": true,
+    "response": "The answer is: 114"
+  },
+  {
+    "idx": 515,
+    "question": "A store has 81 packs of dvds and sells 33 of them. How many packs of dvds remain?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 516,
+    "question": "On his route, the mailman sets aside 17 pieces of junk mail for houses on a block and 16 pieces for houses on another block. How many pieces of junk mail will he deliver in total across those blocks?",
+    "gold": 33.0,
+    "pred": 33.0,
+    "correct": true,
+    "response": "The answer is: 33"
+  },
+  {
+    "idx": 517,
+    "question": "On a particular block, the mailman prepared 17 pieces of junk mail, but 16 houses there are on a no-junk-mail list. How many pieces of junk mail will he actually deliver on that block?",
+    "gold": 1.0,
+    "pred": 136.0,
+    "correct": false,
+    "response": "The answer is: 136"
+  },
+  {
+    "idx": 518,
+    "question": "Brenda's mother baked 14 cookies, then baked 2 more. How many cookies did she make in total?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 519,
+    "question": "Brenda's mother baked 14 cookies, but 2 cookies were thrown away. How many cookies were left?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 520,
+    "question": "Dan has 6 candy bars, then he buys 3 more candy bars. How many candy bars does he have now?",
+    "gold": 9.0,
+    "pred": 9.0,
+    "correct": true,
+    "response": "The answer is: 9"
+  },
+  {
+    "idx": 521,
+    "question": "Dan has 6 candy bars and eats 3 of them. How many candy bars does he have left?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 522,
+    "question": "During the harvest, Lewis has $1216 saved, and he then receives an extra $16; how much money does he have in total?",
+    "gold": 1232.0,
+    "pred": 1232.0,
+    "correct": true,
+    "response": "The answer is: 1232"
+  },
+  {
+    "idx": 523,
+    "question": "During the harvest, Lewis earns $1216 but spends $16 on supplies; how much money does he have left?",
+    "gold": 1200.0,
+    "pred": 1190.0,
+    "correct": false,
+    "response": "The answer is: 1190"
+  },
+  {
+    "idx": 524,
+    "question": "Frank was reading through his books. He read 249 pages and then read 3 more pages. How many pages did he read in total?",
+    "gold": 252.0,
+    "pred": 252.0,
+    "correct": true,
+    "response": "The answer is: 252"
+  },
+  {
+    "idx": 525,
+    "question": "Frank is reading a book with 249 pages. He has already read 3 pages. How many pages remain for him to read?",
+    "gold": 246.0,
+    "pred": 246.0,
+    "correct": true,
+    "response": "The answer is: 246"
+  },
+  {
+    "idx": 526,
+    "question": "At their backyard party, they set up 13 chairs around the tables and then bring out 11 more; how many chairs are in the backyard now?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 527,
+    "question": "For their backyard party, they place 13 chairs around the tables, but later move 11 of those chairs back inside; how many chairs remain in the backyard?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": "The answer is: 2"
+  },
+  {
+    "idx": 528,
+    "question": "Brenda's mother baked 18 cookies, then baked 10 more for the guests. How many cookies did she bake in total?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": "The answer is: 28"
+  },
+  {
+    "idx": 529,
+    "question": "Brenda's mother prepared 18 cookies for the guests, but 10 cookies were set aside for Brenda to take home. How many cookies remained for the guests?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 530,
+    "question": "Rebecca collects 9 eggs and then finds 3 more eggs in the coop. How many eggs does she have now?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": "The answer is: 12"
+  },
+  {
+    "idx": 531,
+    "question": "Rebecca has 9 eggs but gives 3 to a neighbor. How many eggs remain?",
+    "gold": 6.0,
+    "pred": 6.0,
+    "correct": true,
+    "response": "The answer is: 6"
+  },
+  {
+    "idx": 532,
+    "question": "On a block, a mailman begins with 24 pieces of junk mail for the houses there. Later, he receives 6 more pieces for that same block. How many pieces of junk mail will he deliver on that block in total?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 533,
+    "question": "On a block, a mailman has 24 pieces of junk mail for the houses, but he finds that 6 pieces are misaddressed and removes them. How many pieces of junk mail does he deliver on that block?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": "The answer is: 18"
+  },
+  {
+    "idx": 534,
+    "question": "Emily is making bead necklaces for her friends. She has 16 beads and finds 8 more in her craft box. How many beads does she have in total for her necklaces?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 535,
+    "question": "Emily is making bead necklaces for her friends. She has 16 beads and uses 8 beads to make a necklace. How many beads are left?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 536,
+    "question": "Jesse needs to lay carpet in a long hallway and an attached entryway. The hallway requires a strip that is 20 feet long, and the entryway requires a strip that is 19 feet long. If she places the strips end to end, what total length of carpet must she cut?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": "The answer is: 39"
+  },
+  {
+    "idx": 537,
+    "question": "Jesse has 20 rooms to carpet in her building, but she has already finished carpeting 19 of them. How many rooms still need carpet?",
+    "gold": 1.0,
+    "pred": 1.0,
+    "correct": true,
+    "response": "The answer is: 1"
+  },
+  {
+    "idx": 538,
+    "question": "We ordered 28 pizzas and then added 2 more to the order. How many pizzas did we order in total?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 539,
+    "question": "There were 28 pizza slices on the table, and 2 slices were eaten. How many slices are left?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": "The answer is: 26"
+  },
+  {
+    "idx": 540,
+    "question": "Matthew had 36 crackers, and then he found 6 more in his bag. How many crackers does he have in total?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": "The answer is: 42"
+  },
+  {
+    "idx": 541,
+    "question": "Matthew had 36 crackers and gave 6 crackers to a friend. How many crackers does he have left?",
+    "gold": 30.0,
+    "pred": 30.0,
+    "correct": true,
+    "response": "The answer is: 30"
+  },
+  {
+    "idx": 542,
+    "question": "Faye counted 14 pencils on her desk and found 6 more in her backpack; how many pencils does she have now?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": "The answer is: 20"
+  },
+  {
+    "idx": 543,
+    "question": "Faye had 14 pencils but gave 6 to a classmate; how many pencils does she have left?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 544,
+    "question": "Mom buys 66 white t-shirts and then adds 3 more white t-shirts to her cart. How many white t-shirts does she buy in total?",
+    "gold": 69.0,
+    "pred": 69.0,
+    "correct": true,
+    "response": "The answer is: 69"
+  },
+  {
+    "idx": 545,
+    "question": "Mom has 66 white t-shirts but gives 3 white t-shirts to a friend. How many white t-shirts are left?",
+    "gold": 63.0,
+    "pred": 63.0,
+    "correct": true,
+    "response": "The answer is: 63"
+  }
+]

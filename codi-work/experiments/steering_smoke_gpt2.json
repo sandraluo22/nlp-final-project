@@ -1,0 +1,497 @@
+[
+  {
+    "alpha": 0.0,
+    "n_src": 3,
+    "n_tgt_add": 0,
+    "n_tgt_mul": 0,
+    "n_other": 7,
+    "per_q": [
+      {
+        "idx": 0,
+        "src_correct": 19.0,
+        "tgt_add": 41.0,
+        "tgt_mul": 330.0,
+        "pred": 19.0,
+        "gen_snippet": "The answer is: 19",
+        "fired": false
+      },
+      {
+        "idx": 1,
+        "src_correct": 63.0,
+        "tgt_add": 93.0,
+        "tgt_mul": 1170.0,
+        "pred": 63.0,
+        "gen_snippet": "The answer is: 63",
+        "fired": false
+      },
+      {
+        "idx": 2,
+        "src_correct": 322.0,
+        "tgt_add": 502.0,
+        "tgt_mul": 37080.0,
+        "pred": 62.0,
+        "gen_snippet": "The answer is: 62",
+        "fired": false
+      },
+      {
+        "idx": 3,
+        "src_correct": 30.0,
+        "tgt_add": 70.0,
+        "tgt_mul": 1000.0,
+        "pred": 25.0,
+        "gen_snippet": "The answer is: 25",
+        "fired": false
+      },
+      {
+        "idx": 4,
+        "src_correct": 1.0,
+        "tgt_add": 29.0,
+        "tgt_mul": 210.0,
+        "pred": 56.0,
+        "gen_snippet": "The answer is: 56",
+        "fired": false
+      },
+      {
+        "idx": 5,
+        "src_correct": 266.0,
+        "tgt_add": 564.0,
+        "tgt_mul": 61835.0,
+        "pred": -25.0,
+        "gen_snippet": "The answer is: -25",
+        "fired": false
+      },
+      {
+        "idx": 6,
+        "src_correct": 807.0,
+        "tgt_add": 875.0,
+        "tgt_mul": 28594.0,
+        "pred": 225.0,
+        "gen_snippet": "The answer is: 225",
+        "fired": false
+      },
+      {
+        "idx": 7,
+        "src_correct": 12.0,
+        "tgt_add": 104.0,
+        "tgt_mul": 2668.0,
+        "pred": -4.0,
+        "gen_snippet": "The answer is: -4",
+        "fired": false
+      },
+      {
+        "idx": 8,
+        "src_correct": 31.0,
+        "tgt_add": 103.0,
+        "tgt_mul": 2412.0,
+        "pred": 31.0,
+        "gen_snippet": "The answer is: 31",
+        "fired": false
+      },
+      {
+        "idx": 9,
+        "src_correct": 14.0,
+        "tgt_add": 54.0,
+        "tgt_mul": 680.0,
+        "pred": 16.0,
+        "gen_snippet": "The answer is: 16",
+        "fired": false
+      }
+    ]
+  },
+  {
+    "alpha": 1.0,
+    "n_src": 3,
+    "n_tgt_add": 0,
+    "n_tgt_mul": 0,
+    "n_other": 7,
+    "per_q": [
+      {
+        "idx": 0,
+        "src_correct": 19.0,
+        "tgt_add": 41.0,
+        "tgt_mul": 330.0,
+        "pred": 19.0,
+        "gen_snippet": "The answer is: 19",
+        "fired": true
+      },
+      {
+        "idx": 1,
+        "src_correct": 63.0,
+        "tgt_add": 93.0,
+        "tgt_mul": 1170.0,
+        "pred": 63.0,
+        "gen_snippet": "The answer is: 63",
+        "fired": true
+      },
+      {
+        "idx": 2,
+        "src_correct": 322.0,
+        "tgt_add": 502.0,
+        "tgt_mul": 37080.0,
+        "pred": 62.0,
+        "gen_snippet": "The answer is: 62",
+        "fired": true
+      },
+      {
+        "idx": 3,
+        "src_correct": 30.0,
+        "tgt_add": 70.0,
+        "tgt_mul": 1000.0,
+        "pred": 25.0,
+        "gen_snippet": "The answer is: 25",
+        "fired": true
+      },
+      {
+        "idx": 4,
+        "src_correct": 1.0,
+        "tgt_add": 29.0,
+        "tgt_mul": 210.0,
+        "pred": 56.0,
+        "gen_snippet": "The answer is: 56",
+        "fired": true
+      },
+      {
+        "idx": 5,
+        "src_correct": 266.0,
+        "tgt_add": 564.0,
+        "tgt_mul": 61835.0,
+        "pred": -25.0,
+        "gen_snippet": "The answer is: -25",
+        "fired": true
+      },
+      {
+        "idx": 6,
+        "src_correct": 807.0,
+        "tgt_add": 875.0,
+        "tgt_mul": 28594.0,
+        "pred": 225.0,
+        "gen_snippet": "The answer is: 225",
+        "fired": true
+      },
+      {
+        "idx": 7,
+        "src_correct": 12.0,
+        "tgt_add": 104.0,
+        "tgt_mul": 2668.0,
+        "pred": -4.0,
+        "gen_snippet": "The answer is: -4",
+        "fired": true
+      },
+      {
+        "idx": 8,
+        "src_correct": 31.0,
+        "tgt_add": 103.0,
+        "tgt_mul": 2412.0,
+        "pred": 31.0,
+        "gen_snippet": "The answer is: 31",
+        "fired": true
+      },
+      {
+        "idx": 9,
+        "src_correct": 14.0,
+        "tgt_add": 54.0,
+        "tgt_mul": 680.0,
+        "pred": 16.0,
+        "gen_snippet": "The answer is: 16",
+        "fired": true
+      }
+    ]
+  },
+  {
+    "alpha": 5.0,
+    "n_src": 3,
+    "n_tgt_add": 0,
+    "n_tgt_mul": 0,
+    "n_other": 7,
+    "per_q": [
+      {
+        "idx": 0,
+        "src_correct": 19.0,
+        "tgt_add": 41.0,
+        "tgt_mul": 330.0,
+        "pred": 19.0,
+        "gen_snippet": "The answer is: 19",
+        "fired": true
+      },
+      {
+        "idx": 1,
+        "src_correct": 63.0,
+        "tgt_add": 93.0,
+        "tgt_mul": 1170.0,
+        "pred": 63.0,
+        "gen_snippet": "The answer is: 63",
+        "fired": true
+      },
+      {
+        "idx": 2,
+        "src_correct": 322.0,
+        "tgt_add": 502.0,
+        "tgt_mul": 37080.0,
+        "pred": 62.0,
+        "gen_snippet": "The answer is: 62",
+        "fired": true
+      },
+      {
+        "idx": 3,
+        "src_correct": 30.0,
+        "tgt_add": 70.0,
+        "tgt_mul": 1000.0,
+        "pred": 25.0,
+        "gen_snippet": "The answer is: 25",
+        "fired": true
+      },
+      {
+        "idx": 4,
+        "src_correct": 1.0,
+        "tgt_add": 29.0,
+        "tgt_mul": 210.0,
+        "pred": 61.0,
+        "gen_snippet": "The answer is: 61",
+        "fired": true
+      },
+      {
+        "idx": 5,
+        "src_correct": 266.0,
+        "tgt_add": 564.0,
+        "tgt_mul": 61835.0,
+        "pred": -25.0,
+        "gen_snippet": "The answer is: -25",
+        "fired": true
+      },
+      {
+        "idx": 6,
+        "src_correct": 807.0,
+        "tgt_add": 875.0,
+        "tgt_mul": 28594.0,
+        "pred": 225.0,
+        "gen_snippet": "The answer is: 225",
+        "fired": true
+      },
+      {
+        "idx": 7,
+        "src_correct": 12.0,
+        "tgt_add": 104.0,
+        "tgt_mul": 2668.0,
+        "pred": -6.0,
+        "gen_snippet": "The answer is: -6",
+        "fired": true
+      },
+      {
+        "idx": 8,
+        "src_correct": 31.0,
+        "tgt_add": 103.0,
+        "tgt_mul": 2412.0,
+        "pred": 31.0,
+        "gen_snippet": "The answer is: 31",
+        "fired": true
+      },
+      {
+        "idx": 9,
+        "src_correct": 14.0,
+        "tgt_add": 54.0,
+        "tgt_mul": 680.0,
+        "pred": 16.0,
+        "gen_snippet": "The answer is: 16",
+        "fired": true
+      }
+    ]
+  },
+  {
+    "alpha": 20.0,
+    "n_src": 3,
+    "n_tgt_add": 0,
+    "n_tgt_mul": 0,
+    "n_other": 7,
+    "per_q": [
+      {
+        "idx": 0,
+        "src_correct": 19.0,
+        "tgt_add": 41.0,
+        "tgt_mul": 330.0,
+        "pred": 19.0,
+        "gen_snippet": "The answer is: 19",
+        "fired": true
+      },
+      {
+        "idx": 1,
+        "src_correct": 63.0,
+        "tgt_add": 93.0,
+        "tgt_mul": 1170.0,
+        "pred": 63.0,
+        "gen_snippet": "The answer is: 63",
+        "fired": true
+      },
+      {
+        "idx": 2,
+        "src_correct": 322.0,
+        "tgt_add": 502.0,
+        "tgt_mul": 37080.0,
+        "pred": 62.0,
+        "gen_snippet": "The answer is: 62",
+        "fired": true
+      },
+      {
+        "idx": 3,
+        "src_correct": 30.0,
+        "tgt_add": 70.0,
+        "tgt_mul": 1000.0,
+        "pred": 25.0,
+        "gen_snippet": "The answer is: 25",
+        "fired": true
+      },
+      {
+        "idx": 4,
+        "src_correct": 1.0,
+        "tgt_add": 29.0,
+        "tgt_mul": 210.0,
+        "pred": 61.0,
+        "gen_snippet": "The answer is: 61",
+        "fired": true
+      },
+      {
+        "idx": 5,
+        "src_correct": 266.0,
+        "tgt_add": 564.0,
+        "tgt_mul": 61835.0,
+        "pred": -25.0,
+        "gen_snippet": "The answer is: -25",
+        "fired": true
+      },
+      {
+        "idx": 6,
+        "src_correct": 807.0,
+        "tgt_add": 875.0,
+        "tgt_mul": 28594.0,
+        "pred": 525.0,
+        "gen_snippet": "The answer is: 525",
+        "fired": true
+      },
+      {
+        "idx": 7,
+        "src_correct": 12.0,
+        "tgt_add": 104.0,
+        "tgt_mul": 2668.0,
+        "pred": -4.0,
+        "gen_snippet": "The answer is: -4",
+        "fired": true
+      },
+      {
+        "idx": 8,
+        "src_correct": 31.0,
+        "tgt_add": 103.0,
+        "tgt_mul": 2412.0,
+        "pred": 31.0,
+        "gen_snippet": "The answer is: 31",
+        "fired": true
+      },
+      {
+        "idx": 9,
+        "src_correct": 14.0,
+        "tgt_add": 54.0,
+        "tgt_mul": 680.0,
+        "pred": 16.0,
+        "gen_snippet": "The answer is: 16",
+        "fired": true
+      }
+    ]
+  },
+  {
+    "alpha": 50.0,
+    "n_src": 3,
+    "n_tgt_add": 0,
+    "n_tgt_mul": 0,
+    "n_other": 7,
+    "per_q": [
+      {
+        "idx": 0,
+        "src_correct": 19.0,
+        "tgt_add": 41.0,
+        "tgt_mul": 330.0,
+        "pred": 19.0,
+        "gen_snippet": "The answer is: 19",
+        "fired": true
+      },
+      {
+        "idx": 1,
+        "src_correct": 63.0,
+        "tgt_add": 93.0,
+        "tgt_mul": 1170.0,
+        "pred": 63.0,
+        "gen_snippet": "The answer is: 63",
+        "fired": true
+      },
+      {
+        "idx": 2,
+        "src_correct": 322.0,
+        "tgt_add": 502.0,
+        "tgt_mul": 37080.0,
+        "pred": 62.0,
+        "gen_snippet": "The answer is: 62",
+        "fired": true
+      },
+      {
+        "idx": 3,
+        "src_correct": 30.0,
+        "tgt_add": 70.0,
+        "tgt_mul": 1000.0,
+        "pred": 25.0,
+        "gen_snippet": "The answer is: 25",
+        "fired": true
+      },
+      {
+        "idx": 4,
+        "src_correct": 1.0,
+        "tgt_add": 29.0,
+        "tgt_mul": 210.0,
+        "pred": 61.0,
+        "gen_snippet": "The answer is: 61",
+        "fired": true
+      },
+      {
+        "idx": 5,
+        "src_correct": 266.0,
+        "tgt_add": 564.0,
+        "tgt_mul": 61835.0,
+        "pred": -25.0,
+        "gen_snippet": "The answer is: -25",
+        "fired": true
+      },
+      {
+        "idx": 6,
+        "src_correct": 807.0,
+        "tgt_add": 875.0,
+        "tgt_mul": 28594.0,
+        "pred": 525.0,
+        "gen_snippet": "The answer is: 525",
+        "fired": true
+      },
+      {
+        "idx": 7,
+        "src_correct": 12.0,
+        "tgt_add": 104.0,
+        "tgt_mul": 2668.0,
+        "pred": -4.0,
+        "gen_snippet": "The answer is: -4",
+        "fired": true
+      },
+      {
+        "idx": 8,
+        "src_correct": 31.0,
+        "tgt_add": 103.0,
+        "tgt_mul": 2412.0,
+        "pred": 31.0,
+        "gen_snippet": "The answer is: 31",
+        "fired": true
+      },
+      {
+        "idx": 9,
+        "src_correct": 14.0,
+        "tgt_add": 54.0,
+        "tgt_mul": 680.0,
+        "pred": 16.0,
+        "gen_snippet": "The answer is: 16",
+        "fired": true
+      }
+    ]
+  }
+]

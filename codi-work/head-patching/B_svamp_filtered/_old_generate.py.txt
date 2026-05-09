@@ -1,0 +1,160 @@
+"""Generate (clean Mul, corrupted Add) paired problems for activation patching.
+
+Each pair shares: same numerals (a, b), same characters/objects/scenario.
+The corrupted variant only changes the operation-implying words so the natural
+answer flips from a*b to a+b.
+
+Output: head-patching/pairs.json — list of:
+  {
+    "src_idx": int,
+    "a": int, "b": int,
+    "clean":     {"text": str, "answer": int},   # Multiplication (original SVAMP)
+    "corrupted": {"text": str, "answer": int},   # Addition (GPT-5 generated)
+  }
+"""
+
+import argparse
+import asyncio
+import json
+import re
+from pathlib import Path
+
+from datasets import concatenate_datasets, load_dataset
+from openai import AsyncOpenAI
+from pydantic import BaseModel
+
+
+REPO = Path(__file__).resolve().parent.parent
+OUT = REPO / "head-patching" / "pairs.json"
+
+
+class Variant(BaseModel):
+    problem: str
+    answer: int
+
+
+class Corruption(BaseModel):
+    addition: Variant
+
+
+SYSTEM_MSG = (
+    "You are creating tightly paired counterfactual math word problems for an "
+    "activation-patching experiment. The user will give you an existing "
+    "Multiplication problem and two specific numerals (a, b). You must rewrite "
+    "the problem so that:\n"
+    "  - It uses EXACTLY the same numerals a and b.\n"
+    "  - It keeps the same characters, objects, and scenario as much as "
+    "possible.\n"
+    "  - It only changes the operation-implying words (e.g., 'each / per / "
+    "groups of / times' → 'and / more / plus') so the natural answer is "
+    "addition: a + b.\n"
+    "The two problems should differ as little as possible in surface form."
+)
+
+
+def user_msg(orig_text: str, a: int, b: int) -> str:
+    return (
+        f"Original Multiplication problem:\n\"{orig_text}\"\n\n"
+        f"Numerals: a = {a}, b = {b}.  Multiplication answer = {a*b}.\n"
+        f"Addition target answer = {a+b}.\n\n"
+        f"Write an Addition variant that uses the SAME numerals (a and b) and "
+        f"keeps the same characters / objects. Change only operation words.\n\n"
+        f"Return JSON: {{\"addition\": {{\"problem\": \"...\", \"answer\": {a+b}}}}}"
+    )
+
+
+async def transform_one(client, sem, model, item, retries=3):
+    a, b = item["a"], item["b"]
+    async with sem:
+        for attempt in range(retries):
+            try:
+                resp = await client.chat.completions.parse(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_MSG},
+                        {"role": "user", "content": user_msg(item["text"], a, b)},
+                    ],
+                    response_format=Corruption,
+                )
+                t = resp.choices[0].message.parsed.addition
+                return {
+                    "src_idx": item["src_idx"],
+                    "a": a, "b": b,
+                    "clean": {"text": item["text"], "answer": a * b},
+                    "corrupted": {"text": t.problem, "answer": t.answer},
+                }
+            except Exception as e:
+                if attempt == retries - 1:
+                    return {"src_idx": item["src_idx"], "error": f"{type(e).__name__}: {e}"}
+                await asyncio.sleep(2 ** attempt)
+
+
+async def main_async(args):
+    print("loading SVAMP")
+    ds = load_dataset("ChilleD/SVAMP")
+    full = concatenate_datasets([ds["train"], ds["test"]])
+
+    items = []
+    for i, ex in enumerate(full):
+        op = ex["Type"].replace("Common-Divison", "Common-Division")
+        if op != "Multiplication":
+            continue
+        nums = [int(float(x)) for x in re.findall(r"\d+\.?\d*", ex["Equation"])]
+        if len(nums) < 2:
+            continue
+        nums_sorted = sorted(set(nums), reverse=True)
+        if len(nums_sorted) < 2:
+            continue
+        a, b = nums_sorted[0], nums_sorted[1]
+        if a < b:
+            a, b = b, a
+        items.append({
+            "src_idx": i,
+            "text": ex["question_concat"].strip().replace("  ", " "),
+            "a": a, "b": b,
+        })
+    if args.limit:
+        items = items[: args.limit]
+    print(f"transforming {len(items)} Mul problems with {args.model}")
+
+    client = AsyncOpenAI()
+    sem = asyncio.Semaphore(args.concurrency)
+    done = 0
+    transformed = []
+    tasks = [asyncio.create_task(transform_one(client, sem, args.model, it)) for it in items]
+    for fut in asyncio.as_completed(tasks):
+        r = await fut
+        transformed.append(r)
+        done += 1
+        if done % 10 == 0 or done == len(items):
+            n_err = sum(1 for x in transformed if "error" in x)
+            print(f"  [{done}/{len(items)}] errors={n_err}", flush=True)
+
+    transformed.sort(key=lambda x: x["src_idx"])
+
+    rows = []
+    drops = 0
+    for r in transformed:
+        if "error" in r:
+            drops += 1
+            continue
+        if r["corrupted"]["answer"] != r["a"] + r["b"]:
+            drops += 1
+            continue
+        rows.append(r)
+
+    print(f"\nemitted {len(rows)} pairs (dropped {drops})")
+    OUT.write_text(json.dumps(rows, indent=2))
+    print(f"saved -> {OUT}")
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--model", default="gpt-5")
+    p.add_argument("--concurrency", type=int, default=10)
+    p.add_argument("--limit", type=int, default=0)
+    asyncio.run(main_async(p.parse_args()))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,1416 @@
+{
+  "n_pairs": 100,
+  "n_kept_pairs": 100,
+  "baseline_clean_correct": 100,
+  "baseline_corr_correct": 100,
+  "recovery": {
+    "resid": [
+      [
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.1599999964237213,
+        0.11999999731779099,
+        0.07000000029802322,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "attn": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "mlp": [
+      [
+        0.1599999964237213,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "per_cell_buckets": {
+    "resid_stage0_layer0": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer1": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer2": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer3": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer4": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer5": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer6": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer7": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer8": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "resid_stage0_layer9": {
+      "clean": 12,
+      "corrupted": 86,
+      "other": 2
+    },
+    "resid_stage0_layer10": {
+      "clean": 7,
+      "corrupted": 91,
+      "other": 2
+    },
+    "resid_stage0_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage0_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage0_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage0_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage0_layer15": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer0": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer1": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer2": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer3": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer4": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer5": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer6": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer7": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer8": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer9": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer10": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage1_layer15": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer0": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer1": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer2": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer3": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer4": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer5": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer6": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer7": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer8": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer9": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer10": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage2_layer15": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer0": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer1": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer2": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer3": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer4": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer5": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer6": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer7": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer8": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer9": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer10": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage3_layer15": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer0": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer1": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer2": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer3": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer4": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer5": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer6": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer7": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer8": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer9": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer10": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage4_layer15": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer0": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer1": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer2": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer3": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer4": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer5": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer6": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer7": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer8": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer9": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer10": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage5_layer15": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer0": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer1": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer2": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer3": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer4": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer5": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer6": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer7": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer8": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer9": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer10": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer11": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer12": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer13": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer14": {
+      "corrupted": 100
+    },
+    "resid_stage6_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage0_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage1_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage2_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage3_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage4_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage5_layer15": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer0": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer1": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer2": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer3": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer4": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer5": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer6": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer7": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer8": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer9": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer10": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer11": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer12": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer13": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer14": {
+      "corrupted": 100
+    },
+    "attn_stage6_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer0": {
+      "clean": 16,
+      "corrupted": 84
+    },
+    "mlp_stage0_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage0_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer0": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage1_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer0": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage2_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer0": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage3_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer0": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage4_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer0": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage5_layer15": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer0": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer1": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer2": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer3": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer4": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer5": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer6": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer7": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer8": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer9": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer10": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer11": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer12": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer13": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer14": {
+      "corrupted": 100
+    },
+    "mlp_stage6_layer15": {
+      "corrupted": 100
+    }
+  }
+}

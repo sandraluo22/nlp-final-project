@@ -1,0 +1,2687 @@
+[
+  {
+    "src_idx": 0,
+    "template_idx": 0,
+    "a": 3,
+    "b": 2,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Max has 3 bags of books. Each bag holds 2 books. How many books does Max have in total?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "Max has 3 books in one bag and 2 books in another bag. How many books does Max have in total?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 1,
+    "template_idx": 0,
+    "a": 3,
+    "b": 3,
+    "jaccard": 0.55,
+    "clean": {
+      "text": "Zoe has 3 boxs of marbles. Each box holds 3 marbles. How many marbles does Zoe have in total?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "Zoe has 3 marbles in one box and 3 marbles in another box. How many marbles does Zoe have in total?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 2,
+    "template_idx": 0,
+    "a": 5,
+    "b": 5,
+    "jaccard": 0.55,
+    "clean": {
+      "text": "Tom has 5 crates of pencils. Each crate holds 5 pencils. How many pencils does Tom have in total?",
+      "answer": 25
+    },
+    "corrupted": {
+      "text": "Tom has 5 pencils in one crate and 5 pencils in another crate. How many pencils does Tom have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 3,
+    "template_idx": 0,
+    "a": 9,
+    "b": 6,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Tom has 9 crates of cookies. Each crate holds 6 cookies. How many cookies does Tom have in total?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Tom has 9 cookies in one crate and 6 cookies in another crate. How many cookies does Tom have in total?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 4,
+    "template_idx": 0,
+    "a": 6,
+    "b": 4,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Lily has 6 boxs of marbles. Each box holds 4 marbles. How many marbles does Lily have in total?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Lily has 6 marbles in one box and 4 marbles in another box. How many marbles does Lily have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 5,
+    "template_idx": 0,
+    "a": 8,
+    "b": 3,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Anna has 8 baskets of apples. Each basket holds 3 apples. How many apples does Anna have in total?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Anna has 8 apples in one basket and 3 apples in another basket. How many apples does Anna have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 6,
+    "template_idx": 0,
+    "a": 9,
+    "b": 3,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Zoe has 9 baskets of cookies. Each basket holds 3 cookies. How many cookies does Zoe have in total?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Zoe has 9 cookies in one basket and 3 cookies in another basket. How many cookies does Zoe have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 7,
+    "template_idx": 0,
+    "a": 5,
+    "b": 3,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Tom has 5 baskets of marbles. Each basket holds 3 marbles. How many marbles does Tom have in total?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "Tom has 5 marbles in one basket and 3 marbles in another basket. How many marbles does Tom have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 8,
+    "template_idx": 0,
+    "a": 5,
+    "b": 3,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Zoe has 5 crates of cookies. Each crate holds 3 cookies. How many cookies does Zoe have in total?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "Zoe has 5 cookies in one crate and 3 cookies in another crate. How many cookies does Zoe have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 9,
+    "template_idx": 0,
+    "a": 4,
+    "b": 7,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Anna has 4 baskets of marbles. Each basket holds 7 marbles. How many marbles does Anna have in total?",
+      "answer": 28
+    },
+    "corrupted": {
+      "text": "Anna has 4 marbles in one basket and 7 marbles in another basket. How many marbles does Anna have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 10,
+    "template_idx": 0,
+    "a": 4,
+    "b": 5,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Ben has 4 crates of candies. Each crate holds 5 candies. How many candies does Ben have in total?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "Ben has 4 candies in one crate and 5 candies in another crate. How many candies does Ben have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 11,
+    "template_idx": 0,
+    "a": 5,
+    "b": 7,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Tom has 5 boxs of cookies. Each box holds 7 cookies. How many cookies does Tom have in total?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "Tom has 5 cookies in one box and 7 cookies in another box. How many cookies does Tom have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 12,
+    "template_idx": 0,
+    "a": 8,
+    "b": 6,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Sarah has 8 baskets of pencils. Each basket holds 6 pencils. How many pencils does Sarah have in total?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Sarah has 8 pencils in one basket and 6 pencils in another basket. How many pencils does Sarah have in total?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 13,
+    "template_idx": 0,
+    "a": 9,
+    "b": 8,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Kai has 9 baskets of books. Each basket holds 8 books. How many books does Kai have in total?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "Kai has 9 books in one basket and 8 books in another basket. How many books does Kai have in total?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 14,
+    "template_idx": 0,
+    "a": 5,
+    "b": 6,
+    "jaccard": 0.571,
+    "clean": {
+      "text": "Zoe has 5 baskets of pencils. Each basket holds 6 pencils. How many pencils does Zoe have in total?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "Zoe has 5 pencils in one basket and 6 pencils in another basket. How many pencils does Zoe have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 15,
+    "template_idx": 1,
+    "a": 4,
+    "b": 9,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Sarah packs 4 books into each box. he fills 9 boxs. How many books does he pack?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "Sarah packs 4 books into the morning box and 9 books into the afternoon box. How many books does he pack?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 16,
+    "template_idx": 1,
+    "a": 4,
+    "b": 8,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Sarah packs 4 stickers into each crate. she fills 8 crates. How many stickers does she pack?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "Sarah packs 4 stickers into the morning crate and 8 stickers into the afternoon crate. How many stickers does she pack?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 17,
+    "template_idx": 1,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Sarah packs 6 marbles into each basket. she fills 2 baskets. How many marbles does she pack?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Sarah packs 6 marbles into the morning basket and 2 marbles into the afternoon basket. How many marbles does she pack?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 18,
+    "template_idx": 1,
+    "a": 6,
+    "b": 8,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Ben packs 6 candies into each box. she fills 8 boxs. How many candies does she pack?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Ben packs 6 candies into the morning box and 8 candies into the afternoon box. How many candies does she pack?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 19,
+    "template_idx": 1,
+    "a": 4,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Max packs 4 cookies into each bag. he fills 3 bags. How many cookies does he pack?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Max packs 4 cookies into the morning bag and 3 cookies into the afternoon bag. How many cookies does he pack?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 20,
+    "template_idx": 1,
+    "a": 4,
+    "b": 2,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Anna packs 4 marbles into each box. she fills 2 boxs. How many marbles does she pack?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "Anna packs 4 marbles into the morning box and 2 marbles into the afternoon box. How many marbles does she pack?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 21,
+    "template_idx": 1,
+    "a": 7,
+    "b": 6,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Lily packs 7 marbles into each bag. he fills 6 bags. How many marbles does he pack?",
+      "answer": 42
+    },
+    "corrupted": {
+      "text": "Lily packs 7 marbles into the morning bag and 6 marbles into the afternoon bag. How many marbles does he pack?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 22,
+    "template_idx": 1,
+    "a": 3,
+    "b": 9,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Sarah packs 3 stickers into each bag. he fills 9 bags. How many stickers does he pack?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Sarah packs 3 stickers into the morning bag and 9 stickers into the afternoon bag. How many stickers does he pack?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 23,
+    "template_idx": 1,
+    "a": 4,
+    "b": 6,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Zoe packs 4 candies into each bag. he fills 6 bags. How many candies does he pack?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Zoe packs 4 candies into the morning bag and 6 candies into the afternoon bag. How many candies does he pack?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 24,
+    "template_idx": 1,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Kai packs 8 pencils into each box. she fills 7 boxs. How many pencils does she pack?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Kai packs 8 pencils into the morning box and 7 pencils into the afternoon box. How many pencils does she pack?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 25,
+    "template_idx": 1,
+    "a": 5,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Anna packs 5 pencils into each bag. he fills 3 bags. How many pencils does he pack?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "Anna packs 5 pencils into the morning bag and 3 pencils into the afternoon bag. How many pencils does he pack?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 26,
+    "template_idx": 1,
+    "a": 2,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Tom packs 2 apples into each box. he fills 3 boxs. How many apples does he pack?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "Tom packs 2 apples into the morning box and 3 apples into the afternoon box. How many apples does he pack?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 27,
+    "template_idx": 1,
+    "a": 7,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Lily packs 7 pencils into each crate. she fills 3 crates. How many pencils does she pack?",
+      "answer": 21
+    },
+    "corrupted": {
+      "text": "Lily packs 7 pencils into the morning crate and 3 pencils into the afternoon crate. How many pencils does she pack?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 28,
+    "template_idx": 1,
+    "a": 4,
+    "b": 9,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "Lily packs 4 pencils into each crate. she fills 9 crates. How many pencils does she pack?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "Lily packs 4 pencils into the morning crate and 9 pencils into the afternoon crate. How many pencils does she pack?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 29,
+    "template_idx": 1,
+    "a": 3,
+    "b": 3,
+    "jaccard": 0.579,
+    "clean": {
+      "text": "Zoe packs 3 toys into each crate. she fills 3 crates. How many toys does she pack?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "Zoe packs 3 toys into the morning crate and 3 toys into the afternoon crate. How many toys does she pack?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 30,
+    "template_idx": 2,
+    "a": 9,
+    "b": 2,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 9 shelves in the room. Each shelf holds 2 cookies. How many cookies are in the room?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "There are 9 cookies on the top shelf and 2 cookies on the bottom shelf. How many cookies are in the room?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 31,
+    "template_idx": 2,
+    "a": 3,
+    "b": 5,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 3 shelves in the room. Each shelf holds 5 books. How many books are in the room?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "There are 3 books on the top shelf and 5 books on the bottom shelf. How many books are in the room?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 32,
+    "template_idx": 2,
+    "a": 8,
+    "b": 4,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 8 shelves in the room. Each shelf holds 4 marbles. How many marbles are in the room?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "There are 8 marbles on the top shelf and 4 marbles on the bottom shelf. How many marbles are in the room?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 33,
+    "template_idx": 2,
+    "a": 9,
+    "b": 3,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 9 shelves in the room. Each shelf holds 3 pencils. How many pencils are in the room?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "There are 9 pencils on the top shelf and 3 pencils on the bottom shelf. How many pencils are in the room?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 34,
+    "template_idx": 2,
+    "a": 4,
+    "b": 8,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 4 shelves in the room. Each shelf holds 8 toys. How many toys are in the room?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "There are 4 toys on the top shelf and 8 toys on the bottom shelf. How many toys are in the room?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 35,
+    "template_idx": 2,
+    "a": 2,
+    "b": 4,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 2 shelves in the room. Each shelf holds 4 candies. How many candies are in the room?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "There are 2 candies on the top shelf and 4 candies on the bottom shelf. How many candies are in the room?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 36,
+    "template_idx": 2,
+    "a": 9,
+    "b": 6,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 9 shelves in the room. Each shelf holds 6 pencils. How many pencils are in the room?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "There are 9 pencils on the top shelf and 6 pencils on the bottom shelf. How many pencils are in the room?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 37,
+    "template_idx": 2,
+    "a": 6,
+    "b": 5,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 6 shelves in the room. Each shelf holds 5 apples. How many apples are in the room?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "There are 6 apples on the top shelf and 5 apples on the bottom shelf. How many apples are in the room?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 38,
+    "template_idx": 2,
+    "a": 2,
+    "b": 9,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 2 shelves in the room. Each shelf holds 9 books. How many books are in the room?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "There are 2 books on the top shelf and 9 books on the bottom shelf. How many books are in the room?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 39,
+    "template_idx": 2,
+    "a": 3,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "There are 3 shelves in the room. Each shelf holds 3 pencils. How many pencils are in the room?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "There are 3 pencils on the top shelf and 3 pencils on the bottom shelf. How many pencils are in the room?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 40,
+    "template_idx": 2,
+    "a": 2,
+    "b": 3,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 2 shelves in the room. Each shelf holds 3 pencils. How many pencils are in the room?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "There are 2 pencils on the top shelf and 3 pencils on the bottom shelf. How many pencils are in the room?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 41,
+    "template_idx": 2,
+    "a": 7,
+    "b": 5,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 7 shelves in the room. Each shelf holds 5 candies. How many candies are in the room?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "There are 7 candies on the top shelf and 5 candies on the bottom shelf. How many candies are in the room?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 42,
+    "template_idx": 2,
+    "a": 9,
+    "b": 7,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 9 shelves in the room. Each shelf holds 7 marbles. How many marbles are in the room?",
+      "answer": 63
+    },
+    "corrupted": {
+      "text": "There are 9 marbles on the top shelf and 7 marbles on the bottom shelf. How many marbles are in the room?",
+      "answer": 16
+    }
+  },
+  {
+    "src_idx": 43,
+    "template_idx": 2,
+    "a": 3,
+    "b": 5,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 3 shelves in the room. Each shelf holds 5 marbles. How many marbles are in the room?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "There are 3 marbles on the top shelf and 5 marbles on the bottom shelf. How many marbles are in the room?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 44,
+    "template_idx": 2,
+    "a": 5,
+    "b": 7,
+    "jaccard": 0.524,
+    "clean": {
+      "text": "There are 5 shelves in the room. Each shelf holds 7 candies. How many candies are in the room?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "There are 5 candies on the top shelf and 7 candies on the bottom shelf. How many candies are in the room?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 45,
+    "template_idx": 3,
+    "a": 2,
+    "b": 6,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Sarah bought 2 baskets. Each basket contains 6 marbles. How many marbles did Sarah buy?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Sarah bought 2 marbles from the first store and 6 marbles from the second store. How many marbles did Sarah buy?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 46,
+    "template_idx": 3,
+    "a": 3,
+    "b": 4,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Max bought 3 bags. Each bag contains 4 cookies. How many cookies did Max buy?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Max bought 3 cookies from the first store and 4 cookies from the second store. How many cookies did Max buy?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 47,
+    "template_idx": 3,
+    "a": 5,
+    "b": 6,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Kai bought 5 boxs. Each box contains 6 marbles. How many marbles did Kai buy?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "Kai bought 5 marbles from the first store and 6 marbles from the second store. How many marbles did Kai buy?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 48,
+    "template_idx": 3,
+    "a": 8,
+    "b": 6,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Tom bought 8 baskets. Each basket contains 6 books. How many books did Tom buy?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Tom bought 8 books from the first store and 6 books from the second store. How many books did Tom buy?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 49,
+    "template_idx": 3,
+    "a": 6,
+    "b": 4,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Kai bought 6 boxs. Each box contains 4 marbles. How many marbles did Kai buy?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Kai bought 6 marbles from the first store and 4 marbles from the second store. How many marbles did Kai buy?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 50,
+    "template_idx": 3,
+    "a": 3,
+    "b": 4,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Tom bought 3 bags. Each bag contains 4 toys. How many toys did Tom buy?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Tom bought 3 toys from the first store and 4 toys from the second store. How many toys did Tom buy?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 51,
+    "template_idx": 3,
+    "a": 4,
+    "b": 2,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Max bought 4 boxs. Each box contains 2 cookies. How many cookies did Max buy?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "Max bought 4 cookies from the first store and 2 cookies from the second store. How many cookies did Max buy?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 52,
+    "template_idx": 3,
+    "a": 5,
+    "b": 5,
+    "jaccard": 0.4,
+    "clean": {
+      "text": "Sarah bought 5 crates. Each crate contains 5 books. How many books did Sarah buy?",
+      "answer": 25
+    },
+    "corrupted": {
+      "text": "Sarah bought 5 books from the first store and 5 books from the second store. How many books did Sarah buy?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 53,
+    "template_idx": 3,
+    "a": 5,
+    "b": 4,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Ben bought 5 boxs. Each box contains 4 books. How many books did Ben buy?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "Ben bought 5 books from the first store and 4 books from the second store. How many books did Ben buy?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 54,
+    "template_idx": 3,
+    "a": 7,
+    "b": 8,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Lily bought 7 bags. Each bag contains 8 marbles. How many marbles did Lily buy?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Lily bought 7 marbles from the first store and 8 marbles from the second store. How many marbles did Lily buy?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 55,
+    "template_idx": 3,
+    "a": 8,
+    "b": 2,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Kai bought 8 bags. Each bag contains 2 stickers. How many stickers did Kai buy?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "Kai bought 8 stickers from the first store and 2 stickers from the second store. How many stickers did Kai buy?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 56,
+    "template_idx": 3,
+    "a": 7,
+    "b": 6,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Lily bought 7 boxs. Each box contains 6 pencils. How many pencils did Lily buy?",
+      "answer": 42
+    },
+    "corrupted": {
+      "text": "Lily bought 7 pencils from the first store and 6 pencils from the second store. How many pencils did Lily buy?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 57,
+    "template_idx": 3,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Max bought 8 baskets. Each basket contains 7 cookies. How many cookies did Max buy?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Max bought 8 cookies from the first store and 7 cookies from the second store. How many cookies did Max buy?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 58,
+    "template_idx": 3,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Tom bought 8 baskets. Each basket contains 7 books. How many books did Tom buy?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Tom bought 8 books from the first store and 7 books from the second store. How many books did Tom buy?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 59,
+    "template_idx": 3,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.429,
+    "clean": {
+      "text": "Sarah bought 6 baskets. Each basket contains 2 cookies. How many cookies did Sarah buy?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Sarah bought 6 cookies from the first store and 2 cookies from the second store. How many cookies did Sarah buy?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 60,
+    "template_idx": 4,
+    "a": 8,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 8 apples every minute for 3 minutes. How many apples did the factory produce?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "A factory produced 8 apples in the morning and 3 apples in the afternoon. How many apples did the factory produce?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 61,
+    "template_idx": 4,
+    "a": 8,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 8 marbles every minute for 2 minutes. How many marbles did the factory produce?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "A factory produced 8 marbles in the morning and 2 marbles in the afternoon. How many marbles did the factory produce?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 62,
+    "template_idx": 4,
+    "a": 7,
+    "b": 7,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "A factory produces 7 toys every minute for 7 minutes. How many toys did the factory produce?",
+      "answer": 49
+    },
+    "corrupted": {
+      "text": "A factory produced 7 toys in the morning and 7 toys in the afternoon. How many toys did the factory produce?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 63,
+    "template_idx": 4,
+    "a": 7,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 7 toys every minute for 8 minutes. How many toys did the factory produce?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "A factory produced 7 toys in the morning and 8 toys in the afternoon. How many toys did the factory produce?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 64,
+    "template_idx": 4,
+    "a": 8,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 8 candies every minute for 4 minutes. How many candies did the factory produce?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "A factory produced 8 candies in the morning and 4 candies in the afternoon. How many candies did the factory produce?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 65,
+    "template_idx": 4,
+    "a": 6,
+    "b": 5,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 6 stickers every minute for 5 minutes. How many stickers did the factory produce?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "A factory produced 6 stickers in the morning and 5 stickers in the afternoon. How many stickers did the factory produce?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 66,
+    "template_idx": 4,
+    "a": 9,
+    "b": 5,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 9 candies every minute for 5 minutes. How many candies did the factory produce?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "A factory produced 9 candies in the morning and 5 candies in the afternoon. How many candies did the factory produce?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 67,
+    "template_idx": 4,
+    "a": 7,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 7 pencils every minute for 3 minutes. How many pencils did the factory produce?",
+      "answer": 21
+    },
+    "corrupted": {
+      "text": "A factory produced 7 pencils in the morning and 3 pencils in the afternoon. How many pencils did the factory produce?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 68,
+    "template_idx": 4,
+    "a": 4,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 4 marbles every minute for 2 minutes. How many marbles did the factory produce?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "A factory produced 4 marbles in the morning and 2 marbles in the afternoon. How many marbles did the factory produce?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 69,
+    "template_idx": 4,
+    "a": 9,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 9 toys every minute for 8 minutes. How many toys did the factory produce?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "A factory produced 9 toys in the morning and 8 toys in the afternoon. How many toys did the factory produce?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 70,
+    "template_idx": 4,
+    "a": 5,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 5 pencils every minute for 4 minutes. How many pencils did the factory produce?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "A factory produced 5 pencils in the morning and 4 pencils in the afternoon. How many pencils did the factory produce?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 71,
+    "template_idx": 4,
+    "a": 4,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 4 stickers every minute for 9 minutes. How many stickers did the factory produce?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "A factory produced 4 stickers in the morning and 9 stickers in the afternoon. How many stickers did the factory produce?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 72,
+    "template_idx": 4,
+    "a": 4,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 4 stickers every minute for 9 minutes. How many stickers did the factory produce?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "A factory produced 4 stickers in the morning and 9 stickers in the afternoon. How many stickers did the factory produce?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 73,
+    "template_idx": 4,
+    "a": 4,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 4 candies every minute for 9 minutes. How many candies did the factory produce?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "A factory produced 4 candies in the morning and 9 candies in the afternoon. How many candies did the factory produce?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 74,
+    "template_idx": 4,
+    "a": 9,
+    "b": 5,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "A factory produces 9 candies every minute for 5 minutes. How many candies did the factory produce?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "A factory produced 9 candies in the morning and 5 candies in the afternoon. How many candies did the factory produce?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 75,
+    "template_idx": 5,
+    "a": 5,
+    "b": 6,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Anna reads 5 pages each day for 6 days. How many pages does Anna read?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "Anna read 5 pages on Monday and 6 pages on Tuesday. How many pages does Anna read?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 76,
+    "template_idx": 5,
+    "a": 4,
+    "b": 5,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Zoe reads 4 pages each day for 5 days. How many pages does Zoe read?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "Zoe read 4 pages on Monday and 5 pages on Tuesday. How many pages does Zoe read?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 77,
+    "template_idx": 5,
+    "a": 8,
+    "b": 8,
+    "jaccard": 0.412,
+    "clean": {
+      "text": "Anna reads 8 pages each day for 8 days. How many pages does Anna read?",
+      "answer": 64
+    },
+    "corrupted": {
+      "text": "Anna read 8 pages on Monday and 8 pages on Tuesday. How many pages does Anna read?",
+      "answer": 16
+    }
+  },
+  {
+    "src_idx": 78,
+    "template_idx": 5,
+    "a": 5,
+    "b": 8,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Zoe reads 5 pages each day for 8 days. How many pages does Zoe read?",
+      "answer": 40
+    },
+    "corrupted": {
+      "text": "Zoe read 5 pages on Monday and 8 pages on Tuesday. How many pages does Zoe read?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 79,
+    "template_idx": 5,
+    "a": 2,
+    "b": 7,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Max reads 2 pages each day for 7 days. How many pages does Max read?",
+      "answer": 14
+    },
+    "corrupted": {
+      "text": "Max read 2 pages on Monday and 7 pages on Tuesday. How many pages does Max read?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 80,
+    "template_idx": 5,
+    "a": 9,
+    "b": 5,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Max reads 9 pages each day for 5 days. How many pages does Max read?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "Max read 9 pages on Monday and 5 pages on Tuesday. How many pages does Max read?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 81,
+    "template_idx": 5,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Zoe reads 8 pages each day for 7 days. How many pages does Zoe read?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Zoe read 8 pages on Monday and 7 pages on Tuesday. How many pages does Zoe read?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 82,
+    "template_idx": 5,
+    "a": 2,
+    "b": 8,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Tom reads 2 pages each day for 8 days. How many pages does Tom read?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "Tom read 2 pages on Monday and 8 pages on Tuesday. How many pages does Tom read?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 83,
+    "template_idx": 5,
+    "a": 9,
+    "b": 4,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Tom reads 9 pages each day for 4 days. How many pages does Tom read?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "Tom read 9 pages on Monday and 4 pages on Tuesday. How many pages does Tom read?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 84,
+    "template_idx": 5,
+    "a": 5,
+    "b": 9,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Anna reads 5 pages each day for 9 days. How many pages does Anna read?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "Anna read 5 pages on Monday and 9 pages on Tuesday. How many pages does Anna read?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 85,
+    "template_idx": 5,
+    "a": 8,
+    "b": 6,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Sarah reads 8 pages each day for 6 days. How many pages does Sarah read?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Sarah read 8 pages on Monday and 6 pages on Tuesday. How many pages does Sarah read?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 86,
+    "template_idx": 5,
+    "a": 7,
+    "b": 5,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Sarah reads 7 pages each day for 5 days. How many pages does Sarah read?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "Sarah read 7 pages on Monday and 5 pages on Tuesday. How many pages does Sarah read?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 87,
+    "template_idx": 5,
+    "a": 5,
+    "b": 2,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Ben reads 5 pages each day for 2 days. How many pages does Ben read?",
+      "answer": 10
+    },
+    "corrupted": {
+      "text": "Ben read 5 pages on Monday and 2 pages on Tuesday. How many pages does Ben read?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 88,
+    "template_idx": 5,
+    "a": 3,
+    "b": 5,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Kai reads 3 pages each day for 5 days. How many pages does Kai read?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "Kai read 3 pages on Monday and 5 pages on Tuesday. How many pages does Kai read?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 89,
+    "template_idx": 5,
+    "a": 3,
+    "b": 4,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Max reads 3 pages each day for 4 days. How many pages does Max read?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Max read 3 pages on Monday and 4 pages on Tuesday. How many pages does Max read?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 90,
+    "template_idx": 6,
+    "a": 8,
+    "b": 8,
+    "jaccard": 0.737,
+    "clean": {
+      "text": "Each room has 8 marbles, and there are 8 rooms. How many marbles are there in all the rooms?",
+      "answer": 64
+    },
+    "corrupted": {
+      "text": "One room has 8 marbles, and another room has 8 marbles. How many marbles are there in all the rooms?",
+      "answer": 16
+    }
+  },
+  {
+    "src_idx": 91,
+    "template_idx": 6,
+    "a": 6,
+    "b": 3,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 6 cookies, and there are 3 rooms. How many cookies are there in all the rooms?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "One room has 6 cookies, and another room has 3 cookies. How many cookies are there in all the rooms?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 92,
+    "template_idx": 6,
+    "a": 3,
+    "b": 7,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 3 marbles, and there are 7 rooms. How many marbles are there in all the rooms?",
+      "answer": 21
+    },
+    "corrupted": {
+      "text": "One room has 3 marbles, and another room has 7 marbles. How many marbles are there in all the rooms?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 93,
+    "template_idx": 6,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 8 books, and there are 7 rooms. How many books are there in all the rooms?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "One room has 8 books, and another room has 7 books. How many books are there in all the rooms?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 94,
+    "template_idx": 6,
+    "a": 6,
+    "b": 9,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 6 cookies, and there are 9 rooms. How many cookies are there in all the rooms?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "One room has 6 cookies, and another room has 9 cookies. How many cookies are there in all the rooms?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 95,
+    "template_idx": 6,
+    "a": 5,
+    "b": 3,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 5 stickers, and there are 3 rooms. How many stickers are there in all the rooms?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "One room has 5 stickers, and another room has 3 stickers. How many stickers are there in all the rooms?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 96,
+    "template_idx": 6,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 8 books, and there are 7 rooms. How many books are there in all the rooms?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "One room has 8 books, and another room has 7 books. How many books are there in all the rooms?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 97,
+    "template_idx": 6,
+    "a": 9,
+    "b": 5,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 9 candies, and there are 5 rooms. How many candies are there in all the rooms?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "One room has 9 candies, and another room has 5 candies. How many candies are there in all the rooms?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 98,
+    "template_idx": 6,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 6 toys, and there are 2 rooms. How many toys are there in all the rooms?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "One room has 6 toys, and another room has 2 toys. How many toys are there in all the rooms?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 99,
+    "template_idx": 6,
+    "a": 9,
+    "b": 5,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 9 apples, and there are 5 rooms. How many apples are there in all the rooms?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "One room has 9 apples, and another room has 5 apples. How many apples are there in all the rooms?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 100,
+    "template_idx": 6,
+    "a": 3,
+    "b": 6,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 3 candies, and there are 6 rooms. How many candies are there in all the rooms?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "One room has 3 candies, and another room has 6 candies. How many candies are there in all the rooms?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 101,
+    "template_idx": 6,
+    "a": 7,
+    "b": 9,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 7 cookies, and there are 9 rooms. How many cookies are there in all the rooms?",
+      "answer": 63
+    },
+    "corrupted": {
+      "text": "One room has 7 cookies, and another room has 9 cookies. How many cookies are there in all the rooms?",
+      "answer": 16
+    }
+  },
+  {
+    "src_idx": 102,
+    "template_idx": 6,
+    "a": 9,
+    "b": 6,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 9 marbles, and there are 6 rooms. How many marbles are there in all the rooms?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "One room has 9 marbles, and another room has 6 marbles. How many marbles are there in all the rooms?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 103,
+    "template_idx": 6,
+    "a": 5,
+    "b": 7,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 5 pencils, and there are 7 rooms. How many pencils are there in all the rooms?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "One room has 5 pencils, and another room has 7 pencils. How many pencils are there in all the rooms?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 104,
+    "template_idx": 6,
+    "a": 9,
+    "b": 6,
+    "jaccard": 0.75,
+    "clean": {
+      "text": "Each room has 9 candies, and there are 6 rooms. How many candies are there in all the rooms?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "One room has 9 candies, and another room has 6 candies. How many candies are there in all the rooms?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 105,
+    "template_idx": 7,
+    "a": 5,
+    "b": 7,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Ben earns 5 dollars per hour and works for 7 hours. How much money does Ben earn?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "Ben earned 5 dollars on Monday and 7 dollars on Tuesday. How much money does Ben earn?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 106,
+    "template_idx": 7,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Tom earns 6 dollars per hour and works for 2 hours. How much money does Tom earn?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Tom earned 6 dollars on Monday and 2 dollars on Tuesday. How much money does Tom earn?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 107,
+    "template_idx": 7,
+    "a": 3,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Max earns 3 dollars per hour and works for 2 hours. How much money does Max earn?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "Max earned 3 dollars on Monday and 2 dollars on Tuesday. How much money does Max earn?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 108,
+    "template_idx": 7,
+    "a": 7,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Tom earns 7 dollars per hour and works for 4 hours. How much money does Tom earn?",
+      "answer": 28
+    },
+    "corrupted": {
+      "text": "Tom earned 7 dollars on Monday and 4 dollars on Tuesday. How much money does Tom earn?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 109,
+    "template_idx": 7,
+    "a": 3,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Kai earns 3 dollars per hour and works for 8 hours. How much money does Kai earn?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Kai earned 3 dollars on Monday and 8 dollars on Tuesday. How much money does Kai earn?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 110,
+    "template_idx": 7,
+    "a": 4,
+    "b": 6,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah earns 4 dollars per hour and works for 6 hours. How much money does Sarah earn?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Sarah earned 4 dollars on Monday and 6 dollars on Tuesday. How much money does Sarah earn?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 111,
+    "template_idx": 7,
+    "a": 5,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Kai earns 5 dollars per hour and works for 8 hours. How much money does Kai earn?",
+      "answer": 40
+    },
+    "corrupted": {
+      "text": "Kai earned 5 dollars on Monday and 8 dollars on Tuesday. How much money does Kai earn?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 112,
+    "template_idx": 7,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah earns 6 dollars per hour and works for 2 hours. How much money does Sarah earn?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Sarah earned 6 dollars on Monday and 2 dollars on Tuesday. How much money does Sarah earn?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 113,
+    "template_idx": 7,
+    "a": 3,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Lily earns 3 dollars per hour and works for 4 hours. How much money does Lily earn?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Lily earned 3 dollars on Monday and 4 dollars on Tuesday. How much money does Lily earn?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 114,
+    "template_idx": 7,
+    "a": 2,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Kai earns 2 dollars per hour and works for 8 hours. How much money does Kai earn?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "Kai earned 2 dollars on Monday and 8 dollars on Tuesday. How much money does Kai earn?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 115,
+    "template_idx": 7,
+    "a": 5,
+    "b": 6,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Max earns 5 dollars per hour and works for 6 hours. How much money does Max earn?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "Max earned 5 dollars on Monday and 6 dollars on Tuesday. How much money does Max earn?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 116,
+    "template_idx": 7,
+    "a": 6,
+    "b": 5,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Zoe earns 6 dollars per hour and works for 5 hours. How much money does Zoe earn?",
+      "answer": 30
+    },
+    "corrupted": {
+      "text": "Zoe earned 6 dollars on Monday and 5 dollars on Tuesday. How much money does Zoe earn?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 117,
+    "template_idx": 7,
+    "a": 6,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah earns 6 dollars per hour and works for 4 hours. How much money does Sarah earn?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Sarah earned 6 dollars on Monday and 4 dollars on Tuesday. How much money does Sarah earn?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 118,
+    "template_idx": 7,
+    "a": 6,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah earns 6 dollars per hour and works for 9 hours. How much money does Sarah earn?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Sarah earned 6 dollars on Monday and 9 dollars on Tuesday. How much money does Sarah earn?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 119,
+    "template_idx": 7,
+    "a": 6,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Kai earns 6 dollars per hour and works for 9 hours. How much money does Kai earn?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Kai earned 6 dollars on Monday and 9 dollars on Tuesday. How much money does Kai earn?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 120,
+    "template_idx": 8,
+    "a": 7,
+    "b": 6,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Tom has 7 bags, with 6 apples inside each one. How many apples does Tom have?",
+      "answer": 42
+    },
+    "corrupted": {
+      "text": "Tom has 7 apples in one bag and 6 apples in another. How many apples does Tom have?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 121,
+    "template_idx": 8,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Ben has 6 crates, with 2 candies inside each one. How many candies does Ben have?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Ben has 6 candies in one crate and 2 candies in another. How many candies does Ben have?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 122,
+    "template_idx": 8,
+    "a": 4,
+    "b": 8,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Kai has 4 crates, with 8 cookies inside each one. How many cookies does Kai have?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "Kai has 4 cookies in one crate and 8 cookies in another. How many cookies does Kai have?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 123,
+    "template_idx": 8,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Anna has 8 bags, with 7 cookies inside each one. How many cookies does Anna have?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Anna has 8 cookies in one bag and 7 cookies in another. How many cookies does Anna have?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 124,
+    "template_idx": 8,
+    "a": 8,
+    "b": 9,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Max has 8 boxs, with 9 stickers inside each one. How many stickers does Max have?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "Max has 8 stickers in one box and 9 stickers in another. How many stickers does Max have?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 125,
+    "template_idx": 8,
+    "a": 3,
+    "b": 7,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Max has 3 boxs, with 7 toys inside each one. How many toys does Max have?",
+      "answer": 21
+    },
+    "corrupted": {
+      "text": "Max has 3 toys in one box and 7 toys in another. How many toys does Max have?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 126,
+    "template_idx": 8,
+    "a": 2,
+    "b": 9,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Zoe has 2 bags, with 9 cookies inside each one. How many cookies does Zoe have?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "Zoe has 2 cookies in one bag and 9 cookies in another. How many cookies does Zoe have?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 127,
+    "template_idx": 8,
+    "a": 9,
+    "b": 9,
+    "jaccard": 0.444,
+    "clean": {
+      "text": "Tom has 9 baskets, with 9 books inside each one. How many books does Tom have?",
+      "answer": 81
+    },
+    "corrupted": {
+      "text": "Tom has 9 books in one basket and 9 books in another. How many books does Tom have?",
+      "answer": 18
+    }
+  },
+  {
+    "src_idx": 128,
+    "template_idx": 8,
+    "a": 6,
+    "b": 9,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Kai has 6 boxs, with 9 pencils inside each one. How many pencils does Kai have?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Kai has 6 pencils in one box and 9 pencils in another. How many pencils does Kai have?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 129,
+    "template_idx": 8,
+    "a": 4,
+    "b": 6,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Tom has 4 boxs, with 6 pencils inside each one. How many pencils does Tom have?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Tom has 4 pencils in one box and 6 pencils in another. How many pencils does Tom have?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 130,
+    "template_idx": 8,
+    "a": 3,
+    "b": 9,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Sarah has 3 crates, with 9 candies inside each one. How many candies does Sarah have?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Sarah has 3 candies in one crate and 9 candies in another. How many candies does Sarah have?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 131,
+    "template_idx": 8,
+    "a": 6,
+    "b": 8,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Kai has 6 bags, with 8 stickers inside each one. How many stickers does Kai have?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Kai has 6 stickers in one bag and 8 stickers in another. How many stickers does Kai have?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 132,
+    "template_idx": 8,
+    "a": 4,
+    "b": 8,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Lily has 4 boxs, with 8 candies inside each one. How many candies does Lily have?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "Lily has 4 candies in one box and 8 candies in another. How many candies does Lily have?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 133,
+    "template_idx": 8,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Max has 8 baskets, with 7 candies inside each one. How many candies does Max have?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Max has 8 candies in one basket and 7 candies in another. How many candies does Max have?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 134,
+    "template_idx": 8,
+    "a": 9,
+    "b": 4,
+    "jaccard": 0.474,
+    "clean": {
+      "text": "Kai has 9 baskets, with 4 cookies inside each one. How many cookies does Kai have?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "Kai has 9 cookies in one basket and 4 cookies in another. How many cookies does Kai have?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 135,
+    "template_idx": 9,
+    "a": 8,
+    "b": 9,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 8 rows of toys. Each row has 9 toys. How many toys are in the garden?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "A garden has 8 toys in the front and 9 toys in the back. How many toys are in the garden?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 136,
+    "template_idx": 9,
+    "a": 5,
+    "b": 8,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 5 rows of toys. Each row has 8 toys. How many toys are in the garden?",
+      "answer": 40
+    },
+    "corrupted": {
+      "text": "A garden has 5 toys in the front and 8 toys in the back. How many toys are in the garden?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 137,
+    "template_idx": 9,
+    "a": 8,
+    "b": 4,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 8 rows of cookies. Each row has 4 cookies. How many cookies are in the garden?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "A garden has 8 cookies in the front and 4 cookies in the back. How many cookies are in the garden?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 138,
+    "template_idx": 9,
+    "a": 3,
+    "b": 9,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 3 rows of books. Each row has 9 books. How many books are in the garden?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "A garden has 3 books in the front and 9 books in the back. How many books are in the garden?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 139,
+    "template_idx": 9,
+    "a": 8,
+    "b": 4,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 8 rows of cookies. Each row has 4 cookies. How many cookies are in the garden?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "A garden has 8 cookies in the front and 4 cookies in the back. How many cookies are in the garden?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 140,
+    "template_idx": 9,
+    "a": 8,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 8 rows of stickers. Each row has 3 stickers. How many stickers are in the garden?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "A garden has 8 stickers in the front and 3 stickers in the back. How many stickers are in the garden?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 141,
+    "template_idx": 9,
+    "a": 2,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 2 rows of marbles. Each row has 3 marbles. How many marbles are in the garden?",
+      "answer": 6
+    },
+    "corrupted": {
+      "text": "A garden has 2 marbles in the front and 3 marbles in the back. How many marbles are in the garden?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 142,
+    "template_idx": 9,
+    "a": 8,
+    "b": 3,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 8 rows of candies. Each row has 3 candies. How many candies are in the garden?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "A garden has 8 candies in the front and 3 candies in the back. How many candies are in the garden?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 143,
+    "template_idx": 9,
+    "a": 7,
+    "b": 2,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 7 rows of toys. Each row has 2 toys. How many toys are in the garden?",
+      "answer": 14
+    },
+    "corrupted": {
+      "text": "A garden has 7 toys in the front and 2 toys in the back. How many toys are in the garden?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 144,
+    "template_idx": 9,
+    "a": 4,
+    "b": 5,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 4 rows of books. Each row has 5 books. How many books are in the garden?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "A garden has 4 books in the front and 5 books in the back. How many books are in the garden?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 145,
+    "template_idx": 9,
+    "a": 3,
+    "b": 8,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 3 rows of pencils. Each row has 8 pencils. How many pencils are in the garden?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "A garden has 3 pencils in the front and 8 pencils in the back. How many pencils are in the garden?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 146,
+    "template_idx": 9,
+    "a": 9,
+    "b": 6,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 9 rows of stickers. Each row has 6 stickers. How many stickers are in the garden?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "A garden has 9 stickers in the front and 6 stickers in the back. How many stickers are in the garden?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 147,
+    "template_idx": 9,
+    "a": 6,
+    "b": 4,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 6 rows of candies. Each row has 4 candies. How many candies are in the garden?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "A garden has 6 candies in the front and 4 candies in the back. How many candies are in the garden?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 148,
+    "template_idx": 9,
+    "a": 8,
+    "b": 6,
+    "jaccard": 0.6,
+    "clean": {
+      "text": "A garden has 8 rows of toys. Each row has 6 toys. How many toys are in the garden?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "A garden has 8 toys in the front and 6 toys in the back. How many toys are in the garden?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 149,
+    "template_idx": 10,
+    "a": 9,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Lily prints 9 copies for each of the 3 students. How many copies does Lily print?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Lily printed 9 copies for the morning class and 3 copies for the afternoon class. How many copies does Lily print?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 150,
+    "template_idx": 10,
+    "a": 6,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Zoe prints 6 copies for each of the 2 students. How many copies does Zoe print?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Zoe printed 6 copies for the morning class and 2 copies for the afternoon class. How many copies does Zoe print?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 151,
+    "template_idx": 10,
+    "a": 9,
+    "b": 6,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Lily prints 9 copies for each of the 6 students. How many copies does Lily print?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Lily printed 9 copies for the morning class and 6 copies for the afternoon class. How many copies does Lily print?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 152,
+    "template_idx": 10,
+    "a": 6,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah prints 6 copies for each of the 4 students. How many copies does Sarah print?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Sarah printed 6 copies for the morning class and 4 copies for the afternoon class. How many copies does Sarah print?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 153,
+    "template_idx": 10,
+    "a": 2,
+    "b": 7,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Ben prints 2 copies for each of the 7 students. How many copies does Ben print?",
+      "answer": 14
+    },
+    "corrupted": {
+      "text": "Ben printed 2 copies for the morning class and 7 copies for the afternoon class. How many copies does Ben print?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 154,
+    "template_idx": 10,
+    "a": 8,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Lily prints 8 copies for each of the 4 students. How many copies does Lily print?",
+      "answer": 32
+    },
+    "corrupted": {
+      "text": "Lily printed 8 copies for the morning class and 4 copies for the afternoon class. How many copies does Lily print?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 155,
+    "template_idx": 10,
+    "a": 4,
+    "b": 6,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Kai prints 4 copies for each of the 6 students. How many copies does Kai print?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Kai printed 4 copies for the morning class and 6 copies for the afternoon class. How many copies does Kai print?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 156,
+    "template_idx": 10,
+    "a": 9,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Ben prints 9 copies for each of the 3 students. How many copies does Ben print?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Ben printed 9 copies for the morning class and 3 copies for the afternoon class. How many copies does Ben print?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 157,
+    "template_idx": 10,
+    "a": 3,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Tom prints 3 copies for each of the 8 students. How many copies does Tom print?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Tom printed 3 copies for the morning class and 8 copies for the afternoon class. How many copies does Tom print?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 158,
+    "template_idx": 10,
+    "a": 7,
+    "b": 6,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Zoe prints 7 copies for each of the 6 students. How many copies does Zoe print?",
+      "answer": 42
+    },
+    "corrupted": {
+      "text": "Zoe printed 7 copies for the morning class and 6 copies for the afternoon class. How many copies does Zoe print?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 159,
+    "template_idx": 10,
+    "a": 9,
+    "b": 2,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Anna prints 9 copies for each of the 2 students. How many copies does Anna print?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "Anna printed 9 copies for the morning class and 2 copies for the afternoon class. How many copies does Anna print?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 160,
+    "template_idx": 10,
+    "a": 6,
+    "b": 8,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah prints 6 copies for each of the 8 students. How many copies does Sarah print?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Sarah printed 6 copies for the morning class and 8 copies for the afternoon class. How many copies does Sarah print?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 161,
+    "template_idx": 10,
+    "a": 6,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Sarah prints 6 copies for each of the 9 students. How many copies does Sarah print?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Sarah printed 6 copies for the morning class and 9 copies for the afternoon class. How many copies does Sarah print?",
+      "answer": 15
+    }
+  },
+  {
+    "src_idx": 162,
+    "template_idx": 10,
+    "a": 8,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Anna prints 8 copies for each of the 9 students. How many copies does Anna print?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "Anna printed 8 copies for the morning class and 9 copies for the afternoon class. How many copies does Anna print?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 163,
+    "template_idx": 10,
+    "a": 3,
+    "b": 9,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Zoe prints 3 copies for each of the 9 students. How many copies does Zoe print?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Zoe printed 3 copies for the morning class and 9 copies for the afternoon class. How many copies does Zoe print?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 164,
+    "template_idx": 11,
+    "a": 5,
+    "b": 9,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 5 pounds, and there are 9 boxes. What is the total weight?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "One box weighs 5 pounds and another box weighs 9 pounds. What is the total weight?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 165,
+    "template_idx": 11,
+    "a": 7,
+    "b": 7,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Each box weighs 7 pounds, and there are 7 boxes. What is the total weight?",
+      "answer": 49
+    },
+    "corrupted": {
+      "text": "One box weighs 7 pounds and another box weighs 7 pounds. What is the total weight?",
+      "answer": 14
+    }
+  },
+  {
+    "src_idx": 166,
+    "template_idx": 11,
+    "a": 3,
+    "b": 9,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 3 pounds, and there are 9 boxes. What is the total weight?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "One box weighs 3 pounds and another box weighs 9 pounds. What is the total weight?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 167,
+    "template_idx": 11,
+    "a": 7,
+    "b": 5,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 7 pounds, and there are 5 boxes. What is the total weight?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "One box weighs 7 pounds and another box weighs 5 pounds. What is the total weight?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 168,
+    "template_idx": 11,
+    "a": 5,
+    "b": 5,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Each box weighs 5 pounds, and there are 5 boxes. What is the total weight?",
+      "answer": 25
+    },
+    "corrupted": {
+      "text": "One box weighs 5 pounds and another box weighs 5 pounds. What is the total weight?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 169,
+    "template_idx": 11,
+    "a": 4,
+    "b": 4,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Each box weighs 4 pounds, and there are 4 boxes. What is the total weight?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "One box weighs 4 pounds and another box weighs 4 pounds. What is the total weight?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 170,
+    "template_idx": 11,
+    "a": 4,
+    "b": 2,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 4 pounds, and there are 2 boxes. What is the total weight?",
+      "answer": 8
+    },
+    "corrupted": {
+      "text": "One box weighs 4 pounds and another box weighs 2 pounds. What is the total weight?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 171,
+    "template_idx": 11,
+    "a": 4,
+    "b": 6,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 4 pounds, and there are 6 boxes. What is the total weight?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "One box weighs 4 pounds and another box weighs 6 pounds. What is the total weight?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 172,
+    "template_idx": 11,
+    "a": 3,
+    "b": 9,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 3 pounds, and there are 9 boxes. What is the total weight?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "One box weighs 3 pounds and another box weighs 9 pounds. What is the total weight?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 173,
+    "template_idx": 11,
+    "a": 5,
+    "b": 2,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 5 pounds, and there are 2 boxes. What is the total weight?",
+      "answer": 10
+    },
+    "corrupted": {
+      "text": "One box weighs 5 pounds and another box weighs 2 pounds. What is the total weight?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 174,
+    "template_idx": 11,
+    "a": 9,
+    "b": 8,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 9 pounds, and there are 8 boxes. What is the total weight?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "One box weighs 9 pounds and another box weighs 8 pounds. What is the total weight?",
+      "answer": 17
+    }
+  },
+  {
+    "src_idx": 175,
+    "template_idx": 11,
+    "a": 3,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Each box weighs 3 pounds, and there are 3 boxes. What is the total weight?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "One box weighs 3 pounds and another box weighs 3 pounds. What is the total weight?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 176,
+    "template_idx": 11,
+    "a": 6,
+    "b": 7,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 6 pounds, and there are 7 boxes. What is the total weight?",
+      "answer": 42
+    },
+    "corrupted": {
+      "text": "One box weighs 6 pounds and another box weighs 7 pounds. What is the total weight?",
+      "answer": 13
+    }
+  },
+  {
+    "src_idx": 177,
+    "template_idx": 11,
+    "a": 3,
+    "b": 3,
+    "jaccard": 0.5,
+    "clean": {
+      "text": "Each box weighs 3 pounds, and there are 3 boxes. What is the total weight?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "One box weighs 3 pounds and another box weighs 3 pounds. What is the total weight?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 178,
+    "template_idx": 11,
+    "a": 8,
+    "b": 7,
+    "jaccard": 0.526,
+    "clean": {
+      "text": "Each box weighs 8 pounds, and there are 7 boxes. What is the total weight?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "One box weighs 8 pounds and another box weighs 7 pounds. What is the total weight?",
+      "answer": 15
+    }
+  }
+]

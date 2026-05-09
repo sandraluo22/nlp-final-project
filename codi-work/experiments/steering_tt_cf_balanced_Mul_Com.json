@@ -1,0 +1,461 @@
+{
+  "config": {
+    "dataset": "cf_balanced",
+    "src": "Multiplication",
+    "tgt": "Common-Division",
+    "seed": 42,
+    "peak_layer": 10,
+    "peak_step": 3,
+    "scales": [
+      1.0,
+      5.0,
+      10.0
+    ],
+    "batch": 64,
+    "max_new_tokens": 64,
+    "base_model": "unsloth/Llama-3.2-1B-Instruct",
+    "ckpt_dir": "~/codi_ckpt/CODI-llama3.2-1b-Instruct",
+    "device": "cuda",
+    "out": null
+  },
+  "directions": {
+    "Multiplication->Common-Division": {
+      "n_test_candidates": 2,
+      "n_baseline_correct": 0,
+      "scales": [
+        {
+          "scale": 1.0,
+          "n": 0,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 0,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": []
+        },
+        {
+          "scale": 5.0,
+          "n": 0,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 0,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": []
+        },
+        {
+          "scale": 10.0,
+          "n": 0,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 0,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": []
+        }
+      ]
+    },
+    "Common-Division->Multiplication": {
+      "n_test_candidates": 34,
+      "n_baseline_correct": 23,
+      "scales": [
+        {
+          "scale": 1.0,
+          "n": 23,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 23,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 362,
+              "pred": 7.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 503,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 556,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 316,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 802,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 880,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 159,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 635,
+              "pred": 4.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 165,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 444,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 800,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 863,
+              "pred": 5.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 651,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 507,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 268,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 519,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 977,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 383,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 111,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 966,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 682,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 85,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 662,
+              "pred": 6.0,
+              "bucket": "Common-Division"
+            }
+          ]
+        },
+        {
+          "scale": 5.0,
+          "n": 23,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 23,
+            "unmatched": 0,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 362,
+              "pred": 7.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 503,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 556,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 316,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 802,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 880,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 159,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 635,
+              "pred": 4.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 165,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 444,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 800,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 863,
+              "pred": 5.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 651,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 507,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 268,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 519,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 977,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 383,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 111,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 966,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 682,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 85,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 662,
+              "pred": 6.0,
+              "bucket": "Common-Division"
+            }
+          ]
+        },
+        {
+          "scale": 10.0,
+          "n": 23,
+          "counts": {
+            "Addition": 0,
+            "Subtraction": 0,
+            "Multiplication": 0,
+            "Common-Division": 18,
+            "unmatched": 5,
+            "tied": 0
+          },
+          "preds": [
+            {
+              "src_idx": 362,
+              "pred": 7.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 503,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 556,
+              "pred": 3.6,
+              "bucket": "unmatched"
+            },
+            {
+              "src_idx": 316,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 802,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 880,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 159,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 635,
+              "pred": 4.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 165,
+              "pred": 7.0,
+              "bucket": "unmatched"
+            },
+            {
+              "src_idx": 444,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 800,
+              "pred": 10.0,
+              "bucket": "unmatched"
+            },
+            {
+              "src_idx": 863,
+              "pred": 5.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 651,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 507,
+              "pred": 3.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 268,
+              "pred": 2.0,
+              "bucket": "unmatched"
+            },
+            {
+              "src_idx": 519,
+              "pred": 0.06,
+              "bucket": "unmatched"
+            },
+            {
+              "src_idx": 977,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 383,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 111,
+              "pred": 2.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 966,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 682,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 85,
+              "pred": 1.0,
+              "bucket": "Common-Division"
+            },
+            {
+              "src_idx": 662,
+              "pred": 6.0,
+              "bucket": "Common-Division"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

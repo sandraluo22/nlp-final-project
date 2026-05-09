@@ -1,0 +1,642 @@
+[
+  {
+    "idx": 0,
+    "question": "John has 19 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": "The answer is: 15"
+  },
+  {
+    "idx": 1,
+    "question": "John has 28 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": "The answer is: 24"
+  },
+  {
+    "idx": 2,
+    "question": "John has 26 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": "The answer is: 22"
+  },
+  {
+    "idx": 3,
+    "question": "John has 97 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 93.0,
+    "pred": 93.0,
+    "correct": true,
+    "response": "The answer is: 93"
+  },
+  {
+    "idx": 4,
+    "question": "John has 48 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": "The answer is: 44"
+  },
+  {
+    "idx": 5,
+    "question": "John has 193 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 189.0,
+    "pred": 181.0,
+    "correct": false,
+    "response": "The answer is: 181"
+  },
+  {
+    "idx": 6,
+    "question": "John has 176 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 172.0,
+    "pred": 156.0,
+    "correct": false,
+    "response": "The answer is: 156"
+  },
+  {
+    "idx": 7,
+    "question": "John has 83 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 79.0,
+    "pred": 79.0,
+    "correct": true,
+    "response": "The answer is: 79"
+  },
+  {
+    "idx": 8,
+    "question": "John has 69 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 65.0,
+    "pred": 65.0,
+    "correct": true,
+    "response": "The answer is: 65"
+  },
+  {
+    "idx": 9,
+    "question": "John has 160 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 156.0,
+    "pred": 156.0,
+    "correct": true,
+    "response": "The answer is: 156"
+  },
+  {
+    "idx": 10,
+    "question": "John has 59 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 55.0,
+    "pred": 55.0,
+    "correct": true,
+    "response": "The answer is: 55"
+  },
+  {
+    "idx": 11,
+    "question": "John has 14 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 10.0,
+    "pred": 10.0,
+    "correct": true,
+    "response": "The answer is: 10"
+  },
+  {
+    "idx": 12,
+    "question": "John has 153 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 149.0,
+    "pred": 145.0,
+    "correct": false,
+    "response": "The answer is: 145"
+  },
+  {
+    "idx": 13,
+    "question": "John has 179 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 175.0,
+    "pred": 165.0,
+    "correct": false,
+    "response": "The answer is: 165"
+  },
+  {
+    "idx": 14,
+    "question": "John has 45 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 41.0,
+    "pred": 41.0,
+    "correct": true,
+    "response": "The answer is: 41"
+  },
+  {
+    "idx": 15,
+    "question": "John has 115 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 111.0,
+    "pred": 111.0,
+    "correct": true,
+    "response": "The answer is: 111"
+  },
+  {
+    "idx": 16,
+    "question": "John has 168 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 164.0,
+    "pred": 154.0,
+    "correct": false,
+    "response": "The answer is: 154"
+  },
+  {
+    "idx": 17,
+    "question": "John has 105 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 101.0,
+    "pred": 101.0,
+    "correct": true,
+    "response": "The answer is: 101"
+  },
+  {
+    "idx": 18,
+    "question": "John has 190 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 186.0,
+    "pred": 186.0,
+    "correct": true,
+    "response": "The answer is: 186"
+  },
+  {
+    "idx": 19,
+    "question": "John has 135 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 131.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 20,
+    "question": "John has 100 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 96.0,
+    "pred": 96.0,
+    "correct": true,
+    "response": "The answer is: 96"
+  },
+  {
+    "idx": 21,
+    "question": "John has 144 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 140.0,
+    "pred": 140.0,
+    "correct": true,
+    "response": "The answer is: 140"
+  },
+  {
+    "idx": 22,
+    "question": "John has 118 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 114.0,
+    "pred": 114.0,
+    "correct": true,
+    "response": "The answer is: 114"
+  },
+  {
+    "idx": 23,
+    "question": "John has 133 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 129.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 24,
+    "question": "John has 73 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 69.0,
+    "pred": 69.0,
+    "correct": true,
+    "response": "The answer is: 69"
+  },
+  {
+    "idx": 25,
+    "question": "John has 12 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 26,
+    "question": "John has 98 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 94.0,
+    "pred": 94.0,
+    "correct": true,
+    "response": "The answer is: 94"
+  },
+  {
+    "idx": 27,
+    "question": "John has 124 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 120.0,
+    "pred": 120.0,
+    "correct": true,
+    "response": "The answer is: 120"
+  },
+  {
+    "idx": 28,
+    "question": "John has 86 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 82.0,
+    "pred": 82.0,
+    "correct": true,
+    "response": "The answer is: 82"
+  },
+  {
+    "idx": 29,
+    "question": "John has 102 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 98.0,
+    "pred": 98.0,
+    "correct": true,
+    "response": "The answer is: 98"
+  },
+  {
+    "idx": 30,
+    "question": "John has 113 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 109.0,
+    "pred": 109.0,
+    "correct": true,
+    "response": "The answer is: 109"
+  },
+  {
+    "idx": 31,
+    "question": "John has 139 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 135.0,
+    "pred": 125.0,
+    "correct": false,
+    "response": "The answer is: 125"
+  },
+  {
+    "idx": 32,
+    "question": "John has 47 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 43.0,
+    "pred": 43.0,
+    "correct": true,
+    "response": "The answer is: 43"
+  },
+  {
+    "idx": 33,
+    "question": "John has 148 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 144.0,
+    "pred": 134.0,
+    "correct": false,
+    "response": "The answer is: 134"
+  },
+  {
+    "idx": 34,
+    "question": "John has 50 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 46.0,
+    "pred": 46.0,
+    "correct": true,
+    "response": "The answer is: 46"
+  },
+  {
+    "idx": 35,
+    "question": "John has 65 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 61.0,
+    "pred": 61.0,
+    "correct": true,
+    "response": "The answer is: 61"
+  },
+  {
+    "idx": 36,
+    "question": "John has 64 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 60.0,
+    "pred": 60.0,
+    "correct": true,
+    "response": "The answer is: 60"
+  },
+  {
+    "idx": 37,
+    "question": "John has 11 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": "The answer is: 7"
+  },
+  {
+    "idx": 38,
+    "question": "John has 88 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": "The answer is: 84"
+  },
+  {
+    "idx": 39,
+    "question": "John has 49 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 45.0,
+    "pred": 45.0,
+    "correct": true,
+    "response": "The answer is: 45"
+  },
+  {
+    "idx": 40,
+    "question": "John has 39 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 35.0,
+    "pred": 35.0,
+    "correct": true,
+    "response": "The answer is: 35"
+  },
+  {
+    "idx": 41,
+    "question": "John has 136 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 132.0,
+    "pred": 132.0,
+    "correct": true,
+    "response": "The answer is: 132"
+  },
+  {
+    "idx": 42,
+    "question": "John has 177 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 173.0,
+    "pred": 163.0,
+    "correct": false,
+    "response": "The answer is: 163"
+  },
+  {
+    "idx": 43,
+    "question": "John has 51 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 47.0,
+    "pred": 47.0,
+    "correct": true,
+    "response": "The answer is: 47"
+  },
+  {
+    "idx": 44,
+    "question": "John has 119 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 115.0,
+    "pred": 117.0,
+    "correct": false,
+    "response": "The answer is: 117"
+  },
+  {
+    "idx": 45,
+    "question": "John has 111 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 107.0,
+    "pred": 97.0,
+    "correct": false,
+    "response": "The answer is: 97"
+  },
+  {
+    "idx": 46,
+    "question": "John has 200 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 196.0,
+    "pred": 176.0,
+    "correct": false,
+    "response": "The answer is: 176"
+  },
+  {
+    "idx": 47,
+    "question": "John has 156 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 152.0,
+    "pred": 152.0,
+    "correct": true,
+    "response": "The answer is: 152"
+  },
+  {
+    "idx": 48,
+    "question": "John has 95 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 91.0,
+    "pred": 91.0,
+    "correct": true,
+    "response": "The answer is: 91"
+  },
+  {
+    "idx": 49,
+    "question": "John has 46 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": "The answer is: 42"
+  },
+  {
+    "idx": 50,
+    "question": "John has 198 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 194.0,
+    "pred": 198.0,
+    "correct": false,
+    "response": "The answer is: 198"
+  },
+  {
+    "idx": 51,
+    "question": "John has 107 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 103.0,
+    "pred": 97.0,
+    "correct": false,
+    "response": "The answer is: 97"
+  },
+  {
+    "idx": 52,
+    "question": "John has 188 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 184.0,
+    "pred": 174.0,
+    "correct": false,
+    "response": "The answer is: 174"
+  },
+  {
+    "idx": 53,
+    "question": "John has 194 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 190.0,
+    "pred": 196.0,
+    "correct": false,
+    "response": "The answer is: 196"
+  },
+  {
+    "idx": 54,
+    "question": "John has 123 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 119.0,
+    "pred": 119.0,
+    "correct": true,
+    "response": "The answer is: 119"
+  },
+  {
+    "idx": 55,
+    "question": "John has 172 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 168.0,
+    "pred": 154.0,
+    "correct": false,
+    "response": "The answer is: 154"
+  },
+  {
+    "idx": 56,
+    "question": "John has 140 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 136.0,
+    "pred": 136.0,
+    "correct": true,
+    "response": "The answer is: 136"
+  },
+  {
+    "idx": 57,
+    "question": "John has 68 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 64.0,
+    "pred": 64.0,
+    "correct": true,
+    "response": "The answer is: 64"
+  },
+  {
+    "idx": 58,
+    "question": "John has 130 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 126.0,
+    "pred": 126.0,
+    "correct": true,
+    "response": "The answer is: 126"
+  },
+  {
+    "idx": 59,
+    "question": "John has 76 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 72.0,
+    "pred": 72.0,
+    "correct": true,
+    "response": "The answer is: 72"
+  },
+  {
+    "idx": 60,
+    "question": "John has 132 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 128.0,
+    "pred": 124.0,
+    "correct": false,
+    "response": "The answer is: 124"
+  },
+  {
+    "idx": 61,
+    "question": "John has 174 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 170.0,
+    "pred": 170.0,
+    "correct": true,
+    "response": "The answer is: 170"
+  },
+  {
+    "idx": 62,
+    "question": "John has 121 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 117.0,
+    "pred": 117.0,
+    "correct": true,
+    "response": "The answer is: 117"
+  },
+  {
+    "idx": 63,
+    "question": "John has 94 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 90.0,
+    "pred": 90.0,
+    "correct": true,
+    "response": "The answer is: 90"
+  },
+  {
+    "idx": 64,
+    "question": "John has 150 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 146.0,
+    "pred": 146.0,
+    "correct": true,
+    "response": "The answer is: 146"
+  },
+  {
+    "idx": 65,
+    "question": "John has 147 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 143.0,
+    "pred": 143.0,
+    "correct": true,
+    "response": "The answer is: 143"
+  },
+  {
+    "idx": 66,
+    "question": "John has 129 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 125.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 67,
+    "question": "John has 173 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 169.0,
+    "pred": 169.0,
+    "correct": true,
+    "response": "The answer is: 169"
+  },
+  {
+    "idx": 68,
+    "question": "John has 61 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": "The answer is: 57"
+  },
+  {
+    "idx": 69,
+    "question": "John has 184 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 180.0,
+    "pred": 180.0,
+    "correct": true,
+    "response": "The answer is: 180"
+  },
+  {
+    "idx": 70,
+    "question": "John has 162 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 158.0,
+    "pred": 154.0,
+    "correct": false,
+    "response": "The answer is: 154"
+  },
+  {
+    "idx": 71,
+    "question": "John has 127 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 123.0,
+    "pred": 121.0,
+    "correct": false,
+    "response": "The answer is: 121"
+  },
+  {
+    "idx": 72,
+    "question": "John has 84 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 80.0,
+    "pred": 80.0,
+    "correct": true,
+    "response": "The answer is: 80"
+  },
+  {
+    "idx": 73,
+    "question": "John has 82 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": "The answer is: 78"
+  },
+  {
+    "idx": 74,
+    "question": "John has 185 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 181.0,
+    "pred": 171.0,
+    "correct": false,
+    "response": "The answer is: 171"
+  },
+  {
+    "idx": 75,
+    "question": "John has 134 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 130.0,
+    "pred": 130.0,
+    "correct": true,
+    "response": "The answer is: 130"
+  },
+  {
+    "idx": 76,
+    "question": "John has 137 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 133.0,
+    "pred": 133.0,
+    "correct": true,
+    "response": "The answer is: 133"
+  },
+  {
+    "idx": 77,
+    "question": "John has 171 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 167.0,
+    "pred": 157.0,
+    "correct": false,
+    "response": "The answer is: 157"
+  },
+  {
+    "idx": 78,
+    "question": "John has 155 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 151.0,
+    "pred": 151.0,
+    "correct": true,
+    "response": "The answer is: 151"
+  },
+  {
+    "idx": 79,
+    "question": "John has 109 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 105.0,
+    "pred": 105.0,
+    "correct": true,
+    "response": "The answer is: 105"
+  }
+]

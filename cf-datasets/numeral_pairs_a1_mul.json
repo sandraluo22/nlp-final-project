@@ -1,0 +1,902 @@
+[
+  {
+    "src_idx": 0,
+    "a_clean": 4,
+    "a_corr": 1,
+    "b": 11,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 4 packs of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 44
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 1,
+    "a_clean": 3,
+    "a_corr": 1,
+    "b": 6,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 3 packs of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 2,
+    "a_clean": 3,
+    "a_corr": 1,
+    "b": 9,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 3 packs of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 27
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 3,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 9,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 81
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 4,
+    "a_clean": 12,
+    "a_corr": 1,
+    "b": 8,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 12 packs of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 96
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 5,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 3,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 15
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 3
+    }
+  },
+  {
+    "src_idx": 6,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 2,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 2
+    }
+  },
+  {
+    "src_idx": 7,
+    "a_clean": 8,
+    "a_corr": 1,
+    "b": 8,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 8 packs of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 64
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 8,
+    "a_clean": 11,
+    "a_corr": 1,
+    "b": 2,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 11 packs of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 22
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 2
+    }
+  },
+  {
+    "src_idx": 9,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 6,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 54
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 10,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 11,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 55
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 11,
+    "a_clean": 3,
+    "a_corr": 1,
+    "b": 7,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 3 packs of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 21
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 12,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 2,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 4
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 2
+    }
+  },
+  {
+    "src_idx": 13,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 12,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 24
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 14,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 2,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 2
+    }
+  },
+  {
+    "src_idx": 15,
+    "a_clean": 8,
+    "a_corr": 1,
+    "b": 12,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 8 packs of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 96
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 16,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 8,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 40
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 17,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 20
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 18,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 9,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 19,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 90
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 20,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 7,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 35
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 21,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 12,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 60
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 22,
+    "a_clean": 6,
+    "a_corr": 1,
+    "b": 2,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 6 packs of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 2
+    }
+  },
+  {
+    "src_idx": 23,
+    "a_clean": 8,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 8 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 80
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 24,
+    "a_clean": 12,
+    "a_corr": 1,
+    "b": 3,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 12 packs of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 3
+    }
+  },
+  {
+    "src_idx": 25,
+    "a_clean": 4,
+    "a_corr": 1,
+    "b": 12,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 4 packs of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 26,
+    "a_clean": 6,
+    "a_corr": 1,
+    "b": 3,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 6 packs of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 3
+    }
+  },
+  {
+    "src_idx": 27,
+    "a_clean": 7,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 7 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 70
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 28,
+    "a_clean": 12,
+    "a_corr": 1,
+    "b": 5,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 12 packs of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 60
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 29,
+    "a_clean": 6,
+    "a_corr": 1,
+    "b": 6,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 6 packs of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 36
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 30,
+    "a_clean": 11,
+    "a_corr": 1,
+    "b": 9,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 11 packs of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 99
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 31,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 8,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 80
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 32,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 5,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 45
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 33,
+    "a_clean": 12,
+    "a_corr": 1,
+    "b": 4,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 12 packs of stickers. Each pack contains 4 stickers. How many stickers does Maya have in total?",
+      "answer": 48
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 4 stickers. How many stickers does Maya have in total?",
+      "answer": 4
+    }
+  },
+  {
+    "src_idx": 34,
+    "a_clean": 12,
+    "a_corr": 1,
+    "b": 7,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 12 packs of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 84
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 35,
+    "a_clean": 12,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 12 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 120
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 36,
+    "a_clean": 3,
+    "a_corr": 1,
+    "b": 4,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 3 packs of stickers. Each pack contains 4 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 4 stickers. How many stickers does Maya have in total?",
+      "answer": 4
+    }
+  },
+  {
+    "src_idx": 37,
+    "a_clean": 7,
+    "a_corr": 1,
+    "b": 9,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 7 packs of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 63
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 38,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 9,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 18
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 9 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    }
+  },
+  {
+    "src_idx": 39,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 6,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 40,
+    "a_clean": 11,
+    "a_corr": 1,
+    "b": 11,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 11 packs of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 121
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 41,
+    "a_clean": 11,
+    "a_corr": 1,
+    "b": 8,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 11 packs of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 88
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 42,
+    "a_clean": 4,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 4 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 40
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 43,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 2,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 2 stickers. How many stickers does Maya have in total?",
+      "answer": 2
+    }
+  },
+  {
+    "src_idx": 44,
+    "a_clean": 5,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 5 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 50
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 45,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 5,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 50
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 46,
+    "a_clean": 7,
+    "a_corr": 1,
+    "b": 11,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 7 packs of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 77
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 47,
+    "a_clean": 6,
+    "a_corr": 1,
+    "b": 12,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 6 packs of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 72
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 12 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    }
+  },
+  {
+    "src_idx": 48,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 11,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 110
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 49,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 8,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 16
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 8 stickers. How many stickers does Maya have in total?",
+      "answer": 8
+    }
+  },
+  {
+    "src_idx": 50,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 4,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 4 stickers. How many stickers does Maya have in total?",
+      "answer": 40
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 4 stickers. How many stickers does Maya have in total?",
+      "answer": 4
+    }
+  },
+  {
+    "src_idx": 51,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 10,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 100
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 10 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    }
+  },
+  {
+    "src_idx": 52,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 7,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 63
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 53,
+    "a_clean": 8,
+    "a_corr": 1,
+    "b": 7,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 8 packs of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 56
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 54,
+    "a_clean": 11,
+    "a_corr": 1,
+    "b": 7,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 11 packs of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 77
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 7 stickers. How many stickers does Maya have in total?",
+      "answer": 7
+    }
+  },
+  {
+    "src_idx": 55,
+    "a_clean": 9,
+    "a_corr": 1,
+    "b": 11,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 9 packs of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 99
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 11 stickers. How many stickers does Maya have in total?",
+      "answer": 11
+    }
+  },
+  {
+    "src_idx": 56,
+    "a_clean": 2,
+    "a_corr": 1,
+    "b": 5,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 2 packs of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 10
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 5 stickers. How many stickers does Maya have in total?",
+      "answer": 5
+    }
+  },
+  {
+    "src_idx": 57,
+    "a_clean": 4,
+    "a_corr": 1,
+    "b": 3,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 4 packs of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 12
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 3
+    }
+  },
+  {
+    "src_idx": 58,
+    "a_clean": 10,
+    "a_corr": 1,
+    "b": 6,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 10 packs of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 60
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 6 stickers. How many stickers does Maya have in total?",
+      "answer": 6
+    }
+  },
+  {
+    "src_idx": 59,
+    "a_clean": 3,
+    "a_corr": 1,
+    "b": 3,
+    "type": "Multiplication",
+    "clean": {
+      "text": "Maya has 3 packs of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 9
+    },
+    "corrupted": {
+      "text": "Maya has 1 pack of stickers. Each pack contains 3 stickers. How many stickers does Maya have in total?",
+      "answer": 3
+    }
+  }
+]

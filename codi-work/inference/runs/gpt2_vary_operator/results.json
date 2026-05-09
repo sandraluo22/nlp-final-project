@@ -1,0 +1,194 @@
+[
+  {
+    "idx": 0,
+    "question": "Maya has 12 stickers. Her friend gives her 4 more stickers. How many stickers does Maya have now?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 1,
+    "question": "There are 12 cars in the parking lot. 4 more cars arrive. How many cars are now in the lot?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 2,
+    "question": "A baker made 12 cookies in the morning and 4 cookies in the afternoon. How many cookies in total?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 3,
+    "question": "Tom collected 12 seashells on Monday and 4 seashells on Tuesday. How many seashells does he have?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 4,
+    "question": "A library had 12 books on the shelf. 4 new books were added. How many books are on the shelf now?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 5,
+    "question": "A garden has 12 red roses and 4 white roses. How many roses are in the garden total?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": "The answer is: 16"
+  },
+  {
+    "idx": 6,
+    "question": "Maya has 12 stickers. She gives 4 stickers to her brother. How many stickers does Maya have left?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 7,
+    "question": "There are 12 birds on a branch. 4 birds fly away. How many birds are still on the branch?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 8,
+    "question": "A baker made 12 cookies. 4 cookies were eaten. How many cookies are left?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 9,
+    "question": "Tom had 12 marbles. He lost 4 marbles. How many marbles does he have now?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 10,
+    "question": "A library had 12 books on the shelf. 4 books were borrowed. How many books are on the shelf now?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 11,
+    "question": "There were 12 candies in a jar. 4 candies were taken out. How many candies remain?",
+    "gold": 8.0,
+    "pred": 8.0,
+    "correct": true,
+    "response": "The answer is: 8"
+  },
+  {
+    "idx": 12,
+    "question": "Maya has 12 sticker books. Each book contains 4 stickers. How many stickers does Maya have in total?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 13,
+    "question": "There are 12 parking lots. Each lot holds 4 cars. How many cars can be parked in total?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 14,
+    "question": "A baker made 12 batches of cookies. Each batch has 4 cookies. How many cookies were made in total?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 15,
+    "question": "Tom buys 12 bags of marbles. Each bag has 4 marbles. How many marbles does Tom have?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 16,
+    "question": "A library has 12 shelves. Each shelf holds 4 books. How many books does the library have in total?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 17,
+    "question": "There are 12 jars of candy. Each jar contains 4 candies. How many candies are there altogether?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": "The answer is: 48"
+  },
+  {
+    "idx": 18,
+    "question": "Maya has 12 stickers and wants to split them equally among 4 friends. How many stickers does each friend get?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 19,
+    "question": "There are 12 cars to be parked equally in 4 parking lots. How many cars per lot?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 20,
+    "question": "A baker made 12 cookies and packed them equally into 4 boxes. How many cookies in each box?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 21,
+    "question": "Tom has 12 marbles to share equally among 4 bags. How many marbles per bag?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 22,
+    "question": "A library has 12 books to put equally on 4 shelves. How many books per shelf?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  },
+  {
+    "idx": 23,
+    "question": "There are 12 candies to be split equally into 4 bowls. How many candies in each bowl?",
+    "gold": 3.0,
+    "pred": 3.0,
+    "correct": true,
+    "response": "The answer is: 3"
+  }
+]

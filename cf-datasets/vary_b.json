@@ -1,0 +1,642 @@
+[
+  {
+    "idx": 0,
+    "a": 200,
+    "b": 61,
+    "type": "Subtraction",
+    "answer": 139,
+    "question_concat": "John has 200 apples in his basket. He gives 61 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 1,
+    "a": 200,
+    "b": 152,
+    "type": "Subtraction",
+    "answer": 48,
+    "question_concat": "John has 200 apples in his basket. He gives 152 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 2,
+    "a": 200,
+    "b": 140,
+    "type": "Subtraction",
+    "answer": 60,
+    "question_concat": "John has 200 apples in his basket. He gives 140 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 3,
+    "a": 200,
+    "b": 34,
+    "type": "Subtraction",
+    "answer": 166,
+    "question_concat": "John has 200 apples in his basket. He gives 34 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 4,
+    "a": 200,
+    "b": 95,
+    "type": "Subtraction",
+    "answer": 105,
+    "question_concat": "John has 200 apples in his basket. He gives 95 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 5,
+    "a": 200,
+    "b": 155,
+    "type": "Subtraction",
+    "answer": 45,
+    "question_concat": "John has 200 apples in his basket. He gives 155 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 6,
+    "a": 200,
+    "b": 122,
+    "type": "Subtraction",
+    "answer": 78,
+    "question_concat": "John has 200 apples in his basket. He gives 122 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 7,
+    "a": 200,
+    "b": 161,
+    "type": "Subtraction",
+    "answer": 39,
+    "question_concat": "John has 200 apples in his basket. He gives 161 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 8,
+    "a": 200,
+    "b": 149,
+    "type": "Subtraction",
+    "answer": 51,
+    "question_concat": "John has 200 apples in his basket. He gives 149 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 9,
+    "a": 200,
+    "b": 17,
+    "type": "Subtraction",
+    "answer": 183,
+    "question_concat": "John has 200 apples in his basket. He gives 17 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 10,
+    "a": 200,
+    "b": 156,
+    "type": "Subtraction",
+    "answer": 44,
+    "question_concat": "John has 200 apples in his basket. He gives 156 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 11,
+    "a": 200,
+    "b": 4,
+    "type": "Subtraction",
+    "answer": 196,
+    "question_concat": "John has 200 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 12,
+    "a": 200,
+    "b": 121,
+    "type": "Subtraction",
+    "answer": 79,
+    "question_concat": "John has 200 apples in his basket. He gives 121 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 13,
+    "a": 200,
+    "b": 67,
+    "type": "Subtraction",
+    "answer": 133,
+    "question_concat": "John has 200 apples in his basket. He gives 67 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 14,
+    "a": 200,
+    "b": 142,
+    "type": "Subtraction",
+    "answer": 58,
+    "question_concat": "John has 200 apples in his basket. He gives 142 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 15,
+    "a": 200,
+    "b": 60,
+    "type": "Subtraction",
+    "answer": 140,
+    "question_concat": "John has 200 apples in his basket. He gives 60 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 16,
+    "a": 200,
+    "b": 50,
+    "type": "Subtraction",
+    "answer": 150,
+    "question_concat": "John has 200 apples in his basket. He gives 50 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 17,
+    "a": 200,
+    "b": 184,
+    "type": "Subtraction",
+    "answer": 16,
+    "question_concat": "John has 200 apples in his basket. He gives 184 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 18,
+    "a": 200,
+    "b": 139,
+    "type": "Subtraction",
+    "answer": 61,
+    "question_concat": "John has 200 apples in his basket. He gives 139 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 19,
+    "a": 200,
+    "b": 141,
+    "type": "Subtraction",
+    "answer": 59,
+    "question_concat": "John has 200 apples in his basket. He gives 141 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 20,
+    "a": 200,
+    "b": 102,
+    "type": "Subtraction",
+    "answer": 98,
+    "question_concat": "John has 200 apples in his basket. He gives 102 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 21,
+    "a": 200,
+    "b": 164,
+    "type": "Subtraction",
+    "answer": 36,
+    "question_concat": "John has 200 apples in his basket. He gives 164 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 22,
+    "a": 200,
+    "b": 39,
+    "type": "Subtraction",
+    "answer": 161,
+    "question_concat": "John has 200 apples in his basket. He gives 39 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 23,
+    "a": 200,
+    "b": 163,
+    "type": "Subtraction",
+    "answer": 37,
+    "question_concat": "John has 200 apples in his basket. He gives 163 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 24,
+    "a": 200,
+    "b": 134,
+    "type": "Subtraction",
+    "answer": 66,
+    "question_concat": "John has 200 apples in his basket. He gives 134 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 25,
+    "a": 200,
+    "b": 100,
+    "type": "Subtraction",
+    "answer": 100,
+    "question_concat": "John has 200 apples in his basket. He gives 100 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 26,
+    "a": 200,
+    "b": 190,
+    "type": "Subtraction",
+    "answer": 10,
+    "question_concat": "John has 200 apples in his basket. He gives 190 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 27,
+    "a": 200,
+    "b": 172,
+    "type": "Subtraction",
+    "answer": 28,
+    "question_concat": "John has 200 apples in his basket. He gives 172 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 28,
+    "a": 200,
+    "b": 199,
+    "type": "Subtraction",
+    "answer": 1,
+    "question_concat": "John has 200 apples in his basket. He gives 199 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 29,
+    "a": 200,
+    "b": 41,
+    "type": "Subtraction",
+    "answer": 159,
+    "question_concat": "John has 200 apples in his basket. He gives 41 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 30,
+    "a": 200,
+    "b": 195,
+    "type": "Subtraction",
+    "answer": 5,
+    "question_concat": "John has 200 apples in his basket. He gives 195 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 31,
+    "a": 200,
+    "b": 11,
+    "type": "Subtraction",
+    "answer": 189,
+    "question_concat": "John has 200 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 32,
+    "a": 200,
+    "b": 78,
+    "type": "Subtraction",
+    "answer": 122,
+    "question_concat": "John has 200 apples in his basket. He gives 78 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 33,
+    "a": 200,
+    "b": 8,
+    "type": "Subtraction",
+    "answer": 192,
+    "question_concat": "John has 200 apples in his basket. He gives 8 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 34,
+    "a": 200,
+    "b": 69,
+    "type": "Subtraction",
+    "answer": 131,
+    "question_concat": "John has 200 apples in his basket. He gives 69 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 35,
+    "a": 200,
+    "b": 153,
+    "type": "Subtraction",
+    "answer": 47,
+    "question_concat": "John has 200 apples in his basket. He gives 153 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 36,
+    "a": 200,
+    "b": 185,
+    "type": "Subtraction",
+    "answer": 15,
+    "question_concat": "John has 200 apples in his basket. He gives 185 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 37,
+    "a": 200,
+    "b": 183,
+    "type": "Subtraction",
+    "answer": 17,
+    "question_concat": "John has 200 apples in his basket. He gives 183 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 38,
+    "a": 200,
+    "b": 110,
+    "type": "Subtraction",
+    "answer": 90,
+    "question_concat": "John has 200 apples in his basket. He gives 110 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 39,
+    "a": 200,
+    "b": 187,
+    "type": "Subtraction",
+    "answer": 13,
+    "question_concat": "John has 200 apples in his basket. He gives 187 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 40,
+    "a": 200,
+    "b": 148,
+    "type": "Subtraction",
+    "answer": 52,
+    "question_concat": "John has 200 apples in his basket. He gives 148 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 41,
+    "a": 200,
+    "b": 114,
+    "type": "Subtraction",
+    "answer": 86,
+    "question_concat": "John has 200 apples in his basket. He gives 114 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 42,
+    "a": 200,
+    "b": 35,
+    "type": "Subtraction",
+    "answer": 165,
+    "question_concat": "John has 200 apples in his basket. He gives 35 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 43,
+    "a": 200,
+    "b": 94,
+    "type": "Subtraction",
+    "answer": 106,
+    "question_concat": "John has 200 apples in his basket. He gives 94 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 44,
+    "a": 200,
+    "b": 25,
+    "type": "Subtraction",
+    "answer": 175,
+    "question_concat": "John has 200 apples in his basket. He gives 25 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 45,
+    "a": 200,
+    "b": 10,
+    "type": "Subtraction",
+    "answer": 190,
+    "question_concat": "John has 200 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 46,
+    "a": 200,
+    "b": 127,
+    "type": "Subtraction",
+    "answer": 73,
+    "question_concat": "John has 200 apples in his basket. He gives 127 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 47,
+    "a": 200,
+    "b": 56,
+    "type": "Subtraction",
+    "answer": 144,
+    "question_concat": "John has 200 apples in his basket. He gives 56 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 48,
+    "a": 200,
+    "b": 173,
+    "type": "Subtraction",
+    "answer": 27,
+    "question_concat": "John has 200 apples in his basket. He gives 173 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 49,
+    "a": 200,
+    "b": 112,
+    "type": "Subtraction",
+    "answer": 88,
+    "question_concat": "John has 200 apples in his basket. He gives 112 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 50,
+    "a": 200,
+    "b": 108,
+    "type": "Subtraction",
+    "answer": 92,
+    "question_concat": "John has 200 apples in his basket. He gives 108 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 51,
+    "a": 200,
+    "b": 130,
+    "type": "Subtraction",
+    "answer": 70,
+    "question_concat": "John has 200 apples in his basket. He gives 130 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 52,
+    "a": 200,
+    "b": 99,
+    "type": "Subtraction",
+    "answer": 101,
+    "question_concat": "John has 200 apples in his basket. He gives 99 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 53,
+    "a": 200,
+    "b": 147,
+    "type": "Subtraction",
+    "answer": 53,
+    "question_concat": "John has 200 apples in his basket. He gives 147 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 54,
+    "a": 200,
+    "b": 90,
+    "type": "Subtraction",
+    "answer": 110,
+    "question_concat": "John has 200 apples in his basket. He gives 90 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 55,
+    "a": 200,
+    "b": 137,
+    "type": "Subtraction",
+    "answer": 63,
+    "question_concat": "John has 200 apples in his basket. He gives 137 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 56,
+    "a": 200,
+    "b": 150,
+    "type": "Subtraction",
+    "answer": 50,
+    "question_concat": "John has 200 apples in his basket. He gives 150 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 57,
+    "a": 200,
+    "b": 105,
+    "type": "Subtraction",
+    "answer": 95,
+    "question_concat": "John has 200 apples in his basket. He gives 105 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 58,
+    "a": 200,
+    "b": 87,
+    "type": "Subtraction",
+    "answer": 113,
+    "question_concat": "John has 200 apples in his basket. He gives 87 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 59,
+    "a": 200,
+    "b": 175,
+    "type": "Subtraction",
+    "answer": 25,
+    "question_concat": "John has 200 apples in his basket. He gives 175 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 60,
+    "a": 200,
+    "b": 72,
+    "type": "Subtraction",
+    "answer": 128,
+    "question_concat": "John has 200 apples in his basket. He gives 72 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 61,
+    "a": 200,
+    "b": 179,
+    "type": "Subtraction",
+    "answer": 21,
+    "question_concat": "John has 200 apples in his basket. He gives 179 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 62,
+    "a": 200,
+    "b": 42,
+    "type": "Subtraction",
+    "answer": 158,
+    "question_concat": "John has 200 apples in his basket. He gives 42 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 63,
+    "a": 200,
+    "b": 84,
+    "type": "Subtraction",
+    "answer": 116,
+    "question_concat": "John has 200 apples in his basket. He gives 84 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 64,
+    "a": 200,
+    "b": 146,
+    "type": "Subtraction",
+    "answer": 54,
+    "question_concat": "John has 200 apples in his basket. He gives 146 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 65,
+    "a": 200,
+    "b": 27,
+    "type": "Subtraction",
+    "answer": 173,
+    "question_concat": "John has 200 apples in his basket. He gives 27 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 66,
+    "a": 200,
+    "b": 168,
+    "type": "Subtraction",
+    "answer": 32,
+    "question_concat": "John has 200 apples in his basket. He gives 168 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 67,
+    "a": 200,
+    "b": 55,
+    "type": "Subtraction",
+    "answer": 145,
+    "question_concat": "John has 200 apples in his basket. He gives 55 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 68,
+    "a": 200,
+    "b": 73,
+    "type": "Subtraction",
+    "answer": 127,
+    "question_concat": "John has 200 apples in his basket. He gives 73 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 69,
+    "a": 200,
+    "b": 32,
+    "type": "Subtraction",
+    "answer": 168,
+    "question_concat": "John has 200 apples in his basket. He gives 32 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 70,
+    "a": 200,
+    "b": 124,
+    "type": "Subtraction",
+    "answer": 76,
+    "question_concat": "John has 200 apples in his basket. He gives 124 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 71,
+    "a": 200,
+    "b": 23,
+    "type": "Subtraction",
+    "answer": 177,
+    "question_concat": "John has 200 apples in his basket. He gives 23 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 72,
+    "a": 200,
+    "b": 89,
+    "type": "Subtraction",
+    "answer": 111,
+    "question_concat": "John has 200 apples in his basket. He gives 89 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 73,
+    "a": 200,
+    "b": 18,
+    "type": "Subtraction",
+    "answer": 182,
+    "question_concat": "John has 200 apples in his basket. He gives 18 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 74,
+    "a": 200,
+    "b": 106,
+    "type": "Subtraction",
+    "answer": 94,
+    "question_concat": "John has 200 apples in his basket. He gives 106 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 75,
+    "a": 200,
+    "b": 6,
+    "type": "Subtraction",
+    "answer": 194,
+    "question_concat": "John has 200 apples in his basket. He gives 6 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 76,
+    "a": 200,
+    "b": 76,
+    "type": "Subtraction",
+    "answer": 124,
+    "question_concat": "John has 200 apples in his basket. He gives 76 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 77,
+    "a": 200,
+    "b": 197,
+    "type": "Subtraction",
+    "answer": 3,
+    "question_concat": "John has 200 apples in his basket. He gives 197 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 78,
+    "a": 200,
+    "b": 107,
+    "type": "Subtraction",
+    "answer": 93,
+    "question_concat": "John has 200 apples in his basket. He gives 107 apples to his sister. How many apples does John have left?"
+  },
+  {
+    "idx": 79,
+    "a": 200,
+    "b": 31,
+    "type": "Subtraction",
+    "answer": 169,
+    "question_concat": "John has 200 apples in his basket. He gives 31 apples to his sister. How many apples does John have left?"
+  }
+]
