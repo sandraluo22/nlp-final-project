@@ -1,0 +1,16 @@
+{
+  "base_model": "tomg-group-umd/huginn-0125",
+  "dataset": "svamp",
+  "num_steps": 32,
+  "L_core": 4,
+  "hidden_dim": 5280,
+  "n_examples": 1000,
+  "tensor_shape": [
+    1000,
+    32,
+    4,
+    5280
+  ],
+  "tensor_layout": "(N, num_steps, L_core, H)",
+  "note": "axis 1 (num_steps) corresponds to the recurrence iteration index i in {1..num_steps}; axis 2 (L_core) is the layer index within one core_block call. Identical shape semantics to inference/runs/svamp_student/activations.pt for CODI student."
+}

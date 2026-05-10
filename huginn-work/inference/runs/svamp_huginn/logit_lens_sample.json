@@ -1,0 +1,4532 @@
+[
+  {
+    "idx": 0,
+    "question": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?",
+    "gold": 145.0,
+    "pred": 145.0,
+    "correct": true,
+    "response": "To find out how big each group of bananas is, we need to divide the total number of bananas by the number of groups.\n\nStep 1: Divide the total number of bananas by the number of groups.\n290 bananas ÷ 2 groups = 145 bananas per group\n\nSo, each group of bananas is 145.\n\nAnswer: 145",
+    "topk": {
+      "step0_layer0": [
+        "**",
+        "        ",
+        "    ",
+        "\t",
+        "The"
+      ],
+      "step0_layer1": [
+        "##",
+        "**",
+        "\t",
+        "The",
+        "###"
+      ],
+      "step0_layer2": [
+        "##",
+        "**",
+        "###",
+        "The",
+        "```"
+      ],
+      "step0_layer3": [
+        " shops",
+        " stall",
+        "lion",
+        "shaped",
+        "initialize"
+      ],
+      "step1_layer0": [
+        "    ",
+        "        ",
+        "The",
+        "\t",
+        "import"
+      ],
+      "step1_layer1": [
+        "    ",
+        "The",
+        "\t",
+        "**",
+        "        "
+      ],
+      "step1_layer2": [
+        "The",
+        "\t",
+        "**",
+        "##",
+        "import"
+      ],
+      "step1_layer3": [
+        " offices",
+        "Pa",
+        "chn",
+        " tie",
+        "Sure"
+      ],
+      "step2_layer0": [
+        "The",
+        "    ",
+        "        ",
+        "##",
+        "###"
+      ],
+      "step2_layer1": [
+        "The",
+        "    ",
+        "        ",
+        "##",
+        "To"
+      ],
+      "step2_layer2": [
+        "To",
+        "The",
+        "##",
+        "There",
+        "###"
+      ],
+      "step2_layer3": [
+        "Each",
+        "�",
+        "er",
+        "每",
+        "ora"
+      ],
+      "step3_layer0": [
+        "To",
+        "    ",
+        "        ",
+        "##",
+        "The"
+      ],
+      "step3_layer1": [
+        "To",
+        "**",
+        "        ",
+        "##",
+        "The"
+      ],
+      "step3_layer2": [
+        "To",
+        "Each",
+        "Let's",
+        "**",
+        "The"
+      ],
+      "step3_layer3": [
+        "Each",
+        " devoted",
+        "DU",
+        " divide",
+        " bore"
+      ],
+      "step4_layer0": [
+        "        ",
+        "    ",
+        "**",
+        "To",
+        "##"
+      ],
+      "step4_layer1": [
+        "**",
+        "##",
+        "To",
+        "Let's",
+        "        "
+      ],
+      "step4_layer2": [
+        "To",
+        "**",
+        "Let's",
+        " divide",
+        "##"
+      ],
+      "step4_layer3": [
+        " divide",
+        "Each",
+        "DU",
+        "To",
+        "Format"
+      ],
+      "step5_layer0": [
+        "**",
+        "        ",
+        "    ",
+        "###",
+        "```"
+      ],
+      "step5_layer1": [
+        "**",
+        "To",
+        "Let's",
+        "    ",
+        "##"
+      ],
+      "step5_layer2": [
+        "To",
+        "**",
+        "Let's",
+        "```",
+        "##"
+      ],
+      "step5_layer3": [
+        " divide",
+        "Step",
+        "Alright",
+        "To",
+        "sized"
+      ],
+      "step6_layer0": [
+        "**",
+        "```",
+        "To",
+        "Let",
+        "    "
+      ],
+      "step6_layer1": [
+        "**",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step6_layer2": [
+        "To",
+        "Let's",
+        "**",
+        "Sure",
+        "Step"
+      ],
+      "step6_layer3": [
+        "Sure",
+        "Step",
+        "Certainly",
+        "Let's",
+        " structured"
+      ],
+      "step7_layer0": [
+        "**",
+        "```",
+        "To",
+        "Let",
+        "Let's"
+      ],
+      "step7_layer1": [
+        "Let's",
+        "To",
+        "**",
+        "Let",
+        "```"
+      ],
+      "step7_layer2": [
+        "To",
+        "Let's",
+        "Sure",
+        "```",
+        "Let"
+      ],
+      "step7_layer3": [
+        "Sure",
+        "Certainly",
+        " realization",
+        "To",
+        " insul"
+      ],
+      "step8_layer0": [
+        "**",
+        "To",
+        "```",
+        "Let",
+        "Let's"
+      ],
+      "step8_layer1": [
+        "To",
+        "**",
+        "Let's",
+        "```",
+        "Let"
+      ],
+      "step8_layer2": [
+        "To",
+        "Let's",
+        "```",
+        "Step",
+        "Let"
+      ],
+      "step8_layer3": [
+        " divide",
+        "Sure",
+        " realization",
+        " thorough",
+        "To"
+      ],
+      "step9_layer0": [
+        "**",
+        "To",
+        "```",
+        "Here",
+        "\t"
+      ],
+      "step9_layer1": [
+        "To",
+        "**",
+        "Let's",
+        "```",
+        "Here"
+      ],
+      "step9_layer2": [
+        "To",
+        "Step",
+        "```",
+        "Sure",
+        "Let's"
+      ],
+      "step9_layer3": [
+        "Sure",
+        "Step",
+        " step",
+        "lag",
+        " thorough"
+      ],
+      "step10_layer0": [
+        "**",
+        "To",
+        "Here",
+        "```",
+        "Let"
+      ],
+      "step10_layer1": [
+        "To",
+        "**",
+        "Let",
+        "Here",
+        "Step"
+      ],
+      "step10_layer2": [
+        "To",
+        "Step",
+        "Sure",
+        "Here",
+        "```"
+      ],
+      "step10_layer3": [
+        "Sure",
+        "Step",
+        " step",
+        "Certainly",
+        "lag"
+      ],
+      "step11_layer0": [
+        "To",
+        "Let",
+        "Here",
+        "**",
+        "```"
+      ],
+      "step11_layer1": [
+        "Let",
+        "To",
+        "Here",
+        "Let's",
+        "Sure"
+      ],
+      "step11_layer2": [
+        "To",
+        "Step",
+        "Sure",
+        "Let",
+        "Here"
+      ],
+      "step11_layer3": [
+        "Sure",
+        " step",
+        "Step",
+        "Certainly",
+        "lag"
+      ],
+      "step12_layer0": [
+        "Let",
+        "Here",
+        "To",
+        "**",
+        "```"
+      ],
+      "step12_layer1": [
+        "Let",
+        "To",
+        "Let's",
+        "Here",
+        "Step"
+      ],
+      "step12_layer2": [
+        "Step",
+        "To",
+        "Let",
+        "Sure",
+        " step"
+      ],
+      "step12_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step13_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "To",
+        "        "
+      ],
+      "step13_layer1": [
+        "Let",
+        "Let's",
+        "Here",
+        "To",
+        "Step"
+      ],
+      "step13_layer2": [
+        "Step",
+        "Let",
+        "To",
+        "Sure",
+        " step"
+      ],
+      "step13_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " Step"
+      ],
+      "step14_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "Let's",
+        "        "
+      ],
+      "step14_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step14_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step14_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        " steps"
+      ],
+      "step15_layer0": [
+        "Let",
+        "**",
+        "Here",
+        "Let's",
+        "        "
+      ],
+      "step15_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "Certainly"
+      ],
+      "step15_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step15_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        " steps"
+      ],
+      "step16_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step16_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step16_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        "To",
+        " step"
+      ],
+      "step16_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " Step"
+      ],
+      "step17_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "Here",
+        "```"
+      ],
+      "step17_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step17_layer2": [
+        "Let",
+        "Step",
+        "Let's",
+        "To",
+        "Sure"
+      ],
+      "step17_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step18_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "Here",
+        "To"
+      ],
+      "step18_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step18_layer2": [
+        "Let",
+        "Step",
+        "Let's",
+        "To",
+        " step"
+      ],
+      "step18_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step19_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "Here",
+        "To"
+      ],
+      "step19_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "To",
+        "Here"
+      ],
+      "step19_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        "To",
+        " step"
+      ],
+      "step19_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " stepped"
+      ],
+      "step20_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "Here",
+        "        "
+      ],
+      "step20_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step20_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        "To",
+        " step"
+      ],
+      "step20_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " stepped"
+      ],
+      "step21_layer0": [
+        "Let",
+        "Here",
+        "Let's",
+        "**",
+        "        "
+      ],
+      "step21_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step21_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        "To",
+        " step"
+      ],
+      "step21_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " Step"
+      ],
+      "step22_layer0": [
+        "Let",
+        "Here",
+        "Let's",
+        "**",
+        "        "
+      ],
+      "step22_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step22_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step22_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " Step"
+      ],
+      "step23_layer0": [
+        "Let",
+        "Here",
+        "Let's",
+        "        ",
+        "**"
+      ],
+      "step23_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Here",
+        "To"
+      ],
+      "step23_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step23_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " Step"
+      ],
+      "step24_layer0": [
+        "Let",
+        "Here",
+        "    ",
+        "        ",
+        "**"
+      ],
+      "step24_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        "To"
+      ],
+      "step24_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step24_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " Step",
+        "Alright"
+      ],
+      "step25_layer0": [
+        "Let",
+        "Here",
+        "    ",
+        "**",
+        "        "
+      ],
+      "step25_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        "To"
+      ],
+      "step25_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step25_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " Step",
+        "Alright"
+      ],
+      "step26_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "    ",
+        "Let's"
+      ],
+      "step26_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        " step"
+      ],
+      "step26_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step26_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        "Alright"
+      ],
+      "step27_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "Let's",
+        "    "
+      ],
+      "step27_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        " step"
+      ],
+      "step27_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step27_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        "Alright"
+      ],
+      "step28_layer0": [
+        "Let",
+        "Here",
+        "Let's",
+        "**",
+        "    "
+      ],
+      "step28_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        " step",
+        "Here"
+      ],
+      "step28_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step28_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        "Alright"
+      ],
+      "step29_layer0": [
+        "Let",
+        "Here",
+        "Let's",
+        "**",
+        "    "
+      ],
+      "step29_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        " step",
+        "Here"
+      ],
+      "step29_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step29_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        "Alright"
+      ],
+      "step30_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "Let's",
+        "    "
+      ],
+      "step30_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "Here"
+      ],
+      "step30_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step30_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        "Alright"
+      ],
+      "step31_layer0": [
+        "Let",
+        "**",
+        "Here",
+        "    ",
+        "Let's"
+      ],
+      "step31_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "Here"
+      ],
+      "step31_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step31_layer3": [
+        " step",
+        "Step",
+        " Step",
+        "Sure",
+        " stepping"
+      ]
+    }
+  },
+  {
+    "idx": 1,
+    "question": "Marco and his dad went strawberry picking. Marco's dad's strawberries weighed 11 pounds. If together their strawberries weighed 30 pounds. How much did Marco's strawberries weigh?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": "Step 1: Let's call the weight of Marco's strawberries \"x\" pounds.\nStep 2: According to the problem, Marco's dad's strawberries weighed 11 pounds.\nStep 3: Together, their strawberries weighed 30 pounds.\nStep 4: We can set up an equation to represent this information: x + 11 = 30.\nStep 5: To solve for x, we need to isolate it on one side of the equation.\nStep 6: Subtract 11 from both sides of the equation: x + 11 - 11 = 30 - 11.\nStep 7: Simplify the equation: x = 19.\nStep 8: Therefore, Marco's strawberries weighed 19 pounds.\nAnswer: 19",
+    "topk": {
+      "step0_layer0": [
+        "    ",
+        "        ",
+        "\t",
+        "**",
+        "###"
+      ],
+      "step0_layer1": [
+        "**",
+        "##",
+        "###",
+        "\t",
+        "    "
+      ],
+      "step0_layer2": [
+        "**",
+        "##",
+        "###",
+        "You",
+        "```"
+      ],
+      "step0_layer3": [
+        "ass",
+        "res",
+        " copper",
+        " attachment",
+        "Your"
+      ],
+      "step1_layer0": [
+        "    ",
+        "        ",
+        "###",
+        "\t",
+        "The"
+      ],
+      "step1_layer1": [
+        "    ",
+        "**",
+        "```",
+        "###",
+        "        "
+      ],
+      "step1_layer2": [
+        "**",
+        "```",
+        "Given",
+        "###",
+        "The"
+      ],
+      "step1_layer3": [
+        "chn",
+        " offices",
+        "mph",
+        " copper",
+        "wards"
+      ],
+      "step2_layer0": [
+        "**",
+        "A",
+        "###",
+        "The",
+        "Let"
+      ],
+      "step2_layer1": [
+        "**",
+        "Let",
+        "The",
+        "###",
+        "    "
+      ],
+      "step2_layer2": [
+        "Let",
+        "To",
+        "Let's",
+        "**",
+        "Given"
+      ],
+      "step2_layer3": [
+        "wards",
+        "dra",
+        "er",
+        "Let's",
+        "ora"
+      ],
+      "step3_layer0": [
+        "**",
+        "To",
+        "A",
+        "        ",
+        "Let"
+      ],
+      "step3_layer1": [
+        "**",
+        "Let's",
+        "Let",
+        "To",
+        "First"
+      ],
+      "step3_layer2": [
+        "To",
+        "Let's",
+        "First",
+        "**",
+        "Let"
+      ],
+      "step3_layer3": [
+        "DU",
+        "Let's",
+        " together",
+        " dear",
+        "dra"
+      ],
+      "step4_layer0": [
+        "        ",
+        "**",
+        "    ",
+        "\t",
+        "To"
+      ],
+      "step4_layer1": [
+        "Let's",
+        "**",
+        "To",
+        "Let",
+        "        "
+      ],
+      "step4_layer2": [
+        "Let's",
+        "To",
+        "**",
+        "First",
+        "Let"
+      ],
+      "step4_layer3": [
+        "Let's",
+        "PP",
+        "FP",
+        " compromise",
+        "To"
+      ],
+      "step5_layer0": [
+        "**",
+        "```",
+        "        ",
+        "    ",
+        "Let"
+      ],
+      "step5_layer1": [
+        "**",
+        "Let's",
+        "Let",
+        "To",
+        "```"
+      ],
+      "step5_layer2": [
+        "To",
+        "Let's",
+        "**",
+        "Let",
+        "```"
+      ],
+      "step5_layer3": [
+        "Let's",
+        "Alright",
+        "Step",
+        "To",
+        "Here's"
+      ],
+      "step6_layer0": [
+        "**",
+        "```",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step6_layer1": [
+        "Let's",
+        "**",
+        "Let",
+        "To",
+        "```"
+      ],
+      "step6_layer2": [
+        "Let's",
+        "To",
+        "Let",
+        "**",
+        "```"
+      ],
+      "step6_layer3": [
+        "Let's",
+        " realization",
+        "Certainly",
+        "Sure",
+        "ubs"
+      ],
+      "step7_layer0": [
+        "**",
+        "```",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step7_layer1": [
+        "Let's",
+        "Let",
+        "**",
+        "To",
+        "Sure"
+      ],
+      "step7_layer2": [
+        "To",
+        "Let's",
+        "Let",
+        "Sure",
+        "```"
+      ],
+      "step7_layer3": [
+        " realization",
+        "Sure",
+        "Certainly",
+        " step",
+        " steep"
+      ],
+      "step8_layer0": [
+        "**",
+        "Let",
+        "To",
+        "```",
+        "Let's"
+      ],
+      "step8_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "**",
+        "```"
+      ],
+      "step8_layer2": [
+        "To",
+        "Let's",
+        "Let",
+        "Sure",
+        "Step"
+      ],
+      "step8_layer3": [
+        " step",
+        "Sure",
+        "Certainly",
+        "Step",
+        "To"
+      ],
+      "step9_layer0": [
+        "**",
+        "To",
+        "```",
+        "Let",
+        "Here"
+      ],
+      "step9_layer1": [
+        "To",
+        "Let's",
+        "**",
+        "Let",
+        "```"
+      ],
+      "step9_layer2": [
+        "To",
+        "Step",
+        "Sure",
+        "```",
+        "Let's"
+      ],
+      "step9_layer3": [
+        "Sure",
+        "Step",
+        "Certainly",
+        "lag",
+        " step"
+      ],
+      "step10_layer0": [
+        "**",
+        "To",
+        "Let",
+        "Here",
+        "```"
+      ],
+      "step10_layer1": [
+        "To",
+        "Let",
+        "Let's",
+        "Sure",
+        "**"
+      ],
+      "step10_layer2": [
+        "To",
+        "Sure",
+        "Step",
+        "Let",
+        "Here"
+      ],
+      "step10_layer3": [
+        "Sure",
+        "Step",
+        "lag",
+        "Certainly",
+        " step"
+      ],
+      "step11_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "To",
+        "```"
+      ],
+      "step11_layer1": [
+        "Let",
+        "To",
+        "Let's",
+        "Sure",
+        "Here"
+      ],
+      "step11_layer2": [
+        "To",
+        "Sure",
+        "Let",
+        "Step",
+        "Let's"
+      ],
+      "step11_layer3": [
+        "Sure",
+        "Step",
+        " step",
+        "Certainly",
+        "lag"
+      ],
+      "step12_layer0": [
+        "Let",
+        "Here",
+        "**",
+        "To",
+        "        "
+      ],
+      "step12_layer1": [
+        "Let",
+        "Let's",
+        "To",
+        "Here",
+        "Sure"
+      ],
+      "step12_layer2": [
+        "Let",
+        "To",
+        "Sure",
+        "Step",
+        "Let's"
+      ],
+      "step12_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        "lag"
+      ],
+      "step13_layer0": [
+        "Let",
+        "**",
+        "Here",
+        "Let's",
+        "To"
+      ],
+      "step13_layer1": [
+        "Let",
+        "Let's",
+        "Here",
+        "Sure",
+        "To"
+      ],
+      "step13_layer2": [
+        "Let",
+        "Step",
+        "Sure",
+        "Let's",
+        "To"
+      ],
+      "step13_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "lag",
+        "Alright"
+      ],
+      "step14_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "Certainly"
+      ],
+      "step14_layer1": [
+        "Let's",
+        "Let",
+        "Here",
+        "Sure",
+        "To"
+      ],
+      "step14_layer2": [
+        "Let",
+        "Let's",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step14_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "lag"
+      ],
+      "step15_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step15_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "**"
+      ],
+      "step15_layer2": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step15_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        "Certainly"
+      ],
+      "step16_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step16_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "**",
+        "Here"
+      ],
+      "step16_layer2": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step16_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step17_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step17_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "**"
+      ],
+      "step17_layer2": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Sure"
+      ],
+      "step17_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " harm",
+        "Alright"
+      ],
+      "step18_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step18_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "**",
+        "Step"
+      ],
+      "step18_layer2": [
+        "Let's",
+        "To",
+        "Let",
+        "Step",
+        "Sure"
+      ],
+      "step18_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " harm",
+        "Alright"
+      ],
+      "step19_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step19_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "**",
+        "Here"
+      ],
+      "step19_layer2": [
+        "Let's",
+        "To",
+        "Let",
+        "Step",
+        "Sure"
+      ],
+      "step19_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " harm",
+        "Alright"
+      ],
+      "step20_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step20_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "**",
+        "Here"
+      ],
+      "step20_layer2": [
+        "Let's",
+        "To",
+        "Let",
+        "Step",
+        "Sure"
+      ],
+      "step20_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " harm",
+        "Alright"
+      ],
+      "step21_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step21_layer1": [
+        "Let's",
+        "Let",
+        "Here",
+        "Sure",
+        "To"
+      ],
+      "step21_layer2": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step21_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        "lag"
+      ],
+      "step22_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step22_layer1": [
+        "Let's",
+        "Let",
+        "Here",
+        "Sure",
+        "To"
+      ],
+      "step22_layer2": [
+        "Let's",
+        "Step",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step22_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        "lag"
+      ],
+      "step23_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step23_layer1": [
+        "Let's",
+        "Let",
+        "Here",
+        "Sure",
+        "Step"
+      ],
+      "step23_layer2": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step23_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step24_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step24_layer1": [
+        "Let's",
+        "Let",
+        "Here",
+        "Sure",
+        "Step"
+      ],
+      "step24_layer2": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step24_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step25_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step25_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step25_layer2": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step25_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " steps"
+      ],
+      "step26_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step26_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step26_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step26_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " steps"
+      ],
+      "step27_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step27_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step27_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step27_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "Alright"
+      ],
+      "step28_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step28_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step28_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step28_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "Alright"
+      ],
+      "step29_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step29_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step29_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step29_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "Alright"
+      ],
+      "step30_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step30_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step30_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step30_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "Alright"
+      ],
+      "step31_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "Here",
+        "        "
+      ],
+      "step31_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "Sure"
+      ],
+      "step31_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step31_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "Alright"
+      ]
+    }
+  },
+  {
+    "idx": 2,
+    "question": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+    "gold": 3.0,
+    "pred": 6.0,
+    "correct": false,
+    "response": "Step 1: Determine the total amount Edward spent on books.\nEdward spent $6 to buy 2 books.\n\nStep 2: Determine the total amount Edward has now.\nEdward has $12 now.\n\nStep 3: Determine the amount Edward spent on books.\nEdward spent $6 - $12 = $-6 on books.\n\nStep 4: Determine the cost of each book.\nSince Edward spent $-6 on books, each book cost $6.\n\nAnswer: Each book cost $6.",
+    "topk": {
+      "step0_layer0": [
+        "    ",
+        "\t",
+        "        ",
+        "**",
+        "###"
+      ],
+      "step0_layer1": [
+        "**",
+        "    ",
+        "##",
+        "\t",
+        "###"
+      ],
+      "step0_layer2": [
+        "```",
+        "**",
+        "##",
+        "###",
+        "\t"
+      ],
+      "step0_layer3": [
+        " shops",
+        " attachment",
+        "res",
+        " throne",
+        " excess"
+      ],
+      "step1_layer0": [
+        "    ",
+        "        ",
+        "The",
+        "\t",
+        "###"
+      ],
+      "step1_layer1": [
+        "    ",
+        "The",
+        "        ",
+        "**",
+        "Given"
+      ],
+      "step1_layer2": [
+        "The",
+        "**",
+        "Given",
+        "\t",
+        "To"
+      ],
+      "step1_layer3": [
+        " copper",
+        "chn",
+        " credits",
+        "wards",
+        "ka"
+      ],
+      "step2_layer0": [
+        "        ",
+        "The",
+        "    ",
+        "**",
+        "A"
+      ],
+      "step2_layer1": [
+        "The",
+        "        ",
+        "**",
+        "To",
+        "    "
+      ],
+      "step2_layer2": [
+        "To",
+        "The",
+        "Let",
+        "**",
+        "Let's"
+      ],
+      "step2_layer3": [
+        "Each",
+        "ka",
+        " flood",
+        "illy",
+        "wards"
+      ],
+      "step3_layer0": [
+        "**",
+        "        ",
+        "To",
+        "    ",
+        "###"
+      ],
+      "step3_layer1": [
+        "Let",
+        "**",
+        "First",
+        "Let's",
+        "        "
+      ],
+      "step3_layer2": [
+        "To",
+        "First",
+        "**",
+        "Let's",
+        "Let"
+      ],
+      "step3_layer3": [
+        "DU",
+        "Each",
+        " dear",
+        "Let's",
+        " economies"
+      ],
+      "step4_layer0": [
+        "**",
+        "        ",
+        "    ",
+        "\t",
+        "###"
+      ],
+      "step4_layer1": [
+        "**",
+        "Let's",
+        "Let",
+        "    ",
+        "        "
+      ],
+      "step4_layer2": [
+        "**",
+        "Let's",
+        "To",
+        "Since",
+        "Let"
+      ],
+      "step4_layer3": [
+        "Let's",
+        "DU",
+        "PP",
+        "NC",
+        " dwell"
+      ],
+      "step5_layer0": [
+        "**",
+        "    ",
+        "        ",
+        "```",
+        "\t"
+      ],
+      "step5_layer1": [
+        "**",
+        "Let",
+        "Let's",
+        "    ",
+        "##"
+      ],
+      "step5_layer2": [
+        "**",
+        "To",
+        "Let's",
+        "```",
+        "Let"
+      ],
+      "step5_layer3": [
+        "Let's",
+        "DU",
+        " realization",
+        "每",
+        "Alright"
+      ],
+      "step6_layer0": [
+        "**",
+        "```",
+        "    ",
+        "        ",
+        "Let"
+      ],
+      "step6_layer1": [
+        "**",
+        "Let's",
+        "Let",
+        "```",
+        "##"
+      ],
+      "step6_layer2": [
+        "**",
+        "To",
+        "Let's",
+        "```",
+        "Let"
+      ],
+      "step6_layer3": [
+        "Certainly",
+        "Sure",
+        " realization",
+        "Step",
+        "Let's"
+      ],
+      "step7_layer0": [
+        "**",
+        "```",
+        "Let",
+        "##",
+        "        "
+      ],
+      "step7_layer1": [
+        "**",
+        "Let's",
+        "```",
+        "Let",
+        "##"
+      ],
+      "step7_layer2": [
+        "Let's",
+        "To",
+        "```",
+        "**",
+        "Let"
+      ],
+      "step7_layer3": [
+        "Certainly",
+        "Sure",
+        " realization",
+        "每",
+        "Let's"
+      ],
+      "step8_layer0": [
+        "**",
+        "```",
+        "Let",
+        "Let's",
+        "    "
+      ],
+      "step8_layer1": [
+        "Let's",
+        "**",
+        "```",
+        "Let",
+        "To"
+      ],
+      "step8_layer2": [
+        "Let's",
+        "To",
+        "```",
+        "Let",
+        "Step"
+      ],
+      "step8_layer3": [
+        "Certainly",
+        "Sure",
+        " progression",
+        " step",
+        " thorough"
+      ],
+      "step9_layer0": [
+        "**",
+        "```",
+        "To",
+        "\t",
+        "    "
+      ],
+      "step9_layer1": [
+        "**",
+        "Let's",
+        "```",
+        "To",
+        "Let"
+      ],
+      "step9_layer2": [
+        "To",
+        "Step",
+        "```",
+        "Let's",
+        "Sure"
+      ],
+      "step9_layer3": [
+        "Sure",
+        "Step",
+        "Certainly",
+        " step",
+        " breaking"
+      ],
+      "step10_layer0": [
+        "**",
+        "Here",
+        "```",
+        "To",
+        "\t"
+      ],
+      "step10_layer1": [
+        "To",
+        "Let",
+        "```",
+        "Here",
+        "Sure"
+      ],
+      "step10_layer2": [
+        "To",
+        "Step",
+        "Sure",
+        "```",
+        "Let"
+      ],
+      "step10_layer3": [
+        "Sure",
+        "Step",
+        "Certainly",
+        " step",
+        "lag"
+      ],
+      "step11_layer0": [
+        "Let",
+        "Here",
+        "        ",
+        "    ",
+        "To"
+      ],
+      "step11_layer1": [
+        "Let",
+        "To",
+        "Here",
+        "Step",
+        "Let's"
+      ],
+      "step11_layer2": [
+        "Step",
+        "To",
+        "Let",
+        "Sure",
+        "Here"
+      ],
+      "step11_layer3": [
+        "Sure",
+        "Step",
+        " step",
+        "Certainly",
+        "lag"
+      ],
+      "step12_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Here",
+        "                "
+      ],
+      "step12_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        "To"
+      ],
+      "step12_layer2": [
+        "Step",
+        "Let",
+        "To",
+        "Sure",
+        "Let's"
+      ],
+      "step12_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "lag",
+        "Alright"
+      ],
+      "step13_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Here",
+        "                "
+      ],
+      "step13_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        "To"
+      ],
+      "step13_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "To",
+        "Let's"
+      ],
+      "step13_layer3": [
+        " step",
+        "Step",
+        " steps",
+        "Sure",
+        "step"
+      ],
+      "step14_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "**",
+        "Here"
+      ],
+      "step14_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "Certainly"
+      ],
+      "step14_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step14_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " Step",
+        "Sure"
+      ],
+      "step15_layer0": [
+        "Let",
+        "        ",
+        "**",
+        "Let's",
+        "    "
+      ],
+      "step15_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Here",
+        "Certainly"
+      ],
+      "step15_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step15_layer3": [
+        " step",
+        "Step",
+        " steps",
+        "Sure",
+        " Step"
+      ],
+      "step16_layer0": [
+        "Let",
+        "Let's",
+        "        ",
+        "**",
+        "    "
+      ],
+      "step16_layer1": [
+        "Let's",
+        "Step",
+        "Let",
+        "Here",
+        "Certainly"
+      ],
+      "step16_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        " step",
+        "To"
+      ],
+      "step16_layer3": [
+        " step",
+        "Step",
+        " steps",
+        "Sure",
+        " stepped"
+      ],
+      "step17_layer0": [
+        "Let",
+        "        ",
+        "Let's",
+        "**",
+        "    "
+      ],
+      "step17_layer1": [
+        "Let's",
+        "Step",
+        "Let",
+        "Here",
+        "First"
+      ],
+      "step17_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step17_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Sure"
+      ],
+      "step18_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step18_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Here",
+        "First"
+      ],
+      "step18_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step18_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Sure"
+      ],
+      "step19_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step19_layer1": [
+        "Let",
+        "Step",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step19_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step19_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step20_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step20_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step20_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step20_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step21_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step21_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step21_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step21_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step22_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "Here"
+      ],
+      "step22_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step22_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step22_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step23_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "Here"
+      ],
+      "step23_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step23_layer2": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "To"
+      ],
+      "step23_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Sure"
+      ],
+      "step24_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "Here"
+      ],
+      "step24_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step24_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step24_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Sure"
+      ],
+      "step25_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "Here"
+      ],
+      "step25_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step25_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step25_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step26_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step26_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "First",
+        "Here"
+      ],
+      "step26_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step26_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step27_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step27_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "First",
+        "Here"
+      ],
+      "step27_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step27_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step28_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "Here"
+      ],
+      "step28_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step28_layer2": [
+        "Step",
+        "Let",
+        " step",
+        "Let's",
+        "To"
+      ],
+      "step28_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step29_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "Here"
+      ],
+      "step29_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        "Here",
+        "First"
+      ],
+      "step29_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step29_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step30_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step30_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "Here"
+      ],
+      "step30_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step30_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ],
+      "step31_layer0": [
+        "Let",
+        "        ",
+        "    ",
+        "Let's",
+        "**"
+      ],
+      "step31_layer1": [
+        "Step",
+        "Let",
+        "Let's",
+        " step",
+        "First"
+      ],
+      "step31_layer2": [
+        "Step",
+        " step",
+        "Let",
+        "Let's",
+        "To"
+      ],
+      "step31_layer3": [
+        " step",
+        "Step",
+        " steps",
+        " stepped",
+        "Steps"
+      ]
+    }
+  },
+  {
+    "idx": 3,
+    "question": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+    "gold": 198.0,
+    "pred": 198.0,
+    "correct": true,
+    "response": "Let's solve this step by step:\n1. We know that Frank finished the book in 607 days.\n2. We also know that the book has 594 pages in total.\n3. To find out how many pages are in each chapter, we need to divide the total number of pages by the number of chapters.\n4. Since the book has 3 chapters, we can calculate the number of pages per chapter as follows:\n   Pages per chapter = Total pages / Number of chapters\n   Pages per chapter = 594 / 3\n   Pages per chapter = 198\nTherefore, each chapter in the book has 198 pages.\nAnswer: 198",
+    "topk": {
+      "step0_layer0": [
+        "**",
+        "###",
+        "    ",
+        "\t",
+        "```"
+      ],
+      "step0_layer1": [
+        "###",
+        "##",
+        "**",
+        "```",
+        "####"
+      ],
+      "step0_layer2": [
+        "###",
+        "**",
+        "##",
+        "```",
+        "####"
+      ],
+      "step0_layer3": [
+        " warming",
+        "chn",
+        "NC",
+        " cue",
+        "Process"
+      ],
+      "step1_layer0": [
+        "    ",
+        "###",
+        "**",
+        "        ",
+        "import"
+      ],
+      "step1_layer1": [
+        "**",
+        "    ",
+        "import",
+        "###",
+        "        "
+      ],
+      "step1_layer2": [
+        "**",
+        "import",
+        "    ",
+        "###",
+        "\t"
+      ],
+      "step1_layer3": [
+        "chn",
+        " hurt",
+        "Each",
+        " Chapters",
+        " Dawn"
+      ],
+      "step2_layer0": [
+        "    ",
+        "###",
+        "The",
+        "**",
+        "        "
+      ],
+      "step2_layer1": [
+        "    ",
+        "        ",
+        "**",
+        "###",
+        "The"
+      ],
+      "step2_layer2": [
+        "Each",
+        "##",
+        "###",
+        "The",
+        "**"
+      ],
+      "step2_layer3": [
+        "Each",
+        "ora",
+        "dra",
+        "er",
+        " dear"
+      ],
+      "step3_layer0": [
+        "    ",
+        "##",
+        "        ",
+        "###",
+        "There"
+      ],
+      "step3_layer1": [
+        "There",
+        "##",
+        "**",
+        "        ",
+        "    "
+      ],
+      "step3_layer2": [
+        "Each",
+        "There",
+        "To",
+        "**",
+        "##"
+      ],
+      "step3_layer3": [
+        "Each",
+        " dear",
+        " divide",
+        " seemed",
+        " devoted"
+      ],
+      "step4_layer0": [
+        "    ",
+        "        ",
+        "      ",
+        "         ",
+        "**"
+      ],
+      "step4_layer1": [
+        "    ",
+        "There",
+        "        ",
+        "##",
+        "      "
+      ],
+      "step4_layer2": [
+        "```",
+        "To",
+        "There",
+        "**",
+        "      "
+      ],
+      "step4_layer3": [
+        " realization",
+        "wards",
+        "PP",
+        "Each",
+        "Assuming"
+      ],
+      "step5_layer0": [
+        "    ",
+        "```",
+        "**",
+        "##",
+        "        "
+      ],
+      "step5_layer1": [
+        "**",
+        "##",
+        "```",
+        "    ",
+        "Let"
+      ],
+      "step5_layer2": [
+        "```",
+        "**",
+        "##",
+        "To",
+        "Let's"
+      ],
+      "step5_layer3": [
+        " realization",
+        "Let's",
+        "每",
+        "FR",
+        "Step"
+      ],
+      "step6_layer0": [
+        "**",
+        "```",
+        "##",
+        "    ",
+        "        "
+      ],
+      "step6_layer1": [
+        "**",
+        "Let's",
+        "##",
+        "```",
+        "Let"
+      ],
+      "step6_layer2": [
+        "**",
+        "To",
+        "Let's",
+        "```",
+        "##"
+      ],
+      "step6_layer3": [
+        "Let's",
+        " realization",
+        " spon",
+        " solved",
+        "Certainly"
+      ],
+      "step7_layer0": [
+        "**",
+        "```",
+        "##",
+        "###",
+        "To"
+      ],
+      "step7_layer1": [
+        "**",
+        "Let's",
+        "##",
+        "Let",
+        "```"
+      ],
+      "step7_layer2": [
+        "To",
+        "**",
+        "Let's",
+        "```",
+        "##"
+      ],
+      "step7_layer3": [
+        " divide",
+        "Sure",
+        " solved",
+        "Let's",
+        "Certainly"
+      ],
+      "step8_layer0": [
+        "```",
+        "**",
+        "##",
+        "To",
+        "Given"
+      ],
+      "step8_layer1": [
+        "**",
+        "Let's",
+        "To",
+        "##",
+        "Given"
+      ],
+      "step8_layer2": [
+        "To",
+        "```",
+        "Let's",
+        "Given",
+        "##"
+      ],
+      "step8_layer3": [
+        " divide",
+        "Sure",
+        "To",
+        "Let's",
+        " solved"
+      ],
+      "step9_layer0": [
+        "```",
+        "**",
+        "To",
+        "##",
+        "Given"
+      ],
+      "step9_layer1": [
+        "To",
+        "```",
+        "Let's",
+        "**",
+        "Given"
+      ],
+      "step9_layer2": [
+        "To",
+        "```",
+        "Let's",
+        "Given",
+        "Step"
+      ],
+      "step9_layer3": [
+        "Sure",
+        "To",
+        " progression",
+        " divide",
+        "Step"
+      ],
+      "step10_layer0": [
+        "```",
+        "To",
+        "**",
+        "##",
+        "\t"
+      ],
+      "step10_layer1": [
+        "To",
+        "```",
+        "Let's",
+        "Given",
+        "**"
+      ],
+      "step10_layer2": [
+        "To",
+        "```",
+        "Let's",
+        "Given",
+        "Step"
+      ],
+      "step10_layer3": [
+        "Sure",
+        "To",
+        "Certainly",
+        "Step",
+        "lag"
+      ],
+      "step11_layer0": [
+        "To",
+        "```",
+        "**",
+        "\t",
+        "Here"
+      ],
+      "step11_layer1": [
+        "To",
+        "Let's",
+        "```",
+        "Given",
+        "Let"
+      ],
+      "step11_layer2": [
+        "To",
+        "```",
+        "Step",
+        "Given",
+        "Let's"
+      ],
+      "step11_layer3": [
+        "Sure",
+        "To",
+        "Step",
+        "Certainly",
+        "lag"
+      ],
+      "step12_layer0": [
+        "To",
+        "```",
+        "Here",
+        "**",
+        "Let"
+      ],
+      "step12_layer1": [
+        "To",
+        "Let's",
+        "Let",
+        "```",
+        "Given"
+      ],
+      "step12_layer2": [
+        "To",
+        "Step",
+        "```",
+        "Let's",
+        "Let"
+      ],
+      "step12_layer3": [
+        "Sure",
+        "Step",
+        " step",
+        "To",
+        "lag"
+      ],
+      "step13_layer0": [
+        "To",
+        "```",
+        "Let",
+        "Here",
+        "**"
+      ],
+      "step13_layer1": [
+        "To",
+        "Let",
+        "Let's",
+        "Here",
+        "```"
+      ],
+      "step13_layer2": [
+        "To",
+        "Step",
+        "Let",
+        "Let's",
+        "```"
+      ],
+      "step13_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "lag",
+        "To"
+      ],
+      "step14_layer0": [
+        "Let",
+        "To",
+        "**",
+        "```",
+        "        "
+      ],
+      "step14_layer1": [
+        "Let",
+        "To",
+        "Let's",
+        "Here",
+        "Step"
+      ],
+      "step14_layer2": [
+        "Step",
+        "To",
+        "Let",
+        "Sure",
+        "Let's"
+      ],
+      "step14_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "lag",
+        "Alright"
+      ],
+      "step15_layer0": [
+        "Let",
+        "        ",
+        "**",
+        "Here",
+        "To"
+      ],
+      "step15_layer1": [
+        "Let",
+        "Let's",
+        "To",
+        "Here",
+        "Step"
+      ],
+      "step15_layer2": [
+        "Step",
+        "To",
+        "Let",
+        "Let's",
+        "Sure"
+      ],
+      "step15_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step16_layer0": [
+        "Let",
+        "        ",
+        "**",
+        "Here",
+        "To"
+      ],
+      "step16_layer1": [
+        "Let",
+        "Let's",
+        "To",
+        "Here",
+        "Step"
+      ],
+      "step16_layer2": [
+        "To",
+        "Let",
+        "Step",
+        "Let's",
+        "Sure"
+      ],
+      "step16_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step17_layer0": [
+        "Let",
+        "        ",
+        "**",
+        "Let's",
+        "Here"
+      ],
+      "step17_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Here",
+        "Step"
+      ],
+      "step17_layer2": [
+        "To",
+        "Let",
+        "Let's",
+        "Step",
+        "Sure"
+      ],
+      "step17_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step18_layer0": [
+        "Let",
+        "Let's",
+        "        ",
+        "**",
+        "Here"
+      ],
+      "step18_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Here",
+        "Step"
+      ],
+      "step18_layer2": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Sure"
+      ],
+      "step18_layer3": [
+        " step",
+        "Step",
+        "Alright",
+        "Sure",
+        "ora"
+      ],
+      "step19_layer0": [
+        "Let",
+        "Let's",
+        "        ",
+        "**",
+        "To"
+      ],
+      "step19_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Here",
+        "Step"
+      ],
+      "step19_layer2": [
+        "Let's",
+        "To",
+        "Let",
+        "Step",
+        "Sure"
+      ],
+      "step19_layer3": [
+        " step",
+        "Step",
+        "Alright",
+        "Sure",
+        " divide"
+      ],
+      "step20_layer0": [
+        "Let",
+        "Let's",
+        "        ",
+        "**",
+        "To"
+      ],
+      "step20_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Here",
+        "Step"
+      ],
+      "step20_layer2": [
+        "To",
+        "Let's",
+        "Let",
+        "Step",
+        "```"
+      ],
+      "step20_layer3": [
+        "Step",
+        " step",
+        "Alright",
+        " divide",
+        "ora"
+      ],
+      "step21_layer0": [
+        "Let",
+        "To",
+        "Let's",
+        "        ",
+        "**"
+      ],
+      "step21_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step21_layer2": [
+        "To",
+        "Let's",
+        "Step",
+        "Let",
+        "```"
+      ],
+      "step21_layer3": [
+        "Step",
+        " step",
+        "Alright",
+        "ora",
+        " divide"
+      ],
+      "step22_layer0": [
+        "Let",
+        "To",
+        "        ",
+        "**",
+        "```"
+      ],
+      "step22_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step22_layer2": [
+        "To",
+        "Let's",
+        "Step",
+        "Let",
+        "```"
+      ],
+      "step22_layer3": [
+        "Step",
+        " step",
+        "Alright",
+        "Sure",
+        "ora"
+      ],
+      "step23_layer0": [
+        "To",
+        "Let",
+        "        ",
+        "```",
+        "**"
+      ],
+      "step23_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step23_layer2": [
+        "To",
+        "Step",
+        "Let's",
+        "Let",
+        "```"
+      ],
+      "step23_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        "ora"
+      ],
+      "step24_layer0": [
+        "To",
+        "Let",
+        "        ",
+        "```",
+        "**"
+      ],
+      "step24_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step24_layer2": [
+        "To",
+        "Step",
+        "Let's",
+        "Let",
+        "```"
+      ],
+      "step24_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        "ora"
+      ],
+      "step25_layer0": [
+        "Let",
+        "To",
+        "        ",
+        "**",
+        "```"
+      ],
+      "step25_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step25_layer2": [
+        "To",
+        "Step",
+        "Let's",
+        "Let",
+        "```"
+      ],
+      "step25_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        "ora"
+      ],
+      "step26_layer0": [
+        "Let",
+        "To",
+        "        ",
+        "**",
+        "```"
+      ],
+      "step26_layer1": [
+        "Let",
+        "Let's",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step26_layer2": [
+        "To",
+        "Step",
+        "Let's",
+        "Let",
+        "Sure"
+      ],
+      "step26_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step27_layer0": [
+        "Let",
+        "        ",
+        "To",
+        "**",
+        "Here"
+      ],
+      "step27_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step27_layer2": [
+        "Step",
+        "To",
+        "Let's",
+        "Let",
+        "Sure"
+      ],
+      "step27_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step28_layer0": [
+        "Let",
+        "        ",
+        "To",
+        "**",
+        "Here"
+      ],
+      "step28_layer1": [
+        "Let",
+        "Let's",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step28_layer2": [
+        "Step",
+        "To",
+        "Let",
+        "Let's",
+        "Sure"
+      ],
+      "step28_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step29_layer0": [
+        "Let",
+        "        ",
+        "To",
+        "**",
+        "Here"
+      ],
+      "step29_layer1": [
+        "Let's",
+        "Let",
+        "To",
+        "Step",
+        "Here"
+      ],
+      "step29_layer2": [
+        "Step",
+        "To",
+        "Let",
+        "Let's",
+        "Sure"
+      ],
+      "step29_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step30_layer0": [
+        "Let",
+        "        ",
+        "**",
+        "To",
+        "Let's"
+      ],
+      "step30_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Here"
+      ],
+      "step30_layer2": [
+        "Step",
+        "To",
+        "Let's",
+        "Let",
+        "Here"
+      ],
+      "step30_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        " harm"
+      ],
+      "step31_layer0": [
+        "Let",
+        "        ",
+        "**",
+        "Let's",
+        "To"
+      ],
+      "step31_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Here"
+      ],
+      "step31_layer2": [
+        "Step",
+        "To",
+        "Let's",
+        "Let",
+        "```"
+      ],
+      "step31_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        "Alright",
+        " harm"
+      ]
+    }
+  },
+  {
+    "idx": 4,
+    "question": "There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket. How much money does she have left?",
+    "gold": 63.0,
+    "pred": 63.0,
+    "correct": true,
+    "response": "Step 1: Identify the initial amount of money in Olivia's wallet.\nOlivia had 78 dollars in her wallet.\n\nStep 2: Identify the amount of money she spent at the supermarket.\nOlivia spent 15 dollars at the supermarket.\n\nStep 3: Subtract the amount spent from the initial amount.\nTo find out how much money she has left, we subtract the amount spent from the initial amount:\n78 - 15 = 63\n\nStep 4: Write the final answer.\nOlivia has 63 dollars left in her wallet.\n\nAnswer: 63",
+    "topk": {
+      "step0_layer0": [
+        "    ",
+        "        ",
+        "**",
+        "##",
+        "###"
+      ],
+      "step0_layer1": [
+        "##",
+        "**",
+        "###",
+        "    ",
+        "```"
+      ],
+      "step0_layer2": [
+        "##",
+        "**",
+        "```",
+        "###",
+        "####"
+      ],
+      "step0_layer3": [
+        " attachment",
+        " excess",
+        " lost",
+        " clarity",
+        "isch"
+      ],
+      "step1_layer0": [
+        "        ",
+        "    ",
+        "The",
+        "\t",
+        "###"
+      ],
+      "step1_layer1": [
+        "    ",
+        "        ",
+        "The",
+        "\t",
+        "**"
+      ],
+      "step1_layer2": [
+        "The",
+        "To",
+        "        ",
+        "```",
+        "    "
+      ],
+      "step1_layer3": [
+        "cent",
+        " bore",
+        "chn",
+        " toxicity",
+        " hurt"
+      ],
+      "step2_layer0": [
+        "        ",
+        "    ",
+        "**",
+        "The",
+        "###"
+      ],
+      "step2_layer1": [
+        "        ",
+        "    ",
+        "**",
+        "To",
+        "The"
+      ],
+      "step2_layer2": [
+        "To",
+        "Let's",
+        "There",
+        "The",
+        "        "
+      ],
+      "step2_layer3": [
+        "Let's",
+        " her",
+        " she",
+        " she's",
+        "cent"
+      ],
+      "step3_layer0": [
+        "###",
+        "**",
+        "        ",
+        "To",
+        "##"
+      ],
+      "step3_layer1": [
+        "Let's",
+        "**",
+        "To",
+        "Let",
+        "There"
+      ],
+      "step3_layer2": [
+        "Let's",
+        "To",
+        "**",
+        "```",
+        "There"
+      ],
+      "step3_layer3": [
+        "Let's",
+        " bore",
+        "DU",
+        "dra",
+        " her"
+      ],
+      "step4_layer0": [
+        "        ",
+        "**",
+        "    ",
+        "To",
+        "```"
+      ],
+      "step4_layer1": [
+        "**",
+        "Let's",
+        "To",
+        "Let",
+        "    "
+      ],
+      "step4_layer2": [
+        "To",
+        "Let's",
+        "**",
+        "```",
+        "There"
+      ],
+      "step4_layer3": [
+        "Let's",
+        "To",
+        "wards",
+        " step",
+        "DU"
+      ],
+      "step5_layer0": [
+        "**",
+        "```",
+        "    ",
+        "        ",
+        "To"
+      ],
+      "step5_layer1": [
+        "**",
+        "Let's",
+        "To",
+        "Let",
+        "```"
+      ],
+      "step5_layer2": [
+        "To",
+        "**",
+        "```",
+        "Let's",
+        "Let"
+      ],
+      "step5_layer3": [
+        "Let's",
+        "Step",
+        "Certainly",
+        "FP",
+        "To"
+      ],
+      "step6_layer0": [
+        "**",
+        "```",
+        "To",
+        "        ",
+        "Sure"
+      ],
+      "step6_layer1": [
+        "**",
+        "Let's",
+        "To",
+        "Sure",
+        "```"
+      ],
+      "step6_layer2": [
+        "To",
+        "**",
+        "Sure",
+        "```",
+        "Let's"
+      ],
+      "step6_layer3": [
+        "Sure",
+        "Certainly",
+        "ora",
+        "FP",
+        "ubs"
+      ],
+      "step7_layer0": [
+        "**",
+        "```",
+        "To",
+        "Sure",
+        "A"
+      ],
+      "step7_layer1": [
+        "**",
+        "Sure",
+        "To",
+        "```",
+        "Let's"
+      ],
+      "step7_layer2": [
+        "To",
+        "Sure",
+        "```",
+        "**",
+        "Certainly"
+      ],
+      "step7_layer3": [
+        "Sure",
+        "Certainly",
+        "ora",
+        " realization",
+        "Based"
+      ],
+      "step8_layer0": [
+        "**",
+        "```",
+        "To",
+        "Sure",
+        "Certainly"
+      ],
+      "step8_layer1": [
+        "**",
+        "To",
+        "Sure",
+        "```",
+        "Let's"
+      ],
+      "step8_layer2": [
+        "To",
+        "Sure",
+        "```",
+        "Certainly",
+        "**"
+      ],
+      "step8_layer3": [
+        "Sure",
+        "Certainly",
+        " realization",
+        "To",
+        "Step"
+      ],
+      "step9_layer0": [
+        "**",
+        "To",
+        "```",
+        "Here",
+        "Sure"
+      ],
+      "step9_layer1": [
+        "To",
+        "Sure",
+        "**",
+        "```",
+        "Certainly"
+      ],
+      "step9_layer2": [
+        "To",
+        "Sure",
+        "```",
+        "Step",
+        "Certainly"
+      ],
+      "step9_layer3": [
+        "Sure",
+        "Certainly",
+        "Step",
+        "To",
+        "lag"
+      ],
+      "step10_layer0": [
+        "**",
+        "To",
+        "Here",
+        "```",
+        "Sure"
+      ],
+      "step10_layer1": [
+        "To",
+        "Sure",
+        "**",
+        "```",
+        "Let's"
+      ],
+      "step10_layer2": [
+        "To",
+        "Sure",
+        "Step",
+        "Here",
+        "```"
+      ],
+      "step10_layer3": [
+        "Sure",
+        "Step",
+        "Certainly",
+        "lag",
+        "ora"
+      ],
+      "step11_layer0": [
+        "**",
+        "Here",
+        "Let",
+        "To",
+        "Hello"
+      ],
+      "step11_layer1": [
+        "To",
+        "Let",
+        "Sure",
+        "Let's",
+        "**"
+      ],
+      "step11_layer2": [
+        "To",
+        "Sure",
+        "Step",
+        "Let",
+        "Let's"
+      ],
+      "step11_layer3": [
+        "Sure",
+        "Step",
+        " step",
+        "Certainly",
+        "lag"
+      ],
+      "step12_layer0": [
+        "Let",
+        "**",
+        "Here",
+        "To",
+        "        "
+      ],
+      "step12_layer1": [
+        "Let",
+        "Let's",
+        "To",
+        "Sure",
+        "**"
+      ],
+      "step12_layer2": [
+        "To",
+        "Sure",
+        "Step",
+        "Let",
+        "Let's"
+      ],
+      "step12_layer3": [
+        " step",
+        "Sure",
+        "Step",
+        "lag",
+        "Alright"
+      ],
+      "step13_layer0": [
+        "Let",
+        "**",
+        "        ",
+        "    ",
+        "Here"
+      ],
+      "step13_layer1": [
+        "Let",
+        "Let's",
+        "Sure",
+        "Step",
+        "To"
+      ],
+      "step13_layer2": [
+        "Step",
+        "Sure",
+        "Let",
+        "To",
+        "Let's"
+      ],
+      "step13_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        "lag",
+        " steps"
+      ],
+      "step14_layer0": [
+        "Let",
+        "**",
+        "        ",
+        "Let's",
+        "    "
+      ],
+      "step14_layer1": [
+        "Let",
+        "Let's",
+        "Step",
+        "Sure",
+        "Certainly"
+      ],
+      "step14_layer2": [
+        "Step",
+        "Let",
+        "Sure",
+        "Let's",
+        " step"
+      ],
+      "step14_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        " Step"
+      ],
+      "step15_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "Here"
+      ],
+      "step15_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Sure",
+        "Certainly"
+      ],
+      "step15_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        " step",
+        "Sure"
+      ],
+      "step15_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        " Step"
+      ],
+      "step16_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "        ",
+        "Here"
+      ],
+      "step16_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Sure",
+        "To"
+      ],
+      "step16_layer2": [
+        "Step",
+        "Let's",
+        "Let",
+        "To",
+        "Sure"
+      ],
+      "step16_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        "Alright"
+      ],
+      "step17_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "        ",
+        "Here"
+      ],
+      "step17_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Sure",
+        "To"
+      ],
+      "step17_layer2": [
+        "Step",
+        "Let's",
+        "To",
+        "Let",
+        "Sure"
+      ],
+      "step17_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " stepping",
+        "Alright"
+      ],
+      "step18_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "        ",
+        "Here"
+      ],
+      "step18_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "Sure",
+        "To"
+      ],
+      "step18_layer2": [
+        "Step",
+        "Let's",
+        "To",
+        "Let",
+        " step"
+      ],
+      "step18_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step19_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "        ",
+        "    "
+      ],
+      "step19_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step19_layer2": [
+        "Step",
+        "Let's",
+        "To",
+        "Let",
+        " step"
+      ],
+      "step19_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step20_layer0": [
+        "Let",
+        "**",
+        "        ",
+        "Let's",
+        "    "
+      ],
+      "step20_layer1": [
+        "Let's",
+        "Let",
+        "Step",
+        "To",
+        "Sure"
+      ],
+      "step20_layer2": [
+        "Step",
+        "Let's",
+        "To",
+        " step",
+        "Let"
+      ],
+      "step20_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step21_layer0": [
+        "Let",
+        "**",
+        "        ",
+        "Let's",
+        "    "
+      ],
+      "step21_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step21_layer2": [
+        "Step",
+        "Let's",
+        " step",
+        "To",
+        "Let"
+      ],
+      "step21_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        " stepping"
+      ],
+      "step22_layer0": [
+        "Let",
+        "**",
+        "        ",
+        "Let's",
+        "    "
+      ],
+      "step22_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step22_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step22_layer3": [
+        " step",
+        "Step",
+        "Sure",
+        " steps",
+        " stepping"
+      ],
+      "step23_layer0": [
+        "Let",
+        "Let's",
+        "**",
+        "        ",
+        "Here"
+      ],
+      "step23_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "Here"
+      ],
+      "step23_layer2": [
+        "Step",
+        "Let's",
+        " step",
+        "To",
+        "Let"
+      ],
+      "step23_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " steps"
+      ],
+      "step24_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "Here"
+      ],
+      "step24_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "Here"
+      ],
+      "step24_layer2": [
+        "Step",
+        "Let's",
+        "To",
+        " step",
+        "Sure"
+      ],
+      "step24_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step25_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "    "
+      ],
+      "step25_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step25_layer2": [
+        "Step",
+        "Let's",
+        " step",
+        "To",
+        "Let"
+      ],
+      "step25_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step26_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "    "
+      ],
+      "step26_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step26_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step26_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step27_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "    "
+      ],
+      "step27_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step27_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step27_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " stepped"
+      ],
+      "step28_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "    "
+      ],
+      "step28_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step28_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step28_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " Step"
+      ],
+      "step29_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "    "
+      ],
+      "step29_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step29_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step29_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " Step"
+      ],
+      "step30_layer0": [
+        "Let",
+        "**",
+        "Let's",
+        "        ",
+        "    "
+      ],
+      "step30_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "To"
+      ],
+      "step30_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step30_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " Step"
+      ],
+      "step31_layer0": [
+        "Let",
+        "**",
+        "        ",
+        "Let's",
+        "    "
+      ],
+      "step31_layer1": [
+        "Step",
+        "Let's",
+        "Let",
+        "Sure",
+        "Here"
+      ],
+      "step31_layer2": [
+        "Step",
+        " step",
+        "Let's",
+        "To",
+        "Let"
+      ],
+      "step31_layer3": [
+        "Step",
+        " step",
+        "Sure",
+        " stepping",
+        " Step"
+      ]
+    }
+  }
+]

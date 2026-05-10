@@ -1,0 +1,1289 @@
+{
+  "baseline": 0.549,
+  "shape": [
+    32,
+    4
+  ],
+  "rows": [
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.546,
+      "acc_lda": 0.545,
+      "acc_shuffled": 0.47800000000000004,
+      "acc_random_feat": 0.506,
+      "step": 0,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.542,
+      "acc_lda": 0.5399999999999999,
+      "acc_shuffled": 0.476,
+      "acc_random_feat": 0.506,
+      "step": 0,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.5449999999999999,
+      "acc_lda": 0.549,
+      "acc_shuffled": 0.49800000000000005,
+      "acc_random_feat": 0.506,
+      "step": 0,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.562,
+      "acc_lda": 0.5660000000000001,
+      "acc_shuffled": 0.495,
+      "acc_random_feat": 0.506,
+      "step": 0,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.5810000000000001,
+      "acc_lda": 0.583,
+      "acc_shuffled": 0.505,
+      "acc_random_feat": 0.506,
+      "step": 1,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.577,
+      "acc_lda": 0.5820000000000001,
+      "acc_shuffled": 0.501,
+      "acc_random_feat": 0.506,
+      "step": 1,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.583,
+      "acc_lda": 0.581,
+      "acc_shuffled": 0.48900000000000005,
+      "acc_random_feat": 0.506,
+      "step": 1,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.5599999999999999,
+      "acc_lda": 0.5589999999999999,
+      "acc_shuffled": 0.479,
+      "acc_random_feat": 0.506,
+      "step": 1,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.593,
+      "acc_lda": 0.585,
+      "acc_shuffled": 0.484,
+      "acc_random_feat": 0.506,
+      "step": 2,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.593,
+      "acc_lda": 0.593,
+      "acc_shuffled": 0.477,
+      "acc_random_feat": 0.506,
+      "step": 2,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.605,
+      "acc_lda": 0.598,
+      "acc_shuffled": 0.491,
+      "acc_random_feat": 0.506,
+      "step": 2,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.606,
+      "acc_lda": 0.596,
+      "acc_shuffled": 0.49400000000000005,
+      "acc_random_feat": 0.506,
+      "step": 2,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6130000000000001,
+      "acc_lda": 0.601,
+      "acc_shuffled": 0.5,
+      "acc_random_feat": 0.506,
+      "step": 3,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.617,
+      "acc_lda": 0.597,
+      "acc_shuffled": 0.506,
+      "acc_random_feat": 0.506,
+      "step": 3,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.602,
+      "acc_shuffled": 0.496,
+      "acc_random_feat": 0.506,
+      "step": 3,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6290000000000001,
+      "acc_lda": 0.605,
+      "acc_shuffled": 0.489,
+      "acc_random_feat": 0.506,
+      "step": 3,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.606,
+      "acc_lda": 0.592,
+      "acc_shuffled": 0.46699999999999997,
+      "acc_random_feat": 0.506,
+      "step": 4,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.631,
+      "acc_lda": 0.595,
+      "acc_shuffled": 0.48200000000000004,
+      "acc_random_feat": 0.506,
+      "step": 4,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.616,
+      "acc_lda": 0.611,
+      "acc_shuffled": 0.48200000000000004,
+      "acc_random_feat": 0.506,
+      "step": 4,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.616,
+      "acc_lda": 0.608,
+      "acc_shuffled": 0.492,
+      "acc_random_feat": 0.506,
+      "step": 4,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.628,
+      "acc_lda": 0.618,
+      "acc_shuffled": 0.49499999999999994,
+      "acc_random_feat": 0.506,
+      "step": 5,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.612,
+      "acc_lda": 0.605,
+      "acc_shuffled": 0.484,
+      "acc_random_feat": 0.506,
+      "step": 5,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.621,
+      "acc_lda": 0.612,
+      "acc_shuffled": 0.487,
+      "acc_random_feat": 0.506,
+      "step": 5,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.599,
+      "acc_shuffled": 0.502,
+      "acc_random_feat": 0.506,
+      "step": 5,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.635,
+      "acc_lda": 0.602,
+      "acc_shuffled": 0.5,
+      "acc_random_feat": 0.506,
+      "step": 6,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.633,
+      "acc_lda": 0.6130000000000001,
+      "acc_shuffled": 0.5039999999999999,
+      "acc_random_feat": 0.506,
+      "step": 6,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6380000000000001,
+      "acc_lda": 0.6119999999999999,
+      "acc_shuffled": 0.497,
+      "acc_random_feat": 0.506,
+      "step": 6,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.639,
+      "acc_lda": 0.61,
+      "acc_shuffled": 0.5119999999999999,
+      "acc_random_feat": 0.506,
+      "step": 6,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.633,
+      "acc_lda": 0.609,
+      "acc_shuffled": 0.49399999999999994,
+      "acc_random_feat": 0.506,
+      "step": 7,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6319999999999999,
+      "acc_lda": 0.607,
+      "acc_shuffled": 0.5,
+      "acc_random_feat": 0.506,
+      "step": 7,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.63,
+      "acc_lda": 0.608,
+      "acc_shuffled": 0.497,
+      "acc_random_feat": 0.506,
+      "step": 7,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.639,
+      "acc_lda": 0.611,
+      "acc_shuffled": 0.491,
+      "acc_random_feat": 0.506,
+      "step": 7,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.629,
+      "acc_lda": 0.6140000000000001,
+      "acc_shuffled": 0.503,
+      "acc_random_feat": 0.506,
+      "step": 8,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.637,
+      "acc_lda": 0.6060000000000001,
+      "acc_shuffled": 0.514,
+      "acc_random_feat": 0.506,
+      "step": 8,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.635,
+      "acc_lda": 0.614,
+      "acc_shuffled": 0.5109999999999999,
+      "acc_random_feat": 0.506,
+      "step": 8,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.614,
+      "acc_shuffled": 0.496,
+      "acc_random_feat": 0.506,
+      "step": 8,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.618,
+      "acc_lda": 0.617,
+      "acc_shuffled": 0.5050000000000001,
+      "acc_random_feat": 0.506,
+      "step": 9,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.606,
+      "acc_shuffled": 0.509,
+      "acc_random_feat": 0.506,
+      "step": 9,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.5109999999999999,
+      "acc_random_feat": 0.506,
+      "step": 9,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6220000000000001,
+      "acc_lda": 0.604,
+      "acc_shuffled": 0.501,
+      "acc_random_feat": 0.506,
+      "step": 9,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.617,
+      "acc_shuffled": 0.522,
+      "acc_random_feat": 0.506,
+      "step": 10,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.625,
+      "acc_shuffled": 0.52,
+      "acc_random_feat": 0.506,
+      "step": 10,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.6180000000000001,
+      "acc_shuffled": 0.515,
+      "acc_random_feat": 0.506,
+      "step": 10,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.625,
+      "acc_shuffled": 0.506,
+      "acc_random_feat": 0.506,
+      "step": 10,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.619,
+      "acc_lda": 0.605,
+      "acc_shuffled": 0.51,
+      "acc_random_feat": 0.506,
+      "step": 11,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.614,
+      "acc_lda": 0.605,
+      "acc_shuffled": 0.513,
+      "acc_random_feat": 0.506,
+      "step": 11,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6239999999999999,
+      "acc_lda": 0.615,
+      "acc_shuffled": 0.495,
+      "acc_random_feat": 0.506,
+      "step": 11,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.602,
+      "acc_shuffled": 0.514,
+      "acc_random_feat": 0.506,
+      "step": 11,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.628,
+      "acc_lda": 0.62,
+      "acc_shuffled": 0.514,
+      "acc_random_feat": 0.506,
+      "step": 12,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.635,
+      "acc_lda": 0.624,
+      "acc_shuffled": 0.509,
+      "acc_random_feat": 0.506,
+      "step": 12,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6300000000000001,
+      "acc_lda": 0.616,
+      "acc_shuffled": 0.516,
+      "acc_random_feat": 0.506,
+      "step": 12,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.614,
+      "acc_shuffled": 0.518,
+      "acc_random_feat": 0.506,
+      "step": 12,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.63,
+      "acc_lda": 0.6239999999999999,
+      "acc_shuffled": 0.517,
+      "acc_random_feat": 0.506,
+      "step": 13,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.6319999999999999,
+      "acc_shuffled": 0.5130000000000001,
+      "acc_random_feat": 0.506,
+      "step": 13,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6199999999999999,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.517,
+      "acc_random_feat": 0.506,
+      "step": 13,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.629,
+      "acc_lda": 0.62,
+      "acc_shuffled": 0.519,
+      "acc_random_feat": 0.506,
+      "step": 13,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.64,
+      "acc_lda": 0.614,
+      "acc_shuffled": 0.501,
+      "acc_random_feat": 0.506,
+      "step": 14,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.616,
+      "acc_shuffled": 0.49400000000000005,
+      "acc_random_feat": 0.506,
+      "step": 14,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.627,
+      "acc_lda": 0.617,
+      "acc_shuffled": 0.49399999999999994,
+      "acc_random_feat": 0.506,
+      "step": 14,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.624,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.491,
+      "acc_random_feat": 0.506,
+      "step": 14,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.631,
+      "acc_lda": 0.605,
+      "acc_shuffled": 0.5069999999999999,
+      "acc_random_feat": 0.506,
+      "step": 15,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.6170000000000001,
+      "acc_shuffled": 0.48199999999999993,
+      "acc_random_feat": 0.506,
+      "step": 15,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6300000000000001,
+      "acc_lda": 0.612,
+      "acc_shuffled": 0.484,
+      "acc_random_feat": 0.506,
+      "step": 15,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6199999999999999,
+      "acc_lda": 0.599,
+      "acc_shuffled": 0.492,
+      "acc_random_feat": 0.506,
+      "step": 15,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.591,
+      "acc_shuffled": 0.492,
+      "acc_random_feat": 0.506,
+      "step": 16,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6129999999999999,
+      "acc_lda": 0.602,
+      "acc_shuffled": 0.499,
+      "acc_random_feat": 0.506,
+      "step": 16,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.617,
+      "acc_lda": 0.6049999999999999,
+      "acc_shuffled": 0.4870000000000001,
+      "acc_random_feat": 0.506,
+      "step": 16,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.613,
+      "acc_lda": 0.6039999999999999,
+      "acc_shuffled": 0.4919999999999999,
+      "acc_random_feat": 0.506,
+      "step": 16,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.615,
+      "acc_lda": 0.5940000000000001,
+      "acc_shuffled": 0.49000000000000005,
+      "acc_random_feat": 0.506,
+      "step": 17,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.5940000000000001,
+      "acc_shuffled": 0.49000000000000005,
+      "acc_random_feat": 0.506,
+      "step": 17,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.617,
+      "acc_lda": 0.5980000000000001,
+      "acc_shuffled": 0.48100000000000004,
+      "acc_random_feat": 0.506,
+      "step": 17,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.5970000000000001,
+      "acc_shuffled": 0.4659999999999999,
+      "acc_random_feat": 0.506,
+      "step": 17,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.6039999999999999,
+      "acc_shuffled": 0.479,
+      "acc_random_feat": 0.506,
+      "step": 18,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.621,
+      "acc_lda": 0.611,
+      "acc_shuffled": 0.47400000000000003,
+      "acc_random_feat": 0.506,
+      "step": 18,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.63,
+      "acc_lda": 0.615,
+      "acc_shuffled": 0.483,
+      "acc_random_feat": 0.506,
+      "step": 18,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.598,
+      "acc_shuffled": 0.49099999999999994,
+      "acc_random_feat": 0.506,
+      "step": 18,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.609,
+      "acc_shuffled": 0.496,
+      "acc_random_feat": 0.506,
+      "step": 19,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6199999999999999,
+      "acc_lda": 0.608,
+      "acc_shuffled": 0.49000000000000005,
+      "acc_random_feat": 0.506,
+      "step": 19,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6279999999999999,
+      "acc_lda": 0.609,
+      "acc_shuffled": 0.49399999999999994,
+      "acc_random_feat": 0.506,
+      "step": 19,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.619,
+      "acc_lda": 0.599,
+      "acc_shuffled": 0.4960000000000001,
+      "acc_random_feat": 0.506,
+      "step": 19,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.61,
+      "acc_shuffled": 0.509,
+      "acc_random_feat": 0.506,
+      "step": 20,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6220000000000001,
+      "acc_lda": 0.615,
+      "acc_shuffled": 0.504,
+      "acc_random_feat": 0.506,
+      "step": 20,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6209999999999999,
+      "acc_lda": 0.618,
+      "acc_shuffled": 0.5010000000000001,
+      "acc_random_feat": 0.506,
+      "step": 20,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.616,
+      "acc_lda": 0.599,
+      "acc_shuffled": 0.49800000000000005,
+      "acc_random_feat": 0.506,
+      "step": 20,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.62,
+      "acc_lda": 0.611,
+      "acc_shuffled": 0.493,
+      "acc_random_feat": 0.506,
+      "step": 21,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.627,
+      "acc_lda": 0.613,
+      "acc_shuffled": 0.49799999999999994,
+      "acc_random_feat": 0.506,
+      "step": 21,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.622,
+      "acc_shuffled": 0.49499999999999994,
+      "acc_random_feat": 0.506,
+      "step": 21,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6290000000000001,
+      "acc_lda": 0.609,
+      "acc_shuffled": 0.495,
+      "acc_random_feat": 0.506,
+      "step": 21,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.619,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.491,
+      "acc_random_feat": 0.506,
+      "step": 22,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.618,
+      "acc_lda": 0.6209999999999999,
+      "acc_shuffled": 0.479,
+      "acc_random_feat": 0.506,
+      "step": 22,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.625,
+      "acc_shuffled": 0.47800000000000004,
+      "acc_random_feat": 0.506,
+      "step": 22,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.6030000000000001,
+      "acc_shuffled": 0.48500000000000004,
+      "acc_random_feat": 0.506,
+      "step": 22,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.622,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.481,
+      "acc_random_feat": 0.506,
+      "step": 23,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.623,
+      "acc_lda": 0.6159999999999999,
+      "acc_shuffled": 0.47300000000000003,
+      "acc_random_feat": 0.506,
+      "step": 23,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6239999999999999,
+      "acc_lda": 0.617,
+      "acc_shuffled": 0.47800000000000004,
+      "acc_random_feat": 0.506,
+      "step": 23,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.624,
+      "acc_lda": 0.612,
+      "acc_shuffled": 0.485,
+      "acc_random_feat": 0.506,
+      "step": 23,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.624,
+      "acc_lda": 0.609,
+      "acc_shuffled": 0.48200000000000004,
+      "acc_random_feat": 0.506,
+      "step": 24,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.6039999999999999,
+      "acc_shuffled": 0.479,
+      "acc_random_feat": 0.506,
+      "step": 24,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.6129999999999999,
+      "acc_shuffled": 0.48599999999999993,
+      "acc_random_feat": 0.506,
+      "step": 24,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.621,
+      "acc_lda": 0.615,
+      "acc_shuffled": 0.483,
+      "acc_random_feat": 0.506,
+      "step": 24,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.628,
+      "acc_lda": 0.605,
+      "acc_shuffled": 0.48600000000000004,
+      "acc_random_feat": 0.506,
+      "step": 25,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.624,
+      "acc_lda": 0.612,
+      "acc_shuffled": 0.488,
+      "acc_random_feat": 0.506,
+      "step": 25,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.633,
+      "acc_lda": 0.617,
+      "acc_shuffled": 0.48599999999999993,
+      "acc_random_feat": 0.506,
+      "step": 25,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.633,
+      "acc_lda": 0.618,
+      "acc_shuffled": 0.48500000000000004,
+      "acc_random_feat": 0.506,
+      "step": 25,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.625,
+      "acc_lda": 0.6039999999999999,
+      "acc_shuffled": 0.4959999999999999,
+      "acc_random_feat": 0.506,
+      "step": 26,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6319999999999999,
+      "acc_lda": 0.615,
+      "acc_shuffled": 0.491,
+      "acc_random_feat": 0.506,
+      "step": 26,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.639,
+      "acc_lda": 0.625,
+      "acc_shuffled": 0.49400000000000005,
+      "acc_random_feat": 0.506,
+      "step": 26,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.633,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.497,
+      "acc_random_feat": 0.506,
+      "step": 26,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.621,
+      "acc_lda": 0.618,
+      "acc_shuffled": 0.493,
+      "acc_random_feat": 0.506,
+      "step": 27,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.633,
+      "acc_lda": 0.6220000000000001,
+      "acc_shuffled": 0.49300000000000005,
+      "acc_random_feat": 0.506,
+      "step": 27,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.636,
+      "acc_lda": 0.627,
+      "acc_shuffled": 0.49499999999999994,
+      "acc_random_feat": 0.506,
+      "step": 27,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.628,
+      "acc_lda": 0.623,
+      "acc_shuffled": 0.496,
+      "acc_random_feat": 0.506,
+      "step": 27,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6370000000000001,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.493,
+      "acc_random_feat": 0.506,
+      "step": 28,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.626,
+      "acc_lda": 0.6199999999999999,
+      "acc_shuffled": 0.49000000000000005,
+      "acc_random_feat": 0.506,
+      "step": 28,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.639,
+      "acc_lda": 0.625,
+      "acc_shuffled": 0.49800000000000005,
+      "acc_random_feat": 0.506,
+      "step": 28,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6289999999999999,
+      "acc_lda": 0.618,
+      "acc_shuffled": 0.488,
+      "acc_random_feat": 0.506,
+      "step": 28,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.636,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.5,
+      "acc_random_feat": 0.506,
+      "step": 29,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.639,
+      "acc_lda": 0.6130000000000001,
+      "acc_shuffled": 0.491,
+      "acc_random_feat": 0.506,
+      "step": 29,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.643,
+      "acc_lda": 0.621,
+      "acc_shuffled": 0.488,
+      "acc_random_feat": 0.506,
+      "step": 29,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.629,
+      "acc_lda": 0.621,
+      "acc_shuffled": 0.4960000000000001,
+      "acc_random_feat": 0.506,
+      "step": 29,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6330000000000001,
+      "acc_lda": 0.629,
+      "acc_shuffled": 0.505,
+      "acc_random_feat": 0.506,
+      "step": 30,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.643,
+      "acc_lda": 0.623,
+      "acc_shuffled": 0.49000000000000005,
+      "acc_random_feat": 0.506,
+      "step": 30,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.639,
+      "acc_lda": 0.632,
+      "acc_shuffled": 0.495,
+      "acc_random_feat": 0.506,
+      "step": 30,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.635,
+      "acc_lda": 0.619,
+      "acc_shuffled": 0.5119999999999999,
+      "acc_random_feat": 0.506,
+      "step": 30,
+      "layer": 3
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.64,
+      "acc_lda": 0.618,
+      "acc_shuffled": 0.507,
+      "acc_random_feat": 0.506,
+      "step": 31,
+      "layer": 0
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.6370000000000001,
+      "acc_lda": 0.63,
+      "acc_shuffled": 0.49499999999999994,
+      "acc_random_feat": 0.506,
+      "step": 31,
+      "layer": 1
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.645,
+      "acc_lda": 0.632,
+      "acc_shuffled": 0.502,
+      "acc_random_feat": 0.506,
+      "step": 31,
+      "layer": 2
+    },
+    {
+      "n": 1000,
+      "n_pos": 549,
+      "acc_logreg": 0.64,
+      "acc_lda": 0.628,
+      "acc_shuffled": 0.51,
+      "acc_random_feat": 0.506,
+      "step": 31,
+      "layer": 3
+    }
+  ]
+}
