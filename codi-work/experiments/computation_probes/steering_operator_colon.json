@@ -1,0 +1,301 @@
+{
+  "target_decode_pos": 4,
+  "target_layer": 9,
+  "das_rank": 4,
+  "N": 1000,
+  "baseline_accuracy": 0.391,
+  "A_centroid_patch": {
+    "Addition->Subtraction": {
+      "n": 139,
+      "n_tgt": 1,
+      "n_src": 30,
+      "n_neither": 108,
+      "frac_tgt": 0.007194244604316547,
+      "frac_src": 0.2158273381294964
+    },
+    "Addition->Multiplication": {
+      "n": 139,
+      "n_tgt": 1,
+      "n_src": 34,
+      "n_neither": 104,
+      "frac_tgt": 0.007194244604316547,
+      "frac_src": 0.2446043165467626
+    },
+    "Addition->Common-Division": {
+      "n": 139,
+      "n_tgt": 0,
+      "n_src": 32,
+      "n_neither": 107,
+      "frac_tgt": 0.0,
+      "frac_src": 0.2302158273381295
+    },
+    "Subtraction->Addition": {
+      "n": 404,
+      "n_tgt": 4,
+      "n_src": 138,
+      "n_neither": 262,
+      "frac_tgt": 0.009900990099009901,
+      "frac_src": 0.3415841584158416
+    },
+    "Subtraction->Multiplication": {
+      "n": 404,
+      "n_tgt": 0,
+      "n_src": 139,
+      "n_neither": 265,
+      "frac_tgt": 0.0,
+      "frac_src": 0.34405940594059403
+    },
+    "Subtraction->Common-Division": {
+      "n": 404,
+      "n_tgt": 29,
+      "n_src": 123,
+      "n_neither": 252,
+      "frac_tgt": 0.07178217821782178,
+      "frac_src": 0.30445544554455445
+    },
+    "Multiplication->Addition": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 16,
+      "n_neither": 58,
+      "frac_tgt": 0.0,
+      "frac_src": 0.21621621621621623
+    },
+    "Multiplication->Subtraction": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 15,
+      "n_neither": 59,
+      "frac_tgt": 0.0,
+      "frac_src": 0.20270270270270271
+    },
+    "Multiplication->Common-Division": {
+      "n": 74,
+      "n_tgt": 1,
+      "n_src": 18,
+      "n_neither": 55,
+      "frac_tgt": 0.013513513513513514,
+      "frac_src": 0.24324324324324326
+    },
+    "Common-Division->Addition": {
+      "n": 145,
+      "n_tgt": 0,
+      "n_src": 90,
+      "n_neither": 55,
+      "frac_tgt": 0.0,
+      "frac_src": 0.6206896551724138
+    },
+    "Common-Division->Subtraction": {
+      "n": 145,
+      "n_tgt": 2,
+      "n_src": 88,
+      "n_neither": 55,
+      "frac_tgt": 0.013793103448275862,
+      "frac_src": 0.6068965517241379
+    },
+    "Common-Division->Multiplication": {
+      "n": 145,
+      "n_tgt": 1,
+      "n_src": 89,
+      "n_neither": 55,
+      "frac_tgt": 0.006896551724137931,
+      "frac_src": 0.6137931034482759
+    }
+  },
+  "C_cross_patch": {
+    "Addition->Subtraction": {
+      "n": 139,
+      "n_tgt": 0,
+      "n_src": 32,
+      "n_neither": 107,
+      "frac_tgt": 0.0,
+      "frac_src": 0.2302158273381295
+    },
+    "Addition->Multiplication": {
+      "n": 139,
+      "n_tgt": 1,
+      "n_src": 29,
+      "n_neither": 109,
+      "frac_tgt": 0.007194244604316547,
+      "frac_src": 0.20863309352517986
+    },
+    "Addition->Common-Division": {
+      "n": 139,
+      "n_tgt": 0,
+      "n_src": 30,
+      "n_neither": 109,
+      "frac_tgt": 0.0,
+      "frac_src": 0.2158273381294964
+    },
+    "Subtraction->Addition": {
+      "n": 404,
+      "n_tgt": 2,
+      "n_src": 130,
+      "n_neither": 272,
+      "frac_tgt": 0.0049504950495049506,
+      "frac_src": 0.3217821782178218
+    },
+    "Subtraction->Multiplication": {
+      "n": 404,
+      "n_tgt": 0,
+      "n_src": 124,
+      "n_neither": 280,
+      "frac_tgt": 0.0,
+      "frac_src": 0.3069306930693069
+    },
+    "Subtraction->Common-Division": {
+      "n": 404,
+      "n_tgt": 24,
+      "n_src": 124,
+      "n_neither": 256,
+      "frac_tgt": 0.0594059405940594,
+      "frac_src": 0.3069306930693069
+    },
+    "Multiplication->Addition": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 16,
+      "n_neither": 58,
+      "frac_tgt": 0.0,
+      "frac_src": 0.21621621621621623
+    },
+    "Multiplication->Subtraction": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 15,
+      "n_neither": 59,
+      "frac_tgt": 0.0,
+      "frac_src": 0.20270270270270271
+    },
+    "Multiplication->Common-Division": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 16,
+      "n_neither": 58,
+      "frac_tgt": 0.0,
+      "frac_src": 0.21621621621621623
+    },
+    "Common-Division->Addition": {
+      "n": 145,
+      "n_tgt": 0,
+      "n_src": 86,
+      "n_neither": 59,
+      "frac_tgt": 0.0,
+      "frac_src": 0.593103448275862
+    },
+    "Common-Division->Subtraction": {
+      "n": 145,
+      "n_tgt": 2,
+      "n_src": 84,
+      "n_neither": 59,
+      "frac_tgt": 0.013793103448275862,
+      "frac_src": 0.5793103448275863
+    },
+    "Common-Division->Multiplication": {
+      "n": 145,
+      "n_tgt": 2,
+      "n_src": 83,
+      "n_neither": 60,
+      "frac_tgt": 0.013793103448275862,
+      "frac_src": 0.5724137931034483
+    }
+  },
+  "DAS_subspace_patch": {
+    "Addition->Subtraction": {
+      "n": 139,
+      "n_tgt": 1,
+      "n_src": 31,
+      "n_neither": 107,
+      "frac_tgt": 0.007194244604316547,
+      "frac_src": 0.22302158273381295
+    },
+    "Addition->Multiplication": {
+      "n": 139,
+      "n_tgt": 1,
+      "n_src": 32,
+      "n_neither": 106,
+      "frac_tgt": 0.007194244604316547,
+      "frac_src": 0.2302158273381295
+    },
+    "Addition->Common-Division": {
+      "n": 139,
+      "n_tgt": 0,
+      "n_src": 30,
+      "n_neither": 109,
+      "frac_tgt": 0.0,
+      "frac_src": 0.2158273381294964
+    },
+    "Subtraction->Addition": {
+      "n": 404,
+      "n_tgt": 2,
+      "n_src": 140,
+      "n_neither": 262,
+      "frac_tgt": 0.0049504950495049506,
+      "frac_src": 0.3465346534653465
+    },
+    "Subtraction->Multiplication": {
+      "n": 404,
+      "n_tgt": 0,
+      "n_src": 143,
+      "n_neither": 261,
+      "frac_tgt": 0.0,
+      "frac_src": 0.35396039603960394
+    },
+    "Subtraction->Common-Division": {
+      "n": 404,
+      "n_tgt": 22,
+      "n_src": 123,
+      "n_neither": 259,
+      "frac_tgt": 0.054455445544554455,
+      "frac_src": 0.30445544554455445
+    },
+    "Multiplication->Addition": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 18,
+      "n_neither": 56,
+      "frac_tgt": 0.0,
+      "frac_src": 0.24324324324324326
+    },
+    "Multiplication->Subtraction": {
+      "n": 74,
+      "n_tgt": 0,
+      "n_src": 18,
+      "n_neither": 56,
+      "frac_tgt": 0.0,
+      "frac_src": 0.24324324324324326
+    },
+    "Multiplication->Common-Division": {
+      "n": 74,
+      "n_tgt": 1,
+      "n_src": 19,
+      "n_neither": 54,
+      "frac_tgt": 0.013513513513513514,
+      "frac_src": 0.25675675675675674
+    },
+    "Common-Division->Addition": {
+      "n": 145,
+      "n_tgt": 0,
+      "n_src": 88,
+      "n_neither": 57,
+      "frac_tgt": 0.0,
+      "frac_src": 0.6068965517241379
+    },
+    "Common-Division->Subtraction": {
+      "n": 145,
+      "n_tgt": 2,
+      "n_src": 86,
+      "n_neither": 57,
+      "frac_tgt": 0.013793103448275862,
+      "frac_src": 0.593103448275862
+    },
+    "Common-Division->Multiplication": {
+      "n": 145,
+      "n_tgt": 0,
+      "n_src": 88,
+      "n_neither": 57,
+      "frac_tgt": 0.0,
+      "frac_src": 0.6068965517241379
+    }
+  }
+}
