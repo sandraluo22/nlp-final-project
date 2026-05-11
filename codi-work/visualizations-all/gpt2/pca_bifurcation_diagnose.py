@@ -225,13 +225,21 @@ def main():
                      f"(PC1={v[0]*100:.1f}%, PC2={v[1]*100:.1f}%, PC3={v[2]*100:.1f}%)\n"
                      f"strongest PC1 driver: {feat_best} (|r|={flat_pc1_corr[s_best, l_best]:.3f})",
                      fontsize=12, fontweight="bold")
+        # Pull faithful label vector so we can color by it.
+        from datasets import load_dataset, concatenate_datasets  # noqa: F811
+        judged = json.load(open(JUDGED)) if JUDGED.exists() else []
+        label_by_idx = {j["idx"]: j["label"] for j in judged}
+        n_meta = len(meta["type"])
+        faithful_labels = np.array(
+            [label_by_idx.get(i, "teacher_incorrect") for i in range(n_meta)]
+        )
         coloring_specs = [
             ("plain", None, None),
             ("log10(answer+1)", "viridis", meta["log_answer"]),
             ("parity (0/1)", "coolwarm", meta["parity"]),
-            ("digit count", "plasma", meta["digits"]),
             ("problem type", None, meta["type"]),
             ("student correct", None, meta["student_correct"].astype(int)),
+            ("faithful (3 classes)", None, faithful_labels),
         ]
         for i, (title, cmap, vals) in enumerate(coloring_specs):
             ax = fig.add_subplot(2, 3, i + 1, projection="3d")
@@ -252,6 +260,18 @@ def main():
                     ax.scatter(xy[m, 0], xy[m, 1], xy[m, 2], s=5, c=col,
                                alpha=0.6, linewidths=0, rasterized=True, label=lbl)
                 ax.legend(fontsize=6, loc="upper right")
+            elif title == "faithful (3 classes)":
+                colors_f = {"teacher_incorrect": "#cccccc", "faithful": "#2ca02c", "unfaithful": "#d62728"}
+                # background first, unfaithful on top
+                for cls in ["teacher_incorrect", "faithful", "unfaithful"]:
+                    m = vals == cls
+                    s_pt = 14 if cls == "unfaithful" else 5
+                    alph = 0.95 if cls == "unfaithful" else 0.45
+                    n = int(m.sum())
+                    ax.scatter(xy[m, 0], xy[m, 1], xy[m, 2], s=s_pt, c=colors_f[cls],
+                               alpha=alph, linewidths=0, rasterized=True,
+                               label=f"{cls} ({n})")
+                ax.legend(fontsize=5, loc="upper right")
             else:
                 sc = ax.scatter(xy[:, 0], xy[:, 1], xy[:, 2], s=5, c=vals,
                                 cmap=cmap, alpha=0.6, linewidths=0, rasterized=True)
@@ -291,6 +311,18 @@ def main():
                     ax.scatter(xy[m, 0], xy[m, 1], xy[m, 2], s=5, c=col,
                                alpha=0.6, linewidths=0, rasterized=True, label=lbl)
                 ax.legend(fontsize=6, loc="upper right")
+            elif title == "faithful (3 classes)":
+                colors_f = {"teacher_incorrect": "#cccccc", "faithful": "#2ca02c", "unfaithful": "#d62728"}
+                # background first, unfaithful on top
+                for cls in ["teacher_incorrect", "faithful", "unfaithful"]:
+                    m = vals == cls
+                    s_pt = 14 if cls == "unfaithful" else 5
+                    alph = 0.95 if cls == "unfaithful" else 0.45
+                    n = int(m.sum())
+                    ax.scatter(xy[m, 0], xy[m, 1], xy[m, 2], s=s_pt, c=colors_f[cls],
+                               alpha=alph, linewidths=0, rasterized=True,
+                               label=f"{cls} ({n})")
+                ax.legend(fontsize=5, loc="upper right")
             else:
                 sc = ax.scatter(xy[:, 0], xy[:, 1], xy[:, 2], s=5, c=vals,
                                 cmap=cmap, alpha=0.6, linewidths=0, rasterized=True)
