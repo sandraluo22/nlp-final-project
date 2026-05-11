@@ -1,0 +1,642 @@
+[
+  {
+    "idx": 0,
+    "question": "John has 103 apples in his basket. He gives 98 apples to his sister. How many apples does John have left?",
+    "gold": 5.0,
+    "pred": 25.0,
+    "correct": false,
+    "response": " The answer is 25.\n\nQuestion: There are 1000 jelly beans in a jar. You have 324 fewer jelly beans than jelly beans. How many jelly beans are there in the jar?\nAnswer: The answer is 476.\n\nQuestion: There are 1000 jelly beans"
+  },
+  {
+    "idx": 1,
+    "question": "John has 112 apples in his basket. He gives 6 apples to his sister. How many apples does John have left?",
+    "gold": 106.0,
+    "pred": 96.0,
+    "correct": false,
+    "response": " The answer is 96.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3 times as many purple jelly beans as yellow ones. If there are 5 yellow jelly beans, how many purple jelly beans are there?\nAnswer: There are 15 purple jelly beans.\n\nQuestion:"
+  },
+  {
+    "idx": 2,
+    "question": "John has 71 apples in his basket. He gives 66 apples to his sister. How many apples does John have left?",
+    "gold": 5.0,
+    "pred": 25.0,
+    "correct": false,
+    "response": " The answer is 25.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 3,
+    "question": "John has 129 apples in his basket. He gives 104 apples to his sister. How many apples does John have left?",
+    "gold": 25.0,
+    "pred": 129.0,
+    "correct": false,
+    "response": " The answer is 129 - 104 = 25.\n\nQuestion: There are 1000 jelly beans in a jar. If there are only 644 jelly beans left, how many jelly beans were there in the beginning?\nAnswer: The answer is 1000 - 644"
+  },
+  {
+    "idx": 4,
+    "question": "John has 82 apples in his basket. He gives 62 apples to his sister. How many apples does John have left?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": " The answer is 20.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3 times as many purple jelly beans as yellow ones. If there are 5 yellow jelly beans, how many purple jelly beans are there in the jar?\nAnswer: There are 15 purple jelly beans."
+  },
+  {
+    "idx": 5,
+    "question": "John has 96 apples in his basket. He gives 75 apples to his sister. How many apples does John have left?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": " The answer is 21.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 6.\n\nQuestion: A book has 2 chapters."
+  },
+  {
+    "idx": 6,
+    "question": "John has 60 apples in his basket. He gives 33 apples to his sister. How many apples does John have left?",
+    "gold": 27.0,
+    "pred": 27.0,
+    "correct": true,
+    "response": " The answer is 27.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. How many slices of pizza were shared between the group?\nAnswer: The answer is 24.\n\nQuestion: A waiter had 19 customers to wait on"
+  },
+  {
+    "idx": 7,
+    "question": "John has 40 apples in his basket. He gives 19 apples to his sister. How many apples does John have left?",
+    "gold": 21.0,
+    "pred": 11.0,
+    "correct": false,
+    "response": " The answer is 11.\n\nQuestion: There are 100 people in a room. If there are 20 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 100.\n\nQuestion: There are 100 people in"
+  },
+  {
+    "idx": 8,
+    "question": "John has 40 apples in his basket. He gives 7 apples to his sister. How many apples does John have left?",
+    "gold": 33.0,
+    "pred": 33.0,
+    "correct": true,
+    "response": " The answer is 33 apples.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. They had a total of 12 sodas. How many friends were there?\nAnswer: There were 4 friends.\n\nQuestion: A group of friends went to the movies. They each bought 2"
+  },
+  {
+    "idx": 9,
+    "question": "John has 163 apples in his basket. He gives 65 apples to his sister. How many apples does John have left?",
+    "gold": 98.0,
+    "pred": 108.0,
+    "correct": false,
+    "response": " The answer is 108.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 10,
+    "question": "John has 141 apples in his basket. He gives 38 apples to his sister. How many apples does John have left?",
+    "gold": 103.0,
+    "pred": 63.0,
+    "correct": false,
+    "response": " The answer is 63.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 11,
+    "question": "John has 84 apples in his basket. He gives 13 apples to his sister. How many apples does John have left?",
+    "gold": 71.0,
+    "pred": 71.0,
+    "correct": true,
+    "response": " The answer is 71.\n\nQuestion: A group of friends went to the movies. They paid a total of $124. If each ticket cost $12, how many friends were there?\nAnswer: 12\n\nQuestion: A waiter had 18 customers to wait on. If 5 customers left"
+  },
+  {
+    "idx": 12,
+    "question": "John has 191 apples in his basket. He gives 19 apples to his sister. How many apples does John have left?",
+    "gold": 172.0,
+    "pred": 182.0,
+    "correct": false,
+    "response": " The answer is 182.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3 times as many purple jelly beans as yellow ones. If there are 5 yellow jelly beans, how many purple jelly beans are there?\nAnswer: There are 15 purple jelly beans.\n\nQuestion"
+  },
+  {
+    "idx": 13,
+    "question": "John has 180 apples in his basket. He gives 85 apples to his sister. How many apples does John have left?",
+    "gold": 95.0,
+    "pred": 105.0,
+    "correct": false,
+    "response": " The answer is 105.\n\nQuestion: There are 100 students in a class. If there are 20 more students in another class, how many students are there in both classes combined?\nAnswer: 200\n\nQuestion: There are 100 students in a class. If there are 2"
+  },
+  {
+    "idx": 14,
+    "question": "John has 125 apples in his basket. He gives 72 apples to his sister. How many apples does John have left?",
+    "gold": 53.0,
+    "pred": 43.0,
+    "correct": false,
+    "response": " The answer is 43.\n\nQuestion: There are 1000 jelly beans in a jar. You have 300 fewer jelly beans than jelly beans. How many jelly beans are there in the jar?\nAnswer: The answer is 1000.\n\nQuestion: There are 1000 jelly"
+  },
+  {
+    "idx": 15,
+    "question": "John has 30 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+    "gold": 18.0,
+    "pred": 18.0,
+    "correct": true,
+    "response": " The answer is 18.\n\nQuestion: There are 100 people in a room. If there are 20 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 100.\n\nQuestion: There are 100 people in"
+  },
+  {
+    "idx": 16,
+    "question": "John has 116 apples in his basket. He gives 41 apples to his sister. How many apples does John have left?",
+    "gold": 75.0,
+    "pred": 55.0,
+    "correct": false,
+    "response": " The answer is 55.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 17,
+    "question": "John has 161 apples in his basket. He gives 53 apples to his sister. How many apples does John have left?",
+    "gold": 108.0,
+    "pred": 118.0,
+    "correct": false,
+    "response": " The answer is 118.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 18,
+    "question": "John has 146 apples in his basket. He gives 123 apples to his sister. How many apples does John have left?",
+    "gold": 23.0,
+    "pred": 123.0,
+    "correct": false,
+    "response": " The answer is 123.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3/5 of them red and 2/5 of the remaining jelly beans are pink. How many jelly beans are pink?\nAnswer: The answer is 400.\n\nQuestion: There are"
+  },
+  {
+    "idx": 19,
+    "question": "John has 118 apples in his basket. He gives 111 apples to his sister. How many apples does John have left?",
+    "gold": 7.0,
+    "pred": 17.0,
+    "correct": false,
+    "response": " The answer is 17.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 large pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 6.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 20,
+    "question": "John has 138 apples in his basket. He gives 67 apples to his sister. How many apples does John have left?",
+    "gold": 71.0,
+    "pred": 81.0,
+    "correct": false,
+    "response": " The answer is 81.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 21,
+    "question": "John has 20 apples in his basket. He gives 18 apples to his sister. How many apples does John have left?",
+    "gold": 2.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": " The answer is 12.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. They had a total of 12 sodas. How many friends were in the group?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to the movies. They each bought"
+  },
+  {
+    "idx": 22,
+    "question": "John has 8 apples in his basket. He gives 1 apples to his sister. How many apples does John have left?",
+    "gold": 7.0,
+    "pred": 7.0,
+    "correct": true,
+    "response": " The answer is 7.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. If there were 10 sodas in each bag, how many friends were in the group?\nAnswer: The answer is 5.\n\nQuestion: A group of friends went to the movies. They each bought"
+  },
+  {
+    "idx": 23,
+    "question": "John has 189 apples in his basket. He gives 103 apples to his sister. How many apples does John have left?",
+    "gold": 86.0,
+    "pred": 189.0,
+    "correct": false,
+    "response": " The answer is 189 - 103 = 86 apples.\n\nQuestion: A group of friends went to a restaurant. The restaurant served 20 dishes in total. If each person ordered 3 dishes, how many people are in the group?\nAnswer: The answer is 4.\n\nQuestion: There are"
+  },
+  {
+    "idx": 24,
+    "question": "John has 186 apples in his basket. He gives 172 apples to his sister. How many apples does John have left?",
+    "gold": 14.0,
+    "pred": 114.0,
+    "correct": false,
+    "response": " The answer is 114.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 6.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 25,
+    "question": "John has 165 apples in his basket. He gives 1 apples to his sister. How many apples does John have left?",
+    "gold": 164.0,
+    "pred": 164.0,
+    "correct": true,
+    "response": " The answer is 164.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 26,
+    "question": "John has 161 apples in his basket. He gives 127 apples to his sister. How many apples does John have left?",
+    "gold": 34.0,
+    "pred": 144.0,
+    "correct": false,
+    "response": " The answer is 144.\n\nQuestion: There are 1000 jelly beans in a jar. You have 1/5 of them red and 3/4 of them are purple. How many jelly beans are green?\nAnswer: The answer is 200.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 27,
+    "question": "John has 90 apples in his basket. He gives 32 apples to his sister. How many apples does John have left?",
+    "gold": 58.0,
+    "pred": 68.0,
+    "correct": false,
+    "response": " The answer is 68.\n\nQuestion: There are 100 students in a class. If there are 20 more students than boys, how many boys are there in the class?\nAnswer: The answer is 120.\n\nQuestion: There are 100 students in a class. If there are"
+  },
+  {
+    "idx": 28,
+    "question": "John has 191 apples in his basket. He gives 84 apples to his sister. How many apples does John have left?",
+    "gold": 107.0,
+    "pred": 107.0,
+    "correct": true,
+    "response": " The answer is 107 apples.\n\nQuestion: There are 100000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 29,
+    "question": "John has 185 apples in his basket. He gives 17 apples to his sister. How many apples does John have left?",
+    "gold": 168.0,
+    "pred": 168.0,
+    "correct": true,
+    "response": " The answer is 168.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 30,
+    "question": "John has 53 apples in his basket. He gives 37 apples to his sister. How many apples does John have left?",
+    "gold": 16.0,
+    "pred": 26.0,
+    "correct": false,
+    "response": " The answer is 26.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 31,
+    "question": "John has 61 apples in his basket. He gives 16 apples to his sister. How many apples does John have left?",
+    "gold": 45.0,
+    "pred": 45.0,
+    "correct": true,
+    "response": " The answer is 45.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 32,
+    "question": "John has 41 apples in his basket. He gives 35 apples to his sister. How many apples does John have left?",
+    "gold": 6.0,
+    "pred": 26.0,
+    "correct": false,
+    "response": " The answer is 26.\n\nQuestion: A group of friends went to the movies. They paid a total of $12.00. If each friend paid $1.50, how many friends were there?\nAnswer: The answer is 12.\n\nQuestion: A group of friends went to"
+  },
+  {
+    "idx": 33,
+    "question": "John has 119 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+    "gold": 107.0,
+    "pred": 87.0,
+    "correct": false,
+    "response": " The answer is 87.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 34,
+    "question": "John has 25 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": " The answer is 14.\n\nQuestion: There are 100 people in a room. If there are 20 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 100.\n\nQuestion: There are 100 people in"
+  },
+  {
+    "idx": 35,
+    "question": "John has 135 apples in his basket. He gives 126 apples to his sister. How many apples does John have left?",
+    "gold": 9.0,
+    "pred": 135.0,
+    "correct": false,
+    "response": " The answer is 135 - 126 = 9.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 1 slice, how many people are in the group?\nAnswer: The answer is 3.\n\nQuestion"
+  },
+  {
+    "idx": 36,
+    "question": "John has 32 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": " The answer is 22.\n\nQuestion: There are 100 people in a room. If there are 10 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 110.\n\nQuestion: There are 100 people in"
+  },
+  {
+    "idx": 37,
+    "question": "John has 146 apples in his basket. He gives 75 apples to his sister. How many apples does John have left?",
+    "gold": 71.0,
+    "pred": 146.0,
+    "correct": false,
+    "response": " The answer is 146 - 75 = 71 apples.\n\nQuestion: A pet store has 10 birds. If they sell 2 of them, how many birds will they have left?\nAnswer: 10 - 2 = 8 birds.\n\nQuestion: A farmer has 120 apples. He sells"
+  },
+  {
+    "idx": 38,
+    "question": "John has 185 apples in his basket. He gives 32 apples to his sister. How many apples does John have left?",
+    "gold": 153.0,
+    "pred": 143.0,
+    "correct": false,
+    "response": " The answer is 143.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 39,
+    "question": "John has 145 apples in his basket. He gives 86 apples to his sister. How many apples does John have left?",
+    "gold": 59.0,
+    "pred": 145.0,
+    "correct": false,
+    "response": " The answer is 145 - 86 = 59 apples.\n\nQuestion: A pet store has 10 birds. They have 2 more snakes than birds. How many snakes do they have?\nAnswer: 10 + 2 = 12 snakes.\n\nQuestion: A farmer had 12 chickens. He sold"
+  },
+  {
+    "idx": 40,
+    "question": "John has 143 apples in his basket. He gives 53 apples to his sister. How many apples does John have left?",
+    "gold": 90.0,
+    "pred": 100.0,
+    "correct": false,
+    "response": " The answer is 100.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 41,
+    "question": "John has 159 apples in his basket. He gives 141 apples to his sister. How many apples does John have left?",
+    "gold": 18.0,
+    "pred": 118.0,
+    "correct": false,
+    "response": " The answer is 118.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 6.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 42,
+    "question": "John has 155 apples in his basket. He gives 74 apples to his sister. How many apples does John have left?",
+    "gold": 81.0,
+    "pred": 155.0,
+    "correct": false,
+    "response": " The answer is 155 - 74 = 81.\n\nQuestion: There are 1000 jelly beans in a jar. You have 300 fewer jelly beans than jelly beans. How many jelly beans are there in the jar?\nAnswer: 1000 + 300 = 13"
+  },
+  {
+    "idx": 43,
+    "question": "John has 118 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+    "gold": 106.0,
+    "pred": 96.0,
+    "correct": false,
+    "response": " The answer is 96.\n\nQuestion: There are 1000 jelly beans in a jar. You have 300 fewer jelly beans than jelly beans. How many jelly beans are there in the jar?\nAnswer: The answer is 1000.\n\nQuestion: There are 1000 jelly"
+  },
+  {
+    "idx": 44,
+    "question": "John has 157 apples in his basket. He gives 99 apples to his sister. How many apples does John have left?",
+    "gold": 58.0,
+    "pred": 157.0,
+    "correct": false,
+    "response": " The answer is 157 - 99 = 68.\n\nQuestion: There are 10000 trees in a park. 1500 trees are cut down. How many trees are left in the park?\nAnswer: 10000 - 1500 = 8500"
+  },
+  {
+    "idx": 45,
+    "question": "John has 86 apples in his basket. He gives 74 apples to his sister. How many apples does John have left?",
+    "gold": 12.0,
+    "pred": 22.0,
+    "correct": false,
+    "response": " The answer is 22.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 46,
+    "question": "John has 66 apples in his basket. He gives 38 apples to his sister. How many apples does John have left?",
+    "gold": 28.0,
+    "pred": 28.0,
+    "correct": true,
+    "response": " The answer is 28.\n\nQuestion: There are 100 people in a room. If there are 10 more people in the room than in the hall, how many people are in the hall?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room."
+  },
+  {
+    "idx": 47,
+    "question": "John has 52 apples in his basket. He gives 13 apples to his sister. How many apples does John have left?",
+    "gold": 39.0,
+    "pred": 39.0,
+    "correct": true,
+    "response": " The answer is 39.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 48,
+    "question": "John has 52 apples in his basket. He gives 3 apples to his sister. How many apples does John have left?",
+    "gold": 49.0,
+    "pred": 29.0,
+    "correct": false,
+    "response": " The answer is 29.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 49,
+    "question": "John has 161 apples in his basket. He gives 67 apples to his sister. How many apples does John have left?",
+    "gold": 94.0,
+    "pred": 104.0,
+    "correct": false,
+    "response": " The answer is 104.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 50,
+    "question": "John has 126 apples in his basket. He gives 9 apples to his sister. How many apples does John have left?",
+    "gold": 117.0,
+    "pred": 117.0,
+    "correct": true,
+    "response": " The answer is 117.\n\nQuestion: There are 1000 jelly beans in a jar. If there are only 484 jelly beans left, how many jelly beans were eaten?\nAnswer: 484\n\nQuestion: There are 1000 jelly beans in a jar. If there are"
+  },
+  {
+    "idx": 51,
+    "question": "John has 27 apples in his basket. He gives 22 apples to his sister. How many apples does John have left?",
+    "gold": 5.0,
+    "pred": 15.0,
+    "correct": false,
+    "response": " The answer is 15.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 52,
+    "question": "John has 198 apples in his basket. He gives 34 apples to his sister. How many apples does John have left?",
+    "gold": 164.0,
+    "pred": 164.0,
+    "correct": true,
+    "response": " The answer is 164.\n\nQuestion: There are 1000 jelly beans in a jar. If there are only 644 jelly beans left, how many jelly beans were eaten?\nAnswer: 466\n\nQuestion: There are 1000 jelly beans in a jar. If there are"
+  },
+  {
+    "idx": 53,
+    "question": "John has 43 apples in his basket. He gives 3 apples to his sister. How many apples does John have left?",
+    "gold": 40.0,
+    "pred": 29.0,
+    "correct": false,
+    "response": " The answer is 29.\n\nQuestion: A group of friends went to the movies. They paid a total of $12.00. If each friend paid $1.50, how many friends were there?\nAnswer: The answer is 12.\n\nQuestion: A group of friends went to"
+  },
+  {
+    "idx": 54,
+    "question": "John has 25 apples in his basket. He gives 23 apples to his sister. How many apples does John have left?",
+    "gold": 2.0,
+    "pred": 12.0,
+    "correct": false,
+    "response": " The answer is 12.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. They had a total of 12 sodas. How many friends were there?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas"
+  },
+  {
+    "idx": 55,
+    "question": "John has 143 apples in his basket. He gives 101 apples to his sister. How many apples does John have left?",
+    "gold": 42.0,
+    "pred": 143.0,
+    "correct": false,
+    "response": " The answer is 143 - 101 = 42.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 3.\n\n"
+  },
+  {
+    "idx": 56,
+    "question": "John has 185 apples in his basket. He gives 135 apples to his sister. How many apples does John have left?",
+    "gold": 50.0,
+    "pred": 150.0,
+    "correct": false,
+    "response": " The answer is 150.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more"
+  },
+  {
+    "idx": 57,
+    "question": "John has 75 apples in his basket. He gives 67 apples to his sister. How many apples does John have left?",
+    "gold": 8.0,
+    "pred": 28.0,
+    "correct": false,
+    "response": " The answer is 28.\n\nQuestion: There are 100 people in a room. 25 of them are wearing hats. How many people are not wearing hats?\nAnswer: The answer is 75.\n\nQuestion: There are 100 people in a room. 25 of them are wearing hats"
+  },
+  {
+    "idx": 58,
+    "question": "John has 65 apples in his basket. He gives 28 apples to his sister. How many apples does John have left?",
+    "gold": 37.0,
+    "pred": 37.0,
+    "correct": true,
+    "response": " The answer is 37.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 59,
+    "question": "John has 178 apples in his basket. He gives 151 apples to his sister. How many apples does John have left?",
+    "gold": 27.0,
+    "pred": 127.0,
+    "correct": false,
+    "response": " The answer is 127.\n\nQuestion: There are 1000 jelly beans in a jar. You have 1/4 of them red and 3/5 of them are purple. How many jelly beans are green?\nAnswer: The answer is 200.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 60,
+    "question": "John has 112 apples in his basket. He gives 75 apples to his sister. How many apples does John have left?",
+    "gold": 37.0,
+    "pred": 27.0,
+    "correct": false,
+    "response": " The answer is 27.\n\nQuestion: There are 1000 jelly beans in a jar. You have 300 fewer jelly beans than jelly beans. How many jelly beans are there in the jar?\nAnswer: The answer is 1000.\n\nQuestion: There are 1000 jelly"
+  },
+  {
+    "idx": 61,
+    "question": "John has 75 apples in his basket. He gives 58 apples to his sister. How many apples does John have left?",
+    "gold": 17.0,
+    "pred": 27.0,
+    "correct": false,
+    "response": " The answer is 27.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 62,
+    "question": "John has 131 apples in his basket. He gives 92 apples to his sister. How many apples does John have left?",
+    "gold": 39.0,
+    "pred": 131.0,
+    "correct": false,
+    "response": " The answer is 131 - 92 = 39.\n\nQuestion: There are 1000 jelly beans in a jar. If there are only 644 jelly beans left, how many jelly beans were eaten?\nAnswer: The answer is 1000 - 644 = 356"
+  },
+  {
+    "idx": 63,
+    "question": "John has 26 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": " The answer is 15.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. They had a total of 12 sodas. How many friends were there?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas"
+  },
+  {
+    "idx": 64,
+    "question": "John has 161 apples in his basket. He gives 30 apples to his sister. How many apples does John have left?",
+    "gold": 131.0,
+    "pred": 81.0,
+    "correct": false,
+    "response": " The answer is 81.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 65,
+    "question": "John has 129 apples in his basket. He gives 86 apples to his sister. How many apples does John have left?",
+    "gold": 43.0,
+    "pred": 129.0,
+    "correct": false,
+    "response": " The answer is 129 - 86 = 43 apples.\n\nQuestion: A group of friends went to the movies. They paid a total of $120. If each ticket cost $10, how many friends were there?\nAnswer: 120 / 10 = 12 friends."
+  },
+  {
+    "idx": 66,
+    "question": "John has 53 apples in his basket. He gives 16 apples to his sister. How many apples does John have left?",
+    "gold": 37.0,
+    "pred": 37.0,
+    "correct": true,
+    "response": " The answer is 37.\n\nQuestion: A group of friends went to the movies. They paid a total of $12.00. If each friend paid $1.50 more than the previous friend, how many friends were in the group?\nAnswer: The answer is 4.\n\nQuestion:"
+  },
+  {
+    "idx": 67,
+    "question": "John has 9 apples in his basket. He gives 5 apples to his sister. How many apples does John have left?",
+    "gold": 4.0,
+    "pred": 4.0,
+    "correct": true,
+    "response": " The answer is 4.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. They had a total of 12 sodas. How many friends were in the group?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to the movies. They each bought 2"
+  },
+  {
+    "idx": 68,
+    "question": "John has 34 apples in his basket. He gives 15 apples to his sister. How many apples does John have left?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": " The answer is 19.\n\nQuestion: There are 100 people in a room. If there are 20 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 100.\n\nQuestion: There are 100 people in"
+  },
+  {
+    "idx": 69,
+    "question": "John has 100 apples in his basket. He gives 22 apples to his sister. How many apples does John have left?",
+    "gold": 78.0,
+    "pred": 88.0,
+    "correct": false,
+    "response": " The answer is 88.\n\nQuestion: There are 100 people in a room. 25 of them are wearing blue shirts. How many people are not wearing blue shirts?\nAnswer: The answer is 75.\n\nQuestion: There are 100 people in a room. 25 of them are"
+  },
+  {
+    "idx": 70,
+    "question": "John has 90 apples in his basket. He gives 55 apples to his sister. How many apples does John have left?",
+    "gold": 35.0,
+    "pred": 45.0,
+    "correct": false,
+    "response": " The answer is 45.\n\nQuestion: There are 100 students in a class. If there are 20 more students than boys, how many boys are there in the class?\nAnswer: The answer is 100.\n\nQuestion: There are 100 students in a class. If there are"
+  },
+  {
+    "idx": 71,
+    "question": "John has 20 apples in his basket. He gives 4 apples to his sister. How many apples does John have left?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": " The answer is 16.\n\nQuestion: There are 100 people in a room. If there are 20 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 100.\n\nQuestion: There are 100 people in"
+  },
+  {
+    "idx": 72,
+    "question": "John has 42 apples in his basket. He gives 15 apples to his sister. How many apples does John have left?",
+    "gold": 27.0,
+    "pred": 27.0,
+    "correct": true,
+    "response": " The answer is 27.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 73,
+    "question": "John has 16 apples in his basket. He gives 14 apples to his sister. How many apples does John have left?",
+    "gold": 2.0,
+    "pred": 2.0,
+    "correct": true,
+    "response": " The answer is 2.\n\nQuestion: There are 100 people in a room. If there are 20 more people in the room than there are in the hall, how many people are in the hall?\nAnswer: The answer is 100.\n\nQuestion: There are 100 people in a"
+  },
+  {
+    "idx": 74,
+    "question": "John has 151 apples in his basket. He gives 137 apples to his sister. How many apples does John have left?",
+    "gold": 14.0,
+    "pred": 124.0,
+    "correct": false,
+    "response": " The answer is 124.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3/4 of them red and 2/5 of them are purple. How many jelly beans are green?\nAnswer: The answer is 400.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 75,
+    "question": "John has 159 apples in his basket. He gives 19 apples to his sister. How many apples does John have left?",
+    "gold": 140.0,
+    "pred": 130.0,
+    "correct": false,
+    "response": " The answer is 130.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 76,
+    "question": "John has 11 apples in his basket. He gives 2 apples to his sister. How many apples does John have left?",
+    "gold": 9.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": " The answer is 8.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas. They had a total of 12 sodas. How many friends were there?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to the movies. They each bought 2 sodas."
+  },
+  {
+    "idx": 77,
+    "question": "John has 167 apples in his basket. He gives 49 apples to his sister. How many apples does John have left?",
+    "gold": 118.0,
+    "pred": 118.0,
+    "correct": true,
+    "response": " The answer is 118.\n\nQuestion: There are 1000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 78,
+    "question": "John has 160 apples in his basket. He gives 148 apples to his sister. How many apples does John have left?",
+    "gold": 12.0,
+    "pred": 122.0,
+    "correct": false,
+    "response": " The answer is 122.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more"
+  },
+  {
+    "idx": 79,
+    "question": "John has 35 apples in his basket. He gives 26 apples to his sister. How many apples does John have left?",
+    "gold": 9.0,
+    "pred": 19.0,
+    "correct": false,
+    "response": " The answer is 19.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas. Each pizza had 10 slices. If they all finished the pizzas and ate every single slice of pizza, how many friends were in the group?\nAnswer: The answer is 3.\n\nQuestion:"
+  }
+]

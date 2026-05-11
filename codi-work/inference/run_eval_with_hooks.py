@@ -328,7 +328,7 @@ def load_data(dataset: str, num_examples: int):
         return load_cf_under99_b(num_examples)
     if dataset == "cf_gpt_transformed":
         return load_cf_gpt_transformed(num_examples)
-    if dataset in ("vary_numerals", "vary_operator", "vary_a", "vary_b"):
+    if dataset in ("vary_numerals", "vary_operator", "vary_a", "vary_b", "vary_a_2digit", "vary_b_2digit", "vary_both_2digit"):
         return _load_simple_cf(f"{dataset}.json", num_examples)
     raise ValueError(f"unknown dataset: {dataset}")
 
@@ -666,7 +666,7 @@ def main():
     p.add_argument("--mode", choices=["teacher", "student"], required=True)
     p.add_argument(
         "--dataset",
-        choices=["svamp", "gsm-hard", "logic701", "logic701_numeric", "mathqa_numeric", "cf_magmatched", "cf_balanced", "cf_under99", "cf_under99_b", "cf_gpt_transformed", "vary_numerals", "vary_operator", "vary_a", "vary_b"],
+        choices=["svamp", "gsm-hard", "logic701", "logic701_numeric", "mathqa_numeric", "cf_magmatched", "cf_balanced", "cf_under99", "cf_under99_b", "cf_gpt_transformed", "vary_numerals", "vary_operator", "vary_a", "vary_b", "vary_a_2digit", "vary_b_2digit", "vary_both_2digit"],
         default="svamp",
     )
     p.add_argument("--num_examples", type=int, default=10**9)

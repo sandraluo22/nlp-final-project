@@ -1,0 +1,12 @@
+Huginn-3.5B (recurrent-depth)  x  SVAMP (open-ended numeric, 1000 examples)
+K = number of recurrence iterations through the 4-block core
+N examples = 1000
+
+  K | correct  |  acc
+  --+----------+------
+   1 |    4/1000 | 0.004
+   2 |   11/1000 | 0.011
+   4 |   26/1000 | 0.026
+   8 |   26/1000 | 0.026
+  16 |  131/1000 | 0.131
+  32 |  142/1000 | 0.142

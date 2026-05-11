@@ -1,0 +1,7 @@
+{
+  "vocab_size": 50260,
+  "hidden_size": 768,
+  "bot_id": 50258,
+  "eot_id": 50259,
+  "pad_id": 50257
+}

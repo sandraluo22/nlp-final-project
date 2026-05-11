@@ -1,0 +1,145 @@
+{
+  "codi_student_svamp": {
+    "counts": {
+      "junk": 559,
+      "b-a": 4,
+      "b+b": 3,
+      "a+a": 2,
+      "a": 6,
+      "b*b": 1,
+      "a/b": 8,
+      "b": 19,
+      "a-b": 6,
+      "a+b": 2,
+      "b/a": 4,
+      "a*b": 2
+    },
+    "n_wrong": 617,
+    "n_silver": 57,
+    "n_correct": 383,
+    "n_total": 1000
+  },
+  "codi_student_cf": {
+    "counts": {
+      "junk": 499,
+      "a/b": 4,
+      "b/a": 7,
+      "a": 3,
+      "b": 3,
+      "a-b": 1,
+      "a+a": 1,
+      "b*b": 2,
+      "a*b": 1,
+      "b-a": 1,
+      "b+b": 1
+    },
+    "n_wrong": 524,
+    "n_silver": 24,
+    "n_correct": 152,
+    "n_total": 676
+  },
+  "non_latent_teacher_svamp": {
+    "counts": {
+      "a": 13,
+      "junk": 263,
+      "a-b": 35,
+      "a+b": 17,
+      "b+b": 4,
+      "a/b": 10,
+      "b": 12,
+      "a+a": 4,
+      "b-a": 10,
+      "b/a": 6,
+      "a*b": 3
+    },
+    "n_wrong": 378,
+    "n_silver": 114,
+    "n_correct": 622,
+    "n_total": 1000
+  },
+  "codi_llama_svamp": {
+    "counts": {
+      "junk": 341,
+      "a": 5,
+      "b": 7,
+      "a-b": 7,
+      "b+b": 5,
+      "b/a": 5,
+      "a+a": 2,
+      "a/b": 6,
+      "b-a": 4,
+      "b*b": 1,
+      "a+b": 7,
+      "a*b": 1
+    },
+    "n_wrong": 392,
+    "n_silver": 50,
+    "n_correct": 608,
+    "n_total": 1000
+  },
+  "non_latent_teacher_cf_balanced": {
+    "counts": {
+      "junk": 283,
+      "a-b": 5,
+      "b/a": 5,
+      "b-a": 3,
+      "b+b": 4,
+      "b": 2,
+      "a": 1,
+      "a/b": 6,
+      "a+b": 2,
+      "b*b": 1,
+      "a*a": 1
+    },
+    "n_wrong": 314,
+    "n_silver": 30,
+    "n_correct": 362,
+    "n_total": 676
+  },
+  "non_latent_teacher_cf_magmatched": {
+    "counts": {
+      "junk": 297,
+      "b/a": 9,
+      "a": 2,
+      "a/b": 1,
+      "b": 3,
+      "a-b": 2,
+      "b+b": 1,
+      "b-a": 3,
+      "a+b": 2,
+      "b*b": 1
+    },
+    "n_wrong": 322,
+    "n_silver": 24,
+    "n_correct": 650,
+    "n_total": 972
+  },
+  "non_latent_teacher_cf_under99_b": {
+    "counts": {
+      "a": 3,
+      "junk": 191,
+      "b": 3,
+      "a*b": 2,
+      "a/b": 2,
+      "b+b": 2,
+      "b/a": 6,
+      "a-b": 1,
+      "a*a": 1,
+      "b*b": 1,
+      "a+a": 1,
+      "b-a": 1,
+      "a+b": 1
+    },
+    "n_wrong": 216,
+    "n_silver": 24,
+    "n_correct": 406,
+    "n_total": 622
+  },
+  "non_latent_teacher_cf_gpt": {
+    "counts": {},
+    "n_wrong": 12,
+    "n_silver": 0,
+    "n_correct": 534,
+    "n_total": 546
+  }
+}

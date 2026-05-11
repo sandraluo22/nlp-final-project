@@ -1,0 +1,642 @@
+[
+  {
+    "idx": 0,
+    "question": "John has 99 apples in his basket. He gives 39 apples to his sister. How many apples does John have left?",
+    "gold": 60.0,
+    "pred": 60.0,
+    "correct": true,
+    "response": " The answer is 60.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 1,
+    "question": "John has 99 apples in his basket. He gives 57 apples to his sister. How many apples does John have left?",
+    "gold": 42.0,
+    "pred": 42.0,
+    "correct": true,
+    "response": " The answer is 42.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 21"
+  },
+  {
+    "idx": 2,
+    "question": "John has 99 apples in his basket. He gives 58 apples to his sister. How many apples does John have left?",
+    "gold": 41.0,
+    "pred": 41.0,
+    "correct": true,
+    "response": " The answer is 41 apples.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 2"
+  },
+  {
+    "idx": 3,
+    "question": "John has 99 apples in his basket. He gives 26 apples to his sister. How many apples does John have left?",
+    "gold": 73.0,
+    "pred": 73.0,
+    "correct": true,
+    "response": " The answer is 73.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 4,
+    "question": "John has 99 apples in his basket. He gives 34 apples to his sister. How many apples does John have left?",
+    "gold": 65.0,
+    "pred": 65.0,
+    "correct": true,
+    "response": " The answer is 65.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 5,
+    "question": "John has 99 apples in his basket. He gives 15 apples to his sister. How many apples does John have left?",
+    "gold": 84.0,
+    "pred": 84.0,
+    "correct": true,
+    "response": " The answer is 84.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 6,
+    "question": "John has 99 apples in his basket. He gives 20 apples to his sister. How many apples does John have left?",
+    "gold": 79.0,
+    "pred": 79.0,
+    "correct": true,
+    "response": " The answer is 79.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 7,
+    "question": "John has 99 apples in his basket. He gives 27 apples to his sister. How many apples does John have left?",
+    "gold": 72.0,
+    "pred": 72.0,
+    "correct": true,
+    "response": " The answer is 72.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 8,
+    "question": "John has 99 apples in his basket. He gives 41 apples to his sister. How many apples does John have left?",
+    "gold": 58.0,
+    "pred": 58.0,
+    "correct": true,
+    "response": " The answer is 58.\n\nQuestion: There are 100 students in a class. If there are 20 more girls than boys, how many boys are there in the class?\nAnswer: The answer is 100.\n\nQuestion: There are 100 students in a class. If there are"
+  },
+  {
+    "idx": 9,
+    "question": "John has 99 apples in his basket. He gives 74 apples to his sister. How many apples does John have left?",
+    "gold": 25.0,
+    "pred": 25.0,
+    "correct": true,
+    "response": " The answer is 25.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 10,
+    "question": "John has 99 apples in his basket. He gives 36 apples to his sister. How many apples does John have left?",
+    "gold": 63.0,
+    "pred": 63.0,
+    "correct": true,
+    "response": " The answer is 63.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 11,
+    "question": "John has 99 apples in his basket. He gives 61 apples to his sister. How many apples does John have left?",
+    "gold": 38.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 people in a room. If there are 10 more people in the room than in the hallway, how many people are in the hallway?\nAnswer: The answer is <number> people.\n\nQuestion: There are 100 people"
+  },
+  {
+    "idx": 12,
+    "question": "John has 99 apples in his basket. He gives 92 apples to his sister. How many apples does John have left?",
+    "gold": 7.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": " The answer is 8 apples.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to"
+  },
+  {
+    "idx": 13,
+    "question": "John has 99 apples in his basket. He gives 13 apples to his sister. How many apples does John have left?",
+    "gold": 86.0,
+    "pred": 86.0,
+    "correct": true,
+    "response": " The answer is 86.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 14,
+    "question": "John has 99 apples in his basket. He gives 68 apples to his sister. How many apples does John have left?",
+    "gold": 31.0,
+    "pred": 31.0,
+    "correct": true,
+    "response": " The answer is 31 apples.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 2"
+  },
+  {
+    "idx": 15,
+    "question": "John has 99 apples in his basket. He gives 72 apples to his sister. How many apples does John have left?",
+    "gold": 27.0,
+    "pred": 27.0,
+    "correct": true,
+    "response": " The answer is 27.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 16,
+    "question": "John has 99 apples in his basket. He gives 59 apples to his sister. How many apples does John have left?",
+    "gold": 40.0,
+    "pred": 40.0,
+    "correct": true,
+    "response": " The answer is 40.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 17,
+    "question": "John has 99 apples in his basket. He gives 73 apples to his sister. How many apples does John have left?",
+    "gold": 26.0,
+    "pred": 26.0,
+    "correct": true,
+    "response": " The answer is 26.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 18,
+    "question": "John has 99 apples in his basket. He gives 83 apples to his sister. How many apples does John have left?",
+    "gold": 16.0,
+    "pred": 16.0,
+    "correct": true,
+    "response": " The answer is 16 apples.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 4.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 19,
+    "question": "John has 99 apples in his basket. He gives 21 apples to his sister. How many apples does John have left?",
+    "gold": 78.0,
+    "pred": 78.0,
+    "correct": true,
+    "response": " The answer is 78.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 2.\n\nQuestion: A book has 2 chapters."
+  },
+  {
+    "idx": 20,
+    "question": "John has 99 apples in his basket. He gives 12 apples to his sister. How many apples does John have left?",
+    "gold": 87.0,
+    "pred": 87.0,
+    "correct": true,
+    "response": " The answer is 87.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 21,
+    "question": "John has 99 apples in his basket. He gives 44 apples to his sister. How many apples does John have left?",
+    "gold": 55.0,
+    "pred": 55.0,
+    "correct": true,
+    "response": " The answer is 55.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 12"
+  },
+  {
+    "idx": 22,
+    "question": "John has 99 apples in his basket. He gives 76 apples to his sister. How many apples does John have left?",
+    "gold": 23.0,
+    "pred": 23.0,
+    "correct": true,
+    "response": " The answer is 23.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 23,
+    "question": "John has 99 apples in his basket. He gives 62 apples to his sister. How many apples does John have left?",
+    "gold": 37.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 people in a room. If there are 10 more people in the room than in the hallway, how many people are in the hallway?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a"
+  },
+  {
+    "idx": 24,
+    "question": "John has 99 apples in his basket. He gives 70 apples to his sister. How many apples does John have left?",
+    "gold": 29.0,
+    "pred": 29.0,
+    "correct": true,
+    "response": " The answer is 29.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 25,
+    "question": "John has 99 apples in his basket. He gives 24 apples to his sister. How many apples does John have left?",
+    "gold": 75.0,
+    "pred": 75.0,
+    "correct": true,
+    "response": " The answer is 75.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 12"
+  },
+  {
+    "idx": 26,
+    "question": "John has 99 apples in his basket. He gives 94 apples to his sister. How many apples does John have left?",
+    "gold": 5.0,
+    "pred": 8.0,
+    "correct": false,
+    "response": " The answer is 8 apples.\n\nQuestion: There are 10000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "idx": 27,
+    "question": "John has 99 apples in his basket. He gives 43 apples to his sister. How many apples does John have left?",
+    "gold": 56.0,
+    "pred": 46.0,
+    "correct": false,
+    "response": " The answer is 46.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 28,
+    "question": "John has 99 apples in his basket. He gives 22 apples to his sister. How many apples does John have left?",
+    "gold": 77.0,
+    "pred": 77.0,
+    "correct": true,
+    "response": " The answer is 77.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3/4 of them red and 2/5 of them are purple. How many jelly beans are green?\nAnswer: The answer is 400.\n\nQuestion: There are 1000"
+  },
+  {
+    "idx": 29,
+    "question": "John has 99 apples in his basket. He gives 18 apples to his sister. How many apples does John have left?",
+    "gold": 81.0,
+    "pred": 81.0,
+    "correct": true,
+    "response": " The answer is 81.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 30,
+    "question": "John has 99 apples in his basket. He gives 89 apples to his sister. How many apples does John have left?",
+    "gold": 10.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 students in a class. If 1/2 of the students are girls, what is the least number of girls that could be in the class?\nAnswer: The answer is 10.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 31,
+    "question": "John has 99 apples in his basket. He gives 23 apples to his sister. How many apples does John have left?",
+    "gold": 76.0,
+    "pred": 76.0,
+    "correct": true,
+    "response": " The answer is 76.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3/4 of them red and 2/5 of them are purple. How many jelly beans are green?\nAnswer: The answer is 400.\n\nQuestion: There are 1000"
+  },
+  {
+    "idx": 32,
+    "question": "John has 99 apples in his basket. He gives 17 apples to his sister. How many apples does John have left?",
+    "gold": 82.0,
+    "pred": 82.0,
+    "correct": true,
+    "response": " The answer is 82.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 4.\n\nQuestion: A group of friends went to"
+  },
+  {
+    "idx": 33,
+    "question": "John has 99 apples in his basket. He gives 53 apples to his sister. How many apples does John have left?",
+    "gold": 46.0,
+    "pred": 46.0,
+    "correct": true,
+    "response": " The answer is 46.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 34,
+    "question": "John has 99 apples in his basket. He gives 40 apples to his sister. How many apples does John have left?",
+    "gold": 59.0,
+    "pred": 59.0,
+    "correct": true,
+    "response": " The answer is 59.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 35,
+    "question": "John has 99 apples in his basket. He gives 98 apples to his sister. How many apples does John have left?",
+    "gold": 1.0,
+    "pred": 0.0,
+    "correct": false,
+    "response": " The answer is 0.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 2.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 36,
+    "question": "John has 99 apples in his basket. He gives 93 apples to his sister. How many apples does John have left?",
+    "gold": 6.0,
+    "pred": 26.0,
+    "correct": false,
+    "response": " The answer is 26.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: The waiter"
+  },
+  {
+    "idx": 37,
+    "question": "John has 99 apples in his basket. He gives 84 apples to his sister. How many apples does John have left?",
+    "gold": 15.0,
+    "pred": 15.0,
+    "correct": true,
+    "response": " The answer is 15 apples.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 4.\n\nQuestion: A book has 2 chapters"
+  },
+  {
+    "idx": 38,
+    "question": "John has 99 apples in his basket. He gives 28 apples to his sister. How many apples does John have left?",
+    "gold": 71.0,
+    "pred": 71.0,
+    "correct": true,
+    "response": " The answer is 71.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 39,
+    "question": "John has 99 apples in his basket. He gives 87 apples to his sister. How many apples does John have left?",
+    "gold": 12.0,
+    "pred": 12.0,
+    "correct": true,
+    "response": " The answer is 12.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 40,
+    "question": "John has 99 apples in his basket. He gives 79 apples to his sister. How many apples does John have left?",
+    "gold": 20.0,
+    "pred": 20.0,
+    "correct": true,
+    "response": " The answer is 20.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 41,
+    "question": "John has 99 apples in his basket. He gives 14 apples to his sister. How many apples does John have left?",
+    "gold": 85.0,
+    "pred": 85.0,
+    "correct": true,
+    "response": " The answer is 85.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 42,
+    "question": "John has 99 apples in his basket. He gives 66 apples to his sister. How many apples does John have left?",
+    "gold": 33.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 students in a class. If 1/2 of the students are girls, what is the least number of girls that could be in the class?\nAnswer: The answer is 10.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 43,
+    "question": "John has 99 apples in his basket. He gives 46 apples to his sister. How many apples does John have left?",
+    "gold": 53.0,
+    "pred": 43.0,
+    "correct": false,
+    "response": " The answer is 43.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 44,
+    "question": "John has 99 apples in his basket. He gives 81 apples to his sister. How many apples does John have left?",
+    "gold": 18.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 students in a class. If 1/2 of the students are girls, what is the least number of girls that could be in the class?\nAnswer: The answer is 10.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 45,
+    "question": "John has 99 apples in his basket. He gives 55 apples to his sister. How many apples does John have left?",
+    "gold": 44.0,
+    "pred": 44.0,
+    "correct": true,
+    "response": " The answer is 44.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 46,
+    "question": "John has 99 apples in his basket. He gives 64 apples to his sister. How many apples does John have left?",
+    "gold": 35.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 people in a room. If there are 10 more people in the room than in the hallway, how many people are in the hallway?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a"
+  },
+  {
+    "idx": 47,
+    "question": "John has 99 apples in his basket. He gives 30 apples to his sister. How many apples does John have left?",
+    "gold": 69.0,
+    "pred": 69.0,
+    "correct": true,
+    "response": " The answer is 69.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 48,
+    "question": "John has 99 apples in his basket. He gives 86 apples to his sister. How many apples does John have left?",
+    "gold": 13.0,
+    "pred": 13.0,
+    "correct": true,
+    "response": " The answer is 13 apples.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 1"
+  },
+  {
+    "idx": 49,
+    "question": "John has 99 apples in his basket. He gives 78 apples to his sister. How many apples does John have left?",
+    "gold": 21.0,
+    "pred": 21.0,
+    "correct": true,
+    "response": " The answer is 21.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 50,
+    "question": "John has 99 apples in his basket. He gives 50 apples to his sister. How many apples does John have left?",
+    "gold": 49.0,
+    "pred": 49.0,
+    "correct": true,
+    "response": " The answer is 49.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 51,
+    "question": "John has 99 apples in his basket. He gives 35 apples to his sister. How many apples does John have left?",
+    "gold": 64.0,
+    "pred": 64.0,
+    "correct": true,
+    "response": " The answer is 64.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 52,
+    "question": "John has 99 apples in his basket. He gives 49 apples to his sister. How many apples does John have left?",
+    "gold": 50.0,
+    "pred": 40.0,
+    "correct": false,
+    "response": " The answer is 40.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 53,
+    "question": "John has 99 apples in his basket. He gives 29 apples to his sister. How many apples does John have left?",
+    "gold": 70.0,
+    "pred": 70.0,
+    "correct": true,
+    "response": " The answer is 70.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 21"
+  },
+  {
+    "idx": 54,
+    "question": "John has 99 apples in his basket. He gives 77 apples to his sister. How many apples does John have left?",
+    "gold": 22.0,
+    "pred": 22.0,
+    "correct": true,
+    "response": " The answer is 22.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 55,
+    "question": "John has 99 apples in his basket. He gives 75 apples to his sister. How many apples does John have left?",
+    "gold": 24.0,
+    "pred": 24.0,
+    "correct": true,
+    "response": " The answer is 24.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 13"
+  },
+  {
+    "idx": 56,
+    "question": "John has 99 apples in his basket. He gives 19 apples to his sister. How many apples does John have left?",
+    "gold": 80.0,
+    "pred": 80.0,
+    "correct": true,
+    "response": " The answer is 80.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 57,
+    "question": "John has 99 apples in his basket. He gives 38 apples to his sister. How many apples does John have left?",
+    "gold": 61.0,
+    "pred": 61.0,
+    "correct": true,
+    "response": " The answer is 61.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 58,
+    "question": "John has 99 apples in his basket. He gives 54 apples to his sister. How many apples does John have left?",
+    "gold": 45.0,
+    "pred": 45.0,
+    "correct": true,
+    "response": " The answer is 45.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 59,
+    "question": "John has 99 apples in his basket. He gives 11 apples to his sister. How many apples does John have left?",
+    "gold": 88.0,
+    "pred": 88.0,
+    "correct": true,
+    "response": " The answer is 88.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 21"
+  },
+  {
+    "idx": 60,
+    "question": "John has 99 apples in his basket. He gives 47 apples to his sister. How many apples does John have left?",
+    "gold": 52.0,
+    "pred": 42.0,
+    "correct": false,
+    "response": " The answer is 42.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 61,
+    "question": "John has 99 apples in his basket. He gives 42 apples to his sister. How many apples does John have left?",
+    "gold": 57.0,
+    "pred": 57.0,
+    "correct": true,
+    "response": " The answer is 57 apples.\n\nQuestion: There are 1000 jelly beans in a jar. You have 3/4 of them red and 2/5 of them are purple. How many jelly beans are green?\nAnswer: The answer is 400.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 62,
+    "question": "John has 99 apples in his basket. He gives 48 apples to his sister. How many apples does John have left?",
+    "gold": 51.0,
+    "pred": 31.0,
+    "correct": false,
+    "response": " The answer is 31.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 63,
+    "question": "John has 99 apples in his basket. He gives 63 apples to his sister. How many apples does John have left?",
+    "gold": 36.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 students in a class. If 1/2 of the students are girls, what is the least number of girls that could be in the class?\nAnswer: The answer is 10.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 64,
+    "question": "John has 99 apples in his basket. He gives 32 apples to his sister. How many apples does John have left?",
+    "gold": 67.0,
+    "pred": 67.0,
+    "correct": true,
+    "response": " The answer is 67.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 65,
+    "question": "John has 99 apples in his basket. He gives 60 apples to his sister. How many apples does John have left?",
+    "gold": 39.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 people in a room. If there are 10 more people in the room than in the hallway, how many people are in the hallway?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a"
+  },
+  {
+    "idx": 66,
+    "question": "John has 99 apples in his basket. He gives 31 apples to his sister. How many apples does John have left?",
+    "gold": 68.0,
+    "pred": 68.0,
+    "correct": true,
+    "response": " The answer is 68.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 67,
+    "question": "John has 99 apples in his basket. He gives 82 apples to his sister. How many apples does John have left?",
+    "gold": 17.0,
+    "pred": 17.0,
+    "correct": true,
+    "response": " The answer is 17 apples.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10 men.\n\nQuestion: There are 100 people in a room. If there are 10"
+  },
+  {
+    "idx": 68,
+    "question": "John has 99 apples in his basket. He gives 65 apples to his sister. How many apples does John have left?",
+    "gold": 34.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 students in a class. If 1/2 of the students are girls, what is the least number of girls that could be in the class?\nAnswer: The answer is 10.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 69,
+    "question": "John has 99 apples in his basket. He gives 67 apples to his sister. How many apples does John have left?",
+    "gold": 32.0,
+    "pred": Infinity,
+    "correct": false,
+    "response": " The answer is <number> apples.\n\nQuestion: There are 100 students in a class. If 1/2 of the students are girls, what is the least number of girls that could be in the class?\nAnswer: The answer is 10.\n\nQuestion: There are 100 students in"
+  },
+  {
+    "idx": 70,
+    "question": "John has 99 apples in his basket. He gives 85 apples to his sister. How many apples does John have left?",
+    "gold": 14.0,
+    "pred": 14.0,
+    "correct": true,
+    "response": " The answer is 14 apples.\n\nQuestion: There are 1000 jelly beans in a jar. If there are only 484 jelly beans left, how many jelly beans were there in the beginning?\nAnswer: 484\n\nQuestion: There are 1000 jelly beans in a jar."
+  },
+  {
+    "idx": 71,
+    "question": "John has 99 apples in his basket. He gives 56 apples to his sister. How many apples does John have left?",
+    "gold": 43.0,
+    "pred": 43.0,
+    "correct": true,
+    "response": " The answer is 43.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 72,
+    "question": "John has 99 apples in his basket. He gives 25 apples to his sister. How many apples does John have left?",
+    "gold": 74.0,
+    "pred": 74.0,
+    "correct": true,
+    "response": " The answer is 74.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 12"
+  },
+  {
+    "idx": 73,
+    "question": "John has 99 apples in his basket. He gives 51 apples to his sister. How many apples does John have left?",
+    "gold": 48.0,
+    "pred": 48.0,
+    "correct": true,
+    "response": " The answer is 48.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 74,
+    "question": "John has 99 apples in his basket. He gives 10 apples to his sister. How many apples does John have left?",
+    "gold": 89.0,
+    "pred": 89.0,
+    "correct": true,
+    "response": " The answer is 89.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 75,
+    "question": "John has 99 apples in his basket. He gives 16 apples to his sister. How many apples does John have left?",
+    "gold": 83.0,
+    "pred": 83.0,
+    "correct": true,
+    "response": " The answer is 83.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10.\n\nQuestion: There are 100 people in a room. If there are 10 more men"
+  },
+  {
+    "idx": 76,
+    "question": "John has 99 apples in his basket. He gives 37 apples to his sister. How many apples does John have left?",
+    "gold": 62.0,
+    "pred": 62.0,
+    "correct": true,
+    "response": " The answer is 62.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter's coworker, and now have 11 coins in his wallet. How many coins did the waiter have initially?\nAnswer: 21"
+  },
+  {
+    "idx": 77,
+    "question": "John has 99 apples in his basket. He gives 88 apples to his sister. How many apples does John have left?",
+    "gold": 11.0,
+    "pred": 11.0,
+    "correct": true,
+    "response": " The answer is 11 apples.\n\nQuestion: A group of friends went to a restaurant. The group ordered 3 pizzas to share. Each pizza had 8 slices. If each person ordered 2 slices, how many people are in the group?\nAnswer: The answer is 4.\n\nQuestion: There are 100"
+  },
+  {
+    "idx": 78,
+    "question": "John has 99 apples in his basket. He gives 90 apples to his sister. How many apples does John have left?",
+    "gold": 9.0,
+    "pred": 80.0,
+    "correct": false,
+    "response": " The answer is 80.\n\nQuestion: A group of friends went to a restaurant. The waiter had 19 coins in his wallet. They gave 12 coins to the waiter. How many coins are left in the waiter's wallet?\nAnswer: The answer is 7 coins.\n\nQuestion: A book has 2"
+  },
+  {
+    "idx": 79,
+    "question": "John has 99 apples in his basket. He gives 80 apples to his sister. How many apples does John have left?",
+    "gold": 19.0,
+    "pred": 19.0,
+    "correct": true,
+    "response": " The answer is 19 apples.\n\nQuestion: There are 100 people in a room. If there are 10 more men than women, how many men are there?\nAnswer: The answer is 10 men.\n\nQuestion: There are 100 people in a room. If there are 10"
+  }
+]
