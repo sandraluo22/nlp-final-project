@@ -1,0 +1,333 @@
+{
+  "from_N": 5,
+  "to_N": 6,
+  "gained_wrong_to_right": 3,
+  "lost_right_to_wrong": 7,
+  "stable_right": 380,
+  "stable_wrong": 610,
+  "feature_breakdown": {
+    "gained": {
+      "count": 3,
+      "n_words": {
+        "mean": 33.33,
+        "median": 35,
+        "min": 24,
+        "max": 41
+      },
+      "n_chars": {
+        "mean": 169.0,
+        "median": 169,
+        "min": 122,
+        "max": 216
+      },
+      "n_numbers_in_question": {
+        "mean": 2.33,
+        "median": 2,
+        "min": 2,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 283.67,
+        "median": 350.0,
+        "min": 81.0,
+        "max": 420.0
+      },
+      "gold_magnitude_dist": {
+        "10-99": 1,
+        "100-999": 2
+      }
+    },
+    "lost": {
+      "count": 7,
+      "n_words": {
+        "mean": 34.43,
+        "median": 33,
+        "min": 28,
+        "max": 44
+      },
+      "n_chars": {
+        "mean": 178.43,
+        "median": 163,
+        "min": 137,
+        "max": 252
+      },
+      "n_numbers_in_question": {
+        "mean": 3.14,
+        "median": 3,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 11.71,
+        "median": 13.0,
+        "min": 2.0,
+        "max": 31.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 3,
+        "10-99": 4
+      }
+    },
+    "stable_right": {
+      "count": 380,
+      "n_words": {
+        "mean": 29.34,
+        "median": 28.0,
+        "min": 15,
+        "max": 53
+      },
+      "n_chars": {
+        "mean": 149.64,
+        "median": 145.0,
+        "min": 68,
+        "max": 303
+      },
+      "n_numbers_in_question": {
+        "mean": 2.37,
+        "median": 2.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 37.83,
+        "median": 9.0,
+        "min": 1.0,
+        "max": 2080.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 191,
+        "10-99": 162,
+        "100-999": 26,
+        "1000-9999": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 610,
+      "n_words": {
+        "mean": 33.22,
+        "median": 32.0,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 170.28,
+        "median": 163.0,
+        "min": 76,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 3.08,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 50078.3,
+        "median": 25.0,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 184,
+        "10-99": 249,
+        "100-999": 110,
+        "1000-9999": 38,
+        "10000+": 29
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 198,
+      "question": "Shirley sold 25 cases of boxes of trefoils. How many boxes of trefoils does she need to deliver if each case has 14 boxes?",
+      "gold": 350.0,
+      "pred_N5": 25.0,
+      "pred_N6": 350.0,
+      "response_N5": "The answer is: 25",
+      "response_N6": "The answer is: 350",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 24,
+        "n_chars": 122,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 350.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 208,
+      "question": "He then went to see the oranges being harvested. He found out that they harvest 67 sacks per day and that each sack containes 12 oranges. How many oranges are harvested if they harvest a total of 35 sacks of oranges?",
+      "gold": 420.0,
+      "pred_N5": 1008.0,
+      "pred_N6": 420.0,
+      "response_N5": "The answer is: 1008",
+      "response_N6": "The answer is: 420",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 41,
+        "n_chars": 216,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 420.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 743,
+      "question": "After resting they decided to go for a swim. If the depth of the water is 10 times Dean's height and he stands at 9 feet How much deeper is the water than Dean's height?",
+      "gold": 81.0,
+      "pred_N5": 85.0,
+      "pred_N6": 81.0,
+      "response_N5": "The answer is: 85",
+      "response_N6": "The answer is: 81",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 35,
+        "n_chars": 169,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 81.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 298,
+      "question": "5 storks and 3 birds were sitting on the fence. 4 more birds came to join them. How many more birds than storks are sitting on the fence?",
+      "gold": 2.0,
+      "pred_N5": 2.0,
+      "pred_N6": 4.0,
+      "response_N5": "The answer is: 2",
+      "response_N6": "The answer is: 4",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 137,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 341,
+      "question": "Paco had 40 sweet cookies and 25 salty cookies. He ate 28 salty cookies and 15 sweet cookies. How many more salty cookies than sweet cookies did he eat?",
+      "gold": 13.0,
+      "pred_N5": 13.0,
+      "pred_N6": -2.0,
+      "response_N5": "The answer is: 13",
+      "response_N6": "The answer is: -2",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 29,
+        "n_chars": 152,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 535,
+      "question": "4 people can ride the Ferris wheel in paradise park at the same time. If each seat on the Ferris wheel can hold 2 people How many seats does the Ferris wheel have?",
+      "gold": 2.0,
+      "pred_N5": 2.0,
+      "pred_N6": 8.0,
+      "response_N5": "The answer is: 2",
+      "response_N6": "The answer is: 8",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 33,
+        "n_chars": 163,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 579,
+      "question": "There are 10 different books and 6 different movies in the ' crazy silly school ' series. If you read 14 of the movies and watched 19 of the books How many more books than movies have you read?",
+      "gold": 5.0,
+      "pred_N5": 5.0,
+      "pred_N6": 6.0,
+      "response_N5": "The answer is: 5",
+      "response_N6": "The answer is: 6",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 39,
+        "n_chars": 193,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 592,
+      "question": "A book has 3 chapters. The first chapter is 35 pages long the second chapter is 18 pages long and the third chapter is 3 pages long. How many more pages does the second chapter have than the third chapter?",
+      "gold": 15.0,
+      "pred_N5": 15.0,
+      "pred_N6": 10.0,
+      "response_N5": "The answer is: 15",
+      "response_N6": "The answer is: 10",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 40,
+        "n_chars": 205,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 15.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 629,
+      "question": "Rebecca wants to split a collection of eggs into groups of 5. Rebecca has 20 eggs and 6 marbles. How many more eggs does Rebecca have than marbles?",
+      "gold": 14.0,
+      "pred_N5": 14.0,
+      "pred_N6": 2.0,
+      "response_N5": "The answer is: 14",
+      "response_N6": "The answer is: 2",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 147,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 14.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 931,
+      "question": "Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?",
+      "gold": 31.0,
+      "pred_N5": 31.0,
+      "pred_N6": 25.0,
+      "response_N5": "The answer is: 31",
+      "response_N6": "The answer is: 25",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 44,
+        "n_chars": 252,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 31.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ]
+}

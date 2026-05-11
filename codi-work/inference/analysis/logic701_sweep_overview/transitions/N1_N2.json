@@ -1,0 +1,357 @@
+{
+  "from_N": 1,
+  "to_N": 2,
+  "gained_wrong_to_right": 4,
+  "lost_right_to_wrong": 6,
+  "stable_right": 20,
+  "stable_wrong": 671,
+  "feature_breakdown": {
+    "gained": {
+      "count": 4,
+      "n_words": {
+        "mean": 103.5,
+        "median": 86.5,
+        "min": 48,
+        "max": 193
+      },
+      "n_chars": {
+        "mean": 568.5,
+        "median": 429.5,
+        "min": 233,
+        "max": 1182
+      },
+      "n_numbers_in_question": {
+        "mean": 9.75,
+        "median": 10.5,
+        "min": 5,
+        "max": 13
+      },
+      "gold_numeric": {
+        "mean": 4.0,
+        "median": 4.5,
+        "min": 2.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 4
+      },
+      "gold_option_dist": {
+        "2": 1,
+        "4": 1,
+        "5": 2
+      }
+    },
+    "lost": {
+      "count": 6,
+      "n_words": {
+        "mean": 148.17,
+        "median": 140.0,
+        "min": 103,
+        "max": 219
+      },
+      "n_chars": {
+        "mean": 766.67,
+        "median": 703.5,
+        "min": 534,
+        "max": 1135
+      },
+      "n_numbers_in_question": {
+        "mean": 16.83,
+        "median": 15.0,
+        "min": 5,
+        "max": 40
+      },
+      "gold_numeric": {
+        "mean": 4.17,
+        "median": 4.0,
+        "min": 4.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 6
+      },
+      "gold_option_dist": {
+        "4": 5,
+        "5": 1
+      }
+    },
+    "stable_right": {
+      "count": 20,
+      "n_words": {
+        "mean": 87.55,
+        "median": 78.5,
+        "min": 36,
+        "max": 177
+      },
+      "n_chars": {
+        "mean": 459.0,
+        "median": 411.5,
+        "min": 174,
+        "max": 933
+      },
+      "n_numbers_in_question": {
+        "mean": 15.35,
+        "median": 13.0,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 3.45,
+        "median": 3.5,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 20
+      },
+      "gold_option_dist": {
+        "1": 2,
+        "2": 5,
+        "3": 3,
+        "4": 2,
+        "5": 8
+      }
+    },
+    "stable_wrong": {
+      "count": 671,
+      "n_words": {
+        "mean": 89.12,
+        "median": 81,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 464.53,
+        "median": 420,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.76,
+        "median": 13,
+        "min": 5,
+        "max": 52
+      },
+      "gold_numeric": {
+        "mean": 2.74,
+        "median": 2.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 671
+      },
+      "gold_option_dist": {
+        "1": 141,
+        "2": 195,
+        "3": 161,
+        "4": 45,
+        "5": 129
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 136,
+      "question": "A group of four friends—Alice, Bob, Charlie, and Dana—are discussing their favorite fruits. One of them loves apples, another one loves bananas, the third loves cherries, and the fourth loves dates. They make the following statements: Alice: 'I do not like dates, and the person who likes bananas is taller than I am.' Bob: 'I am taller than Dana, and I do not like cherries.' Charlie: 'The person who likes dates is shorter than I am.' Dana: 'I am not the tallest one, and I do not like bananas.' Only one of the friends is lying about their preferences, and the statement about their own height is true. Who is lying about their fruit preference, and what is the correct fruit preference order for Alice, Bob, Charlie, and Dana?\n\nOptions:\n1. Alice is lying, prefers dates; Order: Alice (Apples), Bob (Cherries), Charlie (Bananas), Dana (Dates)\n2. Bob is lying, prefers apples; Order: Alice (Cherries), Bob (Apples), Charlie (Bananas), Dana (Dates)\n3. Charlie is lying, prefers bananas; Order: Alice (Cherries), Bob (Bananas), Charlie (Dates), Dana (Apples)\n4. Dana is lying, prefers bananas; Order: Alice (Apples), Bob (Bananas), Charlie (Cherries), Dana (Dates)\n5. Another answer",
+      "gold": 5,
+      "pred_N1": -1,
+      "pred_N2": 5,
+      "response_N1": "",
+      "response_N2": "The answer is: 5",
+      "correct_N1": false,
+      "correct_N2": true,
+      "features": {
+        "n_words": 193,
+        "n_chars": 1182,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 247,
+      "question": "A woman lives on the 10th floor of a building. Every day she takes the elevator to go down to the ground floor to go to work or to go shopping. When she returns she takes the elevator to the 7th floor and walks the rest of the way up to her apartment on the 10th floor. She hates walking so why does she do it?\n\nOptions:\n1. She is doing it for exercise.\n2. The elevator is broken for floors 8 through 10.\n3. She only walks up when it's raining outside.\n4. She can't reach the button for the 10th floor.\n5. Another answer",
+      "gold": 4,
+      "pred_N1": 5,
+      "pred_N2": 4,
+      "response_N1": "The answer is: 5",
+      "response_N2": "The answer is: 4",
+      "correct_N1": false,
+      "correct_N2": true,
+      "features": {
+        "n_words": 106,
+        "n_chars": 520,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 329,
+      "question": "In a game, you are given the opportunity to roll a fair six-sided die two times. You win if at least one of the rolls is a six. What is the probability of winning the game?\n\nOptions:\n1. 1/6\n2. 11/36\n3. 1/36\n4. 30/36\n5. Another answer",
+      "gold": 2,
+      "pred_N1": -1,
+      "pred_N2": 2,
+      "response_N1": "The answer is: 11/108",
+      "response_N2": "The answer is: 1/2",
+      "correct_N1": false,
+      "correct_N2": true,
+      "features": {
+        "n_words": 48,
+        "n_chars": 233,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 331,
+      "question": "Imagine a cube with an edge length of 3 units. Inside this cube, a smaller cube is situated in such a way that each corner of the smaller cube touches the middle of each face of the larger cube. What is the volume of this smaller cube?\n\nOptions:\n1. 27 cubic units\n2. 153.09 cubic units\n3. 81 cubic units\n4. 54 cubic units\n5. Another answer",
+      "gold": 5,
+      "pred_N1": -1,
+      "pred_N2": 5,
+      "response_N1": "The answer is: 27",
+      "response_N2": "The answer is: 4.5",
+      "correct_N1": false,
+      "correct_N2": true,
+      "features": {
+        "n_words": 67,
+        "n_chars": 339,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 155,
+      "question": "Imagine you are given three empty jars that can hold 3 liters, 5 liters, and 8 liters of water respectively. The 8-liter jar is full of water, but the other two are empty. By only using these jars and the water provided, how can you measure exactly 4 liters of water?\n\nOptions:\n1. Impossible to measure exactly 4 liters\n2. Fill the 3-liter jar and pour it into the 5-liter jar, then fill the 3-liter jar again and pour until the 5-liter jar is full. The remainder in the 3-liter jar is 4 liters.\n3. Fill the 5-liter jar and pour it into the 8-liter jar until it has only 3 liters left, which is then poured into the 3-liter jar, leaving 4 liters in the 5-liter jar.\n4. Fill the 5-liter jar with water from the 8-liter jar, then pour the water from the 5-liter jar into the 3-liter jar. When the 3-liter jar is full, there will be 2 liters left in the 5-liter jar. Empty the 3-liter jar and pour the 2 liters from the 5-liter jar into it. Now fill the 5-liter jar again from the 8-liter jar, and pour 1 liter into the 3-liter jar which already contains 2 liters. The 8-liter jar now has exactly 4 liters of water left.\n5. Another answer",
+      "gold": 4,
+      "pred_N1": 4,
+      "pred_N2": -1,
+      "response_N1": "5-1=4",
+      "response_N2": "The answer is: 7",
+      "correct_N1": true,
+      "correct_N2": false,
+      "features": {
+        "n_words": 219,
+        "n_chars": 1135,
+        "n_numbers_in_question": 40,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 408,
+      "question": "You are in a room with 4 doors, each door leads to a path that comes to a fork. The room has a sign saying, 'Three of these paths lead to a loop that will bring you back to this room. One path leads to freedom. The Room of Truth contains the clue to your escape, and lies at the end of the second left path after any fork.' In the Room of Truth, you find another sign, 'The safe door is not the first on the left, but it is a prime number away from it.' Which door do you choose for freedom?\n\nOptions:\n1. Door 1\n2. Door 2\n3. Door 3\n4. Door 4\n5. Another answer",
+      "gold": 4,
+      "pred_N1": 4,
+      "pred_N2": 5,
+      "response_N1": "4",
+      "response_N2": "The answer is: 5",
+      "correct_N1": true,
+      "correct_N2": false,
+      "features": {
+        "n_words": 120,
+        "n_chars": 559,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 416,
+      "question": "You are presented with a machine that has three levers, each connected to a different mechanism. The first lever toggles the flow of water, the second one toggles the rotation of a wheel, and the third operates a bellows. If the wheel rotates, it can only do so when the flow of water is on. The bellows will only operate if the wheel is not rotating. Additionally, if the flow of water is toggled off suddenly, it causes the wheel to rotate twice as fast for a short period before stopping. If you start with all mechanisms off and then pull the first and third levers simultaneously, then immediately pull only the second lever while releasing the others, what is the final state of the machine's mechanisms?\n\nOptions:\n1. Water flow on, wheel not rotating, bellows operating\n2. Water flow off, wheel rotating, bellows operating\n3. Water flow off, wheel rotating, bellows not operating\n4. Water flow off, wheel not rotating, bellows not operating\n5. Another answer",
+      "gold": 4,
+      "pred_N1": 4,
+      "pred_N2": 5,
+      "response_N1": " is: 4",
+      "response_N2": "The answer is: 5",
+      "correct_N1": true,
+      "correct_N2": false,
+      "features": {
+        "n_words": 167,
+        "n_chars": 965,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 437,
+      "question": "You are in a room with 4 doors, positioned at each wall and facing the cardinal directions: North, East, South, and West. Each door leads to a distinct room, and only one of these rooms contains an escape key, while the others contain a trap. The escape room door follows a logic based on its positioning. If North is Door 1, East is Door 2, South is Door 3, and West is Door 4, the following clues are provided: (1) The escape room door's number is not prime. (2) The sum of the digits of the escape room door's number is greater than the room door number directly opposite it. Which door should you choose to escape safely?\n\nOptions:\n1. North - Door 1\n2. East - Door 2\n3. South - Door 3\n4. West - Door 4\n5. Another answer",
+      "gold": 4,
+      "pred_N1": 4,
+      "pred_N2": -1,
+      "response_N1": "4",
+      "response_N2": "The answer is: 6",
+      "correct_N1": true,
+      "correct_N2": false,
+      "features": {
+        "n_words": 142,
+        "n_chars": 723,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 486,
+      "question": "Alice, Bob, and Charlie are three friends who decide to paint a room together. They find that Alice can paint the room completely by herself in 5 hours, Bob can do it in 6 hours, and Charlie in 8 hours. They start painting together at the same pace they normally would by themselves, but after 2 hours, Charlie has to leave. How much time, in hours, will it take for Alice and Bob to finish painting the room after Charlie leaves?\n\nOptions:\n1. 3 hours\n2. 2.5 hours\n3. 2 hours and 30 minutes\n4. 2 hours and 45 minutes\n5. Another answer",
+      "gold": 4,
+      "pred_N1": 4,
+      "pred_N2": 5,
+      "response_N1": "The answer is: 4",
+      "response_N2": "The answer is: 4.5",
+      "correct_N1": true,
+      "correct_N2": false,
+      "features": {
+        "n_words": 103,
+        "n_chars": 534,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 657,
+      "question": "You have to bake 12 cakes for a party and each cake takes exactly one hour to bake. You only have one oven, which can bake up to two cakes at a time. You need to let each cake cool for half an hour after baking before they can be decorated. The decoration of each cake takes 15 minutes and can only be done one at a time. You must finish all tasks (baking, cooling, decorating) within 6 hours to be ready for the party. What time must you start baking the first cake to finish on time for the party?\n\nOptions:\n1. 5 hours and 45 minutes before the party\n2. 5 hours and 15 minutes before the party\n3. 4 hours and 45 minutes before the party\n4. 6 hours before the party\n5. Another answer",
+      "gold": 5,
+      "pred_N1": 5,
+      "pred_N2": -1,
+      "response_N1": "The answer is: 6.5",
+      "response_N2": "The answer is: 6",
+      "correct_N1": true,
+      "correct_N2": false,
+      "features": {
+        "n_words": 138,
+        "n_chars": 684,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "from_step": 5,
+  "to_step": 6,
+  "gained_wrong_to_right": 5,
+  "lost_right_to_wrong": 8,
+  "stable_right": 0,
+  "stable_wrong": 688,
+  "feature_breakdown": {
+    "gained": {
+      "count": 5,
+      "n_words": {
+        "mean": 140.6,
+        "median": 147,
+        "min": 73,
+        "max": 221
+      },
+      "n_chars": {
+        "mean": 762.4,
+        "median": 817,
+        "min": 419,
+        "max": 1193
+      },
+      "n_numbers_in_question": {
+        "mean": 10.2,
+        "median": 7,
+        "min": 5,
+        "max": 22
+      },
+      "gold_numeric": {
+        "mean": 2.0,
+        "median": 2.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 5
+      },
+      "gold_option_dist": {
+        "2": 5
+      }
+    },
+    "lost": {
+      "count": 8,
+      "n_words": {
+        "mean": 81.75,
+        "median": 71.5,
+        "min": 46,
+        "max": 150
+      },
+      "n_chars": {
+        "mean": 431.25,
+        "median": 375.0,
+        "min": 253,
+        "max": 802
+      },
+      "n_numbers_in_question": {
+        "mean": 10.38,
+        "median": 11.5,
+        "min": 5,
+        "max": 17
+      },
+      "gold_numeric": {
+        "mean": 4.5,
+        "median": 5.0,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 8
+      },
+      "gold_option_dist": {
+        "3": 2,
+        "5": 6
+      }
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 688,
+      "n_words": {
+        "mean": 89.38,
+        "median": 81.0,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 465.83,
+        "median": 423.5,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.9,
+        "median": 13.0,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 2.77,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 688
+      },
+      "gold_option_dist": {
+        "1": 143,
+        "2": 196,
+        "3": 162,
+        "4": 53,
+        "5": 134
+      }
+    }
+  },
+  "topk": 1,
+  "layer": 16,
+  "gained_questions": [
+    {
+      "idx": 42,
+      "question": "Laura, Marcus, and Nora have been captured by a notorious pirate, who has decided to give them a chance for freedom. The pirate blindfolds them and tells them that he will place a hat on each of their heads. Each hat is either black or white, and there are at least two hats of each color. They will stand in a line, one behind the other, facing forward, so that Laura can see both Marcus and Nora, Marcus can only see Nora, and Nora can't see anyone. When the blindfolds are removed, they can't speak to or signal each other, and they can't look at their own hats. They must guess the color of their own hat starting with Laura, then Marcus, and then Nora. If at least one of them guesses correctly, they will all go free. The pirate also tells them that he will place the hats while they are still blindfolded and that they will have some time to strategize before he does so. What strategy should they use to maximize their chances of freedom?\n\nOptions:\n1. Laura speaks out the color she sees most of.\n2. Laura remains silent for reasoning, not randomly.\n3. They all randomly guess a color.\n4. They take turns speaking out each color until someone guesses their hat color.\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 0,
+      "features": {
+        "n_words": 221,
+        "n_chars": 1193,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 43,
+      "question": "You have 12 coins and a balance scale. However, 11 coins are identical, and one coin is slightly heavier than the rest. Using the balance scale only three times, determine which coin is the heavier one.\n\nOptions:\n1. Impossible with just three uses of the scale\n2. Divide the coins into groups and compare weights\n3. Weigh each coin individually\n4. The task cannot be completed due to insufficient data\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 0,
+      "features": {
+        "n_words": 73,
+        "n_chars": 419,
+        "n_numbers_in_question": 7,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 334,
+      "question": "A team of three workers, Anna, Bob, and Charles, operates a complex mechanism that requires all three to pull levers simultaneously to activate. The mechanism can only be activated twice a day. Each worker can pull their lever only once per day. A new policy dictates that for security reasons, no worker can pull the lever two days in a row. If Anna pulled her lever yesterday, who are the two workers that can operate the mechanism today?\n\nOptions:\n1. Anna and Bob\n2. Bob and Charles\n3. Charles and Anna\n4. Anna, Bob, and Charles\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 0,
+      "features": {
+        "n_words": 99,
+        "n_chars": 549,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 476,
+      "question": "In a factory, there are three machines A, B, and C. Machine A can produce 30 widgets per hour. Machine B can produce 20 widgets more per hour than Machine A, but it's only 80% as reliable (meaning it's operational 80% of the time B operates). Machine C is two times less productive than Machine A, but it never breaks down. If all machines start working simultaneously, after 4 hours of operation, due to a power outage, only one of the machines can be operated for an additional 2 hours. Which machine should be operated after the power outage to maximize the number of widgets produced at the end of the 6-hour period, assuming that machine B, if selected, will not face any reliability issues during those additional hours?\n\nOptions:\n1. Machine A\n2. Machine B\n3. Machine C\n4. None of the machines\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 0,
+      "features": {
+        "n_words": 147,
+        "n_chars": 817,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 675,
+      "question": "You have two water jars, one with a capacity of 5 liters and the other with a capacity of 3 liters. There is a large barrel of water from which you can fill the jars. You need to measure exactly 4 liters of water to diffuse a time-sensitive bomb. You can fill the jars, empty them out, and pour water from one jar to the other. How do you measure exactly 4 liters of water?\n\nOptions:\n1. Fill the 3-liter jar twice.\n2. Fill the 5-liter jar and pour into the 3-liter jar until it's full, then empty the 3-liter jar, pour the remaining 2 liters into the 3-liter jar, fill the 5-liter jar again, and use it to top off the 3-liter jar, leaving 4 liters in the 5-liter jar.\n3. Fill the 5-liter jar completely and guess when you pour out to make 4 liters.\n4. Transfer water back and forth until you get lucky with 4 liters.\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 0,
+      "features": {
+        "n_words": 163,
+        "n_chars": 834,
+        "n_numbers_in_question": 22,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 61,
+      "question": "A woman buys a new pair of shoes, goes to work, and dies. What happened?\n\nOptions:\n1. The woman was allergic to the material of the shoes.\n2. The shoes caused her to trip, fall, and suffer a fatal injury.\n3. An infection from a blister caused by the shoes led to her death.\n4. The heel of the shoe broke off, causing a fatal accident on the stairs.\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 33,
+      "features": {
+        "n_words": 72,
+        "n_chars": 366,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 75,
+      "question": "In a room there are 4 switches. Each switch can be turned on or off. There is a light bulb in a sealed box that is opaque and you cannot see inside it. Only one switch is connected to the light bulb. You begin with all the switches in the off position. You can perform the following actions: (1) Toggle any switches you desire. (2) Open the box to inspect the light bulb-status but once opened you cannot toggle the switches again. How do you determine which switch is connected to the light bulb with only one inspection?\n\nOptions:\n1. Switch 1\n2. Switch 2\n3. Switch 3\n4. Switch 4\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 26,
+      "features": {
+        "n_words": 114,
+        "n_chars": 598,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 87,
+      "question": "You have a numeric keypad with numbers from 1 to 9 arranged in a 3x3 grid: 123 on the top row, 456 in the middle, and 789 on the bottom row. If you can only move to adjacent numbers (horizontally, vertically, or diagonally) to form a five-digit number, and the center number 5 must be used as the third digit, how many unique five-digit numbers can you form?\n\nOptions:\n1. 1024\n2. 4608\n3. 5670\n4. 4096\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 5571,
+      "features": {
+        "n_words": 80,
+        "n_chars": 418,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 207,
+      "question": "Pete is reading a book. Suddenly he throws the book away and turns on the light. Why did Pete throw the book away and turn on the light?\n\nOptions:\n1. He finished reading the book.\n2. There was a power outage.\n3. He read something frightening.\n4. The book was damaged and he threw it away in frustration.\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 24,
+      "features": {
+        "n_words": 61,
+        "n_chars": 321,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 349,
+      "question": "Imagine a 3x3x3 Rubik's cube. Each small cube on the surface is colored either red, blue, or green. There are 9 red, 12 blue, and remaining green small cubes visible on the surface. Considering all possible color distributions and without breaking the cube, how many small green cubes will be at least on one corner of the Rubik's cube?\n\nOptions:\n1. 1\n2. 2\n3. 3\n4. 4\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 299,
+      "features": {
+        "n_words": 71,
+        "n_chars": 384,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 487,
+      "question": "You encounter a sequence of numbers where each term after the first two is the sum of the previous two terms multiplied by the sum of their positional indices in the sequence. If the sequence begins with 2 and 3, what is the fifth term in the sequence?\n\nOptions:\n1. 370\n2. 630\n3. 735\n4. 945\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 608,
+      "features": {
+        "n_words": 60,
+        "n_chars": 308,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 512,
+      "question": "On a table, there are three boxes labeled with the letters A, B, and C. Each box is incorrectly labeled with its contents. Box A is labeled 'Oranges', Box B is labeled 'Apples', and Box C is labeled 'Apples and Oranges', but none of these labels correctly describe the contents of their boxes. By only drawing one fruit from one box, can you determine the correct labels for all the boxes? What box will you draw from and what will be your subsequent logic to correctly relabel them?\n\nOptions:\n1. Draw from Box A, Box A: Apples and Oranges, Box B: Oranges, Box C: Apples\n2. Draw from Box B, Box A: Oranges, Box B: Apples and Oranges, Box C: Apples\n3. Draw from Box C, Box C holds whatever fruit is drawn, the other two are determined accordingly\n4. Cannot be solved with just one draw\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 2,
+      "features": {
+        "n_words": 150,
+        "n_chars": 802,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 591,
+      "question": "You're given a numeric sequence that appears random at first glance: 2, 12, 36, 80, 150, ____. To find the missing number, you must realize the hidden pattern. What number should replace the blank?\n\nOptions:\n1. 210\n2. 246\n3. 290\n4. 256\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 4443,
+      "features": {
+        "n_words": 46,
+        "n_chars": 253,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "from_N": 3,
+  "to_N": 4,
+  "gained_wrong_to_right": 3,
+  "lost_right_to_wrong": 1,
+  "stable_right": 607,
+  "stable_wrong": 389,
+  "feature_breakdown": {
+    "gained": {
+      "count": 3,
+      "n_words": {
+        "mean": 27.0,
+        "median": 27,
+        "min": 26,
+        "max": 28
+      },
+      "n_chars": {
+        "mean": 133.33,
+        "median": 134,
+        "min": 128,
+        "max": 138
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 69.0,
+        "median": 94.0,
+        "min": 8.0,
+        "max": 105.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1,
+        "10-99": 1,
+        "100-999": 1
+      }
+    },
+    "lost": {
+      "count": 1,
+      "n_words": {
+        "mean": 35.0,
+        "median": 35,
+        "min": 35,
+        "max": 35
+      },
+      "n_chars": {
+        "mean": 176.0,
+        "median": 176,
+        "min": 176,
+        "max": 176
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 229.0,
+        "median": 229.0,
+        "min": 229.0,
+        "max": 229.0
+      },
+      "gold_magnitude_dist": {
+        "100-999": 1
+      }
+    },
+    "stable_right": {
+      "count": 607,
+      "n_words": {
+        "mean": 30.31,
+        "median": 29,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 154.12,
+        "median": 149,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.58,
+        "median": 3,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 177.33,
+        "median": 13.0,
+        "min": 1.0,
+        "max": 30057.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 260,
+        "10-99": 265,
+        "100-999": 73,
+        "1000-9999": 7,
+        "10000+": 2
+      }
+    },
+    "stable_wrong": {
+      "count": 389,
+      "n_words": {
+        "mean": 34.03,
+        "median": 33,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 175.74,
+        "median": 170,
+        "min": 76,
+        "max": 323
+      },
+      "n_numbers_in_question": {
+        "mean": 3.16,
+        "median": 3,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 78290.49,
+        "median": 24.0,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 117,
+        "10-99": 150,
+        "100-999": 63,
+        "1000-9999": 32,
+        "10000+": 27
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 304,
+      "question": "2 red peaches, 6 yellow peaches and 14 green peaches are in the basket. How many more green peaches than yellow peaches are in the basket?",
+      "gold": 8.0,
+      "pred_N3": 10.0,
+      "pred_N4": 8.0,
+      "response_N3": "The answer is: 10",
+      "response_N4": "The answer is: 8",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 26,
+        "n_chars": 138,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 321,
+      "question": "Paul had 2 books. After selling some in a garage sale he bought 150 new ones. If he has 58 books now How many books did he sell?",
+      "gold": 94.0,
+      "pred_N3": 100.0,
+      "pred_N4": 94.0,
+      "response_N3": "The answer is: 100",
+      "response_N4": "The answer is: 94",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 128,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 94.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 842,
+      "question": "Kelly has 80 nintendo games. She found 31 more nintendo games. How many does she need to give away so that she will have 6 games left?",
+      "gold": 105.0,
+      "pred_N3": 5.0,
+      "pred_N4": 105.0,
+      "response_N3": "The answer is: 5",
+      "response_N4": "The answer is: 105",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 27,
+        "n_chars": 134,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 105.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 874,
+      "question": "Paul got a box of 65 crayons for his birthday. During the school year he gave 213 crayons to his friends while he lost 16 crayons. How many crayons had been lost or given away?",
+      "gold": 229.0,
+      "pred_N3": 229.0,
+      "pred_N4": 239.0,
+      "response_N3": "The answer is: 229",
+      "response_N4": "The answer is: 239",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 35,
+        "n_chars": 176,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 229.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    }
+  ]
+}

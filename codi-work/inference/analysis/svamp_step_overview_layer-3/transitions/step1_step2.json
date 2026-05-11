@@ -1,0 +1,224 @@
+{
+  "from_step": 1,
+  "to_step": 2,
+  "gained_wrong_to_right": 1,
+  "lost_right_to_wrong": 4,
+  "stable_right": 1,
+  "stable_wrong": 926,
+  "feature_breakdown": {
+    "gained": {
+      "count": 1,
+      "n_words": {
+        "mean": 33.0,
+        "median": 33,
+        "min": 33,
+        "max": 33
+      },
+      "n_chars": {
+        "mean": 183.0,
+        "median": 183,
+        "min": 183,
+        "max": 183
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 111.0,
+        "median": 111.0,
+        "min": 111.0,
+        "max": 111.0
+      },
+      "gold_magnitude_dist": {
+        "100-999": 1
+      }
+    },
+    "lost": {
+      "count": 4,
+      "n_words": {
+        "mean": 31.0,
+        "median": 29.5,
+        "min": 23,
+        "max": 42
+      },
+      "n_chars": {
+        "mean": 152.75,
+        "median": 154.5,
+        "min": 115,
+        "max": 187
+      },
+      "n_numbers_in_question": {
+        "mean": 3.5,
+        "median": 3.5,
+        "min": 3,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 32.75,
+        "median": 28.5,
+        "min": 6.0,
+        "max": 68.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1,
+        "10-99": 3
+      }
+    },
+    "stable_right": {
+      "count": 1,
+      "n_words": {
+        "mean": 44.0,
+        "median": 44,
+        "min": 44,
+        "max": 44
+      },
+      "n_chars": {
+        "mean": 220.0,
+        "median": 220,
+        "min": 220,
+        "max": 220
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 926,
+      "n_words": {
+        "mean": 31.68,
+        "median": 30.0,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 161.93,
+        "median": 153.0,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.81,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 64.85,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 997.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 376,
+        "10-99": 413,
+        "100-999": 137
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 14,
+  "gained_questions": [
+    {
+      "idx": 50,
+      "question": "Frank was reading through his favorite book. The book had 555 pages equally distributed over 5 chapters. It took Frank 220 days to finish the book. How many pages are in each chapter?",
+      "gold": 111.0,
+      "pred": 111.0,
+      "student_final_correct": true,
+      "rank_step1": 5,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 33,
+        "n_chars": 183,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 111.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 55,
+      "question": "Jack received 5 emails and 6 letters in the morning. He then received 9 emails and 7 letters in the afternoon. How many letters did jack receive in the day?",
+      "gold": 13.0,
+      "pred": 27.0,
+      "student_final_correct": false,
+      "rank_step1": 2,
+      "rank_step2": 3365,
+      "features": {
+        "n_words": 30,
+        "n_chars": 156,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 367,
+      "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 5 cups of sugar. She already put in 3 cups of flour and 62 cups of sugar. How many more cups of flour does she need to add?",
+      "gold": 6.0,
+      "pred": 4.0,
+      "student_final_correct": false,
+      "rank_step1": 0,
+      "rank_step2": 3393,
+      "features": {
+        "n_words": 42,
+        "n_chars": 187,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 372,
+      "question": "We ordered 17 pizzas. Each pizza has 4 slices. If there are 25 of us How many slices of pizza are there altogether?",
+      "gold": 68.0,
+      "pred": 80.0,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 870,
+      "features": {
+        "n_words": 23,
+        "n_chars": 115,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 68.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 856,
+      "question": "Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?",
+      "gold": 44.0,
+      "pred": 484.0,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 514,
+      "features": {
+        "n_words": 29,
+        "n_chars": 153,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 44.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ]
+}

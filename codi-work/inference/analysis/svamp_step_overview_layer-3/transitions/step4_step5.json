@@ -1,0 +1,351 @@
+{
+  "from_step": 4,
+  "to_step": 5,
+  "gained_wrong_to_right": 2,
+  "lost_right_to_wrong": 12,
+  "stable_right": 0,
+  "stable_wrong": 918,
+  "feature_breakdown": {
+    "gained": {
+      "count": 2,
+      "n_words": {
+        "mean": 42.5,
+        "median": 42.5,
+        "min": 41,
+        "max": 44
+      },
+      "n_chars": {
+        "mean": 225.5,
+        "median": 225.5,
+        "min": 220,
+        "max": 231
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 29.5,
+        "median": 29.5,
+        "min": 1.0,
+        "max": 58.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1,
+        "10-99": 1
+      }
+    },
+    "lost": {
+      "count": 12,
+      "n_words": {
+        "mean": 31.25,
+        "median": 28.5,
+        "min": 27,
+        "max": 42
+      },
+      "n_chars": {
+        "mean": 157.0,
+        "median": 155.5,
+        "min": 112,
+        "max": 190
+      },
+      "n_numbers_in_question": {
+        "mean": 3.17,
+        "median": 3.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 23.17,
+        "median": 11.0,
+        "min": 5.0,
+        "max": 92.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 5,
+        "10-99": 7
+      }
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 918,
+      "n_words": {
+        "mean": 31.67,
+        "median": 30.0,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 161.9,
+        "median": 153.0,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.8,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 65.31,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 997.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 372,
+        "10-99": 408,
+        "100-999": 138
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 14,
+  "gained_questions": [
+    {
+      "idx": 384,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 39 inches farther than the grasshopper and the mouse jumped 94 inches lesser than the frog. How far did the frog jump?",
+      "gold": 58.0,
+      "pred": 64.0,
+      "student_final_correct": false,
+      "rank_step4": 1593,
+      "rank_step5": 3,
+      "features": {
+        "n_words": 41,
+        "n_chars": 231,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 58.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 429,
+      "question": "Danny collects bottle caps. He found 36 bottle caps at the park while he threw away 35 old ones. Now he has 22 bottle caps in his collection. How many more bottle caps did danny find at the park than those he threw away?",
+      "gold": 1.0,
+      "pred": 15.0,
+      "student_final_correct": false,
+      "rank_step4": 181,
+      "rank_step5": 1,
+      "features": {
+        "n_words": 44,
+        "n_chars": 220,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 46,
+      "question": "Jake has 3 fewer peaches than Steven who has 8 more peaches than Jill. Steven has 5 peaches. How many more peaches does Jake have than Jill?",
+      "gold": 5.0,
+      "pred": 2.0,
+      "student_final_correct": false,
+      "rank_step4": 0,
+      "rank_step5": 1425,
+      "features": {
+        "n_words": 27,
+        "n_chars": 140,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 72,
+      "question": "Paul had 51 books and 106 pens. After selling some books and pens in a garage sale he had 82 books and 14 pens left. How many pens did he sell in the garage sale?",
+      "gold": 92.0,
+      "pred": 61.0,
+      "student_final_correct": false,
+      "rank_step4": 0,
+      "rank_step5": 602,
+      "features": {
+        "n_words": 35,
+        "n_chars": 162,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 92.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 203,
+      "question": "Kelly has 20 nintendo games and 70 sony games. How many nintendo games does she need to give away so that she will have 12 nintendo games left?",
+      "gold": 8.0,
+      "pred": 12.0,
+      "student_final_correct": false,
+      "rank_step4": 1,
+      "rank_step5": 456,
+      "features": {
+        "n_words": 28,
+        "n_chars": 143,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 220,
+      "question": "Ed had 5 more marbles than Doug. Doug lost 3 of his marbles at the playground. If Ed had 27 marbles How many marbles did Doug have initially?",
+      "gold": 22.0,
+      "pred": 25.0,
+      "student_final_correct": false,
+      "rank_step4": 0,
+      "rank_step5": 588,
+      "features": {
+        "n_words": 28,
+        "n_chars": 141,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 22.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 231,
+      "question": "Matthew had 24 crackers. If Matthew gave equal numbers of crackers to his 3 friends and still had 17 crackers left How many crackers did Matthew give to his friends?",
+      "gold": 7.0,
+      "pred": 2.0,
+      "student_final_correct": false,
+      "rank_step4": 0,
+      "rank_step5": 666,
+      "features": {
+        "n_words": 30,
+        "n_chars": 165,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 371,
+      "question": "An industrial machine can make 6 shirts a minute. It worked for 5 minutes yesterday and for 12 minutes today. How many shirts did machine make today?",
+      "gold": 72.0,
+      "pred": 102.0,
+      "student_final_correct": false,
+      "rank_step4": 3,
+      "rank_step5": 5,
+      "features": {
+        "n_words": 27,
+        "n_chars": 149,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 72.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 438,
+      "question": "Marco and his dad went strawberry picking. Marco's strawberries weighed 30 pounds. If together their strawberries weighed 47 pounds. How much more did his strawberries weigh than his dad's?",
+      "gold": 13.0,
+      "pred": 20.0,
+      "student_final_correct": false,
+      "rank_step4": 3,
+      "rank_step5": 42560,
+      "features": {
+        "n_words": 29,
+        "n_chars": 189,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 453,
+      "question": "Edward spent $ 4 to buy books and $ 3 to buy pens. Now he has $ 12. How much did Edward spend on books and pens?",
+      "gold": 7.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step4": 0,
+      "rank_step5": 1474,
+      "features": {
+        "n_words": 27,
+        "n_chars": 112,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 490,
+      "question": "Dave had 11 apps and 3 files on his phone. After deleting some apps and files he had 24 files and 2 apps left. How many more files than apps does he have left on the phone?",
+      "gold": 22.0,
+      "pred": 11.0,
+      "student_final_correct": false,
+      "rank_step4": 0,
+      "rank_step5": 1315,
+      "features": {
+        "n_words": 37,
+        "n_chars": 172,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 22.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 569,
+      "question": "Mary is baking a cake. The recipe calls for 5 cups of flour and 14 cups of sugar. She already put in 10 cups of flour and 2 cups of sugar. How many more cups of sugar does she need to add?",
+      "gold": 12.0,
+      "pred": 12.0,
+      "student_final_correct": true,
+      "rank_step4": 1,
+      "rank_step5": 4353,
+      "features": {
+        "n_words": 42,
+        "n_chars": 188,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 625,
+      "question": "Josh had 4 marbles in his collection. He lost 16 marbles and found 8 new ones. How many more marbles did he lose than those he found?",
+      "gold": 8.0,
+      "pred": 8.0,
+      "student_final_correct": true,
+      "rank_step4": 0,
+      "rank_step5": 16,
+      "features": {
+        "n_words": 27,
+        "n_chars": 133,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 836,
+      "question": "Tiffany was collecting cans for recycling. On monday she had 3 bags of cans. The next day she found 7 more bags of cans and 44 bags of bottles. How many bags of cans did she have altogether?",
+      "gold": 10.0,
+      "pred": 54.0,
+      "student_final_correct": false,
+      "rank_step4": 1,
+      "rank_step5": 801,
+      "features": {
+        "n_words": 38,
+        "n_chars": 190,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ]
+}

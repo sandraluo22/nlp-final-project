@@ -1,0 +1,639 @@
+{
+  "from_N": 4,
+  "to_N": 5,
+  "gained_wrong_to_right": 14,
+  "lost_right_to_wrong": 12,
+  "stable_right": 598,
+  "stable_wrong": 376,
+  "feature_breakdown": {
+    "gained": {
+      "count": 14,
+      "n_words": {
+        "mean": 30.64,
+        "median": 28.5,
+        "min": 24,
+        "max": 45
+      },
+      "n_chars": {
+        "mean": 165.64,
+        "median": 152.5,
+        "min": 117,
+        "max": 261
+      },
+      "n_numbers_in_question": {
+        "mean": 2.93,
+        "median": 3.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 22.21,
+        "median": 12.5,
+        "min": 1.0,
+        "max": 78.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 5,
+        "10-99": 9
+      }
+    },
+    "lost": {
+      "count": 12,
+      "n_words": {
+        "mean": 33.5,
+        "median": 33.0,
+        "min": 24,
+        "max": 44
+      },
+      "n_chars": {
+        "mean": 173.75,
+        "median": 183.0,
+        "min": 128,
+        "max": 224
+      },
+      "n_numbers_in_question": {
+        "mean": 3.42,
+        "median": 3.0,
+        "min": 3,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 70.92,
+        "median": 9.5,
+        "min": 2.0,
+        "max": 638.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 6,
+        "10-99": 5,
+        "100-999": 1
+      }
+    },
+    "stable_right": {
+      "count": 598,
+      "n_words": {
+        "mean": 30.23,
+        "median": 29.0,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 153.63,
+        "median": 147.5,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.57,
+        "median": 2.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 178.92,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 30057.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 255,
+        "10-99": 261,
+        "100-999": 73,
+        "1000-9999": 7,
+        "10000+": 2
+      }
+    },
+    "stable_wrong": {
+      "count": 376,
+      "n_words": {
+        "mean": 34.16,
+        "median": 34.0,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 176.12,
+        "median": 171.0,
+        "min": 76,
+        "max": 323
+      },
+      "n_numbers_in_question": {
+        "mean": 3.17,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 80997.12,
+        "median": 25.0,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 112,
+        "10-99": 141,
+        "100-999": 64,
+        "1000-9999": 32,
+        "10000+": 27
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 96,
+      "question": "Marco and his dad went strawberry picking. Together their strawberries weighed 35 pounds. Marco's strawberries weighed 13 pounds. How much more did his dad's strawberries weigh than his?",
+      "gold": 9.0,
+      "pred_N4": 10.0,
+      "pred_N5": 9.0,
+      "response_N4": "The answer is: 10",
+      "response_N5": "The answer is: 9",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 186,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 9.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 200,
+      "question": "There were 53 dollars in Olivia's wallet. She collected 91 more dollars from an atm. After she visited a supermarket there were 14 dollars left. How much more money did she spend at the supermarket than she collected at the atm?",
+      "gold": 39.0,
+      "pred_N4": 38.0,
+      "pred_N5": 39.0,
+      "response_N4": "The answer is: 38",
+      "response_N5": "The answer is: 39",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 41,
+        "n_chars": 228,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 39.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 289,
+      "question": "Paco had 37 sweet cookies and 11 salty cookies. He ate 5 sweet cookies and 2 salty cookies. How many more sweet cookies than salty cookies did he eat?",
+      "gold": 3.0,
+      "pred_N4": 2.0,
+      "pred_N5": 3.0,
+      "response_N4": "The answer is: 2",
+      "response_N5": "The answer is: 3",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 29,
+        "n_chars": 150,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 465,
+      "question": "Zachary did 19 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 13 push-ups less than david. How many push-ups did David do?",
+      "gold": 58.0,
+      "pred_N4": 78.0,
+      "pred_N5": 58.0,
+      "response_N4": "The answer is: 78",
+      "response_N5": "The answer is: 58",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 154,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 58.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 494,
+      "question": "Jake has 5 fewer peaches than Steven. Steven has 18 more peaches than Jill. If Jill has 87 peaches How many more peaches does Jake have than Jill?",
+      "gold": 13.0,
+      "pred_N4": 19.0,
+      "pred_N5": 13.0,
+      "response_N4": "The answer is: 19",
+      "response_N5": "The answer is: 13",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 146,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 641,
+      "question": "Baker made 99 cakes. He bought 167 new cakes and sold 89 cakes. How many more cakes did baker buy than those he sold?",
+      "gold": 78.0,
+      "pred_N4": 77.0,
+      "pred_N5": 78.0,
+      "response_N4": "The answer is: 77",
+      "response_N5": "The answer is: 78",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 24,
+        "n_chars": 117,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 78.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 706,
+      "question": "Ed had 10 more marbles than Doug. Doug lost 11 of his marbles at the playground. If Ed had 45 marbles How many more marbles did Ed have than Doug then?",
+      "gold": 21.0,
+      "pred_N4": 11.0,
+      "pred_N5": 21.0,
+      "response_N4": "The answer is: 11",
+      "response_N5": "The answer is: 21",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 31,
+        "n_chars": 151,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 21.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 728,
+      "question": "The grasshopper and the frog had a jumping contest. The grasshopper jumped 13 inches. The grasshopper jumped 2 inches farther than the grasshopper. How far did the frog jump?",
+      "gold": 11.0,
+      "pred_N4": 15.0,
+      "pred_N5": 11.0,
+      "response_N4": "The answer is: 15",
+      "response_N5": "The answer is: 11",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 29,
+        "n_chars": 174,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 11.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 807,
+      "question": "Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?",
+      "gold": 30.0,
+      "pred_N4": 39.0,
+      "pred_N5": 30.0,
+      "response_N4": "The answer is: 39",
+      "response_N5": "The answer is: 30",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 31,
+        "n_chars": 170,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 30.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 850,
+      "question": "6 storks and 2 birds were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?",
+      "gold": 1.0,
+      "pred_N4": 3.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 3",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 137,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 858,
+      "question": "Brenda's mother made cookies for 5. She prepared 22 cookies but had to throw away 17 cookies. If each of them had the same number of cookies How many did each of them have?",
+      "gold": 1.0,
+      "pred_N4": 4.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 4",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 34,
+        "n_chars": 172,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 951,
+      "question": "Jake has 8 fewer peaches and 10 more apples than Steven. Steven has 11 apples and 18 peaches. How many more peaches than apples does Steven have?",
+      "gold": 7.0,
+      "pred_N4": 3.0,
+      "pred_N5": 7.0,
+      "response_N4": "The answer is: 3",
+      "response_N5": "The answer is: 7",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 27,
+        "n_chars": 145,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 970,
+      "question": "Ed had 29 more marbles than Doug. Ed lost 17 of his marbles at the playground. How many more marbles did Ed have than Doug then?",
+      "gold": 12.0,
+      "pred_N4": 19.0,
+      "pred_N5": 12.0,
+      "response_N4": "The answer is: 19",
+      "response_N5": "The answer is: 12",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 26,
+        "n_chars": 128,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 989,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",
+      "gold": 28.0,
+      "pred_N4": 33.0,
+      "pred_N5": 28.0,
+      "response_N4": "The answer is: 33",
+      "response_N5": "The answer is: 28",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 45,
+        "n_chars": 261,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 28.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 66,
+      "question": "Rachel had to complete 5 pages of math homework, 10 pages of reading homework and 6 more pages of biology homework. How many pages of reading and biology homework did she have to complete?",
+      "gold": 16.0,
+      "pred_N4": 16.0,
+      "pred_N5": 26.0,
+      "response_N4": "The answer is: 16",
+      "response_N5": "The answer is: 26",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 34,
+        "n_chars": 188,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 16.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 85,
+      "question": "There are 203 bananas and 63 oranges in Philip's collection. If the bananas are organized into 7 groups and oranges are organized into 95 groups How big is each group of bananas?",
+      "gold": 29.0,
+      "pred_N4": 29.0,
+      "pred_N5": 3.0,
+      "response_N4": "The answer is: 29",
+      "response_N5": "The answer is: 3",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 32,
+        "n_chars": 178,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 29.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 203,
+      "question": "Kelly has 20 nintendo games and 70 sony games. How many nintendo games does she need to give away so that she will have 12 nintendo games left?",
+      "gold": 8.0,
+      "pred_N4": 8.0,
+      "pred_N5": 12.0,
+      "response_N4": "The answer is: 8",
+      "response_N5": "The answer is: 12",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 143,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 331,
+      "question": "22 children were riding on the bus. At the bus stop 40 children got on the bus while some got off the bus. Then there were 2 children altogether on the bus. How many children got off the bus at the bus stop?",
+      "gold": 60.0,
+      "pred_N4": 60.0,
+      "pred_N5": 20.0,
+      "response_N4": "The answer is: 60",
+      "response_N5": "The answer is: 20",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 43,
+        "n_chars": 207,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 60.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 349,
+      "question": "There are 22 different books and 10 different movies in the ' crazy silly school ' series. If you read 12 of the books and watched 56 of the movies How many more books do you still have to read?",
+      "gold": 10.0,
+      "pred_N4": 10.0,
+      "pred_N5": 14.0,
+      "response_N4": "The answer is: 10",
+      "response_N5": "The answer is: 14",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 40,
+        "n_chars": 194,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 409,
+      "question": "Rebecca wants to split a collection of eggs into groups of 5. Rebecca has 10 marbles and 15 eggs. How many groups will be created?",
+      "gold": 3.0,
+      "pred_N4": 3.0,
+      "pred_N5": 5.0,
+      "response_N4": "The answer is: 3",
+      "response_N5": "The answer is: 5",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 25,
+        "n_chars": 130,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 542,
+      "question": "There were 7 roses and 12 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 11 roses and 20 orchids in the vase. How many more orchids than roses are there in the vase now?",
+      "gold": 9.0,
+      "pred_N4": 9.0,
+      "pred_N5": 12.0,
+      "response_N4": "The answer is: 9",
+      "response_N5": "The answer is: 12",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 44,
+        "n_chars": 221,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 9.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 566,
+      "question": "Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 10 invitations in it and she bought 7 packs. If she sends invitations to only 2 friends How many invitations will be left?",
+      "gold": 68.0,
+      "pred_N4": 68.0,
+      "pred_N5": 60.0,
+      "response_N4": "The answer is: 68",
+      "response_N5": "The answer is: 60",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 39,
+        "n_chars": 224,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 68.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 587,
+      "question": "Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?",
+      "gold": 6.0,
+      "pred_N4": 6.0,
+      "pred_N5": 16.0,
+      "response_N4": "The answer is: 6",
+      "response_N5": "The answer is: 16",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 24,
+        "n_chars": 128,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 649,
+      "question": "Faye was placing her pencils and crayons into 11 rows with 31 pencils and 27 crayons in each row. How many pencils and crayons does she have altogether?",
+      "gold": 638.0,
+      "pred_N4": 638.0,
+      "pred_N5": 644.0,
+      "response_N4": "The answer is: 638",
+      "response_N5": "The answer is: 644",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 152,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 638.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 665,
+      "question": "Josh had 7 marbles in his collection. He lost 8 marbles and found 10 new ones. How many more marbles did he find than those he lost?",
+      "gold": 2.0,
+      "pred_N4": 2.0,
+      "pred_N5": 3.0,
+      "response_N4": "The answer is: 2",
+      "response_N5": "The answer is: 3",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 27,
+        "n_chars": 132,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 919,
+      "question": "The ring toss game at the carnival made 325 dollars in the first 154 days and 114 dollars in the remaining 57 days. How much did they make per day in the remaining 57 days at the carnival?",
+      "gold": 2.0,
+      "pred_N4": 2.0,
+      "pred_N5": 3.11,
+      "response_N4": "The answer is: 2",
+      "response_N5": "The answer is: 3.11",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 38,
+        "n_chars": 188,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ]
+}

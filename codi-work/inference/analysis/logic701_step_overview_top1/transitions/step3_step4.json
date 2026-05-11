@@ -1,0 +1,544 @@
+{
+  "from_step": 3,
+  "to_step": 4,
+  "gained_wrong_to_right": 25,
+  "lost_right_to_wrong": 0,
+  "stable_right": 0,
+  "stable_wrong": 676,
+  "feature_breakdown": {
+    "gained": {
+      "count": 25,
+      "n_words": {
+        "mean": 99.48,
+        "median": 103,
+        "min": 36,
+        "max": 191
+      },
+      "n_chars": {
+        "mean": 530.88,
+        "median": 527,
+        "min": 188,
+        "max": 1013
+      },
+      "n_numbers_in_question": {
+        "mean": 13.04,
+        "median": 12,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 3.68,
+        "median": 5.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 25
+      },
+      "gold_option_dist": {
+        "1": 6,
+        "3": 4,
+        "4": 1,
+        "5": 14
+      }
+    },
+    "lost": {
+      "count": 0
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 676,
+      "n_words": {
+        "mean": 89.3,
+        "median": 81.0,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 465.21,
+        "median": 420.5,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.85,
+        "median": 13.0,
+        "min": 5,
+        "max": 52
+      },
+      "gold_numeric": {
+        "mean": 2.75,
+        "median": 2.5,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 676
+      },
+      "gold_option_dist": {
+        "1": 137,
+        "2": 201,
+        "3": 160,
+        "4": 52,
+        "5": 126
+      }
+    }
+  },
+  "topk": 1,
+  "layer": 16,
+  "gained_questions": [
+    {
+      "idx": 1,
+      "question": "In a class of 30 students, 17 play basketball, 13 swim, and 5 do both. If a student is chosen at random, what is the probability that either he/she swims or plays basketball?\n\nOptions:\n1. 5/6\n2. 12/30\n3. 17/30\n4. 25/30\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 256,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 45,
+        "n_chars": 236,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 4,
+      "question": "In a math competition, each competitor is given five problems to solve. Each problem is scored from 0 to 3 points, inclusively, depending on the accuracy and completeness of the solution. If all contestants received different total scores, what is the maximum number of competitors in the contest, assuming that none of them scored the same on any individual problem?\n\nOptions:\n1. 20\n2. 24\n3. 16\n4. 26\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step3": 1153,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 72,
+        "n_chars": 419,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 46,
+      "question": "You’re in charge of painting a cubic room where each wall, the ceiling, and the floor must be painted in different solid colors. You have the colors red, green, blue, yellow, white, and black at your disposal. The only rule is that opposite faces of the cube must not be painted with complementary colors. Complementary colors are those that, when combined, create white light—a typical pairing is red and cyan, green and magenta, blue and yellow. Assuming blue has already been used for the floor, what could be the possible color for the ceiling?\n\nOptions:\n1. Red\n2. Green\n3. White\n4. Black\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 817,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 106,
+        "n_chars": 610,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 61,
+      "question": "A woman buys a new pair of shoes, goes to work, and dies. What happened?\n\nOptions:\n1. The woman was allergic to the material of the shoes.\n2. The shoes caused her to trip, fall, and suffer a fatal injury.\n3. An infection from a blister caused by the shoes led to her death.\n4. The heel of the shoe broke off, causing a fatal accident on the stairs.\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 867,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 72,
+        "n_chars": 366,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 77,
+      "question": "You enter a room with four statues, each facing in a different cardinal direction: North, East, South, and West. Each statue is pointing to another statue. The statue facing North points to the one facing East. The statue facing East points to the one facing South. The statue facing South points to the one facing West. The statue facing West points, unexpectedly, not to the North one but to the East one. If you were to stand behind the statue facing South, face the same direction it faces, and walk straight ahead, which statue would you reach first?\n\nOptions:\n1. East-facing statue\n2. West-facing statue\n3. North-facing statue\n4. South-facing statue\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 13,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 114,
+        "n_chars": 673,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 125,
+      "question": "A new clock has been designed to use a special mechanism where each of the three gears (A, B, and C) engage with each other in a linear sequence (A engages with B, B engages with C). Gear A rotates clockwise, and each gear has a different number of teeth: Gear A has 40 teeth, Gear B has 55 teeth, and Gear C has 70 teeth. If gear A makes one full rotation clockwise, how many rotations and in which direction will gear C complete?\n\nOptions:\n1. 4/7 rotations clockwise\n2. 7/4 rotations counterclockwise\n3. 1/4 rotations clockwise\n4. 4/7 rotations counterclockwise\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 238,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 105,
+        "n_chars": 581,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 178,
+      "question": "You are participating in a game show where you can win a car by picking the correct key from a set of 100 different keys. Initially, you have no information about which key might start the car. At the start of the game, you are allowed to choose 10 keys out of the 100. After your initial selection, the host reveals that among the 90 keys you did not select, 89 cannot start the car and removes them, leaving only one key that can start the car aside from the ones you have chosen. The host then offers you the chance to keep your 10 keys or switch to the single remaining key not chosen by you. Should you switch, stick with your initial choice, or does it not matter?\n\nOptions:\n1. Switch\n2. Stick with the initial choice\n3. It does not matter\n4. Ask for a hint\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 28,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 152,
+        "n_chars": 781,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 207,
+      "question": "Pete is reading a book. Suddenly he throws the book away and turns on the light. Why did Pete throw the book away and turn on the light?\n\nOptions:\n1. He finished reading the book.\n2. There was a power outage.\n3. He read something frightening.\n4. The book was damaged and he threw it away in frustration.\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step3": 31,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 61,
+        "n_chars": 321,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 212,
+      "question": "In a game of cards, you pull one card from a standard deck of 52 cards. If you pull a heart, you win $10; if it is any red card (including hearts), you win $5. If you pull any black card, you don't win any money. What is the expected value of the amount of money you will win per card drawn?\n\nOptions:\n1. $3.75\n2. $5.00\n3. $2.50\n4. $4.25\n5. Another answer",
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step3": 95,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 74,
+        "n_chars": 355,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 221,
+      "question": "Within a factory, there are 5 machines that are programmed to finish a product in exact sequence. Each machine adds a component to the product in the following order: Machine A -> Machine B -> Machine C -> Machine D -> Machine E. To improve efficiency, the technicians realized that adding components B and C can be swapped without compromising the product. They plan to rearrange the order to minimize the time taken for the products to pass from one machine to another, considering the distance between machines is critical. The distances between machines are as follows: A to B is 10m, B to C is 15m, C to D is 5m, D to E is 20m, and swapping B and C will place them 25m apart but reduce A to C and B to D distances to 5m each. If the product must go through A, then B or C (whichever is first), then the remaining B or C, followed by D, then E, what is the new sequence that minimizes the total distance traveled by the products?\n\nOptions:\n1. A-C-B-D-E\n2. A-B-C-D-E\n3. B-A-C-D-E\n4. C-A-B-D-E\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 1273,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 191,
+        "n_chars": 1013,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 273,
+      "question": "You are playing a game with your friend where you roll two six-sided dice. To win, you need to roll a specific two-dice total, chosen randomly between 2 and 12 at the beginning of each game. If the game's winning total for the current round is announced to be the most probable sum to obtain from rolling two dice, what is that sum and what are the odds of rolling it in a single roll?\n\nOptions:\n1. Sum 7, Odds 1/6\n2. Sum 6, Odds 1/9\n3. Sum 8, Odds 1/7\n4. Sum 10, Odds 1/12\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 814,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 99,
+        "n_chars": 491,
+        "n_numbers_in_question": 19,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 278,
+      "question": "Imagine a cube that has six faces, each painted with a different color: Red, Blue, Green, Yellow, Purple, and Orange. You place the cube in a box that has a color painted on each of its six interior sides, matching the colors on the cube. The cube is dropped in and lands with the Red face upwards and the Green face to the North side of the box. Knowing that opposite faces of both the cube and the box have complementary colors (colors that are not next to each other in a standard color wheel), which color is on the bottom face of the cube?\n\nOptions:\n1. Green\n2. Blue\n3. Purple\n4. Orange\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 1011,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 117,
+        "n_chars": 609,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 335,
+      "question": "You have three types of gears: Type A, Type B, and Type C. Each Type A gear has 8 teeth, each Type B gear has 10 teeth, and each Type C gear has 12 teeth. When a Type A gear is connected to a Type B gear, the Type A gear makes 5 revolutions for every 4 revolutions of the Type B gear. If you mesh a gear of Type A with a gear of Type C, how many revolutions will the Type A gear make when the Type C gear completes 3 revolutions?\n\nOptions:\n1. 4.5 revolutions\n2. 3 revolutions\n3. 6 revolutions\n4. 4 revolutions\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 93,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 110,
+        "n_chars": 527,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 349,
+      "question": "Imagine a 3x3x3 Rubik's cube. Each small cube on the surface is colored either red, blue, or green. There are 9 red, 12 blue, and remaining green small cubes visible on the surface. Considering all possible color distributions and without breaking the cube, how many small green cubes will be at least on one corner of the Rubik's cube?\n\nOptions:\n1. 1\n2. 2\n3. 3\n4. 4\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 6742,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 71,
+        "n_chars": 384,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 351,
+      "question": "A homeowner wants to design a simple mechanical gate that opens automatically when their car approaches from the outside but does not open when the car exits the driveway. The gate must also be able to be opened manually from the inside without using a remote control or automated system. Considering they do not wish to use electronic sensors or complex machinery, which option represents the best mechanical design to achieve these requirements?\n\nOptions:\n1. Use a pull-rope connected to the gate that the homeowner can tug from the car.\n2. Install a weighted pivot mechanism that opens when a car pushes from the outside.\n3. Have a pressure plate on the driveway that triggers the gate when a car is on top of it.\n4. Fit the car with a magnet that attracts a metallic plate on the gate when near.\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 7,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 145,
+        "n_chars": 817,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 403,
+      "question": "You are tasked with scheduling meetings for a project team that has restrictions on their availability. The team consists of 4 members: Alice, Bob, Carol, and Dave. Alice can meet on Monday, Wednesday, and Friday. Bob can only meet on Tuesday and Thursday. Carol is available on Monday, Tuesday, and Wednesday. Dave is available every day except Thursday. The goal is to schedule a single meeting where all members can attend. On which day of the week should the meeting be scheduled to ensure everyone can attend?\n\nOptions:\n1. Monday\n2. Tuesday\n3. Wednesday\n4. There is no such day\n5. Another answer",
+      "gold": 4,
+      "pred": 4,
+      "student_final_correct": true,
+      "rank_step3": 100,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 103,
+        "n_chars": 600,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 423,
+      "question": "You have 15 numbered balls that you need to divide into 3 baskets. The sum of the numbers on the balls in each basket must be equal. The balls are numbered from 1 to 15. How can you distribute the balls into the baskets?\n\nOptions:\n1. Basket 1: {1, 6, 13}, Basket 2: {2, 7, 11}, Basket 3: {3, 8, 9}\n2. Basket 1: {3, 5, 14, 18}, Basket 2: {1, 6, 10, 23}, Basket 3: {4, 9, 7, 20}\n3. Basket 1: {1, 4, 10, 11, 14}, Basket 2: {2, 5, 8, 12, 13}, Basket 3: {3, 6, 7, 9, 15}\n4. Basket 1: {1, 7, 12, 20}, Basket 2: {2, 8, 15, 15}, Basket 3: {3, 5, 10, 22}\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step3": 246,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 124,
+        "n_chars": 563,
+        "n_numbers_in_question": 69,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 434,
+      "question": "There is a box with three gear systems. Gear system A has 15 teeth, gear system B has 30 teeth, and gear system C has 45 teeth. Each system engages with both the neighboring systems. If you turn gear system A one full rotation, how many full rotations does gear system C complete?\n\nOptions:\n1. 2/3 rotations\n2. 1/6 rotations\n3. 1 full rotation\n4. 1/2 rotation\n5. Another answer",
+      "gold": 5,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step3": 214,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 70,
+        "n_chars": 377,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 464,
+      "question": "In a class of 30 students, 18 play football, 15 play basketball, and 7 play neither. How many students play both football and basketball?\n\nOptions:\n1. 5\n2. 10\n3. 12\n4. 15\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step3": 685,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 36,
+        "n_chars": 188,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 491,
+      "question": "A scientist has a set of 5 gears connected in a line. The first gear has 12 teeth and each subsequent gear has 6 more teeth than the gear before it. If the first gear rotates clockwise at 1 revolution per minute, which direction and at what speed will the fifth gear rotate?\n\nOptions:\n1. Counterclockwise at 5/6 RPM\n2. Clockwise at 5/6 RPM\n3. Counterclockwise at 6/5 RPM\n4. Clockwise at 1 RPM\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step3": 74,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 77,
+        "n_chars": 410,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 607,
+      "question": "You have 12 boxes that look identical and contain identical items, but one box is filled with defective items weighing slightly less than the others. Your task is to determine which box contains the defective items. You have at your disposal a balance scale, which allows you to compare the weight of two sets of boxes against each other. You can only use the scale three times. How would you identify the box with defective items?\n\nOptions:\n1. Always start by weighing six boxes against the other six.\n2. Always split the group in half and use one weighing for each split.\n3. Split the boxes into three groups and use one weighing to identify which group contains the defective box, then subdivide that group.\n4. Weigh each box individually against a known good box.\n5. Another answer",
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step3": 94,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 138,
+        "n_chars": 785,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 609,
+      "question": "Imagine that you are in a room with 4 walls, each wall having a door that leads to another room. The rooms are positioned in a square layout and each room has a unique color: red, blue, yellow, and green. You start in the red room. The doors on your right side always lead to the blue room, and doors directly ahead lead to the yellow room. If you are in the green room, the door to your left leads back to the red room. Knowing these rules, if you start in the red room and want to end up in the green room, which sequence of turns must you take?\n\nOptions:\n1. Right, Forward, Left\n2. Right, Left, Forward\n3. Forward, Left, Right\n4. Left, Right, Forward\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 1206,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 131,
+        "n_chars": 671,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 614,
+      "question": "You are given a fair six-sided die (numbered 1 to 6) and a fair coin (heads or tails). You will roll the die first and then flip the coin. What is the probability of getting an even number on the die and a head on the coin?\n\nOptions:\n1. 1/4\n2. 1/2\n3. 1/3\n4. 3/4\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 46,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 59,
+        "n_chars": 279,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 637,
+      "question": "A scientist has built three different time machines: Machine A, Machine B, and Machine C. Each machine has two modes: 'Forward in time' and 'Backward in time'. When operating in 'Forward in time' mode, Machine A moves forward by 3 hours, Machine B by 5 hours, and Machine C by 7 hours. When set to 'Backward in time', they move backwards by the same amount of time. The scientist activates each machine once. After the operation, the total net time traveled equals zero, meaning the combined operation of the machines has not resulted in any change in the present time. What combinations of modes were set on each machine?\n\nOptions:\n1. Machine A: Backward, Machine B: Forward, Machine C: Forward\n2. Machine A: Forward, Machine B: Forward, Machine C: Forward\n3. Machine A: Forward, Machine B: Backward, Machine C: Forward\n4. Machine A: Forward, Machine B: Backward, Machine C: Backward\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 248,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 153,
+        "n_chars": 902,
+        "n_numbers_in_question": 8,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 649,
+      "question": "You are playing a game where you can roll a standard six-sided dice up to three times. You win a prize if you roll at least one '6' within those three attempts. After two rolls, you haven't rolled a '6'. What are your chances of winning on your final roll?\n\nOptions:\n1. 1/6\n2. 1/36\n3. 1/3\n4. 1/18\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step3": 68,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 62,
+        "n_chars": 314,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    }
+  ],
+  "lost_questions": []
+}

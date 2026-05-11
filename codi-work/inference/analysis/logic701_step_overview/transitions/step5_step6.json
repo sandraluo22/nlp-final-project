@@ -1,0 +1,1096 @@
+{
+  "from_step": 5,
+  "to_step": 6,
+  "gained_wrong_to_right": 9,
+  "lost_right_to_wrong": 43,
+  "stable_right": 18,
+  "stable_wrong": 631,
+  "feature_breakdown": {
+    "gained": {
+      "count": 9,
+      "n_words": {
+        "mean": 114.11,
+        "median": 96,
+        "min": 48,
+        "max": 196
+      },
+      "n_chars": {
+        "mean": 604.33,
+        "median": 563,
+        "min": 263,
+        "max": 1072
+      },
+      "n_numbers_in_question": {
+        "mean": 19.56,
+        "median": 13,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 2.44,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 3.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 9
+      },
+      "gold_option_dist": {
+        "1": 1,
+        "2": 3,
+        "3": 5
+      }
+    },
+    "lost": {
+      "count": 43,
+      "n_words": {
+        "mean": 97.05,
+        "median": 90,
+        "min": 33,
+        "max": 169
+      },
+      "n_chars": {
+        "mean": 514.79,
+        "median": 470,
+        "min": 164,
+        "max": 909
+      },
+      "n_numbers_in_question": {
+        "mean": 9.12,
+        "median": 6,
+        "min": 5,
+        "max": 26
+      },
+      "gold_numeric": {
+        "mean": 3.42,
+        "median": 4.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 43
+      },
+      "gold_option_dist": {
+        "1": 9,
+        "2": 2,
+        "3": 9,
+        "4": 8,
+        "5": 15
+      }
+    },
+    "stable_right": {
+      "count": 18,
+      "n_words": {
+        "mean": 131.78,
+        "median": 133.0,
+        "min": 66,
+        "max": 221
+      },
+      "n_chars": {
+        "mean": 699.89,
+        "median": 711.0,
+        "min": 343,
+        "max": 1193
+      },
+      "n_numbers_in_question": {
+        "mean": 10.44,
+        "median": 6.0,
+        "min": 5,
+        "max": 26
+      },
+      "gold_numeric": {
+        "mean": 2.5,
+        "median": 2.0,
+        "min": 2.0,
+        "max": 4.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 18
+      },
+      "gold_option_dist": {
+        "2": 10,
+        "3": 7,
+        "4": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 631,
+      "n_words": {
+        "mean": 87.61,
+        "median": 80,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 455.75,
+        "median": 414,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 13.08,
+        "median": 13,
+        "min": 5,
+        "max": 52
+      },
+      "gold_numeric": {
+        "mean": 2.75,
+        "median": 2.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 631
+      },
+      "gold_option_dist": {
+        "1": 133,
+        "2": 186,
+        "3": 143,
+        "4": 44,
+        "5": 125
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 16,
+  "gained_questions": [
+    {
+      "idx": 22,
+      "question": "In a class of 30 students, 18 play football, 14 play basketball, and 8 play both football and basketball. How many students in the class do not play either football or basketball?\n\nOptions:\n1. 4 students\n2. 6 students\n3. 5 students\n4. 7 students\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 16,
+      "rank_step6": 1,
+      "features": {
+        "n_words": 48,
+        "n_chars": 263,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 108,
+      "question": "You have a 7-minute hourglass and an 11-minute hourglass. You want to measure exactly 15 minutes. Using these two hourglasses, how can you measure 15 minutes from the time you start?\n\nOptions:\n1. Start the 7-minute hourglass first, and when it finishes, start the 11-minute hourglass.\n2. Start both hourglasses together and when the 7-minute runs out, flip it; when the 11-minute runs out, flip it and use the remaining time on the 7-minute hourglass.\n3. Use the 11-minute hourglass twice.\n4. Use the 7-minute hourglass twice and add an extra minute somehow.\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 49,
+      "rank_step6": 1,
+      "features": {
+        "n_words": 96,
+        "n_chars": 576,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 423,
+      "question": "You have 15 numbered balls that you need to divide into 3 baskets. The sum of the numbers on the balls in each basket must be equal. The balls are numbered from 1 to 15. How can you distribute the balls into the baskets?\n\nOptions:\n1. Basket 1: {1, 6, 13}, Basket 2: {2, 7, 11}, Basket 3: {3, 8, 9}\n2. Basket 1: {3, 5, 14, 18}, Basket 2: {1, 6, 10, 23}, Basket 3: {4, 9, 7, 20}\n3. Basket 1: {1, 4, 10, 11, 14}, Basket 2: {2, 5, 8, 12, 13}, Basket 3: {3, 6, 7, 9, 15}\n4. Basket 1: {1, 7, 12, 20}, Basket 2: {2, 8, 15, 15}, Basket 3: {3, 5, 10, 22}\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 146,
+      "rank_step6": 1,
+      "features": {
+        "n_words": 124,
+        "n_chars": 563,
+        "n_numbers_in_question": 69,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 525,
+      "question": "You are managing a small delivery company with three trucks. Each truck can do one delivery per day. There are five deliveries planned for the week, each on a different day from Monday to Friday. The destinations are various distances from your warehouse: 10, 20, 30, 40, and 50 miles. Deliveries must be done on consecutive days with no gaps between deliveries, starting on Monday. Your goal is to minimize total mileage for the week. Two trucks are required for the 50-mile delivery due to the load. How should you schedule the deliveries to minimize total mileage for the week?\n\nOptions:\n1. Monday - 50 miles (two trucks), Tuesday - 40 miles, Wednesday - 30 miles, Thursday - 20 miles, Friday - 10 miles\n2. Monday - 10 miles, Tuesday - 20 miles, Wednesday - 30 miles, Thursday - 40 miles, Friday - 50 miles (two trucks)\n3. Monday - 30 miles, Tuesday - 10 miles, Wednesday - 20 miles, Thursday - 40 miles, Friday - 50 miles (two trucks)\n4. Monday - 40 miles, Tuesday - 50 miles (two trucks), Wednesday - 30 miles, Thursday - 20 miles, Friday - 10 miles\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 957,
+      "rank_step6": 3,
+      "features": {
+        "n_words": 196,
+        "n_chars": 1072,
+        "n_numbers_in_question": 31,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 527,
+      "question": "Alice, Bob, and Charlie are planning to collaborate on a project. The project consists of 3 different tasks: Task X, Task Y, and Task Z. Each person is to take one task. Alice takes twice as long to complete any given task as Bob does. Charlie takes 3 times as long as Alice for Task X and Task Z, but can complete Task Y as fast as Bob. If the goal is to minimize the total time taken to complete the project, which person should be assigned to each task?\n\nOptions:\n1. Alice: Task X, Bob: Task Y, Charlie: Task Z\n2. Alice: Task Z, Bob: Task X, Charlie: Task Y\n3. Alice: Task Y, Bob: Task Z, Charlie: Task X\n4. Alice: Task X, Bob: Task Z, Charlie: Task Y\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 15,
+      "rank_step6": 1,
+      "features": {
+        "n_words": 134,
+        "n_chars": 672,
+        "n_numbers_in_question": 7,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 545,
+      "question": "In a strange land, there are three types of trees, each of which bear a unique fruit once every year. These trees are arranged in a perfect rectangular grid, and due to particular soil conditions, their fruit-bearing pattern follows a strict rule: Every row in the grid has a sequence of exactly one tree of each type, but the types of trees in the consecutive rows are shifted one position to the right in a cyclic manner (once a tree type moves off the grid, it reappears on the left side). One day, a child decides to collect fruits by moving in a straight line, starting from a corner of the rectangular grid. The child picks fruits from the first two trees along the path and notes the sequence. It's a 'plum' from a Plumtree followed by an 'apple' from an Appletree. Assuming the grid contains at least three rows and three columns of trees, what type of fruit will the child collect from the third tree that lies on the child's straight path?\n\nOptions:\n1. apple\n2. plum\n3. banana\n4. no fruit (tree does not bear fruit)\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 32,
+      "rank_step6": 4,
+      "features": {
+        "n_words": 192,
+        "n_chars": 1043,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 659,
+      "question": "An ant is located in a box shaped like a cube with a side length of 1 meter. The ant is currently at one corner of the cube and needs to get to the diagonally opposite corner. It can walk on any surface of the cube but cannot fly. What is the shortest distance the ant can travel to reach the opposite corner?\n\nOptions:\n1. 2 meters\n2. 1 meter\n3. sqrt(2) meters\n4. sqrt(3) meters\n5. Another answer",
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step5": 10,
+      "rank_step6": 4,
+      "features": {
+        "n_words": 79,
+        "n_chars": 396,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 677,
+      "question": "Emma has placed four different colored cubes - red, blue, green, and yellow - in a row, but not necessarily in that order. She provides you with the following clues: (1) The red cube is not at either end, (2) The blue cube is to the immediate right of the green cube, (3) The yellow cube is second from the left. Which cube is at the far right end?\n\nOptions:\n1. Green\n2. Yellow\n3. Blue\n4. Red\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 5,
+      "rank_step6": 3,
+      "features": {
+        "n_words": 81,
+        "n_chars": 410,
+        "n_numbers_in_question": 8,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 687,
+      "question": "Imagine a sequence that begins with the numbers 1, 11, 21, 1211, 111221. Each subsequent number is described by vocalizing the digits of the previous one. For example, the second number '11' is read as 'one one', which describes the first number, which is a single '1'. Similarly, the next number '21' is read as 'two ones'. What is the sixth number in the sequence?\n\nOptions:\n1. 13112221\n2. 1113213211\n3. 312211\n4. 2112132111\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 23,
+      "rank_step6": 2,
+      "features": {
+        "n_words": 77,
+        "n_chars": 444,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 4,
+      "question": "In a math competition, each competitor is given five problems to solve. Each problem is scored from 0 to 3 points, inclusively, depending on the accuracy and completeness of the solution. If all contestants received different total scores, what is the maximum number of competitors in the contest, assuming that none of them scored the same on any individual problem?\n\nOptions:\n1. 20\n2. 24\n3. 16\n4. 26\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 154,
+      "features": {
+        "n_words": 72,
+        "n_chars": 419,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 25,
+      "question": "A woman shoots her husband. Then she holds him underwater for five minutes. Finally, she hangs him. But 5 minutes later, they both go out and enjoy a lovely dinner together. How can this be?\n\nOptions:\n1. The woman has a twin sister who was with the husband at dinner.\n2. The woman attempted murder but failed, and they made up.\n3. The husband is a ghost.\n4. The 'shooting', 'holding underwater', and 'hanging' are part of the photo development process.\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 63,
+      "features": {
+        "n_words": 84,
+        "n_chars": 470,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 30,
+      "question": "You must design a mechanism with gears to reduce the speed of a motor. The motor operates at 300 RPM (revolutions per minute) and you need the output speed to be 75 RPM. If you have gears with the following teeth counts: 10, 20, 30, 40, 50, and 60, which two gears should you use in this mechanism?\n\nOptions:\n1. 10 and 40 teeth gears\n2. 20 and 80 teeth gears\n3. 15 and 60 teeth gears (achievable through gear combinations)\n4. 30 and 60 teeth gears\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 28,
+      "features": {
+        "n_words": 90,
+        "n_chars": 465,
+        "n_numbers_in_question": 21,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 61,
+      "question": "A woman buys a new pair of shoes, goes to work, and dies. What happened?\n\nOptions:\n1. The woman was allergic to the material of the shoes.\n2. The shoes caused her to trip, fall, and suffer a fatal injury.\n3. An infection from a blister caused by the shoes led to her death.\n4. The heel of the shoe broke off, causing a fatal accident on the stairs.\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 33,
+      "features": {
+        "n_words": 72,
+        "n_chars": 366,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 75,
+      "question": "In a room there are 4 switches. Each switch can be turned on or off. There is a light bulb in a sealed box that is opaque and you cannot see inside it. Only one switch is connected to the light bulb. You begin with all the switches in the off position. You can perform the following actions: (1) Toggle any switches you desire. (2) Open the box to inspect the light bulb-status but once opened you cannot toggle the switches again. How do you determine which switch is connected to the light bulb with only one inspection?\n\nOptions:\n1. Switch 1\n2. Switch 2\n3. Switch 3\n4. Switch 4\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 26,
+      "features": {
+        "n_words": 114,
+        "n_chars": 598,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 77,
+      "question": "You enter a room with four statues, each facing in a different cardinal direction: North, East, South, and West. Each statue is pointing to another statue. The statue facing North points to the one facing East. The statue facing East points to the one facing South. The statue facing South points to the one facing West. The statue facing West points, unexpectedly, not to the North one but to the East one. If you were to stand behind the statue facing South, face the same direction it faces, and walk straight ahead, which statue would you reach first?\n\nOptions:\n1. East-facing statue\n2. West-facing statue\n3. North-facing statue\n4. South-facing statue\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 6,
+      "features": {
+        "n_words": 114,
+        "n_chars": 673,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 81,
+      "question": "You come across two doors, one leads to the City of Truth, where inhabitants always tell the truth, and the other to the City of Lies, where inhabitants always lie. Each door is guarded by a sentinel. You can ask one sentinel one question to determine which door leads to the City of Truth. However, you don't know which sentinel is guarding which door. What question can you ask to find the right door?\n\nOptions:\n1. Ask 'Which door would the other sentinel say leads to the City of Truth?'\n2. Ask 'Which door leads to the city you are from?'\n3. Ask 'Do you tell the truth?'\n4. Ask 'What would you say if I asked which door leads to the City of Truth?'\n5. Another answer",
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 12,
+      "features": {
+        "n_words": 128,
+        "n_chars": 670,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 86,
+      "question": "A man goes to bed, and he turns off the light causing lots of people to panic. Where is the man, and why did turning off the light cause panic?\n\nOptions:\n1. The man is at home, and a power outage caused the panic.\n2. The man is in an office, and the light signaled the end of a sale.\n3. The man is in a submarine, and turning off the light signaled an emergency.\n4. The man is a lighthouse keeper, and turning off the lighthouse light caused panic among nearby ships.\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 26,
+      "features": {
+        "n_words": 96,
+        "n_chars": 485,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 87,
+      "question": "You have a numeric keypad with numbers from 1 to 9 arranged in a 3x3 grid: 123 on the top row, 456 in the middle, and 789 on the bottom row. If you can only move to adjacent numbers (horizontally, vertically, or diagonally) to form a five-digit number, and the center number 5 must be used as the third digit, how many unique five-digit numbers can you form?\n\nOptions:\n1. 1024\n2. 4608\n3. 5670\n4. 4096\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 5571,
+      "features": {
+        "n_words": 80,
+        "n_chars": 418,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 93,
+      "question": "You have three boxes with two drawers each. Box A contains two gold coins, Box B contains two silver coins, and Box C contains one gold coin and one silver coin. Each box is labeled according to its contents, but you know all of the boxes are mislabeled. You are allowed to draw one coin from one of the drawers in one of the boxes. After drawing one coin, you must correctly label all the boxes. Which box should you draw from, and which label would ensure you can correctly label the boxes?\n\nOptions:\n1. Draw from the box labeled 'Gold'. If it's gold, label this box 'Gold and Silver'.\n2. Draw from the box labeled 'Silver'. If it's silver, label this box 'Gold and Silver'.\n3. Draw from the box labeled 'Gold and Silver'. If it's gold, label this box 'Gold'.\n4. Draw from the box labeled 'Gold and Silver'. If it's gold, label this box 'Gold', and if it's silver, label this box 'Silver'.\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 5,
+      "features": {
+        "n_words": 169,
+        "n_chars": 909,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 133,
+      "question": "In a small village, there is a bizarre rule: Every family must have a pet, but no two neighbors can have the same kind of pet. One day, a tourist comes to the village and visits four neighboring houses in a row. Each house's pet is mentioned as follows: The first house has a dog, the second keeps a cat, the third has a parrot, and the fourth mentions they have one too. Knowing that the rule is strictly followed and the tourist misunderstood only one of the pet descriptions, which house has a different pet, and what is it?\n\nOptions:\n1. First house with a rabbit\n2. Second house with a hamster\n3. Third house with a parrot\n4. Fourth house with a fish\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 16,
+      "features": {
+        "n_words": 128,
+        "n_chars": 672,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 159,
+      "question": "Imagine a cube that has a number from 1 to 6 on each face, much like a die. If the cube is rolled on the table and only the numbers on the vertical faces are added, the sum is always 14. The cube is now thrown and lands with the number 3 facing up. What is the number on the bottom face?\n\nOptions:\n1. 1\n2. 2\n3. 4\n4. 5\n5. Another answer",
+      "gold": 3,
+      "pred": 2,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 10,
+      "features": {
+        "n_words": 74,
+        "n_chars": 335,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 168,
+      "question": "Alice, Bob, and Carol need to paint three houses, one for each. They can paint in different colors: red, blue, and green. Alice can't use red paint due to an allergy. Bob doesn't want the green house because it doesn't match his car. Carol mocked the color blue and vowed never to use it. They want to paint their houses using each color once without violating their personal restrictions. In which color should Alice, Bob, and Carol paint their houses to satisfy all conditions?\n\nOptions:\n1. Alice - red, Bob - blue, Carol - green\n2. Alice - green, Bob - red, Carol - blue\n3. Alice - blue, Bob - red, Carol - green\n4. Alice - red, Bob - green, Carol - blue\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 8,
+      "features": {
+        "n_words": 128,
+        "n_chars": 675,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 174,
+      "question": "A man wants to send a valuable object to his friend by mail. The object is more valuable than any lock or key, so he can't just send it in an unlocked box. He has a lock but his friend does not have the corresponding key. How can he send the valuable object, locked, and ensure that his friend can open it without sending the key through an unsecured mail system?\n\nOptions:\n1. The friend sends his lock to the man first.\n2. The man sends the unlocked box and the key separately.\n3. The man and his friend use a third-party service to exchange the key.\n4. The man sends the box locked with his lock, then his friend adds his lock and sends it back.\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 14,
+      "features": {
+        "n_words": 130,
+        "n_chars": 665,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 178,
+      "question": "You are participating in a game show where you can win a car by picking the correct key from a set of 100 different keys. Initially, you have no information about which key might start the car. At the start of the game, you are allowed to choose 10 keys out of the 100. After your initial selection, the host reveals that among the 90 keys you did not select, 89 cannot start the car and removes them, leaving only one key that can start the car aside from the ones you have chosen. The host then offers you the chance to keep your 10 keys or switch to the single remaining key not chosen by you. Should you switch, stick with your initial choice, or does it not matter?\n\nOptions:\n1. Switch\n2. Stick with the initial choice\n3. It does not matter\n4. Ask for a hint\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 7,
+      "features": {
+        "n_words": 152,
+        "n_chars": 781,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 207,
+      "question": "Pete is reading a book. Suddenly he throws the book away and turns on the light. Why did Pete throw the book away and turn on the light?\n\nOptions:\n1. He finished reading the book.\n2. There was a power outage.\n3. He read something frightening.\n4. The book was damaged and he threw it away in frustration.\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 24,
+      "features": {
+        "n_words": 61,
+        "n_chars": 321,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 209,
+      "question": "A man it was, and he did thrive; by him, many things were alive. When he moved, so they would bloom; Without him, impending doom. What is he?\n\nOptions:\n1. The Sun\n2. The Moon\n3. The Wind\n4. The Ocean\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 97,
+      "features": {
+        "n_words": 44,
+        "n_chars": 217,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 210,
+      "question": "A man buys a new car and goes home. He turns off the lights and goes to sleep. The next morning he looks at his car and knows immediately that something is wrong. What is wrong and how does he know?\n\nOptions:\n1. The car was stolen overnight.\n2. The car's color is different in daylight.\n3. There are shipwreck pieces around his car.\n4. Nothing is wrong; it's just a feeling he has.\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 193,
+      "features": {
+        "n_words": 77,
+        "n_chars": 399,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 242,
+      "question": "There are two doors, one leading to a room filled with treasure and the other leading to a room with a hungry lion that hasn't eaten in years. Each door is guarded by a guardian. One guardian always tells the truth and the other always lies, and you don't know which is which. You have only one question to ask one guardian to find out which door leads to the treasure. What should you ask?\n\nOptions:\n1. Which door would the other guardian say leads to the treasure?\n2. Which door leads to the treasure?\n3. If I were to ask the other guardian which door leads to the treasure, what would he say?\n4. Is the guardian of the treasure door lying?\n5. Another answer",
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 9,
+      "features": {
+        "n_words": 126,
+        "n_chars": 660,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 277,
+      "question": "Two siblings, Alex and Taylor, are born on the exact same day of the same month but they are not twins. How is that possible?\n\nOptions:\n1. They are twins but there is a clerical error in the birth registry.\n2. Alex and Taylor are triplets.\n3. They are born on different years.\n4. The statement is incorrect; it is not possible.\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 7,
+      "features": {
+        "n_words": 65,
+        "n_chars": 345,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 278,
+      "question": "Imagine a cube that has six faces, each painted with a different color: Red, Blue, Green, Yellow, Purple, and Orange. You place the cube in a box that has a color painted on each of its six interior sides, matching the colors on the cube. The cube is dropped in and lands with the Red face upwards and the Green face to the North side of the box. Knowing that opposite faces of both the cube and the box have complementary colors (colors that are not next to each other in a standard color wheel), which color is on the bottom face of the cube?\n\nOptions:\n1. Green\n2. Blue\n3. Purple\n4. Orange\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 40,
+      "features": {
+        "n_words": 117,
+        "n_chars": 609,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 285,
+      "question": "Imagine you come across a strange device with a sequence of numbers on its display: 2, 4, 8, 32, 256. Each number seems to be related to the one before it. To unlock the device, you must enter the next number in the sequence. What number should you input?\n\nOptions:\n1. 1024\n2. 1280\n3. 1536\n4. 2048\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 58897,
+      "features": {
+        "n_words": 61,
+        "n_chars": 315,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 303,
+      "question": "In a certain sequence, each term after the first is obtained by multiplying the previous term by a certain number and then adding 1. If the first three terms of the sequence are 3, 10, and 31, what is the sixth term of the sequence?\n\nOptions:\n1. 241\n2. 283\n3. 850\n4. 949\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 3021,
+      "features": {
+        "n_words": 57,
+        "n_chars": 288,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 349,
+      "question": "Imagine a 3x3x3 Rubik's cube. Each small cube on the surface is colored either red, blue, or green. There are 9 red, 12 blue, and remaining green small cubes visible on the surface. Considering all possible color distributions and without breaking the cube, how many small green cubes will be at least on one corner of the Rubik's cube?\n\nOptions:\n1. 1\n2. 2\n3. 3\n4. 4\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 299,
+      "features": {
+        "n_words": 71,
+        "n_chars": 384,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 351,
+      "question": "A homeowner wants to design a simple mechanical gate that opens automatically when their car approaches from the outside but does not open when the car exits the driveway. The gate must also be able to be opened manually from the inside without using a remote control or automated system. Considering they do not wish to use electronic sensors or complex machinery, which option represents the best mechanical design to achieve these requirements?\n\nOptions:\n1. Use a pull-rope connected to the gate that the homeowner can tug from the car.\n2. Install a weighted pivot mechanism that opens when a car pushes from the outside.\n3. Have a pressure plate on the driveway that triggers the gate when a car is on top of it.\n4. Fit the car with a magnet that attracts a metallic plate on the gate when near.\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 22,
+      "features": {
+        "n_words": 145,
+        "n_chars": 817,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 408,
+      "question": "You are in a room with 4 doors, each door leads to a path that comes to a fork. The room has a sign saying, 'Three of these paths lead to a loop that will bring you back to this room. One path leads to freedom. The Room of Truth contains the clue to your escape, and lies at the end of the second left path after any fork.' In the Room of Truth, you find another sign, 'The safe door is not the first on the left, but it is a prime number away from it.' Which door do you choose for freedom?\n\nOptions:\n1. Door 1\n2. Door 2\n3. Door 3\n4. Door 4\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 12,
+      "features": {
+        "n_words": 120,
+        "n_chars": 559,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 433,
+      "question": "There is a cube made entirely of transparent material. Inside the cube is a smaller, solid red cube positioned at one corner of the large cube. You can see the inner red cube from the outside. How many of the large cube’s faces show the red cube?\n\nOptions:\n1. 3 faces\n2. 4 faces\n3. 6 faces\n4. 2 faces\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 23,
+      "features": {
+        "n_words": 63,
+        "n_chars": 318,
+        "n_numbers_in_question": 9,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 448,
+      "question": "A secretive organization communicates with its agents using a riddle to confirm their identities. The riddle is as follows: 'I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?'. An agent is to respond with a one-word answer that represents an element required for the organization's secret communication. What should the agent's answer be?\n\nOptions:\n1. Echo\n2. Shadow\n3. Light\n4. Wave\n5. Another answer",
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 46,
+      "features": {
+        "n_words": 79,
+        "n_chars": 457,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 461,
+      "question": "Alice has created a sequence where each number is generated by adding the square of the number's position in the sequence (where the first position is 1, the second position is 2, and so on) to the previous number. If the sequence starts with 1, what is the 6th number in the sequence?\n\nOptions:\n1. 81\n2. 66\n3. 77\n4. 91\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 165,
+      "features": {
+        "n_words": 65,
+        "n_chars": 337,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 487,
+      "question": "You encounter a sequence of numbers where each term after the first two is the sum of the previous two terms multiplied by the sum of their positional indices in the sequence. If the sequence begins with 2 and 3, what is the fifth term in the sequence?\n\nOptions:\n1. 370\n2. 630\n3. 735\n4. 945\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 608,
+      "features": {
+        "n_words": 60,
+        "n_chars": 308,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 489,
+      "question": "You are presented with three machines: A, B, and C. Each machine has two settings: 1 and 2. When the machines are operated together, they produce a widget. The settings control the speed, quality, and durability of the widget as follows: Machine A controls speed, Machine B controls quality, and Machine C controls durability. You know these facts: 1) Setting both A and C to 2 produces a widget too fast and fragile. 2) Setting A to 1 and B to 2 never yields a high-quality widget. 3) A widget of acceptable quality and durability is produced when B and C are both set to 1, but at a slow speed. Which settings should be used on the machines to produce a widget that is fast, durable and of acceptable quality?\n\nOptions:\n1. A=1, B=1, C=2\n2. A=2, B=2, C=1\n3. A=1, B=2, C=1\n4. A=2, B=1, C=2\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 13,
+      "features": {
+        "n_words": 151,
+        "n_chars": 807,
+        "n_numbers_in_question": 26,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 501,
+      "question": "You are presented with three identical looking machines, each with a single button and a single light bulb. Each machine operates on a different principle: Machine A lights up the bulb every time the button is pressed. Machine B lights up the bulb every second button press. Machine C lights up the bulb randomly with a 50% chance each time the button is pressed. With the bulbs initially off, you can press the button on each machine only once. Your task is to determine which machine operates on which principle based on the light bulb status after you press the buttons. How would you identify each machine?\n\nOptions:\n1. You can't determine which machine is which with just one press each.\n2. Pressing all buttons simultaneously reveals their principles.\n3. Sequential button pressing allows for proper identification.\n4. Only machine A can be identified with certainty after one press.\n5. Another answer",
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 16,
+      "features": {
+        "n_words": 152,
+        "n_chars": 907,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 583,
+      "question": "A cabin on the side of a mountain is the scene of a terrible airplane crash. Every single person on board dies but two people survive. How is this possible?\n\nOptions:\n1. They were not on the plane.\n2. They jumped out of the plane before it crashed.\n3. Only the single people (unmarried) onboard died.\n4. They were rescued before the crash occurred.\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 7,
+      "features": {
+        "n_words": 67,
+        "n_chars": 366,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 591,
+      "question": "You're given a numeric sequence that appears random at first glance: 2, 12, 36, 80, 150, ____. To find the missing number, you must realize the hidden pattern. What number should replace the blank?\n\nOptions:\n1. 210\n2. 246\n3. 290\n4. 256\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 4443,
+      "features": {
+        "n_words": 46,
+        "n_chars": 253,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 604,
+      "question": "In a room, there are 4 corners: A, B, C, and D. You have to place a lamp in the room such that the following conditions are met: 1) The lamp must be equidistant from corners A, B, and C. 2) The distance from corner D to the lamp must be twice the distance from corner A to the lamp. Assuming the room is square and the corners are labeled in clockwise order, where should you place the lamp?\n\nOptions:\n1. At the center of the room\n2. Halfway between corner A and the center of the room\n3. At corner A\n4. Nowhere, because it's a logical trap\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 26,
+      "features": {
+        "n_words": 112,
+        "n_chars": 558,
+        "n_numbers_in_question": 8,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 612,
+      "question": "Imagine a sequence where each term is the result of the multiplication of the sum of the digits of the previous term. The sequence starts with 289. What is the 4th term in the sequence?\n\nOptions:\n1. 100\n2. 19\n3. 361\n4. 1\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 2533,
+      "features": {
+        "n_words": 47,
+        "n_chars": 238,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 637,
+      "question": "A scientist has built three different time machines: Machine A, Machine B, and Machine C. Each machine has two modes: 'Forward in time' and 'Backward in time'. When operating in 'Forward in time' mode, Machine A moves forward by 3 hours, Machine B by 5 hours, and Machine C by 7 hours. When set to 'Backward in time', they move backwards by the same amount of time. The scientist activates each machine once. After the operation, the total net time traveled equals zero, meaning the combined operation of the machines has not resulted in any change in the present time. What combinations of modes were set on each machine?\n\nOptions:\n1. Machine A: Backward, Machine B: Forward, Machine C: Forward\n2. Machine A: Forward, Machine B: Forward, Machine C: Forward\n3. Machine A: Forward, Machine B: Backward, Machine C: Forward\n4. Machine A: Forward, Machine B: Backward, Machine C: Backward\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 29,
+      "features": {
+        "n_words": 153,
+        "n_chars": 902,
+        "n_numbers_in_question": 8,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 640,
+      "question": "In a kingdom, there are 5 wells each containing different amounts of water. The first well contains half the amount of water than the second well. The third well contains 3 liters less than the first well. The fourth well contains twice the amount of the third, and the last well has a quantity that is the average of all four previous wells. If the first and the last wells together contain 35 liters, how much water does the third well contain?\n\nOptions:\n1. 9.6 liters\n2. 11.6 liters\n3. 13.6 liters\n4. 15.6 liters\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 1326,
+      "features": {
+        "n_words": 98,
+        "n_chars": 533,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 663,
+      "question": "You are presented with two boxes, Box A and Box B. One box contains a reward, and the other contains nothing. There is a statement written on each box. Box A says 'The reward is in this box.' Box B says 'The reward is not in Box A.' Only one of these statements is true. Which box contains the reward?\n\nOptions:\n1. Box A\n2. Box B\n3. Both boxes\n4. Neither box\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 5,
+      "features": {
+        "n_words": 76,
+        "n_chars": 376,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 664,
+      "question": "You discover an ancient book with a series of numbers on a page: 2, 12, 36, 80, 150, __. Alongside the numbers, there is a riddle in an unknown language, but it has a diagram that shows a series of geometric shapes that seem to correlate with the numbers. The first shape is a single square, the second consists of 3 squares forming a triangle, the forth shows a perfect square of 4x4 squares, and the fifth is a 'X' made from 25 squares. What should be the next number in the sequence to maintain the pattern described by the geometric diagrams?\n\nOptions:\n1. 210\n2. 250\n3. 294\n4. 342\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 943,
+      "features": {
+        "n_words": 114,
+        "n_chars": 602,
+        "n_numbers_in_question": 18,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 669,
+      "question": "In a factory, there are three machines A, B, and C that are operated by a central computer. The computer can start and stop these machines based on the commands it receives. Today, the computer received a sequence of corrupted commands that may cause the inappropriate operation of these machines. The sequence of commands was as follows: If A is on, turn off B. If C is off, turn on A. If B is on, turn off C. When the computer started, all machines were off. It then executed these commands in order, starting with the second command, then the third, and finally the first. After executing this sequence once, which of the machines were turned on?\n\nOptions:\n1. Only Machine A is on\n2. Only Machine B is on\n3. Only Machine C is on\n4. All machines are off\n5. Another answer",
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 18,
+      "features": {
+        "n_words": 144,
+        "n_chars": 773,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 680,
+      "question": "You are presented with a sequence of numbers: 2, 4, 12, 48, 240. What is the next number in the sequence?\n\nOptions:\n1. 960\n2. 1200\n3. 1440\n4. 2880\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 29016,
+      "features": {
+        "n_words": 33,
+        "n_chars": 164,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 697,
+      "question": "You have a transparent cube with a colored dot at each corner; red, green, blue, and yellow on the top four corners, and orange, purple, brown, and black on the bottom four corners. Each face of the cube has a different color: the face between red and green is white, blue and yellow is clear, orange and purple is silver, brown and black is gold, red and orange is blue, and green and purple is pink. If you are looking through the clear face at the cube, with the blue and yellow dots at the top, putting the red dot on your immediate left and the green one on your immediate right, what is the color of the dot in the lower-right corner behind the cube?\n\nOptions:\n1. orange\n2. purple\n3. brown\n4. black\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 17,
+      "features": {
+        "n_words": 138,
+        "n_chars": 722,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    }
+  ]
+}

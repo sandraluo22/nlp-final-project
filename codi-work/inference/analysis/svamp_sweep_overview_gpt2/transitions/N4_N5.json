@@ -1,0 +1,600 @@
+{
+  "from_N": 4,
+  "to_N": 5,
+  "gained_wrong_to_right": 13,
+  "lost_right_to_wrong": 11,
+  "stable_right": 374,
+  "stable_wrong": 602,
+  "feature_breakdown": {
+    "gained": {
+      "count": 13,
+      "n_words": {
+        "mean": 36.0,
+        "median": 33,
+        "min": 30,
+        "max": 46
+      },
+      "n_chars": {
+        "mean": 185.54,
+        "median": 173,
+        "min": 146,
+        "max": 261
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 5.85,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 28.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 11,
+        "10-99": 2
+      }
+    },
+    "lost": {
+      "count": 11,
+      "n_words": {
+        "mean": 31.09,
+        "median": 28,
+        "min": 21,
+        "max": 53
+      },
+      "n_chars": {
+        "mean": 161.09,
+        "median": 152,
+        "min": 105,
+        "max": 288
+      },
+      "n_numbers_in_question": {
+        "mean": 2.91,
+        "median": 3,
+        "min": 2,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 104.91,
+        "median": 27.0,
+        "min": 1.0,
+        "max": 638.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 3,
+        "10-99": 6,
+        "100-999": 2
+      }
+    },
+    "stable_right": {
+      "count": 374,
+      "n_words": {
+        "mean": 29.21,
+        "median": 28.0,
+        "min": 15,
+        "max": 53
+      },
+      "n_chars": {
+        "mean": 148.93,
+        "median": 144.0,
+        "min": 68,
+        "max": 303
+      },
+      "n_numbers_in_question": {
+        "mean": 2.37,
+        "median": 2.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 38.45,
+        "median": 10.0,
+        "min": 1.0,
+        "max": 2080.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 183,
+        "10-99": 164,
+        "100-999": 26,
+        "1000-9999": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 602,
+      "n_words": {
+        "mean": 33.26,
+        "median": 32.0,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 170.45,
+        "median": 163.5,
+        "min": 76,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 3.08,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 50743.29,
+        "median": 25.0,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 181,
+        "10-99": 244,
+        "100-999": 110,
+        "1000-9999": 38,
+        "10000+": 29
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 152,
+      "question": "Mary is baking a cake. The recipe calls for 12 cups of flour 14 cups of sugar and 7 cups of salt. She already put in 2 cups of flour. How many more cups of flour than cups of salt does she need to add now?",
+      "gold": 3.0,
+      "pred_N4": 9.0,
+      "pred_N5": 3.0,
+      "response_N4": "The answer is: 9",
+      "response_N5": "The answer is: 3",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 46,
+        "n_chars": 205,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 161,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 14 inches. The mouse jumped 16 inches lesser than the frog who jumped 37 inches farther than the grasshopper. How much farther did the mouse jump than the grasshopper?",
+      "gold": 21.0,
+      "pred_N4": 41.0,
+      "pred_N5": 21.0,
+      "response_N4": "The answer is: 41",
+      "response_N5": "The answer is: 21",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 43,
+        "n_chars": 253,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 21.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 406,
+      "question": "Jerry had 7 action figures and 2 books on a shelf in his room. Later he added 4 more books to the shelf. How many more action figures than books were on his shelf?",
+      "gold": 1.0,
+      "pred_N4": 5.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 5",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 34,
+        "n_chars": 163,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 479,
+      "question": "Julia played tag with 16 kids on monday. If she played tag with 12 more kids on monday than on tuesday How many kids did she play with on tuesday?",
+      "gold": 4.0,
+      "pred_N4": 8.0,
+      "pred_N5": 4.0,
+      "response_N4": "The answer is: 8",
+      "response_N5": "The answer is: 4",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 30,
+        "n_chars": 146,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 501,
+      "question": "Allan brought 6 balloons and Jake brought 2 balloons to the park. Jake then bought 3 more balloons at the park. How many more balloons did Allan have than Jake in the park?",
+      "gold": 1.0,
+      "pred_N4": 5.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 5",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 33,
+        "n_chars": 172,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 517,
+      "question": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books How many more movies than books have you read?",
+      "gold": 3.0,
+      "pred_N4": 2.0,
+      "pred_N5": 3.0,
+      "response_N4": "The answer is: 2",
+      "response_N5": "The answer is: 3",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 39,
+        "n_chars": 192,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 535,
+      "question": "4 people can ride the Ferris wheel in paradise park at the same time. If each seat on the Ferris wheel can hold 2 people How many seats does the Ferris wheel have?",
+      "gold": 2.0,
+      "pred_N4": 8.0,
+      "pred_N5": 2.0,
+      "response_N4": "The answer is: 8",
+      "response_N5": "The answer is: 2",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 33,
+        "n_chars": 163,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 598,
+      "question": "Allan brought 6 balloons and Jake brought 3 balloons to the park. Jake then bought 4 more balloons at the park. How many more balloons did Jake have than Allan in the park?",
+      "gold": 1.0,
+      "pred_N4": 5.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 5",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 33,
+        "n_chars": 172,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 616,
+      "question": "Allan brought 2 balloons and Jake brought 6 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Jake have than Allan in the park?",
+      "gold": 1.0,
+      "pred_N4": 5.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 5",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 33,
+        "n_chars": 173,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 776,
+      "question": "Jerry had 5 action figures and 2 books on a shelf in his room. Later he added 9 more books to the shelf. How many more books than action figures were on his shelf?",
+      "gold": 6.0,
+      "pred_N4": 2.0,
+      "pred_N5": 6.0,
+      "response_N4": "The answer is: 2",
+      "response_N5": "The answer is: 6",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 34,
+        "n_chars": 163,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 811,
+      "question": "Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?",
+      "gold": 4.0,
+      "pred_N4": 14.0,
+      "pred_N5": 4.0,
+      "response_N4": "The answer is: 14",
+      "response_N5": "The answer is: 4",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 32,
+        "n_chars": 176,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 869,
+      "question": "Allan brought 2 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Allan have than Jake in the park?",
+      "gold": 1.0,
+      "pred_N4": 3.0,
+      "pred_N5": 1.0,
+      "response_N4": "The answer is: 3",
+      "response_N5": "The answer is: 1",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 33,
+        "n_chars": 173,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 989,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",
+      "gold": 28.0,
+      "pred_N4": 32.0,
+      "pred_N5": 28.0,
+      "response_N4": "The answer is: 32",
+      "response_N5": "The answer is: 28",
+      "correct_N4": false,
+      "correct_N5": true,
+      "features": {
+        "n_words": 45,
+        "n_chars": 261,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 28.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 105,
+      "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 94 of the pickers that they fill 90 drums of grapes in 6 days. How many drums of grapes would be filled per day?",
+      "gold": 15.0,
+      "pred_N4": 15.0,
+      "pred_N5": 16.5,
+      "response_N4": "The answer is: 15",
+      "response_N5": "The answer is: 16.5",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 41,
+        "n_chars": 202,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 15.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 192,
+      "question": "3 red peaches, and some more green peaches are in the basket. If there are 10 more green peaches than red peaches in the basket How many green peaches are in the basket?",
+      "gold": 13.0,
+      "pred_N4": 13.0,
+      "pred_N5": 10.0,
+      "response_N4": "The answer is: 13",
+      "response_N5": "The answer is: 10",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 33,
+        "n_chars": 169,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 248,
+      "question": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes. How many cakes does baker still have?",
+      "gold": 186.0,
+      "pred_N4": 186.0,
+      "pred_N5": 206.0,
+      "response_N4": "The answer is: 186",
+      "response_N5": "The answer is: 206",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 21,
+        "n_chars": 105,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 186.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 274,
+      "question": "Zachary did 51 push-ups in gym class today. David did 22 more push-ups than Zachary. John did 4 push-ups less than David. How many push-ups did John do?",
+      "gold": 69.0,
+      "pred_N4": 69.0,
+      "pred_N5": 75.0,
+      "response_N4": "The answer is: 69",
+      "response_N5": "The answer is: 75",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 152,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 69.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 412,
+      "question": "Debby bought 264 water bottles when they were on sale. If she drank 15 bottles a day for 11 days. How many bottles does she have left?",
+      "gold": 99.0,
+      "pred_N4": 99.0,
+      "pred_N5": 89.0,
+      "response_N4": "The answer is: 99",
+      "response_N5": "The answer is: 89",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 27,
+        "n_chars": 134,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 99.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 448,
+      "question": "Matthew had 15 crackers. If Matthew gave equal numbers of crackers to his 5 friends and still had 10 crackers left How many crackers did each friend eat?",
+      "gold": 1.0,
+      "pred_N4": 1.0,
+      "pred_N5": 5.0,
+      "response_N4": "The answer is: 1",
+      "response_N5": "The answer is: 5",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 153,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 534,
+      "question": "There are 6 baskets of peaches. Each basket has 16 red peaches and 18 green peaches. How many red peaches are in the baskets altogether?",
+      "gold": 96.0,
+      "pred_N4": 96.0,
+      "pred_N5": 204.0,
+      "response_N4": "The answer is: 96",
+      "response_N5": "The answer is: 204",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 25,
+        "n_chars": 136,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 96.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 567,
+      "question": "2 birds were sitting on the fence. 5 more birds and 4 more storks came to join them. How many more birds than storks are sitting on the fence?",
+      "gold": 3.0,
+      "pred_N4": 3.0,
+      "pred_N5": 5.0,
+      "response_N4": "The answer is: 3",
+      "response_N5": "The answer is: 5",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 29,
+        "n_chars": 142,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 611,
+      "question": "Paco had 6 cookies. He gave 30 cookies to his friend and ate 23 cookies. How many more cookies did he give to his friend than those he ate?",
+      "gold": 7.0,
+      "pred_N4": 7.0,
+      "pred_N5": 23.0,
+      "response_N4": "The answer is: 7",
+      "response_N5": "The answer is: 23",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 29,
+        "n_chars": 139,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 649,
+      "question": "Faye was placing her pencils and crayons into 11 rows with 31 pencils and 27 crayons in each row. How many pencils and crayons does she have altogether?",
+      "gold": 638.0,
+      "pred_N4": 638.0,
+      "pred_N5": 644.0,
+      "response_N4": "The answer is: 638",
+      "response_N5": "The answer is: 644",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 152,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 638.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 700,
+      "question": "Winter is almost here and most animals are migrating to warmer countries. There are 41 bird families living near the mountain. If 35 bird families flew away to asia and 62 bird families flew away to africa How many more bird families flew away to africa than those that flew away to asia?",
+      "gold": 27.0,
+      "pred_N4": 27.0,
+      "pred_N5": 23.0,
+      "response_N4": "The answer is: 27",
+      "response_N5": "The answer is: 23",
+      "correct_N4": true,
+      "correct_N5": false,
+      "features": {
+        "n_words": 53,
+        "n_chars": 288,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 27.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "from_N": 3,
+  "to_N": 4,
+  "gained_wrong_to_right": 10,
+  "lost_right_to_wrong": 13,
+  "stable_right": 375,
+  "stable_wrong": 602,
+  "feature_breakdown": {
+    "gained": {
+      "count": 10,
+      "n_words": {
+        "mean": 32.3,
+        "median": 28.5,
+        "min": 24,
+        "max": 46
+      },
+      "n_chars": {
+        "mean": 162.6,
+        "median": 152.0,
+        "min": 131,
+        "max": 223
+      },
+      "n_numbers_in_question": {
+        "mean": 2.9,
+        "median": 3.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 114.8,
+        "median": 11.0,
+        "min": 1.0,
+        "max": 638.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 3,
+        "10-99": 5,
+        "100-999": 2
+      }
+    },
+    "lost": {
+      "count": 13,
+      "n_words": {
+        "mean": 34.31,
+        "median": 34,
+        "min": 20,
+        "max": 43
+      },
+      "n_chars": {
+        "mean": 167.38,
+        "median": 172,
+        "min": 90,
+        "max": 213
+      },
+      "n_numbers_in_question": {
+        "mean": 3.08,
+        "median": 3,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 13.15,
+        "median": 6.0,
+        "min": 1.0,
+        "max": 80.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 8,
+        "10-99": 5
+      }
+    },
+    "stable_right": {
+      "count": 375,
+      "n_words": {
+        "mean": 29.18,
+        "median": 28,
+        "min": 15,
+        "max": 53
+      },
+      "n_chars": {
+        "mean": 148.93,
+        "median": 144,
+        "min": 68,
+        "max": 303
+      },
+      "n_numbers_in_question": {
+        "mean": 2.37,
+        "median": 2,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 38.37,
+        "median": 10.0,
+        "min": 1.0,
+        "max": 2080.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 183,
+        "10-99": 165,
+        "100-999": 26,
+        "1000-9999": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 602,
+      "n_words": {
+        "mean": 33.29,
+        "median": 32.0,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 170.84,
+        "median": 164.0,
+        "min": 76,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 3.08,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 50743.14,
+        "median": 25.0,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 184,
+        "10-99": 241,
+        "100-999": 110,
+        "1000-9999": 38,
+        "10000+": 29
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 29,
+      "question": "Mary is baking a cake. The recipe calls for 9 cups of sugar 14 cups of flour and 40 cups of salt. She already put in 4 cups of flour. How many more cups of flour than cups of sugar does she need to add now?",
+      "gold": 1.0,
+      "pred_N3": 5.0,
+      "pred_N4": 1.0,
+      "response_N3": "The answer is: 5",
+      "response_N4": "The answer is: 1",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 46,
+        "n_chars": 206,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 274,
+      "question": "Zachary did 51 push-ups in gym class today. David did 22 more push-ups than Zachary. John did 4 push-ups less than David. How many push-ups did John do?",
+      "gold": 69.0,
+      "pred_N3": 75.0,
+      "pred_N4": 69.0,
+      "response_N3": "The answer is: 75",
+      "response_N4": "The answer is: 69",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 152,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 69.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 378,
+      "question": "There were some birds sitting on the fence. 4 more birds came to join them. If there are a total of 5 birds on the fence now How many birds had been sitting on the fence at the start?",
+      "gold": 1.0,
+      "pred_N3": 5.0,
+      "pred_N4": 1.0,
+      "response_N3": "The answer is: 5",
+      "response_N4": "The answer is: 1",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 39,
+        "n_chars": 183,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 458,
+      "question": "Rachel picked 6 ripe apples from her tree. Now the tree has 2 ripe apples and 4 unripe apples. How many apples did the tree have to begin with?",
+      "gold": 12.0,
+      "pred_N3": 8.0,
+      "pred_N4": 12.0,
+      "response_N3": "The answer is: 8",
+      "response_N4": "The answer is: 12",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 29,
+        "n_chars": 143,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 534,
+      "question": "There are 6 baskets of peaches. Each basket has 16 red peaches and 18 green peaches. How many red peaches are in the baskets altogether?",
+      "gold": 96.0,
+      "pred_N3": 216.0,
+      "pred_N4": 96.0,
+      "response_N3": "The answer is: 216",
+      "response_N4": "The answer is: 96",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 25,
+        "n_chars": 136,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 96.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 649,
+      "question": "Faye was placing her pencils and crayons into 11 rows with 31 pencils and 27 crayons in each row. How many pencils and crayons does she have altogether?",
+      "gold": 638.0,
+      "pred_N3": 614.0,
+      "pred_N4": 638.0,
+      "response_N3": "The answer is: 614",
+      "response_N4": "The answer is: 638",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 152,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 638.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 692,
+      "question": "Allan brought 3 balloons and Jake brought 5 balloons to the park. Allan then bought 2 more balloons at the park. How many balloons did Allan and Jake have in the park?",
+      "gold": 10.0,
+      "pred_N3": 12.0,
+      "pred_N4": 10.0,
+      "response_N3": "The answer is: 12",
+      "response_N4": "The answer is: 10",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 32,
+        "n_chars": 167,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 694,
+      "question": "3 birds and 2 storks were sitting on the fence. 5 more birds came to join them. How many birds and storks are sitting on the fence?",
+      "gold": 10.0,
+      "pred_N3": 12.0,
+      "pred_N4": 10.0,
+      "response_N3": "The answer is: 12",
+      "response_N4": "The answer is: 10",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 27,
+        "n_chars": 131,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 839,
+      "question": "There are 11 baskets of peaches. Each basket has 10 red peaches and 18 green peaches. How many peaches are in the baskets altogether?",
+      "gold": 308.0,
+      "pred_N3": 288.0,
+      "pred_N4": 308.0,
+      "response_N3": "The answer is: 288",
+      "response_N4": "The answer is: 308",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 24,
+        "n_chars": 133,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 308.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 853,
+      "question": "Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now How many action figures did he have initially on the shelf?",
+      "gold": 3.0,
+      "pred_N3": 4.0,
+      "pred_N4": 3.0,
+      "response_N3": "The answer is: 4",
+      "response_N4": "The answer is: 3",
+      "correct_N3": false,
+      "correct_N4": true,
+      "features": {
+        "n_words": 45,
+        "n_chars": 223,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 120,
+      "question": "4 birds and 3 storks were sitting on the fence. 6 more storks came to join them. How many more storks than birds are sitting on the fence?",
+      "gold": 5.0,
+      "pred_N3": 5.0,
+      "pred_N4": 7.0,
+      "response_N3": "The answer is: 5",
+      "response_N4": "The answer is: 7",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 138,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 141,
+      "question": "Dave had 24 apps and 9 files on his phone. After deleting some apps and files he had 5 files and 12 apps left. How many more apps than files does he have left on the phone?",
+      "gold": 7.0,
+      "pred_N3": 7.0,
+      "pred_N4": 5.0,
+      "response_N3": "The answer is: 7",
+      "response_N4": "The answer is: 5",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 37,
+        "n_chars": 172,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 349,
+      "question": "There are 22 different books and 10 different movies in the ' crazy silly school ' series. If you read 12 of the books and watched 56 of the movies How many more books do you still have to read?",
+      "gold": 10.0,
+      "pred_N3": 10.0,
+      "pred_N4": 20.0,
+      "response_N3": "The answer is: 10",
+      "response_N4": "The answer is: 20",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 40,
+        "n_chars": 194,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 362,
+      "question": "Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book. How many pages did he read per day?",
+      "gold": 15.0,
+      "pred_N3": 15.0,
+      "pred_N4": 5.0,
+      "response_N3": "The answer is: 15",
+      "response_N4": "The answer is: 5",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 43,
+        "n_chars": 213,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 15.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 367,
+      "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 5 cups of sugar. She already put in 3 cups of flour and 62 cups of sugar. How many more cups of flour does she need to add?",
+      "gold": 6.0,
+      "pred_N3": 6.0,
+      "pred_N4": 4.0,
+      "response_N3": "The answer is: 6",
+      "response_N4": "The answer is: 4",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 42,
+        "n_chars": 187,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 441,
+      "question": "53 campers went rowing in the morning 48 campers went rowing in the afternoon and 49 campers went rowing in the evening. How many more campers went rowing in the morning than in the evening?",
+      "gold": 4.0,
+      "pred_N3": 4.0,
+      "pred_N4": 2.0,
+      "response_N3": "The answer is: 4",
+      "response_N4": "The answer is: 2",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 35,
+        "n_chars": 190,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 535,
+      "question": "4 people can ride the Ferris wheel in paradise park at the same time. If each seat on the Ferris wheel can hold 2 people How many seats does the Ferris wheel have?",
+      "gold": 2.0,
+      "pred_N3": 2.0,
+      "pred_N4": 8.0,
+      "response_N3": "The answer is: 2",
+      "response_N4": "The answer is: 8",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 33,
+        "n_chars": 163,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 583,
+      "question": "Tiffany was collecting cans for recycling. On monday she had 10 bags of cans. She found 3 bags of cans on the next day and 7 bags of cans the day after that. How many bags did she have altogether?",
+      "gold": 20.0,
+      "pred_N3": 20.0,
+      "pred_N4": 22.0,
+      "response_N3": "The answer is: 20",
+      "response_N4": "The answer is: 22",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 40,
+        "n_chars": 196,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 20.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 623,
+      "question": "Dan has $ 5. He bought a chocolate for $ 3 and a candy bar for $ 7. How much money did he spend to buy candy bar than he did to buy chocolate?",
+      "gold": 4.0,
+      "pred_N3": 4.0,
+      "pred_N4": 5.0,
+      "response_N3": "The answer is: 4",
+      "response_N4": "The answer is: 5",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 34,
+        "n_chars": 142,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 695,
+      "question": "Randy has 58 blocks. He uses 27 blocks to build a tower and 53 blocks to build a house. How many blocks did he use to build the tower and the house altogether?",
+      "gold": 80.0,
+      "pred_N3": 80.0,
+      "pred_N4": 78.0,
+      "response_N3": "The answer is: 80",
+      "response_N4": "The answer is: 78",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 33,
+        "n_chars": 159,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 80.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 712,
+      "question": "Dave had 17 apps on his phone. After adding some he had 18 left. How many apps did he add?",
+      "gold": 1.0,
+      "pred_N3": 1.0,
+      "pred_N4": 5.0,
+      "response_N3": "The answer is: 1",
+      "response_N4": "The answer is: 5",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 20,
+        "n_chars": 90,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 719,
+      "question": "Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?",
+      "gold": 13.0,
+      "pred_N3": 13.0,
+      "pred_N4": 17.0,
+      "response_N3": "The answer is: 13",
+      "response_N4": "The answer is: 17",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 29,
+        "n_chars": 156,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 811,
+      "question": "Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?",
+      "gold": 4.0,
+      "pred_N3": 4.0,
+      "pred_N4": 14.0,
+      "response_N3": "The answer is: 4",
+      "response_N4": "The answer is: 14",
+      "correct_N3": true,
+      "correct_N4": false,
+      "features": {
+        "n_words": 32,
+        "n_chars": 176,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ]
+}

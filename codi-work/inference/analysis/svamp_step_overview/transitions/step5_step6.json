@@ -1,0 +1,1146 @@
+{
+  "from_step": 5,
+  "to_step": 6,
+  "gained_wrong_to_right": 5,
+  "lost_right_to_wrong": 54,
+  "stable_right": 21,
+  "stable_wrong": 852,
+  "feature_breakdown": {
+    "gained": {
+      "count": 5,
+      "n_words": {
+        "mean": 29.0,
+        "median": 27,
+        "min": 24,
+        "max": 42
+      },
+      "n_chars": {
+        "mean": 147.8,
+        "median": 140,
+        "min": 124,
+        "max": 200
+      },
+      "n_numbers_in_question": {
+        "mean": 3.4,
+        "median": 3,
+        "min": 3,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 17.2,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 76.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 4,
+        "10-99": 1
+      }
+    },
+    "lost": {
+      "count": 54,
+      "n_words": {
+        "mean": 34.26,
+        "median": 34.0,
+        "min": 21,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 175.11,
+        "median": 177.0,
+        "min": 98,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 3.26,
+        "median": 3.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 48.07,
+        "median": 13.5,
+        "min": 1.0,
+        "max": 626.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 21,
+        "10-99": 29,
+        "100-999": 4
+      }
+    },
+    "stable_right": {
+      "count": 21,
+      "n_words": {
+        "mean": 31.76,
+        "median": 29,
+        "min": 22,
+        "max": 46
+      },
+      "n_chars": {
+        "mean": 160.9,
+        "median": 157,
+        "min": 108,
+        "max": 254
+      },
+      "n_numbers_in_question": {
+        "mean": 2.9,
+        "median": 3,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 39.52,
+        "median": 13.0,
+        "min": 1.0,
+        "max": 238.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 7,
+        "10-99": 12,
+        "100-999": 2
+      }
+    },
+    "stable_wrong": {
+      "count": 852,
+      "n_words": {
+        "mean": 31.54,
+        "median": 30.0,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 161.25,
+        "median": 153.0,
+        "min": 68,
+        "max": 323
+      },
+      "n_numbers_in_question": {
+        "mean": 2.77,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 66.64,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 997.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 346,
+        "10-99": 374,
+        "100-999": 132
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 16,
+  "gained_questions": [
+    {
+      "idx": 630,
+      "question": "Baker made 43 cakes and 114 pastries. If he sold 154 pastries and 78 cakes How many more pastries than cakes did baker sell?",
+      "gold": 76.0,
+      "pred": 40.0,
+      "student_final_correct": false,
+      "rank_step5": 102,
+      "rank_step6": 2,
+      "features": {
+        "n_words": 24,
+        "n_chars": 124,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 76.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 633,
+      "question": "Rebecca wants to split a collection of marbles into groups of 4. Rebecca has 10 eggs and 20 marbles. How many groups will be created?",
+      "gold": 5.0,
+      "pred": 7.0,
+      "student_final_correct": false,
+      "rank_step5": 8,
+      "rank_step6": 1,
+      "features": {
+        "n_words": 25,
+        "n_chars": 133,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 647,
+      "question": "Jake has 12 fewer peaches than Steven who has 11 more peaches than Jill. Steven has 4 peaches. How many more peaches does Jill have than Jake?",
+      "gold": 1.0,
+      "pred": 3.0,
+      "student_final_correct": false,
+      "rank_step5": 23,
+      "rank_step6": 2,
+      "features": {
+        "n_words": 27,
+        "n_chars": 142,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 828,
+      "question": "Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "gold": 1.0,
+      "pred": 1.0,
+      "student_final_correct": true,
+      "rank_step5": 75361,
+      "rank_step6": 4,
+      "features": {
+        "n_words": 42,
+        "n_chars": 200,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 969,
+      "question": "Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles. How many groups will be created?",
+      "gold": 3.0,
+      "pred": 12.0,
+      "student_final_correct": false,
+      "rank_step5": 237,
+      "rank_step6": 3,
+      "features": {
+        "n_words": 27,
+        "n_chars": 140,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 30,
+      "question": "Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies. How many more salty cookies than sweet cookies did he eat?",
+      "gold": 14.0,
+      "pred": 18.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 267,
+      "features": {
+        "n_words": 29,
+        "n_chars": 150,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 14.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 54,
+      "question": "Danny collects bottle caps and wrappers. He found 11 bottle caps and 28 wrappers at the park. Now he has 68 bottle caps and 51 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?",
+      "gold": 17.0,
+      "pred": 31.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 603,
+      "features": {
+        "n_words": 42,
+        "n_chars": 222,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 17.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 66,
+      "question": "Rachel had to complete 5 pages of math homework, 10 pages of reading homework and 6 more pages of biology homework. How many pages of reading and biology homework did she have to complete?",
+      "gold": 16.0,
+      "pred": 26.0,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 1818,
+      "features": {
+        "n_words": 34,
+        "n_chars": 188,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 16.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 70,
+      "question": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups How big is each group of oranges?",
+      "gold": 2.0,
+      "pred": 2.0,
+      "student_final_correct": true,
+      "rank_step5": 3,
+      "rank_step6": 8,
+      "features": {
+        "n_words": 32,
+        "n_chars": 181,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 86,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 36 inches. The frog jumped 17 inches farther than the grasshopper and the mouse jumped 15 inches farther than the frog. How far did the frog jump?",
+      "gold": 53.0,
+      "pred": 68.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 10,
+      "features": {
+        "n_words": 41,
+        "n_chars": 232,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 53.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 90,
+      "question": "He has 9 apples more than Adam and Jackie together do. Adam and Jackie have 7 apples between them. How many apples does He have?",
+      "gold": 16.0,
+      "pred": 25.0,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 16,
+      "features": {
+        "n_words": 25,
+        "n_chars": 128,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 16.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 94,
+      "question": "Jack received 6 emails in the morning, 3 emails in the afternoon and some more in the evening. If he received a total of 10 emails in the day How many emails did Jack receive in the afternoon?",
+      "gold": 1.0,
+      "pred": 1.0,
+      "student_final_correct": true,
+      "rank_step5": 2,
+      "rank_step6": 16,
+      "features": {
+        "n_words": 38,
+        "n_chars": 192,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 104,
+      "question": "Every day Ryan spends 4 hours on learning english and 6 hours on learning chinese. If he learns for 86 days How many hours does he spend on learning english and chinese each day?",
+      "gold": 10.0,
+      "pred": 860.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 22,
+      "features": {
+        "n_words": 34,
+        "n_chars": 178,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 105,
+      "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 94 of the pickers that they fill 90 drums of grapes in 6 days. How many drums of grapes would be filled per day?",
+      "gold": 15.0,
+      "pred": 15.0,
+      "student_final_correct": true,
+      "rank_step5": 2,
+      "rank_step6": 17,
+      "features": {
+        "n_words": 41,
+        "n_chars": 202,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 15.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 141,
+      "question": "Dave had 24 apps and 9 files on his phone. After deleting some apps and files he had 5 files and 12 apps left. How many more apps than files does he have left on the phone?",
+      "gold": 7.0,
+      "pred": 7.0,
+      "student_final_correct": true,
+      "rank_step5": 3,
+      "rank_step6": 614,
+      "features": {
+        "n_words": 37,
+        "n_chars": 172,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 156,
+      "question": "Rachel has 4 apple trees. She picked 7 apples from each of her trees. Now the trees have a total 29 apples still on them. How many apples did Rachel pick in all?",
+      "gold": 28.0,
+      "pred": 53.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 22,
+      "features": {
+        "n_words": 33,
+        "n_chars": 161,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 28.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 160,
+      "question": "Baker made 133 cakes. If he sold 51 of them How many more cakes did baker make than those he sold?",
+      "gold": 82.0,
+      "pred": 31.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 408,
+      "features": {
+        "n_words": 21,
+        "n_chars": 98,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 82.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 176,
+      "question": "Julia played tag with 7 kids on monday and 13 kids on tuesday. She played cards wtih 20 kids on wednesday. How many kids did she play tag with altogether?",
+      "gold": 20.0,
+      "pred": 40.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 15,
+      "features": {
+        "n_words": 30,
+        "n_chars": 154,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 20.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 179,
+      "question": "In a school there are 308 girls and 318 boys. There are also 36 teachers How many pupils are there in that school?",
+      "gold": 626.0,
+      "pred": 662.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 51,
+      "features": {
+        "n_words": 23,
+        "n_chars": 114,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 626.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 189,
+      "question": "The Razorback shop makes $ 76 dollars off each jersey and $ 204 off each t-shirt. During the Arkansas and Texas tech game they sold 158 t-shirts and 2 jerseys. How much money did they make from selling the jerseys?",
+      "gold": 152.0,
+      "pred": 3284.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 103,
+      "features": {
+        "n_words": 40,
+        "n_chars": 214,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 152.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 201,
+      "question": "A grocery store had a total of 17 bottles of which 9 were bottles of regular soda and the rest were bottles of diet soda. They also had 29 apple. How many bottles of diet soda did they have?",
+      "gold": 8.0,
+      "pred": 16.0,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 134,
+      "features": {
+        "n_words": 39,
+        "n_chars": 190,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 203,
+      "question": "Kelly has 20 nintendo games and 70 sony games. How many nintendo games does she need to give away so that she will have 12 nintendo games left?",
+      "gold": 8.0,
+      "pred": 12.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 86,
+      "features": {
+        "n_words": 28,
+        "n_chars": 143,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 219,
+      "question": "Zachary did 44 push-ups and 17 crunches in gym class today. David did 29 more push-ups but 13 less crunches than zachary. How many crunches did David do?",
+      "gold": 4.0,
+      "pred": 20.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 12,
+      "features": {
+        "n_words": 28,
+        "n_chars": 153,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 220,
+      "question": "Ed had 5 more marbles than Doug. Doug lost 3 of his marbles at the playground. If Ed had 27 marbles How many marbles did Doug have initially?",
+      "gold": 22.0,
+      "pred": 25.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 138,
+      "features": {
+        "n_words": 28,
+        "n_chars": 141,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 22.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 227,
+      "question": "Emily is making bead necklaces for her 72 friends. She has 6 beads and each necklace takes 3 beads. How many necklaces can Emily make?",
+      "gold": 2.0,
+      "pred": 24.0,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 271,
+      "features": {
+        "n_words": 25,
+        "n_chars": 134,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 231,
+      "question": "Matthew had 24 crackers. If Matthew gave equal numbers of crackers to his 3 friends and still had 17 crackers left How many crackers did Matthew give to his friends?",
+      "gold": 7.0,
+      "pred": 2.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 395,
+      "features": {
+        "n_words": 30,
+        "n_chars": 165,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 251,
+      "question": "Rachel had to complete 9 pages of math homework, 2 pages of reading homework and 96 more pages of biology homework. How many more pages of math homework than reading homework did she have?",
+      "gold": 7.0,
+      "pred": 7.0,
+      "student_final_correct": true,
+      "rank_step5": 1,
+      "rank_step6": 75,
+      "features": {
+        "n_words": 34,
+        "n_chars": 188,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 258,
+      "question": "Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?",
+      "gold": 21.0,
+      "pred": 15.0,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 426,
+      "features": {
+        "n_words": 48,
+        "n_chars": 221,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 21.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 270,
+      "question": "A mailman has to give 4 pieces of junk mail to each house in each of the 81 blocks. If there are 12 houses in each block How many pieces of junk mail should he give in each block?",
+      "gold": 48.0,
+      "pred": 48.0,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 519,
+      "features": {
+        "n_words": 39,
+        "n_chars": 179,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 48.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 310,
+      "question": "Steven has 19 peaches. Jake has 12 fewer peaches than Steven and 72 more peaches than Jill. How many peaches does Jake have?",
+      "gold": 7.0,
+      "pred": 19.0,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 198,
+      "features": {
+        "n_words": 23,
+        "n_chars": 124,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 372,
+      "question": "We ordered 17 pizzas. Each pizza has 4 slices. If there are 25 of us How many slices of pizza are there altogether?",
+      "gold": 68.0,
+      "pred": 80.0,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 749,
+      "features": {
+        "n_words": 23,
+        "n_chars": 115,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 68.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 404,
+      "question": "Rachel picked 3 ripe apples from her tree. Now the tree has 2 ripe apples and 27 unripe apples. How many ripe apples did the tree have to begin with?",
+      "gold": 5.0,
+      "pred": 28.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 1385,
+      "features": {
+        "n_words": 30,
+        "n_chars": 149,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 429,
+      "question": "Danny collects bottle caps. He found 36 bottle caps at the park while he threw away 35 old ones. Now he has 22 bottle caps in his collection. How many more bottle caps did danny find at the park than those he threw away?",
+      "gold": 1.0,
+      "pred": 15.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 18,
+      "features": {
+        "n_words": 44,
+        "n_chars": 220,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 431,
+      "question": "Rachel had to complete 8 pages of math homework, 7 pages of reading homework and 3 more pages of biology homework. How many pages of math and biology homework did she have to complete?",
+      "gold": 11.0,
+      "pred": 18.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 102,
+      "features": {
+        "n_words": 34,
+        "n_chars": 184,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 11.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 453,
+      "question": "Edward spent $ 4 to buy books and $ 3 to buy pens. Now he has $ 12. How much did Edward spend on books and pens?",
+      "gold": 7.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 23,
+      "features": {
+        "n_words": 27,
+        "n_chars": 112,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 454,
+      "question": "Rachel had to complete 9 pages of math homework, 11 pages of reading homework and 29 more pages of biology homework. How many pages of math and reading homework did she have to complete?",
+      "gold": 20.0,
+      "pred": 31.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 72,
+      "features": {
+        "n_words": 34,
+        "n_chars": 186,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 20.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 550,
+      "question": "Bobby ate 28 pieces of candy. Then he ate 42 more. He also ate 63 pieces of chocolate. How many pieces of candy did Bobby eat?",
+      "gold": 70.0,
+      "pred": 133.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 51,
+      "features": {
+        "n_words": 26,
+        "n_chars": 126,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 70.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 552,
+      "question": "A waiter had 8 customers. After some left he still had 5 customers. Then he got 99 new customers How many customers left?",
+      "gold": 3.0,
+      "pred": 96.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 27,
+      "features": {
+        "n_words": 23,
+        "n_chars": 121,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 553,
+      "question": "Faye was placing her pencils into rows with 5 pencils in each row. If she had 35 pencils and 7 crayons How many rows could she make?",
+      "gold": 7.0,
+      "pred": 7.0,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 10,
+      "features": {
+        "n_words": 27,
+        "n_chars": 132,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 563,
+      "question": "Last week Fred had 33 dollars and Jason had 95 dollars. Over the weekend Fred delivered newspapers earning 16 dollars and washed cars earning 74 dollars. How much money did Fred earn over the weekend?",
+      "gold": 90.0,
+      "pred": 154.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 10426,
+      "features": {
+        "n_words": 35,
+        "n_chars": 200,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 90.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 565,
+      "question": "David did 36 more push-ups but 33 less crunches than Zachary in gym class today. If Zachary did 58 push-ups and 33 crunches How many more push-ups than crunches did Zachary do?",
+      "gold": 25.0,
+      "pred": 19.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 3092,
+      "features": {
+        "n_words": 32,
+        "n_chars": 176,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 25.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 569,
+      "question": "Mary is baking a cake. The recipe calls for 5 cups of flour and 14 cups of sugar. She already put in 10 cups of flour and 2 cups of sugar. How many more cups of sugar does she need to add?",
+      "gold": 12.0,
+      "pred": 12.0,
+      "student_final_correct": true,
+      "rank_step5": 1,
+      "rank_step6": 260,
+      "features": {
+        "n_words": 42,
+        "n_chars": 188,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 579,
+      "question": "There are 10 different books and 6 different movies in the ' crazy silly school ' series. If you read 14 of the movies and watched 19 of the books How many more books than movies have you read?",
+      "gold": 5.0,
+      "pred": 5.0,
+      "student_final_correct": true,
+      "rank_step5": 2,
+      "rank_step6": 52,
+      "features": {
+        "n_words": 39,
+        "n_chars": 193,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 595,
+      "question": "Ed had 12 more marbles than Doug. Ed lost 20 of his marbles at the playground. If Ed had 17 marbles How many marbles does Doug have now?",
+      "gold": 5.0,
+      "pred": 15.0,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 35,
+      "features": {
+        "n_words": 28,
+        "n_chars": 136,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 604,
+      "question": "Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 3 invitations in it and she bought 2 packs. If she wants to invite 9 friends How many extra invitations will she need to buy?",
+      "gold": 3.0,
+      "pred": 3.0,
+      "student_final_correct": true,
+      "rank_step5": 1,
+      "rank_step6": 9,
+      "features": {
+        "n_words": 41,
+        "n_chars": 227,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 636,
+      "question": "Tiffany was collecting cans for recycling. On monday she had 8 bags of cans. She found 10 bags of cans on the next day and 4 bags of cans the day after that. How many bags did she find after monday?",
+      "gold": 14.0,
+      "pred": 22.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 19,
+      "features": {
+        "n_words": 41,
+        "n_chars": 198,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 14.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 640,
+      "question": "There were 9 roses and 6 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 13 orchids and 3 roses in the vase. How many more orchids than roses are there in the vase now?",
+      "gold": 10.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 7,
+      "features": {
+        "n_words": 44,
+        "n_chars": 219,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 703,
+      "question": "Debby bought 200 water bottles and 256 soda bottles when they were on sale. If she drank 312 water bottles and 4 soda bottles a day How many days would the soda bottles last?",
+      "gold": 64.0,
+      "pred": 8.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 53,
+      "features": {
+        "n_words": 34,
+        "n_chars": 174,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 64.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 713,
+      "question": "Dan has $ 4. He bought a candy bar for $ 7 and a chocolate for $ 6. How much money did he spend buying the candy bar and chocolate?",
+      "gold": 13.0,
+      "pred": 13.0,
+      "student_final_correct": true,
+      "rank_step5": 0,
+      "rank_step6": 2099,
+      "features": {
+        "n_words": 30,
+        "n_chars": 131,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 733,
+      "question": "There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "gold": 16.0,
+      "pred": 20.0,
+      "student_final_correct": false,
+      "rank_step5": 4,
+      "rank_step6": 8,
+      "features": {
+        "n_words": 36,
+        "n_chars": 164,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 16.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 736,
+      "question": "Paco had 9 sweet cookies and 6 salty cookies. He ate 36 sweet cookies and 3 salty cookies. How many salty cookies did Paco have left?",
+      "gold": 3.0,
+      "pred": 3.0,
+      "student_final_correct": true,
+      "rank_step5": 1,
+      "rank_step6": 6,
+      "features": {
+        "n_words": 26,
+        "n_chars": 133,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 764,
+      "question": "After eating a hearty meal they went to see the Buckingham palace. There were 39 paintings in the Buckingham palace. There, Rachel learned that 661 visitors came to the Buckingham palace that day. If there were 600 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?",
+      "gold": 61.0,
+      "pred": 61.0,
+      "student_final_correct": true,
+      "rank_step5": 4,
+      "rank_step6": 94,
+      "features": {
+        "n_words": 57,
+        "n_chars": 331,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 61.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 814,
+      "question": "The Ferris wheel in paradise park has 3 small seats and 7 large seats. Each small seat can hold 16 people and large seat can hold 12 people. How many people can ride the Ferris wheel on large seats?",
+      "gold": 84.0,
+      "pred": 84.0,
+      "student_final_correct": true,
+      "rank_step5": 3,
+      "rank_step6": 16420,
+      "features": {
+        "n_words": 39,
+        "n_chars": 198,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 84.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 826,
+      "question": "There are 8 different movies and 21 different books in the ' crazy silly school ' series. If you read 7 of the books and watched 4 of the movies How many more movies do you still have to watch?",
+      "gold": 4.0,
+      "pred": 1.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 5,
+      "features": {
+        "n_words": 40,
+        "n_chars": 193,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 836,
+      "question": "Tiffany was collecting cans for recycling. On monday she had 3 bags of cans. The next day she found 7 more bags of cans and 44 bags of bottles. How many bags of cans did she have altogether?",
+      "gold": 10.0,
+      "pred": 54.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 207,
+      "features": {
+        "n_words": 38,
+        "n_chars": 190,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 874,
+      "question": "Paul got a box of 65 crayons for his birthday. During the school year he gave 213 crayons to his friends while he lost 16 crayons. How many crayons had been lost or given away?",
+      "gold": 229.0,
+      "pred": 239.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 411,
+      "features": {
+        "n_words": 35,
+        "n_chars": 176,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 229.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 888,
+      "question": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 92 visitors came to the Buckingham palace that day. If there were 419 visitors the previous day and 103 visitors the day before that How many visited the Buckingham palace before that day?",
+      "gold": 522.0,
+      "pred": 318.0,
+      "student_final_correct": false,
+      "rank_step5": 0,
+      "rank_step6": 325,
+      "features": {
+        "n_words": 49,
+        "n_chars": 282,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 522.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 896,
+      "question": "Danny collects bottle caps. He found 30 bottle caps at the park while he threw away 63 old ones. Now he has 42 bottle caps in his collection. How many more bottle caps did danny throw away than those he found at the park?",
+      "gold": 33.0,
+      "pred": 33.0,
+      "student_final_correct": true,
+      "rank_step5": 1,
+      "rank_step6": 19,
+      "features": {
+        "n_words": 44,
+        "n_chars": 221,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 33.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 996,
+      "question": "Jack received 3 emails and 64 letters in the morning. He then received 5 emails and 54 letters in the afternoon. How many emails did jack receive in the day?",
+      "gold": 8.0,
+      "pred": 13.0,
+      "student_final_correct": false,
+      "rank_step5": 2,
+      "rank_step6": 16,
+      "features": {
+        "n_words": 30,
+        "n_chars": 157,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ]
+}

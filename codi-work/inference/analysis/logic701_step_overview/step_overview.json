@@ -1,0 +1,10608 @@
+{
+  "summary": {
+    "dataset": "logic701_student",
+    "N": 701,
+    "S": 6,
+    "layer": 16,
+    "topk": 5,
+    "skipped_gold_not_single_token": 0,
+    "per_step": [
+      {
+        "step": 1,
+        "right": 60,
+        "wrong": 641,
+        "skipped": 0
+      },
+      {
+        "step": 2,
+        "right": 101,
+        "wrong": 600,
+        "skipped": 0
+      },
+      {
+        "step": 3,
+        "right": 3,
+        "wrong": 698,
+        "skipped": 0
+      },
+      {
+        "step": 4,
+        "right": 167,
+        "wrong": 534,
+        "skipped": 0
+      },
+      {
+        "step": 5,
+        "right": 61,
+        "wrong": 640,
+        "skipped": 0
+      },
+      {
+        "step": 6,
+        "right": 27,
+        "wrong": 674,
+        "skipped": 0
+      }
+    ],
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "gained_wrong_to_right": 68,
+        "lost_right_to_wrong": 27,
+        "stable_right": 33,
+        "stable_wrong": 573,
+        "feature_breakdown": {
+          "gained": {
+            "count": 68,
+            "n_words": {
+              "mean": 97.54,
+              "median": 81.0,
+              "min": 46,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 500.03,
+              "median": 416.5,
+              "min": 233,
+              "max": 1128
+            },
+            "n_numbers_in_question": {
+              "mean": 14.82,
+              "median": 13.0,
+              "min": 5,
+              "max": 39
+            },
+            "gold_numeric": {
+              "mean": 2.26,
+              "median": 2.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 68
+            },
+            "gold_option_dist": {
+              "1": 17,
+              "2": 32,
+              "3": 10,
+              "4": 2,
+              "5": 7
+            }
+          },
+          "lost": {
+            "count": 27,
+            "n_words": {
+              "mean": 108.52,
+              "median": 107,
+              "min": 63,
+              "max": 182
+            },
+            "n_chars": {
+              "mean": 562.11,
+              "median": 559,
+              "min": 315,
+              "max": 841
+            },
+            "n_numbers_in_question": {
+              "mean": 11.11,
+              "median": 12,
+              "min": 5,
+              "max": 22
+            },
+            "gold_numeric": {
+              "mean": 3.44,
+              "median": 4.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 27
+            },
+            "gold_option_dist": {
+              "1": 1,
+              "2": 7,
+              "3": 5,
+              "4": 7,
+              "5": 7
+            }
+          },
+          "stable_right": {
+            "count": 33,
+            "n_words": {
+              "mean": 117.61,
+              "median": 115,
+              "min": 48,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 616.15,
+              "median": 600,
+              "min": 241,
+              "max": 1193
+            },
+            "n_numbers_in_question": {
+              "mean": 13.45,
+              "median": 8,
+              "min": 5,
+              "max": 69
+            },
+            "gold_numeric": {
+              "mean": 2.58,
+              "median": 2.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 33
+            },
+            "gold_option_dist": {
+              "1": 4,
+              "2": 13,
+              "3": 10,
+              "4": 5,
+              "5": 1
+            }
+          },
+          "stable_wrong": {
+            "count": 573,
+            "n_words": {
+              "mean": 86.23,
+              "median": 79,
+              "min": 24,
+              "max": 225
+            },
+            "n_chars": {
+              "mean": 450.68,
+              "median": 411,
+              "min": 119,
+              "max": 1231
+            },
+            "n_numbers_in_question": {
+              "mean": 12.67,
+              "median": 13,
+              "min": 5,
+              "max": 52
+            },
+            "gold_numeric": {
+              "mean": 2.82,
+              "median": 3.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 573
+            },
+            "gold_option_dist": {
+              "1": 121,
+              "2": 149,
+              "3": 139,
+              "4": 39,
+              "5": 125
+            }
+          }
+        }
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "gained_wrong_to_right": 1,
+        "lost_right_to_wrong": 99,
+        "stable_right": 2,
+        "stable_wrong": 599,
+        "feature_breakdown": {
+          "gained": {
+            "count": 1,
+            "n_words": {
+              "mean": 147.0,
+              "median": 147,
+              "min": 147,
+              "max": 147
+            },
+            "n_chars": {
+              "mean": 817.0,
+              "median": 817,
+              "min": 817,
+              "max": 817
+            },
+            "n_numbers_in_question": {
+              "mean": 12.0,
+              "median": 12,
+              "min": 12,
+              "max": 12
+            },
+            "gold_numeric": {
+              "mean": 2.0,
+              "median": 2.0,
+              "min": 2.0,
+              "max": 2.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 1
+            },
+            "gold_option_dist": {
+              "2": 1
+            }
+          },
+          "lost": {
+            "count": 99,
+            "n_words": {
+              "mean": 103.76,
+              "median": 95,
+              "min": 46,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 536.41,
+              "median": 487,
+              "min": 233,
+              "max": 1193
+            },
+            "n_numbers_in_question": {
+              "mean": 14.34,
+              "median": 13,
+              "min": 5,
+              "max": 69
+            },
+            "gold_numeric": {
+              "mean": 2.36,
+              "median": 2.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 99
+            },
+            "gold_option_dist": {
+              "1": 21,
+              "2": 44,
+              "3": 19,
+              "4": 7,
+              "5": 8
+            }
+          },
+          "stable_right": {
+            "count": 2,
+            "n_words": {
+              "mean": 121.0,
+              "median": 121.0,
+              "min": 79,
+              "max": 163
+            },
+            "n_chars": {
+              "mean": 615.0,
+              "median": 615.0,
+              "min": 396,
+              "max": 834
+            },
+            "n_numbers_in_question": {
+              "mean": 16.0,
+              "median": 16.0,
+              "min": 10,
+              "max": 22
+            },
+            "gold_numeric": {
+              "mean": 2.5,
+              "median": 2.5,
+              "min": 2.0,
+              "max": 3.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 2
+            },
+            "gold_option_dist": {
+              "2": 1,
+              "3": 1
+            }
+          },
+          "stable_wrong": {
+            "count": 599,
+            "n_words": {
+              "mean": 87.13,
+              "median": 80,
+              "min": 24,
+              "max": 225
+            },
+            "n_chars": {
+              "mean": 455.09,
+              "median": 417,
+              "min": 119,
+              "max": 1231
+            },
+            "n_numbers_in_question": {
+              "mean": 12.6,
+              "median": 13,
+              "min": 5,
+              "max": 52
+            },
+            "gold_numeric": {
+              "mean": 2.85,
+              "median": 3.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 599
+            },
+            "gold_option_dist": {
+              "1": 122,
+              "2": 155,
+              "3": 144,
+              "4": 46,
+              "5": 132
+            }
+          }
+        }
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "gained_wrong_to_right": 164,
+        "lost_right_to_wrong": 0,
+        "stable_right": 3,
+        "stable_wrong": 534,
+        "feature_breakdown": {
+          "gained": {
+            "count": 164,
+            "n_words": {
+              "mean": 102.37,
+              "median": 96.5,
+              "min": 36,
+              "max": 225
+            },
+            "n_chars": {
+              "mean": 538.13,
+              "median": 496.0,
+              "min": 188,
+              "max": 1208
+            },
+            "n_numbers_in_question": {
+              "mean": 11.09,
+              "median": 11.0,
+              "min": 5,
+              "max": 69
+            },
+            "gold_numeric": {
+              "mean": 2.93,
+              "median": 3.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 164
+            },
+            "gold_option_dist": {
+              "1": 41,
+              "2": 28,
+              "3": 32,
+              "4": 27,
+              "5": 36
+            }
+          },
+          "lost": {
+            "count": 0
+          },
+          "stable_right": {
+            "count": 3,
+            "n_words": {
+              "mean": 129.67,
+              "median": 147,
+              "min": 79,
+              "max": 163
+            },
+            "n_chars": {
+              "mean": 682.33,
+              "median": 817,
+              "min": 396,
+              "max": 834
+            },
+            "n_numbers_in_question": {
+              "mean": 14.67,
+              "median": 12,
+              "min": 10,
+              "max": 22
+            },
+            "gold_numeric": {
+              "mean": 2.33,
+              "median": 2.0,
+              "min": 2.0,
+              "max": 3.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 3
+            },
+            "gold_option_dist": {
+              "2": 2,
+              "3": 1
+            }
+          },
+          "stable_wrong": {
+            "count": 534,
+            "n_words": {
+              "mean": 85.54,
+              "median": 78.5,
+              "min": 24,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 444.66,
+              "median": 406.0,
+              "min": 119,
+              "max": 1231
+            },
+            "n_numbers_in_question": {
+              "mean": 13.39,
+              "median": 13.0,
+              "min": 5,
+              "max": 52
+            },
+            "gold_numeric": {
+              "mean": 2.74,
+              "median": 2.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 534
+            },
+            "gold_option_dist": {
+              "1": 102,
+              "2": 171,
+              "3": 131,
+              "4": 26,
+              "5": 104
+            }
+          }
+        }
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "gained_wrong_to_right": 15,
+        "lost_right_to_wrong": 121,
+        "stable_right": 46,
+        "stable_wrong": 519,
+        "feature_breakdown": {
+          "gained": {
+            "count": 15,
+            "n_words": {
+              "mean": 89.4,
+              "median": 90,
+              "min": 33,
+              "max": 189
+            },
+            "n_chars": {
+              "mean": 460.67,
+              "median": 465,
+              "min": 164,
+              "max": 982
+            },
+            "n_numbers_in_question": {
+              "mean": 16.0,
+              "median": 14,
+              "min": 5,
+              "max": 26
+            },
+            "gold_numeric": {
+              "mean": 3.87,
+              "median": 4.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 15
+            },
+            "gold_option_dist": {
+              "1": 1,
+              "2": 1,
+              "3": 4,
+              "4": 2,
+              "5": 7
+            }
+          },
+          "lost": {
+            "count": 121,
+            "n_words": {
+              "mean": 98.95,
+              "median": 94,
+              "min": 36,
+              "max": 225
+            },
+            "n_chars": {
+              "mean": 516.34,
+              "median": 478,
+              "min": 188,
+              "max": 1208
+            },
+            "n_numbers_in_question": {
+              "mean": 12.58,
+              "median": 12,
+              "min": 5,
+              "max": 69
+            },
+            "gold_numeric": {
+              "mean": 2.93,
+              "median": 3.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 121
+            },
+            "gold_option_dist": {
+              "1": 33,
+              "2": 19,
+              "3": 21,
+              "4": 20,
+              "5": 28
+            }
+          },
+          "stable_right": {
+            "count": 46,
+            "n_words": {
+              "mean": 113.13,
+              "median": 120.5,
+              "min": 44,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 604.87,
+              "median": 634.5,
+              "min": 217,
+              "max": 1193
+            },
+            "n_numbers_in_question": {
+              "mean": 7.39,
+              "median": 5.0,
+              "min": 5,
+              "max": 22
+            },
+            "gold_numeric": {
+              "mean": 2.91,
+              "median": 3.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 46
+            },
+            "gold_option_dist": {
+              "1": 8,
+              "2": 11,
+              "3": 12,
+              "4": 7,
+              "5": 8
+            }
+          },
+          "stable_wrong": {
+            "count": 519,
+            "n_words": {
+              "mean": 85.42,
+              "median": 78,
+              "min": 24,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 444.2,
+              "median": 404,
+              "min": 119,
+              "max": 1231
+            },
+            "n_numbers_in_question": {
+              "mean": 13.31,
+              "median": 13,
+              "min": 5,
+              "max": 52
+            },
+            "gold_numeric": {
+              "mean": 2.7,
+              "median": 2.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 519
+            },
+            "gold_option_dist": {
+              "1": 101,
+              "2": 170,
+              "3": 127,
+              "4": 24,
+              "5": 97
+            }
+          }
+        }
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "gained_wrong_to_right": 9,
+        "lost_right_to_wrong": 43,
+        "stable_right": 18,
+        "stable_wrong": 631,
+        "feature_breakdown": {
+          "gained": {
+            "count": 9,
+            "n_words": {
+              "mean": 114.11,
+              "median": 96,
+              "min": 48,
+              "max": 196
+            },
+            "n_chars": {
+              "mean": 604.33,
+              "median": 563,
+              "min": 263,
+              "max": 1072
+            },
+            "n_numbers_in_question": {
+              "mean": 19.56,
+              "median": 13,
+              "min": 5,
+              "max": 69
+            },
+            "gold_numeric": {
+              "mean": 2.44,
+              "median": 3.0,
+              "min": 1.0,
+              "max": 3.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 9
+            },
+            "gold_option_dist": {
+              "1": 1,
+              "2": 3,
+              "3": 5
+            }
+          },
+          "lost": {
+            "count": 43,
+            "n_words": {
+              "mean": 97.05,
+              "median": 90,
+              "min": 33,
+              "max": 169
+            },
+            "n_chars": {
+              "mean": 514.79,
+              "median": 470,
+              "min": 164,
+              "max": 909
+            },
+            "n_numbers_in_question": {
+              "mean": 9.12,
+              "median": 6,
+              "min": 5,
+              "max": 26
+            },
+            "gold_numeric": {
+              "mean": 3.42,
+              "median": 4.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 43
+            },
+            "gold_option_dist": {
+              "1": 9,
+              "2": 2,
+              "3": 9,
+              "4": 8,
+              "5": 15
+            }
+          },
+          "stable_right": {
+            "count": 18,
+            "n_words": {
+              "mean": 131.78,
+              "median": 133.0,
+              "min": 66,
+              "max": 221
+            },
+            "n_chars": {
+              "mean": 699.89,
+              "median": 711.0,
+              "min": 343,
+              "max": 1193
+            },
+            "n_numbers_in_question": {
+              "mean": 10.44,
+              "median": 6.0,
+              "min": 5,
+              "max": 26
+            },
+            "gold_numeric": {
+              "mean": 2.5,
+              "median": 2.0,
+              "min": 2.0,
+              "max": 4.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 18
+            },
+            "gold_option_dist": {
+              "2": 10,
+              "3": 7,
+              "4": 1
+            }
+          },
+          "stable_wrong": {
+            "count": 631,
+            "n_words": {
+              "mean": 87.61,
+              "median": 80,
+              "min": 24,
+              "max": 225
+            },
+            "n_chars": {
+              "mean": 455.75,
+              "median": 414,
+              "min": 119,
+              "max": 1231
+            },
+            "n_numbers_in_question": {
+              "mean": 13.08,
+              "median": 13,
+              "min": 5,
+              "max": 52
+            },
+            "gold_numeric": {
+              "mean": 2.75,
+              "median": 2.0,
+              "min": 1.0,
+              "max": 5.0
+            },
+            "gold_magnitude_dist": {
+              "0-9": 631
+            },
+            "gold_option_dist": {
+              "1": 133,
+              "2": 186,
+              "3": 143,
+              "4": 44,
+              "5": 125
+            }
+          }
+        }
+      }
+    ]
+  },
+  "trajectories": [
+    {
+      "idx": 0,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        1840,
+        47,
+        102,
+        3,
+        71,
+        197
+      ]
+    },
+    {
+      "idx": 1,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        149,
+        32,
+        256,
+        0,
+        127,
+        62
+      ]
+    },
+    {
+      "idx": 2,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        273,
+        393,
+        493,
+        9,
+        66,
+        302
+      ]
+    },
+    {
+      "idx": 3,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        592,
+        1,
+        8661,
+        27,
+        5,
+        91
+      ]
+    },
+    {
+      "idx": 4,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        1153,
+        23,
+        1153,
+        0,
+        1,
+        154
+      ]
+    },
+    {
+      "idx": 5,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        22,
+        23,
+        2700,
+        4,
+        561,
+        394
+      ]
+    },
+    {
+      "idx": 6,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        87,
+        351,
+        447,
+        26,
+        794,
+        1144
+      ]
+    },
+    {
+      "idx": 7,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        25,
+        2,
+        140,
+        1,
+        466,
+        56
+      ]
+    },
+    {
+      "idx": 8,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2553,
+        1212,
+        825,
+        60,
+        8278,
+        1207
+      ]
+    },
+    {
+      "idx": 9,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        14,
+        16,
+        34,
+        9,
+        8,
+        13
+      ]
+    },
+    {
+      "idx": 10,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        15,
+        21,
+        5,
+        3,
+        8,
+        15
+      ]
+    },
+    {
+      "idx": 11,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        70455,
+        29632,
+        5664,
+        5047,
+        4928,
+        16736
+      ]
+    },
+    {
+      "idx": 12,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2342,
+        1851,
+        920,
+        117,
+        633,
+        2354
+      ]
+    },
+    {
+      "idx": 13,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        515,
+        391,
+        3197,
+        56,
+        224,
+        309
+      ]
+    },
+    {
+      "idx": 14,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1716,
+        3600,
+        21111,
+        43961,
+        1474,
+        5955
+      ]
+    },
+    {
+      "idx": 15,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        930,
+        890,
+        4521,
+        2758,
+        3223,
+        5551
+      ]
+    },
+    {
+      "idx": 16,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4375,
+        580,
+        355,
+        110,
+        348,
+        1058
+      ]
+    },
+    {
+      "idx": 17,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        229,
+        224,
+        2219,
+        896,
+        712,
+        567
+      ]
+    },
+    {
+      "idx": 18,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        360,
+        1,
+        834,
+        296,
+        4952,
+        1194
+      ]
+    },
+    {
+      "idx": 19,
+      "gold": 1,
+      "pred": 1,
+      "student_final_correct": true,
+      "ranks": [
+        470,
+        196,
+        1046,
+        1,
+        207,
+        124
+      ]
+    },
+    {
+      "idx": 20,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        23158,
+        3105,
+        16057,
+        3776,
+        26773,
+        5054
+      ]
+    },
+    {
+      "idx": 21,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6273,
+        5273,
+        5085,
+        9,
+        377,
+        16812
+      ]
+    },
+    {
+      "idx": 22,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11,
+        3,
+        213,
+        17,
+        16,
+        1
+      ]
+    },
+    {
+      "idx": 23,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        52,
+        67,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "idx": 24,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        18,
+        124,
+        514,
+        41,
+        344,
+        609
+      ]
+    },
+    {
+      "idx": 25,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        224,
+        645,
+        1,
+        3,
+        63
+      ]
+    },
+    {
+      "idx": 26,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        94,
+        102,
+        251,
+        6,
+        85,
+        42
+      ]
+    },
+    {
+      "idx": 27,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        32030,
+        20653,
+        32780,
+        182,
+        1671,
+        4369
+      ]
+    },
+    {
+      "idx": 28,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2012,
+        76,
+        2246,
+        252,
+        614,
+        395
+      ]
+    },
+    {
+      "idx": 29,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        47126,
+        49,
+        10502,
+        283,
+        5529,
+        6212
+      ]
+    },
+    {
+      "idx": 30,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        2,
+        80,
+        5,
+        3,
+        28
+      ]
+    },
+    {
+      "idx": 31,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4081,
+        1813,
+        1076,
+        272,
+        56,
+        155
+      ]
+    },
+    {
+      "idx": 32,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        1262,
+        121,
+        92,
+        33,
+        56,
+        122
+      ]
+    },
+    {
+      "idx": 33,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        72,
+        56,
+        6030,
+        33,
+        992,
+        288
+      ]
+    },
+    {
+      "idx": 34,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        108,
+        130,
+        1048,
+        3,
+        1944,
+        489
+      ]
+    },
+    {
+      "idx": 35,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13396,
+        4945,
+        4231,
+        1020,
+        372,
+        1285
+      ]
+    },
+    {
+      "idx": 36,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        41,
+        574,
+        1251,
+        1857,
+        2881,
+        1876
+      ]
+    },
+    {
+      "idx": 37,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9,
+        483,
+        797,
+        1,
+        9,
+        241
+      ]
+    },
+    {
+      "idx": 38,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13,
+        14,
+        249,
+        6,
+        556,
+        81
+      ]
+    },
+    {
+      "idx": 39,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2449,
+        9275,
+        48363,
+        449,
+        4599,
+        2132
+      ]
+    },
+    {
+      "idx": 40,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2266,
+        158,
+        1026,
+        28,
+        423,
+        777
+      ]
+    },
+    {
+      "idx": 41,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16558,
+        11377,
+        3532,
+        1665,
+        338,
+        7628
+      ]
+    },
+    {
+      "idx": 42,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        0,
+        18,
+        4,
+        3,
+        0
+      ]
+    },
+    {
+      "idx": 43,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        0,
+        21,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "idx": 44,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        519,
+        123,
+        701,
+        100,
+        1620,
+        751
+      ]
+    },
+    {
+      "idx": 45,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        325,
+        27,
+        77,
+        4,
+        22,
+        35
+      ]
+    },
+    {
+      "idx": 46,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        132,
+        817,
+        0,
+        12,
+        129
+      ]
+    },
+    {
+      "idx": 47,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        202,
+        3,
+        2933,
+        7,
+        1632,
+        178
+      ]
+    },
+    {
+      "idx": 48,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        94047,
+        25741,
+        5247,
+        50600,
+        27507,
+        32132
+      ]
+    },
+    {
+      "idx": 49,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        363,
+        144,
+        1500,
+        9,
+        18,
+        32
+      ]
+    },
+    {
+      "idx": 50,
+      "gold": 4,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        388,
+        120,
+        527,
+        9,
+        1304,
+        1028
+      ]
+    },
+    {
+      "idx": 51,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        170,
+        24,
+        288,
+        13,
+        671,
+        90
+      ]
+    },
+    {
+      "idx": 52,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3082,
+        2373,
+        7938,
+        1754,
+        6435,
+        6305
+      ]
+    },
+    {
+      "idx": 53,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        20093,
+        1082,
+        812,
+        252,
+        432,
+        1886
+      ]
+    },
+    {
+      "idx": 54,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        29,
+        356,
+        3816,
+        7,
+        673,
+        1667
+      ]
+    },
+    {
+      "idx": 55,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        45,
+        75,
+        1,
+        17,
+        9
+      ]
+    },
+    {
+      "idx": 56,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6259,
+        2564,
+        19203,
+        470,
+        10115,
+        5555
+      ]
+    },
+    {
+      "idx": 57,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        76,
+        38,
+        101,
+        1,
+        122,
+        50
+      ]
+    },
+    {
+      "idx": 58,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1081,
+        160,
+        6895,
+        29,
+        112,
+        1331
+      ]
+    },
+    {
+      "idx": 59,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        690,
+        1496,
+        3589,
+        45,
+        830,
+        1649
+      ]
+    },
+    {
+      "idx": 60,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        14643,
+        2341,
+        10922,
+        52,
+        2047,
+        8825
+      ]
+    },
+    {
+      "idx": 61,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        47,
+        978,
+        867,
+        0,
+        0,
+        33
+      ]
+    },
+    {
+      "idx": 62,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1949,
+        1810,
+        3301,
+        1927,
+        1151,
+        3055
+      ]
+    },
+    {
+      "idx": 63,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        10898,
+        401,
+        242,
+        36,
+        109,
+        525
+      ]
+    },
+    {
+      "idx": 64,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        130,
+        124,
+        257,
+        5,
+        48,
+        356
+      ]
+    },
+    {
+      "idx": 65,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9,
+        822,
+        17777,
+        16851,
+        2572,
+        7812
+      ]
+    },
+    {
+      "idx": 66,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        540,
+        83,
+        382,
+        129,
+        773,
+        1097
+      ]
+    },
+    {
+      "idx": 67,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        59,
+        37,
+        814,
+        6,
+        6403,
+        4451
+      ]
+    },
+    {
+      "idx": 68,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        569,
+        841,
+        4,
+        36,
+        337
+      ]
+    },
+    {
+      "idx": 69,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        4,
+        159,
+        1,
+        9,
+        9
+      ]
+    },
+    {
+      "idx": 70,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        118680,
+        46335,
+        53600,
+        45111,
+        54242,
+        68909
+      ]
+    },
+    {
+      "idx": 71,
+      "gold": 3,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        89,
+        24,
+        62,
+        29,
+        108,
+        15
+      ]
+    },
+    {
+      "idx": 72,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        118,
+        239,
+        6880,
+        126,
+        321,
+        1683
+      ]
+    },
+    {
+      "idx": 73,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        48,
+        0,
+        49,
+        5,
+        468,
+        20
+      ]
+    },
+    {
+      "idx": 74,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        481,
+        211,
+        890,
+        4,
+        3025,
+        511
+      ]
+    },
+    {
+      "idx": 75,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        137,
+        479,
+        125,
+        1,
+        0,
+        26
+      ]
+    },
+    {
+      "idx": 76,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3046,
+        698,
+        610,
+        36,
+        56,
+        4172
+      ]
+    },
+    {
+      "idx": 77,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        10,
+        13,
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "idx": 78,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15030,
+        130,
+        727,
+        11,
+        76,
+        431
+      ]
+    },
+    {
+      "idx": 79,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16531,
+        203,
+        684,
+        8,
+        3989,
+        480
+      ]
+    },
+    {
+      "idx": 80,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        12,
+        3,
+        88,
+        8,
+        6,
+        14
+      ]
+    },
+    {
+      "idx": 81,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        18,
+        6,
+        9,
+        4,
+        4,
+        12
+      ]
+    },
+    {
+      "idx": 82,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        40,
+        53,
+        21,
+        5,
+        29
+      ]
+    },
+    {
+      "idx": 83,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        50,
+        86,
+        1051,
+        188,
+        9,
+        174
+      ]
+    },
+    {
+      "idx": 84,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2183,
+        1965,
+        6835,
+        57,
+        3050,
+        1925
+      ]
+    },
+    {
+      "idx": 85,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        479,
+        58,
+        430,
+        21,
+        431,
+        971
+      ]
+    },
+    {
+      "idx": 86,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        151,
+        486,
+        194,
+        6,
+        3,
+        26
+      ]
+    },
+    {
+      "idx": 87,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1911,
+        3,
+        5684,
+        979,
+        0,
+        5571
+      ]
+    },
+    {
+      "idx": 88,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        78,
+        41,
+        9549,
+        5,
+        1676,
+        99
+      ]
+    },
+    {
+      "idx": 89,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        5000,
+        73,
+        392,
+        205,
+        4970,
+        372
+      ]
+    },
+    {
+      "idx": 90,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3243,
+        153,
+        1631,
+        379,
+        240,
+        976
+      ]
+    },
+    {
+      "idx": 91,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        534,
+        986,
+        12713,
+        7,
+        1686,
+        398
+      ]
+    },
+    {
+      "idx": 92,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        2,
+        1805,
+        9,
+        217,
+        180
+      ]
+    },
+    {
+      "idx": 93,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        3,
+        34,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "idx": 94,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1590,
+        126,
+        5226,
+        316,
+        4869,
+        1715
+      ]
+    },
+    {
+      "idx": 95,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        116,
+        1063,
+        137,
+        153,
+        646
+      ]
+    },
+    {
+      "idx": 96,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3714,
+        3349,
+        5865,
+        952,
+        1687,
+        3694
+      ]
+    },
+    {
+      "idx": 97,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        289,
+        355,
+        162,
+        7,
+        29,
+        36
+      ]
+    },
+    {
+      "idx": 98,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        921,
+        86,
+        1175,
+        35,
+        4072,
+        1857
+      ]
+    },
+    {
+      "idx": 99,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        164,
+        40,
+        237,
+        1,
+        304,
+        48
+      ]
+    },
+    {
+      "idx": 100,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1230,
+        188,
+        9759,
+        12383,
+        382,
+        327
+      ]
+    },
+    {
+      "idx": 101,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        56,
+        2,
+        2113,
+        66,
+        795,
+        496
+      ]
+    },
+    {
+      "idx": 102,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        91746,
+        22486,
+        18788,
+        6746,
+        7130,
+        9811
+      ]
+    },
+    {
+      "idx": 103,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        61,
+        910,
+        10131,
+        5708,
+        4641,
+        5398
+      ]
+    },
+    {
+      "idx": 104,
+      "gold": 2,
+      "pred": 2,
+      "student_final_correct": true,
+      "ranks": [
+        5,
+        34,
+        199,
+        5,
+        240,
+        22
+      ]
+    },
+    {
+      "idx": 105,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        475,
+        89,
+        2986,
+        129,
+        4271,
+        2442
+      ]
+    },
+    {
+      "idx": 106,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        90,
+        156,
+        162,
+        28,
+        2715,
+        901
+      ]
+    },
+    {
+      "idx": 107,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        4,
+        29,
+        7,
+        5,
+        6
+      ]
+    },
+    {
+      "idx": 108,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        1,
+        8,
+        9,
+        49,
+        1
+      ]
+    },
+    {
+      "idx": 109,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4559,
+        1517,
+        10344,
+        13009,
+        1196,
+        6503
+      ]
+    },
+    {
+      "idx": 110,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        839,
+        189,
+        1649,
+        1380,
+        14883,
+        2980
+      ]
+    },
+    {
+      "idx": 111,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        0,
+        103,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "idx": 112,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        48,
+        21,
+        10,
+        2,
+        13,
+        27
+      ]
+    },
+    {
+      "idx": 113,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11629,
+        6692,
+        4661,
+        3702,
+        4614,
+        8132
+      ]
+    },
+    {
+      "idx": 114,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        78,
+        729,
+        793,
+        2,
+        121,
+        553
+      ]
+    },
+    {
+      "idx": 115,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        71,
+        210,
+        87,
+        18,
+        29,
+        55
+      ]
+    },
+    {
+      "idx": 116,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8148,
+        3556,
+        3797,
+        1649,
+        177,
+        1876
+      ]
+    },
+    {
+      "idx": 117,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1307,
+        1015,
+        22988,
+        5207,
+        41373,
+        50389
+      ]
+    },
+    {
+      "idx": 118,
+      "gold": 5,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        603,
+        1,
+        6315,
+        10,
+        184,
+        1406
+      ]
+    },
+    {
+      "idx": 119,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        51,
+        12,
+        13,
+        12,
+        14,
+        18
+      ]
+    },
+    {
+      "idx": 120,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        51,
+        6,
+        4913,
+        243,
+        745,
+        1368
+      ]
+    },
+    {
+      "idx": 121,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        14,
+        1,
+        52,
+        4,
+        47,
+        42
+      ]
+    },
+    {
+      "idx": 122,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8788,
+        612,
+        835,
+        145,
+        207,
+        1927
+      ]
+    },
+    {
+      "idx": 123,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        39037,
+        8938,
+        8155,
+        9926,
+        10255,
+        8439
+      ]
+    },
+    {
+      "idx": 124,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5102,
+        3152,
+        31630,
+        2349,
+        1950,
+        17603
+      ]
+    },
+    {
+      "idx": 125,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15,
+        9,
+        238,
+        0,
+        12,
+        70
+      ]
+    },
+    {
+      "idx": 126,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2517,
+        7,
+        2048,
+        721,
+        9,
+        296
+      ]
+    },
+    {
+      "idx": 127,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        15,
+        11,
+        663,
+        97,
+        527,
+        772
+      ]
+    },
+    {
+      "idx": 128,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8,
+        25,
+        90,
+        2,
+        763,
+        142
+      ]
+    },
+    {
+      "idx": 129,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        28,
+        1,
+        255,
+        42,
+        30,
+        45
+      ]
+    },
+    {
+      "idx": 130,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        9,
+        112,
+        6,
+        14,
+        28
+      ]
+    },
+    {
+      "idx": 131,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1244,
+        8,
+        870,
+        184,
+        2736,
+        644
+      ]
+    },
+    {
+      "idx": 132,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5722,
+        490,
+        345,
+        75,
+        140,
+        448
+      ]
+    },
+    {
+      "idx": 133,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        0,
+        93,
+        1,
+        2,
+        16
+      ]
+    },
+    {
+      "idx": 134,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        76,
+        583,
+        233,
+        6,
+        10,
+        164
+      ]
+    },
+    {
+      "idx": 135,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        143,
+        742,
+        3895,
+        996,
+        1958,
+        1284
+      ]
+    },
+    {
+      "idx": 136,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        58,
+        44,
+        81,
+        1,
+        7,
+        31
+      ]
+    },
+    {
+      "idx": 137,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        8,
+        137,
+        6,
+        14,
+        50
+      ]
+    },
+    {
+      "idx": 138,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        422,
+        67,
+        441,
+        463,
+        577,
+        622
+      ]
+    },
+    {
+      "idx": 139,
+      "gold": 4,
+      "pred": 4,
+      "student_final_correct": true,
+      "ranks": [
+        203,
+        228,
+        125,
+        1,
+        8,
+        172
+      ]
+    },
+    {
+      "idx": 140,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8310,
+        2682,
+        5964,
+        186,
+        9752,
+        2157
+      ]
+    },
+    {
+      "idx": 141,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2552,
+        1696,
+        187,
+        31,
+        91,
+        247
+      ]
+    },
+    {
+      "idx": 142,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        17951,
+        5700,
+        7385,
+        22719,
+        27690,
+        33123
+      ]
+    },
+    {
+      "idx": 143,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4430,
+        52,
+        693,
+        19,
+        28,
+        277
+      ]
+    },
+    {
+      "idx": 144,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1077,
+        139,
+        370,
+        8,
+        29,
+        479
+      ]
+    },
+    {
+      "idx": 145,
+      "gold": 2,
+      "pred": 2,
+      "student_final_correct": true,
+      "ranks": [
+        9393,
+        380,
+        1211,
+        625,
+        2154,
+        1693
+      ]
+    },
+    {
+      "idx": 146,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1989,
+        170,
+        5,
+        2,
+        69,
+        246
+      ]
+    },
+    {
+      "idx": 147,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        22,
+        14,
+        510,
+        14,
+        1069,
+        104
+      ]
+    },
+    {
+      "idx": 148,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        78,
+        35,
+        1629,
+        9,
+        1946,
+        582
+      ]
+    },
+    {
+      "idx": 149,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        396,
+        37,
+        704,
+        22,
+        3123,
+        1141
+      ]
+    },
+    {
+      "idx": 150,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        735,
+        1745,
+        7072,
+        5,
+        702,
+        477
+      ]
+    },
+    {
+      "idx": 151,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        57,
+        0,
+        174,
+        84,
+        586,
+        126
+      ]
+    },
+    {
+      "idx": 152,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        33,
+        321,
+        596,
+        2,
+        11,
+        358
+      ]
+    },
+    {
+      "idx": 153,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        736,
+        1152,
+        1850,
+        262,
+        418,
+        1187
+      ]
+    },
+    {
+      "idx": 154,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1161,
+        1395,
+        302,
+        158,
+        3068,
+        405
+      ]
+    },
+    {
+      "idx": 155,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        4,
+        27,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "idx": 156,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1231,
+        44,
+        5804,
+        395,
+        2375,
+        1231
+      ]
+    },
+    {
+      "idx": 157,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1594,
+        272,
+        6270,
+        2007,
+        1750,
+        1251
+      ]
+    },
+    {
+      "idx": 158,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        12010,
+        2306,
+        1972,
+        470,
+        1657,
+        4024
+      ]
+    },
+    {
+      "idx": 159,
+      "gold": 3,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        362,
+        15,
+        513,
+        3,
+        1,
+        10
+      ]
+    },
+    {
+      "idx": 160,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        395,
+        51,
+        13071,
+        13,
+        1564,
+        830
+      ]
+    },
+    {
+      "idx": 161,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6489,
+        230,
+        3153,
+        18,
+        583,
+        1025
+      ]
+    },
+    {
+      "idx": 162,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        20,
+        20,
+        8,
+        4,
+        5,
+        11
+      ]
+    },
+    {
+      "idx": 163,
+      "gold": 2,
+      "pred": 2,
+      "student_final_correct": true,
+      "ranks": [
+        4,
+        2,
+        10,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "idx": 164,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        87,
+        32,
+        10368,
+        491,
+        265,
+        2695
+      ]
+    },
+    {
+      "idx": 165,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        21,
+        83,
+        270,
+        111,
+        788,
+        705
+      ]
+    },
+    {
+      "idx": 166,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2111,
+        85,
+        7912,
+        10110,
+        19081,
+        4726
+      ]
+    },
+    {
+      "idx": 167,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        0,
+        49,
+        22,
+        72,
+        25
+      ]
+    },
+    {
+      "idx": 168,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        10,
+        0,
+        12,
+        4,
+        3,
+        8
+      ]
+    },
+    {
+      "idx": 169,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        25,
+        116,
+        138,
+        3,
+        120,
+        59
+      ]
+    },
+    {
+      "idx": 170,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        31,
+        608,
+        1676,
+        6,
+        625,
+        1651
+      ]
+    },
+    {
+      "idx": 171,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        332,
+        520,
+        2176,
+        1211,
+        1716,
+        1783
+      ]
+    },
+    {
+      "idx": 172,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        37,
+        5,
+        100,
+        2,
+        154,
+        33
+      ]
+    },
+    {
+      "idx": 173,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6385,
+        1166,
+        1146,
+        67,
+        117,
+        1807
+      ]
+    },
+    {
+      "idx": 174,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        38,
+        62,
+        1,
+        1,
+        14
+      ]
+    },
+    {
+      "idx": 175,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        85,
+        1,
+        2352,
+        46,
+        3217,
+        117
+      ]
+    },
+    {
+      "idx": 176,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        20426,
+        84,
+        585,
+        365,
+        141,
+        616
+      ]
+    },
+    {
+      "idx": 177,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        80055,
+        50020,
+        47191,
+        62722,
+        64602,
+        60882
+      ]
+    },
+    {
+      "idx": 178,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        3,
+        28,
+        0,
+        1,
+        7
+      ]
+    },
+    {
+      "idx": 179,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        25,
+        12,
+        13,
+        11,
+        15,
+        15
+      ]
+    },
+    {
+      "idx": 180,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15453,
+        3785,
+        11191,
+        548,
+        1363,
+        6476
+      ]
+    },
+    {
+      "idx": 181,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        36,
+        17,
+        270,
+        1,
+        25,
+        101
+      ]
+    },
+    {
+      "idx": 182,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13931,
+        2857,
+        8947,
+        102111,
+        6880,
+        9002
+      ]
+    },
+    {
+      "idx": 183,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        669,
+        515,
+        5932,
+        2132,
+        4996,
+        9759
+      ]
+    },
+    {
+      "idx": 184,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        14036,
+        128,
+        242,
+        738,
+        1162,
+        1772
+      ]
+    },
+    {
+      "idx": 185,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        669,
+        365,
+        25897,
+        6221,
+        27,
+        5323
+      ]
+    },
+    {
+      "idx": 186,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4187,
+        307,
+        738,
+        413,
+        1715,
+        1166
+      ]
+    },
+    {
+      "idx": 187,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4112,
+        2784,
+        6270,
+        3804,
+        7798,
+        9119
+      ]
+    },
+    {
+      "idx": 188,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        520,
+        137,
+        3599,
+        1937,
+        4777,
+        6215
+      ]
+    },
+    {
+      "idx": 189,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4276,
+        10535,
+        16460,
+        10244,
+        21903,
+        7183
+      ]
+    },
+    {
+      "idx": 190,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        67,
+        56,
+        78,
+        40,
+        34,
+        43
+      ]
+    },
+    {
+      "idx": 191,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        95,
+        0,
+        1439,
+        13,
+        2045,
+        80
+      ]
+    },
+    {
+      "idx": 192,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16,
+        71,
+        102,
+        4,
+        138,
+        96
+      ]
+    },
+    {
+      "idx": 193,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        220,
+        261,
+        2722,
+        4,
+        53,
+        251
+      ]
+    },
+    {
+      "idx": 194,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8472,
+        929,
+        19505,
+        5178,
+        631,
+        2150
+      ]
+    },
+    {
+      "idx": 195,
+      "gold": 5,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        11507,
+        308,
+        336,
+        133,
+        1112,
+        1235
+      ]
+    },
+    {
+      "idx": 196,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1066,
+        203,
+        1747,
+        380,
+        4191,
+        940
+      ]
+    },
+    {
+      "idx": 197,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        218,
+        106,
+        375,
+        1,
+        583,
+        634
+      ]
+    },
+    {
+      "idx": 198,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        185,
+        2,
+        2460,
+        32,
+        664,
+        267
+      ]
+    },
+    {
+      "idx": 199,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        744,
+        4,
+        145,
+        1,
+        1340,
+        131
+      ]
+    },
+    {
+      "idx": 200,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        129,
+        8,
+        461,
+        465,
+        180,
+        277
+      ]
+    },
+    {
+      "idx": 201,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        244,
+        293,
+        2355,
+        527,
+        503,
+        775
+      ]
+    },
+    {
+      "idx": 202,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1023,
+        74,
+        23229,
+        4,
+        12,
+        230
+      ]
+    },
+    {
+      "idx": 203,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        18935,
+        1325,
+        3710,
+        119,
+        6411,
+        3886
+      ]
+    },
+    {
+      "idx": 204,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        5396,
+        346,
+        247,
+        64,
+        193,
+        726
+      ]
+    },
+    {
+      "idx": 205,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8649,
+        413,
+        1775,
+        15,
+        12820,
+        1652
+      ]
+    },
+    {
+      "idx": 206,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9722,
+        448,
+        5279,
+        1161,
+        9009,
+        5022
+      ]
+    },
+    {
+      "idx": 207,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        2067,
+        921,
+        31,
+        0,
+        0,
+        24
+      ]
+    },
+    {
+      "idx": 208,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        33,
+        10,
+        219,
+        149,
+        601,
+        19
+      ]
+    },
+    {
+      "idx": 209,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        70,
+        32,
+        15,
+        3,
+        4,
+        97
+      ]
+    },
+    {
+      "idx": 210,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1758,
+        1628,
+        225,
+        1,
+        2,
+        193
+      ]
+    },
+    {
+      "idx": 211,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        83426,
+        4440,
+        27650,
+        15254,
+        65153,
+        22601
+      ]
+    },
+    {
+      "idx": 212,
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        19,
+        23,
+        95,
+        0,
+        184,
+        453
+      ]
+    },
+    {
+      "idx": 213,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        28,
+        4,
+        288,
+        36,
+        339,
+        663
+      ]
+    },
+    {
+      "idx": 214,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        532,
+        41,
+        119,
+        12,
+        6805,
+        87
+      ]
+    },
+    {
+      "idx": 215,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        61,
+        24,
+        307,
+        17,
+        7,
+        43
+      ]
+    },
+    {
+      "idx": 216,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        895,
+        317,
+        892,
+        41,
+        81,
+        1708
+      ]
+    },
+    {
+      "idx": 217,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        78938,
+        15614,
+        29765,
+        45,
+        12633,
+        37692
+      ]
+    },
+    {
+      "idx": 218,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8479,
+        80,
+        557,
+        25,
+        2672,
+        1535
+      ]
+    },
+    {
+      "idx": 219,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        21,
+        60,
+        3,
+        47,
+        73
+      ]
+    },
+    {
+      "idx": 220,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        14263,
+        493,
+        1982,
+        7019,
+        8791,
+        9131
+      ]
+    },
+    {
+      "idx": 221,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16,
+        38,
+        1273,
+        0,
+        69,
+        301
+      ]
+    },
+    {
+      "idx": 222,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        95,
+        40,
+        67,
+        4,
+        34,
+        90
+      ]
+    },
+    {
+      "idx": 223,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        7364,
+        1357,
+        2537,
+        810,
+        1539,
+        4941
+      ]
+    },
+    {
+      "idx": 224,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        24,
+        15,
+        198,
+        2,
+        108,
+        236
+      ]
+    },
+    {
+      "idx": 225,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        115,
+        50,
+        2431,
+        999,
+        5096,
+        1982
+      ]
+    },
+    {
+      "idx": 226,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3215,
+        48,
+        878,
+        16,
+        3893,
+        1019
+      ]
+    },
+    {
+      "idx": 227,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11084,
+        433,
+        1849,
+        639,
+        1451,
+        1076
+      ]
+    },
+    {
+      "idx": 228,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        6543,
+        1008,
+        6714,
+        1062,
+        10002,
+        5959
+      ]
+    },
+    {
+      "idx": 229,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        276,
+        617,
+        577,
+        99,
+        157,
+        882
+      ]
+    },
+    {
+      "idx": 230,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        978,
+        192,
+        795,
+        199,
+        1418,
+        3462
+      ]
+    },
+    {
+      "idx": 231,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        274,
+        749,
+        108,
+        23,
+        28,
+        68
+      ]
+    },
+    {
+      "idx": 232,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        28,
+        4327,
+        1507,
+        223,
+        12,
+        4517
+      ]
+    },
+    {
+      "idx": 233,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        57664,
+        13806,
+        7098,
+        13533,
+        17372,
+        14999
+      ]
+    },
+    {
+      "idx": 234,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        101,
+        423,
+        1116,
+        20,
+        1379,
+        1462
+      ]
+    },
+    {
+      "idx": 235,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        12692,
+        1462,
+        940,
+        280,
+        1168,
+        3477
+      ]
+    },
+    {
+      "idx": 236,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        46,
+        22,
+        72,
+        6,
+        7,
+        28
+      ]
+    },
+    {
+      "idx": 237,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        8,
+        997,
+        71,
+        54,
+        157
+      ]
+    },
+    {
+      "idx": 238,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        25783,
+        3294,
+        20113,
+        1364,
+        262,
+        9072
+      ]
+    },
+    {
+      "idx": 239,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        34,
+        85,
+        1015,
+        69,
+        1053,
+        782
+      ]
+    },
+    {
+      "idx": 240,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        18,
+        688,
+        1289,
+        5,
+        466,
+        336
+      ]
+    },
+    {
+      "idx": 241,
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        808,
+        231,
+        89,
+        33,
+        78,
+        116
+      ]
+    },
+    {
+      "idx": 242,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        30,
+        12,
+        5,
+        3,
+        4,
+        9
+      ]
+    },
+    {
+      "idx": 243,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8281,
+        538,
+        386,
+        158,
+        229,
+        486
+      ]
+    },
+    {
+      "idx": 244,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        17,
+        5,
+        174,
+        30,
+        451,
+        35
+      ]
+    },
+    {
+      "idx": 245,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        22317,
+        26762,
+        32371,
+        5130,
+        8185,
+        43503
+      ]
+    },
+    {
+      "idx": 246,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3455,
+        264,
+        10233,
+        516,
+        854,
+        2114
+      ]
+    },
+    {
+      "idx": 247,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        26,
+        1283,
+        3681,
+        1,
+        41,
+        1216
+      ]
+    },
+    {
+      "idx": 248,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13873,
+        1323,
+        898,
+        390,
+        1771,
+        4498
+      ]
+    },
+    {
+      "idx": 249,
+      "gold": 1,
+      "pred": 1,
+      "student_final_correct": true,
+      "ranks": [
+        1575,
+        54,
+        732,
+        129,
+        50,
+        45
+      ]
+    },
+    {
+      "idx": 250,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        1399,
+        285,
+        304,
+        42,
+        89,
+        648
+      ]
+    },
+    {
+      "idx": 251,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        15252,
+        30,
+        8122,
+        17,
+        2497,
+        1610
+      ]
+    },
+    {
+      "idx": 252,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        22,
+        2,
+        7317,
+        974,
+        26,
+        2068
+      ]
+    },
+    {
+      "idx": 253,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        13,
+        159,
+        34,
+        35,
+        253,
+        112
+      ]
+    },
+    {
+      "idx": 254,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        616,
+        126,
+        104,
+        13,
+        30,
+        151
+      ]
+    },
+    {
+      "idx": 255,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        103,
+        563,
+        4,
+        5,
+        62
+      ]
+    },
+    {
+      "idx": 256,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6309,
+        70,
+        58,
+        16,
+        36,
+        82
+      ]
+    },
+    {
+      "idx": 257,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1022,
+        5,
+        1118,
+        311,
+        2594,
+        545
+      ]
+    },
+    {
+      "idx": 258,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        82,
+        260,
+        4203,
+        2221,
+        26,
+        721
+      ]
+    },
+    {
+      "idx": 259,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        288,
+        485,
+        4362,
+        58,
+        619,
+        1094
+      ]
+    },
+    {
+      "idx": 260,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        249,
+        7,
+        1111,
+        11,
+        9752,
+        3605
+      ]
+    },
+    {
+      "idx": 261,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        212,
+        75,
+        3174,
+        1,
+        98,
+        856
+      ]
+    },
+    {
+      "idx": 262,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        285,
+        306,
+        272,
+        18,
+        32,
+        376
+      ]
+    },
+    {
+      "idx": 263,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1194,
+        439,
+        310,
+        22,
+        30,
+        380
+      ]
+    },
+    {
+      "idx": 264,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        94,
+        55,
+        38,
+        7,
+        6,
+        21
+      ]
+    },
+    {
+      "idx": 265,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2851,
+        26,
+        48,
+        75,
+        168,
+        261
+      ]
+    },
+    {
+      "idx": 266,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        93,
+        1,
+        110,
+        1,
+        77,
+        5
+      ]
+    },
+    {
+      "idx": 267,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1072,
+        2740,
+        8563,
+        14286,
+        366,
+        5823
+      ]
+    },
+    {
+      "idx": 268,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        529,
+        290,
+        440,
+        479,
+        453,
+        477
+      ]
+    },
+    {
+      "idx": 269,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        351,
+        4303,
+        3703,
+        4607,
+        224,
+        1525
+      ]
+    },
+    {
+      "idx": 270,
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        35,
+        2,
+        486,
+        8,
+        555,
+        150
+      ]
+    },
+    {
+      "idx": 271,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8237,
+        671,
+        3344,
+        7879,
+        5872,
+        4579
+      ]
+    },
+    {
+      "idx": 272,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        638,
+        36,
+        1326,
+        757,
+        2806,
+        1572
+      ]
+    },
+    {
+      "idx": 273,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        866,
+        6,
+        814,
+        0,
+        8650,
+        189
+      ]
+    },
+    {
+      "idx": 274,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        822,
+        50,
+        40,
+        27,
+        38,
+        77
+      ]
+    },
+    {
+      "idx": 275,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        39845,
+        17881,
+        18945,
+        6229,
+        8668,
+        15047
+      ]
+    },
+    {
+      "idx": 276,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        84,
+        1,
+        603,
+        1,
+        9163,
+        128
+      ]
+    },
+    {
+      "idx": 277,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        24,
+        5,
+        2,
+        2,
+        7
+      ]
+    },
+    {
+      "idx": 278,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        18,
+        86,
+        1011,
+        0,
+        4,
+        40
+      ]
+    },
+    {
+      "idx": 279,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        93,
+        151,
+        77,
+        12,
+        18,
+        43
+      ]
+    },
+    {
+      "idx": 280,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8868,
+        9263,
+        17049,
+        6174,
+        459,
+        37555
+      ]
+    },
+    {
+      "idx": 281,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2212,
+        771,
+        1722,
+        550,
+        335,
+        998
+      ]
+    },
+    {
+      "idx": 282,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        164,
+        15,
+        76,
+        48,
+        1409,
+        105
+      ]
+    },
+    {
+      "idx": 283,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1210,
+        265,
+        1098,
+        413,
+        518,
+        1350
+      ]
+    },
+    {
+      "idx": 284,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        1,
+        103,
+        3,
+        17,
+        6
+      ]
+    },
+    {
+      "idx": 285,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        35053,
+        225,
+        22401,
+        10220,
+        3,
+        58897
+      ]
+    },
+    {
+      "idx": 286,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9466,
+        26524,
+        1880,
+        12396,
+        1292,
+        32614
+      ]
+    },
+    {
+      "idx": 287,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        14,
+        19,
+        38,
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "idx": 288,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3816,
+        236,
+        926,
+        38,
+        35,
+        496
+      ]
+    },
+    {
+      "idx": 289,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        3299,
+        4798,
+        4009,
+        4,
+        2337,
+        4556
+      ]
+    },
+    {
+      "idx": 290,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6088,
+        1599,
+        5189,
+        4828,
+        2766,
+        2742
+      ]
+    },
+    {
+      "idx": 291,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        20096,
+        6454,
+        9046,
+        1056,
+        961,
+        4890
+      ]
+    },
+    {
+      "idx": 292,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        699,
+        528,
+        16920,
+        10673,
+        5304,
+        10656
+      ]
+    },
+    {
+      "idx": 293,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4289,
+        38,
+        3801,
+        403,
+        23,
+        1635
+      ]
+    },
+    {
+      "idx": 294,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        12,
+        14,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "idx": 295,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2645,
+        1077,
+        4624,
+        266,
+        110,
+        308
+      ]
+    },
+    {
+      "idx": 296,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        380,
+        128,
+        599,
+        56,
+        1157,
+        586
+      ]
+    },
+    {
+      "idx": 297,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        71,
+        113,
+        257,
+        2,
+        14,
+        94
+      ]
+    },
+    {
+      "idx": 298,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1188,
+        60,
+        732,
+        20,
+        6068,
+        171
+      ]
+    },
+    {
+      "idx": 299,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        7,
+        59,
+        2,
+        29,
+        17
+      ]
+    },
+    {
+      "idx": 300,
+      "gold": 5,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        43,
+        632,
+        1,
+        55,
+        157
+      ]
+    },
+    {
+      "idx": 301,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1159,
+        78,
+        198,
+        9,
+        39,
+        361
+      ]
+    },
+    {
+      "idx": 302,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        872,
+        474,
+        8683,
+        2003,
+        201,
+        2932
+      ]
+    },
+    {
+      "idx": 303,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15,
+        14,
+        13728,
+        5627,
+        1,
+        3021
+      ]
+    },
+    {
+      "idx": 304,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        49699,
+        25306,
+        43063,
+        47032,
+        34696,
+        60008
+      ]
+    },
+    {
+      "idx": 305,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1038,
+        414,
+        140,
+        23,
+        20,
+        280
+      ]
+    },
+    {
+      "idx": 306,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        37,
+        3,
+        7241,
+        44,
+        3839,
+        92
+      ]
+    },
+    {
+      "idx": 307,
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        31,
+        0,
+        79,
+        3,
+        234,
+        83
+      ]
+    },
+    {
+      "idx": 308,
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        14,
+        137,
+        9,
+        119,
+        122
+      ]
+    },
+    {
+      "idx": 309,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        906,
+        7,
+        287,
+        1,
+        536,
+        30
+      ]
+    },
+    {
+      "idx": 310,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        1,
+        75,
+        3,
+        26,
+        34
+      ]
+    },
+    {
+      "idx": 311,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        20,
+        39,
+        547,
+        1,
+        11,
+        20
+      ]
+    },
+    {
+      "idx": 312,
+      "gold": 5,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        14349,
+        385,
+        7134,
+        12,
+        12057,
+        3239
+      ]
+    },
+    {
+      "idx": 313,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2725,
+        7856,
+        24222,
+        6128,
+        116,
+        43855
+      ]
+    },
+    {
+      "idx": 314,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        75,
+        22,
+        9,
+        5,
+        22,
+        42
+      ]
+    },
+    {
+      "idx": 315,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1973,
+        1141,
+        28226,
+        36353,
+        43926,
+        13446
+      ]
+    },
+    {
+      "idx": 316,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        0,
+        76,
+        14,
+        8,
+        17
+      ]
+    },
+    {
+      "idx": 317,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5628,
+        562,
+        334,
+        300,
+        280,
+        592
+      ]
+    },
+    {
+      "idx": 318,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1800,
+        203,
+        756,
+        271,
+        1448,
+        7017
+      ]
+    },
+    {
+      "idx": 319,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        23173,
+        407,
+        1801,
+        817,
+        706,
+        1238
+      ]
+    },
+    {
+      "idx": 320,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2504,
+        644,
+        1446,
+        26,
+        796,
+        689
+      ]
+    },
+    {
+      "idx": 321,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        144,
+        891,
+        462,
+        31,
+        3547,
+        3056
+      ]
+    },
+    {
+      "idx": 322,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2826,
+        1364,
+        3215,
+        270,
+        6226,
+        3019
+      ]
+    },
+    {
+      "idx": 323,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        14,
+        7,
+        380,
+        235,
+        664,
+        135
+      ]
+    },
+    {
+      "idx": 324,
+      "gold": 5,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        11413,
+        11933,
+        6222,
+        2353,
+        10263,
+        72045
+      ]
+    },
+    {
+      "idx": 325,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15,
+        16,
+        8,
+        3,
+        137,
+        71
+      ]
+    },
+    {
+      "idx": 326,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9,
+        9,
+        136,
+        4,
+        151,
+        188
+      ]
+    },
+    {
+      "idx": 327,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        356,
+        1333,
+        330,
+        3,
+        3564,
+        7242
+      ]
+    },
+    {
+      "idx": 328,
+      "gold": 2,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        4570,
+        1992,
+        3278,
+        7390,
+        2825,
+        2542
+      ]
+    },
+    {
+      "idx": 329,
+      "gold": 2,
+      "pred": 2,
+      "student_final_correct": true,
+      "ranks": [
+        252,
+        1,
+        568,
+        12,
+        1191,
+        937
+      ]
+    },
+    {
+      "idx": 330,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        10,
+        806,
+        8912,
+        48,
+        26797,
+        1838
+      ]
+    },
+    {
+      "idx": 331,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        1730,
+        88,
+        727,
+        10,
+        508,
+        663
+      ]
+    },
+    {
+      "idx": 332,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        299,
+        913,
+        704,
+        10,
+        1393,
+        213
+      ]
+    },
+    {
+      "idx": 333,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        7,
+        375,
+        9,
+        10,
+        14
+      ]
+    },
+    {
+      "idx": 334,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        0,
+        11,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "idx": 335,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        620,
+        14,
+        93,
+        0,
+        107,
+        131
+      ]
+    },
+    {
+      "idx": 336,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        10647,
+        524,
+        127,
+        33,
+        56,
+        371
+      ]
+    },
+    {
+      "idx": 337,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        17,
+        17,
+        1834,
+        88,
+        51,
+        613
+      ]
+    },
+    {
+      "idx": 338,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        85,
+        11,
+        111,
+        4,
+        108,
+        134
+      ]
+    },
+    {
+      "idx": 339,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        0,
+        10,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "idx": 340,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13,
+        6,
+        139,
+        233,
+        110,
+        8
+      ]
+    },
+    {
+      "idx": 341,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        29,
+        6,
+        81,
+        4,
+        36,
+        32
+      ]
+    },
+    {
+      "idx": 342,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1190,
+        45,
+        8331,
+        30008,
+        958,
+        501
+      ]
+    },
+    {
+      "idx": 343,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        32,
+        920,
+        11196,
+        14,
+        4009,
+        4294
+      ]
+    },
+    {
+      "idx": 344,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        30,
+        47,
+        65,
+        3,
+        99,
+        488
+      ]
+    },
+    {
+      "idx": 345,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2623,
+        44,
+        100,
+        123,
+        53,
+        128
+      ]
+    },
+    {
+      "idx": 346,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3428,
+        154,
+        2922,
+        6,
+        959,
+        357
+      ]
+    },
+    {
+      "idx": 347,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        3,
+        22,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "idx": 348,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        78285,
+        47508,
+        67377,
+        5250,
+        76071,
+        99065
+      ]
+    },
+    {
+      "idx": 349,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        5551,
+        6742,
+        0,
+        0,
+        299
+      ]
+    },
+    {
+      "idx": 350,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3403,
+        174,
+        718,
+        165,
+        6876,
+        12292
+      ]
+    },
+    {
+      "idx": 351,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        600,
+        129,
+        7,
+        0,
+        2,
+        22
+      ]
+    },
+    {
+      "idx": 352,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        24,
+        10,
+        5,
+        2,
+        20,
+        34
+      ]
+    },
+    {
+      "idx": 353,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        293,
+        154,
+        1952,
+        11,
+        475,
+        337
+      ]
+    },
+    {
+      "idx": 354,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        282,
+        0,
+        14881,
+        580,
+        96,
+        5
+      ]
+    },
+    {
+      "idx": 355,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        336,
+        55,
+        14,
+        2,
+        9,
+        106
+      ]
+    },
+    {
+      "idx": 356,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        15457,
+        2449,
+        3259,
+        116,
+        163,
+        10903
+      ]
+    },
+    {
+      "idx": 357,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        455,
+        997,
+        1467,
+        14,
+        120,
+        700
+      ]
+    },
+    {
+      "idx": 358,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        519,
+        56,
+        675,
+        59,
+        277,
+        869
+      ]
+    },
+    {
+      "idx": 359,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        419,
+        343,
+        271,
+        225,
+        524,
+        397
+      ]
+    },
+    {
+      "idx": 360,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6646,
+        234,
+        4505,
+        2742,
+        5490,
+        7574
+      ]
+    },
+    {
+      "idx": 361,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        22,
+        24,
+        3851,
+        2029,
+        6,
+        165
+      ]
+    },
+    {
+      "idx": 362,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        21807,
+        120,
+        160,
+        123,
+        34,
+        236
+      ]
+    },
+    {
+      "idx": 363,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3900,
+        1222,
+        3912,
+        1099,
+        1411,
+        2307
+      ]
+    },
+    {
+      "idx": 364,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6695,
+        1224,
+        1780,
+        10,
+        4184,
+        3515
+      ]
+    },
+    {
+      "idx": 365,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        125,
+        434,
+        8434,
+        38,
+        3588,
+        953
+      ]
+    },
+    {
+      "idx": 366,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3185,
+        879,
+        6841,
+        48,
+        2415,
+        1859
+      ]
+    },
+    {
+      "idx": 367,
+      "gold": 5,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        87,
+        138,
+        805,
+        1,
+        67,
+        184
+      ]
+    },
+    {
+      "idx": 368,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1023,
+        1809,
+        6156,
+        28,
+        104,
+        775
+      ]
+    },
+    {
+      "idx": 369,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        375,
+        1715,
+        1664,
+        7,
+        1794,
+        24127
+      ]
+    },
+    {
+      "idx": 370,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        98,
+        1467,
+        3583,
+        1,
+        9,
+        820
+      ]
+    },
+    {
+      "idx": 371,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        343,
+        88,
+        113,
+        86,
+        124,
+        201
+      ]
+    },
+    {
+      "idx": 372,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        41,
+        199,
+        9,
+        102,
+        106
+      ]
+    },
+    {
+      "idx": 373,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2960,
+        3409,
+        3763,
+        3919,
+        6103,
+        970
+      ]
+    },
+    {
+      "idx": 374,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        257,
+        33,
+        883,
+        168,
+        1052,
+        284
+      ]
+    },
+    {
+      "idx": 375,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1064,
+        1515,
+        43010,
+        54,
+        9719,
+        334
+      ]
+    },
+    {
+      "idx": 376,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        11,
+        2,
+        433,
+        1,
+        16,
+        25
+      ]
+    },
+    {
+      "idx": 377,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        21,
+        83,
+        367,
+        498,
+        204,
+        484
+      ]
+    },
+    {
+      "idx": 378,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        37,
+        52,
+        587,
+        16,
+        4494,
+        3768
+      ]
+    },
+    {
+      "idx": 379,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        250,
+        163,
+        1521,
+        1879,
+        2230,
+        2230
+      ]
+    },
+    {
+      "idx": 380,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1949,
+        934,
+        904,
+        59,
+        3024,
+        1061
+      ]
+    },
+    {
+      "idx": 381,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        813,
+        26,
+        96,
+        47,
+        41,
+        45
+      ]
+    },
+    {
+      "idx": 382,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        823,
+        952,
+        1533,
+        18,
+        4802,
+        1047
+      ]
+    },
+    {
+      "idx": 383,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        104,
+        55,
+        398,
+        20,
+        1605,
+        463
+      ]
+    },
+    {
+      "idx": 384,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        1436,
+        217,
+        582,
+        89,
+        1946,
+        886
+      ]
+    },
+    {
+      "idx": 385,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        466,
+        33,
+        466,
+        7,
+        172,
+        130
+      ]
+    },
+    {
+      "idx": 386,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1481,
+        1223,
+        7168,
+        79,
+        622,
+        2084
+      ]
+    },
+    {
+      "idx": 387,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        90,
+        120,
+        3,
+        50,
+        62
+      ]
+    },
+    {
+      "idx": 388,
+      "gold": 3,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        134,
+        21,
+        21,
+        10,
+        7,
+        8
+      ]
+    },
+    {
+      "idx": 389,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        10,
+        2,
+        102,
+        5,
+        120,
+        109
+      ]
+    },
+    {
+      "idx": 390,
+      "gold": 5,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        1203,
+        28,
+        1192,
+        98,
+        135,
+        471
+      ]
+    },
+    {
+      "idx": 391,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        75181,
+        42453,
+        33360,
+        45143,
+        48089,
+        52953
+      ]
+    },
+    {
+      "idx": 392,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        24,
+        438,
+        336,
+        64,
+        299,
+        287
+      ]
+    },
+    {
+      "idx": 393,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1455,
+        2291,
+        2583,
+        209,
+        2045,
+        5456
+      ]
+    },
+    {
+      "idx": 394,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        3,
+        820,
+        1,
+        6,
+        27
+      ]
+    },
+    {
+      "idx": 395,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        1042,
+        4,
+        68,
+        42,
+        5270,
+        103
+      ]
+    },
+    {
+      "idx": 396,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        233,
+        1335,
+        1,
+        371,
+        41
+      ]
+    },
+    {
+      "idx": 397,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        875,
+        41,
+        912,
+        861,
+        2817,
+        1762
+      ]
+    },
+    {
+      "idx": 398,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        7903,
+        810,
+        1800,
+        247,
+        259,
+        1064
+      ]
+    },
+    {
+      "idx": 399,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        293,
+        2,
+        307,
+        26,
+        582,
+        199
+      ]
+    },
+    {
+      "idx": 400,
+      "gold": 3,
+      "pred": 3,
+      "student_final_correct": true,
+      "ranks": [
+        7,
+        78,
+        78,
+        3,
+        64,
+        75
+      ]
+    },
+    {
+      "idx": 401,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        12,
+        56,
+        100,
+        654,
+        256,
+        89
+      ]
+    },
+    {
+      "idx": 402,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        343,
+        40,
+        1725,
+        220,
+        812,
+        52
+      ]
+    },
+    {
+      "idx": 403,
+      "gold": 4,
+      "pred": 4,
+      "student_final_correct": true,
+      "ranks": [
+        1,
+        2,
+        100,
+        0,
+        7,
+        58
+      ]
+    },
+    {
+      "idx": 404,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2364,
+        1065,
+        15064,
+        1293,
+        40710,
+        10198
+      ]
+    },
+    {
+      "idx": 405,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        28139,
+        7848,
+        1953,
+        257,
+        2292,
+        9511
+      ]
+    },
+    {
+      "idx": 406,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1555,
+        47,
+        12457,
+        801,
+        8799,
+        18655
+      ]
+    },
+    {
+      "idx": 407,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        25,
+        15,
+        44,
+        28,
+        30,
+        38
+      ]
+    },
+    {
+      "idx": 408,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        41,
+        34,
+        1,
+        4,
+        12
+      ]
+    },
+    {
+      "idx": 409,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2924,
+        4651,
+        1060,
+        12,
+        1272,
+        3269
+      ]
+    },
+    {
+      "idx": 410,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        87,
+        1000,
+        13703,
+        7976,
+        2890,
+        1279
+      ]
+    },
+    {
+      "idx": 411,
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        0,
+        23,
+        17,
+        203,
+        8
+      ]
+    },
+    {
+      "idx": 412,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1149,
+        2030,
+        572,
+        3,
+        15,
+        595
+      ]
+    },
+    {
+      "idx": 413,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        44,
+        119,
+        1402,
+        12658,
+        3567,
+        2214
+      ]
+    },
+    {
+      "idx": 414,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        2,
+        718,
+        5,
+        18,
+        18
+      ]
+    },
+    {
+      "idx": 415,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3313,
+        4597,
+        8486,
+        7481,
+        9129,
+        15699
+      ]
+    },
+    {
+      "idx": 416,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        76,
+        55,
+        71,
+        3,
+        30,
+        41
+      ]
+    },
+    {
+      "idx": 417,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        23172,
+        1750,
+        5220,
+        48,
+        15800,
+        3295
+      ]
+    },
+    {
+      "idx": 418,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        37,
+        11,
+        1117,
+        162,
+        1795,
+        672
+      ]
+    },
+    {
+      "idx": 419,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        319,
+        2613,
+        1625,
+        193,
+        373,
+        991
+      ]
+    },
+    {
+      "idx": 420,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        27,
+        2,
+        2497,
+        263,
+        2748,
+        616
+      ]
+    },
+    {
+      "idx": 421,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2103,
+        1537,
+        1282,
+        42,
+        228,
+        1839
+      ]
+    },
+    {
+      "idx": 422,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2649,
+        1077,
+        2110,
+        79,
+        1036,
+        2663
+      ]
+    },
+    {
+      "idx": 423,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        1,
+        246,
+        0,
+        146,
+        1
+      ]
+    },
+    {
+      "idx": 424,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        436,
+        223,
+        3024,
+        514,
+        58,
+        657
+      ]
+    },
+    {
+      "idx": 425,
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        128,
+        157,
+        234,
+        1,
+        198,
+        277
+      ]
+    },
+    {
+      "idx": 426,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        42,
+        20,
+        374,
+        44,
+        1097,
+        384
+      ]
+    },
+    {
+      "idx": 427,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3180,
+        195,
+        1017,
+        16,
+        2400,
+        523
+      ]
+    },
+    {
+      "idx": 428,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        201,
+        12,
+        16,
+        24,
+        157,
+        834
+      ]
+    },
+    {
+      "idx": 429,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        16535,
+        2459,
+        4458,
+        3078,
+        6461,
+        9921
+      ]
+    },
+    {
+      "idx": 430,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        903,
+        522,
+        2376,
+        48,
+        58,
+        4048
+      ]
+    },
+    {
+      "idx": 431,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        35,
+        116,
+        451,
+        12,
+        672,
+        885
+      ]
+    },
+    {
+      "idx": 432,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3299,
+        5209,
+        15322,
+        19469,
+        29601,
+        21086
+      ]
+    },
+    {
+      "idx": 433,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8700,
+        21,
+        200,
+        3,
+        4,
+        23
+      ]
+    },
+    {
+      "idx": 434,
+      "gold": 5,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        23,
+        214,
+        0,
+        11,
+        29
+      ]
+    },
+    {
+      "idx": 435,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        681,
+        2126,
+        1920,
+        126,
+        71,
+        164
+      ]
+    },
+    {
+      "idx": 436,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2736,
+        96,
+        1546,
+        468,
+        15967,
+        2056
+      ]
+    },
+    {
+      "idx": 437,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        7,
+        76,
+        4,
+        15,
+        28
+      ]
+    },
+    {
+      "idx": 438,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8692,
+        3767,
+        16592,
+        3588,
+        446,
+        7528
+      ]
+    },
+    {
+      "idx": 439,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        7042,
+        149,
+        171,
+        499,
+        564,
+        650
+      ]
+    },
+    {
+      "idx": 440,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        15,
+        174,
+        12,
+        196,
+        33
+      ]
+    },
+    {
+      "idx": 441,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        224,
+        70,
+        6447,
+        5,
+        1115,
+        3521
+      ]
+    },
+    {
+      "idx": 442,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        74,
+        196,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "idx": 443,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        36,
+        628,
+        3616,
+        7,
+        116,
+        553
+      ]
+    },
+    {
+      "idx": 444,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1975,
+        510,
+        684,
+        1318,
+        3705,
+        4078
+      ]
+    },
+    {
+      "idx": 445,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        521,
+        2985,
+        2496,
+        607,
+        1255,
+        13399
+      ]
+    },
+    {
+      "idx": 446,
+      "gold": 3,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        246,
+        20,
+        127,
+        11,
+        141,
+        296
+      ]
+    },
+    {
+      "idx": 447,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4621,
+        83,
+        1278,
+        4,
+        43,
+        301
+      ]
+    },
+    {
+      "idx": 448,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        17,
+        74,
+        17,
+        3,
+        3,
+        46
+      ]
+    },
+    {
+      "idx": 449,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        40169,
+        11441,
+        20924,
+        12003,
+        34563,
+        18885
+      ]
+    },
+    {
+      "idx": 450,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        154,
+        27,
+        18,
+        4,
+        8,
+        23
+      ]
+    },
+    {
+      "idx": 451,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        469,
+        152,
+        324,
+        13,
+        268,
+        173
+      ]
+    },
+    {
+      "idx": 452,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        82429,
+        15477,
+        30720,
+        5793,
+        23537,
+        66991
+      ]
+    },
+    {
+      "idx": 453,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        20124,
+        48677,
+        53384,
+        45002,
+        65743,
+        84198
+      ]
+    },
+    {
+      "idx": 454,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4720,
+        2286,
+        2488,
+        73,
+        1313,
+        329
+      ]
+    },
+    {
+      "idx": 455,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1803,
+        1696,
+        1486,
+        46,
+        10772,
+        2374
+      ]
+    },
+    {
+      "idx": 456,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4363,
+        160,
+        7187,
+        25,
+        8655,
+        1085
+      ]
+    },
+    {
+      "idx": 457,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        121,
+        3884,
+        2896,
+        382,
+        171,
+        1290
+      ]
+    },
+    {
+      "idx": 458,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        3,
+        21,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "idx": 459,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1804,
+        522,
+        28684,
+        185,
+        66,
+        18323
+      ]
+    },
+    {
+      "idx": 460,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2041,
+        887,
+        2266,
+        3257,
+        7474,
+        9711
+      ]
+    },
+    {
+      "idx": 461,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        138,
+        23,
+        1171,
+        16,
+        4,
+        165
+      ]
+    },
+    {
+      "idx": 462,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11175,
+        1819,
+        2296,
+        876,
+        165,
+        1386
+      ]
+    },
+    {
+      "idx": 463,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        581,
+        353,
+        166,
+        33,
+        279,
+        961
+      ]
+    },
+    {
+      "idx": 464,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        33,
+        4389,
+        685,
+        0,
+        30,
+        2236
+      ]
+    },
+    {
+      "idx": 465,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        23,
+        8,
+        243,
+        7,
+        20,
+        26
+      ]
+    },
+    {
+      "idx": 466,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        946,
+        84,
+        1029,
+        58,
+        7350,
+        2929
+      ]
+    },
+    {
+      "idx": 467,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        19127,
+        117,
+        13636,
+        5364,
+        9842,
+        7093
+      ]
+    },
+    {
+      "idx": 468,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13379,
+        1172,
+        13755,
+        32563,
+        36067,
+        3735
+      ]
+    },
+    {
+      "idx": 469,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        34,
+        55,
+        337,
+        65,
+        209,
+        494
+      ]
+    },
+    {
+      "idx": 470,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        52,
+        48,
+        20,
+        35,
+        23,
+        36
+      ]
+    },
+    {
+      "idx": 471,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        41911,
+        8735,
+        3507,
+        5281,
+        5822,
+        2963
+      ]
+    },
+    {
+      "idx": 472,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        39709,
+        12100,
+        3890,
+        2830,
+        1194,
+        19612
+      ]
+    },
+    {
+      "idx": 473,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11269,
+        4427,
+        9989,
+        10205,
+        16526,
+        36438
+      ]
+    },
+    {
+      "idx": 474,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11169,
+        2875,
+        6739,
+        14153,
+        13113,
+        12119
+      ]
+    },
+    {
+      "idx": 475,
+      "gold": 2,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        76,
+        3,
+        701,
+        2,
+        842,
+        87
+      ]
+    },
+    {
+      "idx": 476,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        6,
+        4,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "idx": 477,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        59,
+        1026,
+        15482,
+        11,
+        17,
+        2920
+      ]
+    },
+    {
+      "idx": 478,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        62,
+        16,
+        25,
+        7,
+        11,
+        26
+      ]
+    },
+    {
+      "idx": 479,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2779,
+        2432,
+        2244,
+        191,
+        1309,
+        2068
+      ]
+    },
+    {
+      "idx": 480,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16934,
+        17545,
+        6964,
+        2586,
+        969,
+        1044
+      ]
+    },
+    {
+      "idx": 481,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        9,
+        1,
+        377,
+        102,
+        773,
+        165
+      ]
+    },
+    {
+      "idx": 482,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        327,
+        37,
+        1120,
+        4,
+        60,
+        164
+      ]
+    },
+    {
+      "idx": 483,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        366,
+        1040,
+        7091,
+        226,
+        126,
+        1365
+      ]
+    },
+    {
+      "idx": 484,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2301,
+        318,
+        21,
+        2,
+        13,
+        360
+      ]
+    },
+    {
+      "idx": 485,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        18,
+        10,
+        253,
+        1,
+        111,
+        25
+      ]
+    },
+    {
+      "idx": 486,
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        36,
+        114,
+        140,
+        2,
+        155,
+        172
+      ]
+    },
+    {
+      "idx": 487,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        34,
+        5,
+        5543,
+        2,
+        0,
+        608
+      ]
+    },
+    {
+      "idx": 488,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        281,
+        4813,
+        250,
+        107,
+        5676,
+        2273
+      ]
+    },
+    {
+      "idx": 489,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        5,
+        130,
+        5,
+        4,
+        13
+      ]
+    },
+    {
+      "idx": 490,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        32796,
+        15622,
+        7955,
+        2452,
+        1010,
+        12854
+      ]
+    },
+    {
+      "idx": 491,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        4,
+        34,
+        74,
+        0,
+        12,
+        39
+      ]
+    },
+    {
+      "idx": 492,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9,
+        1,
+        86,
+        7,
+        24,
+        15
+      ]
+    },
+    {
+      "idx": 493,
+      "gold": 3,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        2,
+        769,
+        5,
+        2,
+        1
+      ]
+    },
+    {
+      "idx": 494,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6531,
+        1145,
+        12090,
+        645,
+        16415,
+        4988
+      ]
+    },
+    {
+      "idx": 495,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        172,
+        57,
+        1593,
+        169,
+        1766,
+        887
+      ]
+    },
+    {
+      "idx": 496,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        453,
+        401,
+        1308,
+        10,
+        146,
+        500
+      ]
+    },
+    {
+      "idx": 497,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        145,
+        0,
+        458,
+        128,
+        441,
+        204
+      ]
+    },
+    {
+      "idx": 498,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        233,
+        3419,
+        388,
+        5,
+        11,
+        14
+      ]
+    },
+    {
+      "idx": 499,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        491,
+        10,
+        14610,
+        5,
+        41,
+        1513
+      ]
+    },
+    {
+      "idx": 500,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3021,
+        188,
+        13968,
+        8,
+        1160,
+        1037
+      ]
+    },
+    {
+      "idx": 501,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        61,
+        7,
+        77,
+        4,
+        4,
+        16
+      ]
+    },
+    {
+      "idx": 502,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        346,
+        4,
+        8380,
+        245,
+        146,
+        442
+      ]
+    },
+    {
+      "idx": 503,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3294,
+        251,
+        322,
+        271,
+        266,
+        272
+      ]
+    },
+    {
+      "idx": 504,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        77,
+        72,
+        882,
+        255,
+        288,
+        719
+      ]
+    },
+    {
+      "idx": 505,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1814,
+        1364,
+        1007,
+        163,
+        48,
+        1605
+      ]
+    },
+    {
+      "idx": 506,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2369,
+        1059,
+        14821,
+        17135,
+        8172,
+        4810
+      ]
+    },
+    {
+      "idx": 507,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        15416,
+        3333,
+        21327,
+        20,
+        5939,
+        20016
+      ]
+    },
+    {
+      "idx": 508,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        54,
+        25,
+        5,
+        198,
+        28
+      ]
+    },
+    {
+      "idx": 509,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        60,
+        28,
+        524,
+        134,
+        5,
+        17
+      ]
+    },
+    {
+      "idx": 510,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        263,
+        62,
+        121,
+        15,
+        1113,
+        412
+      ]
+    },
+    {
+      "idx": 511,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1723,
+        11563,
+        24429,
+        24,
+        41,
+        1597
+      ]
+    },
+    {
+      "idx": 512,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        1,
+        66,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "idx": 513,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        565,
+        650,
+        809,
+        32,
+        575,
+        1517
+      ]
+    },
+    {
+      "idx": 514,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1900,
+        196,
+        1602,
+        325,
+        322,
+        741
+      ]
+    },
+    {
+      "idx": 515,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        99,
+        17,
+        500,
+        109,
+        238,
+        516
+      ]
+    },
+    {
+      "idx": 516,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        0,
+        206,
+        2,
+        31,
+        20
+      ]
+    },
+    {
+      "idx": 517,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        884,
+        350,
+        341,
+        2,
+        351,
+        468
+      ]
+    },
+    {
+      "idx": 518,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2998,
+        4029,
+        4239,
+        4419,
+        14975,
+        4996
+      ]
+    },
+    {
+      "idx": 519,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        13,
+        210,
+        3,
+        84,
+        144
+      ]
+    },
+    {
+      "idx": 520,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        40,
+        30,
+        350,
+        25,
+        767,
+        424
+      ]
+    },
+    {
+      "idx": 521,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        225,
+        88,
+        6127,
+        49,
+        7,
+        597
+      ]
+    },
+    {
+      "idx": 522,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        273,
+        8,
+        727,
+        2,
+        1360,
+        94
+      ]
+    },
+    {
+      "idx": 523,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3980,
+        183,
+        239,
+        329,
+        756,
+        941
+      ]
+    },
+    {
+      "idx": 524,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        761,
+        298,
+        512,
+        64,
+        397,
+        2688
+      ]
+    },
+    {
+      "idx": 525,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        42,
+        2,
+        245,
+        273,
+        957,
+        3
+      ]
+    },
+    {
+      "idx": 526,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2128,
+        375,
+        1704,
+        531,
+        6995,
+        2467
+      ]
+    },
+    {
+      "idx": 527,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        0,
+        28,
+        3,
+        15,
+        1
+      ]
+    },
+    {
+      "idx": 528,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        44990,
+        821,
+        1611,
+        188,
+        213,
+        845
+      ]
+    },
+    {
+      "idx": 529,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3504,
+        29,
+        287,
+        7,
+        9426,
+        476
+      ]
+    },
+    {
+      "idx": 530,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8,
+        1,
+        12,
+        5,
+        3,
+        1
+      ]
+    },
+    {
+      "idx": 531,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        157,
+        126,
+        3082,
+        20962,
+        1935,
+        1478
+      ]
+    },
+    {
+      "idx": 532,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15354,
+        10900,
+        28120,
+        33780,
+        25951,
+        20118
+      ]
+    },
+    {
+      "idx": 533,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1346,
+        1003,
+        16361,
+        226,
+        37,
+        13679
+      ]
+    },
+    {
+      "idx": 534,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        102421,
+        1935,
+        29440,
+        102865,
+        100863,
+        64292
+      ]
+    },
+    {
+      "idx": 535,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3201,
+        1847,
+        3415,
+        593,
+        683,
+        2914
+      ]
+    },
+    {
+      "idx": 536,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4729,
+        4242,
+        5496,
+        33,
+        16963,
+        12494
+      ]
+    },
+    {
+      "idx": 537,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        20,
+        27,
+        148,
+        16,
+        26,
+        45
+      ]
+    },
+    {
+      "idx": 538,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4060,
+        66,
+        1253,
+        233,
+        337,
+        1142
+      ]
+    },
+    {
+      "idx": 539,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        307,
+        40,
+        1049,
+        32,
+        2101,
+        442
+      ]
+    },
+    {
+      "idx": 540,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        771,
+        1461,
+        5146,
+        6355,
+        7521,
+        10298
+      ]
+    },
+    {
+      "idx": 541,
+      "gold": 1,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        34,
+        175,
+        127,
+        116,
+        281,
+        456
+      ]
+    },
+    {
+      "idx": 542,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        10,
+        0,
+        3461,
+        4,
+        190,
+        190
+      ]
+    },
+    {
+      "idx": 543,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1579,
+        3520,
+        3840,
+        1864,
+        1193,
+        2166
+      ]
+    },
+    {
+      "idx": 544,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1091,
+        300,
+        11146,
+        4742,
+        37942,
+        7350
+      ]
+    },
+    {
+      "idx": 545,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        12,
+        0,
+        6,
+        6,
+        32,
+        4
+      ]
+    },
+    {
+      "idx": 546,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        297,
+        98,
+        485,
+        12,
+        237,
+        232
+      ]
+    },
+    {
+      "idx": 547,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3075,
+        147,
+        2183,
+        225,
+        4369,
+        2451
+      ]
+    },
+    {
+      "idx": 548,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1145,
+        39,
+        553,
+        1007,
+        1238,
+        1255
+      ]
+    },
+    {
+      "idx": 549,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        406,
+        100,
+        57,
+        7,
+        12,
+        89
+      ]
+    },
+    {
+      "idx": 550,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5231,
+        2623,
+        12064,
+        16367,
+        12773,
+        14445
+      ]
+    },
+    {
+      "idx": 551,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11,
+        1,
+        1017,
+        6,
+        119,
+        50
+      ]
+    },
+    {
+      "idx": 552,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        332,
+        27,
+        2658,
+        1673,
+        7202,
+        5043
+      ]
+    },
+    {
+      "idx": 553,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2472,
+        438,
+        139,
+        114,
+        90,
+        1505
+      ]
+    },
+    {
+      "idx": 554,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8,
+        8,
+        1046,
+        124,
+        264,
+        1373
+      ]
+    },
+    {
+      "idx": 555,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5725,
+        1505,
+        4179,
+        916,
+        3228,
+        4251
+      ]
+    },
+    {
+      "idx": 556,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        1,
+        320,
+        192,
+        135,
+        9
+      ]
+    },
+    {
+      "idx": 557,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        36050,
+        5,
+        2357,
+        1898,
+        1406,
+        2312
+      ]
+    },
+    {
+      "idx": 558,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4493,
+        4443,
+        15431,
+        1713,
+        8732,
+        11496
+      ]
+    },
+    {
+      "idx": 559,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        1,
+        194,
+        17,
+        15,
+        18
+      ]
+    },
+    {
+      "idx": 560,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        47454,
+        13989,
+        8247,
+        1526,
+        10778,
+        22172
+      ]
+    },
+    {
+      "idx": 561,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        10119,
+        4277,
+        17582,
+        2417,
+        3012,
+        3463
+      ]
+    },
+    {
+      "idx": 562,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        405,
+        127,
+        687,
+        8,
+        10,
+        82
+      ]
+    },
+    {
+      "idx": 563,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        86,
+        46,
+        399,
+        16,
+        380,
+        935
+      ]
+    },
+    {
+      "idx": 564,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        64,
+        4,
+        82,
+        6,
+        654,
+        32
+      ]
+    },
+    {
+      "idx": 565,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        382,
+        25,
+        39,
+        6,
+        6,
+        14
+      ]
+    },
+    {
+      "idx": 566,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1719,
+        1421,
+        820,
+        304,
+        307,
+        496
+      ]
+    },
+    {
+      "idx": 567,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9976,
+        1032,
+        753,
+        714,
+        960,
+        1243
+      ]
+    },
+    {
+      "idx": 568,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        582,
+        49,
+        8212,
+        471,
+        503,
+        678
+      ]
+    },
+    {
+      "idx": 569,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9180,
+        12185,
+        874,
+        28,
+        809,
+        3999
+      ]
+    },
+    {
+      "idx": 570,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        66153,
+        13832,
+        85300,
+        70343,
+        35275,
+        78771
+      ]
+    },
+    {
+      "idx": 571,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        47,
+        15,
+        4586,
+        2183,
+        2393,
+        1385
+      ]
+    },
+    {
+      "idx": 572,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3903,
+        71,
+        10059,
+        726,
+        1806,
+        2131
+      ]
+    },
+    {
+      "idx": 573,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        361,
+        1217,
+        21,
+        169,
+        361
+      ]
+    },
+    {
+      "idx": 574,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1,
+        21,
+        1364,
+        3,
+        1407,
+        63
+      ]
+    },
+    {
+      "idx": 575,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        195,
+        4,
+        13,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "idx": 576,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        750,
+        906,
+        25627,
+        23,
+        1263,
+        3198
+      ]
+    },
+    {
+      "idx": 577,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        179,
+        42,
+        183,
+        4,
+        172,
+        71
+      ]
+    },
+    {
+      "idx": 578,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        400,
+        0,
+        258,
+        48,
+        153,
+        10
+      ]
+    },
+    {
+      "idx": 579,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        200,
+        48,
+        384,
+        124,
+        124,
+        171
+      ]
+    },
+    {
+      "idx": 580,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        15,
+        1,
+        28,
+        6,
+        37,
+        18
+      ]
+    },
+    {
+      "idx": 581,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        307,
+        175,
+        3149,
+        57,
+        116,
+        1013
+      ]
+    },
+    {
+      "idx": 582,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2569,
+        32,
+        26533,
+        1849,
+        195,
+        4502
+      ]
+    },
+    {
+      "idx": 583,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        32,
+        46,
+        97,
+        4,
+        3,
+        7
+      ]
+    },
+    {
+      "idx": 584,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        344,
+        31,
+        24,
+        13,
+        17,
+        58
+      ]
+    },
+    {
+      "idx": 585,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        1,
+        9,
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "idx": 586,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        698,
+        35,
+        97,
+        2,
+        661,
+        61
+      ]
+    },
+    {
+      "idx": 587,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1495,
+        38,
+        9166,
+        20,
+        4311,
+        1445
+      ]
+    },
+    {
+      "idx": 588,
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        4595,
+        10,
+        1030,
+        32,
+        6951,
+        878
+      ]
+    },
+    {
+      "idx": 589,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        2438,
+        11,
+        174,
+        307,
+        4808,
+        1233
+      ]
+    },
+    {
+      "idx": 590,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        359,
+        17,
+        44,
+        3,
+        132,
+        56
+      ]
+    },
+    {
+      "idx": 591,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1235,
+        5987,
+        1672,
+        838,
+        0,
+        4443
+      ]
+    },
+    {
+      "idx": 592,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        73,
+        2,
+        94,
+        24,
+        78,
+        166
+      ]
+    },
+    {
+      "idx": 593,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2489,
+        11927,
+        24048,
+        38,
+        4534,
+        4723
+      ]
+    },
+    {
+      "idx": 594,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        376,
+        43,
+        455,
+        35,
+        1097,
+        319
+      ]
+    },
+    {
+      "idx": 595,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        883,
+        318,
+        892,
+        20728,
+        30,
+        11253
+      ]
+    },
+    {
+      "idx": 596,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        3,
+        116,
+        2,
+        33,
+        18
+      ]
+    },
+    {
+      "idx": 597,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6390,
+        3378,
+        10885,
+        971,
+        1779,
+        7485
+      ]
+    },
+    {
+      "idx": 598,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        71,
+        17,
+        747,
+        32,
+        31,
+        259
+      ]
+    },
+    {
+      "idx": 599,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        262,
+        116,
+        110,
+        20,
+        1662,
+        375
+      ]
+    },
+    {
+      "idx": 600,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        1,
+        100,
+        26,
+        25,
+        18
+      ]
+    },
+    {
+      "idx": 601,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5718,
+        2837,
+        5466,
+        15,
+        2634,
+        14372
+      ]
+    },
+    {
+      "idx": 602,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        44809,
+        4038,
+        4073,
+        38,
+        2948,
+        3412
+      ]
+    },
+    {
+      "idx": 603,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1403,
+        1009,
+        3231,
+        206,
+        1727,
+        3287
+      ]
+    },
+    {
+      "idx": 604,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8,
+        9,
+        17,
+        1,
+        1,
+        26
+      ]
+    },
+    {
+      "idx": 605,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3167,
+        225,
+        21380,
+        18359,
+        3764,
+        3265
+      ]
+    },
+    {
+      "idx": 606,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        21,
+        1,
+        372,
+        4,
+        8,
+        46
+      ]
+    },
+    {
+      "idx": 607,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        1,
+        94,
+        0,
+        109,
+        81
+      ]
+    },
+    {
+      "idx": 608,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        826,
+        25,
+        1813,
+        503,
+        502,
+        918
+      ]
+    },
+    {
+      "idx": 609,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        197,
+        1206,
+        0,
+        8,
+        347
+      ]
+    },
+    {
+      "idx": 610,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3095,
+        675,
+        2506,
+        171,
+        7854,
+        1391
+      ]
+    },
+    {
+      "idx": 611,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4050,
+        241,
+        18916,
+        43471,
+        35747,
+        20945
+      ]
+    },
+    {
+      "idx": 612,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        114,
+        44,
+        529,
+        324,
+        2,
+        2533
+      ]
+    },
+    {
+      "idx": 613,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        13667,
+        1200,
+        2356,
+        3700,
+        4592,
+        5612
+      ]
+    },
+    {
+      "idx": 614,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        0,
+        46,
+        0,
+        70,
+        47
+      ]
+    },
+    {
+      "idx": 615,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2,
+        1,
+        46,
+        1,
+        37,
+        18
+      ]
+    },
+    {
+      "idx": 616,
+      "gold": 2,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        244,
+        1044,
+        455,
+        27,
+        412,
+        365
+      ]
+    },
+    {
+      "idx": 617,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        614,
+        156,
+        189,
+        105,
+        304,
+        325
+      ]
+    },
+    {
+      "idx": 618,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        160,
+        12,
+        322,
+        327,
+        94,
+        15
+      ]
+    },
+    {
+      "idx": 619,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        18,
+        36,
+        60,
+        34,
+        242,
+        291
+      ]
+    },
+    {
+      "idx": 620,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        255,
+        75,
+        110,
+        110,
+        155,
+        199
+      ]
+    },
+    {
+      "idx": 621,
+      "gold": 5,
+      "pred": 2,
+      "student_final_correct": false,
+      "ranks": [
+        526,
+        62,
+        25,
+        232,
+        15,
+        31
+      ]
+    },
+    {
+      "idx": 622,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4321,
+        12,
+        8596,
+        1953,
+        16,
+        42514
+      ]
+    },
+    {
+      "idx": 623,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2926,
+        244,
+        407,
+        375,
+        507,
+        448
+      ]
+    },
+    {
+      "idx": 624,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        5581,
+        2282,
+        982,
+        43,
+        1429,
+        6668
+      ]
+    },
+    {
+      "idx": 625,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3716,
+        169,
+        6832,
+        8,
+        4573,
+        2225
+      ]
+    },
+    {
+      "idx": 626,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2042,
+        381,
+        9718,
+        5291,
+        412,
+        239
+      ]
+    },
+    {
+      "idx": 627,
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        12,
+        4,
+        26,
+        5,
+        12,
+        16
+      ]
+    },
+    {
+      "idx": 628,
+      "gold": 5,
+      "pred": 3,
+      "student_final_correct": false,
+      "ranks": [
+        5997,
+        214,
+        43,
+        6,
+        163,
+        1300
+      ]
+    },
+    {
+      "idx": 629,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        732,
+        79,
+        6001,
+        50,
+        4543,
+        3471
+      ]
+    },
+    {
+      "idx": 630,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        969,
+        331,
+        11304,
+        399,
+        7369,
+        4621
+      ]
+    },
+    {
+      "idx": 631,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5305,
+        2,
+        1058,
+        1288,
+        2738,
+        6684
+      ]
+    },
+    {
+      "idx": 632,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        281,
+        9,
+        76,
+        9,
+        98,
+        67
+      ]
+    },
+    {
+      "idx": 633,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1543,
+        450,
+        13035,
+        131,
+        7016,
+        6406
+      ]
+    },
+    {
+      "idx": 634,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        11217,
+        2728,
+        708,
+        47,
+        371,
+        2739
+      ]
+    },
+    {
+      "idx": 635,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16,
+        145,
+        1352,
+        3,
+        7,
+        221
+      ]
+    },
+    {
+      "idx": 636,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        49,
+        17,
+        1730,
+        4,
+        41,
+        498
+      ]
+    },
+    {
+      "idx": 637,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        0,
+        248,
+        0,
+        2,
+        29
+      ]
+    },
+    {
+      "idx": 638,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        21,
+        1,
+        962,
+        13,
+        87,
+        262
+      ]
+    },
+    {
+      "idx": 639,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        92089,
+        13107,
+        29858,
+        33672,
+        43794,
+        49574
+      ]
+    },
+    {
+      "idx": 640,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        105,
+        5760,
+        28,
+        1,
+        1326
+      ]
+    },
+    {
+      "idx": 641,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        7,
+        3,
+        17,
+        19,
+        17,
+        5
+      ]
+    },
+    {
+      "idx": 642,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8,
+        1,
+        74,
+        74,
+        185,
+        130
+      ]
+    },
+    {
+      "idx": 643,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        357,
+        3520,
+        21631,
+        1458,
+        10959,
+        13675
+      ]
+    },
+    {
+      "idx": 644,
+      "gold": 3,
+      "pred": 1,
+      "student_final_correct": false,
+      "ranks": [
+        269,
+        320,
+        173,
+        412,
+        788,
+        1618
+      ]
+    },
+    {
+      "idx": 645,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2402,
+        143,
+        79,
+        25,
+        55,
+        134
+      ]
+    },
+    {
+      "idx": 646,
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3,
+        11,
+        746,
+        1,
+        71,
+        76
+      ]
+    },
+    {
+      "idx": 647,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1304,
+        389,
+        4210,
+        72,
+        530,
+        4436
+      ]
+    },
+    {
+      "idx": 648,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        6,
+        54,
+        84,
+        2,
+        10,
+        6
+      ]
+    },
+    {
+      "idx": 649,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        124,
+        2,
+        68,
+        0,
+        28,
+        132
+      ]
+    },
+    {
+      "idx": 650,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        427,
+        9,
+        632,
+        43,
+        1263,
+        232
+      ]
+    },
+    {
+      "idx": 651,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        39776,
+        16377,
+        33021,
+        52,
+        35074,
+        48291
+      ]
+    },
+    {
+      "idx": 652,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        55,
+        127,
+        392,
+        33,
+        780,
+        1628
+      ]
+    },
+    {
+      "idx": 653,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        16742,
+        3203,
+        8412,
+        2481,
+        512,
+        808
+      ]
+    },
+    {
+      "idx": 654,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        22,
+        0,
+        1082,
+        127,
+        93,
+        51
+      ]
+    },
+    {
+      "idx": 655,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1550,
+        53,
+        276,
+        18,
+        17,
+        151
+      ]
+    },
+    {
+      "idx": 656,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        82,
+        2,
+        107,
+        2,
+        37,
+        74
+      ]
+    },
+    {
+      "idx": 657,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        8,
+        4,
+        62,
+        2,
+        7,
+        7
+      ]
+    },
+    {
+      "idx": 658,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        2665,
+        3402,
+        16790,
+        356,
+        2966,
+        11626
+      ]
+    },
+    {
+      "idx": 659,
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        1,
+        1,
+        1,
+        10,
+        4
+      ]
+    },
+    {
+      "idx": 660,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        780,
+        200,
+        490,
+        3,
+        20,
+        489
+      ]
+    },
+    {
+      "idx": 661,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        287,
+        752,
+        387,
+        1305,
+        6,
+        3202
+      ]
+    },
+    {
+      "idx": 662,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        41,
+        948,
+        445,
+        3,
+        245,
+        654
+      ]
+    },
+    {
+      "idx": 663,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        12,
+        21,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "idx": 664,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        506,
+        601,
+        6152,
+        5454,
+        1,
+        943
+      ]
+    },
+    {
+      "idx": 665,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        69,
+        11,
+        1847,
+        4,
+        621,
+        311
+      ]
+    },
+    {
+      "idx": 666,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        43083,
+        4924,
+        17650,
+        8784,
+        27699,
+        33325
+      ]
+    },
+    {
+      "idx": 667,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        1394,
+        558,
+        139,
+        18,
+        175,
+        698
+      ]
+    },
+    {
+      "idx": 668,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        632,
+        293,
+        197,
+        15,
+        1617,
+        423
+      ]
+    },
+    {
+      "idx": 669,
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        14,
+        51,
+        1,
+        1,
+        18
+      ]
+    },
+    {
+      "idx": 670,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        12627,
+        1196,
+        1820,
+        45,
+        172,
+        2836
+      ]
+    },
+    {
+      "idx": 671,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        10287,
+        247,
+        4708,
+        3,
+        8045,
+        2085
+      ]
+    },
+    {
+      "idx": 672,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        420,
+        135,
+        242,
+        34,
+        122,
+        43
+      ]
+    },
+    {
+      "idx": 673,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        104,
+        92,
+        656,
+        186,
+        130,
+        181
+      ]
+    },
+    {
+      "idx": 674,
+      "gold": 2,
+      "pred": 2,
+      "student_final_correct": true,
+      "ranks": [
+        396,
+        699,
+        279,
+        216,
+        674,
+        1434
+      ]
+    },
+    {
+      "idx": 675,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "idx": 676,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        5,
+        12,
+        189,
+        13,
+        19,
+        32
+      ]
+    },
+    {
+      "idx": 677,
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        0,
+        1,
+        12,
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "idx": 678,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3994,
+        2675,
+        3987,
+        26,
+        21,
+        2136
+      ]
+    },
+    {
+      "idx": 679,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        34426,
+        7,
+        417,
+        13,
+        2948,
+        620
+      ]
+    },
+    {
+      "idx": 680,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        3725,
+        24,
+        7942,
+        2776,
+        4,
+        29016
+      ]
+    },
+    {
+      "idx": 681,
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "ranks": [
+        871,
+        1281,
+        359,
+        11,
+        566,
+        207
+      ]
+    },
+    {
+      "idx": 682,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        554,
+        113,
+        5344,
+        2634,
+        4795,
+        7542
+      ]
+    },
+    {
+      "idx": 683,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        329,
+        356,
+        803,
+        9,
+        309,
+        1295
+      ]
+    },
+    {
+      "idx": 684,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        23,
+        40,
+        937,
+        12,
+        1810,
+        709
+      ]
+    },
+    {
+      "idx": 685,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        36,
+        3,
+        68,
+        17,
+        39,
+        52
+      ]
+    },
+    {
+      "idx": 686,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2457,
+        1084,
+        1437,
+        774,
+        523,
+        1121
+      ]
+    },
+    {
+      "idx": 687,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        19,
+        3,
+        13216,
+        726,
+        23,
+        2
+      ]
+    },
+    {
+      "idx": 688,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        21199,
+        2329,
+        8403,
+        1219,
+        8446,
+        12635
+      ]
+    },
+    {
+      "idx": 689,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        112,
+        193,
+        557,
+        4,
+        21,
+        37
+      ]
+    },
+    {
+      "idx": 690,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        2238,
+        2435,
+        24588,
+        4,
+        2689,
+        6819
+      ]
+    },
+    {
+      "idx": 691,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        25142,
+        9334,
+        18398,
+        4049,
+        24678,
+        18563
+      ]
+    },
+    {
+      "idx": 692,
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "ranks": [
+        1225,
+        1019,
+        27760,
+        1654,
+        1450,
+        8708
+      ]
+    },
+    {
+      "idx": 693,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        40672,
+        6813,
+        8409,
+        2312,
+        13778,
+        12593
+      ]
+    },
+    {
+      "idx": 694,
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        25,
+        217,
+        246,
+        3,
+        329,
+        203
+      ]
+    },
+    {
+      "idx": 695,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        9473,
+        14,
+        284,
+        5,
+        6,
+        221
+      ]
+    },
+    {
+      "idx": 696,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        695,
+        495,
+        9784,
+        249,
+        660,
+        3432
+      ]
+    },
+    {
+      "idx": 697,
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        79,
+        15,
+        133,
+        3,
+        4,
+        17
+      ]
+    },
+    {
+      "idx": 698,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        44,
+        7,
+        685,
+        1,
+        396,
+        120
+      ]
+    },
+    {
+      "idx": 699,
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        441,
+        12,
+        48,
+        43,
+        41,
+        59
+      ]
+    },
+    {
+      "idx": 700,
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "ranks": [
+        4,
+        6067,
+        854,
+        1,
+        230,
+        186
+      ]
+    }
+  ]
+}

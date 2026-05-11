@@ -1,0 +1,118 @@
+{
+  "from_step": 5,
+  "to_step": 6,
+  "gained_wrong_to_right": 0,
+  "lost_right_to_wrong": 2,
+  "stable_right": 0,
+  "stable_wrong": 930,
+  "feature_breakdown": {
+    "gained": {
+      "count": 0
+    },
+    "lost": {
+      "count": 2,
+      "n_words": {
+        "mean": 42.5,
+        "median": 42.5,
+        "min": 41,
+        "max": 44
+      },
+      "n_chars": {
+        "mean": 225.5,
+        "median": 225.5,
+        "min": 220,
+        "max": 231
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 29.5,
+        "median": 29.5,
+        "min": 1.0,
+        "max": 58.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1,
+        "10-99": 1
+      }
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 930,
+      "n_words": {
+        "mean": 31.66,
+        "median": 30.0,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 161.84,
+        "median": 153.0,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.81,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 64.77,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 997.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 377,
+        "10-99": 415,
+        "100-999": 138
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 14,
+  "gained_questions": [],
+  "lost_questions": [
+    {
+      "idx": 384,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 39 inches farther than the grasshopper and the mouse jumped 94 inches lesser than the frog. How far did the frog jump?",
+      "gold": 58.0,
+      "pred": 64.0,
+      "student_final_correct": false,
+      "rank_step5": 3,
+      "rank_step6": 11,
+      "features": {
+        "n_words": 41,
+        "n_chars": 231,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 58.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 429,
+      "question": "Danny collects bottle caps. He found 36 bottle caps at the park while he threw away 35 old ones. Now he has 22 bottle caps in his collection. How many more bottle caps did danny find at the park than those he threw away?",
+      "gold": 1.0,
+      "pred": 15.0,
+      "student_final_correct": false,
+      "rank_step5": 1,
+      "rank_step6": 24,
+      "features": {
+        "n_words": 44,
+        "n_chars": 220,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "from_step": 3,
+  "to_step": 4,
+  "gained_wrong_to_right": 24,
+  "lost_right_to_wrong": 0,
+  "stable_right": 0,
+  "stable_wrong": 903,
+  "feature_breakdown": {
+    "gained": {
+      "count": 24,
+      "n_words": {
+        "mean": 37.17,
+        "median": 38.0,
+        "min": 24,
+        "max": 53
+      },
+      "n_chars": {
+        "mean": 182.79,
+        "median": 188.5,
+        "min": 98,
+        "max": 303
+      },
+      "n_numbers_in_question": {
+        "mean": 3.08,
+        "median": 3.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 7.25,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 47.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 20,
+        "10-99": 4
+      }
+    },
+    "lost": {
+      "count": 0
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 903,
+      "n_words": {
+        "mean": 31.56,
+        "median": 30,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 161.41,
+        "median": 153,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.81,
+        "median": 3,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 65.51,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 2050.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 358,
+        "10-99": 412,
+        "100-999": 130,
+        "1000-9999": 3
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 10,
+  "gained_questions": [
+    {
+      "idx": 87,
+      "question": "Every day Ryan spends 6 hours on learning english 3 hours on learning chinese and 58 hours on learning spanish. How many more hours does he spend on learning english than he does on learning chinese?",
+      "gold": 3.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step3": 135,
+      "rank_step4": 1,
+      "features": {
+        "n_words": 36,
+        "n_chars": 199,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 142,
+      "question": "There are 14 different movies and 15 different books in the ' crazy silly school ' series. If you read 11 of the books and watched 40 of the movies How many more books than movies are there in the ' crazy silly school ' series?",
+      "gold": 1.0,
+      "pred": 24.0,
+      "student_final_correct": false,
+      "rank_step3": 72,
+      "rank_step4": 3,
+      "features": {
+        "n_words": 46,
+        "n_chars": 227,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 177,
+      "question": "Mary is baking a cake. The recipe calls for 6 cups of sugar and 14 cups of flour. She already put in 7 cups of flour and 60 cups of sugar. How many more cups of flour does she need to add?",
+      "gold": 7.0,
+      "pred": 43.0,
+      "student_final_correct": false,
+      "rank_step3": 246,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 42,
+        "n_chars": 188,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 210,
+      "question": "Paige was helping her mom plant flowers and together they planted 36 seeds. They put 12 seeds in each flower bed and only 58 seeds grew into flowers in each flower bed. How many flower beds did they have?",
+      "gold": 3.0,
+      "pred": 6.0,
+      "student_final_correct": false,
+      "rank_step3": 111,
+      "rank_step4": 4,
+      "features": {
+        "n_words": 39,
+        "n_chars": 204,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 233,
+      "question": "Every day Ryan spends 7 hours on learning english and some more hours on learning chinese. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning chinese?",
+      "gold": 5.0,
+      "pred": 7.0,
+      "student_final_correct": false,
+      "rank_step3": 210,
+      "rank_step4": 4,
+      "features": {
+        "n_words": 38,
+        "n_chars": 211,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 259,
+      "question": "Edward spent $ 16 to buy books and $ 8 to buy pens. Now he has $ 19. How much more did Edward spend on books than pens?",
+      "gold": 8.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step3": 254,
+      "rank_step4": 1,
+      "features": {
+        "n_words": 28,
+        "n_chars": 119,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 282,
+      "question": "Jerry had 3 books and 4 action figures on a shelf in his room. Later he added 2 more action figures to the shelf. How many more action figures than books were on his shelf?",
+      "gold": 3.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step3": 100,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 35,
+        "n_chars": 172,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 324,
+      "question": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 2 more dollars. If she spent 6 dollars. How much more money did she receive from her dad than she did from her mom?",
+      "gold": 3.0,
+      "pred": 1.0,
+      "student_final_correct": false,
+      "rank_step3": 108,
+      "rank_step4": 1,
+      "features": {
+        "n_words": 38,
+        "n_chars": 189,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 353,
+      "question": "Rachel picked 2 ripe apples from her tree. Now the tree has 7 apples still on it. If 6 of those are ripe and the rest are unripe How many ripe apples did the tree have to begin with?",
+      "gold": 8.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step3": 237,
+      "rank_step4": 3,
+      "features": {
+        "n_words": 39,
+        "n_chars": 182,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 355,
+      "question": "Josh had 3 marbles in his collection. He found 6 marbles while he lost 5 marbles. How many more marbles did he find than those he lost?",
+      "gold": 1.0,
+      "pred": 4.0,
+      "student_final_correct": false,
+      "rank_step3": 67,
+      "rank_step4": 4,
+      "features": {
+        "n_words": 27,
+        "n_chars": 135,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 455,
+      "question": "Mary is baking a cake. The recipe calls for 9 cups of sugar 7 cups of flour and 4 cups of salt. She already put in 2 cups of flour. How many more cups of flour than cups of salt does she need to add now?",
+      "gold": 1.0,
+      "pred": 0.0,
+      "student_final_correct": false,
+      "rank_step3": 79,
+      "rank_step4": 2,
+      "features": {
+        "n_words": 46,
+        "n_chars": 203,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 476,
+      "question": "For Gwen's birthday she received 3 dollars from her mom. Her dad gave her 6 more dollars. If she spent 4 dollars. How much more money did she receive from her dad than she did from her mom?",
+      "gold": 3.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step3": 77,
+      "rank_step4": 4,
+      "features": {
+        "n_words": 38,
+        "n_chars": 189,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 512,
+      "question": "Winter is almost here and most animals are migrating to warmer countries. There are 38 bird families living near the mountain. If 47 bird families flew away to africa and 94 bird families flew away to asia How many more bird families flew away to asia than those that flew away to africa?",
+      "gold": 47.0,
+      "pred": 4.0,
+      "student_final_correct": false,
+      "rank_step3": 1068,
+      "rank_step4": 1,
+      "features": {
+        "n_words": 53,
+        "n_chars": 288,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 47.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 536,
+      "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 11 cups of sugar. She already put in 4 cups of flour. How many more cups of sugar than cups of flour does she need to add now?",
+      "gold": 6.0,
+      "pred": 1.0,
+      "student_final_correct": false,
+      "rank_step3": 196,
+      "rank_step4": 4,
+      "features": {
+        "n_words": 42,
+        "n_chars": 190,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 604,
+      "question": "Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 3 invitations in it and she bought 2 packs. If she wants to invite 9 friends How many extra invitations will she need to buy?",
+      "gold": 3.0,
+      "pred": 3.0,
+      "student_final_correct": true,
+      "rank_step3": 126,
+      "rank_step4": 2,
+      "features": {
+        "n_words": 41,
+        "n_chars": 227,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 620,
+      "question": "At the arcade Dave had won 19 tickets. If he used 12 to buy some toys and 7 more to buy some clothes How many more tickets did Dave use to buy toys than he did to buy clothes?",
+      "gold": 5.0,
+      "pred": 1.0,
+      "student_final_correct": false,
+      "rank_step3": 164,
+      "rank_step4": 2,
+      "features": {
+        "n_words": 39,
+        "n_chars": 175,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 625,
+      "question": "Josh had 4 marbles in his collection. He lost 16 marbles and found 8 new ones. How many more marbles did he lose than those he found?",
+      "gold": 8.0,
+      "pred": 4.0,
+      "student_final_correct": false,
+      "rank_step3": 311,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 27,
+        "n_chars": 133,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 638,
+      "question": "Together Adam and Jackie have 6 apples. He has 4 apples more than adam and jackie together do. How many apples does he have?",
+      "gold": 10.0,
+      "pred": 5.0,
+      "student_final_correct": false,
+      "rank_step3": 184,
+      "rank_step4": 3,
+      "features": {
+        "n_words": 24,
+        "n_chars": 124,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 750,
+      "question": "Winter is almost here and most animals are migrating to warmer countries. There are 3 bird families living near the mountain. 26 new bird families came to live near the mountain from the arctic while 2 bird families flew away further south for winter. How many bird families were left near the mountain?",
+      "gold": 27.0,
+      "pred": 27.0,
+      "student_final_correct": true,
+      "rank_step3": 1046,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 53,
+        "n_chars": 303,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 27.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 752,
+      "question": "Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "gold": 17.0,
+      "pred": 17.0,
+      "student_final_correct": true,
+      "rank_step3": 893,
+      "rank_step4": 0,
+      "features": {
+        "n_words": 24,
+        "n_chars": 113,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 17.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 825,
+      "question": "Dan has $ 5. He bought a candy bar for $ 2 and a chocolate for $ 3. How much money did he spend to buy chocolate than he did to buy candy bar?",
+      "gold": 1.0,
+      "pred": 1.0,
+      "student_final_correct": true,
+      "rank_step3": 92,
+      "rank_step4": 4,
+      "features": {
+        "n_words": 34,
+        "n_chars": 142,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 869,
+      "question": "Allan brought 2 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Allan have than Jake in the park?",
+      "gold": 1.0,
+      "pred": 1.0,
+      "student_final_correct": true,
+      "rank_step3": 118,
+      "rank_step4": 3,
+      "features": {
+        "n_words": 33,
+        "n_chars": 173,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 957,
+      "question": "Mary is baking a cake. The recipe calls for 6 cups of flour 8 cups of sugar and 7 cups of salt. She already put in 5 cups of flour. How many more cups of sugar than cups of salt does she need to add now?",
+      "gold": 1.0,
+      "pred": 2.0,
+      "student_final_correct": false,
+      "rank_step3": 35,
+      "rank_step4": 1,
+      "features": {
+        "n_words": 46,
+        "n_chars": 203,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 961,
+      "question": "Dan has $ 2. He bought some candy bar for $ 6 each one costing $ 3. How many candy bar did he buy?",
+      "gold": 2.0,
+      "pred": 1.0,
+      "student_final_correct": false,
+      "rank_step3": 102,
+      "rank_step4": 2,
+      "features": {
+        "n_words": 24,
+        "n_chars": 98,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ],
+  "lost_questions": []
+}

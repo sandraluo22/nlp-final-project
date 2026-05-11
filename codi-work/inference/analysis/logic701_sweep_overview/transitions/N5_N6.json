@@ -1,0 +1,185 @@
+{
+  "from_N": 5,
+  "to_N": 6,
+  "gained_wrong_to_right": 0,
+  "lost_right_to_wrong": 3,
+  "stable_right": 22,
+  "stable_wrong": 676,
+  "feature_breakdown": {
+    "gained": {
+      "count": 0
+    },
+    "lost": {
+      "count": 3,
+      "n_words": {
+        "mean": 75.0,
+        "median": 76,
+        "min": 67,
+        "max": 82
+      },
+      "n_chars": {
+        "mean": 373.67,
+        "median": 376,
+        "min": 332,
+        "max": 413
+      },
+      "n_numbers_in_question": {
+        "mean": 10.67,
+        "median": 13,
+        "min": 5,
+        "max": 14
+      },
+      "gold_numeric": {
+        "mean": 3.33,
+        "median": 3.0,
+        "min": 2.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 3
+      },
+      "gold_option_dist": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      }
+    },
+    "stable_right": {
+      "count": 22,
+      "n_words": {
+        "mean": 93.91,
+        "median": 79.0,
+        "min": 36,
+        "max": 193
+      },
+      "n_chars": {
+        "mean": 497.91,
+        "median": 433.0,
+        "min": 174,
+        "max": 1182
+      },
+      "n_numbers_in_question": {
+        "mean": 13.45,
+        "median": 13.0,
+        "min": 5,
+        "max": 39
+      },
+      "gold_numeric": {
+        "mean": 3.73,
+        "median": 4.5,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 22
+      },
+      "gold_option_dist": {
+        "1": 2,
+        "2": 5,
+        "3": 1,
+        "4": 3,
+        "5": 11
+      }
+    },
+    "stable_wrong": {
+      "count": 676,
+      "n_words": {
+        "mean": 89.59,
+        "median": 81.0,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 466.98,
+        "median": 425.5,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.85,
+        "median": 13.0,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 2.75,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 676
+      },
+      "gold_option_dist": {
+        "1": 141,
+        "2": 195,
+        "3": 162,
+        "4": 50,
+        "5": 128
+      }
+    }
+  },
+  "gained_questions": [],
+  "lost_questions": [
+    {
+      "idx": 289,
+      "question": "You have two coins. One is a fair coin with heads and tails (coin A), and the other is a biased coin that has heads on both sides (coin B). You randomly pick one coin without looking and flip it 3 times, getting heads each time. What is the probability that you picked coin B?\n\nOptions:\n1. 3/4\n2. 4/5\n3. 1/2\n4. 7/8\n5. Another answer",
+      "gold": 5,
+      "pred_N5": 5,
+      "pred_N6": -1,
+      "response_N5": "The answer is: 4.5",
+      "response_N6": "The answer is: 7",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 67,
+        "n_chars": 332,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 644,
+      "question": "In a factory, there are three machines A, B, and C. Machine A can assemble a product in 5 minutes, Machine B can do it in 7 minutes, and Machine C can do it in 10 minutes. If all three machines start assembling the product at the same time, how many minutes will it take for all three machines to assemble a total of 10 products?\n\nOptions:\n1. 20 minutes\n2. 22 minutes\n3. 23 minutes\n4. 25 minutes\n5. Another answer",
+      "gold": 3,
+      "pred_N5": 3,
+      "pred_N6": 1,
+      "response_N5": "The answer is: 23.3",
+      "response_N6": "The answer is: 23.1",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 82,
+        "n_chars": 413,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 663,
+      "question": "You are presented with two boxes, Box A and Box B. One box contains a reward, and the other contains nothing. There is a statement written on each box. Box A says 'The reward is in this box.' Box B says 'The reward is not in Box A.' Only one of these statements is true. Which box contains the reward?\n\nOptions:\n1. Box A\n2. Box B\n3. Both boxes\n4. Neither box\n5. Another answer",
+      "gold": 2,
+      "pred_N5": 2,
+      "pred_N6": 5,
+      "response_N5": "The answer is: 2",
+      "response_N6": "The answer is: 5",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 76,
+        "n_chars": 376,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    }
+  ]
+}

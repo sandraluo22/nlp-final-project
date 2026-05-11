@@ -1,0 +1,1874 @@
+{
+  "from_step": 1,
+  "to_step": 2,
+  "gained_wrong_to_right": 68,
+  "lost_right_to_wrong": 27,
+  "stable_right": 33,
+  "stable_wrong": 573,
+  "feature_breakdown": {
+    "gained": {
+      "count": 68,
+      "n_words": {
+        "mean": 97.54,
+        "median": 81.0,
+        "min": 46,
+        "max": 221
+      },
+      "n_chars": {
+        "mean": 500.03,
+        "median": 416.5,
+        "min": 233,
+        "max": 1128
+      },
+      "n_numbers_in_question": {
+        "mean": 14.82,
+        "median": 13.0,
+        "min": 5,
+        "max": 39
+      },
+      "gold_numeric": {
+        "mean": 2.26,
+        "median": 2.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 68
+      },
+      "gold_option_dist": {
+        "1": 17,
+        "2": 32,
+        "3": 10,
+        "4": 2,
+        "5": 7
+      }
+    },
+    "lost": {
+      "count": 27,
+      "n_words": {
+        "mean": 108.52,
+        "median": 107,
+        "min": 63,
+        "max": 182
+      },
+      "n_chars": {
+        "mean": 562.11,
+        "median": 559,
+        "min": 315,
+        "max": 841
+      },
+      "n_numbers_in_question": {
+        "mean": 11.11,
+        "median": 12,
+        "min": 5,
+        "max": 22
+      },
+      "gold_numeric": {
+        "mean": 3.44,
+        "median": 4.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 27
+      },
+      "gold_option_dist": {
+        "1": 1,
+        "2": 7,
+        "3": 5,
+        "4": 7,
+        "5": 7
+      }
+    },
+    "stable_right": {
+      "count": 33,
+      "n_words": {
+        "mean": 117.61,
+        "median": 115,
+        "min": 48,
+        "max": 221
+      },
+      "n_chars": {
+        "mean": 616.15,
+        "median": 600,
+        "min": 241,
+        "max": 1193
+      },
+      "n_numbers_in_question": {
+        "mean": 13.45,
+        "median": 8,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 2.58,
+        "median": 2.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 33
+      },
+      "gold_option_dist": {
+        "1": 4,
+        "2": 13,
+        "3": 10,
+        "4": 5,
+        "5": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 573,
+      "n_words": {
+        "mean": 86.23,
+        "median": 79,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 450.68,
+        "median": 411,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.67,
+        "median": 13,
+        "min": 5,
+        "max": 52
+      },
+      "gold_numeric": {
+        "mean": 2.82,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 573
+      },
+      "gold_option_dist": {
+        "1": 121,
+        "2": 149,
+        "3": 139,
+        "4": 39,
+        "5": 125
+      }
+    }
+  },
+  "topk": 5,
+  "layer": 16,
+  "gained_questions": [
+    {
+      "idx": 3,
+      "question": "Imagine that you are creating numbered tickets for a lottery. Each ticket is a unique sequence of 3 digits from 0-9. How many different tickets can you create where at least two digits on the ticket are the same?\n\nOptions:\n1. 270\n2. 280\n3. 290\n4. 300\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 592,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 51,
+        "n_chars": 268,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 7,
+      "question": "You have a six-sided standard die with faces numbered from 1 to 6. What is the probability of rolling the die twice and getting a sum of 8? Express your answer as a fraction.\n\nOptions:\n1. 1/12\n2. 5/36\n3. 1/6\n4. 7/36\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 25,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 46,
+        "n_chars": 233,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 18,
+      "question": "You are playing a game where you roll two fair six-sided dice. Each die has the numbers 1 to 6, and when you roll them you add the numbers showing on top to find your score. To win a prize, you need to roll a score greater than 9. What is the probability of winning a prize on your next roll?\n\nOptions:\n1. 1/12\n2. 1/6\n3. 1/8\n4. 1/4\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 360,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 73,
+        "n_chars": 349,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 22,
+      "question": "In a class of 30 students, 18 play football, 14 play basketball, and 8 play both football and basketball. How many students in the class do not play either football or basketball?\n\nOptions:\n1. 4 students\n2. 6 students\n3. 5 students\n4. 7 students\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 11,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 48,
+        "n_chars": 263,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 47,
+      "question": "Emma has a jar containing only nickels, dimes, and quarters. She has twice as many dimes as quarters and three times as many nickels as dimes. If there are a total of 41 coins in the jar, how much money does the jar contain?\n\nOptions:\n1. $3.25\n2. $3.50\n3. $3.75\n4. $4.00\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 202,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 56,
+        "n_chars": 288,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 73,
+      "question": "You have to complete three tasks at work. Task A will take an hour to complete, but can only be performed in the morning. Task B will also take an hour and can be done at any time. Task C takes two hours and must be done in the afternoon. Your workday is 8 hours long starting at 8:00 am and ending at 4:00 pm, with a one-hour lunch break from 12:00 pm to 1:00 pm. In what order should you complete the tasks to maximize the amount of free time you have at the end of the day before 4:00 pm?\n\nOptions:\n1. A, B, Lunch, C\n2. B, A, Lunch, C\n3. C, Lunch, A, B\n4. Lunch, A, B, C\n5. Another answer",
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 48,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 126,
+        "n_chars": 591,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 80,
+      "question": "You are presented with a box that has three levers. Each lever can be either in an up or down position. The box will open only when a specific combination of levers' positions is achieved. You know from a previous user that: 1) Moving the first lever changes the second lever's position. 2) Moving the second lever changes the third lever's position. 3) Moving the third lever changes the first and second levers' positions. If the initial state is all levers up, and you need to get all levers down to open the box, what is the fewest number of moves you need to make to open the box, and which levers should you move?\n\nOptions:\n1. 3 moves: lever 2, lever 3, lever 1\n2. 4 moves: lever 1, lever 2, lever 3, lever 2\n3. 2 moves: lever 3, lever 2\n4. 5 moves: lever 1, lever 2, lever 1, lever 3, lever 2\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 12,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 159,
+        "n_chars": 817,
+        "n_numbers_in_question": 26,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 87,
+      "question": "You have a numeric keypad with numbers from 1 to 9 arranged in a 3x3 grid: 123 on the top row, 456 in the middle, and 789 on the bottom row. If you can only move to adjacent numbers (horizontally, vertically, or diagonally) to form a five-digit number, and the center number 5 must be used as the third digit, how many unique five-digit numbers can you form?\n\nOptions:\n1. 1024\n2. 4608\n3. 5670\n4. 4096\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1911,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 80,
+        "n_chars": 418,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 93,
+      "question": "You have three boxes with two drawers each. Box A contains two gold coins, Box B contains two silver coins, and Box C contains one gold coin and one silver coin. Each box is labeled according to its contents, but you know all of the boxes are mislabeled. You are allowed to draw one coin from one of the drawers in one of the boxes. After drawing one coin, you must correctly label all the boxes. Which box should you draw from, and which label would ensure you can correctly label the boxes?\n\nOptions:\n1. Draw from the box labeled 'Gold'. If it's gold, label this box 'Gold and Silver'.\n2. Draw from the box labeled 'Silver'. If it's silver, label this box 'Gold and Silver'.\n3. Draw from the box labeled 'Gold and Silver'. If it's gold, label this box 'Gold'.\n4. Draw from the box labeled 'Gold and Silver'. If it's gold, label this box 'Gold', and if it's silver, label this box 'Silver'.\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 5,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 169,
+        "n_chars": 909,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 101,
+      "question": "You have three gear wheels in a mechanism. Gear A has 6 teeth, Gear B has 8 teeth, and Gear C has 14 teeth. Gear A is connected directly to Gear B, but Gear B is NOT directly connected to Gear C. Instead, there's a chain running from Gear B to Gear C, so they rotate in the same direction. If Gear A rotates clockwise at a speed of 60 rotations per minute (RPM), how many RPM does Gear C have?\n\nOptions:\n1. 60\n2. 80\n3. 100\n4. 120\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 56,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 93,
+        "n_chars": 447,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 118,
+      "question": "You have a cubical block of cheese that is 5 inches along each edge. You take slices from it, which are 1 inch thick, parallel to one of the faces of the cube. After making three slices, you realize that you've sliced off every corner of the original cube. How many 1-inch cubes of cheese will you have after making these three slices?\n\nOptions:\n1. 15\n2. 17\n3. 19\n4. 21\n5. Another answer",
+      "gold": 5,
+      "pred": 1,
+      "student_final_correct": false,
+      "rank_step1": 603,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 75,
+        "n_chars": 387,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 121,
+      "question": "You have a drawer with 12 socks, 6 of which are white and 6 are black. You are required to pick socks from the drawer without looking in order to get a matching pair. What is the minimum number of socks you need to pick to ensure you have at least one matching pair?\n\nOptions:\n1. 2\n2. 3\n3. 4\n4. 5\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 14,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 66,
+        "n_chars": 314,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 129,
+      "question": "In a school with 600 students, it's known that 30% of students are taking a mathematics class, 20% are taking a physics class, and 10% are taking both mathematics and physics classes. If a student is selected at random, what is the probability that they are taking a mathematics class or a physics class?\n\nOptions:\n1. 30%\n2. 40%\n3. 50%\n4. 60%\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 28,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 66,
+        "n_chars": 360,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 151,
+      "question": "You have 3 opaque bags each containing 2 marbles. Bag A contains two white marbles, Bag B contains two black marbles, and Bag C contains one white marble and one black marble. You pick a bag at random and then take one marble from that bag without looking. The marble is white. What is the probability that the other marble from the same bag is also white?\n\nOptions:\n1. 1/3\n2. 1/2\n3. 2/3\n4. 1/4\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 57,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 79,
+        "n_chars": 412,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 168,
+      "question": "Alice, Bob, and Carol need to paint three houses, one for each. They can paint in different colors: red, blue, and green. Alice can't use red paint due to an allergy. Bob doesn't want the green house because it doesn't match his car. Carol mocked the color blue and vowed never to use it. They want to paint their houses using each color once without violating their personal restrictions. In which color should Alice, Bob, and Carol paint their houses to satisfy all conditions?\n\nOptions:\n1. Alice - red, Bob - blue, Carol - green\n2. Alice - green, Bob - red, Carol - blue\n3. Alice - blue, Bob - red, Carol - green\n4. Alice - red, Bob - green, Carol - blue\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 10,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 128,
+        "n_chars": 675,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 175,
+      "question": "You have an ongoing sequence of numbers where the next number is the sum of the last two numbers divided by 2. If the sequence starts with the numbers 4 and 8, what would be the 5th number in the sequence?\n\nOptions:\n1. 5.5\n2. 6.5\n3. 7\n4. 7.5\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 85,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 53,
+        "n_chars": 259,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 178,
+      "question": "You are participating in a game show where you can win a car by picking the correct key from a set of 100 different keys. Initially, you have no information about which key might start the car. At the start of the game, you are allowed to choose 10 keys out of the 100. After your initial selection, the host reveals that among the 90 keys you did not select, 89 cannot start the car and removes them, leaving only one key that can start the car aside from the ones you have chosen. The host then offers you the chance to keep your 10 keys or switch to the single remaining key not chosen by you. Should you switch, stick with your initial choice, or does it not matter?\n\nOptions:\n1. Switch\n2. Stick with the initial choice\n3. It does not matter\n4. Ask for a hint\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 5,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 152,
+        "n_chars": 781,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 191,
+      "question": "Imagine a function f(x) that takes an integer x and performs the following operations: 1. If x is even, it divides x by 2; 2. If x is odd and greater than 1, it multiplies x by 3 and adds 1; 3. If x is 1, it stops the process. Starting from an integer n, you apply the function repeatedly until you reach 1. If you start with the number 11, how many times do you apply the function (including the final step of reaching 1)?\n\nOptions:\n1. 8\n2. 14\n3. 15\n4. 11\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 95,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 98,
+        "n_chars": 474,
+        "n_numbers_in_question": 20,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 198,
+      "question": "Imagine a cube with sides of 2 units length. Each of its six faces is painted with a different color: red, blue, yellow, green, orange, and purple. The cube is then cut into 8 smaller cubes of equal size. How many of the smaller cubes will have exactly two painted sides?\n\nOptions:\n1. 8\n2. 12\n3. 6\n4. 24\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 185,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 63,
+        "n_chars": 321,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 199,
+      "question": "You have a game where you roll two six-sided dice. If the sum of the dice equals seven, you win $10. If the sum is not seven, you lose $3. What is the expected value of the game per roll?\n\nOptions:\n1. -$5/6\n2. $0\n3. $3/2\n4. -$2\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 744,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 52,
+        "n_chars": 245,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 213,
+      "question": "In a factory, there are three machines A, B, and C. Machine A can complete a job in 3 hours, Machine B can do it in 4 hours, and Machine C can do it in 6 hours. However, due to a maintenance issue, Machines A and B can only start working after Machine C has been operating for an hour. What is the shortest time in which the job can be completed if all three machines are used?\n\nOptions:\n1. 2 hours and 7 minutes\n2. 3 hours\n3. 4 hours and 30 minutes\n4. 2 hours and 12 minutes\n5. Another answer",
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 28,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 103,
+        "n_chars": 493,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 252,
+      "question": "Imagine an algorithm that takes any non-negative integer and outputs the sum of its digits. Given the following four numbers: 389, 567, 999, and 1945, which number, after going through the algorithm twice (i.e., feeding the output of the first run back into the algorithm), will yield the smallest result?\n\nOptions:\n1. 389\n2. 567\n3. 999\n4. 1945\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 22,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 62,
+        "n_chars": 362,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 266,
+      "question": "You are given a system with two gears connected to each other. Gear A has 24 teeth and gear B has 48 teeth. Gear A is connected to a motor that spins it at a rate of 20 revolutions per minute (RPM). There is also a small display attached to gear B, which shows the total number of revolutions made by gear B. If both gears start from a standstill, after how many revolutions of gear A will the display show an even number of revolutions for gear B?\n\nOptions:\n1. After 1 revolution of gear A\n2. After 2 revolutions of gear A\n3. After 4 revolutions of gear A\n4. The display will always show an even number of revolutions for gear B\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 93,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 128,
+        "n_chars": 647,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 270,
+      "question": "You have two dice: a red die and a blue die. You roll both dice at the same time. What is the probability that the red die will land on an even number and the blue die will land on a number greater than four?\n\nOptions:\n1. 1/18\n2. 1/6\n3. 1/12\n4. 1/9\n5. Another answer",
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step1": 35,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 57,
+        "n_chars": 266,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 276,
+      "question": "In a bag, there are 5 red marbles, 7 blue marbles, and 4 green marbles. You reach into the bag and take out one marble without looking. If a red marble is drawn, you win $1. A blue marble wins you $2, and a green marble wins you nothing. If you had to pay $1.40 to make a draw, what is the expected value of your gain/loss per draw?\n\nOptions:\n1. $-0.20\n2. $-0.25\n3. $-0.3375\n4. $-0.40\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 84,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 81,
+        "n_chars": 402,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 306,
+      "question": "Imagine a simple algorithm that takes a number as an input and applies the following steps: 1) If the number is even, divide it by 2. 2) If the number is odd, multiply it by 3 and then add 1. This algorithm is applied repeatedly to the result of the previous step. Starting with the number 11, how many steps does it take to reach the number 1 for the first time?\n\nOptions:\n1. 10\n2. 14\n3. 15\n4. 20\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 37,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 84,
+        "n_chars": 415,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 307,
+      "question": "There are two dice. The first die is fair with each number from 1 to 6 having an equal probability of being rolled. The second die is biased such that the number 6 has a 50% chance of being rolled while the other five numbers (1-5) have an equal chance of being rolled for the remaining 50%. What is the probability of rolling a total of 7 with the two dice?\n\nOptions:\n1. 1/6\n2. 1/4\n3. 1/2\n4. 2/3\n5. Another answer",
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step1": 31,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 83,
+        "n_chars": 414,
+        "n_numbers_in_question": 21,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 329,
+      "question": "In a game, you are given the opportunity to roll a fair six-sided die two times. You win if at least one of the rolls is a six. What is the probability of winning the game?\n\nOptions:\n1. 1/6\n2. 11/36\n3. 1/36\n4. 30/36\n5. Another answer",
+      "gold": 2,
+      "pred": 2,
+      "student_final_correct": true,
+      "rank_step1": 252,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 48,
+        "n_chars": 233,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 354,
+      "question": "Alex is fascinated by sequences and finds a peculiar pattern in the sequence of numbers he writes on his notebook. The sequence starts with 1 and the subsequent numbers seem to be following a certain rule: 1, 11, 21, 1211, 111221, ... What would be the next number in Alex's sequence?\n\nOptions:\n1. 131221\n2. 312211\n3. 111321\n4. 211331\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 282,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 63,
+        "n_chars": 352,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 376,
+      "question": "You have 12 hours to prepare an important report. The report will take 10 hours to write. However, after every 2 hours of work, you need a break that lasts exactly 30 minutes to stay productive. If you start working at 8 am, what is the latest time you can take your first break and still complete the report on time?\n\nOptions:\n1. 9:00\n2. 10:00\n3. 11:00\n4. 12:00\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 11,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 73,
+        "n_chars": 380,
+        "n_numbers_in_question": 18,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 389,
+      "question": "You have a drawer with 10 pairs of socks, each pair having a different color from the others. Your room is in complete darkness and you want to leave for work wearing matching socks. What is the least number of socks you need to take from the drawer to ensure you have at least one matching pair?\n\nOptions:\n1. 10\n2. 11\n3. 20\n4. 21\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 10,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 69,
+        "n_chars": 348,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 395,
+      "question": "Four friends are at corners of a large square field and want to reach the exact center of the field at the same time. Each of them starts walking at the same time with the same walking speed but each takes a different straight path. The paths are as follows: Friend A walks directly towards the center, Friend B walks diagonally to the opposite corner and then takes a 90-degree turn towards the center, Friend C walks to the midpoint of one of the edges of the square and then walks parallel to another edge to reach the center, and Friend D takes a path that first heads to the center of an adjacent edge and then directly towards the center. Assuming they all walk at a constant speed, which friend would need to walk the fastest to reach the center at the same time as the others?\n\nOptions:\n1. Friend A\n2. Friend B\n3. Friend C\n4. Friend D\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 1042,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 164,
+        "n_chars": 860,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 399,
+      "question": "In a game, you are given the choice to draw one card each from two distinct decks. The first deck contains 4 cards numbered from 1 to 4. The second deck contains 3 cards numbered from 1 to 3. If you draw two cards, one from each deck, what is the probability that the sum of the numbers on the two cards will be even?\n\nOptions:\n1. 1/4\n2. 1/2\n3. 2/3\n4. 3/4\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 293,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 77,
+        "n_chars": 373,
+        "n_numbers_in_question": 19,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 411,
+      "question": "You are planning a dinner party for 5 friends and want to serve them pizza. Each friend eats either 2 or 3 slices, and you don't know their individual preferences. You need to decide how many pizzas to order. Each pizza has 8 slices. You want to minimize the number of leftover slices while ensuring that everyone has enough to eat. How many pizzas should you order?\n\nOptions:\n1. 2 Pizzas\n2. 3 Pizzas\n3. 4 Pizzas\n4. 5 Pizzas\n5. Another answer",
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step1": 5,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 83,
+        "n_chars": 442,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 414,
+      "question": "You have a drawer containing 10 socks: 4 are red, 3 are blue, and 3 are green. You must select socks in the dark without knowing their color. What is the minimum number of socks you need to pick to ensure you have at least one matching pair?\n\nOptions:\n1. 3\n2. 4\n3. 5\n4. 6\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 5,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 60,
+        "n_chars": 289,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 420,
+      "question": "You are given a mysterious function F that takes two integer inputs and returns another integer. Your task is to determine the rule that function F follows. You have four input-output pairs as clues: (3,4)->7, (1,5)->6, (2,9)->11, and (7,1)->8. What is the result of the function F when the input pair is (5,3)?\n\nOptions:\n1. 6\n2. 8\n3. 10\n4. 11\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 27,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 65,
+        "n_chars": 361,
+        "n_numbers_in_question": 23,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 475,
+      "question": "In a room, there are 4 corner tables shaped as quarter-circles. Each table fits perfectly in each corner of the room. If you put them together, they form a full circle. One day, the tables were rearranged to form a new shape - a square with an empty space in the middle. The side of the square formed by the tables is twice the length of each side of the original square room. What is the ratio of the area of the empty space in the middle of the tables to the area of one table?\n\nOptions:\n1. 4 - pi\n2. 16/pi - 4\n3. 4/pi - 1\n4. 4/pi + 1\n5. Another answer",
+      "gold": 2,
+      "pred": 1,
+      "student_final_correct": false,
+      "rank_step1": 76,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 116,
+        "n_chars": 554,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 481,
+      "question": "In a factory, there are four machines. Each machine can complete a specific task in a certain amount of time. Machine A can finish the task in 2 hours, Machine B in 4 hours, Machine C in 6 hours, and Machine D in 8 hours. If you need to complete the task just once, and only two machines can be operated simultaneously due to power restrictions, which combination of two machines should you choose to minimize the total time to complete the task?\n\nOptions:\n1. Machine A and Machine B\n2. Machine A and Machine C\n3. Machine B and Machine D\n4. Machine C and Machine D\n5. Another answer",
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 9,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 111,
+        "n_chars": 582,
+        "n_numbers_in_question": 9,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 492,
+      "question": "You are in charge of scheduling a conference with 3 separate talks. Each talk can only be scheduled at the beginning of the hour, and the whole conference must finish within 3 hours. The first talk must be scheduled last due to the availability of the speaker. The second talk has three times the attendees as the first, and the third talk has twice as many attendees as the second. The rooms available can only host talks in consecutive hours. Given that attendees should have an easy flow through the talks, how should you schedule the talks to maximize attendee convenience?\n\nOptions:\n1. Schedule Talk 1 at 1 PM, Talk 2 at 2 PM, Talk 3 at 3 PM\n2. Schedule Talk 3 at 1 PM, Talk 2 at 2 PM, Talk 1 at 3 PM\n3. Schedule Talk 2 at 1 PM, Talk 3 at 2 PM, Talk 1 at 3 PM\n4. Schedule Talk 1 at 1 PM, Talk 3 at 2 PM, Talk 2 at 3 PM\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 9,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 173,
+        "n_chars": 841,
+        "n_numbers_in_question": 31,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 497,
+      "question": "You have a biased coin that has a 2/3 chance of landing heads and a 1/3 chance of landing tails. If you flip the coin three times, what is the probability of getting exactly two heads and one tail in any order?\n\nOptions:\n1. 2/9\n2. 4/9\n3. 1/3\n4. 1/2\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 145,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 54,
+        "n_chars": 266,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 502,
+      "question": "You have a grid of 4x4 squares, each square can be painted black or white. You start with all squares painted white. The grid is magical in a way that when you paint one square black, all the squares in the same row and column invert their colors (white squares become black and black squares become white). What is the minimum number of squares you need to paint to make all squares black?\n\nOptions:\n1. 2\n2. 4\n3. 8\n4. 16\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 346,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 85,
+        "n_chars": 439,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 516,
+      "question": "You are given two functions, f(x) = 2x + 3 and g(x) = -x^2 + 5. What is the maximum integer value for h(x) when h(x) is defined as the minimum value of f(x) and g(x) for any integer x from -10 to 10 inclusive?\n\nOptions:\n1. 2\n2. 3\n3. 4\n4. 5\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 6,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 57,
+        "n_chars": 257,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 525,
+      "question": "You are managing a small delivery company with three trucks. Each truck can do one delivery per day. There are five deliveries planned for the week, each on a different day from Monday to Friday. The destinations are various distances from your warehouse: 10, 20, 30, 40, and 50 miles. Deliveries must be done on consecutive days with no gaps between deliveries, starting on Monday. Your goal is to minimize total mileage for the week. Two trucks are required for the 50-mile delivery due to the load. How should you schedule the deliveries to minimize total mileage for the week?\n\nOptions:\n1. Monday - 50 miles (two trucks), Tuesday - 40 miles, Wednesday - 30 miles, Thursday - 20 miles, Friday - 10 miles\n2. Monday - 10 miles, Tuesday - 20 miles, Wednesday - 30 miles, Thursday - 40 miles, Friday - 50 miles (two trucks)\n3. Monday - 30 miles, Tuesday - 10 miles, Wednesday - 20 miles, Thursday - 40 miles, Friday - 50 miles (two trucks)\n4. Monday - 40 miles, Tuesday - 50 miles (two trucks), Wednesday - 30 miles, Thursday - 20 miles, Friday - 10 miles\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 42,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 196,
+        "n_chars": 1072,
+        "n_numbers_in_question": 31,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 530,
+      "question": "You are overseeing the construction of a new museum that will have four rooms arranged in a 2x2 grid structure. Each room can have exactly three doors leading to adjacent rooms or the outside. You must design the placement of the doors such that you can enter and exit the museum with a path that goes through each room exactly once. No two adjacent rooms can have more than one door in between them to prevent structural weaknesses. Can you figure out how to arrange the doors?\n\nOptions:\n1. Rooms 1 and 2 are connected to all three other areas, while Rooms 3 and 4 have two doors to the outside.\n2. Room 1 connects to Room 2 and Room 3, Room 2 connects to the outside, Room 3 connects to all other rooms, and Room 4 connects to the outside.\n3. Room 1 connects to Room 2, Room 3, and the outside, Room 2 connects to the outside, Room 3 connects to Room 4, and Room 4 connects to the outside.\n4. All rooms connect to each other with no doors leading to the outside.\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 8,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 189,
+        "n_chars": 982,
+        "n_numbers_in_question": 24,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 542,
+      "question": "You have a to-do list with 5 tasks that need to be completed today. Each task takes a certain amount of time (in hours) to complete: Task 1: 2 hours, Task 2: 4 hours, Task 3: 1 hour, Task 4: 3 hours, Task 5: 2 hours. You can only work on one task at a time. There will be a 1-hour lunch break that can be taken after completing any of the tasks, and after the break, it takes you an extra 30 minutes to regain your focus and get back to peak productivity regardless of the task chosen. Assuming you have exactly 8 hours to finish all tasks, how would you arrange them to complete all within the given timeframe?\n\nOptions:\n1. Tasks in order: 3, 1, 5, lunch, 4, 2\n2. Tasks in order: 2, 4, lunch, 3, 1, 5\n3. Tasks in order: 1, 3, 5, lunch, 2, 4\n4. Tasks in order: 1, 2, 3, lunch, 5, 4\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step1": 10,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 165,
+        "n_chars": 799,
+        "n_numbers_in_question": 39,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 545,
+      "question": "In a strange land, there are three types of trees, each of which bear a unique fruit once every year. These trees are arranged in a perfect rectangular grid, and due to particular soil conditions, their fruit-bearing pattern follows a strict rule: Every row in the grid has a sequence of exactly one tree of each type, but the types of trees in the consecutive rows are shifted one position to the right in a cyclic manner (once a tree type moves off the grid, it reappears on the left side). One day, a child decides to collect fruits by moving in a straight line, starting from a corner of the rectangular grid. The child picks fruits from the first two trees along the path and notes the sequence. It's a 'plum' from a Plumtree followed by an 'apple' from an Appletree. Assuming the grid contains at least three rows and three columns of trees, what type of fruit will the child collect from the third tree that lies on the child's straight path?\n\nOptions:\n1. apple\n2. plum\n3. banana\n4. no fruit (tree does not bear fruit)\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 12,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 192,
+        "n_chars": 1043,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 551,
+      "question": "Imagine a simple function f(x) that takes an integer x and returns another integer. The function is defined as follows: If x is even, divide it by 2. If x is odd and greater than 1, multiply it by 3 and add 1. If x is 1, return 4. Now, consider the sequence generated by this function, starting with an integer N. This sequence keeps applying the function on its output until it reaches the number 1 for the first time. For which starting value N (from the options below) the above described function sequence first reaches the number 1 after exactly 7 iterations?\n\nOptions:\n1. 3\n2. 7\n3. 9\n4. 15\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 11,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 116,
+        "n_chars": 613,
+        "n_numbers_in_question": 18,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 556,
+      "question": "In a room, there are 4 switches corresponding to 4 light bulbs. Each bulb is contained within a separate opaque box, so when the bulbs are lit, you cannot see them unless you open the box. The switches and the bulbs are far apart, meaning once you walk to the bulbs, you cannot touch the switches again. You can flip the switches any way you like, but you can walk to the boxes only once. How do you identify which switch corresponds to each bulb?\n\nOptions:\n1. Turn all switches on, then off one by one to check the corresponding box for each switch.\n2. Turn on switch 1, wait a few minutes, then turn it off. Turn on switch 2 and go to the bulbs. The warm bulb corresponds to switch 1, the lit bulb to switch 2, and the remaining switches by elimination.\n3. Turn on switches 1 and 2, wait for a while, then turn off switch 2. Turn on switch 3, and leave switch 4 off. Then check the bulbs: the lit one is switch 1, the warm one is switch 2, the other lit one is switch 3, and the remaining is switch 4.\n4. Flip each switch on, count to ten, then flip the next switch, until all bulbs are checked individually.\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 6,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 221,
+        "n_chars": 1128,
+        "n_numbers_in_question": 20,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 564,
+      "question": "You are given a cube where each side measures 2 meters. Inside this cube, there is a smaller cube attached to one of the corners, such that it shares one vertex with the larger cube. The sides of the smaller cube measure precisely half the length of the larger cube's sides. If you were to draw the longest possible straight line inside the large cube that touches any point of the small cube and ends at the furthest point of the larger cube, how long would that line be?\n\nOptions:\n1. 1.732 meters\n2. 2 meters\n3. 2.828 meters\n4. 3.464 meters\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 64,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 105,
+        "n_chars": 560,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 575,
+      "question": "You are in a room with four doors, each leading to a path that goes in one of the four cardinal directions: North, East, South, and West. Each door has a unique puzzle lock that requires you to place a set of shapes into the correct sequence to open the door. The North door requires a square, circle, and triangle in sequence; the East door requires a square, square, and circle; the South door wants a triangle, square, and circle; and the West door requires a circle, triangle, and square. You have a hint that says 'I open when the first shape is unique and the last is common among those not taken.' Which door should you choose?\n\nOptions:\n1. North Door\n2. East Door\n3. South Door\n4. West Door\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 195,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 134,
+        "n_chars": 716,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 578,
+      "question": "In a bag, there are coins of 3 different denominations: 1-dollar, 2-dollar, and 5-dollar. The number of 2-dollar coins is double the number of 1-dollar coins and the number of 5-dollar coins is half the number of 2-dollar coins. If the total amount of money in the bag is 56 dollars, how many coins of each denomination are there?\n\nOptions:\n1. 5 of 1-dollar, 10 of 2-dollar, 5 of 5-dollar\n2. 5 of 1-dollar, 10 of 2-dollar, 6 of 5-dollar\n3. 6 of 1-dollar, 12 of 2-dollar, 6 of 5-dollar\n4. 4 of 1-dollar, 8 of 2-dollar, 4 of 5-dollar\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 400,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 103,
+        "n_chars": 549,
+        "n_numbers_in_question": 38,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 580,
+      "question": "In a class of 30 students, 18 play basketball, 15 play soccer, and 10 students play both sports. What is the probability that a student picked at random from this class plays neither basketball nor soccer?\n\nOptions:\n1. 7/30\n2. 10/30\n3. 23/30\n4. 5/30\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 15,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 48,
+        "n_chars": 267,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 592,
+      "question": "Alex has to complete 3 tasks, each with a different deadline and penalty for being late. Task A has a 2-day deadline and a $50 penalty per day late, Task B has a 4-day deadline and a $20 penalty per day late, and Task C has a 1-day deadline and a $100 penalty per day late. He can only work on one task at a time and each task takes one full day to complete. In what order should Alex complete the tasks to minimize potential penalties?\n\nOptions:\n1. C, A, B\n2. A, B, C\n3. B, C, A\n4. C, B, A\n5. Another answer",
+      "gold": 1,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 73,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 107,
+        "n_chars": 508,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 596,
+      "question": "A cube is painted red on all its sides and then cut into 27 smaller, equally-sized cubes. These smaller cubes are placed into a bag. Without looking, what is the minimum number of small cubes one must take from the bag to ensure that they have at least one cube with two red faces?\n\nOptions:\n1. 7\n2. 9\n3. 8\n4. 10\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 6,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 66,
+        "n_chars": 330,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 606,
+      "question": "You are an adventurer exploring a temple with four rooms arranged in a square. Each wall between rooms has a door. There are engraved symbols on the doors: a sun, a moon, a star, and a comet. You notice a pattern in the way the rooms are connected: the room with the sun door always leads to the room with the moon door, the moon to the star, the star to the comet, and the comet back to the sun. If you start in the room with the sun door and you want to visit each room once and only once, ending in the room you started, can you find the sequence of doors you would pass through?\n\nOptions:\n1. Sun, Moon, Comet, Star, Sun\n2. Sun, Star, Moon, Comet, Sun\n3. Sun, Moon, Star, Comet, Sun\n4. Sun, Comet, Star, Moon, Sun\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 21,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 146,
+        "n_chars": 734,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 614,
+      "question": "You are given a fair six-sided die (numbered 1 to 6) and a fair coin (heads or tails). You will roll the die first and then flip the coin. What is the probability of getting an even number on the die and a head on the coin?\n\nOptions:\n1. 1/4\n2. 1/2\n3. 1/3\n4. 3/4\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 5,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 59,
+        "n_chars": 279,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 627,
+      "question": "You are in charge of planning the schedule for a conference. There are three speakers (A, B, and C) who must all speak once in three different time slots (Morning, Afternoon, Evening). Speaker A has a morning workshop and so cannot speak then. Speaker B prefers not to speak in the evening due to a prior commitment. Speaker C is flexible and has no preference. Your task is to schedule all speakers so that their requirements are met and they all speak at different times. What is the optimal schedule for the speakers?\n\nOptions:\n1. A: Morning, B: Afternoon, C: Evening\n2. A: Afternoon, B: Morning, C: Evening\n3. A: Evening, B: Morning, C: Afternoon\n4. A: Evening, B: Afternoon, C: Morning\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 12,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 125,
+        "n_chars": 708,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 631,
+      "question": "A librarian is organizing a bookshelf with a five by five grid, numbered from 1 to 25, left to right, top to bottom. Each book has a unique code corresponding to the position where it should be placed on the grid. The librarian can only carry one book at a time and it takes 1 minute to move one space left, right, up, or down, and an additional 1 minute to place a book. Starting from the top left corner (position 1) with the first book, and with an initial layout already placing some books at random, the librarian notices that exactly four books are not in their designated places. These misplaced books have the following codes: 5, 10, 17, and 24. What is the minimal time needed for her to place all the books correctly, assuming there are no other obstacles on the shelf to impede her movement?\n\nOptions:\n1. 20 minutes\n2. 22 minutes\n3. 18 minutes\n4. 24 minutes\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 5305,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 165,
+        "n_chars": 886,
+        "n_numbers_in_question": 18,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 638,
+      "question": "In a room, there are three machines. Each machine has two modes: blue mode and red mode. Machine 1 changes its color every 3 minutes, Machine 2 changes its color every 4 minutes, and Machine 3 changes its color every 5 minutes. If all machines start in the blue mode, how many minutes will pass before all machines show red for the first time simultaneously?\n\nOptions:\n1. 20 minutes\n2. 60 minutes\n3. 120 minutes\n4. 180 minutes\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 21,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 81,
+        "n_chars": 444,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 641,
+      "question": "A man tells you 'All my sons have as many brothers as they have sisters, and each of my daughters has twice as many brothers as they have sisters'. How many sons and daughters do I have?\n\nOptions:\n1. 3 sons and 4 daughters\n2. 4 sons and 3 daughters\n3. 2 sons and 5 daughters\n4. 5 sons and 2 daughters\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 7,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 65,
+        "n_chars": 318,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 642,
+      "question": "In a factory, there are three machines A, B, and C. Machine A polishes items, Machine B engraves them and Machine C performs a quality check. Every item must go through all three processes. The time taken by the machines is different: A takes 3 minutes per item, B takes 4 minutes per item, and C takes 2 minutes per item. Given that each machine can only handle one item at a time, in what order should the items be processed so that the maximum number of items are completed in 60 minutes?\n\nOptions:\n1. A -> B -> C\n2. B -> A -> C\n3. C -> B -> A\n4. A -> C -> B\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 8,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 121,
+        "n_chars": 579,
+        "n_numbers_in_question": 9,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 649,
+      "question": "You are playing a game where you can roll a standard six-sided dice up to three times. You win a prize if you roll at least one '6' within those three attempts. After two rolls, you haven't rolled a '6'. What are your chances of winning on your final roll?\n\nOptions:\n1. 1/6\n2. 1/36\n3. 1/3\n4. 1/18\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 124,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 62,
+        "n_chars": 314,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 654,
+      "question": "You are given a function f(x) that takes any positive integer x and if x is even, it returns x/2. If x is odd, it returns 3*x + 1. Starting with 15, you apply the function several consecutive times until you reach the number 1. How many times do you need to apply this function to reach 1?\n\nOptions:\n1. 16 times\n2. 17 times\n3. 18 times\n4. 20 times\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 22,
+      "rank_step2": 0,
+      "features": {
+        "n_words": 74,
+        "n_chars": 365,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 656,
+      "question": "A boat has a ladder that has six rungs, each rung is one foot apart. The water level reaches up to the second rung. The tide rises at the rate of one foot each hour. After four hours, which rung of the ladder will the water reach?\n\nOptions:\n1. Second rung\n2. Sixth rung\n3. Fifth rung\n4. Fourth rung\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 82,
+      "rank_step2": 2,
+      "features": {
+        "n_words": 63,
+        "n_chars": 316,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 657,
+      "question": "You have to bake 12 cakes for a party and each cake takes exactly one hour to bake. You only have one oven, which can bake up to two cakes at a time. You need to let each cake cool for half an hour after baking before they can be decorated. The decoration of each cake takes 15 minutes and can only be done one at a time. You must finish all tasks (baking, cooling, decorating) within 6 hours to be ready for the party. What time must you start baking the first cake to finish on time for the party?\n\nOptions:\n1. 5 hours and 45 minutes before the party\n2. 5 hours and 15 minutes before the party\n3. 4 hours and 45 minutes before the party\n4. 6 hours before the party\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 8,
+      "rank_step2": 4,
+      "features": {
+        "n_words": 138,
+        "n_chars": 684,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 659,
+      "question": "An ant is located in a box shaped like a cube with a side length of 1 meter. The ant is currently at one corner of the cube and needs to get to the diagonally opposite corner. It can walk on any surface of the cube but cannot fly. What is the shortest distance the ant can travel to reach the opposite corner?\n\nOptions:\n1. 2 meters\n2. 1 meter\n3. sqrt(2) meters\n4. sqrt(3) meters\n5. Another answer",
+      "gold": 3,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step1": 5,
+      "rank_step2": 1,
+      "features": {
+        "n_words": 79,
+        "n_chars": 396,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 685,
+      "question": "A machine operates with three levers, each connected to a different gear system. The first lever (L1) increases the machine's output by 4 units each time it's pulled. The second lever (L2) doubles the machine's output whenever it's pulled, and the third lever (L3) decreases the machine's output by 3 units each time it's pulled. If the machine starts with an output of 1 unit, and you can only pull each lever once, in what order should you pull the levers to achieve the maximum possible output?\n\nOptions:\n1. L1, L2, L3\n2. L2, L1, L3\n3. L2, L3, L1\n4. L3, L1, L2\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 36,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 107,
+        "n_chars": 581,
+        "n_numbers_in_question": 23,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 687,
+      "question": "Imagine a sequence that begins with the numbers 1, 11, 21, 1211, 111221. Each subsequent number is described by vocalizing the digits of the previous one. For example, the second number '11' is read as 'one one', which describes the first number, which is a single '1'. Similarly, the next number '21' is read as 'two ones'. What is the sixth number in the sequence?\n\nOptions:\n1. 13112221\n2. 1113213211\n3. 312211\n4. 2112132111\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 19,
+      "rank_step2": 3,
+      "features": {
+        "n_words": 77,
+        "n_chars": 444,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 23,
+      "question": "Three people enter a room and have a blue or red hat placed on their heads. They are told that at least one of them is wearing a blue hat. The first person looks at the other two and says, 'I cannot tell the color of my hat.' The second person looks at the other two and also says, 'I cannot tell the color of my hat.' The third person, without looking at the other two, then speaks up and says, 'I know the color of my hat.' What color is the third person's hat and how do they know?\n\nOptions:\n1. Red, because the person guessed.\n2. Red, because the person saw a reflection.\n3. Blue, because the person deduced it from the others' statements.\n4. Blue, because the person heard someone say it.\n5. Another answer",
+      "gold": 3,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 52,
+      "features": {
+        "n_words": 138,
+        "n_chars": 711,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 25,
+      "question": "A woman shoots her husband. Then she holds him underwater for five minutes. Finally, she hangs him. But 5 minutes later, they both go out and enjoy a lovely dinner together. How can this be?\n\nOptions:\n1. The woman has a twin sister who was with the husband at dinner.\n2. The woman attempted murder but failed, and they made up.\n3. The husband is a ghost.\n4. The 'shooting', 'holding underwater', and 'hanging' are part of the photo development process.\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 2,
+      "rank_step2": 224,
+      "features": {
+        "n_words": 84,
+        "n_chars": 470,
+        "n_numbers_in_question": 6,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 68,
+      "question": "Alec needs to prepare for a job interview, shop for groceries, and visit a friend in the hospital. The job interview preparation will take 3 hours, shopping 1 hour, visiting the hospital is 30 minutes from his home but each visit takes 2 hours. He must finish all activities by 6 PM and it is now 11 AM. Alec needs 1 hour to rest between activities. In what order should Alec complete these tasks to finish by 6 PM while having the maximum possible resting time in-between?\n\nOptions:\n1. Interview, Shop, Hospital\n2. Shop, Hospital, Interview\n3. Hospital, Shop, Interview\n4. Hospital, Interview, Shop\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 569,
+      "features": {
+        "n_words": 107,
+        "n_chars": 617,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 77,
+      "question": "You enter a room with four statues, each facing in a different cardinal direction: North, East, South, and West. Each statue is pointing to another statue. The statue facing North points to the one facing East. The statue facing East points to the one facing South. The statue facing South points to the one facing West. The statue facing West points, unexpectedly, not to the North one but to the East one. If you were to stand behind the statue facing South, face the same direction it faces, and walk straight ahead, which statue would you reach first?\n\nOptions:\n1. East-facing statue\n2. West-facing statue\n3. North-facing statue\n4. South-facing statue\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 10,
+      "features": {
+        "n_words": 114,
+        "n_chars": 673,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 82,
+      "question": "You have a mechanism with three gears in a sequence: A, B, and C. Gear A has 15 teeth and is connected to Gear B which has 30 teeth. Gear C has 45 teeth and is meshed with Gear B. If Gear A rotates at 60 rotations per minute (RPM), how fast does Gear C rotate?\n\nOptions:\n1. 20 RP\n2. 180 RPM\n3. 30 RPM\n4. 60 RPM\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 40,
+      "features": {
+        "n_words": 72,
+        "n_chars": 328,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 137,
+      "question": "You have a project that must be completed over 3 days. Each day, you can choose one of three tasks to work on: Task A, Task B, or Task C. The tasks can be done in any order, but each task requires a different number of days to complete. Task A requires 1 day, Task B requires 2 days, and Task C requires 3 days. You must plan which task to do on each day to ensure that you are working on a task every day without idle time and without overlapping tasks. Considering that you may not start a task without completing it and must finish all tasks by the end of the 3 days, which of the following sequences is a valid work plan?\n\nOptions:\n1. Day 1: Task A, Day 2: Task B, Day 3: Task C\n2. Day 1: Task C, Day 2: Task C, Day 3: Task C\n3. Day 1: Task B, Day 2: Task B, Day 3: Task A\n4. Day 1: Task A, Day 2: Task A, Day 3: Task B\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 8,
+      "features": {
+        "n_words": 182,
+        "n_chars": 841,
+        "n_numbers_in_question": 22,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 174,
+      "question": "A man wants to send a valuable object to his friend by mail. The object is more valuable than any lock or key, so he can't just send it in an unlocked box. He has a lock but his friend does not have the corresponding key. How can he send the valuable object, locked, and ensure that his friend can open it without sending the key through an unsecured mail system?\n\nOptions:\n1. The friend sends his lock to the man first.\n2. The man sends the unlocked box and the key separately.\n3. The man and his friend use a third-party service to exchange the key.\n4. The man sends the box locked with his lock, then his friend adds his lock and sends it back.\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1,
+      "rank_step2": 38,
+      "features": {
+        "n_words": 130,
+        "n_chars": 665,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 255,
+      "question": "A woman is sitting in her hotel room when there is a knock at the door. She opened the door to see a man whom she had never seen before. He said 'oh I'm sorry, I have made a mistake, I thought this was my room.' He then went down the corridor and in the elevator. The woman went back into her room and phoned security. What made the woman so suspicious of the man?\n\nOptions:\n1. The man was carrying nothing but a piece of paper.\n2. The man did not introduce himself.\n3. If he thought it was his room, he would have tried his key, not knocked.\n4. The woman recognized him from a ‘wanted’ poster.\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1,
+      "rank_step2": 103,
+      "features": {
+        "n_words": 122,
+        "n_chars": 612,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 294,
+      "question": "A logician is presented with two boxes: Box A and Box B. One box contains a gold coin and the other box contains a silver coin, but the logician does not know which is which. There is a statement written on each box. Box A has a statement reading 'The gold coin is in this box.' Box B has a statement reading 'The gold coin is not in this box.' The logician knows that one statement is true and the other is false. Which box contains the gold coin?\n\nOptions:\n1. The gold coin is in Box A.\n2. The gold coin is in Box B.\n3. Both boxes contain silver coins.\n4. Both boxes contain gold coins.\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 2,
+      "rank_step2": 12,
+      "features": {
+        "n_words": 121,
+        "n_chars": 606,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 299,
+      "question": "You are given a cube with an edge of length 2 units. Inside the cube, a single point is marked at a distance of 1 unit from one of the corners of the cube. If you start from this point and want to reach the opposite corner of the cube by moving only along the edges, what is the minimum distance you need to cover?\n\nOptions:\n1. 4 units\n2. 5 units\n3. 6 units\n4. sqrt(12) units\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 7,
+      "features": {
+        "n_words": 81,
+        "n_chars": 393,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 300,
+      "question": "You have a die with sides numbered from 1 to 6 and you are about to roll it three times. What is the probability that the sum of the second and third rolls will be at least twice the number of the first roll? Express your answer as a simplified fraction.\n\nOptions:\n1. 1/6\n2. 181/216\n3. 5/36\n4. 1/2\n5. Another answer",
+      "gold": 5,
+      "pred": 1,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 43,
+      "features": {
+        "n_words": 63,
+        "n_chars": 315,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 308,
+      "question": "You have three tasks to complete, each with a different level of priority and time required. Task A takes 2 hours and is of high priority, Task B takes 4 hours and is of medium priority, and Task C takes 1 hour and is of low priority. You only have 3 hours today to allocate to these tasks. What is the optimal order to execute these tasks today to maximize priority completion, assuming you cannot split the duration of tasks?\n\nOptions:\n1. Task A, Task B, Task C\n2. Task A, Task C\n3. Task B, Task C\n4. Task C, Task A\n5. Another answer",
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 14,
+      "features": {
+        "n_words": 106,
+        "n_chars": 535,
+        "n_numbers_in_question": 9,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 333,
+      "question": "Eva, Luna, and Zara decide to have a competition with their freshly baked pies. They each bake a pie and place them on the table. The pies are cherry, apple, and blueberry. Eva doesn't like cherries, Luna made an apple pie, and Zara is allergic to blueberries. Based on this information, can you deduce who baked which pie?\n\nOptions:\n1. Eva: Cherry, Luna: Apple, Zara: Blueberry\n2. Eva: Blueberry, Luna: Apple, Zara: Cherry\n3. Eva: Apple, Luna: Cherry, Zara: Blueberry\n4. Eva: Apple, Luna: Blueberry, Zara: Cherry\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 2,
+      "rank_step2": 7,
+      "features": {
+        "n_words": 90,
+        "n_chars": 531,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 349,
+      "question": "Imagine a 3x3x3 Rubik's cube. Each small cube on the surface is colored either red, blue, or green. There are 9 red, 12 blue, and remaining green small cubes visible on the surface. Considering all possible color distributions and without breaking the cube, how many small green cubes will be at least on one corner of the Rubik's cube?\n\nOptions:\n1. 1\n2. 2\n3. 3\n4. 4\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1,
+      "rank_step2": 5551,
+      "features": {
+        "n_words": 71,
+        "n_chars": 384,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 387,
+      "question": "Imagine you are in a room that is a perfect cube. Each wall, including the floor and ceiling, is painted a different color. The floor is blue, the ceiling is white, and the walls are red, green, yellow, and orange. A bumblebee is flying around the room, touching each wall exactly once and then lands on the floor. The bee starts on the red wall and touches the walls in the following sequence: Red, Green, Yellow, Blue, Orange, White, Blue. Considering the walls the bee has touched, which two walls are opposite each other?\n\nOptions:\n1. Red & Green\n2. Green & Yellow\n3. Yellow & Orange\n4. Orange & Red\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 90,
+      "features": {
+        "n_words": 114,
+        "n_chars": 621,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 408,
+      "question": "You are in a room with 4 doors, each door leads to a path that comes to a fork. The room has a sign saying, 'Three of these paths lead to a loop that will bring you back to this room. One path leads to freedom. The Room of Truth contains the clue to your escape, and lies at the end of the second left path after any fork.' In the Room of Truth, you find another sign, 'The safe door is not the first on the left, but it is a prime number away from it.' Which door do you choose for freedom?\n\nOptions:\n1. Door 1\n2. Door 2\n3. Door 3\n4. Door 4\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 41,
+      "features": {
+        "n_words": 120,
+        "n_chars": 559,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 434,
+      "question": "There is a box with three gear systems. Gear system A has 15 teeth, gear system B has 30 teeth, and gear system C has 45 teeth. Each system engages with both the neighboring systems. If you turn gear system A one full rotation, how many full rotations does gear system C complete?\n\nOptions:\n1. 2/3 rotations\n2. 1/6 rotations\n3. 1 full rotation\n4. 1/2 rotation\n5. Another answer",
+      "gold": 5,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step1": 0,
+      "rank_step2": 23,
+      "features": {
+        "n_words": 70,
+        "n_chars": 377,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 437,
+      "question": "You are in a room with 4 doors, positioned at each wall and facing the cardinal directions: North, East, South, and West. Each door leads to a distinct room, and only one of these rooms contains an escape key, while the others contain a trap. The escape room door follows a logic based on its positioning. If North is Door 1, East is Door 2, South is Door 3, and West is Door 4, the following clues are provided: (1) The escape room door's number is not prime. (2) The sum of the digits of the escape room door's number is greater than the room door number directly opposite it. Which door should you choose to escape safely?\n\nOptions:\n1. North - Door 1\n2. East - Door 2\n3. South - Door 3\n4. West - Door 4\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 2,
+      "rank_step2": 7,
+      "features": {
+        "n_words": 142,
+        "n_chars": 723,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 442,
+      "question": "You are presented with three mysterious machines, each with a red button and a green button. Machine A's green button must be pressed exactly three times more than its red button to activate. Machine B will activate if its green button is pressed an odd number of times after the red button is pressed exactly four times. Machine C requires its green button to be pressed twice for every press of the red button for activation. If you press the green buttons of machine A fifteen times and the red buttons of machine B four times, how many times must you press the green button on machine C after pressing its red button three times to activate all the machines?\n\nOptions:\n1. 5\n2. 6\n3. 11\n4. 9\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1,
+      "rank_step2": 74,
+      "features": {
+        "n_words": 132,
+        "n_chars": 711,
+        "n_numbers_in_question": 9,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 476,
+      "question": "In a factory, there are three machines A, B, and C. Machine A can produce 30 widgets per hour. Machine B can produce 20 widgets more per hour than Machine A, but it's only 80% as reliable (meaning it's operational 80% of the time B operates). Machine C is two times less productive than Machine A, but it never breaks down. If all machines start working simultaneously, after 4 hours of operation, due to a power outage, only one of the machines can be operated for an additional 2 hours. Which machine should be operated after the power outage to maximize the number of widgets produced at the end of the 6-hour period, assuming that machine B, if selected, will not face any reliability issues during those additional hours?\n\nOptions:\n1. Machine A\n2. Machine B\n3. Machine C\n4. None of the machines\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1,
+      "rank_step2": 6,
+      "features": {
+        "n_words": 147,
+        "n_chars": 817,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 491,
+      "question": "A scientist has a set of 5 gears connected in a line. The first gear has 12 teeth and each subsequent gear has 6 more teeth than the gear before it. If the first gear rotates clockwise at 1 revolution per minute, which direction and at what speed will the fifth gear rotate?\n\nOptions:\n1. Counterclockwise at 5/6 RPM\n2. Clockwise at 5/6 RPM\n3. Counterclockwise at 6/5 RPM\n4. Clockwise at 1 RPM\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step1": 4,
+      "rank_step2": 34,
+      "features": {
+        "n_words": 77,
+        "n_chars": 410,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 508,
+      "question": "Imagine a cube with an edge of length 4 units. A straight tunnel is bored directly through the cube, from one point on the surface to another point on the opposite surface. The tunnel is a cylinder with a diameter of 2 units. The tunnel perfectly follows the longest possible straight path that can be drilled through the cube. What is the length of the tunnel, in units?\n\nOptions:\n1. 8 units\n2. 6 units\n3. 4 * sqrt(2) units\n4. 4 * sqrt(3) units\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 0,
+      "rank_step2": 54,
+      "features": {
+        "n_words": 88,
+        "n_chars": 463,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 573,
+      "question": "You are the new manager of a warehouse that needs to optimize the placement of its items. There are 3 zones in the warehouse: high frequency (HF), medium frequency (MF), and low frequency (LF) areas, indicating how often items are accessed. Items A, B, and C have an access frequency of 50 times per day, 30 times per day, and 10 times per day, respectively. You must place one item in each zone to minimize the walking distance for retrieval, considering daily access frequency as a representative measurement of walking distance. Where should each item be placed to optimize efficiency?\n\nOptions:\n1. A in LF, B in MF, C in HF\n2. A in HF, B in LF, C in MF\n3. A in HF, B in MF, C in LF\n4. A in MF, B in HF, C in LF\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 361,
+      "features": {
+        "n_words": 144,
+        "n_chars": 732,
+        "n_numbers_in_question": 9,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 574,
+      "question": "In a square room adorned with paintings on each wall, a spider starts climbing one wall towards the ceiling. Each minute, the spider climbs 3 feet but slips down 2 feet due to the smoothness of the wall. If the wall is 19 feet high, how long will it take for the spider to reach the top of the wall?\n\nOptions:\n1. 16 minutes\n2. 17 minutes\n3. 18 minutes\n4. 19 minutes\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 1,
+      "rank_step2": 21,
+      "features": {
+        "n_words": 76,
+        "n_chars": 383,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 640,
+      "question": "In a kingdom, there are 5 wells each containing different amounts of water. The first well contains half the amount of water than the second well. The third well contains 3 liters less than the first well. The fourth well contains twice the amount of the third, and the last well has a quantity that is the average of all four previous wells. If the first and the last wells together contain 35 liters, how much water does the third well contain?\n\nOptions:\n1. 9.6 liters\n2. 11.6 liters\n3. 13.6 liters\n4. 15.6 liters\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 0,
+      "rank_step2": 105,
+      "features": {
+        "n_words": 98,
+        "n_chars": 533,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 646,
+      "question": "Imagine a function f(x) that takes a positive integer and outputs an integer according to the following rules. Rule 1: If x is even, f(x) outputs (x / 2). Rule 2: If x is odd and not a multiple of 3, f(x) outputs (3 * x + 1). Rule 3: If x is odd and a multiple of 3, f(x) outputs (x - 1). Starting with the number 7, which is the first number that will be repeated during this process when applying f(x) recursively?\n\nOptions:\n1. 1\n2. 2\n3. 3\n4. 4\n5. Another answer",
+      "gold": 4,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 3,
+      "rank_step2": 11,
+      "features": {
+        "n_words": 97,
+        "n_chars": 464,
+        "n_numbers_in_question": 19,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 700,
+      "question": "In a box, there are balls of three different colors: red, blue, and green. There are twice as many red balls as blue balls, and twice as many blue balls as green balls. If a ball is chosen at random from the box, the probability of it being green is 1/9. How many balls are in the box, and what is the probability of selecting a red ball?\n\nOptions:\n1. There are 7 balls in the box, and the probability of selecting a red ball is 4/7\n2. There are 9 balls in the box, and the probability of selecting a red ball is 1/2\n3. There are 14 balls in the box, and the probability of selecting a red ball is 2/7\n4. There are 9 balls in the box, and the probability of selecting a red ball is 4/9\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step1": 4,
+      "rank_step2": 6067,
+      "features": {
+        "n_words": 144,
+        "n_chars": 703,
+        "n_numbers_in_question": 19,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    }
+  ]
+}

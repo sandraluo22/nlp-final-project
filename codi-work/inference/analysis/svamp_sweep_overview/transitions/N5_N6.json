@@ -1,0 +1,412 @@
+{
+  "from_N": 5,
+  "to_N": 6,
+  "gained_wrong_to_right": 5,
+  "lost_right_to_wrong": 9,
+  "stable_right": 603,
+  "stable_wrong": 383,
+  "feature_breakdown": {
+    "gained": {
+      "count": 5,
+      "n_words": {
+        "mean": 29.8,
+        "median": 29,
+        "min": 24,
+        "max": 35
+      },
+      "n_chars": {
+        "mean": 154.2,
+        "median": 152,
+        "min": 128,
+        "max": 183
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "gold_numeric": {
+        "mean": 151.6,
+        "median": 6.0,
+        "min": 1.0,
+        "max": 638.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 3,
+        "100-999": 2
+      }
+    },
+    "lost": {
+      "count": 9,
+      "n_words": {
+        "mean": 33.67,
+        "median": 38,
+        "min": 22,
+        "max": 42
+      },
+      "n_chars": {
+        "mean": 175.33,
+        "median": 190,
+        "min": 108,
+        "max": 242
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 3364.89,
+        "median": 12.0,
+        "min": 3.0,
+        "max": 30057.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 2,
+        "10-99": 5,
+        "100-999": 1,
+        "10000+": 1
+      }
+    },
+    "stable_right": {
+      "count": 603,
+      "n_words": {
+        "mean": 30.19,
+        "median": 29,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 153.58,
+        "median": 148,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.57,
+        "median": 3,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 127.73,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 22800.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 258,
+        "10-99": 265,
+        "100-999": 72,
+        "1000-9999": 7,
+        "10000+": 1
+      }
+    },
+    "stable_wrong": {
+      "count": 383,
+      "n_words": {
+        "mean": 34.2,
+        "median": 34,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 176.33,
+        "median": 171,
+        "min": 76,
+        "max": 323
+      },
+      "n_numbers_in_question": {
+        "mean": 3.18,
+        "median": 3,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 79517.0,
+        "median": 24.0,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 115,
+        "10-99": 146,
+        "100-999": 63,
+        "1000-9999": 32,
+        "10000+": 27
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 10,
+      "question": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+      "gold": 1.0,
+      "pred_N5": 3.0,
+      "pred_N6": 1.0,
+      "response_N5": "The answer is: 3",
+      "response_N6": "The answer is: 1",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 29,
+        "n_chars": 136,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 13,
+      "question": "Jerry had 7 books and 3 action figures on a shelf in his room. Later he added 2 more action figures to the shelf. How many more books than action figures were on his shelf?",
+      "gold": 2.0,
+      "pred_N5": 4.0,
+      "pred_N6": 2.0,
+      "response_N5": "The answer is: 4",
+      "response_N6": "The answer is: 2",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 35,
+        "n_chars": 172,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 50,
+      "question": "Frank was reading through his favorite book. The book had 555 pages equally distributed over 5 chapters. It took Frank 220 days to finish the book. How many pages are in each chapter?",
+      "gold": 111.0,
+      "pred_N5": 11.0,
+      "pred_N6": 111.0,
+      "response_N5": "The answer is: 11",
+      "response_N6": "The answer is: 111",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 33,
+        "n_chars": 183,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 111.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 587,
+      "question": "Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?",
+      "gold": 6.0,
+      "pred_N5": 16.0,
+      "pred_N6": 6.0,
+      "response_N5": "The answer is: 16",
+      "response_N6": "The answer is: 6",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 24,
+        "n_chars": 128,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 649,
+      "question": "Faye was placing her pencils and crayons into 11 rows with 31 pencils and 27 crayons in each row. How many pencils and crayons does she have altogether?",
+      "gold": 638.0,
+      "pred_N5": 644.0,
+      "pred_N6": 638.0,
+      "response_N5": "The answer is: 644",
+      "response_N6": "The answer is: 638",
+      "correct_N5": false,
+      "correct_N6": true,
+      "features": {
+        "n_words": 28,
+        "n_chars": 152,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 638.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 201,
+      "question": "A grocery store had a total of 17 bottles of which 9 were bottles of regular soda and the rest were bottles of diet soda. They also had 29 apple. How many bottles of diet soda did they have?",
+      "gold": 8.0,
+      "pred_N5": 8.0,
+      "pred_N6": 16.0,
+      "response_N5": "The answer is: 8",
+      "response_N6": "The answer is: 16",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 39,
+        "n_chars": 190,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 430,
+      "question": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 24 pounds. On the way back Marco lost 9 pounds of strawberries. Marco's strawberries now weighed 3 pounds. How much did his dad's strawberries weigh?",
+      "gold": 12.0,
+      "pred_N5": 12.0,
+      "pred_N6": 6.0,
+      "response_N5": "The answer is: 12",
+      "response_N6": "The answer is: 6",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 38,
+        "n_chars": 242,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 476,
+      "question": "For Gwen's birthday she received 3 dollars from her mom. Her dad gave her 6 more dollars. If she spent 4 dollars. How much more money did she receive from her dad than she did from her mom?",
+      "gold": 3.0,
+      "pred_N5": 3.0,
+      "pred_N6": 2.0,
+      "response_N5": "The answer is: 3",
+      "response_N6": "The answer is: 2",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 38,
+        "n_chars": 189,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 484,
+      "question": "Baker sold 8 cakes. If he had made 40 cakes initially How many more cakes did baker make than those he sold?",
+      "gold": 32.0,
+      "pred_N5": 32.0,
+      "pred_N6": 24.0,
+      "response_N5": "The answer is: 32",
+      "response_N6": "The answer is: 24",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 22,
+        "n_chars": 108,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 32.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 506,
+      "question": "Baker made 56 pastries and 124 cakes. If he sold 104 cakes and 29 pastries How many pastries would baker still have?",
+      "gold": 27.0,
+      "pred_N5": 27.0,
+      "pred_N6": 33.0,
+      "response_N5": "The answer is: 27",
+      "response_N6": "The answer is: 33",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 22,
+        "n_chars": 116,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 27.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 784,
+      "question": "During summer break 61619 kids from Lawrence county stayed home and the rest went to camp. The total number of kids in Lawrence county is 91676. About how many kids in Lawrence county went to camp?",
+      "gold": 30057.0,
+      "pred_N5": 30057.0,
+      "pred_N6": 80000.0,
+      "response_N5": "The answer is: 30057",
+      "response_N6": "The answer is: 80000",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 36,
+        "n_chars": 197,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 30057.0,
+        "gold_magnitude_bucket": "10000+"
+      }
+    },
+    {
+      "idx": 846,
+      "question": "There are 4 different books and 17 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 7 of the movies How many more movies do you still have to watch?",
+      "gold": 10.0,
+      "pred_N5": 10.0,
+      "pred_N6": 14.0,
+      "response_N5": "The answer is: 10",
+      "response_N6": "The answer is: 14",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 40,
+        "n_chars": 194,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 922,
+      "question": "Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left. How many more baseball cards than Ace cards does Nell have?",
+      "gold": 123.0,
+      "pred_N5": 123.0,
+      "pred_N6": 113.0,
+      "response_N5": "The answer is: 123",
+      "response_N6": "The answer is: 113",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 42,
+        "n_chars": 214,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 123.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    },
+    {
+      "idx": 970,
+      "question": "Ed had 29 more marbles than Doug. Ed lost 17 of his marbles at the playground. How many more marbles did Ed have than Doug then?",
+      "gold": 12.0,
+      "pred_N5": 12.0,
+      "pred_N6": 0.0,
+      "response_N5": "The answer is: 12",
+      "response_N6": "The answer is: 0",
+      "correct_N5": true,
+      "correct_N6": false,
+      "features": {
+        "n_words": 26,
+        "n_chars": 128,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ]
+}

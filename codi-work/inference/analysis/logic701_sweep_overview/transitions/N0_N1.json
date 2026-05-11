@@ -1,0 +1,700 @@
+{
+  "from_N": 0,
+  "to_N": 1,
+  "gained_wrong_to_right": 9,
+  "lost_right_to_wrong": 18,
+  "stable_right": 17,
+  "stable_wrong": 657,
+  "feature_breakdown": {
+    "gained": {
+      "count": 9,
+      "n_words": {
+        "mean": 120.22,
+        "median": 114,
+        "min": 66,
+        "max": 219
+      },
+      "n_chars": {
+        "mean": 629.22,
+        "median": 598,
+        "min": 365,
+        "max": 1135
+      },
+      "n_numbers_in_question": {
+        "mean": 18.67,
+        "median": 15,
+        "min": 11,
+        "max": 40
+      },
+      "gold_numeric": {
+        "mean": 3.78,
+        "median": 4.0,
+        "min": 2.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 9
+      },
+      "gold_option_dist": {
+        "2": 2,
+        "3": 1,
+        "4": 3,
+        "5": 3
+      }
+    },
+    "lost": {
+      "count": 18,
+      "n_words": {
+        "mean": 104.72,
+        "median": 104.0,
+        "min": 46,
+        "max": 191
+      },
+      "n_chars": {
+        "mean": 543.17,
+        "median": 534.5,
+        "min": 233,
+        "max": 1013
+      },
+      "n_numbers_in_question": {
+        "mean": 13.72,
+        "median": 12.0,
+        "min": 5,
+        "max": 38
+      },
+      "gold_numeric": {
+        "mean": 3.33,
+        "median": 3.0,
+        "min": 2.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 18
+      },
+      "gold_option_dist": {
+        "2": 6,
+        "3": 4,
+        "4": 4,
+        "5": 4
+      }
+    },
+    "stable_right": {
+      "count": 17,
+      "n_words": {
+        "mean": 91.65,
+        "median": 77,
+        "min": 36,
+        "max": 177
+      },
+      "n_chars": {
+        "mean": 477.47,
+        "median": 410,
+        "min": 174,
+        "max": 965
+      },
+      "n_numbers_in_question": {
+        "mean": 14.12,
+        "median": 13,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 3.53,
+        "median": 4.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 17
+      },
+      "gold_option_dist": {
+        "1": 2,
+        "2": 3,
+        "3": 2,
+        "4": 4,
+        "5": 6
+      }
+    },
+    "stable_wrong": {
+      "count": 657,
+      "n_words": {
+        "mean": 88.78,
+        "median": 81,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 463.0,
+        "median": 419,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.72,
+        "median": 13,
+        "min": 5,
+        "max": 52
+      },
+      "gold_numeric": {
+        "mean": 2.73,
+        "median": 2.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 657
+      },
+      "gold_option_dist": {
+        "1": 141,
+        "2": 190,
+        "3": 157,
+        "4": 42,
+        "5": 127
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 65,
+      "question": "There is a birthday party where a game is being played. If the room contains 23 people, what is the probability that at least two people in the room share the same birthday? Assume each day of the year (excluding February 29) is equally likely for a birthday, and neglect leap years for simplicity.\n\nOptions:\n1. 22.9%\n2. 50.73%\n3. 75.24%\n4. 85.71%\n5. Another answer",
+      "gold": 2,
+      "pred_N0": -1,
+      "pred_N1": 2,
+      "response_N0": ": 23",
+      "response_N1": "The answer is: 23.2",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 66,
+        "n_chars": 365,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 75,
+      "question": "In a room there are 4 switches. Each switch can be turned on or off. There is a light bulb in a sealed box that is opaque and you cannot see inside it. Only one switch is connected to the light bulb. You begin with all the switches in the off position. You can perform the following actions: (1) Toggle any switches you desire. (2) Open the box to inspect the light bulb-status but once opened you cannot toggle the switches again. How do you determine which switch is connected to the light bulb with only one inspection?\n\nOptions:\n1. Switch 1\n2. Switch 2\n3. Switch 3\n4. Switch 4\n5. Another answer",
+      "gold": 5,
+      "pred_N0": 4,
+      "pred_N1": 5,
+      "response_N0": ": 4",
+      "response_N1": "The answer is: 5",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 114,
+        "n_chars": 598,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 104,
+      "question": "In a certain mechanical workshop, there are three machines that can only operate one at a time due to limited electrical capacity. Machine A takes 3 hours to complete its job. Machine B takes 4 hours, and Machine C takes 6 hours. They all need to complete one job each. The workshop operates an 8-hour workday. If only one machine can operate at any given time and no machine can be stopped mid-operation, what is the maximum number of full days needed to complete all three jobs?\n\nOptions:\n1. 1 day\n2. 2 days\n3. 3 days\n4. 4 days\n5. Another answer",
+      "gold": 2,
+      "pred_N0": -1,
+      "pred_N1": 2,
+      "response_N0": "9",
+      "response_N1": "The answer is: 2",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 103,
+        "n_chars": 547,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 155,
+      "question": "Imagine you are given three empty jars that can hold 3 liters, 5 liters, and 8 liters of water respectively. The 8-liter jar is full of water, but the other two are empty. By only using these jars and the water provided, how can you measure exactly 4 liters of water?\n\nOptions:\n1. Impossible to measure exactly 4 liters\n2. Fill the 3-liter jar and pour it into the 5-liter jar, then fill the 3-liter jar again and pour until the 5-liter jar is full. The remainder in the 3-liter jar is 4 liters.\n3. Fill the 5-liter jar and pour it into the 8-liter jar until it has only 3 liters left, which is then poured into the 3-liter jar, leaving 4 liters in the 5-liter jar.\n4. Fill the 5-liter jar with water from the 8-liter jar, then pour the water from the 5-liter jar into the 3-liter jar. When the 3-liter jar is full, there will be 2 liters left in the 5-liter jar. Empty the 3-liter jar and pour the 2 liters from the 5-liter jar into it. Now fill the 5-liter jar again from the 8-liter jar, and pour 1 liter into the 3-liter jar which already contains 2 liters. The 8-liter jar now has exactly 4 liters of water left.\n5. Another answer",
+      "gold": 4,
+      "pred_N0": 2,
+      "pred_N1": 4,
+      "response_N0": "5-2",
+      "response_N1": "5-1=4",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 219,
+        "n_chars": 1135,
+        "n_numbers_in_question": 40,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 437,
+      "question": "You are in a room with 4 doors, positioned at each wall and facing the cardinal directions: North, East, South, and West. Each door leads to a distinct room, and only one of these rooms contains an escape key, while the others contain a trap. The escape room door follows a logic based on its positioning. If North is Door 1, East is Door 2, South is Door 3, and West is Door 4, the following clues are provided: (1) The escape room door's number is not prime. (2) The sum of the digits of the escape room door's number is greater than the room door number directly opposite it. Which door should you choose to escape safely?\n\nOptions:\n1. North - Door 1\n2. East - Door 2\n3. South - Door 3\n4. West - Door 4\n5. Another answer",
+      "gold": 4,
+      "pred_N0": -1,
+      "pred_N1": 4,
+      "response_N0": "",
+      "response_N1": "4",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 142,
+        "n_chars": 723,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 486,
+      "question": "Alice, Bob, and Charlie are three friends who decide to paint a room together. They find that Alice can paint the room completely by herself in 5 hours, Bob can do it in 6 hours, and Charlie in 8 hours. They start painting together at the same pace they normally would by themselves, but after 2 hours, Charlie has to leave. How much time, in hours, will it take for Alice and Bob to finish painting the room after Charlie leaves?\n\nOptions:\n1. 3 hours\n2. 2.5 hours\n3. 2 hours and 30 minutes\n4. 2 hours and 45 minutes\n5. Another answer",
+      "gold": 4,
+      "pred_N0": -1,
+      "pred_N1": 4,
+      "response_N0": " 6",
+      "response_N1": "The answer is: 4",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 103,
+        "n_chars": 534,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 644,
+      "question": "In a factory, there are three machines A, B, and C. Machine A can assemble a product in 5 minutes, Machine B can do it in 7 minutes, and Machine C can do it in 10 minutes. If all three machines start assembling the product at the same time, how many minutes will it take for all three machines to assemble a total of 10 products?\n\nOptions:\n1. 20 minutes\n2. 22 minutes\n3. 23 minutes\n4. 25 minutes\n5. Another answer",
+      "gold": 3,
+      "pred_N0": 1,
+      "pred_N1": 3,
+      "response_N0": ": 23.1",
+      "response_N1": "The answer is: 23.3",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 82,
+        "n_chars": 413,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 651,
+      "question": "You are in charge of planning the schedule for the delivery trucks of a logistics company. There are 4 deliveries to be made today, each at different times. The first delivery is between 9:00-10:00, the second is between 11:00-12:00, the third is between 13:00-14:00, and the fourth is between 15:00-16:00. Each delivery location is a 1-hour drive from the warehouse. The truck can only make one delivery at a time, and it must return to the warehouse after each delivery before heading out to the next one. The truck is available from 8:00. What is the earliest time all deliveries can be completed?\n\nOptions:\n1. 17:00\n2. 18:00\n3. 19:00\n4. 20:00\n5. Another answer",
+      "gold": 5,
+      "pred_N0": 2,
+      "pred_N1": 5,
+      "response_N0": "2",
+      "response_N1": "The answer is: 5",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 115,
+        "n_chars": 664,
+        "n_numbers_in_question": 33,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 657,
+      "question": "You have to bake 12 cakes for a party and each cake takes exactly one hour to bake. You only have one oven, which can bake up to two cakes at a time. You need to let each cake cool for half an hour after baking before they can be decorated. The decoration of each cake takes 15 minutes and can only be done one at a time. You must finish all tasks (baking, cooling, decorating) within 6 hours to be ready for the party. What time must you start baking the first cake to finish on time for the party?\n\nOptions:\n1. 5 hours and 45 minutes before the party\n2. 5 hours and 15 minutes before the party\n3. 4 hours and 45 minutes before the party\n4. 6 hours before the party\n5. Another answer",
+      "gold": 5,
+      "pred_N0": -1,
+      "pred_N1": 5,
+      "response_N0": " 6",
+      "response_N1": "The answer is: 6.5",
+      "correct_N0": false,
+      "correct_N1": true,
+      "features": {
+        "n_words": 138,
+        "n_chars": 684,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 7,
+      "question": "You have a six-sided standard die with faces numbered from 1 to 6. What is the probability of rolling the die twice and getting a sum of 8? Express your answer as a fraction.\n\nOptions:\n1. 1/12\n2. 5/36\n3. 1/6\n4. 7/36\n5. Another answer",
+      "gold": 2,
+      "pred_N0": 2,
+      "pred_N1": 1,
+      "response_N0": "2/6",
+      "response_N1": "The answer is: 1/7.11",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 46,
+        "n_chars": 233,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 44,
+      "question": "In a bag, there are red, green, and blue marbles. The probability of picking a red marble is 1/4, and the probability of picking a green marble is 1/3. What is the probability of picking a blue marble?\n\nOptions:\n1. 1/6\n2. 5/12\n3. 1/2\n4. 2/5\n5. Another answer",
+      "gold": 2,
+      "pred_N0": 2,
+      "pred_N1": -1,
+      "response_N0": ": 1/2",
+      "response_N1": "The answer is: 0.42",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 50,
+        "n_chars": 258,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 159,
+      "question": "Imagine a cube that has a number from 1 to 6 on each face, much like a die. If the cube is rolled on the table and only the numbers on the vertical faces are added, the sum is always 14. The cube is now thrown and lands with the number 3 facing up. What is the number on the bottom face?\n\nOptions:\n1. 1\n2. 2\n3. 4\n4. 5\n5. Another answer",
+      "gold": 3,
+      "pred_N0": 3,
+      "pred_N1": 2,
+      "response_N0": "3",
+      "response_N1": "The answer is: 2",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 74,
+        "n_chars": 335,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 221,
+      "question": "Within a factory, there are 5 machines that are programmed to finish a product in exact sequence. Each machine adds a component to the product in the following order: Machine A -> Machine B -> Machine C -> Machine D -> Machine E. To improve efficiency, the technicians realized that adding components B and C can be swapped without compromising the product. They plan to rearrange the order to minimize the time taken for the products to pass from one machine to another, considering the distance between machines is critical. The distances between machines are as follows: A to B is 10m, B to C is 15m, C to D is 5m, D to E is 20m, and swapping B and C will place them 25m apart but reduce A to C and B to D distances to 5m each. If the product must go through A, then B or C (whichever is first), then the remaining B or C, followed by D, then E, what is the new sequence that minimizes the total distance traveled by the products?\n\nOptions:\n1. A-C-B-D-E\n2. A-B-C-D-E\n3. B-A-C-D-E\n4. C-A-B-D-E\n5. Another answer",
+      "gold": 5,
+      "pred_N0": 5,
+      "pred_N1": -1,
+      "response_N0": "5",
+      "response_N1": "The answer is: 25",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 191,
+        "n_chars": 1013,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 239,
+      "question": "A box contains b blue, g green and r red balls, which are identical in shape and size, but differ in color. You are to draw two balls from the box without replacement. The probability of drawing a blue ball first and a green ball second is twice the probability of drawing a green ball first and a red ball second. If the total number of balls in the box is 10, find the number of green balls (g).\n\nOptions:\n1. 3\n2. 4\n3. 5\n4. 6\n5. Another answer",
+      "gold": 2,
+      "pred_N0": 2,
+      "pred_N1": 4,
+      "response_N0": ": 2",
+      "response_N1": "The answer is: 4",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 91,
+        "n_chars": 445,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 247,
+      "question": "A woman lives on the 10th floor of a building. Every day she takes the elevator to go down to the ground floor to go to work or to go shopping. When she returns she takes the elevator to the 7th floor and walks the rest of the way up to her apartment on the 10th floor. She hates walking so why does she do it?\n\nOptions:\n1. She is doing it for exercise.\n2. The elevator is broken for floors 8 through 10.\n3. She only walks up when it's raining outside.\n4. She can't reach the button for the 10th floor.\n5. Another answer",
+      "gold": 4,
+      "pred_N0": 4,
+      "pred_N1": 5,
+      "response_N0": "The answer is: 4",
+      "response_N1": "The answer is: 5",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 106,
+        "n_chars": 520,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 347,
+      "question": "In a room sit three different containers. Container 1 holds apples, Container 2 holds oranges, and Container 3 holds a mix of both apples and oranges. All containers are mislabeled. You are allowed to draw a fruit from one container only to correctly label all containers. From which container would you draw the fruit, and what steps must you follow to correctly label each container?\n\nOptions:\n1. Container 1\n2. Container 2\n3. Container 3\n4. None, you cannot label them correctly with just one draw\n5. Another answer",
+      "gold": 3,
+      "pred_N0": 3,
+      "pred_N1": -1,
+      "response_N0": " is: 3",
+      "response_N1": "The answer is: 6",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 89,
+        "n_chars": 518,
+        "n_numbers_in_question": 11,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 407,
+      "question": "You come to a fork in the road while travelling to a village where the annual fair is held. One path leads to the village where the fair is bustling with people and activity, while the other leads to a boring and quiet dead-end. You want to go to the fair, but there's no sign indicating which way to go. At the fork, there are two twin brothers standing. One brother always tells the truth and the other brother always lies. You can ask only one question to one of the brothers to find out which way to go. What question do you ask to ensure you head towards the fair?\n\nOptions:\n1. Which way is the village?\n2. Where would your brother say the fair is?\n3. Is the village this way?\n4. Do you live in the village where the fair is being held?\n5. Another answer",
+      "gold": 2,
+      "pred_N0": 2,
+      "pred_N1": 4,
+      "response_N0": " is: 2",
+      "response_N1": "The answer is: 4",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 149,
+        "n_chars": 759,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 413,
+      "question": "You have two coins in your pocket, one is a regular coin and one is a biased coin that has a 75% chance of landing on heads. Without looking, you pull out one coin and flip it three times, each time it lands on heads. What is the probability that the coin you chose is the biased coin?\n\nOptions:\n1. 50%\n2. 66.7%\n3. 77.3%\n4. 87.5%\n5. Another answer",
+      "gold": 3,
+      "pred_N0": 3,
+      "pred_N1": -1,
+      "response_N0": ": 33.3",
+      "response_N1": ": 33",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 70,
+        "n_chars": 347,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 434,
+      "question": "There is a box with three gear systems. Gear system A has 15 teeth, gear system B has 30 teeth, and gear system C has 45 teeth. Each system engages with both the neighboring systems. If you turn gear system A one full rotation, how many full rotations does gear system C complete?\n\nOptions:\n1. 2/3 rotations\n2. 1/6 rotations\n3. 1 full rotation\n4. 1/2 rotation\n5. Another answer",
+      "gold": 5,
+      "pred_N0": 5,
+      "pred_N1": 3,
+      "response_N0": " 5",
+      "response_N1": "The answer is: 3",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 70,
+        "n_chars": 377,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 476,
+      "question": "In a factory, there are three machines A, B, and C. Machine A can produce 30 widgets per hour. Machine B can produce 20 widgets more per hour than Machine A, but it's only 80% as reliable (meaning it's operational 80% of the time B operates). Machine C is two times less productive than Machine A, but it never breaks down. If all machines start working simultaneously, after 4 hours of operation, due to a power outage, only one of the machines can be operated for an additional 2 hours. Which machine should be operated after the power outage to maximize the number of widgets produced at the end of the 6-hour period, assuming that machine B, if selected, will not face any reliability issues during those additional hours?\n\nOptions:\n1. Machine A\n2. Machine B\n3. Machine C\n4. None of the machines\n5. Another answer",
+      "gold": 2,
+      "pred_N0": 2,
+      "pred_N1": -1,
+      "response_N0": " (2*30=60",
+      "response_N1": "The answer is: 144",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 147,
+        "n_chars": 817,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 489,
+      "question": "You are presented with three machines: A, B, and C. Each machine has two settings: 1 and 2. When the machines are operated together, they produce a widget. The settings control the speed, quality, and durability of the widget as follows: Machine A controls speed, Machine B controls quality, and Machine C controls durability. You know these facts: 1) Setting both A and C to 2 produces a widget too fast and fragile. 2) Setting A to 1 and B to 2 never yields a high-quality widget. 3) A widget of acceptable quality and durability is produced when B and C are both set to 1, but at a slow speed. Which settings should be used on the machines to produce a widget that is fast, durable and of acceptable quality?\n\nOptions:\n1. A=1, B=1, C=2\n2. A=2, B=2, C=1\n3. A=1, B=2, C=1\n4. A=2, B=1, C=2\n5. Another answer",
+      "gold": 5,
+      "pred_N0": 5,
+      "pred_N1": -1,
+      "response_N0": "5",
+      "response_N1": "The answer is: 6",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 151,
+        "n_chars": 807,
+        "n_numbers_in_question": 26,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 519,
+      "question": "In a small company, there are three key tasks that need to be completed. Task A takes 3 hours for Joe to complete, 2 hours for Susan, and 6 hours for Bob to complete. Task B takes 4 hours for Joe, 3 hours for Susan, and 5 hours for Bob. Task C takes 2 hours for Joe, 4 hours for Susan, and 7 hours for Bob. Each employee can only work on one task at a time and cannot switch until they finish. What's the quickest strategy to assign tasks to employees to minimize the total time for completing all tasks?\n\nOptions:\n1. Joe: Task A, Susan: Task B, Bob: Task C\n2. Joe: Task B, Susan: Task A, Bob: Task C\n3. Joe: Task C, Susan: Task A, Bob: Task B\n4. Joe: Task A, Susan: Task C, Bob: Task B\n5. Another answer",
+      "gold": 3,
+      "pred_N0": 3,
+      "pred_N1": 4,
+      "response_N0": "3",
+      "response_N1": "The answer is: 4",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 145,
+        "n_chars": 704,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 564,
+      "question": "You are given a cube where each side measures 2 meters. Inside this cube, there is a smaller cube attached to one of the corners, such that it shares one vertex with the larger cube. The sides of the smaller cube measure precisely half the length of the larger cube's sides. If you were to draw the longest possible straight line inside the large cube that touches any point of the small cube and ends at the furthest point of the larger cube, how long would that line be?\n\nOptions:\n1. 1.732 meters\n2. 2 meters\n3. 2.828 meters\n4. 3.464 meters\n5. Another answer",
+      "gold": 4,
+      "pred_N0": 4,
+      "pred_N1": -1,
+      "response_N0": "4",
+      "response_N1": "The answer is: 6.30",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 105,
+        "n_chars": 560,
+        "n_numbers_in_question": 10,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 578,
+      "question": "In a bag, there are coins of 3 different denominations: 1-dollar, 2-dollar, and 5-dollar. The number of 2-dollar coins is double the number of 1-dollar coins and the number of 5-dollar coins is half the number of 2-dollar coins. If the total amount of money in the bag is 56 dollars, how many coins of each denomination are there?\n\nOptions:\n1. 5 of 1-dollar, 10 of 2-dollar, 5 of 5-dollar\n2. 5 of 1-dollar, 10 of 2-dollar, 6 of 5-dollar\n3. 6 of 1-dollar, 12 of 2-dollar, 6 of 5-dollar\n4. 4 of 1-dollar, 8 of 2-dollar, 4 of 5-dollar\n5. Another answer",
+      "gold": 5,
+      "pred_N0": 5,
+      "pred_N1": -1,
+      "response_N0": " is: 5",
+      "response_N1": "The answer is: 10",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 103,
+        "n_chars": 549,
+        "n_numbers_in_question": 38,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 584,
+      "question": "Imagine you are in a room which is shaped like a perfect cube. Each wall, including the floor and ceiling, is painted with a distinct color and you can only exit the room through a door located in one of the walls. You enter the room and observe the following: the floor is painted blue, the ceiling is red. To your right, there is a green wall and to your left, an orange wall. The wall directly in front of you is yellow. In which colored wall is the exit door located?\n\nOptions:\n1. Blue\n2. Green\n3. Yellow\n4. The missing color that is not described in the observations\n5. Another answer",
+      "gold": 4,
+      "pred_N0": 4,
+      "pred_N1": -1,
+      "response_N0": "The answer is: 4",
+      "response_N1": "The answer is: 6",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 113,
+        "n_chars": 589,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 604,
+      "question": "In a room, there are 4 corners: A, B, C, and D. You have to place a lamp in the room such that the following conditions are met: 1) The lamp must be equidistant from corners A, B, and C. 2) The distance from corner D to the lamp must be twice the distance from corner A to the lamp. Assuming the room is square and the corners are labeled in clockwise order, where should you place the lamp?\n\nOptions:\n1. At the center of the room\n2. Halfway between corner A and the center of the room\n3. At corner A\n4. Nowhere, because it's a logical trap\n5. Another answer",
+      "gold": 4,
+      "pred_N0": 4,
+      "pred_N1": -1,
+      "response_N0": " is: 4",
+      "response_N1": "The answer is: 6",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 112,
+        "n_chars": 558,
+        "n_numbers_in_question": 8,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 608,
+      "question": "In a classroom, there are 20 students. On a special drawing competition day, each student is allowed to draw either a house, a tree, or a car. The probability of a student choosing to draw a house is 1/2, while the probability of choosing a tree is 1/3. What is the probability that at least one student will draw a car?\n\nOptions:\n1. 0.0264\n2. 0.9736\n3. 0.6435\n4. 0.7745\n5. Another answer",
+      "gold": 2,
+      "pred_N0": 2,
+      "pred_N1": -1,
+      "response_N0": "0.2",
+      "response_N1": "The answer is: 0.27",
+      "correct_N0": true,
+      "correct_N1": false,
+      "features": {
+        "n_words": 73,
+        "n_chars": 388,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    }
+  ]
+}

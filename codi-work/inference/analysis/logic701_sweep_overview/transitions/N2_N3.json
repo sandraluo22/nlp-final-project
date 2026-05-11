@@ -1,0 +1,236 @@
+{
+  "from_N": 2,
+  "to_N": 3,
+  "gained_wrong_to_right": 3,
+  "lost_right_to_wrong": 1,
+  "stable_right": 23,
+  "stable_wrong": 674,
+  "feature_breakdown": {
+    "gained": {
+      "count": 3,
+      "n_words": {
+        "mean": 124.0,
+        "median": 104,
+        "min": 103,
+        "max": 165
+      },
+      "n_chars": {
+        "mean": 620.33,
+        "median": 534,
+        "min": 528,
+        "max": 799
+      },
+      "n_numbers_in_question": {
+        "mean": 22.0,
+        "median": 15,
+        "min": 12,
+        "max": 39
+      },
+      "gold_numeric": {
+        "mean": 4.0,
+        "median": 4.0,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 3
+      },
+      "gold_option_dist": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "lost": {
+      "count": 1,
+      "n_words": {
+        "mean": 124.0,
+        "median": 124,
+        "min": 124,
+        "max": 124
+      },
+      "n_chars": {
+        "mean": 563.0,
+        "median": 563,
+        "min": 563,
+        "max": 563
+      },
+      "n_numbers_in_question": {
+        "mean": 69.0,
+        "median": 69,
+        "min": 69,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1
+      },
+      "gold_option_dist": {
+        "3": 1
+      }
+    },
+    "stable_right": {
+      "count": 23,
+      "n_words": {
+        "mean": 88.74,
+        "median": 77,
+        "min": 36,
+        "max": 193
+      },
+      "n_chars": {
+        "mean": 473.52,
+        "median": 410,
+        "min": 174,
+        "max": 1182
+      },
+      "n_numbers_in_question": {
+        "mean": 12.04,
+        "median": 13,
+        "min": 5,
+        "max": 33
+      },
+      "gold_numeric": {
+        "mean": 3.57,
+        "median": 4.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 23
+      },
+      "gold_option_dist": {
+        "1": 2,
+        "2": 6,
+        "3": 2,
+        "4": 3,
+        "5": 10
+      }
+    },
+    "stable_wrong": {
+      "count": 674,
+      "n_words": {
+        "mean": 89.49,
+        "median": 81.0,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 466.52,
+        "median": 421.5,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.76,
+        "median": 13.0,
+        "min": 5,
+        "max": 52
+      },
+      "gold_numeric": {
+        "mean": 2.75,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 674
+      },
+      "gold_option_dist": {
+        "1": 141,
+        "2": 195,
+        "3": 160,
+        "4": 49,
+        "5": 129
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 224,
+      "question": "You are given a box that has three gears connected in a sequence. Gear A has 12 teeth, Gear B has 8 teeth, and Gear C has 6 teeth. Gear A is connected to a handle that you can rotate, and for every full rotation of Gear A, Gear B rotates a specific number of times, which in turn causes Gear C to rotate a certain number of times. If you rotate the handle attached to Gear A once completely, how many full rotations does Gear C complete?\n\nOptions:\n1. 1 rotation\n2. 1.5 rotations\n3. 2 rotations\n4. 2.5 rotations\n5. Another answer",
+      "gold": 3,
+      "pred_N2": 2,
+      "pred_N3": 3,
+      "response_N2": "The answer is: 2",
+      "response_N3": "The answer is: 3",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 104,
+        "n_chars": 528,
+        "n_numbers_in_question": 12,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 486,
+      "question": "Alice, Bob, and Charlie are three friends who decide to paint a room together. They find that Alice can paint the room completely by herself in 5 hours, Bob can do it in 6 hours, and Charlie in 8 hours. They start painting together at the same pace they normally would by themselves, but after 2 hours, Charlie has to leave. How much time, in hours, will it take for Alice and Bob to finish painting the room after Charlie leaves?\n\nOptions:\n1. 3 hours\n2. 2.5 hours\n3. 2 hours and 30 minutes\n4. 2 hours and 45 minutes\n5. Another answer",
+      "gold": 4,
+      "pred_N2": 5,
+      "pred_N3": 4,
+      "response_N2": "The answer is: 4.5",
+      "response_N3": "The answer is: 4",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 103,
+        "n_chars": 534,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 542,
+      "question": "You have a to-do list with 5 tasks that need to be completed today. Each task takes a certain amount of time (in hours) to complete: Task 1: 2 hours, Task 2: 4 hours, Task 3: 1 hour, Task 4: 3 hours, Task 5: 2 hours. You can only work on one task at a time. There will be a 1-hour lunch break that can be taken after completing any of the tasks, and after the break, it takes you an extra 30 minutes to regain your focus and get back to peak productivity regardless of the task chosen. Assuming you have exactly 8 hours to finish all tasks, how would you arrange them to complete all within the given timeframe?\n\nOptions:\n1. Tasks in order: 3, 1, 5, lunch, 4, 2\n2. Tasks in order: 2, 4, lunch, 3, 1, 5\n3. Tasks in order: 1, 3, 5, lunch, 2, 4\n4. Tasks in order: 1, 2, 3, lunch, 5, 4\n5. Another answer",
+      "gold": 5,
+      "pred_N2": 4,
+      "pred_N3": 5,
+      "response_N2": "The answer is: 4",
+      "response_N3": "The answer is: 4.5",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 165,
+        "n_chars": 799,
+        "n_numbers_in_question": 39,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 423,
+      "question": "You have 15 numbered balls that you need to divide into 3 baskets. The sum of the numbers on the balls in each basket must be equal. The balls are numbered from 1 to 15. How can you distribute the balls into the baskets?\n\nOptions:\n1. Basket 1: {1, 6, 13}, Basket 2: {2, 7, 11}, Basket 3: {3, 8, 9}\n2. Basket 1: {3, 5, 14, 18}, Basket 2: {1, 6, 10, 23}, Basket 3: {4, 9, 7, 20}\n3. Basket 1: {1, 4, 10, 11, 14}, Basket 2: {2, 5, 8, 12, 13}, Basket 3: {3, 6, 7, 9, 15}\n4. Basket 1: {1, 7, 12, 20}, Basket 2: {2, 8, 15, 15}, Basket 3: {3, 5, 10, 22}\n5. Another answer",
+      "gold": 3,
+      "pred_N2": 3,
+      "pred_N3": 5,
+      "response_N2": "The answer is: 3",
+      "response_N3": "The answer is: 5",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 124,
+        "n_chars": 563,
+        "n_numbers_in_question": 69,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    }
+  ]
+}

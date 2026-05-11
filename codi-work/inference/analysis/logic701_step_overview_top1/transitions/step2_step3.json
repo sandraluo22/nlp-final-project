@@ -1,0 +1,545 @@
+{
+  "from_step": 2,
+  "to_step": 3,
+  "gained_wrong_to_right": 0,
+  "lost_right_to_wrong": 25,
+  "stable_right": 0,
+  "stable_wrong": 676,
+  "feature_breakdown": {
+    "gained": {
+      "count": 0
+    },
+    "lost": {
+      "count": 25,
+      "n_words": {
+        "mean": 110.96,
+        "median": 99,
+        "min": 48,
+        "max": 221
+      },
+      "n_chars": {
+        "mean": 579.8,
+        "median": 549,
+        "min": 241,
+        "max": 1193
+      },
+      "n_numbers_in_question": {
+        "mean": 13.88,
+        "median": 15,
+        "min": 5,
+        "max": 39
+      },
+      "gold_numeric": {
+        "mean": 2.52,
+        "median": 2.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 25
+      },
+      "gold_option_dist": {
+        "1": 4,
+        "2": 12,
+        "3": 4,
+        "4": 2,
+        "5": 3
+      }
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 676,
+      "n_words": {
+        "mean": 88.87,
+        "median": 81.0,
+        "min": 24,
+        "max": 225
+      },
+      "n_chars": {
+        "mean": 463.4,
+        "median": 419.5,
+        "min": 119,
+        "max": 1231
+      },
+      "n_numbers_in_question": {
+        "mean": 12.82,
+        "median": 13.0,
+        "min": 5,
+        "max": 69
+      },
+      "gold_numeric": {
+        "mean": 2.79,
+        "median": 3.0,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 676
+      },
+      "gold_option_dist": {
+        "1": 139,
+        "2": 189,
+        "3": 160,
+        "4": 51,
+        "5": 137
+      }
+    }
+  },
+  "topk": 1,
+  "layer": 16,
+  "gained_questions": [],
+  "lost_questions": [
+    {
+      "idx": 42,
+      "question": "Laura, Marcus, and Nora have been captured by a notorious pirate, who has decided to give them a chance for freedom. The pirate blindfolds them and tells them that he will place a hat on each of their heads. Each hat is either black or white, and there are at least two hats of each color. They will stand in a line, one behind the other, facing forward, so that Laura can see both Marcus and Nora, Marcus can only see Nora, and Nora can't see anyone. When the blindfolds are removed, they can't speak to or signal each other, and they can't look at their own hats. They must guess the color of their own hat starting with Laura, then Marcus, and then Nora. If at least one of them guesses correctly, they will all go free. The pirate also tells them that he will place the hats while they are still blindfolded and that they will have some time to strategize before he does so. What strategy should they use to maximize their chances of freedom?\n\nOptions:\n1. Laura speaks out the color she sees most of.\n2. Laura remains silent for reasoning, not randomly.\n3. They all randomly guess a color.\n4. They take turns speaking out each color until someone guesses their hat color.\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 18,
+      "features": {
+        "n_words": 221,
+        "n_chars": 1193,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 43,
+      "question": "You have 12 coins and a balance scale. However, 11 coins are identical, and one coin is slightly heavier than the rest. Using the balance scale only three times, determine which coin is the heavier one.\n\nOptions:\n1. Impossible with just three uses of the scale\n2. Divide the coins into groups and compare weights\n3. Weigh each coin individually\n4. The task cannot be completed due to insufficient data\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 21,
+      "features": {
+        "n_words": 73,
+        "n_chars": 419,
+        "n_numbers_in_question": 7,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 73,
+      "question": "You have to complete three tasks at work. Task A will take an hour to complete, but can only be performed in the morning. Task B will also take an hour and can be done at any time. Task C takes two hours and must be done in the afternoon. Your workday is 8 hours long starting at 8:00 am and ending at 4:00 pm, with a one-hour lunch break from 12:00 pm to 1:00 pm. In what order should you complete the tasks to maximize the amount of free time you have at the end of the day before 4:00 pm?\n\nOptions:\n1. A, B, Lunch, C\n2. B, A, Lunch, C\n3. C, Lunch, A, B\n4. Lunch, A, B, C\n5. Another answer",
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 49,
+      "features": {
+        "n_words": 126,
+        "n_chars": 591,
+        "n_numbers_in_question": 16,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 111,
+      "question": "There's a cabin on the side of a mountain which has become infamous as 'The Cabin of Passages,' rumored to have the power of teleportation. Many who have gone in have never been seen again. A group of four adventurous friends decide to visit this cabin. As they step inside, they notice there are no unusual objects—just an old wooden table with a candle, two chairs, a mirror hanging on a wall and a small wooden owl statue. After some time, they all walk out of the cabin safely without any supernatural occurrence. What did the friends do differently than those who disappeared?\n\nOptions:\n1. They used the mirror to signal for help.\n2. They placed the owl statue on the table, unlocking a secret exit.\n3. They extinguished the candle to reveal a secret message.\n4. They walked back out the same way they came in.\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 103,
+      "features": {
+        "n_words": 150,
+        "n_chars": 833,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 133,
+      "question": "In a small village, there is a bizarre rule: Every family must have a pet, but no two neighbors can have the same kind of pet. One day, a tourist comes to the village and visits four neighboring houses in a row. Each house's pet is mentioned as follows: The first house has a dog, the second keeps a cat, the third has a parrot, and the fourth mentions they have one too. Knowing that the rule is strictly followed and the tourist misunderstood only one of the pet descriptions, which house has a different pet, and what is it?\n\nOptions:\n1. First house with a rabbit\n2. Second house with a hamster\n3. Third house with a parrot\n4. Fourth house with a fish\n5. Another answer",
+      "gold": 4,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 93,
+      "features": {
+        "n_words": 128,
+        "n_chars": 672,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 4.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 4
+      }
+    },
+    {
+      "idx": 151,
+      "question": "You have 3 opaque bags each containing 2 marbles. Bag A contains two white marbles, Bag B contains two black marbles, and Bag C contains one white marble and one black marble. You pick a bag at random and then take one marble from that bag without looking. The marble is white. What is the probability that the other marble from the same bag is also white?\n\nOptions:\n1. 1/3\n2. 1/2\n3. 2/3\n4. 1/4\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 174,
+      "features": {
+        "n_words": 79,
+        "n_chars": 412,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 167,
+      "question": "A sequence starts with the number 1 and each subsequent number is three times the previous number plus 1. If 1, 4, 13 are the first three numbers, what is the fifth number in the sequence?\n\nOptions:\n1. 52\n2. 58\n3. 121\n4. 91\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 49,
+      "features": {
+        "n_words": 48,
+        "n_chars": 241,
+        "n_numbers_in_question": 14,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 168,
+      "question": "Alice, Bob, and Carol need to paint three houses, one for each. They can paint in different colors: red, blue, and green. Alice can't use red paint due to an allergy. Bob doesn't want the green house because it doesn't match his car. Carol mocked the color blue and vowed never to use it. They want to paint their houses using each color once without violating their personal restrictions. In which color should Alice, Bob, and Carol paint their houses to satisfy all conditions?\n\nOptions:\n1. Alice - red, Bob - blue, Carol - green\n2. Alice - green, Bob - red, Carol - blue\n3. Alice - blue, Bob - red, Carol - green\n4. Alice - red, Bob - green, Carol - blue\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 12,
+      "features": {
+        "n_words": 128,
+        "n_chars": 675,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 191,
+      "question": "Imagine a function f(x) that takes an integer x and performs the following operations: 1. If x is even, it divides x by 2; 2. If x is odd and greater than 1, it multiplies x by 3 and adds 1; 3. If x is 1, it stops the process. Starting from an integer n, you apply the function repeatedly until you reach 1. If you start with the number 11, how many times do you apply the function (including the final step of reaching 1)?\n\nOptions:\n1. 8\n2. 14\n3. 15\n4. 11\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 1439,
+      "features": {
+        "n_words": 98,
+        "n_chars": 474,
+        "n_numbers_in_question": 20,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 307,
+      "question": "There are two dice. The first die is fair with each number from 1 to 6 having an equal probability of being rolled. The second die is biased such that the number 6 has a 50% chance of being rolled while the other five numbers (1-5) have an equal chance of being rolled for the remaining 50%. What is the probability of rolling a total of 7 with the two dice?\n\nOptions:\n1. 1/6\n2. 1/4\n3. 1/2\n4. 2/3\n5. Another answer",
+      "gold": 1,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 79,
+      "features": {
+        "n_words": 83,
+        "n_chars": 414,
+        "n_numbers_in_question": 21,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 316,
+      "question": "Adam, Brenda, and Charles work at a bakery. Adam can decorate a cake in 4 hours, Brenda can do it in 3 hours, and Charles in 6 hours. If they decide to work together on decorating a single cake, dividing the work equally, how long will it take for them to decorate the cake?\n\nOptions:\n1. 1 hour and 20 minutes\n2. 2 hours\n3. 1 hour and 40 minutes\n4. 2 hours and 30 minutes\n5. Another answer",
+      "gold": 1,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 76,
+      "features": {
+        "n_words": 79,
+        "n_chars": 389,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 334,
+      "question": "A team of three workers, Anna, Bob, and Charles, operates a complex mechanism that requires all three to pull levers simultaneously to activate. The mechanism can only be activated twice a day. Each worker can pull their lever only once per day. A new policy dictates that for security reasons, no worker can pull the lever two days in a row. If Anna pulled her lever yesterday, who are the two workers that can operate the mechanism today?\n\nOptions:\n1. Anna and Bob\n2. Bob and Charles\n3. Charles and Anna\n4. Anna, Bob, and Charles\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 11,
+      "features": {
+        "n_words": 99,
+        "n_chars": 549,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 339,
+      "question": "Alice, Bob, and Charlie are participants in a game show. The host shows them five hats: three red and two blue. Each participant is blindfolded and has one hat placed on their head; the remaining hats are hidden. They can't see their own hat, but they can see the hats of the other two participants. The first to correctly announce the color of their own hat wins a prize. Alice sees that Bob and Charlie have red hats. Bob sees that Alice and Charlie have red hats. Charlie sees that Alice and Bob have red hats. They all deduce logically and do not guess. Alice says she doesn't know the color of her hat. Bob also says he doesn't know the color of his hat. Charlie then announces the color of his hat. What color is Charlie's hat, and what is the logical explanation?\n\nOptions:\n1. Red\n2. Blue\n3. The color cannot be determined\n4. Not enough information\n5. Another answer",
+      "gold": 2,
+      "pred": 4,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 10,
+      "features": {
+        "n_words": 162,
+        "n_chars": 873,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 354,
+      "question": "Alex is fascinated by sequences and finds a peculiar pattern in the sequence of numbers he writes on his notebook. The sequence starts with 1 and the subsequent numbers seem to be following a certain rule: 1, 11, 21, 1211, 111221, ... What would be the next number in Alex's sequence?\n\nOptions:\n1. 131221\n2. 312211\n3. 111321\n4. 211331\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 14881,
+      "features": {
+        "n_words": 63,
+        "n_chars": 352,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 411,
+      "question": "You are planning a dinner party for 5 friends and want to serve them pizza. Each friend eats either 2 or 3 slices, and you don't know their individual preferences. You need to decide how many pizzas to order. Each pizza has 8 slices. You want to minimize the number of leftover slices while ensuring that everyone has enough to eat. How many pizzas should you order?\n\nOptions:\n1. 2 Pizzas\n2. 3 Pizzas\n3. 4 Pizzas\n4. 5 Pizzas\n5. Another answer",
+      "gold": 2,
+      "pred": 3,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 23,
+      "features": {
+        "n_words": 83,
+        "n_chars": 442,
+        "n_numbers_in_question": 13,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 497,
+      "question": "You have a biased coin that has a 2/3 chance of landing heads and a 1/3 chance of landing tails. If you flip the coin three times, what is the probability of getting exactly two heads and one tail in any order?\n\nOptions:\n1. 2/9\n2. 4/9\n3. 1/3\n4. 1/2\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 458,
+      "features": {
+        "n_words": 54,
+        "n_chars": 266,
+        "n_numbers_in_question": 17,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 516,
+      "question": "You are given two functions, f(x) = 2x + 3 and g(x) = -x^2 + 5. What is the maximum integer value for h(x) when h(x) is defined as the minimum value of f(x) and g(x) for any integer x from -10 to 10 inclusive?\n\nOptions:\n1. 2\n2. 3\n3. 4\n4. 5\n5. Another answer",
+      "gold": 2,
+      "pred": 5,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 206,
+      "features": {
+        "n_words": 57,
+        "n_chars": 257,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 527,
+      "question": "Alice, Bob, and Charlie are planning to collaborate on a project. The project consists of 3 different tasks: Task X, Task Y, and Task Z. Each person is to take one task. Alice takes twice as long to complete any given task as Bob does. Charlie takes 3 times as long as Alice for Task X and Task Z, but can complete Task Y as fast as Bob. If the goal is to minimize the total time taken to complete the project, which person should be assigned to each task?\n\nOptions:\n1. Alice: Task X, Bob: Task Y, Charlie: Task Z\n2. Alice: Task Z, Bob: Task X, Charlie: Task Y\n3. Alice: Task Y, Bob: Task Z, Charlie: Task X\n4. Alice: Task X, Bob: Task Z, Charlie: Task Y\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 28,
+      "features": {
+        "n_words": 134,
+        "n_chars": 672,
+        "n_numbers_in_question": 7,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 542,
+      "question": "You have a to-do list with 5 tasks that need to be completed today. Each task takes a certain amount of time (in hours) to complete: Task 1: 2 hours, Task 2: 4 hours, Task 3: 1 hour, Task 4: 3 hours, Task 5: 2 hours. You can only work on one task at a time. There will be a 1-hour lunch break that can be taken after completing any of the tasks, and after the break, it takes you an extra 30 minutes to regain your focus and get back to peak productivity regardless of the task chosen. Assuming you have exactly 8 hours to finish all tasks, how would you arrange them to complete all within the given timeframe?\n\nOptions:\n1. Tasks in order: 3, 1, 5, lunch, 4, 2\n2. Tasks in order: 2, 4, lunch, 3, 1, 5\n3. Tasks in order: 1, 3, 5, lunch, 2, 4\n4. Tasks in order: 1, 2, 3, lunch, 5, 4\n5. Another answer",
+      "gold": 5,
+      "pred": 5,
+      "student_final_correct": true,
+      "rank_step2": 0,
+      "rank_step3": 3461,
+      "features": {
+        "n_words": 165,
+        "n_chars": 799,
+        "n_numbers_in_question": 39,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 545,
+      "question": "In a strange land, there are three types of trees, each of which bear a unique fruit once every year. These trees are arranged in a perfect rectangular grid, and due to particular soil conditions, their fruit-bearing pattern follows a strict rule: Every row in the grid has a sequence of exactly one tree of each type, but the types of trees in the consecutive rows are shifted one position to the right in a cyclic manner (once a tree type moves off the grid, it reappears on the left side). One day, a child decides to collect fruits by moving in a straight line, starting from a corner of the rectangular grid. The child picks fruits from the first two trees along the path and notes the sequence. It's a 'plum' from a Plumtree followed by an 'apple' from an Appletree. Assuming the grid contains at least three rows and three columns of trees, what type of fruit will the child collect from the third tree that lies on the child's straight path?\n\nOptions:\n1. apple\n2. plum\n3. banana\n4. no fruit (tree does not bear fruit)\n5. Another answer",
+      "gold": 3,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 6,
+      "features": {
+        "n_words": 192,
+        "n_chars": 1043,
+        "n_numbers_in_question": 5,
+        "is_multiple_choice": true,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 3
+      }
+    },
+    {
+      "idx": 578,
+      "question": "In a bag, there are coins of 3 different denominations: 1-dollar, 2-dollar, and 5-dollar. The number of 2-dollar coins is double the number of 1-dollar coins and the number of 5-dollar coins is half the number of 2-dollar coins. If the total amount of money in the bag is 56 dollars, how many coins of each denomination are there?\n\nOptions:\n1. 5 of 1-dollar, 10 of 2-dollar, 5 of 5-dollar\n2. 5 of 1-dollar, 10 of 2-dollar, 6 of 5-dollar\n3. 6 of 1-dollar, 12 of 2-dollar, 6 of 5-dollar\n4. 4 of 1-dollar, 8 of 2-dollar, 4 of 5-dollar\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 258,
+      "features": {
+        "n_words": 103,
+        "n_chars": 549,
+        "n_numbers_in_question": 38,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 614,
+      "question": "You are given a fair six-sided die (numbered 1 to 6) and a fair coin (heads or tails). You will roll the die first and then flip the coin. What is the probability of getting an even number on the die and a head on the coin?\n\nOptions:\n1. 1/4\n2. 1/2\n3. 1/3\n4. 3/4\n5. Another answer",
+      "gold": 1,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 46,
+      "features": {
+        "n_words": 59,
+        "n_chars": 279,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 1
+      }
+    },
+    {
+      "idx": 637,
+      "question": "A scientist has built three different time machines: Machine A, Machine B, and Machine C. Each machine has two modes: 'Forward in time' and 'Backward in time'. When operating in 'Forward in time' mode, Machine A moves forward by 3 hours, Machine B by 5 hours, and Machine C by 7 hours. When set to 'Backward in time', they move backwards by the same amount of time. The scientist activates each machine once. After the operation, the total net time traveled equals zero, meaning the combined operation of the machines has not resulted in any change in the present time. What combinations of modes were set on each machine?\n\nOptions:\n1. Machine A: Backward, Machine B: Forward, Machine C: Forward\n2. Machine A: Forward, Machine B: Forward, Machine C: Forward\n3. Machine A: Forward, Machine B: Backward, Machine C: Forward\n4. Machine A: Forward, Machine B: Backward, Machine C: Backward\n5. Another answer",
+      "gold": 5,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 248,
+      "features": {
+        "n_words": 153,
+        "n_chars": 902,
+        "n_numbers_in_question": 8,
+        "is_multiple_choice": true,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 5
+      }
+    },
+    {
+      "idx": 654,
+      "question": "You are given a function f(x) that takes any positive integer x and if x is even, it returns x/2. If x is odd, it returns 3*x + 1. Starting with 15, you apply the function several consecutive times until you reach the number 1. How many times do you need to apply this function to reach 1?\n\nOptions:\n1. 16 times\n2. 17 times\n3. 18 times\n4. 20 times\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 1082,
+      "features": {
+        "n_words": 74,
+        "n_chars": 365,
+        "n_numbers_in_question": 15,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    },
+    {
+      "idx": 675,
+      "question": "You have two water jars, one with a capacity of 5 liters and the other with a capacity of 3 liters. There is a large barrel of water from which you can fill the jars. You need to measure exactly 4 liters of water to diffuse a time-sensitive bomb. You can fill the jars, empty them out, and pour water from one jar to the other. How do you measure exactly 4 liters of water?\n\nOptions:\n1. Fill the 3-liter jar twice.\n2. Fill the 5-liter jar and pour into the 3-liter jar until it's full, then empty the 3-liter jar, pour the remaining 2 liters into the 3-liter jar, fill the 5-liter jar again, and use it to top off the 3-liter jar, leaving 4 liters in the 5-liter jar.\n3. Fill the 5-liter jar completely and guess when you pour out to make 4 liters.\n4. Transfer water back and forth until you get lucky with 4 liters.\n5. Another answer",
+      "gold": 2,
+      "pred": -1,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 1,
+      "features": {
+        "n_words": 163,
+        "n_chars": 834,
+        "n_numbers_in_question": 22,
+        "is_multiple_choice": true,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9",
+        "gold_option": 2
+      }
+    }
+  ]
+}

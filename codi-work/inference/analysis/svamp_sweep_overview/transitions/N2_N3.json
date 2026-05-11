@@ -1,0 +1,411 @@
+{
+  "from_N": 2,
+  "to_N": 3,
+  "gained_wrong_to_right": 8,
+  "lost_right_to_wrong": 6,
+  "stable_right": 600,
+  "stable_wrong": 386,
+  "feature_breakdown": {
+    "gained": {
+      "count": 8,
+      "n_words": {
+        "mean": 36.5,
+        "median": 37.0,
+        "min": 29,
+        "max": 43
+      },
+      "n_chars": {
+        "mean": 185.5,
+        "median": 183.0,
+        "min": 151,
+        "max": 235
+      },
+      "n_numbers_in_question": {
+        "mean": 3.75,
+        "median": 4.0,
+        "min": 3,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 23.38,
+        "median": 9.5,
+        "min": 5.0,
+        "max": 123.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 4,
+        "10-99": 3,
+        "100-999": 1
+      }
+    },
+    "lost": {
+      "count": 6,
+      "n_words": {
+        "mean": 34.5,
+        "median": 31.5,
+        "min": 27,
+        "max": 45
+      },
+      "n_chars": {
+        "mean": 190.17,
+        "median": 172.0,
+        "min": 142,
+        "max": 261
+      },
+      "n_numbers_in_question": {
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 2,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 22.0,
+        "median": 29.0,
+        "min": 1.0,
+        "max": 31.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 1,
+        "10-99": 5
+      }
+    },
+    "stable_right": {
+      "count": 600,
+      "n_words": {
+        "mean": 30.24,
+        "median": 29.0,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 153.74,
+        "median": 147.5,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.57,
+        "median": 2.5,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 179.47,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 30057.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 256,
+        "10-99": 262,
+        "100-999": 73,
+        "1000-9999": 7,
+        "10000+": 2
+      }
+    },
+    "stable_wrong": {
+      "count": 386,
+      "n_words": {
+        "mean": 33.97,
+        "median": 33.0,
+        "min": 17,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 175.19,
+        "median": 169.0,
+        "min": 76,
+        "max": 323
+      },
+      "n_numbers_in_question": {
+        "mean": 3.16,
+        "median": 3.0,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 78899.16,
+        "median": 23.5,
+        "min": 1.0,
+        "max": 22090603.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 117,
+        "10-99": 146,
+        "100-999": 64,
+        "1000-9999": 32,
+        "10000+": 27
+      }
+    }
+  },
+  "gained_questions": [
+    {
+      "idx": 42,
+      "question": "Jack received 10 emails and 12 letters in the morning. He then received 3 emails and 44 letters in the afternoon. How many more emails did Jack receive in the morning than in the afternoon?",
+      "gold": 7.0,
+      "pred_N2": 43.0,
+      "pred_N3": 7.0,
+      "response_N2": "<<10+3=13>> <<12+44=56>>The answer is: 43",
+      "response_N3": "The answer is: 7",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 35,
+        "n_chars": 189,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 83,
+      "question": "The school is planning a field trip. The school has 24 classrooms. There are 120 students in the school with each classroom having the same number of students. There are 84 seats on each school bus. How many students are in each class?",
+      "gold": 5.0,
+      "pred_N2": 4.0,
+      "pred_N3": 5.0,
+      "response_N2": "The answer is: 4",
+      "response_N3": "The answer is: 5",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 43,
+        "n_chars": 235,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 141,
+      "question": "Dave had 24 apps and 9 files on his phone. After deleting some apps and files he had 5 files and 12 apps left. How many more apps than files does he have left on the phone?",
+      "gold": 7.0,
+      "pred_N2": 10.0,
+      "pred_N3": 7.0,
+      "response_N2": "12-5=7>> <<24-7=17>> <<12-5=7>>The answer is: 10",
+      "response_N3": "The answer is: 7",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 37,
+        "n_chars": 172,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 7.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 302,
+      "question": "Paco had 39 sweet cookies and 6 salty cookies. He ate 23 salty cookies and 32 sweet cookies. How many more sweet cookies than salty cookies did he eat?",
+      "gold": 9.0,
+      "pred_N2": 7.0,
+      "pred_N3": 9.0,
+      "response_N2": ";7",
+      "response_N3": "The answer is: 9",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 29,
+        "n_chars": 151,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 9.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 329,
+      "question": "There were 7 roses in the vase. Jessica cut some more roses from her flower garden which had a total of 59 roses. There are now 20 roses in the vase. How many roses did she cut?",
+      "gold": 13.0,
+      "pred_N2": 3.0,
+      "pred_N3": 13.0,
+      "response_N2": "The answer is: 3",
+      "response_N3": "The answer is: 13",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 37,
+        "n_chars": 177,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 341,
+      "question": "Paco had 40 sweet cookies and 25 salty cookies. He ate 28 salty cookies and 15 sweet cookies. How many more salty cookies than sweet cookies did he eat?",
+      "gold": 13.0,
+      "pred_N2": 5.0,
+      "pred_N3": 13.0,
+      "response_N2": " only5",
+      "response_N3": "The answer is: 13",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 29,
+        "n_chars": 152,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 13.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 349,
+      "question": "There are 22 different books and 10 different movies in the ' crazy silly school ' series. If you read 12 of the books and watched 56 of the movies How many more books do you still have to read?",
+      "gold": 10.0,
+      "pred_N2": 46.0,
+      "pred_N3": 10.0,
+      "response_N2": "<<22-12=10>> <<10-56=-46>>The answer is: 46",
+      "response_N3": "The answer is: 10",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 40,
+        "n_chars": 194,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 10.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 922,
+      "question": "Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left. How many more baseball cards than Ace cards does Nell have?",
+      "gold": 123.0,
+      "pred_N2": 82.0,
+      "pred_N3": 123.0,
+      "response_N2": "233-178=145>>The answer is: 82",
+      "response_N3": "The answer is: 123",
+      "correct_N2": false,
+      "correct_N3": true,
+      "features": {
+        "n_words": 42,
+        "n_chars": 214,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 123.0,
+        "gold_magnitude_bucket": "100-999"
+      }
+    }
+  ],
+  "lost_questions": [
+    {
+      "idx": 124,
+      "question": "Julia played tag with 2 kids on monday, 14 kids on tuesday and 16 kids on wednesday. How many kids did she play with on tuesday and wednesday?",
+      "gold": 30.0,
+      "pred_N2": 30.0,
+      "pred_N3": 28.0,
+      "response_N2": "The answer is: 30",
+      "response_N3": "The answer is: 28",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 28,
+        "n_chars": 142,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 30.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 478,
+      "question": "David did 27 more push-ups but 7 less crunches than Zachary in gym class today. If Zachary did 5 push-ups and 17 crunches How many more crunches than push-ups did Zachary do?",
+      "gold": 12.0,
+      "pred_N2": 12.0,
+      "pred_N3": 14.0,
+      "response_N2": "The answer is: 12",
+      "response_N3": "The answer is: 14",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 32,
+        "n_chars": 174,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 12.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 647,
+      "question": "Jake has 12 fewer peaches than Steven who has 11 more peaches than Jill. Steven has 4 peaches. How many more peaches does Jill have than Jake?",
+      "gold": 1.0,
+      "pred_N2": 1.0,
+      "pred_N3": 3.0,
+      "response_N2": "The answer is: 1",
+      "response_N3": "The answer is: 3",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 27,
+        "n_chars": 142,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 807,
+      "question": "Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?",
+      "gold": 30.0,
+      "pred_N2": 30.0,
+      "pred_N3": 39.0,
+      "response_N2": " <<54-9=45>>The answer is: 30",
+      "response_N3": "The answer is: 39",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 31,
+        "n_chars": 170,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 30.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 931,
+      "question": "Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?",
+      "gold": 31.0,
+      "pred_N2": 31.0,
+      "pred_N3": 29.0,
+      "response_N2": "The answer is: 31",
+      "response_N3": "The answer is: 29",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 44,
+        "n_chars": 252,
+        "n_numbers_in_question": 2,
+        "is_multiple_choice": false,
+        "gold_numeric": 31.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 989,
+      "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",
+      "gold": 28.0,
+      "pred_N2": 28.0,
+      "pred_N3": 33.0,
+      "response_N2": " <<57-5=52>>The answer is: 28",
+      "response_N3": "The answer is: 33",
+      "correct_N2": true,
+      "correct_N3": false,
+      "features": {
+        "n_words": 45,
+        "n_chars": 261,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 28.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    }
+  ]
+}

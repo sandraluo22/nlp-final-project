@@ -1,0 +1,271 @@
+{
+  "from_step": 2,
+  "to_step": 3,
+  "gained_wrong_to_right": 0,
+  "lost_right_to_wrong": 11,
+  "stable_right": 0,
+  "stable_wrong": 921,
+  "feature_breakdown": {
+    "gained": {
+      "count": 0
+    },
+    "lost": {
+      "count": 11,
+      "n_words": {
+        "mean": 35.64,
+        "median": 37,
+        "min": 24,
+        "max": 46
+      },
+      "n_chars": {
+        "mean": 173.36,
+        "median": 175,
+        "min": 127,
+        "max": 221
+      },
+      "n_numbers_in_question": {
+        "mean": 3.64,
+        "median": 4,
+        "min": 3,
+        "max": 4
+      },
+      "gold_numeric": {
+        "mean": 18.18,
+        "median": 6.0,
+        "min": 1.0,
+        "max": 67.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 7,
+        "10-99": 4
+      }
+    },
+    "stable_right": {
+      "count": 0
+    },
+    "stable_wrong": {
+      "count": 921,
+      "n_words": {
+        "mean": 31.64,
+        "median": 30,
+        "min": 15,
+        "max": 57
+      },
+      "n_chars": {
+        "mean": 161.84,
+        "median": 153,
+        "min": 68,
+        "max": 331
+      },
+      "n_numbers_in_question": {
+        "mean": 2.8,
+        "median": 3,
+        "min": 2,
+        "max": 5
+      },
+      "gold_numeric": {
+        "mean": 65.25,
+        "median": 14.0,
+        "min": 1.0,
+        "max": 997.0
+      },
+      "gold_magnitude_dist": {
+        "0-9": 371,
+        "10-99": 412,
+        "100-999": 138
+      }
+    }
+  },
+  "topk": 1,
+  "layer": 16,
+  "gained_questions": [],
+  "lost_questions": [
+    {
+      "idx": 30,
+      "question": "Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies. How many more salty cookies than sweet cookies did he eat?",
+      "gold": 14.0,
+      "pred": 18.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 554,
+      "features": {
+        "n_words": 29,
+        "n_chars": 150,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 14.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 286,
+      "question": "Rebecca wants to split a collection of eggs into groups of 6. Rebecca has 18 eggs 72 bananas and 66 marbles. How many groups will be created?",
+      "gold": 3.0,
+      "pred": 24.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 449,
+      "features": {
+        "n_words": 27,
+        "n_chars": 141,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 3.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 367,
+      "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 5 cups of sugar. She already put in 3 cups of flour and 62 cups of sugar. How many more cups of flour does she need to add?",
+      "gold": 6.0,
+      "pred": 4.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 962,
+      "features": {
+        "n_words": 42,
+        "n_chars": 187,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 6.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 462,
+      "question": "Zachary did 53 push-ups and 14 crunches in gym class today. David did 17 more push-ups but 10 less crunches than zachary. How many push-ups and crunches did Zachary do?",
+      "gold": 67.0,
+      "pred": 84.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 9276,
+      "features": {
+        "n_words": 30,
+        "n_chars": 168,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 67.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 474,
+      "question": "Steven has 12 peaches. Jake has 4 fewer peaches than Steven who has 67 more peaches than Jill. How many peaches does Jake have?",
+      "gold": 8.0,
+      "pred": 65.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 8537,
+      "features": {
+        "n_words": 24,
+        "n_chars": 127,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 8.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 516,
+      "question": "After resting they decided to go for a swim. The depth of the water is 5 times Ron's height. Dean is 11 feet shorter than Ron. If Ron stands at 12 feet How deep was the water?",
+      "gold": 60.0,
+      "pred": 60.0,
+      "student_final_correct": true,
+      "rank_step2": 0,
+      "rank_step3": 7276,
+      "features": {
+        "n_words": 37,
+        "n_chars": 175,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 60.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 555,
+      "question": "There are 10 different books and 11 different movies in the ' crazy silly school ' series. If you read 13 of the books and watched 12 of the movies How many more books than movies have you read?",
+      "gold": 1.0,
+      "pred": 2.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 25,
+      "features": {
+        "n_words": 39,
+        "n_chars": 194,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 595,
+      "question": "Ed had 12 more marbles than Doug. Ed lost 20 of his marbles at the playground. If Ed had 17 marbles How many marbles does Doug have now?",
+      "gold": 5.0,
+      "pred": 15.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 4054,
+      "features": {
+        "n_words": 28,
+        "n_chars": 136,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 5.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 810,
+      "question": "Mary is baking a cake. The recipe calls for 11 cups of sugar 6 cups of flour and 9 cups of salt. She already put in 12 cups of flour. How many more cups of sugar than cups of salt does she need to add now?",
+      "gold": 2.0,
+      "pred": 2.0,
+      "student_final_correct": true,
+      "rank_step2": 0,
+      "rank_step3": 33,
+      "features": {
+        "n_words": 46,
+        "n_chars": 205,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 2.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    },
+    {
+      "idx": 896,
+      "question": "Danny collects bottle caps. He found 30 bottle caps at the park while he threw away 63 old ones. Now he has 42 bottle caps in his collection. How many more bottle caps did danny throw away than those he found at the park?",
+      "gold": 33.0,
+      "pred": 33.0,
+      "student_final_correct": true,
+      "rank_step2": 0,
+      "rank_step3": 10376,
+      "features": {
+        "n_words": 44,
+        "n_chars": 221,
+        "n_numbers_in_question": 3,
+        "is_multiple_choice": false,
+        "gold_numeric": 33.0,
+        "gold_magnitude_bucket": "10-99"
+      }
+    },
+    {
+      "idx": 957,
+      "question": "Mary is baking a cake. The recipe calls for 6 cups of flour 8 cups of sugar and 7 cups of salt. She already put in 5 cups of flour. How many more cups of sugar than cups of salt does she need to add now?",
+      "gold": 1.0,
+      "pred": 2.0,
+      "student_final_correct": false,
+      "rank_step2": 0,
+      "rank_step3": 18,
+      "features": {
+        "n_words": 46,
+        "n_chars": 203,
+        "n_numbers_in_question": 4,
+        "is_multiple_choice": false,
+        "gold_numeric": 1.0,
+        "gold_magnitude_bucket": "0-9"
+      }
+    }
+  ]
+}
