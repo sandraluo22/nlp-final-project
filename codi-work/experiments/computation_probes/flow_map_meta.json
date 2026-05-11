@@ -1,0 +1,33 @@
+{
+  "N_total": 1000,
+  "N_layers": 12,
+  "N_heads": 12,
+  "N_latent_steps": 6,
+  "N_decode_steps": 10,
+  "class_names": [
+    "Q",
+    "BOT",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "EOT",
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9"
+  ],
+  "phases": [
+    "latent",
+    "decode"
+  ],
+  "notes": "mean_attn shape = (phase=2, step=N_DECODE_STEPS_max, layer, head, class). For latent phase, only steps 0..5 are valid; decode 0..N_DECODE_STEPS-1. For latent step k, only classes Q,BOT,L1..L(k+1) are nonzero. For decode step d, also includes L1..L6, EOT, D0..D(d-1), Dd (self)."
+}
