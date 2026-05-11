@@ -1,5 +1,9 @@
 # operator-probe/ — operator probe + multi-position probes
 
+## Subdirectories
+- `probe-fitting/` — all LDA-on-operator slideshows (per-(step, layer) supervised
+  LDA, 80/20 train/test, dim-sweeps, cross-dataset transfer). See its own README.
+
 ## Outputs
 - `operator_probe_colon.{py,json,pdf}` — 4-class operator probe at ':' residual per layer.
 
