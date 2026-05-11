@@ -55,6 +55,9 @@ def main():
     faithful = np.array([label_by_idx.get(i, "teacher_incorrect") for i in range(N)])
     log_answer = np.log10(np.maximum(answers, 1) + 1)
     magnitude = bucket_magnitude(answers)
+    pred = np.array([np.nan if v is None else float(v) for v in meta["pred_int_extracted"]])
+    correct = (~np.isnan(pred)) & (~np.isnan(gold)) & (np.abs(pred - gold) < 1e-3)
+    print(f"  correct: {int(correct.sum())}/{N}")
 
     # Map labels for LDA
     OPS = ["Addition", "Subtraction", "Multiplication", "Common-Division"]
@@ -77,7 +80,7 @@ def main():
     print(f"writing {OUT_PDF}")
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer"]:
+        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer", "correct"]:
             print(f"  coloring: {coloring}")
             for l in range(L):
                 fig, ax = plt.subplots(figsize=(8, 6))
@@ -116,6 +119,15 @@ def main():
                                     c=log_answer[valid], cmap="viridis", alpha=0.6, linewidths=0)
                     cb = fig.colorbar(sc, ax=ax, fraction=0.04, pad=0.02)
                     cb.set_label("log10(answer+1)", fontsize=8)
+                elif coloring == "correct":
+                    for val, color, lbl in [(False, "#d62728", "wrong"),
+                                            (True, "#2ca02c", "right")]:
+                        mask = (correct == val) & valid
+                        ax.scatter(xy[mask, 0], xy[mask, 1], s=6, c=color,
+                                   alpha=0.55, linewidths=0)
+                        legend_proxies.append(Line2D([0], [0], marker="o", linestyle="",
+                                                     color=color,
+                                                     label=f"{lbl} ({int(mask.sum())})"))
                 ax.set_xlabel("LD1", fontsize=9); ax.set_ylabel("LD2", fontsize=9)
                 ax.grid(alpha=0.3)
                 if legend_proxies:

@@ -60,8 +60,11 @@ def main():
     faithful = np.array([label_by_idx.get(i, "teacher_incorrect") for i in range(N)])
     log_answer = np.log10(np.maximum(answers, 1) + 1)
     magnitude = bucket_magnitude(answers)
+    pred = np.array([np.nan if v is None else float(v) for v in meta["pred_int_extracted"]])
+    correct = (~np.isnan(pred)) & (~np.isnan(gold)) & (np.abs(pred - gold) < 1e-3)
     print(f"  faithful: {dict(Counter(faithful))}")
     print(f"  types: {dict(Counter(types))}")
+    print(f"  correct: {int(correct.sum())}/{N}")
 
     print("fitting PCA-3 per layer (13 layers)...")
     xyz = np.zeros((L, N, 3), dtype=np.float32)
@@ -74,7 +77,7 @@ def main():
     print(f"writing {OUT_PDF}")
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer"]:
+        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer", "correct"]:
             print(f"  coloring: {coloring}")
             for l in range(L):
                 fig = plt.figure(figsize=(8, 7))
@@ -120,6 +123,16 @@ def main():
                                     depthshade=True, rasterized=True)
                     cb = fig.colorbar(sc, ax=ax, fraction=0.04, pad=0.08)
                     cb.set_label("log10(answer+1)", fontsize=8)
+                elif coloring == "correct":
+                    for val, color, lbl in [(False, "#d62728", "wrong"),
+                                            (True, "#2ca02c", "right")]:
+                        mask = correct == val
+                        ax.scatter(xy[mask, 0], xy[mask, 1], xy[mask, 2],
+                                   s=6, c=color, alpha=0.55, linewidths=0,
+                                   depthshade=True, rasterized=True)
+                        legend_proxies.append(Line2D([0], [0], marker="o", linestyle="",
+                                                     color=color,
+                                                     label=f"{lbl} ({int(mask.sum())})"))
                 ax.set_xlabel(f"PC1 ({v[0]*100:.1f}%)", fontsize=8)
                 ax.set_ylabel(f"PC2 ({v[1]*100:.1f}%)", fontsize=8)
                 ax.set_zlabel(f"PC3 ({v[2]*100:.1f}%)", fontsize=8)

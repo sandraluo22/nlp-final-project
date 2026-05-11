@@ -97,41 +97,42 @@ def main():
         fig.tight_layout(rect=(0, 0, 1, 0.94))
         pdf.savefig(fig, dpi=140); plt.close(fig)
 
-        # ===== Slide 2b: REVERSE view — how is each L_k read by later latent steps? =====
-        # For each source latent L_k, build heatmap: rows = reading step (k+1..6),
-        # cols = layer. Value = mean attention from reading step (averaged over heads)
-        # to L_k. Cells where source doesn't yet exist (reading step <= k) are NaN.
+        # ===== Slide 2b: per-reading-step view — how does step X read each previous latent? =====
+        # One heatmap per X (reading step 2..6; step 1 has no priors). Each heatmap:
+        #   rows = which prior latent (L1..L_(X-1))
+        #   cols = layer
+        #   value = mean attention (over heads) from X at that layer to that prior latent.
         fig, axes = plt.subplots(2, 3, figsize=(14, 8))
-        fig.suptitle("LATENT phase REVERSE view: how is each L_k read by later latent steps?\n"
-                     "(rows = reading step, cols = layer; mean attention over heads, N=1000)",
+        fig.suptitle("LATENT phase: per-reading-step — how much does step X read each previous latent?\n"
+                     "(rows = source latent L_j; cols = layer; mean over heads, N=1000)",
                      fontsize=11, fontweight="bold")
-        for k in range(N_LAT):  # k = 0..5, source latent = L_{k+1}
-            ax = axes.ravel()[k]
-            ci = CLASS_NAMES.index(f"L{k+1}")
-            # Matrix shape: (N_LAT, N_LAYERS); rows correspond to reading step 1..6.
-            mat = np.full((N_LAT, N_LAYERS), np.nan)
-            for read_s in range(N_LAT):
-                # L_{k+1} exists in KV when read_s > k (0-indexed)
-                if read_s > k:
-                    mat[read_s, :] = ATTN[0, read_s, :, :, ci].mean(axis=-1)
-            vmax = float(np.nanmax(mat)) if not np.all(np.isnan(mat)) else 1.0
-            vmax = max(vmax, 0.01)
+        # Plot a placeholder for step 1 (no priors)
+        ax = axes.ravel()[0]
+        ax.axis("off")
+        ax.text(0.5, 0.5, "step 1 has no prior latents",
+                ha="center", va="center", fontsize=11, transform=ax.transAxes)
+        ax.set_title("step 1 reads from priors", fontsize=10, fontweight="bold")
+        for X in range(1, N_LAT):   # reading step = X+1 in 1-indexed
+            ax = axes.ravel()[X]
+            # rows = prior latent j = 1..X (1-indexed), 0..X-1 (0-indexed)
+            mat = np.zeros((X, N_LAYERS))
+            for j in range(X):
+                ci = CLASS_NAMES.index(f"L{j+1}")
+                mat[j, :] = ATTN[0, X, :, :, ci].mean(axis=-1)
+            vmax = max(float(mat.max()), 0.01)
             im = ax.imshow(mat, aspect="auto", origin="lower",
                            cmap="viridis", vmin=0, vmax=vmax)
-            ax.set_title(f"L{k+1} read by later steps", fontsize=10, fontweight="bold")
+            ax.set_title(f"step {X+1} reads from priors", fontsize=10, fontweight="bold")
             ax.set_xlabel("layer", fontsize=8)
-            ax.set_ylabel("reading latent step", fontsize=8)
-            ax.set_yticks(range(N_LAT))
-            ax.set_yticklabels([str(s + 1) for s in range(N_LAT)])
+            ax.set_ylabel("source latent (prior)", fontsize=8)
+            ax.set_yticks(range(X))
+            ax.set_yticklabels([f"L{j+1}" for j in range(X)])
             ax.set_xticks(range(0, N_LAYERS, 2))
-            for s in range(N_LAT):
+            for j in range(X):
                 for l in range(N_LAYERS):
-                    v = mat[s, l]
-                    if np.isnan(v):
-                        ax.text(l, s, "—", ha="center", va="center",
-                                fontsize=5, color="gray")
-                    elif v >= 0.05:
-                        ax.text(l, s, f"{v:.2f}", ha="center", va="center",
+                    v = mat[j, l]
+                    if v >= 0.05:
+                        ax.text(l, j, f"{v:.2f}", ha="center", va="center",
                                 fontsize=5, color="white" if v < 0.6 * vmax else "black")
             fig.colorbar(im, ax=ax, fraction=0.04, pad=0.03)
         fig.tight_layout(rect=(0, 0, 1, 0.93))

@@ -32,7 +32,7 @@ from sklearn.decomposition import PCA
 
 REPO = Path(__file__).resolve().parents[2]
 ACTS_PATH = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
-RESULTS_PATH = REPO / "inference" / "runs" / "svamp_teacher" / "results.json"
+STUDENT_RESULTS_PATH = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
 JUDGED_PATH = REPO.parent / "cf-datasets" / "svamp_judged.json"
 OUT_PDF = REPO / "visualizations-all" / "gpt2" / "pca_slideshow.pdf"
 
@@ -80,6 +80,15 @@ def load_metadata() -> dict:
         label_by_idx.get(i, "teacher_incorrect") for i in range(len(types))
     ]
 
+    # Student correctness from svamp_student_gpt2/results.json
+    correct = np.zeros(len(types), dtype=bool)
+    try:
+        student = json.load(open(STUDENT_RESULTS_PATH))
+        for i, r in enumerate(student[:len(types)]):
+            correct[i] = bool(r.get("correct", False))
+    except Exception as e:
+        print(f"  WARN: could not load student results: {e}")
+
     return {
         "n": len(types),
         "problem_type": np.array(types),
@@ -87,6 +96,7 @@ def load_metadata() -> dict:
         "log_answer": np.log10(np.maximum(answers, 1) + 1),
         "faithful": np.array(faithful_label),
         "magnitude": bucket_magnitude(answers),
+        "correct": correct,
     }
 
 
@@ -217,6 +227,24 @@ def render_slide(
                 vmin=float(log_ans.min()), vmax=float(log_ans.max()),
                 alpha=0.6, linewidths=0, depthshade=True, rasterized=True,
             )
+
+        elif coloring == "correct":
+            for val, color, label in [(False, "#d62728", "wrong"),
+                                      (True, "#2ca02c", "right")]:
+                mask = meta["correct"] == val
+                ax.scatter(
+                    xy[mask, 0], xy[mask, 1], xy[mask, 2],
+                    s=4, c=color, alpha=0.55, linewidths=0,
+                    depthshade=True, rasterized=True,
+                )
+            if s == 0:
+                for val, color, label in [(False, "#d62728", "wrong"),
+                                          (True, "#2ca02c", "right")]:
+                    n = (meta["correct"] == val).sum()
+                    legend_proxies.append(
+                        Line2D([0], [0], marker="o", linestyle="",
+                               color=color, label=f"{label} ({n})")
+                    )
         else:
             raise ValueError(coloring)
 
@@ -264,7 +292,7 @@ def main():
     print(f"writing {OUT_PDF}", flush=True)
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer"]:
+        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer", "correct"]:
             print(f"  coloring: {coloring}", flush=True)
             for layer in range(L):
                 render_slide(pdf, layer, pca_all[layer], var_all[layer], coloring, meta)

@@ -78,12 +78,22 @@ def load_metadata() -> dict:
     faithful = [
         label_by_idx.get(i, "teacher_incorrect") for i in range(len(types))
     ]
+    # student correctness
+    correct = np.zeros(len(types), dtype=bool)
+    try:
+        student_path = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
+        student = json.load(open(student_path))
+        for i, r in enumerate(student[:len(types)]):
+            correct[i] = bool(r.get("correct", False))
+    except Exception as e:
+        print(f"  WARN: could not load student results: {e}")
     return {
         "n": len(types),
         "problem_type": np.array(types),
         "answer": answers,
         "faithful": np.array(faithful),
         "magnitude": bucket_magnitude(answers),
+        "correct": correct,
     }
 
 
@@ -189,6 +199,21 @@ def render_slide(
                         Line2D([0], [0], marker="o", linestyle="",
                                color=MAG_COLORS[cls], label=f"{cls} ({n})")
                     )
+
+        elif coloring == "correct":
+            for val, color, lbl in [(False, "#d62728", "wrong"),
+                                    (True, "#2ca02c", "right")]:
+                mask = meta["correct"] == val
+                ax.scatter(xy[mask, 0], xy[mask, 1], s=4, c=color,
+                           alpha=0.55, linewidths=0)
+            if s == 0:
+                for val, color, lbl in [(False, "#d62728", "wrong"),
+                                        (True, "#2ca02c", "right")]:
+                    n = (meta["correct"] == val).sum()
+                    legend_proxies.append(
+                        Line2D([0], [0], marker="o", linestyle="",
+                               color=color, label=f"{lbl} ({n})")
+                    )
         else:
             raise ValueError(coloring)
 
@@ -228,7 +253,7 @@ def main():
     print(f"writing {OUT_PDF}", flush=True)
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["faithful", "problem_type"]:
+        for coloring in ["plain", "faithful", "problem_type", "magnitude", "correct"]:
             print(f"  coloring: {coloring}", flush=True)
             for layer in range(L):
                 render_slide(pdf, layer, proj_all[layer], var_all[layer], coloring, meta)
