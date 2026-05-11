@@ -97,6 +97,46 @@ def main():
         fig.tight_layout(rect=(0, 0, 1, 0.94))
         pdf.savefig(fig, dpi=140); plt.close(fig)
 
+        # ===== Slide 2b: REVERSE view — how is each L_k read by later latent steps? =====
+        # For each source latent L_k, build heatmap: rows = reading step (k+1..6),
+        # cols = layer. Value = mean attention from reading step (averaged over heads)
+        # to L_k. Cells where source doesn't yet exist (reading step <= k) are NaN.
+        fig, axes = plt.subplots(2, 3, figsize=(14, 8))
+        fig.suptitle("LATENT phase REVERSE view: how is each L_k read by later latent steps?\n"
+                     "(rows = reading step, cols = layer; mean attention over heads, N=1000)",
+                     fontsize=11, fontweight="bold")
+        for k in range(N_LAT):  # k = 0..5, source latent = L_{k+1}
+            ax = axes.ravel()[k]
+            ci = CLASS_NAMES.index(f"L{k+1}")
+            # Matrix shape: (N_LAT, N_LAYERS); rows correspond to reading step 1..6.
+            mat = np.full((N_LAT, N_LAYERS), np.nan)
+            for read_s in range(N_LAT):
+                # L_{k+1} exists in KV when read_s > k (0-indexed)
+                if read_s > k:
+                    mat[read_s, :] = ATTN[0, read_s, :, :, ci].mean(axis=-1)
+            vmax = float(np.nanmax(mat)) if not np.all(np.isnan(mat)) else 1.0
+            vmax = max(vmax, 0.01)
+            im = ax.imshow(mat, aspect="auto", origin="lower",
+                           cmap="viridis", vmin=0, vmax=vmax)
+            ax.set_title(f"L{k+1} read by later steps", fontsize=10, fontweight="bold")
+            ax.set_xlabel("layer", fontsize=8)
+            ax.set_ylabel("reading latent step", fontsize=8)
+            ax.set_yticks(range(N_LAT))
+            ax.set_yticklabels([str(s + 1) for s in range(N_LAT)])
+            ax.set_xticks(range(0, N_LAYERS, 2))
+            for s in range(N_LAT):
+                for l in range(N_LAYERS):
+                    v = mat[s, l]
+                    if np.isnan(v):
+                        ax.text(l, s, "—", ha="center", va="center",
+                                fontsize=5, color="gray")
+                    elif v >= 0.05:
+                        ax.text(l, s, f"{v:.2f}", ha="center", va="center",
+                                fontsize=5, color="white" if v < 0.6 * vmax else "black")
+            fig.colorbar(im, ax=ax, fraction=0.04, pad=0.03)
+        fig.tight_layout(rect=(0, 0, 1, 0.93))
+        pdf.savefig(fig, dpi=140); plt.close(fig)
+
         # ===== Slide 3: attn vs MLP norm heatmaps, latent + decode =====
         fig, axes = plt.subplots(2, 2, figsize=(13, 7))
         fig.suptitle("Residual contributions per layer (norms of attn / MLP outputs at last token)",
