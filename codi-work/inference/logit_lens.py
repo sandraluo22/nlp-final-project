@@ -41,14 +41,18 @@ from pathlib import Path
 import torch
 
 
-def load_lm_head(base_model: str):
+def load_lm_head(base_model: str, trust_remote_code: bool = False):
     """Return (lm_head_weight, tokenizer). CPU only; peak ~5GB during load,
     ~1GB after we drop the rest of the model."""
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     print(f"[logit_lens] loading {base_model} ...", flush=True)
-    model = AutoModelForCausalLM.from_pretrained(base_model, torch_dtype=torch.float32)
-    tokenizer = AutoTokenizer.from_pretrained(base_model, use_fast=True)
+    model = AutoModelForCausalLM.from_pretrained(
+        base_model, torch_dtype=torch.float32, trust_remote_code=trust_remote_code,
+    )
+    tokenizer = AutoTokenizer.from_pretrained(
+        base_model, use_fast=True, trust_remote_code=trust_remote_code,
+    )
     lm_head = model.lm_head.weight.detach().clone().float()  # (V, H)
     del model
     print(f"[logit_lens]   lm_head shape = {tuple(lm_head.shape)}", flush=True)
@@ -120,6 +124,8 @@ def main():
     p.add_argument("--results", default=None,
                    help="Optional results.json from the same run; used to enrich the sample JSON")
     p.add_argument("--base_model", default="unsloth/Llama-3.2-1B-Instruct")
+    p.add_argument("--trust_remote_code", action="store_true",
+                   help="required for models with custom code (e.g. Huginn-0125)")
     p.add_argument("--topk", type=int, default=5)
     p.add_argument("--batch_size", type=int, default=32,
                    help="Questions per matmul; reduce if you run out of RAM")
@@ -138,7 +144,7 @@ def main():
         raise ValueError(f"expected 3D (teacher) or 4D (student) activations, got {acts.shape}")
 
     # 2. Load LM head + tokenizer
-    lm_head, tokenizer = load_lm_head(args.base_model)
+    lm_head, tokenizer = load_lm_head(args.base_model, trust_remote_code=args.trust_remote_code)
 
     # 3. Project + take top-k
     print(f"[logit_lens] computing top-{args.topk} for {acts.shape[0]} questions", flush=True)

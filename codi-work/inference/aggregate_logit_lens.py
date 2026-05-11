@@ -6,9 +6,11 @@ P(rank < k) per cell, broken down by the four-cell teacher x student
 outcome variable.
 
 Outputs (under --out_dir):
-  ranks.pt              (N, 6, 17) long tensor; -1 = skipped
+  ranks.pt              (N, S, L) long tensor; -1 = skipped
+                        (S, L) = (6, 17) for CODI student, (num_steps, L_core)
+                        for Huginn-0125, etc.
   outcomes.json         per-question outcome cell + gold-token info
-  aggregate.json        for each k and outcome cell, the 6x17 hit-rate grid
+  aggregate.json        for each k and outcome cell, the (S, L) hit-rate grid
   hit_rate_topk{K}.png  2x2 heatmap (one panel per outcome cell), per k
 
 Usage:
@@ -29,11 +31,15 @@ from pathlib import Path
 import torch
 
 
-def load_lm_head(base_model: str):
+def load_lm_head(base_model: str, trust_remote_code: bool = False):
     from transformers import AutoModelForCausalLM, AutoTokenizer
     print(f"[agg] loading {base_model}", flush=True)
-    model = AutoModelForCausalLM.from_pretrained(base_model, torch_dtype=torch.float32)
-    tokenizer = AutoTokenizer.from_pretrained(base_model, use_fast=True)
+    model = AutoModelForCausalLM.from_pretrained(
+        base_model, torch_dtype=torch.float32, trust_remote_code=trust_remote_code,
+    )
+    tokenizer = AutoTokenizer.from_pretrained(
+        base_model, use_fast=True, trust_remote_code=trust_remote_code,
+    )
     head = model.lm_head.weight.detach().clone().float()
     del model
     print(f"[agg]   lm_head shape = {tuple(head.shape)}", flush=True)
@@ -58,14 +64,14 @@ def gold_to_token_ids(gold, tokenizer):
 
 def compute_ranks_chunk(acts_chunk, lm_head, gold_ids_per_q):
     """
-    acts_chunk: (B, 6, 17, H) float32
-    Returns:    (B, 6, 17) long, rank of gold token in each cell. -1 if skipped.
+    acts_chunk: (B, S, L, H) float32
+    Returns:    (B, S, L) long, rank of gold token in each cell. -1 if skipped.
     """
-    B = acts_chunk.shape[0]
-    flat = acts_chunk.reshape(-1, acts_chunk.shape[-1])      # (B*6*17, H)
-    logits = (flat @ lm_head.T).reshape(B, 6, 17, -1)        # (B, 6, 17, V)
+    B, S, L, H = acts_chunk.shape
+    flat = acts_chunk.reshape(-1, H)                         # (B*S*L, H)
+    logits = (flat @ lm_head.T).reshape(B, S, L, -1)         # (B, S, L, V)
 
-    ranks = torch.full((B, 6, 17), -1, dtype=torch.long)
+    ranks = torch.full((B, S, L), -1, dtype=torch.long)
     for q in range(B):
         ids = gold_ids_per_q[q]
         if not ids:
@@ -73,16 +79,16 @@ def compute_ranks_chunk(acts_chunk, lm_head, gold_ids_per_q):
         # Take the best (lowest) rank across candidate tokenizations.
         per_candidate = []
         for tid in ids:
-            gold_logit = logits[q, :, :, tid].unsqueeze(-1)  # (6, 17, 1)
-            r = (logits[q] > gold_logit).sum(dim=-1)         # (6, 17)
+            gold_logit = logits[q, :, :, tid].unsqueeze(-1)  # (S, L, 1)
+            r = (logits[q] > gold_logit).sum(dim=-1)         # (S, L)
             per_candidate.append(r)
         ranks[q] = torch.stack(per_candidate, dim=0).min(dim=0).values
     return ranks
 
 
 def compute_all_ranks(acts, lm_head, gold_ids_per_q, batch_size):
-    N = acts.shape[0]
-    out = torch.empty((N, 6, 17), dtype=torch.long)
+    N, S, L, _ = acts.shape
+    out = torch.empty((N, S, L), dtype=torch.long)
     for i in range(0, N, batch_size):
         out[i:i + batch_size] = compute_ranks_chunk(
             acts[i:i + batch_size].float(), lm_head, gold_ids_per_q[i:i + batch_size]
@@ -96,7 +102,8 @@ def outcome_cell(t_correct, s_correct):
 
 
 def aggregate(ranks, outcomes, topks):
-    """For each k, produce {cell -> {'n': int, 'grid': (6,17) tensor of hit rates}}."""
+    """For each k, produce {cell -> {'n': int, 'grid': (S, L) tensor of hit rates}}."""
+    _, S, L = ranks.shape
     cells = ["ALL", "TC-SC", "TC-SI", "TI-SC", "TI-SI"]
     out = {}
     for k in topks:
@@ -108,10 +115,10 @@ def aggregate(ranks, outcomes, topks):
             ])
             n = int(mask.sum())
             if n == 0:
-                per_cell[cell] = {"n": 0, "grid": torch.zeros(6, 17)}
+                per_cell[cell] = {"n": 0, "grid": torch.zeros(S, L)}
                 continue
             sel = ranks[mask]
-            hits = (sel >= 0) & (sel < k)                # (n, 6, 17)
+            hits = (sel >= 0) & (sel < k)                # (n, S, L)
             per_cell[cell] = {"n": n, "grid": hits.float().mean(dim=0)}
         out[k] = per_cell
     return out
@@ -134,6 +141,7 @@ def plot_heatmaps(agg_for_k, k, out_path, dataset_name):
     fig, axes = plt.subplots(2, 2, figsize=(14, 8))
     grids = [agg_for_k[c]["grid"].numpy() for c in cells]
     vmax = max(0.05, max(g.max() for g in grids))
+    S, L = grids[0].shape
 
     im = None
     for ax, cell, grid in zip(axes.ravel(), cells, grids):
@@ -142,10 +150,10 @@ def plot_heatmaps(agg_for_k, k, out_path, dataset_name):
         ax.set_title(f"{titles[cell]} (n={info['n']})", fontsize=10)
         ax.set_xlabel("Layer")
         ax.set_ylabel("Latent step")
-        ax.set_xticks(range(17))
-        ax.set_yticks(range(6))
-        for s in range(6):
-            for l in range(17):
+        ax.set_xticks(range(L))
+        ax.set_yticks(range(S))
+        for s in range(S):
+            for l in range(L):
                 v = grid[s, l]
                 if v > 0:
                     color = "white" if v < vmax * 0.6 else "black"
@@ -165,6 +173,8 @@ def main():
     p.add_argument("--teacher_results", required=True)
     p.add_argument("--out_dir", required=True)
     p.add_argument("--base_model", default="unsloth/Llama-3.2-1B-Instruct")
+    p.add_argument("--trust_remote_code", action="store_true",
+                   help="required for models with custom code (e.g. Huginn-0125)")
     p.add_argument("--topk", type=int, nargs="+", default=[5, 10, 50])
     p.add_argument("--batch_size", type=int, default=8)
     p.add_argument("--dataset_name", default="SVAMP")
@@ -184,16 +194,31 @@ def main():
         student_results = json.load(f)
     with open(args.teacher_results) as f:
         teacher_results = json.load(f)
-    assert len(student_results) == acts.shape[0] == len(teacher_results)
+
+    # Activations + student_results must agree positionally; teacher_results may
+    # be a superset (e.g. full-1000 teacher run vs 50-question student smoke),
+    # so we align on `idx` rather than position.
+    if len(student_results) != acts.shape[0]:
+        raise ValueError(
+            f"student_results length {len(student_results)} != acts.shape[0] {acts.shape[0]}"
+        )
+    teacher_by_idx = {tr["idx"]: tr for tr in teacher_results}
+    missing = [sr["idx"] for sr in student_results if sr["idx"] not in teacher_by_idx]
+    if missing:
+        raise ValueError(
+            f"{len(missing)} student questions have no matching teacher result by idx; "
+            f"first few: {missing[:5]}"
+        )
 
     # 2. LM head + tokenizer.
-    lm_head, tokenizer = load_lm_head(args.base_model)
+    lm_head, tokenizer = load_lm_head(args.base_model, trust_remote_code=args.trust_remote_code)
 
     # 3. Gold token IDs + outcome cells.
     outcomes, gold_id_lists = [], []
     n_skipped = 0
     for q in range(acts.shape[0]):
-        sr, tr = student_results[q], teacher_results[q]
+        sr = student_results[q]
+        tr = teacher_by_idx[sr["idx"]]
         ids = gold_to_token_ids(sr["gold"], tokenizer)
         outcomes.append({
             "idx": sr["idx"],

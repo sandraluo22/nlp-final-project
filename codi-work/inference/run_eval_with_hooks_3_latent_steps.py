@@ -223,7 +223,11 @@ def run_student(args):
     # Lazy imports to keep teacher mode independent of CODI src.
     from src.model import CODI, ModelArguments, TrainingArguments  # type: ignore
 
-    device = "cuda"
+    device_t = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = str(device_t)
+    use_bf16 = device_t.type == "cuda" and (
+        getattr(torch.cuda, "is_bf16_supported", lambda: False)()
+    )
     print(f"[student] base={args.base_model} ckpt={args.ckpt_dir}")
 
     target_modules = ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj", "gate_proj"]
@@ -246,7 +250,7 @@ def run_student(args):
     )
     training_args = TrainingArguments(
         output_dir=args.out_dir,
-        bf16=True,
+        bf16=use_bf16,
         use_lora=True,
         use_prj=True,
         prj_dim=2048,
@@ -279,13 +283,15 @@ def run_student(args):
         if tokenizer.pad_token_id is None:
             tokenizer.pad_token_id = tokenizer.convert_tokens_to_ids("[PAD]")
 
-    model = model.to(device).to(torch.bfloat16)
+    infer_dtype = torch.bfloat16 if use_bf16 else torch.float16
+    model = model.to(device_t).to(infer_dtype)
     model.eval()
     num_layers = model.codi.config.num_hidden_layers
     hidden_dim = model.codi.config.hidden_size
     inf_latent_iterations = training_args.inf_latent_iterations
     print(
-        f"[student] num_layers={num_layers} hidden_dim={hidden_dim} "
+        f"[student] device={device} infer_dtype={infer_dtype} "
+        f"num_layers={num_layers} hidden_dim={hidden_dim} "
         f"latent_steps={inf_latent_iterations}"
     )
 

@@ -30,8 +30,9 @@ sys.path.insert(0, str(_REPO_ROOT / "codi"))
 import torch
 import transformers
 from datasets import load_dataset, concatenate_datasets
-from peft import LoraConfig, TaskType, get_peft_model
-from safetensors.torch import load_file
+# `peft` and `safetensors` are imported lazily inside run_student() so that
+# this module can be imported (e.g. for its load_data() helper) in environments
+# without those CODI-only dependencies installed.
 
 
 def extract_answer_number(sentence: str) -> float:
@@ -451,10 +452,14 @@ def run_student(args):
 
     transformers.AutoTokenizer.from_pretrained = _force_fast  # type: ignore[assignment]
 
-    # Lazy imports to keep teacher mode independent of CODI src.
+    # Lazy imports to keep teacher mode (and external importers of load_data)
+    # independent of CODI src and the peft / safetensors deps.
     from src.model import CODI, ModelArguments, TrainingArguments  # type: ignore
+    from peft import LoraConfig, TaskType  # type: ignore[import-not-found]
+    from safetensors.torch import load_file  # type: ignore[import-not-found]
 
-    device = "cuda"
+    device_t = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = str(device_t)
     print(f"[student] base={args.base_model} ckpt={args.ckpt_dir}")
 
     name_lc = args.base_model.lower()
@@ -466,7 +471,9 @@ def run_student(args):
         prj_dim = 2048
     else:
         raise ValueError(f"Unrecognized base_model architecture: {args.base_model}")
-    bf16_flag = True
+    bf16_flag = device_t.type == "cuda" and (
+        getattr(torch.cuda, "is_bf16_supported", lambda: False)()
+    )
     print(f"[student] arch target_modules={target_modules} prj_dim={prj_dim}")
 
     lora_config = LoraConfig(
@@ -521,13 +528,15 @@ def run_student(args):
         if tokenizer.pad_token_id is None:
             tokenizer.pad_token_id = tokenizer.convert_tokens_to_ids("[PAD]")
 
-    model = model.to(device).to(torch.bfloat16)
+    infer_dtype = torch.bfloat16 if bf16_flag else torch.float16
+    model = model.to(device_t).to(infer_dtype)
     model.eval()
     num_layers = model.codi.config.num_hidden_layers
     hidden_dim = model.codi.config.hidden_size
     inf_latent_iterations = training_args.inf_latent_iterations
     print(
-        f"[student] num_layers={num_layers} hidden_dim={hidden_dim} "
+        f"[student] device={device} infer_dtype={infer_dtype} "
+        f"num_layers={num_layers} hidden_dim={hidden_dim} "
         f"latent_steps={inf_latent_iterations}"
     )
 
