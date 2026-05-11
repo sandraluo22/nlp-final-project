@@ -39,9 +39,11 @@ def main():
     types = np.array(meta["types"])
 
     rows = json.load(open(CF_DATA))
-    # rows is aligned with capture order — same N
     buckets = np.array([r.get("output_bucket", "?") for r in rows[:N]])
-    print(f"N={N} types={dict(Counter(types))} buckets={dict(Counter(buckets))}")
+    pred = np.array([np.nan if v is None else float(v) for v in meta["pred_int_extracted"]])
+    gold = np.array([np.nan if v is None else float(v) for v in meta["gold"]])
+    correct = (~np.isnan(pred)) & (~np.isnan(gold)) & (np.abs(pred - gold) < 1e-3)
+    print(f"N={N} types={dict(Counter(types))} buckets={dict(Counter(buckets))}  correct={int(correct.sum())}/{N}")
 
     OPS = ["Addition", "Subtraction", "Multiplication", "Common-Division"]
     op_to_idx = {op: i for i, op in enumerate(OPS)}
@@ -62,7 +64,7 @@ def main():
     print(f"writing {OUT_PDF}")
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["problem_type", "output_bucket"]:
+        for coloring in ["problem_type", "output_bucket", "correct"]:
             for l in range(L):
                 fig, ax = plt.subplots(figsize=(8, 6))
                 fig.suptitle(f"Layer {l}  —  LDA(operator) on cf_balanced ':' residual  "
@@ -76,7 +78,7 @@ def main():
                         ax.scatter(pp[mask, 0], pp[mask, 1], s=6, c=color, alpha=0.6, linewidths=0)
                         legend_proxies.append(Line2D([0], [0], marker="o", linestyle="",
                                                      color=color, label=f"{cls} ({int(mask.sum())})"))
-                else:  # output_bucket
+                elif coloring == "output_bucket":
                     for cls in BUCKETS_ORDER:
                         mask = (buckets == cls) & valid
                         if not mask.any(): continue
@@ -85,6 +87,15 @@ def main():
                         legend_proxies.append(Line2D([0], [0], marker="o", linestyle="",
                                                      color=BUCKET_COLORS[cls],
                                                      label=f"{cls} ({int(mask.sum())})"))
+                else:  # "correct"
+                    for val, color, lbl in [(False, "#d62728", "wrong"),
+                                            (True, "#2ca02c", "right")]:
+                        mask = (correct == val) & valid
+                        ax.scatter(pp[mask, 0], pp[mask, 1], s=6, c=color,
+                                   alpha=0.55, linewidths=0)
+                        legend_proxies.append(Line2D([0], [0], marker="o", linestyle="",
+                                                     color=color,
+                                                     label=f"{lbl} ({int(mask.sum())})"))
                 ax.set_xlabel("LD1"); ax.set_ylabel("LD2"); ax.grid(alpha=0.3)
                 ax.legend(handles=legend_proxies, fontsize=7, loc="upper right")
                 fig.tight_layout(rect=(0, 0, 1, 0.94))

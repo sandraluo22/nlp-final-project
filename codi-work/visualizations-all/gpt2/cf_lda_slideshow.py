@@ -48,10 +48,24 @@ BUCKET_COLORS = {
 
 def load_metadata() -> dict:
     rows = json.load(open(CF_DATA))
+    N = len(rows)
+    correct = np.zeros(N, dtype=bool)
+    colon_meta_p = (Path(__file__).resolve().parents[2] / "experiments"
+                    / "computation_probes" / "cf_balanced_colon_acts_meta.json")
+    if colon_meta_p.exists():
+        meta_j = json.load(open(colon_meta_p))
+        pred = np.array([np.nan if v is None else float(v)
+                         for v in meta_j.get("pred_int_extracted", [])])
+        gold = np.array([np.nan if v is None else float(v)
+                         for v in meta_j.get("gold", [])])
+        if len(pred) >= N and len(gold) >= N:
+            correct = ((~np.isnan(pred[:N])) & (~np.isnan(gold[:N]))
+                       & (np.abs(pred[:N] - gold[:N]) < 1e-3))
     return {
-        "n": len(rows),
+        "n": N,
         "problem_type": np.array([r["type"] for r in rows]),
         "output_bucket": np.array([r["output_bucket"] for r in rows]),
+        "correct": correct,
     }
 
 
@@ -130,6 +144,19 @@ def render_slide(
                     legend_proxies.append(
                         Line2D([0], [0], marker="o", linestyle="",
                                color=BUCKET_COLORS[cls], label=f"{cls} ({n})"))
+        elif coloring == "correct":
+            for val, color, lbl in [(False, "#d62728", "wrong"),
+                                    (True, "#2ca02c", "right")]:
+                mask = meta["correct"] == val
+                ax.scatter(xy[mask, 0], xy[mask, 1], s=4, c=color,
+                           alpha=0.55, linewidths=0)
+            if s == 0:
+                for val, color, lbl in [(False, "#d62728", "wrong"),
+                                        (True, "#2ca02c", "right")]:
+                    n = (meta["correct"] == val).sum()
+                    legend_proxies.append(
+                        Line2D([0], [0], marker="o", linestyle="",
+                               color=color, label=f"{lbl} ({n})"))
         else:
             raise ValueError(coloring)
 
@@ -163,7 +190,7 @@ def main():
     print(f"writing {OUT_PDF}", flush=True)
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["problem_type", "output_bucket"]:
+        for coloring in ["problem_type", "output_bucket", "correct"]:
             print(f"  coloring: {coloring}", flush=True)
             for layer in range(L):
                 render_slide(pdf, layer, proj_all[layer], var_all[layer], coloring, meta)
