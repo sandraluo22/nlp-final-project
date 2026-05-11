@@ -67,11 +67,45 @@ def main():
             # Per-cell rates (fraction of N).
             tr_attn = cell_matrix(cells, N_LAT, N_LAYERS, "attn", "n_followed_source") / N
             tr_mlp  = cell_matrix(cells, N_LAT, N_LAYERS, "mlp",  "n_followed_source") / N
+            tr_resid = cell_matrix(cells, N_LAT, N_LAYERS, "resid", "n_followed_source") / N
             tt_attn = cell_matrix(cells, N_LAT, N_LAYERS, "attn", "n_followed_target") / N
             tt_mlp  = cell_matrix(cells, N_LAT, N_LAYERS, "mlp",  "n_followed_target") / N
+            tt_resid = cell_matrix(cells, N_LAT, N_LAYERS, "resid", "n_followed_target") / N
             ot_attn = cell_matrix(cells, N_LAT, N_LAYERS, "attn", "n_other") / N
             ot_mlp  = cell_matrix(cells, N_LAT, N_LAYERS, "mlp",  "n_other") / N
+            ot_resid = cell_matrix(cells, N_LAT, N_LAYERS, "resid", "n_other") / N
             base_acc = r["baseline_accuracy"]
+
+            # Whole-step (Sweep C) per-step rates
+            step_keys = [f"step{i+1}_ALL" for i in range(N_LAT)]
+            step_src = np.array([cells[k]["n_followed_source"] / N for k in step_keys])
+            step_tgt = np.array([cells[k]["n_followed_target"] / N for k in step_keys])
+            step_oth = np.array([cells[k]["n_other"] / N for k in step_keys])
+
+            # Page 0: whole-step + resid summary (the coarse cuts)
+            fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+            ax = axes[0]
+            x = np.arange(N_LAT)
+            w = 0.27
+            ax.bar(x - w, step_src, w, color="#2ca02c", label="followed source (transfer)")
+            ax.bar(x,     step_oth, w, color="#d62728", label="other (broken)")
+            ax.bar(x + w, step_tgt, w, color="#cccccc", label="followed target (no effect)")
+            ax.set_xticks(x); ax.set_xticklabels([f"step{i+1}" for i in range(N_LAT)])
+            ax.set_ylim(0, 1.05); ax.set_ylabel("fraction of N")
+            ax.set_title(f"{cf_name} — Sweep C: WHOLE-STEP paired patching",
+                         fontsize=10, fontweight="bold")
+            ax.legend(fontsize=8); ax.grid(axis="y", alpha=0.3)
+
+            ax = axes[1]
+            im = heatmap(ax, ot_resid, f"{cf_name} — Sweep B: residual-stream 'other' rate",
+                         "magma", 0.0, max(0.3, ot_resid.max() * 1.05))
+            fig.colorbar(im, ax=ax, fraction=0.04, pad=0.03,
+                         label="P(broken: neither A nor B)")
+            fig.suptitle(f"Paired-CF patching — coarse sweeps (N={N}, "
+                         f"baseline acc={base_acc*100:.0f}%)",
+                         fontsize=12, fontweight="bold")
+            fig.tight_layout(rect=(0, 0, 1, 0.94))
+            pdf.savefig(fig, dpi=140); plt.close(fig)
 
             # Page 1: transfer rate (followed source)
             fig, axes = plt.subplots(1, 2, figsize=(14, 5))

@@ -136,13 +136,19 @@ def main():
         "mode": "off",
         "step": -1,
         "ex_idx_in_batch": None,    # numpy array of dataset indices for the batch
+        # Single-cell patch knobs (sweep A):
         "patch_step": -1,
         "patch_layer": -1,
-        "patch_block": "",
+        "patch_block": "",          # "attn" | "mlp" | "resid"
+        # Whole-step patch (sweep B): patch every layer's attn AND mlp at this
+        # step.  When patch_block == "step_all" we ignore patch_layer.
+        # Per-step capture buffers:
         "cap_attn": None,           # (N, N_LAT, N_LAYERS, HID) bf16 CPU tensor
         "cap_mlp": None,
+        "cap_resid": None,          # (N, N_LAT, N_LAYERS, HID) bf16 CPU tensor
         "patch_attn": None,         # (N, N_LAT, N_LAYERS, HID) — source acts to inject
         "patch_mlp": None,
+        "patch_resid": None,
     }
 
     def make_attn_hook(idx):
@@ -152,14 +158,13 @@ def main():
                 a = output[0]
                 last = a[:, -1, :].detach().to(torch.bfloat16).cpu()
                 CAP["cap_attn"][CAP["ex_idx_in_batch"], CAP["step"], idx, :] = last
-            elif (mode == "patch"
-                  and CAP["step"] == CAP["patch_step"]
-                  and idx == CAP["patch_layer"]
-                  and CAP["patch_block"] == "attn"):
-                a = output[0].clone()
-                src = CAP["patch_attn"][CAP["ex_idx_in_batch"], CAP["step"], idx, :]
-                a[:, -1, :] = src.to(a.device, dtype=a.dtype)
-                return (a,) + output[1:]
+            elif mode == "patch" and CAP["step"] == CAP["patch_step"]:
+                pb = CAP["patch_block"]
+                if (pb == "attn" and idx == CAP["patch_layer"]) or pb == "step_all":
+                    a = output[0].clone()
+                    src = CAP["patch_attn"][CAP["ex_idx_in_batch"], CAP["step"], idx, :]
+                    a[:, -1, :] = src.to(a.device, dtype=a.dtype)
+                    return (a,) + output[1:]
             return output
         return fn
 
@@ -169,14 +174,38 @@ def main():
             if mode == "capture" and CAP["step"] >= 0:
                 last = output[:, -1, :].detach().to(torch.bfloat16).cpu()
                 CAP["cap_mlp"][CAP["ex_idx_in_batch"], CAP["step"], idx, :] = last
+            elif mode == "patch" and CAP["step"] == CAP["patch_step"]:
+                pb = CAP["patch_block"]
+                if (pb == "mlp" and idx == CAP["patch_layer"]) or pb == "step_all":
+                    o = output.clone()
+                    src = CAP["patch_mlp"][CAP["ex_idx_in_batch"], CAP["step"], idx, :]
+                    o[:, -1, :] = src.to(o.device, dtype=o.dtype)
+                    return o
+            return output
+        return fn
+
+    def make_block_hook(idx):
+        """Hook on the GPT2Block's forward — captures / patches the full
+        residual stream after both attn and mlp have been added at layer idx.
+        Block forward returns a tuple whose first element is the hidden state.
+        """
+        def fn(_module, _inputs, output):
+            mode = CAP["mode"]
+            if mode == "capture" and CAP["step"] >= 0:
+                h = output[0] if isinstance(output, tuple) else output
+                last = h[:, -1, :].detach().to(torch.bfloat16).cpu()
+                CAP["cap_resid"][CAP["ex_idx_in_batch"], CAP["step"], idx, :] = last
             elif (mode == "patch"
                   and CAP["step"] == CAP["patch_step"]
                   and idx == CAP["patch_layer"]
-                  and CAP["patch_block"] == "mlp"):
-                o = output.clone()
-                src = CAP["patch_mlp"][CAP["ex_idx_in_batch"], CAP["step"], idx, :]
-                o[:, -1, :] = src.to(o.device, dtype=o.dtype)
-                return o
+                  and CAP["patch_block"] == "resid"):
+                h = output[0] if isinstance(output, tuple) else output
+                h = h.clone()
+                src = CAP["patch_resid"][CAP["ex_idx_in_batch"], CAP["step"], idx, :]
+                h[:, -1, :] = src.to(h.device, dtype=h.dtype)
+                if isinstance(output, tuple):
+                    return (h,) + output[1:]
+                return h
             return output
         return fn
 
@@ -184,6 +213,7 @@ def main():
     for i, blk in enumerate(transformer.h):
         handles.append(blk.attn.register_forward_hook(make_attn_hook(i)))
         handles.append(blk.mlp.register_forward_hook(make_mlp_hook(i)))
+        handles.append(blk.register_forward_hook(make_block_hook(i)))
 
     @torch.no_grad()
     def run_batch(qs):
@@ -248,9 +278,10 @@ def main():
         golds_arr = np.array(golds)
 
         # Allocate per-example capture buffers (CPU bf16 ~ N * 6 * 12 * 768 * 2B
-        # ≈ 1.7 MB per dataset for N=80).
+        # ≈ 1.7 MB per buffer for N=80; three buffers ≈ 5 MB).
         CAP["cap_attn"] = torch.zeros((N, N_LAT, N_LAYERS, HID), dtype=torch.bfloat16)
         CAP["cap_mlp"]  = torch.zeros((N, N_LAT, N_LAYERS, HID), dtype=torch.bfloat16)
+        CAP["cap_resid"] = torch.zeros((N, N_LAT, N_LAYERS, HID), dtype=torch.bfloat16)
 
         # PASS 1 — capture per-example activations on the clean run.
         CAP["mode"] = "capture"
@@ -275,20 +306,49 @@ def main():
             if collisions <= N // 20:
                 break
         # Pairing source acts: gather B = pi[i] for each i.
-        pair_attn = CAP["cap_attn"][pi].clone()  # (N, N_LAT, N_LAYERS, HID)
-        pair_mlp  = CAP["cap_mlp"][pi].clone()
-        CAP["patch_attn"] = pair_attn
-        CAP["patch_mlp"]  = pair_mlp
+        CAP["patch_attn"] = CAP["cap_attn"][pi].clone()
+        CAP["patch_mlp"]  = CAP["cap_mlp"][pi].clone()
+        CAP["patch_resid"] = CAP["cap_resid"][pi].clone()
         # Source baseline predictions for the (paired) source = pi[i].
         source_ints = [base_ints[pi[i]] for i in range(N)]
         print(f"  pairing derangement seed={SEED}, prediction-collisions={collisions} / {N}", flush=True)
 
-        # PASS 2 — patch each (step, layer, block) cell.
+        def score(strs):
+            ints = [codi_extract(s) for s in strs]
+            n_src = n_tgt = n_other = n_unp = n_gold_b = n_gold_a = 0
+            eq = lambda a, b: a is not None and b is not None and abs(a - b) < 1e-3
+            for i in range(N):
+                v = ints[i]
+                if v is None:
+                    n_unp += 1; continue
+                si = source_ints[i]; ti = base_ints[i]
+                gA = golds_arr[i]; gB = golds_arr[pi[i]]
+                if eq(v, si): n_src += 1
+                elif eq(v, ti): n_tgt += 1
+                else: n_other += 1
+                if eq(v, gB): n_gold_b += 1
+                if eq(v, gA): n_gold_a += 1
+            return {
+                "transfer_rate": n_src / N,
+                "n_followed_source": n_src,
+                "n_followed_target": n_tgt,
+                "n_other": n_other,
+                "n_unparseable": n_unp,
+                "n_followed_gold_b": n_gold_b,
+                "n_followed_gold_a": n_gold_a,
+            }
+
+        # PASS 2 — three sweeps with progressively coarser intervention.
+        #   A) per-cell  (step, layer, attn|mlp)         → 144 cells
+        #   B) per-cell  (step, layer, resid)            → 72 cells
+        #   C) per-step  (all layers' attn+mlp at step) → 6 cells
         CAP["mode"] = "patch"
         per_cell = {}
-        n_cells = N_LAT * N_LAYERS * 2
         ci = 0
+        n_cells_total = N_LAT * N_LAYERS * 2 + N_LAT * N_LAYERS + N_LAT
         t1 = time.time()
+
+        # Sweep A: single (attn|mlp) cell per (step, layer).
         for step in range(N_LAT):
             for layer in range(N_LAYERS):
                 for block in ("mlp", "attn"):
@@ -296,46 +356,42 @@ def main():
                     CAP["patch_layer"] = layer
                     CAP["patch_block"] = block
                     strs = run_all_with_idx(qs, np.arange(N))
-                    ints = [codi_extract(s) for s in strs]
-                    n_followed_source = 0
-                    n_followed_target = 0
-                    n_other = 0
-                    n_unparseable = 0
-                    n_followed_gold_b = 0  # source's gold (B's correct answer)
-                    n_followed_gold_a = 0  # target's gold (A's correct answer)
-                    for i in range(N):
-                        v = ints[i]
-                        if v is None:
-                            n_unparseable += 1
-                            continue
-                        si = source_ints[i]; ti = base_ints[i]
-                        gA = golds_arr[i]; gB = golds_arr[pi[i]]
-                        eq = lambda a, b: a is not None and b is not None and abs(a - b) < 1e-3
-                        if eq(v, si):
-                            n_followed_source += 1
-                        elif eq(v, ti):
-                            n_followed_target += 1
-                        else:
-                            n_other += 1
-                        if eq(v, gB): n_followed_gold_b += 1
-                        if eq(v, gA): n_followed_gold_a += 1
-                    cell_key = f"step{step+1}_L{layer}_{block}"
-                    per_cell[cell_key] = {
-                        "transfer_rate": n_followed_source / N,
-                        "n_followed_source": n_followed_source,
-                        "n_followed_target": n_followed_target,
-                        "n_other": n_other,
-                        "n_unparseable": n_unparseable,
-                        "n_followed_gold_b": n_followed_gold_b,
-                        "n_followed_gold_a": n_followed_gold_a,
-                    }
+                    per_cell[f"step{step+1}_L{layer}_{block}"] = score(strs)
                     ci += 1
-                    if ci % 12 == 0 or ci == n_cells:
-                        print(f"    [{ci:3d}/{n_cells}]  "
+                    if ci % 24 == 0:
+                        print(f"    A [{ci:3d}/{n_cells_total}]  "
                               f"({time.time()-t1:.0f}s)  "
-                              f"latest transfer_rate = "
-                              f"{per_cell[cell_key]['transfer_rate']:.2f}",
+                              f"latest = {per_cell[f'step{step+1}_L{layer}_{block}']['transfer_rate']:.2f}",
                               flush=True)
+
+        # Sweep B: residual stream after block L (cumulative state).
+        for step in range(N_LAT):
+            for layer in range(N_LAYERS):
+                CAP["patch_step"] = step
+                CAP["patch_layer"] = layer
+                CAP["patch_block"] = "resid"
+                strs = run_all_with_idx(qs, np.arange(N))
+                per_cell[f"step{step+1}_L{layer}_resid"] = score(strs)
+                ci += 1
+                if ci % 24 == 0:
+                    print(f"    B [{ci:3d}/{n_cells_total}]  "
+                          f"({time.time()-t1:.0f}s)  "
+                          f"latest = {per_cell[f'step{step+1}_L{layer}_resid']['transfer_rate']:.2f}",
+                          flush=True)
+
+        # Sweep C: whole step (every layer's attn AND mlp at this step).
+        for step in range(N_LAT):
+            CAP["patch_step"] = step
+            CAP["patch_layer"] = -1  # ignored
+            CAP["patch_block"] = "step_all"
+            strs = run_all_with_idx(qs, np.arange(N))
+            per_cell[f"step{step+1}_ALL"] = score(strs)
+            ci += 1
+            print(f"    C [{ci:3d}/{n_cells_total}]  "
+                  f"({time.time()-t1:.0f}s)  "
+                  f"step{step+1}_ALL transfer = {per_cell[f'step{step+1}_ALL']['transfer_rate']:.2f}",
+                  flush=True)
+
         results["cf_sets"][cf_name] = {
             "N": N,
             "baseline_accuracy": base_acc,
@@ -347,8 +403,8 @@ def main():
             "conditions": per_cell,
         }
         # Free the big tensors before the next CF set.
-        CAP["cap_attn"] = None; CAP["cap_mlp"] = None
-        CAP["patch_attn"] = None; CAP["patch_mlp"] = None
+        CAP["cap_attn"] = None; CAP["cap_mlp"] = None; CAP["cap_resid"] = None
+        CAP["patch_attn"] = None; CAP["patch_mlp"] = None; CAP["patch_resid"] = None
 
     OUT_JSON.write_text(json.dumps(results, indent=2))
     print(f"\nsaved {OUT_JSON}")
