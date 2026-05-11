@@ -117,8 +117,17 @@ def main():
         return str(int(g)) if float(g).is_integer() else str(g)
 
     def target_first_token(gold_val):
-        """First BPE token of the answer as it would appear after EOT (with leading space)."""
+        """First *informative* (non-whitespace-only) BPE token of " {gold}".
+        For GPT-2 the leading-space number is usually a single token (" 145"), so this
+        returns that. For Llama tokenizers a leading space is its own token (220) and the
+        digits split into separate tokens (" ", "1", "4", "5") — we skip the space and
+        return the first digit token so the target is discriminating across examples.
+        """
         ids = tok.encode(" " + gold_to_str(gold_val), add_special_tokens=False)
+        for tid in ids:
+            piece = tok.decode([tid])
+            if piece.strip():
+                return tid
         return ids[0] if ids else -1
 
     @torch.no_grad()

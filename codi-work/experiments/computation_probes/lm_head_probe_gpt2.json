@@ -3,11 +3,11 @@
   "K": 6,
   "N": 1000,
   "top1_stability": [
-    0.147,
-    0.156,
-    0.232,
-    0.24,
-    0.258
+    0.154,
+    0.162,
+    0.228,
+    0.237,
+    0.257
   ],
   "cos_sim_consec": [
     0.17335602734051644,
@@ -24,14 +24,188 @@
     7.300994835853577
   ],
   "kl_unit": "nats",
+  "accuracy_per_step_top1": [
+    0.0,
+    0.014,
+    0.0,
+    0.014,
+    0.0,
+    0.006
+  ],
+  "accuracy_per_step_top5": [
+    0.0,
+    0.044,
+    0.0,
+    0.048,
+    0.0,
+    0.045
+  ],
+  "accuracy_per_step_top10": [
+    0.0,
+    0.055,
+    0.0,
+    0.059,
+    0.0,
+    0.055
+  ],
+  "n_correct_per_step_top1": [
+    0,
+    14,
+    0,
+    14,
+    0,
+    6
+  ],
+  "n_correct_per_step_top5": [
+    0,
+    44,
+    0,
+    48,
+    0,
+    45
+  ],
+  "n_correct_per_step_top10": [
+    0,
+    55,
+    0,
+    59,
+    0,
+    55
+  ],
+  "transitions_top1": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "right_to_wrong": 0,
+      "wrong_to_right": 14,
+      "stable_right": 0,
+      "stable_wrong": 986
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "right_to_wrong": 14,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 986
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "right_to_wrong": 0,
+      "wrong_to_right": 14,
+      "stable_right": 0,
+      "stable_wrong": 986
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "right_to_wrong": 14,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 986
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "right_to_wrong": 0,
+      "wrong_to_right": 6,
+      "stable_right": 0,
+      "stable_wrong": 994
+    }
+  ],
+  "transitions_top5": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "right_to_wrong": 0,
+      "wrong_to_right": 44,
+      "stable_right": 0,
+      "stable_wrong": 956
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "right_to_wrong": 44,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 956
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "right_to_wrong": 0,
+      "wrong_to_right": 48,
+      "stable_right": 0,
+      "stable_wrong": 952
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "right_to_wrong": 48,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 952
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "right_to_wrong": 0,
+      "wrong_to_right": 45,
+      "stable_right": 0,
+      "stable_wrong": 955
+    }
+  ],
+  "transitions_top10": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "right_to_wrong": 0,
+      "wrong_to_right": 55,
+      "stable_right": 0,
+      "stable_wrong": 945
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "right_to_wrong": 55,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 945
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "right_to_wrong": 0,
+      "wrong_to_right": 59,
+      "stable_right": 0,
+      "stable_wrong": 941
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "right_to_wrong": 59,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 941
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "right_to_wrong": 0,
+      "wrong_to_right": 55,
+      "stable_right": 0,
+      "stable_wrong": 945
+    }
+  ],
   "top1_per_step_examples": [
     [
       14,
-      180,
+      211,
       14,
       2157,
       13,
-      180
+      205
     ],
     [
       464,
@@ -63,7 +237,7 @@
       464,
       464,
       464,
-      30
+      464
     ],
     [
       30,
@@ -126,7 +300,7 @@
       38815,
       464,
       464,
-      464,
+      38815,
       464
     ],
     [
@@ -148,7 +322,7 @@
     [
       13,
       15187,
-      28,
+      464,
       15187,
       28,
       15187
@@ -165,7 +339,7 @@
       12,
       1899,
       4211,
-      620,
+      1899,
       4211,
       620
     ],
@@ -179,7 +353,7 @@
     ],
     [
       464,
-      210,
+      36173,
       464,
       20,
       44095,
@@ -188,10 +362,10 @@
     [
       27480,
       201,
-      4211,
-      178,
+      6404,
+      36173,
       4372,
-      191
+      201
     ],
     [
       12,
@@ -213,17 +387,17 @@
       464,
       85,
       464,
-      12,
-      12,
+      75,
+      464,
       464
     ],
     [
-      12,
-      14686,
-      486,
+      75,
+      37466,
+      4869,
       1105,
       3104,
-      1105
+      10163
     ],
     [
       464,
@@ -245,12 +419,12 @@
       1,
       36173,
       464,
-      178,
+      184,
       464,
-      184
+      191
     ],
     [
-      1,
+      16,
       15377,
       17,
       15377,
@@ -267,11 +441,11 @@
     ],
     [
       30,
-      21,
+      201,
       4211,
-      124,
+      186,
       18378,
-      124
+      182
     ],
     [
       464,
@@ -346,18 +520,18 @@
       5698
     ],
     [
-      290,
+      464,
       1129,
       1,
       1129,
-      1,
+      4211,
       1129
     ],
     [
       464,
       3792,
       464,
-      464,
+      3792,
       464,
       464
     ],
@@ -373,9 +547,9 @@
       464,
       42508,
       464,
-      30,
       464,
-      30
+      464,
+      464
     ],
     [
       198,
@@ -403,7 +577,7 @@
     ],
     [
       4211,
-      21,
+      718,
       4211,
       21,
       4211,
@@ -429,11 +603,11 @@
   "top1_decoded_per_step": [
     [
       "/",
-      "\ufffd",
+      "\u0017",
       "/",
       " behind",
       ".",
-      "\ufffd"
+      "\u0011"
     ],
     [
       "The",
@@ -465,7 +639,7 @@
       "The",
       "The",
       "The",
-      "?"
+      "The"
     ],
     [
       "?",
@@ -528,7 +702,7 @@
       "vantage",
       "The",
       "The",
-      "The",
+      "vantage",
       "The"
     ],
     [
@@ -550,7 +724,7 @@
     [
       ".",
       "140",
-      "=",
+      "The",
       "140",
       "=",
       "140"
@@ -567,7 +741,7 @@
       "-",
       "60",
       ">>",
-      "ach",
+      "60",
       ">>",
       "ach"
     ],
@@ -581,7 +755,7 @@
     ],
     [
       "The",
-      "\u0016",
+      " RandomRedditor",
       "The",
       "5",
       "Tro",
@@ -590,10 +764,10 @@
     [
       "isine",
       "\r",
-      ">>",
-      "\ufffd",
+      "log",
+      " RandomRedditor",
       "rd",
-      "\u0003"
+      "\r"
     ],
     [
       "-",
@@ -615,17 +789,17 @@
       "The",
       "v",
       "The",
-      "-",
-      "-",
+      "l",
+      "The",
       "The"
     ],
     [
-      "-",
-      "112",
-      "01",
+      "l",
+      "656",
+      "71",
       " 12",
       "68",
-      " 12"
+      "123"
     ],
     [
       "The",
@@ -649,10 +823,10 @@
       "The",
       "\ufffd",
       "The",
-      "\ufffd"
+      "\u0003"
     ],
     [
-      "\"",
+      "1",
       "102",
       "2",
       "102",
@@ -669,7 +843,7 @@
     ],
     [
       "?",
-      "6",
+      "\r",
       ">>",
       "\ufffd",
       "Edit",
@@ -748,18 +922,18 @@
       " guide"
     ],
     [
-      " and",
+      "The",
       "19",
       "\"",
       "19",
-      "\"",
+      ">>",
       "19"
     ],
     [
       "The",
       "Is",
       "The",
-      "The",
+      "Is",
       "The",
       "The"
     ],
@@ -775,9 +949,9 @@
       "The",
       "quartered",
       "The",
-      "?",
       "The",
-      "?"
+      "The",
+      "The"
     ],
     [
       "\n",
@@ -805,7 +979,7 @@
     ],
     [
       ">>",
-      "6",
+      " 6",
       ">>",
       "6",
       ">>",

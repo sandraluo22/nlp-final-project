@@ -84,6 +84,7 @@ def load_metadata() -> dict:
         "n": len(types),
         "problem_type": np.array(types),
         "answer": answers,
+        "log_answer": np.log10(np.maximum(answers, 1) + 1),
         "faithful": np.array(faithful_label),
         "magnitude": bucket_magnitude(answers),
     }
@@ -207,6 +208,15 @@ def render_slide(
                         Line2D([0], [0], marker="o", linestyle="",
                                color=MAG_COLORS[cls], label=f"{cls} ({n})")
                     )
+
+        elif coloring == "log_answer":
+            log_ans = meta["log_answer"]
+            sc = ax.scatter(
+                xy[:, 0], xy[:, 1], xy[:, 2],
+                s=4, c=log_ans, cmap="viridis",
+                vmin=float(log_ans.min()), vmax=float(log_ans.max()),
+                alpha=0.6, linewidths=0, depthshade=True, rasterized=True,
+            )
         else:
             raise ValueError(coloring)
 
@@ -222,7 +232,18 @@ def render_slide(
             frameon=False,
             bbox_to_anchor=(0.5, 0.0),
         )
-    fig.subplots_adjust(top=0.93, bottom=0.07, left=0.02, right=0.98, wspace=0.08, hspace=0.12)
+    if coloring == "log_answer":
+        log_ans = meta["log_answer"]
+        sm = plt.cm.ScalarMappable(
+            cmap="viridis",
+            norm=plt.Normalize(vmin=float(log_ans.min()), vmax=float(log_ans.max())),
+        )
+        sm.set_array([])
+        cax = fig.add_axes([0.25, 0.04, 0.5, 0.018])
+        cb = fig.colorbar(sm, cax=cax, orientation="horizontal")
+        cb.set_label("log10(answer + 1)", fontsize=8)
+        cb.ax.tick_params(labelsize=7)
+    fig.subplots_adjust(top=0.93, bottom=0.10, left=0.02, right=0.98, wspace=0.08, hspace=0.12)
     pdf.savefig(fig, dpi=140)
     plt.close(fig)
 
@@ -243,7 +264,7 @@ def main():
     print(f"writing {OUT_PDF}", flush=True)
     OUT_PDF.parent.mkdir(parents=True, exist_ok=True)
     with PdfPages(OUT_PDF) as pdf:
-        for coloring in ["plain", "faithful", "problem_type", "magnitude"]:
+        for coloring in ["plain", "faithful", "problem_type", "magnitude", "log_answer"]:
             print(f"  coloring: {coloring}", flush=True)
             for layer in range(L):
                 render_slide(pdf, layer, pca_all[layer], var_all[layer], coloring, meta)

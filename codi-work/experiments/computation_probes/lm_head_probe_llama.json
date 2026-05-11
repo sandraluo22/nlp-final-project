@@ -3,11 +3,11 @@
   "K": 6,
   "N": 1000,
   "top1_stability": [
-    0.38,
+    0.378,
     0.509,
-    0.493,
-    0.667,
-    0.606
+    0.489,
+    0.666,
+    0.607
   ],
   "cos_sim_consec": [
     0.5495999982655049,
@@ -24,6 +24,180 @@
     1.567950179744512
   ],
   "kl_unit": "nats",
+  "accuracy_per_step_top1": [
+    0.049,
+    0.01,
+    0.0,
+    0.045,
+    0.039,
+    0.008
+  ],
+  "accuracy_per_step_top5": [
+    0.088,
+    0.031,
+    0.0,
+    0.075,
+    0.075,
+    0.024
+  ],
+  "accuracy_per_step_top10": [
+    0.119,
+    0.045,
+    0.003,
+    0.102,
+    0.089,
+    0.035
+  ],
+  "n_correct_per_step_top1": [
+    49,
+    10,
+    0,
+    45,
+    39,
+    8
+  ],
+  "n_correct_per_step_top5": [
+    88,
+    31,
+    0,
+    75,
+    75,
+    24
+  ],
+  "n_correct_per_step_top10": [
+    119,
+    45,
+    3,
+    102,
+    89,
+    35
+  ],
+  "transitions_top1": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "right_to_wrong": 44,
+      "wrong_to_right": 5,
+      "stable_right": 5,
+      "stable_wrong": 946
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "right_to_wrong": 10,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 990
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "right_to_wrong": 0,
+      "wrong_to_right": 45,
+      "stable_right": 0,
+      "stable_wrong": 955
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "right_to_wrong": 18,
+      "wrong_to_right": 12,
+      "stable_right": 27,
+      "stable_wrong": 943
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "right_to_wrong": 31,
+      "wrong_to_right": 0,
+      "stable_right": 8,
+      "stable_wrong": 961
+    }
+  ],
+  "transitions_top5": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "right_to_wrong": 68,
+      "wrong_to_right": 11,
+      "stable_right": 20,
+      "stable_wrong": 901
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "right_to_wrong": 31,
+      "wrong_to_right": 0,
+      "stable_right": 0,
+      "stable_wrong": 969
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "right_to_wrong": 0,
+      "wrong_to_right": 75,
+      "stable_right": 0,
+      "stable_wrong": 925
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "right_to_wrong": 26,
+      "wrong_to_right": 26,
+      "stable_right": 49,
+      "stable_wrong": 899
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "right_to_wrong": 57,
+      "wrong_to_right": 6,
+      "stable_right": 18,
+      "stable_wrong": 919
+    }
+  ],
+  "transitions_top10": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "right_to_wrong": 91,
+      "wrong_to_right": 17,
+      "stable_right": 28,
+      "stable_wrong": 864
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "right_to_wrong": 45,
+      "wrong_to_right": 3,
+      "stable_right": 0,
+      "stable_wrong": 952
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "right_to_wrong": 1,
+      "wrong_to_right": 100,
+      "stable_right": 2,
+      "stable_wrong": 897
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "right_to_wrong": 38,
+      "wrong_to_right": 25,
+      "stable_right": 64,
+      "stable_wrong": 873
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "right_to_wrong": 58,
+      "wrong_to_right": 4,
+      "stable_right": 31,
+      "stable_wrong": 907
+    }
+  ],
   "top1_per_step_examples": [
     [
       9591,
@@ -114,7 +288,7 @@
       2511
     ],
     [
-      23,
+      605,
       87,
       374,
       605,
@@ -259,7 +433,7 @@
     ],
     [
       605,
-      1,
+      15,
       3604,
       605,
       605,
@@ -330,7 +504,7 @@
       1475
     ],
     [
-      279,
+      374,
       279,
       279,
       279,
@@ -516,7 +690,7 @@
       ">>"
     ],
     [
-      "8",
+      "10",
       "x",
       " is",
       "10",
@@ -661,7 +835,7 @@
     ],
     [
       "10",
-      "\"",
+      "0",
       " actually",
       "10",
       "10",
@@ -732,7 +906,7 @@
       " every"
     ],
     [
-      " the",
+      " is",
       " the",
       " the",
       " the",
