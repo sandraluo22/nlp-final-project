@@ -45,6 +45,18 @@ def load_dataset_questions(name: str):
         golds = [float(str(ex["Answer"]).replace(",", "")) for ex in full]
         types = [t.replace("Common-Divison", "Common-Division") for t in full["Type"]]
         return qs, golds, types, "SVAMP train+test"
+    if name == "gsm8k":
+        from datasets import load_dataset
+        ds = load_dataset("gsm8k", "main")
+        qs, golds, types = [], [], []
+        for ex in ds["test"]:
+            q = ex["question"].strip().replace("  ", " ")
+            m = re.search(r"####\s*(-?\d+\.?\d*)", ex["answer"].replace(",", ""))
+            if m is None: continue
+            qs.append(q)
+            golds.append(float(m.group(1)))
+            types.append("gsm8k")
+        return qs, golds, types, "GSM8K test"
     p = CF_DIR / f"{name}.json"
     rows = json.load(open(p))
     qs, golds, types = [], [], []
