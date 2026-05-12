@@ -1,0 +1,1876 @@
+{
+  "winner": {
+    "latent_step_1indexed": 1,
+    "layer": 11
+  },
+  "v_norm": 1.0,
+  "n_add": 81,
+  "n_mul": 81,
+  "by_alpha": {
+    "-100": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 19,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 19,
+        "match_none": 62,
+        "match_add_only": 19,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 76,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 76,
+        "match_none": 5,
+        "match_add_only": 0,
+        "match_mul_only": 76
+      }
+    },
+    "-50": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 19,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 19,
+        "match_none": 62,
+        "match_add_only": 19,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 78,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 78,
+        "match_none": 3,
+        "match_add_only": 0,
+        "match_mul_only": 78
+      }
+    },
+    "-25": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 19,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 19,
+        "match_none": 62,
+        "match_add_only": 19,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 78,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 78,
+        "match_none": 3,
+        "match_add_only": 0,
+        "match_mul_only": 78
+      }
+    },
+    "-10": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 19,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 19,
+        "match_none": 62,
+        "match_add_only": 19,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 78,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 78,
+        "match_none": 3,
+        "match_add_only": 0,
+        "match_mul_only": 78
+      }
+    },
+    "0": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 17,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 17,
+        "match_none": 64,
+        "match_add_only": 17,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 77,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 77,
+        "match_none": 4,
+        "match_add_only": 0,
+        "match_mul_only": 77
+      }
+    },
+    "10": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 17,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 17,
+        "match_none": 64,
+        "match_add_only": 17,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 77,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 77,
+        "match_none": 4,
+        "match_add_only": 0,
+        "match_mul_only": 77
+      }
+    },
+    "25": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 17,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 17,
+        "match_none": 64,
+        "match_add_only": 17,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 75,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 75,
+        "match_none": 6,
+        "match_add_only": 0,
+        "match_mul_only": 75
+      }
+    },
+    "50": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 19,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 19,
+        "match_none": 62,
+        "match_add_only": 19,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 76,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 76,
+        "match_none": 5,
+        "match_add_only": 0,
+        "match_mul_only": 76
+      }
+    },
+    "100": {
+      "add": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 20,
+        "match_mul": 0,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 20,
+        "match_none": 61,
+        "match_add_only": 20,
+        "match_mul_only": 0
+      },
+      "mul": {
+        "n": 81,
+        "n_parseable": 81,
+        "match_add": 0,
+        "match_mul": 75,
+        "match_sub": 0,
+        "match_div": 0,
+        "match_gold": 75,
+        "match_none": 6,
+        "match_add_only": 0,
+        "match_mul_only": 75
+      }
+    }
+  },
+  "sample_outputs": {
+    "-100": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 34",
+          "parsed": 34.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "-50": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 34",
+          "parsed": 34.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "-25": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 34",
+          "parsed": 34.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "-10": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 34",
+          "parsed": 34.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "0": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 34",
+          "parsed": 34.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "10": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 34",
+          "parsed": 34.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "25": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 36",
+          "parsed": 36.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "50": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 36",
+          "parsed": 36.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    },
+    "100": {
+      "add": [
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            5,
+            3,
+            2
+          ],
+          "cand": {
+            "add": 18.0,
+            "mul": 240.0,
+            "sub": -2.0,
+            "div": 0.26666666666666666
+          },
+          "gold": 18.0,
+          "emit": "The answer is: 18",
+          "parsed": 18.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "cand": {
+            "add": 21.0,
+            "mul": 630.0,
+            "sub": -11.0,
+            "div": 0.03968253968253968
+          },
+          "gold": 21.0,
+          "emit": "The answer is: 21",
+          "parsed": 21.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            8,
+            11,
+            5,
+            7
+          ],
+          "cand": {
+            "add": 31.0,
+            "mul": 3080.0,
+            "sub": -15.0,
+            "div": 0.02077922077922078
+          },
+          "gold": 31.0,
+          "emit": "The answer is: 31",
+          "parsed": 31.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cand": {
+            "add": 26.0,
+            "mul": 1680.0,
+            "sub": -12.0,
+            "div": 0.029166666666666667
+          },
+          "gold": 26.0,
+          "emit": "The answer is: 26",
+          "parsed": 26.0
+        },
+        {
+          "gold_type": "Addition",
+          "operands": [
+            7,
+            5,
+            8,
+            4
+          ],
+          "cand": {
+            "add": 24.0,
+            "mul": 1120.0,
+            "sub": -10.0,
+            "div": 0.04375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        }
+      ],
+      "mul": [
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -6.0,
+            "div": 0.13333333333333333
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            4,
+            2
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -3.0,
+            "div": 0.375
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            2,
+            3,
+            4
+          ],
+          "cand": {
+            "add": 9.0,
+            "mul": 24.0,
+            "sub": -5.0,
+            "div": 0.16666666666666666
+          },
+          "gold": 24.0,
+          "emit": "The answer is: 24",
+          "parsed": 24.0
+        },
+        {
+          "gold_type": "Multiplication",
+          "operands": [
+            3,
+            2,
+            5
+          ],
+          "cand": {
+            "add": 10.0,
+            "mul": 30.0,
+            "sub": -4.0,
+            "div": 0.3
+          },
+          "gold": 30.0,
+          "emit": "The answer is: 30",
+          "parsed": 30.0
+        }
+      ]
+    }
+  }
+}

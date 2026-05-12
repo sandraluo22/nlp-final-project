@@ -1,0 +1,337 @@
+{
+  "target_step_1idx": 1,
+  "target_layer": 10,
+  "n_eval": 80,
+  "directions": {
+    "*\u2192+": {
+      "v_norm": 3.279433012008667,
+      "by_alpha": {
+        "-3.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "-1.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "0.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 77,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 3,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "1.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "3.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "6.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "12.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        }
+      }
+    },
+    "*\u2192-": {
+      "v_norm": 3.3035802841186523,
+      "by_alpha": {
+        "-3.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "-1.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "0.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 77,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 3,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "1.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "3.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "6.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "12.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        }
+      }
+    },
+    "*\u2192/": {
+      "v_norm": 3.2502284049987793,
+      "by_alpha": {
+        "-3.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "-1.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "0.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 77,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 3,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "1.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "3.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "6.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        },
+        "12.0": {
+          "score": {
+            "n": 80,
+            "match_mul": 78,
+            "match_add": 0,
+            "match_sub": 0,
+            "match_other": 2,
+            "unparsed": 0
+          },
+          "sample": [
+            "The answer is: 24",
+            "The answer is: 30",
+            "The answer is: 24"
+          ]
+        }
+      }
+    }
+  }
+}

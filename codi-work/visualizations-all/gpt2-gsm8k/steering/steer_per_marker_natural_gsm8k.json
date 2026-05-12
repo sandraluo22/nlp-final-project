@@ -1,0 +1,712 @@
+{
+  "cells": {
+    "1": {
+      "step_1idx": 4,
+      "layer": 1,
+      "probe_acc": 0.8125
+    },
+    "2": {
+      "step_1idx": 3,
+      "layer": 11,
+      "probe_acc": 0.8
+    },
+    "3": {
+      "step_1idx": 3,
+      "layer": 12,
+      "probe_acc": 0.8064516129032258
+    },
+    "4": {
+      "step_1idx": 5,
+      "layer": 11,
+      "probe_acc": 0.9
+    }
+  },
+  "filter": "correct_and_length_matched",
+  "n_problems": 80,
+  "alphas": [
+    -80,
+    -40,
+    -20,
+    -10,
+    0,
+    10,
+    20,
+    40,
+    80
+  ],
+  "per_m": {
+    "1": {
+      "-80": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 74,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 6,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-40": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-20": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-10": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "0": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "10": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 79,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 1,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "20": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 79,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 1,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "40": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 79,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 1,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "80": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 73,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 2,
+          "scrambled": 5,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      }
+    },
+    "2": {
+      "-80": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 79,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 1,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-40": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-20": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-10": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "0": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "10": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "20": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "40": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "80": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      }
+    },
+    "3": {
+      "-80": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-40": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-20": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-10": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "0": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "10": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "20": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "40": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "80": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      }
+    },
+    "4": {
+      "-80": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-40": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-20": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "-10": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "0": {
+        "target_op": "+",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "10": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "20": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "40": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      },
+      "80": {
+        "target_op": "*",
+        "counts": {
+          "baseline": 80,
+          "target": 0,
+          "off_target": 0,
+          "other_alt": 0,
+          "scrambled": 0,
+          "unparsed": 0
+        },
+        "emits": [
+          "The answer is: 6",
+          "The answer is: 41",
+          "The answer is: 23",
+          "The answer is: 17",
+          "The answer is: 29"
+        ]
+      }
+    }
+  },
+  "baseline": {
+    "n_match_gold": 80,
+    "n_emit": 80,
+    "n": 80,
+    "emits": [
+      "The answer is: 6",
+      "The answer is: 41",
+      "The answer is: 23",
+      "The answer is: 17",
+      "The answer is: 29",
+      "The answer is: 22",
+      "The answer is: 19",
+      "The answer is: 2",
+      "The answer is: 12",
+      "The answer is: 25"
+    ]
+  }
+}

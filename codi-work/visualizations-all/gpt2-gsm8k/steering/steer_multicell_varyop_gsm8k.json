@@ -1,0 +1,533 @@
+{
+  "cells": {
+    "1": {
+      "step_1idx": 4,
+      "layer": 1
+    },
+    "2": {
+      "step_1idx": 3,
+      "layer": 11
+    },
+    "3": {
+      "step_1idx": 3,
+      "layer": 12
+    },
+    "4": {
+      "step_1idx": 5,
+      "layer": 11
+    }
+  },
+  "v_addmul_norms": {
+    "m=1": 33.78724670410156,
+    "m=2": 155.6522674560547,
+    "m=3": 110.45533752441406,
+    "m=4": 155.0394287109375
+  },
+  "n_problems": 80,
+  "subsets": [
+    {
+      "name": "1-cell",
+      "ms": [
+        1
+      ],
+      "cell_norms_in_subset": [
+        33.78724670410156
+      ],
+      "ref_norm": 33.78724670410156,
+      "by_alpha_rel": {
+        "\u03b1_rel=-3.0": {
+          "alpha_eff": -101.36174011230469,
+          "target_op": "+",
+          "counts": {
+            "baseline": 75,
+            "scrambled": 5,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=-1.5": {
+          "alpha_eff": -50.680870056152344,
+          "target_op": "+",
+          "counts": {
+            "baseline": 78,
+            "scrambled": 2,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=0": {
+          "alpha_eff": 0.0,
+          "target_op": "*",
+          "counts": {
+            "baseline": 80,
+            "scrambled": 0,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=1.5": {
+          "alpha_eff": 50.680870056152344,
+          "target_op": "*",
+          "counts": {
+            "baseline": 80,
+            "scrambled": 0,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=3.0": {
+          "alpha_eff": 101.36174011230469,
+          "target_op": "*",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        }
+      }
+    },
+    {
+      "name": "2-cell",
+      "ms": [
+        1,
+        2
+      ],
+      "cell_norms_in_subset": [
+        33.78724670410156,
+        155.6522674560547
+      ],
+      "ref_norm": 155.6522674560547,
+      "by_alpha_rel": {
+        "\u03b1_rel=-3.0": {
+          "alpha_eff": -466.95680236816406,
+          "target_op": "+",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=-1.5": {
+          "alpha_eff": -233.47840118408203,
+          "target_op": "+",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=0": {
+          "alpha_eff": 0.0,
+          "target_op": "*",
+          "counts": {
+            "baseline": 80,
+            "scrambled": 0,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=1.5": {
+          "alpha_eff": 233.47840118408203,
+          "target_op": "*",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=3.0": {
+          "alpha_eff": 466.95680236816406,
+          "target_op": "*",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        }
+      }
+    },
+    {
+      "name": "3-cell",
+      "ms": [
+        1,
+        2,
+        3
+      ],
+      "cell_norms_in_subset": [
+        33.78724670410156,
+        155.6522674560547,
+        110.45533752441406
+      ],
+      "ref_norm": 155.6522674560547,
+      "by_alpha_rel": {
+        "\u03b1_rel=-3.0": {
+          "alpha_eff": -466.95680236816406,
+          "target_op": "+",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=-1.5": {
+          "alpha_eff": -233.47840118408203,
+          "target_op": "+",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=0": {
+          "alpha_eff": 0.0,
+          "target_op": "*",
+          "counts": {
+            "baseline": 80,
+            "scrambled": 0,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=1.5": {
+          "alpha_eff": 233.47840118408203,
+          "target_op": "*",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=3.0": {
+          "alpha_eff": 466.95680236816406,
+          "target_op": "*",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        }
+      }
+    },
+    {
+      "name": "4-cell",
+      "ms": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cell_norms_in_subset": [
+        33.78724670410156,
+        155.6522674560547,
+        110.45533752441406,
+        155.0394287109375
+      ],
+      "ref_norm": 155.6522674560547,
+      "by_alpha_rel": {
+        "\u03b1_rel=-3.0": {
+          "alpha_eff": -466.95680236816406,
+          "target_op": "+",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=-1.5": {
+          "alpha_eff": -233.47840118408203,
+          "target_op": "+",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_+_at_m1": 0,
+            "flip_to_+_at_m2": 0,
+            "flip_to_+_at_m3": 0,
+            "flip_to_+_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=0": {
+          "alpha_eff": 0.0,
+          "target_op": "*",
+          "counts": {
+            "baseline": 80,
+            "scrambled": 0,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=1.5": {
+          "alpha_eff": 233.47840118408203,
+          "target_op": "*",
+          "counts": {
+            "baseline": 74,
+            "scrambled": 6,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        },
+        "\u03b1_rel=3.0": {
+          "alpha_eff": 466.95680236816406,
+          "target_op": "*",
+          "counts": {
+            "baseline": 73,
+            "scrambled": 7,
+            "unparsed": 0,
+            "other_alt": 0,
+            "flip_to_*_at_m1": 0,
+            "flip_to_*_at_m2": 0,
+            "flip_to_*_at_m3": 0,
+            "flip_to_*_at_m4": 0,
+            "total_flips_to_target": 0
+          },
+          "emits": [
+            "The answer is: 6",
+            "The answer is: 41",
+            "The answer is: 23",
+            "The answer is: 17",
+            "The answer is: 29"
+          ]
+        }
+      }
+    }
+  ],
+  "baseline": {
+    "n_match_gold": 80,
+    "n": 80
+  }
+}
