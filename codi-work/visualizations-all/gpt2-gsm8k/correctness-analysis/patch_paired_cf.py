@@ -58,7 +58,7 @@ sys.path.insert(0, str(REPO / "codi"))
 
 # Target CF set. vary_numerals varies both operands so answers differ widely
 # across pairs — best contrast for interchange patching.
-CF_SETS = ["vary_numerals", "vary_both_2digit"]
+CF_SETS = ["gsm8k_vary_operator"]
 
 SEED = 0
 

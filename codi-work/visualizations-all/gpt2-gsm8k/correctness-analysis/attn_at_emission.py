@@ -46,7 +46,7 @@ PD = Path(__file__).resolve().parent
 CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))
 
-CF_SETS = ["vary_numerals", "vary_both_2digit"]
+CF_SETS = ["gsm8k_vary_operator"]
 OUT_JSON = PD / "attn_at_emission_gsm8k.json"
 OUT_PDF = PD / "attn_at_emission_gsm8k.pdf"
 

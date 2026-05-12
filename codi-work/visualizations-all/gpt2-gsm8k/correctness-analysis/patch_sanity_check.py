@@ -31,7 +31,7 @@ PD = REPO / "experiments" / "computation_probes"
 CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))
 
-CF_SETS = ["vary_a_2digit", "vary_numerals"]
+CF_SETS = ["gsm8k_cf_op_strict"]
 
 
 def codi_extract(s):

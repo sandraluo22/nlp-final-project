@@ -33,7 +33,7 @@ PD = Path(__file__).resolve().parent
 CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))
 
-CF_SETS = ["vary_numerals", "vary_both_2digit"]
+CF_SETS = ["gsm8k_vary_operator"]
 SEED = 0
 OUT_JSON = PD / "patch_paired_perex_gsm8k.json"
 
