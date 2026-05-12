@@ -50,11 +50,11 @@ from sklearn.model_selection import KFold
 REPO = Path(__file__).resolve().parents[3]  # codi-work/
 CF_DIR = REPO.parent / "cf-datasets"
 COL_DIR = REPO / "visualizations-all" / "gpt2" / "counterfactuals"
-SVAMP_COL = REPO / "experiments" / "computation_probes" / "svamp_colon_acts.pt"
-SVAMP_META = REPO / "experiments" / "computation_probes" / "svamp_colon_acts_meta.json"
+SVAMP_COL = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts.pt"
+SVAMP_META = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts_meta.json"
 PD = Path(__file__).resolve().parent
-OUT_JSON = PD / "helix_clock_test.json"
-OUT_PDF = PD / "helix_clock_test.pdf"
+OUT_JSON = PD / "helix_clock_test_gsm8k.json"
+OUT_PDF = PD / "helix_clock_test_gsm8k.pdf"
 
 PERIODS = [2, 5, 10, 50, 100, 1000]
 RIDGE_ALPHA = 1.0

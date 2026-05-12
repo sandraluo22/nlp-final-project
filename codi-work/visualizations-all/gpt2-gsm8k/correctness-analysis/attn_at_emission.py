@@ -47,8 +47,8 @@ CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))
 
 CF_SETS = ["vary_numerals", "vary_both_2digit"]
-OUT_JSON = PD / "attn_at_emission.json"
-OUT_PDF = PD / "attn_at_emission.pdf"
+OUT_JSON = PD / "attn_at_emission_gsm8k.json"
+OUT_PDF = PD / "attn_at_emission_gsm8k.pdf"
 
 
 def codi_extract(s):

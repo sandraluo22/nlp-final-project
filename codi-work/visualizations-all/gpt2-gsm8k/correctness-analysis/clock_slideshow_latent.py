@@ -21,7 +21,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 PD = Path(__file__).resolve().parent
 IN_JSON = PD / "helix_clock_test_latent.json"
-OUT_PDF = PD / "clock_slideshow_latent.pdf"
+OUT_PDF = PD / "clock_slideshow_latent_gsm8k.pdf"
 
 
 def wrap(a):

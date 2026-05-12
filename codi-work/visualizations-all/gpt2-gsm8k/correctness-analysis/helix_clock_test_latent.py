@@ -31,8 +31,8 @@ REPO = Path(__file__).resolve().parents[3]
 CF_DIR = REPO.parent / "cf-datasets"
 LAT_DIR = REPO / "visualizations-all" / "gpt2" / "counterfactuals"
 PD = Path(__file__).resolve().parent
-OUT_JSON = PD / "helix_clock_test_latent.json"
-OUT_PDF = PD / "helix_clock_test_latent.pdf"
+OUT_JSON = PD / "helix_clock_test_latent_gsm8k.json"
+OUT_PDF = PD / "helix_clock_test_latent_gsm8k.pdf"
 
 CF_SETS = ["vary_numerals", "vary_both_2digit", "vary_a_2digit", "vary_b_2digit"]
 PERIODS = [2, 5, 10, 50, 100, 1000]

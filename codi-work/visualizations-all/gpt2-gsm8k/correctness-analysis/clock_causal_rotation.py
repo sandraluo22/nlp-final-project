@@ -48,7 +48,7 @@ CF_DIR = REPO.parent / "cf-datasets"
 LAT_DIR = REPO / "visualizations-all" / "gpt2" / "counterfactuals"
 sys.path.insert(0, str(REPO / "codi"))
 
-OUT_JSON = PD / "clock_causal_rotation.json"
+OUT_JSON = PD / "clock_causal_rotation_gsm8k.json"
 
 # Use vary_numerals at (step=3, L=11), T=100, which had strong probe alignment.
 CF_NAME = "vary_numerals"

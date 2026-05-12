@@ -32,13 +32,13 @@ from datasets import concatenate_datasets, load_dataset
 
 REPO = Path(__file__).resolve().parents[2]
 PD = REPO / "experiments" / "computation_probes"
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 LM_HEAD = PD / "codi_gpt2_lm_head.npy"
 FD = PD / "force_decode_per_step.json"
 STUDENT = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
-JUDGED = REPO.parent / "cf-datasets" / "svamp_judged.json"
-OUT_JSON = PD / "step1to2_feature_projection.json"
-OUT_PDF = PD / "step1to2_feature_projection.pdf"
+JUDGED = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
+OUT_JSON = PD / "step1to2_feature_projection_gsm8k.json"
+OUT_PDF = PD / "step1to2_feature_projection_gsm8k.pdf"
 
 OPS = ["Addition", "Subtraction", "Multiplication", "Common-Division"]
 
@@ -61,7 +61,7 @@ def main():
     rw_mask = correct_s1 & (~correct_s2)
     print(f"  N={N} L={L}; wr={int(wr_mask.sum())} rw={int(rw_mask.sum())}")
 
-    ds = load_dataset("ChilleD/SVAMP")
+    ds = load_dataset("gsm8k")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])

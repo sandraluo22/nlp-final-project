@@ -17,10 +17,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 PD = Path(__file__).resolve().parent
-ACTS = PD / "svamp_colon_acts.pt"
-META = PD / "svamp_colon_acts_meta.json"
-OUT_PDF = PD / "correctness_probe_colon.pdf"
-OUT_JSON = PD / "correctness_probe_colon.json"
+ACTS = PD / "gsm8k_colon_acts.pt"
+META = PD / "gsm8k_colon_acts_meta.json"
+OUT_PDF = PD / "correctness_probe_colon_gsm8k.pdf"
+OUT_JSON = PD / "correctness_probe_colon_gsm8k.json"
 
 
 def main():

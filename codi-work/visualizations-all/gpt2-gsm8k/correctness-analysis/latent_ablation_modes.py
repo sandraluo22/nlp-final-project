@@ -44,7 +44,7 @@ sys.path.insert(0, str(REPO / "codi"))
 
 CF_SETS = ["vary_numerals", "vary_both_2digit"]
 SEED = 0
-OUT_JSON = PD / "latent_ablation_modes.json"
+OUT_JSON = PD / "latent_ablation_modes_gsm8k.json"
 
 ABLATE_STEP = 0   # zero-indexed; ablate step 1
 EMIT_TARGET = 4   # emit step where digit is produced ("The answer is: <DIGIT>")

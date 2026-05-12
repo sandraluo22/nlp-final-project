@@ -33,8 +33,8 @@ REPO = Path(__file__).resolve().parents[3]
 CF_DIR = REPO.parent / "cf-datasets"
 LAT_DIR = REPO / "visualizations-all" / "gpt2" / "counterfactuals"
 PD = Path(__file__).resolve().parent
-OUT_JSON = PD / "clock_extrapolation.json"
-OUT_PDF = PD / "clock_extrapolation.pdf"
+OUT_JSON = PD / "clock_extrapolation_gsm8k.json"
+OUT_PDF = PD / "clock_extrapolation_gsm8k.pdf"
 
 CF_SETS = ["vary_numerals", "vary_both_2digit"]
 PERIODS = [5, 10, 50, 100]   # the non-trivial periods
@@ -88,8 +88,8 @@ def load_cf(name):
 
 
 def main():
-    # We already know the best cells from helix_clock_test_latent.json.
-    helix = json.load(open(PD / "helix_clock_test_latent.json"))
+    # We already know the best cells from helix_clock_test_latent_gsm8k.json.
+    helix = json.load(open(PD / "helix_clock_test_latent_gsm8k.json"))
     results = {}
     for cf_name in CF_SETS:
         acts, a, b, gold = load_cf(cf_name)

@@ -89,7 +89,7 @@ def derangement(n: int, rng: np.random.Generator, max_tries: int = 100):
 
 def main():
     BS = 16
-    OUT_JSON = PD / "patch_paired_cf.json"
+    OUT_JSON = PD / "patch_paired_cf_gsm8k.json"
 
     ckpt = os.path.expanduser("~/codi_ckpt/CODI-gpt2")
     print(f"loading CODI-GPT-2 from {ckpt}", flush=True)

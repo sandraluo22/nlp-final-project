@@ -32,10 +32,10 @@ from sklearn.preprocessing import StandardScaler
 REPO = Path(__file__).resolve().parents[3]   # codi-work/
 EXP_PD = REPO / "experiments" / "computation_probes"
 PD = Path(__file__).resolve().parent
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 FD = EXP_PD / "force_decode_per_step.json"
-OUT_JSON = PD / "step1to2_correctness_distribution.json"
-OUT_PDF = PD / "step1to2_correctness_distribution.pdf"
+OUT_JSON = PD / "step1to2_correctness_distribution_gsm8k.json"
+OUT_PDF = PD / "step1to2_correctness_distribution_gsm8k.pdf"
 
 
 def unit(v):

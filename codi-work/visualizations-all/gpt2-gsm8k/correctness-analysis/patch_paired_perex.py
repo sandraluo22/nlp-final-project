@@ -35,7 +35,7 @@ sys.path.insert(0, str(REPO / "codi"))
 
 CF_SETS = ["vary_numerals", "vary_both_2digit"]
 SEED = 0
-OUT_JSON = PD / "patch_paired_perex.json"
+OUT_JSON = PD / "patch_paired_perex_gsm8k.json"
 
 
 def codi_extract(s):

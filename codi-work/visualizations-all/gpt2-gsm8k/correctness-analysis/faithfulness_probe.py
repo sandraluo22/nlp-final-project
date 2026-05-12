@@ -22,8 +22,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 REPO = Path(__file__).resolve().parents[2]
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
-JUDGED = REPO.parent / "cf-datasets" / "svamp_judged.json"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
+JUDGED = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
 OUT_JSON = Path(__file__).resolve().parent / "faithfulness_probe.json"
 OUT_PDF = Path(__file__).resolve().parent / "faithfulness_probe.pdf"
 

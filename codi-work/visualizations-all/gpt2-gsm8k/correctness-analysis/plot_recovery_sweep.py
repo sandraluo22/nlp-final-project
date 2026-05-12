@@ -17,7 +17,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 PD = Path(__file__).resolve().parent
 D = json.load(open(PD / "patch_recovery_sweep.json"))
-OUT_PDF = PD / "patch_recovery_sweep.pdf"
+OUT_PDF = PD / "patch_recovery_sweep_gsm8k.pdf"
 
 N_LAYERS = D["N_LAYERS"]
 N_LAT = D["N_LAT"]

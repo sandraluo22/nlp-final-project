@@ -23,8 +23,8 @@ from sklearn.model_selection import StratifiedKFold, train_test_split
 from sklearn.preprocessing import StandardScaler
 
 REPO = Path(__file__).resolve().parents[3]   # codi-work/
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
-JUDGED = REPO.parent / "cf-datasets" / "svamp_judged.json"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
+JUDGED = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
 PD = Path(__file__).resolve().parent
 OUT_JSON = PD / "faithfulness_probe_v2.json"
 OUT_PDF = PD / "faithfulness_probe_v2.pdf"

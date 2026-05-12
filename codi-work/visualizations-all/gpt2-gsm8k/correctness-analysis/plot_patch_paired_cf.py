@@ -24,7 +24,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 PD = Path(__file__).resolve().parent
 IN_JSON = PD / "patch_paired_cf.json"
-OUT_PDF = PD / "patch_paired_cf.pdf"
+OUT_PDF = PD / "patch_paired_cf_gsm8k.pdf"
 
 
 def cell_matrix(cells: dict, n_steps: int, n_layers: int, block: str, key: str):

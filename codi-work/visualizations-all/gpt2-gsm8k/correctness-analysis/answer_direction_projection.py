@@ -25,11 +25,11 @@ from transformers import AutoTokenizer
 
 REPO = Path(__file__).resolve().parents[2]
 PD = REPO / "experiments" / "computation_probes"
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 LM_HEAD = PD / "codi_gpt2_lm_head.npy"
 LN_F = PD / "codi_gpt2_ln_f.npz"
-OUT_NPZ = PD / "answer_direction_projection.npz"
-OUT_PDF = PD / "answer_direction_projection.pdf"
+OUT_NPZ = PD / "answer_direction_projection_gsm8k.npz"
+OUT_PDF = PD / "answer_direction_projection_gsm8k.pdf"
 TOPK_LIST = [1, 5, 10, 50]
 
 
@@ -45,7 +45,7 @@ def main():
     print(f"  lm_head shape={W.shape}; ln_f: gamma {gamma.shape}, beta {beta.shape}")
 
     # Targets: first BPE token of " {gold}" per example (leading-space form)
-    ds = load_dataset("ChilleD/SVAMP")
+    ds = load_dataset("gsm8k")
     full = concatenate_datasets([ds["train"], ds["test"]])
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])
     tok = AutoTokenizer.from_pretrained("gpt2", use_fast=True)

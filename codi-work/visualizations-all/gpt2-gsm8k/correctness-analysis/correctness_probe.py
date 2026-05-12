@@ -19,7 +19,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 REPO = Path(__file__).resolve().parents[2]
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 STUDENT_RESULTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
 OUT_PDF = REPO / "visualizations-all" / "gpt2" / "correctness_probe.pdf"
 OUT_JSON = REPO / "visualizations-all" / "gpt2" / "correctness_probe.json"
@@ -30,7 +30,7 @@ def main():
     student = json.load(open(STUDENT_RESULTS))
     y = np.array([bool(s["correct"]) for s in student], dtype=int)
     # SVAMP test/train union — match the 1000 in activations
-    ds = load_dataset("ChilleD/SVAMP")
+    ds = load_dataset("gsm8k")
     full = concatenate_datasets([ds["train"], ds["test"]])
     assert len(full) == len(y), f"meta/results mismatch: {len(full)} vs {len(y)}"
     print(f"  n={len(y)}  positives={int(y.sum())} ({y.mean()*100:.1f}%)")

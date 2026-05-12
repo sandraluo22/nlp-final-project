@@ -30,8 +30,8 @@ REPO = Path(__file__).resolve().parents[3]
 CF_DIR = REPO.parent / "cf-datasets"
 LAT_DIR = REPO / "visualizations-all" / "gpt2" / "counterfactuals"
 PD = Path(__file__).resolve().parent
-OUT_JSON = PD / "clock_subspace_rank.json"
-OUT_PDF = PD / "clock_subspace_rank.pdf"
+OUT_JSON = PD / "clock_subspace_rank_gsm8k.json"
+OUT_PDF = PD / "clock_subspace_rank_gsm8k.pdf"
 
 CF_SETS = ["vary_numerals", "vary_both_2digit"]
 PERIODS = [5, 10, 50, 100]
@@ -104,7 +104,7 @@ def principal_angles(W1, W2):
 
 
 def main():
-    helix = json.load(open(PD / "helix_clock_test_latent.json"))
+    helix = json.load(open(PD / "helix_clock_test_latent_gsm8k.json"))
     results = {}
     for cf_name in CF_SETS:
         acts, a, b, gold = load_cf(cf_name)

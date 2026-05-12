@@ -43,7 +43,7 @@ def codi_extract(s):
 
 def main():
     BS = 16
-    OUT_JSON = PD / "step2_layer_ablate.json"
+    OUT_JSON = PD / "step2_layer_ablate_gsm8k.json"
 
     ckpt = os.path.expanduser("~/codi_ckpt/CODI-gpt2")
     print(f"loading CODI-GPT-2 from {ckpt}", flush=True)
@@ -177,7 +177,7 @@ def main():
         s2_strs = decode_from_past(clone_past(past_after_s2), attn2, B)
         return s1_strs, s2_strs
 
-    ds = load_dataset("ChilleD/SVAMP")
+    ds = load_dataset("gsm8k")
     full = concatenate_datasets([ds["train"], ds["test"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])

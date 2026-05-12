@@ -36,7 +36,7 @@ REPO = Path(__file__).resolve().parents[2]
 PD = REPO / "experiments" / "computation_probes"
 sys.path.insert(0, str(REPO / "codi"))
 
-OUT_JSON = PD / "ablation_mlp_attn.json"
+OUT_JSON = PD / "ablation_mlp_attn_gsm8k.json"
 
 
 def codi_extract(s):
@@ -134,7 +134,7 @@ def main():
         handles.append(blk.attn.register_forward_hook(make_attn_hook(i)))
         handles.append(blk.mlp.register_forward_hook(make_mlp_hook(i)))
 
-    ds = load_dataset("ChilleD/SVAMP")
+    ds = load_dataset("gsm8k")
     full = concatenate_datasets([ds["train"], ds["test"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])

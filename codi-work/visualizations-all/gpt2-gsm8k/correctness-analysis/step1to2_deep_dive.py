@@ -40,13 +40,13 @@ from transformers import AutoTokenizer
 
 REPO = Path(__file__).resolve().parents[2]
 PD = REPO / "experiments" / "computation_probes"
-ACTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "activations.pt"
+ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 LM_HEAD = PD / "codi_gpt2_lm_head.npy"
 LN_F = PD / "codi_gpt2_ln_f.npz"
 FD = PD / "force_decode_per_step.json"
 FLOW = PD / "flow_map.npz"
-OUT_JSON = PD / "step1to2_deep_dive.json"
-OUT_PDF = PD / "step1to2_deep_dive.pdf"
+OUT_JSON = PD / "step1to2_deep_dive_gsm8k.json"
+OUT_PDF = PD / "step1to2_deep_dive_gsm8k.pdf"
 
 
 def apply_ln_f(h, gamma, beta):

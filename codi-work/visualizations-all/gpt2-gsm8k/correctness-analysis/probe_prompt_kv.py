@@ -44,8 +44,8 @@ CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))
 
 CF_SETS = ["vary_numerals", "vary_both_2digit"]
-OUT_JSON = PD / "probe_prompt_kv.json"
-OUT_PDF = PD / "probe_prompt_kv.pdf"
+OUT_JSON = PD / "probe_prompt_kv_gsm8k.json"
+OUT_PDF = PD / "probe_prompt_kv_gsm8k.pdf"
 RIDGE_ALPHA = 1.0
 N_FOLDS = 5
 SEED = 0
