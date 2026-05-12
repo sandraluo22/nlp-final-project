@@ -1,11 +1,12 @@
-"""Per-head attention ablation, scored with the CANONICAL probe (LDA fit on
-cf_balanced, evaluated at layer=8, latent_step=3 — gives 85% on baseline
-SVAMP transfer).
+"""SVAMP→GSM8K TRANSFER per-head ablation scored with the SVAMP-fit CANONICAL
+probe (LDA fit on SVAMP cf_balanced at layer=8, latent_step=3).
 
 For each (layer, head) cell:
   1. Zero head h's contribution at the prompt-end position
-  2. Run the latent loop, capture residual at (layer=8, latent_step=3)
-  3. Apply the saved LDA probe → measure operator accuracy on real SVAMP
+  2. Run the latent loop on a GSM8K test subset, capture residual at
+     (layer=8, latent_step=3)
+  3. Apply the SAVED SVAMP LDA probe → operator accuracy where the GSM8K
+     label is the FIRST marker's operator from the gold chain.
 """
 
 from __future__ import annotations
@@ -15,7 +16,7 @@ from pathlib import Path
 import numpy as np
 import torch
 import transformers
-from datasets import concatenate_datasets, load_dataset
+from datasets import load_dataset
 from peft import LoraConfig, TaskType
 from safetensors.torch import load_file
 
@@ -126,15 +127,22 @@ def main():
             if targs.use_prj: latent = model.prj(latent)
         return captured
 
-    # Real SVAMP eval — same set the existing svamp_student_gpt2 used (1000 examples)
-    ds = load_dataset("gsm8k", "main")
-    full = concatenate_datasets([ds["train"], ds["test"]])
-    op_labels = np.array([CL2IDX.get(ex["Type"], -1) for ex in full])
-    questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
+    # GSM8K eval — first-marker operator label
+    op_char_to_idx = {"+": 0, "-": 1, "*": 2, "/": 3}
+    ds = load_dataset("gsm8k", "main")["test"]
+    qs_all, op_all = [], []
+    for ex in ds:
+        ans = ex["answer"].replace(",", "")
+        m = re.search(r"<<(-?\d+\.?\d*)\s*([+\-*/])\s*(-?\d+\.?\d*)\s*=", ans)
+        if m is None:
+            continue
+        qs_all.append(ex["question"].strip().replace("  ", " "))
+        op_all.append(op_char_to_idx.get(m.group(2), -1))
+    op_labels = np.array(op_all)
     # subsample for speed
     np.random.seed(0)
-    eval_idx = np.random.choice(len(full), size=200, replace=False)
-    eval_qs = [questions[i] for i in eval_idx]
+    eval_idx = np.random.choice(len(qs_all), size=200, replace=False)
+    eval_qs = [qs_all[i] for i in eval_idx]
     eval_y = op_labels[eval_idx]
     BS = 16
     mask_y = eval_y >= 0
@@ -150,7 +158,7 @@ def main():
     base_cap = run_full(-1, -1)
     base_pred = clf.predict(sc.transform(base_cap))
     base_acc = float(np.mean(base_pred[mask_y] == eval_y[mask_y]))
-    print(f"  baseline LDA probe acc on 200 SVAMP examples: {base_acc*100:.1f}%")
+    print(f"  baseline SVAMP-fit LDA probe acc on 200 GSM8K examples: {base_acc*100:.1f}%")
 
     grid = np.zeros((N_LAYERS_GPT2, N_HEADS), dtype=float)
     t0 = time.time()
@@ -163,7 +171,7 @@ def main():
             print(f"  L{L:2d} H{H:2d}: probe_acc={acc*100:5.1f}%  "
                   f"(Δ {(acc - base_acc)*100:+.1f}pp)  ({time.time()-t0:.0f}s)", flush=True)
 
-    out = PD / "per_head_ablation_canonical.json"
+    out = Path(__file__).resolve().parent / "per_head_ablation_svamp2gsm8k_canonical.json"
     out.write_text(json.dumps({
         "base_acc": float(base_acc),
         "grid": grid.tolist(),

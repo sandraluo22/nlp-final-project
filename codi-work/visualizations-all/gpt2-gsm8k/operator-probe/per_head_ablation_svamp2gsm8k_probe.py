@@ -46,16 +46,19 @@ def codi_extract(s: str):
 
 
 def main():
-    # === 1. Train baseline probe on saved activations ===
-    print("loading baseline activations + training op probe...", flush=True)
+    # === 1. Train baseline probe on SVAMP activations (transfer source) ===
+    print("loading SVAMP baseline activations + training op probe...", flush=True)
     base_acts = torch.load(PD / "svamp_fixed_acts.pt", map_location="cpu").to(torch.float32).numpy()
-    ds = load_dataset("gsm8k", "main")
-    full = concatenate_datasets([ds["train"], ds["test"]])
+    svamp = load_dataset("ChilleD/SVAMP")
+    svamp_full = svamp["train"].select(range(len(svamp["train"])))  # just to materialize
+    # Concatenate SVAMP train + test (probe was originally fit on combined SVAMP)
+    from datasets import concatenate_datasets as _concat
+    svamp_full = _concat([svamp["train"], svamp["test"]])
     op_map = {"addition": 0, "subtraction": 1, "multiplication": 2,
               "common-division": 3, "common-divison": 3}
-    operators = np.array([op_map.get(ex["Type"].lower(), -1) for ex in full])
+    operators = np.array([op_map.get(ex["Type"].lower(), -1) for ex in svamp_full])
 
-    # Held-out split: train on 0..799, evaluate on 800..999
+    # SVAMP train/eval split for the probe itself
     np.random.seed(0)
     perm = np.random.permutation(len(operators))
     train_idx = perm[:800]
@@ -70,8 +73,8 @@ def main():
         sc.transform(X_train[mask_tr]), y_train[mask_tr])
     train_acc = clf.score(sc.transform(X_train[mask_tr]), y_train[mask_tr])
     test_acc  = clf.score(sc.transform(X_test[mask_te]),  y_test[mask_te])
-    print(f"  baseline op probe at (pos={PROBE_POS}, L={PROBE_LAYER}): "
-          f"train_acc={train_acc*100:.1f}%  held-out_acc={test_acc*100:.1f}%")
+    print(f"  SVAMP-fit op probe at (pos={PROBE_POS}, L={PROBE_LAYER}): "
+          f"train_acc={train_acc*100:.1f}%  SVAMP-held-out_acc={test_acc*100:.1f}%")
 
     # === 2. Load CODI ===
     ckpt = os.path.expanduser("~/codi_ckpt/CODI-gpt2")
@@ -183,10 +186,24 @@ def main():
             output = embed_fn(next_ids).unsqueeze(1)
         return captured, [tok.decode(t, skip_special_tokens=True) for t in tokens]
 
-    # Use the HELD-OUT 200 examples (not seen by probe) for ablation eval
-    eval_idx = test_idx
-    eval_qs = [full[int(i)]["question_concat"].strip().replace("  ", " ") for i in eval_idx]
-    eval_ops = operators[eval_idx]
+    # === GSM8K eval set: 200 problems, label = first-marker operator ===
+    op_char_to_idx = {"+": 0, "-": 1, "*": 2, "/": 3}
+    gsm = load_dataset("gsm8k", "main")["test"]
+    gsm_qs, gsm_ops, gsm_golds = [], [], []
+    for ex in gsm:
+        ans = ex["answer"].replace(",", "")
+        mm = re.search(r"<<(-?\d+\.?\d*)\s*([+\-*/])\s*(-?\d+\.?\d*)\s*=", ans)
+        mg = re.search(r"####\s*(-?\d+\.?\d*)", ans)
+        if mm is None or mg is None:
+            continue
+        gsm_qs.append(ex["question"].strip().replace("  ", " "))
+        gsm_ops.append(op_char_to_idx.get(mm.group(2), -1))
+        gsm_golds.append(float(mg.group(1)))
+    np.random.seed(0)
+    eval_idx = np.random.choice(len(gsm_qs), size=200, replace=False)
+    eval_qs = [gsm_qs[int(i)] for i in eval_idx]
+    eval_ops = np.array([gsm_ops[int(i)] for i in eval_idx])
+    eval_golds = np.array([gsm_golds[int(i)] for i in eval_idx])
 
     BS = 16
     def run_full(layer, head):
@@ -203,10 +220,10 @@ def main():
     base_pred = clf.predict(sc.transform(base_cap))
     mask = eval_ops >= 0
     base_probe_acc = float(np.mean(base_pred[mask] == eval_ops[mask]))
-    base_correct = sum(1 for s, i in zip(base_strs, eval_idx)
-                        if codi_extract(s) is not None and
-                        abs(codi_extract(s) - float(full[int(i)]["Answer"])) < 1e-3)
-    print(f"  baseline op probe: {base_probe_acc*100:.1f}%  task accuracy: {base_correct}/200")
+    base_correct = sum(1 for s, g in zip(base_strs, eval_golds)
+                        if codi_extract(s) is not None and abs(codi_extract(s) - g) < 1e-3)
+    print(f"  baseline SVAMP-fit op probe on GSM8K: {base_probe_acc*100:.1f}%  "
+          f"task accuracy: {base_correct}/200")
 
     grid = np.zeros((N_LAYERS, N_HEADS), dtype=float)
     grid_correct = np.zeros((N_LAYERS, N_HEADS), dtype=int)
@@ -216,15 +233,14 @@ def main():
             cap, strs = run_full(L, H)
             pred = clf.predict(sc.transform(cap))
             probe_acc = float(np.mean(pred[mask] == eval_ops[mask]))
-            n_correct = sum(1 for s, i in zip(strs, eval_idx)
-                             if codi_extract(s) is not None and
-                             abs(codi_extract(s) - float(full[int(i)]["Answer"])) < 1e-3)
+            n_correct = sum(1 for s, g in zip(strs, eval_golds)
+                             if codi_extract(s) is not None and abs(codi_extract(s) - g) < 1e-3)
             grid[L, H] = probe_acc; grid_correct[L, H] = n_correct
             print(f"  L{L:2d} H{H:2d}: probe_acc={probe_acc*100:5.1f}% "
                   f"(Δ {(probe_acc - base_probe_acc)*100:+.1f}pp)  "
                   f"correct={n_correct}/200  ({time.time()-t0:.0f}s)", flush=True)
 
-    out = PD / "per_head_ablation_probe.json"
+    out = Path(__file__).resolve().parent / "per_head_ablation_svamp2gsm8k_probe.json"
     out.write_text(json.dumps({
         "base_probe_acc": float(base_probe_acc),
         "base_n_correct": int(base_correct),
