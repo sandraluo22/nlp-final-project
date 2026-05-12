@@ -23,7 +23,7 @@ from datasets import concatenate_datasets, load_dataset
 from matplotlib.backends.backend_pdf import PdfPages
 from transformers import AutoTokenizer
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 PD = REPO / "experiments" / "computation_probes"
 ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 LM_HEAD = PD / "codi_gpt2_lm_head.npy"
@@ -45,7 +45,7 @@ def main():
     print(f"  lm_head shape={W.shape}; ln_f: gamma {gamma.shape}, beta {beta.shape}")
 
     # Targets: first BPE token of " {gold}" per example (leading-space form)
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])
     tok = AutoTokenizer.from_pretrained("gpt2", use_fast=True)

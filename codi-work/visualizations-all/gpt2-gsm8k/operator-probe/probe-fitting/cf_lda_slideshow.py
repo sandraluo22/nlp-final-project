@@ -26,7 +26,7 @@ from matplotlib.lines import Line2D
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[4]
 ACTS_PATH = REPO / "inference" / "runs" / "cf_balanced_student_gpt2" / "activations.pt"
 CF_DATA = REPO.parent / "cf-datasets" / "cf_balanced.json"
 OUT_PDF = REPO / "visualizations-all" / "gpt2" / "cf_lda_slideshow.pdf"
@@ -50,7 +50,7 @@ def load_metadata() -> dict:
     rows = json.load(open(CF_DATA))
     N = len(rows)
     correct = np.zeros(N, dtype=bool)
-    colon_meta_p = (Path(__file__).resolve().parents[2] / "experiments"
+    colon_meta_p = (Path(__file__).resolve().parents[5] / "experiments"
                     / "computation_probes" / "cf_balanced_colon_acts_meta.json")
     if colon_meta_p.exists():
         meta_j = json.load(open(colon_meta_p))

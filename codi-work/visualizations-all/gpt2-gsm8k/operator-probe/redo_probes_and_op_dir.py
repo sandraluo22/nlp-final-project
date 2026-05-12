@@ -46,7 +46,7 @@ def main():
     pred_floats = [None if pf is None else pf for pf in preds["pred_floats"]]
     print(f"  model exact-correct: {correct_mask.sum()}/{N} = {100*correct_mask.mean():.1f}%")
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     op_map = {"addition": 0, "subtraction": 1, "multiplication": 2,
               "common-division": 3, "common-divison": 3}

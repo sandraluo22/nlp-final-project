@@ -39,7 +39,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[4]
 CF_ACTS = REPO / "inference" / "runs" / "cf_balanced_student_gpt2" / "activations.pt"
 CF_DATA = REPO.parent / "cf-datasets" / "cf_balanced.json"
 ORIG_ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
@@ -68,7 +68,7 @@ def load_cf() -> tuple[np.ndarray, np.ndarray]:
 def load_orig() -> tuple[np.ndarray, np.ndarray]:
     print(f"loading orig: {ORIG_ACTS}", flush=True)
     a = torch.load(ORIG_ACTS, map_location="cpu", weights_only=True).float().numpy()
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array(
         [t.replace("Common-Divison", "Common-Division") for t in full["Type"]]

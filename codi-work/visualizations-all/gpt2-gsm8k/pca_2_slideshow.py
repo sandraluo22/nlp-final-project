@@ -45,7 +45,7 @@ PROBLEM_TYPE_COLORS = {
 
 def load_problem_types() -> np.ndarray:
     print("loading SVAMP types", flush=True)
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = [t.replace("Common-Divison", "Common-Division") for t in full["Type"]]
     return np.array(types)

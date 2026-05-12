@@ -49,7 +49,7 @@ def main():
     print(f"  acts shape {acts.shape}")
 
     # pull labels from SVAMP
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     op_map = {"addition": 0, "subtraction": 1, "multiplication": 2, "division": 3}
     operators = np.array([op_map.get(ex["Type"].lower(), -1) for ex in full])

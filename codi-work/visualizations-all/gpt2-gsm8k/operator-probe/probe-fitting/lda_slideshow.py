@@ -30,7 +30,7 @@ from matplotlib.lines import Line2D
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[4]
 ACTS_PATH = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 RESULTS_PATH = REPO / "inference" / "runs" / "svamp_teacher" / "results.json"
 JUDGED_PATH = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
@@ -67,7 +67,7 @@ def bucket_magnitude(ans: np.ndarray) -> np.ndarray:
 
 def load_metadata() -> dict:
     print("loading metadata", flush=True)
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = [t.replace("Common-Divison", "Common-Division") for t in full["Type"]]
     answers = np.array(

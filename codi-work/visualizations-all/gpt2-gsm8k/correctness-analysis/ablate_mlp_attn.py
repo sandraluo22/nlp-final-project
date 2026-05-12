@@ -134,7 +134,7 @@ def main():
         handles.append(blk.attn.register_forward_hook(make_attn_hook(i)))
         handles.append(blk.mlp.register_forward_hook(make_mlp_hook(i)))
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])

@@ -20,7 +20,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.lines import Line2D
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[4]
 ACTS = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts.pt"
 META = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts_meta.json"
 CF_DATA = REPO.parent / "cf-datasets" / "cf_balanced.json"

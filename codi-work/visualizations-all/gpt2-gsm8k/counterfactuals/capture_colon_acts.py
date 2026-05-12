@@ -39,7 +39,7 @@ def load_dataset_questions(name: str):
     """Return (questions, golds, types, schema_note)."""
     if name == "svamp":
         from datasets import load_dataset, concatenate_datasets
-        ds = load_dataset("gsm8k")
+        ds = load_dataset("gsm8k", "main")
         full = concatenate_datasets([ds["train"], ds["test"]])
         qs = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
         golds = [float(str(ex["Answer"]).replace(",", "")) for ex in full]

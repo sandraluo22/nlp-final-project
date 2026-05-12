@@ -127,7 +127,7 @@ def main():
         return captured
 
     # Real SVAMP eval — same set the existing svamp_student_gpt2 used (1000 examples)
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     op_labels = np.array([CL2IDX.get(ex["Type"], -1) for ex in full])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]

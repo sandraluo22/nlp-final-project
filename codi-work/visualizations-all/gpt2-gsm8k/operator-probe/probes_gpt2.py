@@ -37,7 +37,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 
-REPO = Path(__file__).resolve().parents[2]                     # codi-work/
+REPO = Path(__file__).resolve().parents[3]                     # codi-work/
 PROJECT = REPO.parent
 ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 OUT_DIR = REPO / "experiments" / "computation_probes"
@@ -51,7 +51,7 @@ def load_acts():
 
 
 def load_svamp_labels(n):
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])[:n]
     answers = np.array([float(str(a).replace(",", "")) for a in full["Answer"]])[:n]

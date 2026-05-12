@@ -30,7 +30,7 @@ from sklearn.preprocessing import StandardScaler
 from transformers import AutoTokenizer
 from datasets import concatenate_datasets, load_dataset
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 PD = REPO / "experiments" / "computation_probes"
 ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 LM_HEAD = PD / "codi_gpt2_lm_head.npy"
@@ -61,7 +61,7 @@ def main():
     rw_mask = correct_s1 & (~correct_s2)
     print(f"  N={N} L={L}; wr={int(wr_mask.sum())} rw={int(rw_mask.sum())}")
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])

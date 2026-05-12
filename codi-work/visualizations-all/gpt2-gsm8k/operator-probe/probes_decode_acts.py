@@ -37,7 +37,7 @@ def main():
     print(f"  shape={a.shape}", flush=True)              # (1000, 13, 768)
     N, L, H = a.shape
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])[:N]
     answers = np.array([float(str(x).replace(",", "")) for x in full["Answer"]])[:N]

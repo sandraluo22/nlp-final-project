@@ -48,7 +48,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 PD = REPO / "experiments" / "computation_probes"
 sys.path.insert(0, str(REPO / "codi"))
 
@@ -225,7 +225,7 @@ def main():
         return [tok.decode(t, skip_special_tokens=True) for t in tokens]
 
     # ---- Eval set ----
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
     golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])

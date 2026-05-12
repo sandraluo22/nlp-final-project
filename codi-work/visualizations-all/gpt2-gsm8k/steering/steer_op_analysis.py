@@ -79,7 +79,7 @@ def main():
     acts = torch.load(PD / "svamp_multipos_decode_acts.pt", map_location="cpu").to(torch.float32).numpy()
     N, P, Lp1, H = acts.shape
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     op_map = {"addition": 0, "subtraction": 1, "multiplication": 2,
               "common-division": 3, "common-divison": 3}

@@ -55,7 +55,7 @@ def main():
     cf_op = np.array([{"Addition": 0, "Subtraction": 1, "Multiplication": 2,
                         "Common-Division": 3}.get(d["type"], -1) for d in cf_data])[:cf_acts.shape[0]]
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     sv_gold = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])[:sv_acts.shape[0]]
     sv_parity = (np.array([int(round(g)) for g in sv_gold]) % 2).astype(int)

@@ -30,7 +30,7 @@ from matplotlib.lines import Line2D
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[4]
 ORIG_ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 CF_ACTS = REPO / "inference" / "runs" / "cf_balanced_student_gpt2" / "activations.pt"
 CF_DATA = REPO.parent / "cf-datasets" / "cf_balanced.json"
@@ -46,7 +46,7 @@ PROBLEM_TYPE_COLORS = {
 
 
 def load_orig_problem_types() -> np.ndarray:
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = [t.replace("Common-Divison", "Common-Division") for t in full["Type"]]
     return np.array(types)

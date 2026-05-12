@@ -23,7 +23,7 @@ from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.model_selection import train_test_split
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[4]
 CF_ACTS = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts.pt"
 CF_META = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts_meta.json"
 ORIG_ACTS = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts.pt"

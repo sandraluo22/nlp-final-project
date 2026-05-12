@@ -31,7 +31,7 @@ from safetensors.torch import load_file
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 PD = REPO / "experiments" / "computation_probes"
 sys.path.insert(0, str(REPO / "codi"))
 
@@ -95,7 +95,7 @@ def main():
     N, S, L, H = a.shape
     print(f"  shape={a.shape}")
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types_full = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]

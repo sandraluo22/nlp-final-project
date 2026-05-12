@@ -68,7 +68,7 @@ def main():
     N, L, H = a.shape
     print(f"  shape={a.shape}")
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]

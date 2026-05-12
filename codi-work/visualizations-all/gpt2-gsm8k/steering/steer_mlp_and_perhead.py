@@ -187,7 +187,7 @@ def main():
         return [tok.decode(t, skip_special_tokens=True) for t in tokens]
 
     # SVAMP eval
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     add_idx = [i for i, ex in enumerate(full) if ex["Type"] == "Addition"]
     sub_idx = [i for i, ex in enumerate(full) if ex["Type"] == "Subtraction"]

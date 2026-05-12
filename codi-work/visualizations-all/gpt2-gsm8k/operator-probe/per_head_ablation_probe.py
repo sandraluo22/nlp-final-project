@@ -49,7 +49,7 @@ def main():
     # === 1. Train baseline probe on saved activations ===
     print("loading baseline activations + training op probe...", flush=True)
     base_acts = torch.load(PD / "svamp_fixed_acts.pt", map_location="cpu").to(torch.float32).numpy()
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     op_map = {"addition": 0, "subtraction": 1, "multiplication": 2,
               "common-division": 3, "common-divison": 3}

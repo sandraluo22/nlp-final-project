@@ -66,7 +66,7 @@ def main():
                             for v in model_ans_py], dtype=np.int64)
 
     # gold labels for comparison
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     answers = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])
     gold_units = np.array([int(abs(int(round(a))) % 10) for a in answers])

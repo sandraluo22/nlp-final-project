@@ -28,7 +28,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 from sklearn.decomposition import PCA
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 STUDENT_RESULTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
 JUDGED = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
@@ -37,7 +37,7 @@ OUT_JSON = REPO / "visualizations-all" / "gpt2" / "pca_bifurcation_diagnose.json
 
 
 def load_metadata():
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     answers = np.array([float(str(a).replace(",", "")) for a in full["Answer"]], dtype=np.float64)

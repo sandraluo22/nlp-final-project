@@ -89,7 +89,7 @@ def main():
     model_units = np.array([(abs(v) % 10) if v is not None else -1
                             for v in model_ans_py], dtype=np.int64)
 
-    ds = load_dataset("gsm8k")
+    ds = load_dataset("gsm8k", "main")
     full = concatenate_datasets([ds["train"], ds["test"]])
     op_map = {"addition": 0, "subtraction": 1, "multiplication": 2,
               "common-division": 3, "common-divison": 3}
