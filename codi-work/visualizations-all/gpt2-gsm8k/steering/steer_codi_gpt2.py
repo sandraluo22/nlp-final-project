@@ -28,7 +28,7 @@ from safetensors.torch import load_file
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 PD = REPO / "experiments" / "computation_probes"
 sys.path.insert(0, str(REPO / "codi"))
 

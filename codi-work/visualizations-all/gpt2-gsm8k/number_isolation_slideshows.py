@@ -34,8 +34,8 @@ ACTS_NUM = CODI_ROOT / "inference" / "runs" / "gpt2_vary_numerals" / "activation
 ACTS_OP  = CODI_ROOT / "inference" / "runs" / "gpt2_vary_operator" / "activations.pt"
 DATA_NUM = CODI_ROOT.parent / "cf-datasets" / "vary_numerals.json"
 DATA_OP  = CODI_ROOT.parent / "cf-datasets" / "vary_operator.json"
-OUT_NUM = CODI_ROOT / "visualizations-all" / "gpt2" / "vary_numerals_pca_slideshow.pdf"
-OUT_OP  = CODI_ROOT / "visualizations-all" / "gpt2" / "vary_operator_pca_slideshow.pdf"
+OUT_NUM = CODI_ROOT / "visualizations-all" / "gpt2-gsm8k" / "vary_numerals_pca_slideshow.pdf"
+OUT_OP  = CODI_ROOT / "visualizations-all" / "gpt2-gsm8k" / "vary_operator_pca_slideshow.pdf"
 
 
 PROBLEM_TYPE_COLORS = {

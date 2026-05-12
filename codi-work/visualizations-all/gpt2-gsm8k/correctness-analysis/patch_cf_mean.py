@@ -31,7 +31,7 @@ import transformers
 from peft import LoraConfig, TaskType
 from safetensors.torch import load_file
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[3]
 PD = REPO / "experiments" / "computation_probes"
 CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))

@@ -32,7 +32,7 @@ from sklearn.decomposition import PCA
 
 CODI_ROOT = Path(__file__).resolve().parents[2]
 PROJECT_ROOT = CODI_ROOT.parent
-OUT_PDF = CODI_ROOT / "visualizations-all" / "gpt2" / "number_isolation_combined.pdf"
+OUT_PDF = CODI_ROOT / "visualizations-all" / "gpt2-gsm8k" / "number_isolation_combined.pdf"
 DATASETS = {
     "vary_numerals": {
         "acts": CODI_ROOT / "inference" / "runs" / "gpt2_vary_numerals" / "activations.pt",
@@ -59,7 +59,7 @@ DATASETS = {
         "step_label": "latent step",
     },
 }
-COSSIM_JSON = CODI_ROOT / "visualizations-all" / "gpt2" / "number_isolation_cossim.json"
+COSSIM_JSON = CODI_ROOT / "visualizations-all" / "gpt2-gsm8k" / "number_isolation_cossim.json"
 
 PROBLEM_TYPE_COLORS = {
     "Subtraction": "#1f77b4",
