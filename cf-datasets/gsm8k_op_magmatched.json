@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 27,
+    "b": 15,
+    "question_concat": "A baker had 27 croissants in the morning and then baked 15 more in the afternoon. How many croissants does the baker have altogether?",
+    "answer": 42.0,
+    "answer_trace": "<<27+15=42>>\n#### 42",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 53782
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 17,
+    "b": 8,
+    "question_concat": "Maya picked 17 apples from one tree and then picked 8 more from a nearby tree. How many apples did she pick in total?",
+    "answer": 25.0,
+    "answer_trace": "<<17+8=25>>\n#### 25",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 53779
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 17,
+    "b": 12,
+    "question_concat": "A florist prepared 17 red roses and 12 white roses for a bouquet. How many roses are there in total?",
+    "answer": 29.0,
+    "answer_trace": "<<17+12=29>>\n#### 29",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 56199
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 27,
+    "b": 13,
+    "question_concat": "Carlos picked 27 apples from one tree and 13 from another. How many apples did he pick in total?",
+    "answer": 40.0,
+    "answer_trace": "<<27+13=40>>\n#### 40",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 58588
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 18,
+    "b": 7,
+    "question_concat": "Dana baked 18 cookies and her neighbor brought 7 more to the bake sale. How many cookies are there in total?",
+    "answer": 25.0,
+    "answer_trace": "<<18+7=25>>\n#### 25",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 60985
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 9,
+    "b": 7,
+    "question_concat": "A baker had 9 croissants in the display case and then baked 7 more. How many croissants are there now?",
+    "answer": 16.0,
+    "answer_trace": "<<9+7=16>>\n#### 16",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 65795
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 27,
+    "b": 15,
+    "question_concat": "At a school fair, 27 red balloons were tied to the stage and 15 blue balloons were tied around the entrance. How many balloons are there in total?",
+    "answer": 42.0,
+    "answer_trace": "<<27+15=42>>\n#### 42",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 68189
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 18,
+    "b": 9,
+    "question_concat": "Maya collected 18 seashells in the morning and then found 9 more in the afternoon. How many seashells does she have now?",
+    "answer": 27.0,
+    "answer_trace": "<<18+9=27>>\n#### 27",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 75400
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 28,
+    "b": 15,
+    "question_concat": "A florist had 28 roses in the morning and received a delivery of 15 more before noon. How many roses does the florist have now?",
+    "answer": 43.0,
+    "answer_trace": "<<28+15=43>>\n#### 43",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 77781
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "10-50",
+    "a": 18,
+    "b": 13,
+    "question_concat": "Liam picked 18 apples + 13 oranges for the picnic. How many pieces of fruit does he have in total?",
+    "answer": 31.0,
+    "answer_trace": "<<18+13=31>>\n#### 31",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 77784
+  }
+]
