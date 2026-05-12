@@ -1,0 +1,657 @@
+[
+  {
+    "idx": 0,
+    "q": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+    "gold": 18.0,
+    "markers": [
+      {
+        "a": 9.0,
+        "op": "*",
+        "b": 2.0,
+        "c": 18.0
+      }
+    ],
+    "n_markers": 1,
+    "finally_correct": true,
+    "step_emits": [
+      "13-3-4=4>> <<4*2=8>>The answer is: 16",
+      "The answer is: 26",
+      "The answer is: 18",
+      "The answer is: 18",
+      "The answer is: 18",
+      "The answer is: 18"
+    ],
+    "emit_vals": [
+      16.0,
+      26.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0
+    ],
+    "step_correct": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ll_resid_post_L11_top3": [
+      [
+        [
+          "-",
+          0.6200787425041199
+        ],
+        [
+          ">>",
+          0.08658239245414734
+        ],
+        [
+          " than",
+          0.042861390858888626
+        ]
+      ],
+      [
+        [
+          " 9",
+          0.23716597259044647
+        ],
+        [
+          "9",
+          0.05996495112776756
+        ],
+        [
+          " any",
+          0.05291888490319252
+        ]
+      ],
+      [
+        [
+          "-",
+          0.8714689016342163
+        ],
+        [
+          ">>",
+          0.016990939155220985
+        ],
+        [
+          "NEWS",
+          0.007082877680659294
+        ]
+      ],
+      [
+        [
+          " 3",
+          0.07694394141435623
+        ],
+        [
+          " 5",
+          0.07694394141435623
+        ],
+        [
+          "9",
+          0.06790278851985931
+        ]
+      ],
+      [
+        [
+          "-",
+          0.8966797590255737
+        ],
+        [
+          ">>",
+          0.013615363277494907
+        ],
+        [
+          " than",
+          0.0039008669555187225
+        ]
+      ],
+      [
+        [
+          " 5",
+          0.10217837244272232
+        ],
+        [
+          " 3",
+          0.07022610306739807
+        ],
+        [
+          "5",
+          0.07022610306739807
+        ]
+      ]
+    ]
+  },
+  {
+    "idx": 1,
+    "q": "A robe takes 2 bolts of blue fiber and half that much white fiber. How many bolts in total does it take?",
+    "gold": 3.0,
+    "markers": [
+      {
+        "a": 2.0,
+        "op": "/",
+        "b": 2.0,
+        "c": 1.0
+      },
+      {
+        "a": 2.0,
+        "op": "+",
+        "b": 1.0,
+        "c": 3.0
+      }
+    ],
+    "n_markers": 2,
+    "finally_correct": true,
+    "step_emits": [
+      "The answer is: 3",
+      "The answer is: 3",
+      "The answer is: 3",
+      "The answer is: 3",
+      "The answer is: 3",
+      "The answer is: 3"
+    ],
+    "emit_vals": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "step_correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ll_resid_post_L11_top3": [
+      [
+        [
+          ">>",
+          0.6614891886711121
+        ],
+        [
+          "/",
+          0.18951983749866486
+        ],
+        [
+          ".",
+          0.0895228311419487
+        ]
+      ],
+      [
+        [
+          " 1",
+          0.49721330404281616
+        ],
+        [
+          "1",
+          0.49721330404281616
+        ],
+        [
+          " 0",
+          0.0023025546688586473
+        ]
+      ],
+      [
+        [
+          ">>",
+          0.9310471415519714
+        ],
+        [
+          ")",
+          0.02641177549958229
+        ],
+        [
+          ",",
+          0.014137203805148602
+        ]
+      ],
+      [
+        [
+          "1",
+          0.513433039188385
+        ],
+        [
+          " 1",
+          0.4823257327079773
+        ],
+        [
+          " 0",
+          0.0016860180767253041
+        ]
+      ],
+      [
+        [
+          ">>",
+          0.9332970380783081
+        ],
+        [
+          ")",
+          0.056048840284347534
+        ],
+        [
+          "/",
+          0.002173249376937747
+        ]
+      ],
+      [
+        [
+          "1",
+          0.6733939051628113
+        ],
+        [
+          " 1",
+          0.3180887699127197
+        ],
+        [
+          "0",
+          0.004131251480430365
+        ]
+      ]
+    ]
+  },
+  {
+    "idx": 2,
+    "q": "Josh decides to try flipping a house. He buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. How much profit did he make?",
+    "gold": 70000.0,
+    "markers": [
+      {
+        "a": 80000.0,
+        "op": "+",
+        "b": 50000.0,
+        "c": 130000.0
+      },
+      {
+        "a": 80000.0,
+        "op": "*",
+        "b": 1.5,
+        "c": 120000.0
+      },
+      {
+        "a": 120000.0,
+        "op": "+",
+        "b": 80000.0,
+        "c": 200000.0
+      },
+      {
+        "a": 200000.0,
+        "op": "-",
+        "b": 130000.0,
+        "c": 70000.0
+      }
+    ],
+    "n_markers": 4,
+    "finally_correct": false,
+    "step_emits": [
+      "3.5>> <<80000+50000=130000>>The answer is: 20000",
+      "intact200000>> <<200000+50000=550000>>The answer is: 225000",
+      "The answer is: 5000",
+      "The answer is: 5000",
+      "The answer is: 5000",
+      "The answer is: 5000"
+    ],
+    "emit_vals": [
+      20000.0,
+      225000.0,
+      5000.0,
+      5000.0,
+      5000.0,
+      5000.0
+    ],
+    "step_correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "ll_resid_post_L11_top3": [
+      [
+        [
+          " <<",
+          0.8681209683418274
+        ],
+        [
+          "*",
+          0.024698952212929726
+        ],
+        [
+          ".",
+          0.014308623038232327
+        ]
+      ],
+      [
+        [
+          " raise",
+          0.15479648113250732
+        ],
+        [
+          " answer",
+          0.12486927956342697
+        ],
+        [
+          "----------------",
+          0.07921687513589859
+        ]
+      ],
+      [
+        [
+          " <<",
+          0.363867849111557
+        ],
+        [
+          ">>",
+          0.06944539397954941
+        ],
+        [
+          " 9000",
+          0.055800944566726685
+        ]
+      ],
+      [
+        [
+          " raise",
+          0.24580255150794983
+        ],
+        [
+          " effect",
+          0.07980040460824966
+        ],
+        [
+          " Raise",
+          0.07496553659439087
+        ]
+      ],
+      [
+        [
+          " <<",
+          0.20150788128376007
+        ],
+        [
+          "666",
+          0.08666746318340302
+        ],
+        [
+          "..",
+          0.06542003154754639
+        ]
+      ],
+      [
+        [
+          " raise",
+          0.24952436983585358
+        ],
+        [
+          " effect",
+          0.09771514683961868
+        ],
+        [
+          " Star",
+          0.06308963894844055
+        ]
+      ]
+    ]
+  },
+  {
+    "idx": 3,
+    "q": "James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint. How many total meters does he run a week?",
+    "gold": 540.0,
+    "markers": [
+      {
+        "a": 3.0,
+        "op": "*",
+        "b": 3.0,
+        "c": 9.0
+      },
+      {
+        "a": 9.0,
+        "op": "*",
+        "b": 60.0,
+        "c": 540.0
+      }
+    ],
+    "n_markers": 2,
+    "finally_correct": true,
+    "step_emits": [
+      "The answer is: 540",
+      "The answer is: 540",
+      "The answer is: 540",
+      "The answer is: 540",
+      "The answer is: 540",
+      "The answer is: 540"
+    ],
+    "emit_vals": [
+      540.0,
+      540.0,
+      540.0,
+      540.0,
+      540.0,
+      540.0
+    ],
+    "step_correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ll_resid_post_L11_top3": [
+      [
+        [
+          "*",
+          0.26323506236076355
+        ],
+        [
+          "\u00b7",
+          0.11680985987186432
+        ],
+        [
+          ">>",
+          0.10973270237445831
+        ]
+      ],
+      [
+        [
+          "180",
+          0.5451558232307434
+        ],
+        [
+          " 180",
+          0.2272547483444214
+        ],
+        [
+          "Cal",
+          0.01865420490503311
+        ]
+      ],
+      [
+        [
+          "*",
+          0.6857417821884155
+        ],
+        [
+          "--",
+          0.03157533332705498
+        ],
+        [
+          "**",
+          0.030603861436247826
+        ]
+      ],
+      [
+        [
+          " 9",
+          0.5323245525360107
+        ],
+        [
+          "9",
+          0.13459272682666779
+        ],
+        [
+          "ris",
+          0.05610658973455429
+        ]
+      ],
+      [
+        [
+          ">>",
+          0.44844669103622437
+        ],
+        [
+          "*",
+          0.16497433185577393
+        ],
+        [
+          "ax",
+          0.0535593219101429
+        ]
+      ],
+      [
+        [
+          "180",
+          0.07197067141532898
+        ],
+        [
+          "ris",
+          0.06351389735937119
+        ],
+        [
+          " 180",
+          0.049464672803878784
+        ]
+      ]
+    ]
+  },
+  {
+    "idx": 4,
+    "q": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed. In the afternoon, she gives her chickens another 25 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?",
+    "gold": 20.0,
+    "markers": [
+      {
+        "a": 3.0,
+        "op": "*",
+        "b": 20.0,
+        "c": 60.0
+      }
+    ],
+    "n_markers": 1,
+    "finally_correct": true,
+    "step_emits": [
+      "60=60>> <<15+25=40>>The answer is: 20",
+      "The answer is: 10",
+      "The answer is: 20",
+      "The answer is: 15",
+      "The answer is: 20",
+      "The answer is: 20"
+    ],
+    "emit_vals": [
+      20.0,
+      10.0,
+      20.0,
+      15.0,
+      20.0,
+      20.0
+    ],
+    "step_correct": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    "ll_resid_post_L11_top3": [
+      [
+        [
+          "+",
+          0.2595598101615906
+        ],
+        [
+          ",",
+          0.19901143014431
+        ],
+        [
+          ".",
+          0.178392693400383
+        ]
+      ],
+      [
+        [
+          " 60",
+          0.32626938819885254
+        ],
+        [
+          " 40",
+          0.1360093206167221
+        ],
+        [
+          " 45",
+          0.04415576159954071
+        ]
+      ],
+      [
+        [
+          ",",
+          0.3067617118358612
+        ],
+        [
+          "+",
+          0.17478753626346588
+        ],
+        [
+          " is",
+          0.0965268462896347
+        ]
+      ],
+      [
+        [
+          " 40",
+          0.922971785068512
+        ],
+        [
+          "40",
+          0.06280902028083801
+        ],
+        [
+          "ings",
+          0.002149206353351474
+        ]
+      ],
+      [
+        [
+          ",",
+          0.1768164485692978
+        ],
+        [
+          "+",
+          0.07370805740356445
+        ],
+        [
+          "\"",
+          0.03481722250580788
+        ]
+      ],
+      [
+        [
+          " 40",
+          0.9277620911598206
+        ],
+        [
+          "40",
+          0.05930984765291214
+        ],
+        [
+          "ings",
+          0.0016824908088892698
+        ]
+      ]
+    ]
+  }
+]

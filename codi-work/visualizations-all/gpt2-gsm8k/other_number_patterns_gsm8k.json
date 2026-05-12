@@ -1,0 +1,604 @@
+{
+  "n_other_number_wrong_emits": 534,
+  "category_counts": {
+    "near_gold_within_5": 156,
+    "same_magnitude": 374,
+    "matches_operand": 45,
+    "truly_other": 102,
+    "small_const": 58,
+    "matches_op_pair": 78,
+    "prod_of_ops": 9,
+    "diff_of_ops": 4,
+    "near_gold": 34,
+    "off_by_factor10": 4,
+    "sum_of_ops": 1
+  },
+  "by_first_correct_step": {
+    "3": {
+      "near_gold_within_5": 71,
+      "same_magnitude": 178,
+      "matches_operand": 11,
+      "matches_op_pair": 33,
+      "truly_other": 34,
+      "prod_of_ops": 7,
+      "diff_of_ops": 2,
+      "small_const": 20,
+      "near_gold": 19,
+      "off_by_factor10": 2
+    },
+    "5": {
+      "same_magnitude": 105,
+      "near_gold_within_5": 47,
+      "truly_other": 31,
+      "matches_operand": 16,
+      "small_const": 19,
+      "near_gold": 8,
+      "matches_op_pair": 19,
+      "prod_of_ops": 2
+    },
+    "2": {
+      "truly_other": 24,
+      "matches_operand": 8,
+      "small_const": 10,
+      "same_magnitude": 40,
+      "near_gold_within_5": 20,
+      "matches_op_pair": 11,
+      "near_gold": 5,
+      "off_by_factor10": 2,
+      "sum_of_ops": 1
+    },
+    "4": {
+      "truly_other": 3,
+      "same_magnitude": 32,
+      "matches_operand": 10,
+      "near_gold_within_5": 11,
+      "small_const": 6,
+      "near_gold": 2,
+      "matches_op_pair": 9,
+      "diff_of_ops": 2
+    },
+    "6": {
+      "truly_other": 10,
+      "matches_op_pair": 6,
+      "same_magnitude": 19,
+      "small_const": 3,
+      "near_gold_within_5": 7
+    }
+  },
+  "examples_per_category": {
+    "matches_operand": [
+      {
+        "idx": 0,
+        "step": 1,
+        "v": 16.0,
+        "gold": 18.0,
+        "ops_in_q": [
+          16.0,
+          2.0
+        ],
+        "emit_text": "13-3-4=4>> <<4*2=8>>The answer is: 16"
+      },
+      {
+        "idx": 19,
+        "step": 1,
+        "v": 4.0,
+        "gold": 6.0,
+        "ops_in_q": [
+          12.0,
+          1.0,
+          4.0,
+          4.0
+        ],
+        "emit_text": "4-1-2=1>> <<4*1=4>> <<12-4=8>>The answer is: 4"
+      },
+      {
+        "idx": 41,
+        "step": 2,
+        "v": 400.0,
+        "gold": 200.0,
+        "ops_in_q": [
+          1000.0,
+          400.0
+        ],
+        "emit_text": "1200-400=800>> <<3*400=1200>>The answer is: 400"
+      },
+      {
+        "idx": 118,
+        "step": 4,
+        "v": 2.0,
+        "gold": 4.0,
+        "ops_in_q": [
+          2.0,
+          5.0,
+          30.0,
+          5.0
+        ],
+        "emit_text": "The answer is: 2"
+      },
+      {
+        "idx": 130,
+        "step": 2,
+        "v": 10.0,
+        "gold": 30.0,
+        "ops_in_q": [
+          60.0,
+          10.0
+        ],
+        "emit_text": "The answer is: 10"
+      }
+    ],
+    "same_magnitude": [
+      {
+        "idx": 0,
+        "step": 2,
+        "v": 26.0,
+        "gold": 18.0,
+        "ops_in_q": [
+          16.0,
+          2.0
+        ],
+        "emit_text": "The answer is: 26"
+      },
+      {
+        "idx": 6,
+        "step": 1,
+        "v": 460.0,
+        "gold": 260.0,
+        "ops_in_q": [
+          4.0,
+          20.0
+        ],
+        "emit_text": "80=80>> <<4*80=320>>The answer is: 460"
+      },
+      {
+        "idx": 6,
+        "step": 2,
+        "v": 120.0,
+        "gold": 260.0,
+        "ops_in_q": [
+          4.0,
+          20.0
+        ],
+        "emit_text": "The answer is: 120"
+      },
+      {
+        "idx": 10,
+        "step": 1,
+        "v": 396.0,
+        "gold": 366.0,
+        "ops_in_q": [
+          60.0,
+          30.0
+        ],
+        "emit_text": "180*30/100=54>> <<180-54=126>>The answer is: 396"
+      },
+      {
+        "idx": 10,
+        "step": 2,
+        "v": 396.0,
+        "gold": 366.0,
+        "ops_in_q": [
+          60.0,
+          30.0
+        ],
+        "emit_text": "The answer is: 396"
+      }
+    ],
+    "truly_other": [
+      {
+        "idx": 14,
+        "step": 1,
+        "v": 275.0,
+        "gold": 60.0,
+        "ops_in_q": [
+          20.0,
+          20.0,
+          25.0
+        ],
+        "emit_text": " 4=4>> <<100-20-25=55>>The answer is: 275"
+      },
+      {
+        "idx": 41,
+        "step": 1,
+        "v": 2200.0,
+        "gold": 200.0,
+        "ops_in_q": [
+          1000.0,
+          400.0
+        ],
+        "emit_text": "1200*3=3600>>The answer is: 2200"
+      },
+      {
+        "idx": 45,
+        "step": 2,
+        "v": 84.0,
+        "gold": 104.0,
+        "ops_in_q": [
+          4.0,
+          5.0,
+          2.0,
+          5.0
+        ],
+        "emit_text": "The answer is: 84"
+      },
+      {
+        "idx": 45,
+        "step": 3,
+        "v": 84.0,
+        "gold": 104.0,
+        "ops_in_q": [
+          4.0,
+          5.0,
+          2.0,
+          5.0
+        ],
+        "emit_text": "The answer is: 84"
+      },
+      {
+        "idx": 45,
+        "step": 4,
+        "v": 72.0,
+        "gold": 104.0,
+        "ops_in_q": [
+          4.0,
+          5.0,
+          2.0,
+          5.0
+        ],
+        "emit_text": "The answer is: 72"
+      }
+    ],
+    "matches_op_pair": [
+      {
+        "idx": 28,
+        "step": 1,
+        "v": 5.0,
+        "gold": 25.0,
+        "ops_in_q": [
+          60.0,
+          20.0,
+          15.0
+        ],
+        "emit_text": "40-20=20>>The answer is: 5"
+      },
+      {
+        "idx": 34,
+        "step": 1,
+        "v": 8.0,
+        "gold": 23.0,
+        "ops_in_q": [
+          2.0,
+          5.0,
+          40.0
+        ],
+        "emit_text": "20>> <<20/2=10>>The answer is: 8"
+      },
+      {
+        "idx": 56,
+        "step": 1,
+        "v": 6.0,
+        "gold": 3.0,
+        "ops_in_q": [
+          7.0,
+          7.0,
+          42.0
+        ],
+        "emit_text": "The answer is: 6"
+      },
+      {
+        "idx": 56,
+        "step": 2,
+        "v": 6.0,
+        "gold": 3.0,
+        "ops_in_q": [
+          7.0,
+          7.0,
+          42.0
+        ],
+        "emit_text": "The answer is: 6"
+      },
+      {
+        "idx": 130,
+        "step": 1,
+        "v": 50.0,
+        "gold": 30.0,
+        "ops_in_q": [
+          60.0,
+          10.0
+        ],
+        "emit_text": "20=20>> <<20-10=10>>The answer is: 50"
+      }
+    ],
+    "near_gold_within_5": [
+      {
+        "idx": 33,
+        "step": 1,
+        "v": 65.0,
+        "gold": 70.0,
+        "ops_in_q": [
+          110.0,
+          30.0
+        ],
+        "emit_text": "The answer is: 65"
+      },
+      {
+        "idx": 33,
+        "step": 2,
+        "v": 65.0,
+        "gold": 70.0,
+        "ops_in_q": [
+          110.0,
+          30.0
+        ],
+        "emit_text": "The answer is: 65"
+      },
+      {
+        "idx": 34,
+        "step": 2,
+        "v": 18.0,
+        "gold": 23.0,
+        "ops_in_q": [
+          2.0,
+          5.0,
+          40.0
+        ],
+        "emit_text": "The answer is: 18"
+      },
+      {
+        "idx": 45,
+        "step": 1,
+        "v": 108.0,
+        "gold": 104.0,
+        "ops_in_q": [
+          4.0,
+          5.0,
+          2.0,
+          5.0
+        ],
+        "emit_text": " 20<<2/5*5=2>> <<5+2=7>> <<20+7=27>>The answer is: 108"
+      },
+      {
+        "idx": 58,
+        "step": 1,
+        "v": 53.0,
+        "gold": 57.0,
+        "ops_in_q": [
+          40.0,
+          25.0,
+          3.0,
+          4.0
+        ],
+        "emit_text": "50.0001=50.00>> <<50.00+3=53.00>>The answer is: 53"
+      }
+    ],
+    "prod_of_ops": [
+      {
+        "idx": 65,
+        "step": 1,
+        "v": 24.0,
+        "gold": 36.0,
+        "ops_in_q": [
+          2.0,
+          3.0,
+          4.0
+        ],
+        "emit_text": "The answer is: 24"
+      },
+      {
+        "idx": 621,
+        "step": 2,
+        "v": 1500.0,
+        "gold": 3000.0,
+        "ops_in_q": [
+          6.0,
+          2.0,
+          125.0
+        ],
+        "emit_text": "The answer is: 1500"
+      },
+      {
+        "idx": 887,
+        "step": 1,
+        "v": 18.0,
+        "gold": 34.0,
+        "ops_in_q": [
+          2.0,
+          3.0,
+          3.0
+        ],
+        "emit_text": "The answer is: 18"
+      },
+      {
+        "idx": 1211,
+        "step": 2,
+        "v": 336.0,
+        "gold": 448.0,
+        "ops_in_q": [
+          14.0,
+          3.0,
+          8.0
+        ],
+        "emit_text": "The answer is: 336"
+      }
+    ],
+    "near_gold": [
+      {
+        "idx": 191,
+        "step": 1,
+        "v": 5.5,
+        "gold": 5.0,
+        "ops_in_q": [
+          3.5
+        ],
+        "emit_text": " 35=35>>The answer is: 5.5"
+      },
+      {
+        "idx": 291,
+        "step": 2,
+        "v": 2.5,
+        "gold": 2.0,
+        "ops_in_q": [
+          4.0,
+          8.0,
+          8.0,
+          5.0,
+          6.0
+        ],
+        "emit_text": "The answer is: 2.5"
+      },
+      {
+        "idx": 352,
+        "step": 3,
+        "v": 22.0,
+        "gold": 21.0,
+        "ops_in_q": [
+          11.0,
+          4.0,
+          36.0
+        ],
+        "emit_text": "The answer is: 22"
+      },
+      {
+        "idx": 438,
+        "step": 1,
+        "v": 1.33,
+        "gold": 2.0,
+        "ops_in_q": [
+          2.0,
+          6.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "emit_text": "The answer is: 1.33"
+      },
+      {
+        "idx": 438,
+        "step": 2,
+        "v": 2.67,
+        "gold": 2.0,
+        "ops_in_q": [
+          2.0,
+          6.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "emit_text": "The answer is: 2.67"
+      }
+    ],
+    "small_const": [
+      {
+        "idx": 235,
+        "step": 1,
+        "v": 3.0,
+        "gold": 10.0,
+        "ops_in_q": [
+          20.0,
+          4.0,
+          8.0
+        ],
+        "emit_text": "80/4=20>>The answer is: 3"
+      },
+      {
+        "idx": 337,
+        "step": 2,
+        "v": 4.0,
+        "gold": 1.0,
+        "ops_in_q": [
+          2.0
+        ],
+        "emit_text": "The answer is: 4"
+      },
+      {
+        "idx": 421,
+        "step": 1,
+        "v": 4.0,
+        "gold": 12.0,
+        "ops_in_q": [
+          50.0,
+          5.0,
+          3.0,
+          5.0
+        ],
+        "emit_text": "20>> <<50-20=30>> <<5*4=20>> <<30-20=10>> <<3/5*10=6>>The answer is: 4"
+      },
+      {
+        "idx": 457,
+        "step": 2,
+        "v": 5.0,
+        "gold": 45.0,
+        "ops_in_q": [
+          50.0,
+          30.0
+        ],
+        "emit_text": "The answer is: 5"
+      },
+      {
+        "idx": 553,
+        "step": 2,
+        "v": 10.0,
+        "gold": 92.0,
+        "ops_in_q": [
+          2.0,
+          24.0,
+          70.0,
+          2.0
+        ],
+        "emit_text": "The answer is: 10"
+      }
+    ],
+    "off_by_factor10": [
+      {
+        "idx": 484,
+        "step": 1,
+        "v": 2400.0,
+        "gold": 240.0,
+        "ops_in_q": [
+          10.0,
+          2.0,
+          5.0,
+          60.0
+        ],
+        "emit_text": "600*2/5=240>>The answer is: 2400"
+      },
+      {
+        "idx": 811,
+        "step": 1,
+        "v": 6.0,
+        "gold": 60.0,
+        "ops_in_q": [
+          25.0,
+          105.0
+        ],
+        "emit_text": "The answer is: 6"
+      },
+      {
+        "idx": 811,
+        "step": 2,
+        "v": 6.0,
+        "gold": 60.0,
+        "ops_in_q": [
+          25.0,
+          105.0
+        ],
+        "emit_text": "The answer is: 6"
+      }
+    ],
+    "sum_of_ops": [
+      {
+        "idx": 1265,
+        "step": 1,
+        "v": 12.0,
+        "gold": 36.0,
+        "ops_in_q": [
+          1.0,
+          6.0,
+          1.0,
+          4.0
+        ],
+        "emit_text": "4=4>> <<4*2=8>>The answer is: 12"
+      }
+    ]
+  }
+}
