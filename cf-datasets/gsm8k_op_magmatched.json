@@ -108,5 +108,82 @@
     "answer_trace": "<<18+13=31>>\n#### 31",
     "source": "llm-gen-magmatched-gpt-5-mini",
     "seed": 77784
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 28,
+    "b": 47,
+    "question_concat": "A school collected 28 boxes of canned food in the first week and 47 boxes in the second week for a food drive. How many boxes did they collect in total?",
+    "answer": 75.0,
+    "answer_trace": "<<28+47=75>>\n#### 75",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 97227
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 123,
+    "b": 77,
+    "question_concat": "A librarian had 123 fiction books on a shelf. She received a donation of 77 more fiction books. How many fiction books are on the shelf now?",
+    "answer": 200.0,
+    "answer_trace": "<<123+77=200>>\n#### 200",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 97236
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 37,
+    "b": 45,
+    "question_concat": "A museum receives a donation of 37 antique postcards + 45 modern postcards to add to its collection. How many postcards did the museum receive in total?",
+    "answer": 82.0,
+    "answer_trace": "<<37+45=82>>\n#### 82",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 106821
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 143,
+    "b": 179,
+    "question_concat": "Maya packed 143 cans of food into her pantry and then added 179 more cans. How many cans are in her pantry now?",
+    "answer": 322.0,
+    "answer_trace": "<<143+179=322>>\n#### 322",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 111619
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 37,
+    "b": 65,
+    "question_concat": "Maya baked 37 cookies for a school bake sale and then her friend brought 65 more. How many cookies are there in total?",
+    "answer": 102.0,
+    "answer_trace": "<<37+65=102>>\n#### 102",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 114026
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 27,
+    "b": 45,
+    "question_concat": "Maria is organizing a book drive. She collected 27 children's books and then received another donation of 45 books. How many books does she have now?",
+    "answer": 72.0,
+    "answer_trace": "<<27+45=72>>\n#### 72",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 118836
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "50-500",
+    "a": 29,
+    "b": 23,
+    "question_concat": "A school teacher brings 29 new pencils to class and the supply closet has 23 more that will be added to the students' supplies. How many pencils are there in total now?",
+    "answer": 52.0,
+    "answer_trace": "<<29+23=52>>\n#### 52",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 121218
   }
 ]
