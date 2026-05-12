@@ -1,0 +1,130 @@
+[
+  {
+    "template_id": 1016,
+    "type": "Addition",
+    "magnitude_bucket": "medium",
+    "magnitude_range": [
+      50,
+      500
+    ],
+    "a": 27,
+    "b": 25,
+    "question_concat": "Nadia runs a community center supply drive. She already has 27 boxes of pencils and a local store donates 25 more boxes to the center. How many boxes of pencils does the center have now?",
+    "answer": 52.0,
+    "answer_trace": "Start with 27 boxes, add 25 donated boxes: 27 + 25 = 52.\n<<27+25=52>>\n#### 52",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "48609"
+  },
+  {
+    "template_id": 1016,
+    "type": "Subtraction",
+    "magnitude_bucket": "medium",
+    "magnitude_range": [
+      50,
+      500
+    ],
+    "a": 200,
+    "b": 75,
+    "question_concat": "At the same community center drive, Nadia counted 200 notebooks intended for kits. During inspection 75 notebooks were found to be damaged and removed from the inventory. How many usable notebooks remain?",
+    "answer": 125.0,
+    "answer_trace": "Begin with 200 notebooks, remove 75 damaged ones: 200 - 75 = 125.\n<<200-75=125>>\n#### 125",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "48609"
+  },
+  {
+    "template_id": 1016,
+    "type": "Multiplication",
+    "magnitude_bucket": "medium",
+    "magnitude_range": [
+      50,
+      500
+    ],
+    "a": 12,
+    "b": 5,
+    "question_concat": "Continuing the community center preparations, Nadia assembles identical supply kits. She plans to make 12 kits and wants to include 5 pencils in each kit. How many pencils does she need in total for the 12 kits?",
+    "answer": 60.0,
+    "answer_trace": "12 kits \u00d7 5 pencils per kit = 60 pencils total.\n<<12*5=60>>\n#### 60",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "48609"
+  },
+  {
+    "template_id": 1016,
+    "type": "Common-Division",
+    "magnitude_bucket": "medium",
+    "magnitude_range": [
+      50,
+      500
+    ],
+    "a": 300,
+    "b": 6,
+    "question_concat": "Nadia has 300 loose pencils to place into identical small pencil bundles for distribution. If she creates 6 bundles with equal numbers of pencils, how many pencils go into each bundle?",
+    "answer": 50.0,
+    "answer_trace": "Divide 300 pencils evenly into 6 bundles: 300 \u00f7 6 = 50 per bundle.\n<<300/6=50>>\n#### 50",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "48609"
+  },
+  {
+    "template_id": 2030,
+    "type": "Addition",
+    "magnitude_bucket": "large",
+    "magnitude_range": [
+      500,
+      5000
+    ],
+    "a": 1200,
+    "b": 900,
+    "question_concat": "Carlos runs a stall at the town farmers' market. On Monday he collected 1,200 apples from his orchard and picked another 900 apples from a neighboring orchard to bring to the stall. How many apples did Carlos bring to the stall in total?",
+    "answer": 2100.0,
+    "answer_trace": "He collected 1,200 apples and then 900 more. Total apples = 1200 + 900. Compute: <<1200+900=2100>>\n#### 2100",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "65847"
+  },
+  {
+    "template_id": 2030,
+    "type": "Subtraction",
+    "magnitude_bucket": "large",
+    "magnitude_range": [
+      500,
+      5000
+    ],
+    "a": 3200,
+    "b": 800,
+    "question_concat": "At the same market stall, Carlos had packed 3,200 apples into crates for the day. By mid-afternoon he sold 800 apples. How many apples did he have left at the stall?",
+    "answer": 2400.0,
+    "answer_trace": "Start with 3200 apples and subtract the 800 sold. Remaining = 3200 - 800. Compute: <<3200-800=2400>>\n#### 2400",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "65847"
+  },
+  {
+    "template_id": 2030,
+    "type": "Multiplication",
+    "magnitude_bucket": "large",
+    "magnitude_range": [
+      500,
+      5000
+    ],
+    "a": 75,
+    "b": 8,
+    "question_concat": "Before opening, Carlos prepared 75 small crates and placed 8 apples in each crate for display. How many apples did he place in the 75 crates altogether?",
+    "answer": 600.0,
+    "answer_trace": "There are 75 crates with 8 apples each. Total apples = 75 * 8. Compute: <<75*8=600>>\n#### 600",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "65847"
+  },
+  {
+    "template_id": 2030,
+    "type": "Common-Division",
+    "magnitude_bucket": "large",
+    "magnitude_range": [
+      500,
+      5000
+    ],
+    "a": 3600,
+    "b": 6,
+    "question_concat": "At closing, Carlos decided to divide the remaining 3,600 apples evenly into 6 large donation baskets. How many apples will be placed in each basket?",
+    "answer": 600.0,
+    "answer_trace": "Divide the 3600 apples equally into 6 baskets: 3600 \u00f7 6. Compute: <<3600/6=600>>\n#### 600",
+    "source": "llm-gen-vary_operator_magmatched-gpt-5-mini",
+    "scenario_seed": "65847"
+  }
+]
