@@ -24,7 +24,7 @@ REPO = Path(__file__).resolve().parents[4]
 ACTS = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts.pt"
 META = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts_meta.json"
 CF_DATA = REPO.parent / "cf-datasets" / "cf_balanced.json"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "cf_lda_slideshow_colon.pdf"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "cf_lda_slideshow_colon.pdf"
 
 PROBLEM_TYPE_COLORS = {"Subtraction": "#1f77b4", "Addition": "#ff7f0e",
                        "Common-Division": "#2ca02c", "Multiplication": "#d62728"}

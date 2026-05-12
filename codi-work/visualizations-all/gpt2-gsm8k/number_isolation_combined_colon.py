@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA
 REPO = Path(__file__).resolve().parents[2]
 PD = REPO / "experiments" / "computation_probes"
 CF_DIR = REPO.parent / "cf-datasets"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "number_isolation_combined_colon.pdf"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "number_isolation_combined_colon.pdf"
 
 DATASETS = {
     "vary_numerals": {"colorings": ["a", "b", "answer", "correct"]},

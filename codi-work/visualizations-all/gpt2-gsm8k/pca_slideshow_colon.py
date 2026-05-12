@@ -25,7 +25,7 @@ REPO = Path(__file__).resolve().parents[2]
 ACTS = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts.pt"
 META = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts_meta.json"
 JUDGED = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "pca_slideshow_colon.pdf"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "pca_slideshow_colon.pdf"
 
 PROBLEM_TYPE_COLORS = {"Subtraction": "#1f77b4", "Addition": "#ff7f0e",
                        "Common-Division": "#2ca02c", "Multiplication": "#d62728"}

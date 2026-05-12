@@ -27,7 +27,7 @@ CF_ACTS = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts.
 CF_META = REPO / "experiments" / "computation_probes" / "cf_balanced_colon_acts_meta.json"
 ORIG_ACTS = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts.pt"
 ORIG_META = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts_meta.json"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "cf_lda_compare_colon.pdf"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "cf_lda_compare_colon.pdf"
 
 OPS = ["Addition", "Subtraction", "Multiplication", "Common-Division"]
 PROBLEM_TYPE_COLORS = {"Subtraction": "#1f77b4", "Addition": "#ff7f0e",

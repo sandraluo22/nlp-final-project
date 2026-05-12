@@ -21,8 +21,8 @@ from sklearn.preprocessing import StandardScaler
 REPO = Path(__file__).resolve().parents[3]
 ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
 STUDENT_RESULTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "correctness_probe.pdf"
-OUT_JSON = REPO / "visualizations-all" / "gpt2" / "correctness_probe.json"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "correctness_probe.pdf"
+OUT_JSON = REPO / "visualizations-all" / "gpt2-gsm8k" / "correctness_probe.json"
 
 
 def main():

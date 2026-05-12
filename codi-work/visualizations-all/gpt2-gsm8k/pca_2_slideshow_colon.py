@@ -19,7 +19,7 @@ from sklearn.decomposition import PCA
 REPO = Path(__file__).resolve().parents[2]
 ACTS = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts.pt"
 META = REPO / "experiments" / "computation_probes" / "gsm8k_colon_acts_meta.json"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "pca_2_slideshow_colon.pdf"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "pca_2_slideshow_colon.pdf"
 
 OPS = ["Addition", "Subtraction", "Multiplication", "Common-Division"]
 PROBLEM_TYPE_COLORS = {"Subtraction": "#1f77b4", "Addition": "#ff7f0e",

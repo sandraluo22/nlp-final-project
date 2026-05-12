@@ -29,7 +29,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 REPO = Path(__file__).resolve().parents[4]
 ACTS_PATH = REPO / "inference" / "runs" / "cf_balanced_student_gpt2" / "activations.pt"
 CF_DATA = REPO.parent / "cf-datasets" / "cf_balanced.json"
-OUT_PDF = REPO / "visualizations-all" / "gpt2" / "cf_lda_slideshow.pdf"
+OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "cf_lda_slideshow.pdf"
 
 PROBLEM_TYPE_COLORS = {
     "Subtraction": "#1f77b4",

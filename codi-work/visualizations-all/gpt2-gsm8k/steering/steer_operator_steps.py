@@ -26,6 +26,42 @@ import numpy as np
 import torch
 import transformers
 from datasets import concatenate_datasets, load_dataset
+
+import re as _gsm_re
+def _gsm_first_op(_text):
+    _SYM = {"+":"Addition","-":"Subtraction","*":"Multiplication","/":"Common-Division"}
+    for _expr, _ in _gsm_re.findall(r"<<(.+?)=(-?\d+\.?\d*)>>", _text):
+        _s = _expr.strip(); _toks = _gsm_re.findall(r"[+\-*/]", _s)
+        if _s.startswith("-") and _toks and _toks[0]=="-": _toks=_toks[1:]
+        if _toks: return _SYM.get(_toks[0],"unknown")
+    return "unknown"
+def _gsm_gold(_text):
+    _m = _gsm_re.search(r"####\s*(-?\d+\.?\d*)", _text.replace(",",""))
+    return float(_m.group(1)) if _m else 0.0
+class _GSMShim:
+    def __init__(self, ds): self.ds = ds
+    def __getitem__(self, key):
+        if isinstance(key, (int, slice)):
+            row = self.ds[key]
+            if isinstance(key, int):
+                ans_text = row.get("answer", "")
+                row = dict(row)
+                row["Type"] = _gsm_first_op(ans_text)
+                row["Answer"] = _gsm_gold(ans_text)
+            return row
+        if key == "Type":  return [_gsm_first_op(a) for a in self.ds["answer"]]
+        if key == "Answer": return [_gsm_gold(a) for a in self.ds["answer"]]
+        return self.ds[key]
+    def __iter__(self):
+        for i in range(len(self.ds)):
+            row = self.ds[i]
+            ans_text = row.get("answer", "")
+            d = dict(row)
+            d["Type"] = _gsm_first_op(ans_text)
+            d["Answer"] = _gsm_gold(ans_text)
+            yield d
+    def __len__(self): return len(self.ds)
+
 from peft import LoraConfig, TaskType
 from safetensors.torch import load_file
 from sklearn.linear_model import LogisticRegression
@@ -96,7 +132,7 @@ def main():
     print(f"  shape={a.shape}")
 
     ds = load_dataset("gsm8k", "main")
-    full = concatenate_datasets([ds["train"], ds["test"]])
+    full = _GSMShim(ds["test"])
     types_full = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
     equations = [ex.get("Equation", "") for ex in full]
