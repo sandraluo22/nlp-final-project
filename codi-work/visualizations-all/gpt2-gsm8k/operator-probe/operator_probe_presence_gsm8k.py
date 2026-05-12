@@ -19,9 +19,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from matplotlib.backends.backend_pdf import PdfPages
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import RidgeClassifier
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import StratifiedKFold
+from sklearn.preprocessing import StandardScaler
 
 REPO = Path(__file__).resolve().parents[3]
 LAT_PATH = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
@@ -37,11 +38,13 @@ def cv_auc(X, y, n_folds=5):
     skf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=SEED)
     aucs = []
     for tr, te in skf.split(X, y):
-        clf = LogisticRegression(max_iter=2000, C=0.1, solver="lbfgs",
-                                  class_weight="balanced").fit(X[tr], y[tr])
-        p = clf.predict_proba(X[te])[:, 1]
+        sc = StandardScaler().fit(X[tr])
+        clf = RidgeClassifier(alpha=1.0, class_weight="balanced").fit(
+            sc.transform(X[tr]), y[tr])
+        # RidgeClassifier has no predict_proba; use decision_function as score.
+        score = clf.decision_function(sc.transform(X[te]))
         try:
-            aucs.append(roc_auc_score(y[te], p))
+            aucs.append(roc_auc_score(y[te], score))
         except ValueError:
             aucs.append(0.5)
     return float(np.mean(aucs))
@@ -51,10 +54,10 @@ def cv_multiclass_acc(X, y, n_folds=5):
     skf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=SEED)
     accs = []
     for tr, te in skf.split(X, y):
-        clf = LogisticRegression(max_iter=2000, C=0.1, solver="lbfgs",
-                                  class_weight="balanced", multi_class="multinomial"
-                                  ).fit(X[tr], y[tr])
-        accs.append(clf.score(X[te], y[te]))
+        sc = StandardScaler().fit(X[tr])
+        clf = RidgeClassifier(alpha=1.0, class_weight="balanced").fit(
+            sc.transform(X[tr]), y[tr])
+        accs.append(clf.score(sc.transform(X[te]), y[te]))
     return float(np.mean(accs))
 
 

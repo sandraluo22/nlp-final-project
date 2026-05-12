@@ -16,8 +16,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from matplotlib.backends.backend_pdf import PdfPages
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import RidgeClassifier
 from sklearn.model_selection import StratifiedKFold
+from sklearn.preprocessing import StandardScaler
 
 REPO = Path(__file__).resolve().parents[3]
 LAT_PATH = REPO / "visualizations-all" / "gpt2-gsm8k" / "counterfactuals" / "gsm8k_cf_op_strict_latent_acts.pt"
@@ -36,9 +37,10 @@ def cv_acc(X, y, n_folds=5):
     skf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=SEED)
     accs = []
     for tr, te in skf.split(X, y):
-        clf = LogisticRegression(max_iter=2000, C=0.1, solver="lbfgs",
-                                  class_weight="balanced").fit(X[tr], y[tr])
-        accs.append(clf.score(X[te], y[te]))
+        sc = StandardScaler().fit(X[tr])
+        clf = RidgeClassifier(alpha=1.0, class_weight="balanced").fit(
+            sc.transform(X[tr]), y[tr])
+        accs.append(clf.score(sc.transform(X[te]), y[te]))
     return float(np.mean(accs))
 
 
