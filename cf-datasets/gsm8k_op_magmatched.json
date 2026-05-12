@@ -185,5 +185,71 @@
     "answer_trace": "<<29+23=52>>\n#### 52",
     "source": "llm-gen-magmatched-gpt-5-mini",
     "seed": 121218
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "500-5000",
+    "a": 328,
+    "b": 456,
+    "question_concat": "A small independent bookstore received a shipment of 328 paperback novels on Monday and then another shipment of 456 paperback novels on Wednesday. How many paperback novels did the bookstore receive in total?",
+    "answer": 784.0,
+    "answer_trace": "<<328+456=784>>\n#### 784",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 50645
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "500-5000",
+    "a": 278,
+    "b": 342,
+    "question_concat": "A local bakery baked 278 blueberry muffins in the morning and 342 in the afternoon. How many muffins did they bake in total that day?",
+    "answer": 620.0,
+    "answer_trace": "<<278+342=620>>\n#### 620",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 53030
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "500-5000",
+    "a": 1234,
+    "b": 289,
+    "question_concat": "A community center ordered 1,234 new folding chairs for events and later received an additional 289 chairs. How many chairs does the community center have now?",
+    "answer": 1523.0,
+    "answer_trace": "<<1234+289=1523>>\n#### 1523",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 53043
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "500-5000",
+    "a": 278,
+    "b": 342,
+    "question_concat": "A bookstore had 278 mystery novels on the shelves and then received a shipment of 342 more. How many mystery novels are there in total now?",
+    "answer": 620.0,
+    "answer_trace": "<<278+342=620>>\n#### 620",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 55435
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "500-5000",
+    "a": 287,
+    "b": 940,
+    "question_concat": "Maya had 287 postcards and then bought 940 more at a shop. How many postcards does she have now?",
+    "answer": 1227.0,
+    "answer_trace": "<<287+940=1227>>\n#### 1227",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 60238
+  },
+  {
+    "type": "Addition",
+    "magnitude_bucket": "500-5000",
+    "a": 278,
+    "b": 934,
+    "question_concat": "A farmer harvested 278 crates of apples in the morning and 934 crates in the afternoon. How many crates did he harvest in total?",
+    "answer": 1212.0,
+    "answer_trace": "<<278+934=1212>>\n#### 1212",
+    "source": "llm-gen-magmatched-gpt-5-mini",
+    "seed": 65044
   }
 ]
