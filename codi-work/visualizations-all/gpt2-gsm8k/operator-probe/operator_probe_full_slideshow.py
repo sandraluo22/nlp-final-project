@@ -338,7 +338,7 @@ def main():
         pdf.savefig(fig, dpi=140); plt.close(fig)
 
         # ============================================================
-        # Page 5: Summary table
+        # Page 5: Summary table — original 9 probes
         # ============================================================
         fig, ax = plt.subplots(figsize=(13, 6))
         ax.axis("off")
@@ -359,6 +359,150 @@ def main():
         ax.set_title("Summary across all operator probes (best layer per probe)",
                      fontsize=12, fontweight="bold")
         fig.tight_layout(); pdf.savefig(fig, dpi=140); plt.close(fig)
+
+        # ============================================================
+        # Page 6-8: 7-combo training sweep → natural GSM8K
+        # ============================================================
+        natural_path = PD / "operator_probe_to_natural.json"
+        if natural_path.exists():
+            nat_results = json.load(open(natural_path))
+            T_COLORS = {
+                "T1_strict": "#1f77b4", "T2_balanced": "#aec7e8",
+                "T3_vary_op": "#17becf", "T4_strict+balanced": "#2ca02c",
+                "T5_strict+vary_op": "#9467bd", "T6_balanced+vary_op": "#ff7f0e",
+                "T7_all_three": "#d62728",
+            }
+            xs_l = np.arange(Lc)
+
+            # Page 6: F1-macro per layer on natural single-op + first-op
+            fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+            for ax, target, title in [
+                (axes[0], "per_layer_single", "Natural GSM8K single-op (N=174)"),
+                (axes[1], "per_layer_first",  "Natural GSM8K first-op (N=1289)"),
+            ]:
+                for name in nat_results:
+                    vals = [m["f1_macro"] for m in nat_results[name][target]]
+                    ax.plot(xs_l, vals, "o-", lw=1.6, color=T_COLORS[name], label=name)
+                ax.axhline(0.25, color="black", ls="--", lw=0.5, label="chance F1")
+                ax.set_xlabel("colon layer"); ax.set_ylabel("macro F1")
+                ax.set_xticks(xs_l); ax.set_ylim(0, 1.05)
+                ax.set_title(title, fontsize=10, fontweight="bold")
+                ax.legend(fontsize=7, loc="upper left"); ax.grid(alpha=0.3)
+            fig.suptitle("7-combo training sweep → natural GSM8K transfer (F1 macro per layer)",
+                         fontsize=12, fontweight="bold")
+            fig.tight_layout(rect=(0, 0, 1, 0.94))
+            pdf.savefig(fig, dpi=140); plt.close(fig)
+
+            # Page 7: per-class P/R/F1 at the WINNER (highest F1 on natural single-op)
+            winner_name = max(nat_results, key=lambda n:
+                              max(m["f1_macro"] for m in nat_results[n]["per_layer_single"]))
+            per_s = nat_results[winner_name]["per_layer_single"]
+            f1s_s = [m["f1_macro"] for m in per_s]
+            lb_s = int(np.argmax(f1s_s)); m_s = per_s[lb_s]
+            # Also winner on first-op
+            winner_name_f = max(nat_results, key=lambda n:
+                                max(m["f1_macro"] for m in nat_results[n]["per_layer_first"]))
+            per_f = nat_results[winner_name_f]["per_layer_first"]
+            f1s_f = [m["f1_macro"] for m in per_f]
+            lb_f = int(np.argmax(f1s_f)); m_f = per_f[lb_f]
+            fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+            for ax, name, lb, m, target in [
+                (axes[0], winner_name,   lb_s, m_s, "natural single-op"),
+                (axes[1], winner_name_f, lb_f, m_f, "natural first-op"),
+            ]:
+                xs_op = np.arange(4); w = 0.27
+                ax.bar(xs_op - w, m["precision_per_class"], w, color="#1f77b4", label="precision")
+                ax.bar(xs_op,     m["recall_per_class"],    w, color="#2ca02c", label="recall")
+                ax.bar(xs_op + w, m["f1_per_class"],        w, color="#d62728", label="F1")
+                ax.set_xticks(xs_op); ax.set_xticklabels(["Add","Sub","Mul","Div"])
+                ax.set_ylim(0, 1.05); ax.set_ylabel("score")
+                ax.set_title(f"WINNER → {target}\n{name}, L{lb}  "
+                             f"acc={m['acc']:.2f}  F1={m['f1_macro']:.2f}",
+                             fontsize=10, fontweight="bold")
+                ax.legend(fontsize=8); ax.grid(axis="y", alpha=0.3)
+                for xi, v in zip(xs_op - w, m["precision_per_class"]):
+                    ax.text(xi, v + 0.01, f"{v:.2f}", ha="center", fontsize=7)
+                for xi, v in zip(xs_op, m["recall_per_class"]):
+                    ax.text(xi, v + 0.01, f"{v:.2f}", ha="center", fontsize=7)
+                for xi, v in zip(xs_op + w, m["f1_per_class"]):
+                    ax.text(xi, v + 0.01, f"{v:.2f}", ha="center", fontsize=7)
+            fig.suptitle("Best probe for natural GSM8K (without training on it) — "
+                         "per-class precision/recall/F1",
+                         fontsize=12, fontweight="bold")
+            fig.tight_layout(rect=(0, 0, 1, 0.94))
+            pdf.savefig(fig, dpi=140); plt.close(fig)
+
+            # Page 8: Summary table of 7 training combos × 2 targets
+            fig, ax = plt.subplots(figsize=(14, 7))
+            ax.axis("off")
+            rows = [["combo", "target", "N_train", "best L", "acc", "F1", "prec", "recall"]]
+            n_train = {
+                "T1_strict": 324, "T2_balanced": 676, "T3_vary_op": 320,
+                "T4_strict+balanced": 1000, "T5_strict+vary_op": 644,
+                "T6_balanced+vary_op": 996, "T7_all_three": 1320,
+            }
+            for target, lbl in [("per_layer_single", "natural single-op"),
+                                 ("per_layer_first",  "natural first-op")]:
+                for name in nat_results:
+                    per = nat_results[name][target]
+                    f1s = [mm["f1_macro"] for mm in per]
+                    lb = int(np.argmax(f1s)); mm = per[lb]
+                    rows.append([name, lbl, str(n_train[name]), str(lb),
+                                 f"{mm['acc']:.3f}", f"{mm['f1_macro']:.3f}",
+                                 f"{mm['precision_macro']:.3f}",
+                                 f"{mm['recall_macro']:.3f}"])
+            tbl = ax.table(cellText=rows, loc="center", cellLoc="center")
+            tbl.auto_set_font_size(False); tbl.set_fontsize(8.5)
+            tbl.scale(1, 1.25)
+            for j in range(len(rows[0])):
+                tbl[0, j].set_facecolor("#dddddd")
+            # Highlight winner rows
+            for i, row in enumerate(rows):
+                if row[0] == winner_name and row[1] == "natural single-op":
+                    for j in range(len(row)): tbl[i, j].set_facecolor("#d4edda")
+                if row[0] == winner_name_f and row[1] == "natural first-op":
+                    for j in range(len(row)): tbl[i, j].set_facecolor("#fff3cd")
+            ax.set_title("7-combo training sweep × 2 natural GSM8K targets — "
+                         f"winners: single-op={winner_name}, first-op={winner_name_f}",
+                         fontsize=11, fontweight="bold")
+            fig.tight_layout(); pdf.savefig(fig, dpi=140); plt.close(fig)
+
+            # Page 9: TL;DR text — "best probe for natural GSM8K"
+            fig, ax = plt.subplots(figsize=(13, 7))
+            ax.axis("off")
+            ax.set_title("Best probe for natural GSM8K — TL;DR",
+                         fontsize=14, fontweight="bold", loc="left")
+            txt = (
+                f"WINNER on natural GSM8K (without training on it):\n"
+                f"   {winner_name}  (N_train = {n_train[winner_name]})\n"
+                f"   colon residual L{lb_s}\n"
+                f"   accuracy        = {m_s['acc']:.3f}\n"
+                f"   macro F1        = {m_s['f1_macro']:.3f}\n"
+                f"   macro precision = {m_s['precision_macro']:.3f}\n"
+                f"   macro recall    = {m_s['recall_macro']:.3f}\n"
+                f"\n"
+                f"Per-class breakdown:\n"
+                f"   {'op':<20} {'precision':<10} {'recall':<10} {'F1':<10}\n"
+                + "\n".join([
+                    f"   {op:<20} {m_s['precision_per_class'][i]:<10.3f} "
+                    f"{m_s['recall_per_class'][i]:<10.3f} "
+                    f"{m_s['f1_per_class'][i]:<10.3f}"
+                    for i, op in enumerate(OP_NAMES)
+                ])
+                + f"\n\nCounterintuitive: more training data HURT cross-distribution transfer.\n"
+                f"Combos with ≥ 644 training examples (T4-T7) all underperformed the\n"
+                f"smaller single-source {winner_name} (N={n_train[winner_name]}).\n"
+                f"\n"
+                f"Likely reason: vary_operator holds operands AND scenario CONSTANT\n"
+                f"within each template — only the operator differs.  Training on it\n"
+                f"forces the probe to use operator-specific features rather than\n"
+                f"operand-magnitude or template-vocabulary shortcuts.  Mixing in\n"
+                f"cf_balanced (which lacks this control) reintroduces vocabulary\n"
+                f"shortcuts that don't generalize to natural GSM8K's wider narrative\n"
+                f"distribution.\n"
+            )
+            ax.text(0.02, 0.95, txt, fontsize=9.5, va="top", family="monospace")
+            fig.tight_layout(); pdf.savefig(fig, dpi=140); plt.close(fig)
 
     print(f"saved {OUT_PDF}")
 
