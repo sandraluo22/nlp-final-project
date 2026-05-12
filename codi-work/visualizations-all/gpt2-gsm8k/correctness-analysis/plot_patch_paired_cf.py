@@ -23,7 +23,7 @@ import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
 
 PD = Path(__file__).resolve().parent
-IN_JSON = PD / "patch_paired_cf.json"
+IN_JSON = PD / "patch_paired_cf_gsm8k.json"
 OUT_PDF = PD / "patch_paired_cf_gsm8k.pdf"
 
 

@@ -16,7 +16,9 @@ import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
 
 PD = Path(__file__).resolve().parent
-D = json.load(open(PD / "patch_recovery_sweep.json"))
+REPO = Path(__file__).resolve().parents[3]
+IN_JSON = REPO / "experiments" / "computation_probes" / "patch_recovery_sweep_gsm8k.json"
+D = json.load(open(IN_JSON))
 OUT_PDF = PD / "patch_recovery_sweep_gsm8k.pdf"
 
 N_LAYERS = D["N_LAYERS"]

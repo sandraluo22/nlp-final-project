@@ -1,0 +1,33 @@
+{
+  "N_total": 1319,
+  "N_layers": 12,
+  "N_heads": 12,
+  "N_latent_steps": 6,
+  "N_decode_steps": 10,
+  "class_names": [
+    "Q",
+    "BOT",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "EOT",
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9"
+  ],
+  "phases": [
+    "latent",
+    "decode"
+  ],
+  "dataset": "gsm8k/main/test"
+}

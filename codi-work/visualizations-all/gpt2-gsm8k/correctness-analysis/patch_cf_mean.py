@@ -36,7 +36,8 @@ PD = REPO / "experiments" / "computation_probes"
 CF_DIR = REPO.parent / "cf-datasets"
 sys.path.insert(0, str(REPO / "codi"))
 
-CF_SETS = ["gsm8k_vary_operator", "gsm8k_cf_op_strict"]
+CF_SETS = ["gsm8k_vary_operator", "gsm8k_cf_op_strict",
+           "gsm8k_cf_balanced", "gsm8k_cf_natural"]
 
 
 def codi_extract(s):
@@ -49,8 +50,13 @@ def codi_extract(s):
 
 def load_cf(name):
     rows = json.load(open(CF_DIR / f"{name}.json"))
-    qs = [r["question_concat"].strip().replace("  ", " ") for r in rows]
-    golds = [float(r["answer"]) for r in rows]
+    qs, golds = [], []
+    for r in rows:
+        q = r.get("cf_question_concat") or r.get("question_concat")
+        g = r.get("cf_gold") if r.get("cf_gold") is not None else r.get("answer")
+        if q is None or g is None: continue
+        qs.append(str(q).strip().replace("  ", " "))
+        golds.append(float(g))
     return qs, golds
 
 
@@ -188,12 +194,18 @@ def main():
 
     results = {"cf_sets": {}, "N_LAYERS": N_LAYERS, "N_LAT": N_LAT}
 
+    N_CAP = 100
     for cf_name in CF_SETS:
         print(f"\n=== CF set: {cf_name} ===", flush=True)
         try:
             qs, golds = load_cf(cf_name)
         except Exception as e:
             print(f"  skip: {e}"); continue
+        if len(qs) > N_CAP:
+            rng = np.random.default_rng(0)
+            sel = rng.choice(len(qs), size=N_CAP, replace=False)
+            qs = [qs[int(i)] for i in sel]
+            golds = [golds[int(i)] for i in sel]
         N = len(qs)
         golds_arr = np.array(golds)
         # Pass 1: capture

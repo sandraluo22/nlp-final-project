@@ -178,9 +178,15 @@ def main():
         return s1_strs, s2_strs
 
     ds = load_dataset("gsm8k", "main")
-    full = concatenate_datasets([ds["train"], ds["test"]])
-    questions = [ex["question_concat"].strip().replace("  ", " ") for ex in full]
-    golds = np.array([float(str(ex["Answer"]).replace(",", "")) for ex in full])
+    full = ds["test"]
+    questions, gold_list = [], []
+    for ex in full:
+        m = re.search(r"####\s*(-?\d+\.?\d*)", ex["answer"].replace(",", ""))
+        if m is None:
+            continue
+        questions.append(ex["question"].strip().replace("  ", " "))
+        gold_list.append(float(m.group(1)))
+    golds = np.array(gold_list)
     N = len(questions)
 
     print(f"\nN={N}.  Baseline force-decode at step 1 and step 2...")
