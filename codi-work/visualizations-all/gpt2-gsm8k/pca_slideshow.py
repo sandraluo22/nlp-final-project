@@ -68,7 +68,7 @@ from sklearn.decomposition import PCA
 
 REPO = Path(__file__).resolve().parents[2]
 ACTS_PATH = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
-STUDENT_RESULTS_PATH = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
+SILVER_PATH = REPO / "visualizations-all" / "gpt2-gsm8k" / "correctness-analysis" / "silver_traces_gsm8k.json"
 JUDGED_PATH = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
 OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "pca_slideshow.pdf"
 
@@ -116,14 +116,16 @@ def load_metadata() -> dict:
         label_by_idx.get(i, "teacher_incorrect") for i in range(len(types))
     ]
 
-    # Student correctness from svamp_student_gpt2/results.json
+    # CODI-on-GSM8K correctness from silver_traces_gsm8k.json (per-idx)
     correct = np.zeros(len(types), dtype=bool)
     try:
-        student = json.load(open(STUDENT_RESULTS_PATH))
-        for i, r in enumerate(student[:len(types)]):
-            correct[i] = bool(r.get("correct", False))
+        silver = json.load(open(SILVER_PATH))
+        for r in silver["rows"]:
+            i = r["idx"]
+            if 0 <= i < len(types):
+                correct[i] = (r["category"] == "gold")
     except Exception as e:
-        print(f"  WARN: could not load student results: {e}")
+        print(f"  WARN: could not load silver_traces_gsm8k.json: {e}")
 
     return {
         "n": len(types),

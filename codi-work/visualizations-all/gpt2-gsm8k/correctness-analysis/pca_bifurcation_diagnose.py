@@ -66,7 +66,7 @@ from sklearn.decomposition import PCA
 
 REPO = Path(__file__).resolve().parents[3]
 ACTS = REPO / "visualizations-all" / "gpt2" / "counterfactuals" / "gsm8k_latent_acts.pt"
-STUDENT_RESULTS = REPO / "inference" / "runs" / "svamp_student_gpt2" / "results.json"
+SILVER = REPO / "visualizations-all" / "gpt2-gsm8k" / "correctness-analysis" / "silver_traces_gsm8k.json"
 JUDGED = REPO.parent / "cf-datasets" / "gsm8k_judged.json"
 OUT_PDF = REPO / "visualizations-all" / "gpt2-gsm8k" / "pca_bifurcation_diagnose.pdf"
 OUT_JSON = REPO / "visualizations-all" / "gpt2-gsm8k" / "pca_bifurcation_diagnose.json"
@@ -77,10 +77,13 @@ def load_metadata():
     full = _GSMShim(ds["test"])
     types = np.array([t.replace("Common-Divison", "Common-Division") for t in full["Type"]])
     answers = np.array([float(str(a).replace(",", "")) for a in full["Answer"]], dtype=np.float64)
-    student = json.load(open(STUDENT_RESULTS))
-    student_correct = np.array([bool(s["correct"]) for s in student])
-    if len(student_correct) != len(types):
-        student_correct = np.zeros(len(types), dtype=bool)
+    student_correct = np.zeros(len(types), dtype=bool)
+    if SILVER.exists():
+        sv = json.load(open(SILVER))
+        for r in sv["rows"]:
+            i = r["idx"]
+            if 0 <= i < len(types):
+                student_correct[i] = (r["category"] == "gold")
     judged = json.load(open(JUDGED)) if JUDGED.exists() else []
     label_by_idx = {j["idx"]: j["label"] for j in judged}
     faithful = np.array([label_by_idx.get(i, "teacher_incorrect") for i in range(len(types))])
